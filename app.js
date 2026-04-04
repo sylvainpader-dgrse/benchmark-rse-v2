@@ -130,7 +130,7 @@ function renderGrille() {
   catRow += '<th class="cat-header score-col">SCORE</th></tr>';
 
   // Build criteria header row
-  let critRow = '<tr><th class="school-col">École</th>';
+  let critRow = '<tr><th class="school-col">École / Groupe</th>';
   D.criteria.forEach((c, i) => {
     if (i < 29) {
       critRow += `<th title="${c.name}">${c.name}</th>`;
