@@ -159,11 +159,10 @@ main {
 
 /* === GRILLE TABLE === */
 .table-wrapper {
-  overflow: auto;
+  overflow-x: auto;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   background: var(--white);
-  max-height: 80vh;
 }
 table {
   width: 100%;
