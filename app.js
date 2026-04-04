@@ -191,7 +191,7 @@ function renderJustifications() {
             <span class="crit-cat">${c.category}</span>
             <span class="crit-name">${c.name}</span>
           </div>
-          <div class="justif-text">${escapeHTML(justif)}</div>
+          <div class="justif-text">${formatJustif(justif)}</div>
         </div>`;
     });
 
@@ -214,6 +214,18 @@ function escapeHTML(str) {
     .replace(/>/g, '&gt;');
   escaped = escaped.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener">$1</a>');
   return escaped;
+}
+
+function formatJustif(str) {
+  let text = escapeHTML(str);
+  // Bold OUI/NON/PARTIEL at start
+  text = text.replace(/^(OUI|NON|PARTIEL)(\s*\u2014|\s*—)/, '<strong>$1</strong>$2');
+  // Bold "Focus apprenants :"
+  text = text.replace(/(Focus apprenants\s*:)/g, '\n<strong>$1</strong>');
+  // Separate Source line with extra spacing
+  text = text.replace(/\n(Source\s*:)/g, '\n\n<span class="justif-source">$1</span>');
+  text = text.replace(/\n(Sources?\s*:)/gi, '\n\n<span class="justif-source">$1</span>');
+  return text;
 }
 
 // =============================

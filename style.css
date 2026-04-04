@@ -326,6 +326,16 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   line-height: 1.6;
   white-space: pre-line;
 }
+.justif-text strong {
+  font-weight: 800;
+  color: var(--primary);
+}
+.justif-source {
+  display: inline;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  font-style: italic;
+}
 
 /* === FOCUS RSE === */
 .focus-split {
