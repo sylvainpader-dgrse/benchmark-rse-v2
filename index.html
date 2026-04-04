@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Benchmark RSE — IGENSIA Education</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <span class="logo-icon">&#9733;</span>
+      <div>
+        <h1>Benchmark RSE</h1>
+        <p class="subtitle">IGENSIA Education — Mars 2026</p>
+      </div>
+    </div>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Filtrer par nom d'école..." autocomplete="off">
+    </div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="grille">Grille de critères</button>
+  <button class="tab" data-tab="justifications">Justifications</button>
+  <button class="tab" data-tab="focus">Focus Rapports RSE</button>
+</nav>
+
+<main>
+  <!-- TAB 1: GRILLE -->
+  <section id="tab-grille" class="tab-content active">
+    <div class="legend">
+      <span class="legend-item"><span class="badge oui">OUI</span> Critère vérifié</span>
+      <span class="legend-item"><span class="badge partiel">PARTIEL</span> Initié / incomplet</span>
+      <span class="legend-item"><span class="badge non">NON</span> Absent</span>
+    </div>
+    <div class="table-wrapper">
+      <table id="grilleTable">
+        <thead id="grilleHead"></thead>
+        <tbody id="grilleBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- TAB 2: JUSTIFICATIONS -->
+  <section id="tab-justifications" class="tab-content">
+    <p class="tab-intro">Cliquez sur une école pour voir les justifications détaillées de chaque critère.</p>
+    <div id="justifList"></div>
+  </section>
+
+  <!-- TAB 3: FOCUS RAPPORTS RSE -->
+  <section id="tab-focus" class="tab-content">
+    <div class="focus-split">
+      <div class="focus-left">
+        <h2>Classement des rapports RSE</h2>
+        <p class="tab-intro">Note finale = moyenne (Forme + Fond) des deux évaluateurs</p>
+        <div id="focusRanking"></div>
+      </div>
+      <div class="focus-right">
+        <h2>Détail par école</h2>
+        <div id="focusDetail"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Benchmark RSE — Mémoire IGENSIA Education — 2026 | Données sourcées et vérifiées</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
