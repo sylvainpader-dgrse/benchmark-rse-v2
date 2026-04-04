@@ -75,6 +75,18 @@ function scoreClass(score) {
   return 'score-insuffisant';
 }
 
+function getCatName(letter) {
+  const names = {
+    'A': 'Gouvernance',
+    'B': 'Social',
+    'C': 'Formation',
+    'D': 'Environnement',
+    'E': 'Campus',
+    'F': 'Transparence'
+  };
+  return names[letter] || letter;
+}
+
 function badgeHTML(v) {
   const val = v.toUpperCase();
   if (val === 'OUI') return '<span class="badge oui">OUI</span>';
@@ -188,7 +200,7 @@ function renderJustifications() {
         <div class="justif-criterion">
           <div class="crit-header">
             ${badgeHTML(verdict)}
-            <span class="crit-cat">${c.category}</span>
+            <span class="crit-cat">${getCatName(c.category)}</span>
             <span class="crit-name">${c.name}</span>
           </div>
           <div class="justif-text">${formatJustif(justif)}</div>
@@ -218,13 +230,12 @@ function escapeHTML(str) {
 
 function formatJustif(str) {
   let text = escapeHTML(str);
-  // Bold OUI/NON/PARTIEL at start
-  text = text.replace(/^(OUI|NON|PARTIEL)(\s*\u2014|\s*—)/, '<strong>$1</strong>$2');
-  // Bold "Focus apprenants :"
-  text = text.replace(/(Focus apprenants\s*:)/g, '\n<strong>$1</strong>');
-  // Separate Source line with extra spacing
-  text = text.replace(/\n(Source\s*:)/g, '\n\n<span class="justif-source">$1</span>');
-  text = text.replace(/\n(Sources?\s*:)/gi, '\n\n<span class="justif-source">$1</span>');
+  // Bold OUI/NON/PARTIEL at start (handle both — and &mdash;)
+  text = text.replace(/^(OUI|NON|PARTIEL)\s*[\u2014\u2013—-]\s*/, '<strong>$1</strong> \u2014 ');
+  // Bold "Focus apprenants :" (case insensitive, with or without newline before)
+  text = text.replace(/\n*(Focus apprenants?\s*:)/gi, '\n\n<strong>$1</strong>');
+  // Separate Source lines with spacing
+  text = text.replace(/\n*(Source\s*:[^\n]*)/gi, '\n\n<span class="justif-source">$1</span>');
   return text;
 }
 
