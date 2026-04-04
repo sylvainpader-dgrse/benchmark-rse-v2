@@ -267,14 +267,12 @@ tbody tr:hover td.score-cell {
   transition: background 0.2s;
   gap: 1rem;
 }
-.justif-header .school-name {
-  flex: 1;
-}
 .justif-header:hover { background: #F5F0FF; }
 .justif-header .school-name {
   font-weight: 700;
   font-size: 1rem;
   flex: 1;
+  min-width: 0;
 }
 .justif-header .score-tag {
   padding: 0.3rem 0.8rem;
@@ -282,9 +280,10 @@ tbody tr:hover td.score-cell {
   font-weight: 800;
   font-size: 0.85rem;
   color: var(--white);
-  min-width: 75px;
+  min-width: 80px;
   text-align: center;
   flex-shrink: 0;
+  margin-left: auto;
 }
 .justif-header .arrow {
   font-size: 1.2rem;

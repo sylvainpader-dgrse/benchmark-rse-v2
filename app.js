@@ -115,7 +115,7 @@ function renderGrille() {
   const filtered = sorted.filter(s => matchesSearch(s.name));
 
   // Build category header row
-  let catRow = '<tr><th class="school-col cat-header">ÉTABLISSEMENT</th>';
+  let catRow = '<tr><th class="school-col cat-header">ÉCOLE / GROUPE</th>';
   const catRanges = [
     { name: 'A — GOUVERNANCE', cols: [1,2,3,4,5] },
     { name: 'B — SOCIAL', cols: [6,7,8,9,10] },
