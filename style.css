@@ -756,12 +756,33 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   border-radius: 3px;
   background: var(--accent);
 }
-.stat-card .stat-breakdown {
-  margin-top: 0.5rem;
-  font-size: 0.65rem;
+.stat-num-small {
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--text-light);
-  line-height: 1.6;
-  text-align: left;
+}
+.stat-pills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.6rem;
+  justify-content: center;
+}
+.stat-pill {
+  font-size: 0.6rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.stat-pill strong { font-weight: 900; }
+.stat-pill em { font-style: normal; opacity: 0.7; }
+.stat-pill.pill-ddrs { background: #E8F5E9; color: #2E7D32; }
+.stat-pill.pill-lucie { background: #E3F2FD; color: #1565C0; }
+.stat-pill.pill-ecovadis { background: #FFF3E0; color: #E65100; }
+.stat-pill.pill-other { background: #F5F5F5; color: #666; }
+.stat-card-labels {
+  min-width: 220px;
 }
 
 /* === LABEL PILLS in Grille === */
