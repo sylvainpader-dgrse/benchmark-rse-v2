@@ -163,11 +163,13 @@ main {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   background: var(--white);
-  overflow-x: auto;
+  overflow: auto;
+  max-height: calc(100vh - 180px);
 }
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   font-size: 0.8rem;
 }
 thead th {
@@ -180,6 +182,17 @@ thead th {
   cursor: pointer;
   border-right: 1px solid var(--primary-light);
   vertical-align: middle;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+thead tr:first-child th {
+  top: 0;
+  z-index: 11;
+}
+thead tr:nth-child(2) th {
+  top: 35px;
+  z-index: 10;
 }
 thead th:hover { background: var(--primary-light); }
 thead th.cat-header {
@@ -191,6 +204,9 @@ thead th.cat-header {
 thead th.school-col {
   text-align: left;
   min-width: 200px;
+  position: sticky;
+  left: 0;
+  z-index: 20;
 }
 thead th.score-col {
   background: var(--primary);
@@ -211,6 +227,9 @@ tbody td.school-cell {
   font-weight: 700;
   font-size: 0.8rem;
   white-space: nowrap;
+  position: sticky;
+  left: 0;
+  z-index: 5;
 }
 tbody td.school-cell.igensia {
   background: #F9F0FF;
