@@ -63,6 +63,7 @@ function setupSearch() {
 function renderAll() {
   renderGrille();
   renderJustifications();
+  renderRadar();
   renderFocus();
 }
 
@@ -448,4 +449,218 @@ function handleCommentChange(e) {
   const saved = getSavedNotes(school);
   saved.comment = val;
   setSavedNotes(school, saved);
+}
+
+// =============================
+// TAB 4: RADAR PAR AXE
+// =============================
+const AXES = [
+  { id: 'A', name: 'Gouvernance', cols: [1,2,3,4,5], max: 5 },
+  { id: 'B', name: 'Social', cols: [6,7,8,9,10], max: 5 },
+  { id: 'C', name: 'Formation', cols: [11,12,13,14,15], max: 5 },
+  { id: 'D', name: 'Environnement', cols: [16,17,18,19,20,21], max: 6 },
+  { id: 'E', name: 'Campus', cols: [22,23,24,25], max: 4 },
+  { id: 'F', name: 'Transparence', cols: [26,27,28,29], max: 4 },
+];
+
+const RADAR_COLORS = [
+  { bg: 'rgba(74,25,66,0.2)', border: '#4A1942' },
+  { bg: 'rgba(212,20,90,0.15)', border: '#D4145A' },
+  { bg: 'rgba(76,175,80,0.15)', border: '#4CAF50' },
+  { bg: 'rgba(255,152,0,0.15)', border: '#FF9800' },
+  { bg: 'rgba(33,150,243,0.15)', border: '#2196F3' },
+  { bg: 'rgba(156,39,176,0.15)', border: '#9C27B0' },
+  { bg: 'rgba(0,150,136,0.15)', border: '#009688' },
+  { bg: 'rgba(255,87,34,0.15)', border: '#FF5722' },
+];
+
+let radarSchools = [];
+let radarChart = null;
+
+function getAxeScore(school, axe) {
+  let score = 0;
+  for (const col of axe.cols) {
+    const v = school.verdicts[String(col)] || '';
+    if (v === 'OUI') score += 1;
+    else if (v === 'PARTIEL') score += 0.5;
+  }
+  return (score / axe.max) * 100;
+}
+
+function getAvgAxeScores() {
+  const sums = AXES.map(() => 0);
+  let count = 0;
+  D.grille.forEach(s => {
+    if (isIgensia(s.name)) return;
+    AXES.forEach((axe, i) => { sums[i] += getAxeScore(s, axe); });
+    count++;
+  });
+  return sums.map(s => s / count);
+}
+
+function renderRadar() {
+  // Populate select
+  const select = document.getElementById('radarSelect');
+  if (select && select.options.length <= 1) {
+    const sorted = [...D.grille].filter(s => !isIgensia(s.name)).sort((a, b) => b.score - a.score);
+    sorted.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s.name;
+      opt.textContent = s.name.replace(/\n/g, ' ');
+      select.appendChild(opt);
+    });
+    document.getElementById('radarAddBtn').addEventListener('click', () => {
+      const val = select.value;
+      if (val && !radarSchools.includes(val)) {
+        radarSchools.push(val);
+        renderRadar();
+      }
+      select.value = '';
+    });
+    document.getElementById('radarResetBtn').addEventListener('click', () => {
+      radarSchools = [];
+      renderRadar();
+    });
+  }
+
+  // Render chips
+  const chipsEl = document.getElementById('radarChips');
+  if (chipsEl) {
+    let html = '<span class="radar-chip igensia-chip">IGENSIA</span>';
+    html += '<span class="radar-chip" style="background:#999">Moyenne</span>';
+    radarSchools.forEach((name, i) => {
+      const color = RADAR_COLORS[(i + 2) % RADAR_COLORS.length].border;
+      html += `<span class="radar-chip" style="background:${color}">${name.replace(/\n/g,' ').substring(0,25)} <span class="chip-remove" data-idx="${i}">&times;</span></span>`;
+    });
+    chipsEl.innerHTML = html;
+    chipsEl.querySelectorAll('.chip-remove').forEach(btn => {
+      btn.addEventListener('click', e => {
+        radarSchools.splice(parseInt(e.target.dataset.idx), 1);
+        renderRadar();
+      });
+    });
+  }
+
+  // Build chart
+  const canvas = document.getElementById('radarChart');
+  if (!canvas) return;
+
+  const labels = AXES.map(a => a.name);
+  const igensiaData = D.grille.find(s => isIgensia(s.name));
+  const avgScores = getAvgAxeScores();
+
+  const datasets = [];
+
+  // IGENSIA always first
+  if (igensiaData) {
+    datasets.push({
+      label: 'IGENSIA Education',
+      data: AXES.map(a => getAxeScore(igensiaData, a)),
+      backgroundColor: RADAR_COLORS[0].bg,
+      borderColor: RADAR_COLORS[0].border,
+      borderWidth: 3,
+      pointRadius: 5,
+    });
+  }
+
+  // Average
+  datasets.push({
+    label: 'Moyenne (hors IGENSIA)',
+    data: avgScores,
+    backgroundColor: 'rgba(150,150,150,0.1)',
+    borderColor: '#999',
+    borderWidth: 2,
+    borderDash: [5, 5],
+    pointRadius: 3,
+  });
+
+  // Selected schools
+  radarSchools.forEach((name, i) => {
+    const school = D.grille.find(s => s.name === name);
+    if (!school) return;
+    const colorIdx = (i + 2) % RADAR_COLORS.length;
+    datasets.push({
+      label: name.replace(/\n/g, ' ').substring(0, 30),
+      data: AXES.map(a => getAxeScore(school, a)),
+      backgroundColor: RADAR_COLORS[colorIdx].bg,
+      borderColor: RADAR_COLORS[colorIdx].border,
+      borderWidth: 2,
+      pointRadius: 4,
+    });
+  });
+
+  if (radarChart) radarChart.destroy();
+  radarChart = new Chart(canvas, {
+    type: 'radar',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      scales: {
+        r: {
+          beginAtZero: true,
+          max: 100,
+          ticks: {
+            stepSize: 20,
+            callback: v => v + '%',
+            font: { family: 'Archivo', size: 11 },
+          },
+          pointLabels: {
+            font: { family: 'Archivo', size: 13, weight: '700' },
+            color: '#2D2D2D',
+          },
+          grid: { color: 'rgba(0,0,0,0.08)' },
+        },
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { font: { family: 'Archivo', size: 12 }, padding: 20 },
+        },
+        tooltip: {
+          callbacks: {
+            label: ctx => `${ctx.dataset.label}: ${ctx.parsed.r.toFixed(0)}%`,
+          },
+        },
+      },
+    },
+  });
+
+  // Build comparison table
+  const tableEl = document.getElementById('radarTable');
+  if (tableEl) {
+    let allSchools = [];
+    if (igensiaData) allSchools.push(igensiaData);
+    radarSchools.forEach(name => {
+      const s = D.grille.find(x => x.name === name);
+      if (s) allSchools.push(s);
+    });
+
+    let html = '<table><thead><tr><th>Axe</th><th>Max</th>';
+    allSchools.forEach(s => {
+      const short = s.name.replace(/\n/g, ' ').substring(0, 20);
+      html += `<th>${short}</th>`;
+    });
+    html += '<th>Moyenne</th></tr></thead><tbody>';
+
+    AXES.forEach((axe, ai) => {
+      html += `<tr>`;
+      html += `<td>${axe.id} — ${axe.name}</td><td>${axe.max}</td>`;
+      allSchools.forEach(s => {
+        const raw = axe.cols.reduce((sum, col) => {
+          const v = s.verdicts[String(col)] || '';
+          return sum + (v === 'OUI' ? 1 : v === 'PARTIEL' ? 0.5 : 0);
+        }, 0);
+        html += `<td>${raw}/${axe.max}</td>`;
+      });
+      html += `<td>${(avgScores[ai] * axe.max / 100).toFixed(1)}/${axe.max}</td>`;
+      html += '</tr>';
+    });
+
+    html += '<tr style="font-weight:900; border-top:2px solid var(--primary)"><td>TOTAL</td><td>29</td>';
+    allSchools.forEach(s => { html += `<td>${s.score}/29</td>`; });
+    const avgTotal = D.grille.filter(s => !isIgensia(s.name)).reduce((sum, s) => sum + s.score, 0) / D.grille.filter(s => !isIgensia(s.name)).length;
+    html += `<td>${avgTotal.toFixed(1)}/29</td></tr>`;
+    html += '</tbody></table>';
+    tableEl.innerHTML = html;
+  }
 }
