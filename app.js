@@ -81,8 +81,8 @@ function extractLabels(school, idx) {
     if (/ecovadis/i.test(labelText)) labels.push('EcoVadis');
     if (/iso.?14001/i.test(labelText)) labels.push('ISO 14001');
   }
-  // Pacte Mondial / Global Compact (independent of label verdict)
-  const pacte = /pacte mondial|global compact/i.test(labelText);
+  // Pacte Mondial / Global Compact — PRME implique le Pacte Mondial
+  const pacte = /pacte mondial|global compact|prme|principles.*responsible/i.test(labelText);
   // Societe a Mission (search all justifs)
   const sam = /soci.t..{0,3}mission/i.test(allText) && /statut|depuis|obtenu|devenu/i.test(allText);
   return { labels, pacte, sam };
