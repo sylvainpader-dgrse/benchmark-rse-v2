@@ -4207,6 +4207,269 @@ const BENCHMARK_DATA = {
       "biodiv": 23,
       "circular": 14,
       "invest": 10
+    },
+    "OMNES EDUCATION (Groupe)": {
+      "global": 76,
+      "gov": 93,
+      "social": 75,
+      "carbon": 86,
+      "biodiv": 83,
+      "circular": 63,
+      "invest": 56
+    },
+    "AD EDUCATION (Groupe)": {
+      "global": 60,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "GALILEO GLOBAL EDUCATION (Groupe)": {
+      "global": 5,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "OMNES EDUCATION\n(Groupe)": {
+      "global": 76,
+      "gov": 93,
+      "social": 75,
+      "carbon": 86,
+      "biodiv": 83,
+      "circular": 63,
+      "invest": 56
+    },
+    "AD EDUCATION\n(Groupe)": {
+      "global": 60,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "GALILEO GLOBAL EDUCATION\n(Groupe)": {
+      "global": 5,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "★ IGENSIA EDUCATION\n(cible — auto-éval.)": {
+      "global": 66,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "EMLYON BUSINESS SCHOOL": {
+      "global": 71,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "KEDGE BUSINESS SCHOOL": {
+      "global": 59,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "GRENOBLE EM": {
+      "global": 67,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "INSEAD": {
+      "global": 61,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "INSEEC (Omnes Education)": {
+      "global": 34,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "SCIENCES PO PARIS": {
+      "global": 54,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "AUDENCIA BUSINESS SCHOOL": {
+      "global": 41,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "EXCELIA BUSINESS SCHOOL": {
+      "global": 48,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "ÉCOLE POLYTECHNIQUE": {
+      "global": 43,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "SKEMA BUSINESS SCHOOL": {
+      "global": 50,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "TBS EDUCATION": {
+      "global": 53,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "CLERMONT SCHOOL OF BUSINESS": {
+      "global": 45,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "ICN BUSINESS SCHOOL": {
+      "global": 60,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "TOULOUSE SCHOOL OF MANAGEMENT": {
+      "global": 37,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "IESEG SCHOOL OF MANAGEMENT": {
+      "global": 73,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "NEOMA BUSINESS SCHOOL": {
+      "global": 53,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "RENNES SCHOOL OF BUSINESS": {
+      "global": 55,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "EM NORMANDIE": {
+      "global": 52,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "BURGUNDY SCHOOL OF BUSINESS": {
+      "global": 31,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "BREST BUSINESS SCHOOL": {
+      "global": 12,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "ISC PARIS": {
+      "global": 33,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "IPAG BUSINESS SCHOOL": {
+      "global": 52,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "IONIS EDUCATION GROUP\n(Groupe)": {
+      "global": 58,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "EFREI": {
+      "global": 60,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
     }
   }
 };
