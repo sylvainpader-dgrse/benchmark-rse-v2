@@ -3319,7 +3319,7 @@ const BENCHMARK_DATA = {
           "fond": 4
         },
         "sylvain": {
-          "forme": 4.5,
+          "forme": 3.5,
           "fond": 5
         }
       },
@@ -3360,7 +3360,7 @@ const BENCHMARK_DATA = {
           "fond": 4
         },
         "sylvain": {
-          "forme": 4,
+          "forme": 2.5,
           "fond": 3.5
         }
       },
@@ -3483,7 +3483,7 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": 3.5,
+          "forme": 2.5,
           "fond": 4
         }
       },
@@ -3565,7 +3565,7 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": 3.5,
+          "forme": 3,
           "fond": 4
         }
       },
@@ -3606,7 +3606,7 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": 4,
+          "forme": 3,
           "fond": 4.5
         }
       },
@@ -3811,7 +3811,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         },
         "sylvain": {
-          "forme": 2,
+          "forme": 1.5,
           "fond": 3.5
         }
       },
@@ -3852,7 +3852,7 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": 3.5,
+          "forme": 4,
           "fond": 3.5
         }
       },
@@ -3893,7 +3893,7 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": 3,
+          "forme": 2.5,
           "fond": 3.5
         }
       },
@@ -3975,7 +3975,7 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": 3,
+          "forme": 2.5,
           "fond": 3.5
         }
       },
