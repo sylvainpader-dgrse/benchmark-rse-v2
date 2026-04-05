@@ -625,6 +625,9 @@ function renderRadar() {
     },
   });
 
+  // Build 2050analytics radar
+  render2050Radar();
+
   // Build comparison table
   const tableEl = document.getElementById('radarTable');
   if (tableEl) {
@@ -663,4 +666,90 @@ function renderRadar() {
     html += '</tbody></table>';
     tableEl.innerHTML = html;
   }
+}
+
+// =============================
+// 2050ANALYTICS RADAR
+// =============================
+const AXES_2050 = ['Gouvernance', 'Social', 'Carbone', 'Biodiversité', 'Éco. circulaire', 'Investissements'];
+const KEYS_2050 = ['gov', 'social', 'carbon', 'biodiv', 'circular', 'invest'];
+let radarChart2050 = null;
+
+function render2050Radar() {
+  const canvas = document.getElementById('radarChart2050');
+  if (!canvas || !D.analytics2050) return;
+
+  const datasets = [];
+
+  // Add selected schools that have 2050 data
+  const schoolsToShow = radarSchools.filter(name => D.analytics2050[name]);
+
+  // Always try to show OMNES (top 2050) and HEC as defaults if nothing selected
+  const defaults2050 = ['OMNES EDUCATION', 'HEC PARIS', 'ESSEC BUSINESS SCHOOL'];
+  const shown2050 = schoolsToShow.length > 0 ? schoolsToShow : defaults2050.filter(n => D.analytics2050[n]);
+
+  shown2050.forEach((name, i) => {
+    const d = D.analytics2050[name];
+    if (!d) return;
+    const colorIdx = (i + 2) % RADAR_COLORS.length;
+    datasets.push({
+      label: name.replace(/\n/g, ' ').substring(0, 25),
+      data: KEYS_2050.map(k => d[k]),
+      backgroundColor: RADAR_COLORS[colorIdx].bg,
+      borderColor: RADAR_COLORS[colorIdx].border,
+      borderWidth: 2,
+      pointRadius: 4,
+    });
+  });
+
+  // Average of all 2050 schools
+  const avg2050 = KEYS_2050.map(k => {
+    const vals = Object.values(D.analytics2050).map(d => d[k]).filter(v => v != null);
+    return vals.reduce((a, b) => a + b, 0) / vals.length;
+  });
+  datasets.unshift({
+    label: 'Moyenne 2050analytics',
+    data: avg2050,
+    backgroundColor: 'rgba(150,150,150,0.1)',
+    borderColor: '#999',
+    borderWidth: 2,
+    borderDash: [5, 5],
+    pointRadius: 3,
+  });
+
+  if (radarChart2050) radarChart2050.destroy();
+  radarChart2050 = new Chart(canvas, {
+    type: 'radar',
+    data: { labels: AXES_2050, datasets },
+    options: {
+      responsive: true,
+      scales: {
+        r: {
+          beginAtZero: true,
+          max: 100,
+          ticks: {
+            stepSize: 20,
+            callback: v => v,
+            font: { family: 'Archivo', size: 11 },
+          },
+          pointLabels: {
+            font: { family: 'Archivo', size: 13, weight: '700' },
+            color: '#2D2D2D',
+          },
+          grid: { color: 'rgba(0,0,0,0.08)' },
+        },
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { font: { family: 'Archivo', size: 11 }, padding: 15 },
+        },
+        tooltip: {
+          callbacks: {
+            label: ctx => ctx.dataset.label + ': ' + ctx.parsed.r + '/100',
+          },
+        },
+      },
+    },
+  });
 }

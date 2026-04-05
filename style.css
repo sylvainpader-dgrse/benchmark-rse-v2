@@ -634,9 +634,33 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   margin-left: 0.2rem;
 }
 .radar-chip .chip-remove:hover { opacity: 1; }
+.radar-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
 .radar-chart-container {
-  max-width: 700px;
-  margin: 0 auto 2rem;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+.radar-chart-container h3 {
+  font-size: 1rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.radar-note {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  text-align: center;
+  margin-top: 0.8rem;
+  font-style: italic;
+}
+@media (max-width: 900px) {
+  .radar-dual { grid-template-columns: 1fr; }
 }
 .radar-table-wrapper {
   background: var(--white);

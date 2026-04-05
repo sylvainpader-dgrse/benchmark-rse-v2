@@ -4092,5 +4092,61 @@ const BENCHMARK_DATA = {
       },
       "comment": ""
     }
-  ]
+  ],
+  "analytics2050": {
+    "HEC PARIS": {
+      "global": 75,
+      "gov": 79,
+      "social": 79,
+      "carbon": 73,
+      "biodiv": 68,
+      "circular": 68,
+      "invest": 85
+    },
+    "ESSEC BUSINESS SCHOOL": {
+      "global": 65,
+      "gov": 74,
+      "social": 68,
+      "carbon": 62,
+      "biodiv": 69,
+      "circular": 69,
+      "invest": 50
+    },
+    "EDHEC BUSINESS SCHOOL": {
+      "global": 67,
+      "gov": 73,
+      "social": 57,
+      "carbon": 70,
+      "biodiv": 63,
+      "circular": 63,
+      "invest": 74
+    },
+    "ESCP BUSINESS SCHOOL": {
+      "global": 69,
+      "gov": 83,
+      "social": 62,
+      "carbon": 72,
+      "biodiv": 66,
+      "circular": 74,
+      "invest": 58
+    },
+    "OMNES EDUCATION": {
+      "global": 76,
+      "gov": 93,
+      "social": 75,
+      "carbon": 86,
+      "biodiv": 83,
+      "circular": 63,
+      "invest": 56
+    },
+    "MONTPELLIER BUSINESS SCHOOL": {
+      "global": 68,
+      "gov": 74,
+      "social": 73,
+      "carbon": 70,
+      "biodiv": 57,
+      "circular": 57,
+      "invest": 74
+    }
+  }
 };
