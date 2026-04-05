@@ -74,18 +74,17 @@ function extractLabels(school, idx) {
   const labelText = justif.justifs['4'] || '';
   const allText = Object.values(justif.justifs).join(' ');
   const labels = [];
-  // Only show DD&RS if the school actually HAS the label (OUI in grille)
+  // Only show specific labels if grille=OUI
   if (school.verdicts['4'] === 'OUI') {
     if (/lucie/i.test(labelText)) labels.push('LUCIE');
-    else if (/dd&rs|dd.rs/i.test(labelText)) labels.push('DD&RS');
-    else if (/ecovadis/i.test(labelText)) labels.push('EcoVadis');
-    else if (/iso.?14001/i.test(labelText)) labels.push('ISO 14001');
-    else labels.push('Label RSE');
+    if (/label\s+dd.?rs|dd&rs.*obtenu|dd&rs.*renouvel|obtenu.*dd&rs|label.*ddrs/i.test(labelText)) labels.push('DD&RS');
+    if (/ecovadis/i.test(labelText)) labels.push('EcoVadis');
+    if (/iso.?14001/i.test(labelText)) labels.push('ISO 14001');
   }
-  // Societe a Mission
-  const sam = /soci.t..?.?mission/i.test(allText) && /statut|depuis|obtenu|devenu/i.test(allText);
-  // Pacte Mondial
+  // Pacte Mondial / Global Compact (independent of label verdict)
   const pacte = /pacte mondial|global compact/i.test(labelText);
+  // Societe a Mission (search all justifs)
+  const sam = /soci.t..{0,3}mission/i.test(allText) && /statut|depuis|obtenu|devenu/i.test(allText);
   return { labels, pacte, sam };
 }
 
