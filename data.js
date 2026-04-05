@@ -4147,6 +4147,66 @@ const BENCHMARK_DATA = {
       "biodiv": 57,
       "circular": 57,
       "invest": 74
+    },
+    "EM STRASBOURG BUSINESS SCHOOL": {
+      "global": 67,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "AD EDUCATION": {
+      "global": 60,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "PARIS SCHOOL OF BUSINESS": {
+      "global": 25,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "ESDES BUSINESS SCHOOL": {
+      "global": 53,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "ESSCA BUSINESS SCHOOL": {
+      "global": 65,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14
+    },
+    "GALILEO GLOBAL EDUCATION": {
+      "global": 5,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
+    },
+    "EDC PARIS": {
+      "global": 16,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
     }
   }
 };
