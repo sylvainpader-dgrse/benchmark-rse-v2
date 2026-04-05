@@ -792,13 +792,16 @@ function renderRadar() {
 // RADAR COMPARISON PANEL
 // =============================
 function getJustifSummary(justif) {
-  // Extract first sentence after the verdict (OUI/NON/PARTIEL —)
   if (!justif) return '';
   const clean = justif.replace(/^(OUI|NON|PARTIEL)\s*[\u2014—-]\s*/i, '');
-  // Take first sentence (up to first period + space or first bullet)
-  const firstLine = clean.split('\n')[0].trim();
-  // Limit length
-  return firstLine.length > 150 ? firstLine.substring(0, 147) + '...' : firstLine;
+  // Take everything before "Focus apprenants" or "Source :"
+  let text = clean.split(/Focus apprenants/i)[0];
+  text = text.split(/\nSource\s*:/i)[0];
+  // Remove bullet points and join into flowing text
+  text = text.replace(/\n+\u2022\s*/g, '. ').replace(/\n+/g, ' ').trim();
+  // Clean double periods/spaces
+  text = text.replace(/\.\s*\./g, '.').replace(/\s+/g, ' ');
+  return text;
 }
 
 function renderRadarComparison(igensiaData) {
@@ -845,7 +848,7 @@ function renderRadarComparison(igensiaData) {
       otherSchools.forEach(({grille: s, justif: j}) => {
         const v = s.verdicts[String(col)] || '';
         if (v === 'NON') return; // Skip if they don't do it either
-        const shortName = s.name.replace(/\n/g, ' ').substring(0, 22);
+        const shortName = s.name.replace(/\n/g, ' ');
         const summary = getJustifSummary(j.justifs[String(col)] || '');
         if (!summary) return;
         const oDotCls = v === 'OUI' ? 'dot-oui' : 'dot-partiel';
