@@ -3367,47 +3367,6 @@ const BENCHMARK_DATA = {
       "comment": ""
     },
     {
-      "name": "IONIS EDUCATION GROUP",
-      "data": {
-        "0": "IONIS EDUCATION GROUP",
-        "1": "Société par actions simplifiée (SAS)\nFondé en 1980 par Marc Sellam\n1er groupe indépendant de l'ESup privé en France",
-        "2": "35 000+ étudiants\n27 écoles et entités\n26 villes (France + international)\n100 000+ alumni\n13 115 collaborateurs (groupe, approx.)\n\nPrincipales écoles :\n• 4 écoles d'ingénieurs : EPITA, ESME, IPSA, SupBiotech\n• Ecoles de commerce/business : ISG, ICS Bégué, ISEFAC,\n  MOD'SPE Paris, ISG Sport/Luxury/RH\n• Ecoles tech/digital : Epitech, Epitech Digital,\n  e-artsup, SUPINFO, ETNA, XP, Coding Academy\n• Entités : IONIS 361 (incubateur), Fondation IONIS,\n  IONISx (e-learning), SecureSphere by EPITA\n\nSecteurs : ingénierie, commerce, finance, tech,\naéronautique, spatial, informatique, création,\ncommunication, digital, énergie, biotechnologies\n\nFondation IONIS (sous égide Fondation de France) :\n350+ bourses d'études depuis 2022",
-        "3": "",
-        "4": "PAS DE RAPPORT RSE GROUPE PUBLIÉ\n\nDocuments disponibles :\n• Raison d'être & engagements (site web) :\nhttps://www.ionis-group.com/groupe/raison-etre-valeurs-engagements/\n\n• Document EPITA — Politique et Engagements\n  RSE (janv. 2024, 1 page) :\nhttps://www.epita.fr/wp-content/uploads/20240110-DOC-PolitiqueEngagements-VFR-VF.pdf\n\n• Sociétés à mission EPITA/ESME/IPSA/SupBiotech :\nhttps://newsroom.ionis-group.com/2023/11/10/en-tant-que-societes-a-mission-les-quatre-ecoles-dingenieurs-du-groupe-ionis-contribuent-a-rendre-le-monde-meilleur/",
-        "5": "",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": "Pas de stratégie RSE\nformalisée et nommée\nau niveau groupe\n\nApproche par école :\n• 4 écoles ingénieurs =\n  Sociétés à mission\n  (depuis juil. 2021)\n• EPITA : Comité\n  d'Amélioration\n  Continue (qualité+RSE)",
-        "11": "",
-        "12": "",
-        "13": "Écoles d'ingénieurs (CTI) :\n• EPITA : accréditation CTI (titre ingénieur)\n• ESME : accréditation CTI\n• IPSA : accréditation CTI\n• SupBiotech : accréditation CTI\n\nEpitec : Visa Ministère ESup+Recherche\n  (Programme Grande École)\n\nLabel Qualité FLE (EPITA, mentionné dans\nle doc Politique & Engagements)\nLabel Bienvenue en France (EPITA)\nCGE — Conférence des Grandes Écoles\n  (membre)\nHCERES — évaluation recherche\nISO 9001 (EPITA, référentiel qualité)\nQUALIOPI (formations professionnelles)\n\nSTATUT SOCIÉTÉS À MISSION (loi PACTE) :\n• EPITA (depuis juil. 2021)\n• ESME (depuis juil. 2021)\n• IPSA (depuis juil. 2021)\n• SupBiotech (depuis juil. 2021)\nConfirmées en nov. 2023\n\nAucune accréditation internationale type\nAACSB/EQUIS/AMBA publiée au niveau\ngroupe (ISG et ISEG en cours selon LinkedIn)",
-        "14": "• CTI (Commission des Titres d'Ingénieur)\n• CGE (Conférence des Grandes Écoles)\n• HCERES (évaluation recherche)\n• ISO 9001 (management qualité — EPITA)\n• ODD (17 ODD — intégrés dans les cours)\n• Réseau CIRSES (DD&RS enseignement supérieur)",
-        "15": "• Charte Égalité Femme-Homme (EPITA)\n• Charte Déontologie des métiers de la recherche\n• Charte Télétravail (EPITA)\n• Charte Egalité professionnelle F/H (accord collectif\n  groupe — publié sur Base de Données Nationale)\n• Code de conduite (groupe — mentionné)\n\nPartenariats structurants :\n• COP2 Étudiante (EPITA)\n• Planet Tech' Care\n• Réseau CIRSES",
-        "16": "PARTIEL\n• Bilans carbone\n  réalisés par les\n  4 écoles ingénieurs\n  (mentionnés dans\n  la presse nov. 2023)\n• Méthode non précisée\n• Données non publiées\n  publiquement\n• Pas de BC groupe\n  consolidé publié",
-        "17": "ENGAGEMENTS EPITA (« Politique et Engagements » janv. 2024) :\n→ Système de management intégré qualité + RSE\n→ Augmenter heures DD&RS dans tous les cours\n→ Intégrer ODD dans tous les cours\n→ Réduire empreinte carbone campus\n→ Développer efficacité énergétique\n→ Politique achats responsables\n\nENGAGEMENTS GROUPE (4 écoles ingénieurs) :\n→ Former ingénieurs conscients des enjeux sociétaux\n   et environnementaux, pour un impact positif\n→ Infuser questions climatiques/énergétiques\n   dans tous les programmes dès la 1re année\n→ Bilans carbone et GES réalisés par les 4 écoles\n→ Campus : restauration durable, réduction déchets,\n   achats responsables, végétalisation, réhabilitation,\n   accessibilité PMR\n\nENGAGEMENTS GROUPE (solidarité) :\n→ 350+ bourses d'études Fondation IONIS depuis 2022\n→ IONIS Goodwills : 19 projets étudiants (2025, 3 000€/projet)\n→ Don du sang (EFS, 16e campagne annuelle)\n→ Amazon Future Engineer : 30 bourses/an femmes\n   dans l'informatique\n\nPAS d'objectifs chiffrés et datés publiés au niveau groupe",
-        "18": "",
-        "19": "",
-        "20": "GOUVERNANCE RSE TRÈS DÉCENTRALISÉE :\n\nNIVEAU GROUPE :\n• PDG Marc Sellam — vision globale\n• DG Fabrice Bardèche — coordination\n• Philippe Jamet (Président honoraire CGE)\n  → supervisera et dynamisera les 4 écoles ingénieurs\n  → conduite vers meilleurs niveaux d'accréditation\n\nNIVEAU ÉCOLE (ex. EPITA) :\n• Comité d'Amélioration Continue\n  (évaluation processus et pratiques)\n• Directeur Général : Sylvain Goussot (EPITA)\n\n4 ÉCOLES INGÉNIEURS — SOCIÉTÉS À MISSION :\n• Comité de mission (par école, requis par loi PACTE)\n• Rapport de mission publié annuellement (par école)\n\nPAS de Directrice/Directeur RSE groupe nommé\nPAS de rapport RSE groupe consolidé\nStructure très fragmentée entre les 27 écoles",
-        "21": "NON\n(non publié)",
-        "22": "PARTIEL\n• ODD intégrés dans\n  les cours (EPITA)\n• Enjeux climatiques\n  dès 1re année\n  (4 écoles ingénieurs)\n• 30h TEDS non\n  encore confirmées\n  au niveau groupe\n• Fresque du Climat\n  (4 écoles ingénieurs)",
-        "23": "PARTIEL\n• Fresque du Climat\n  (4 écoles ingénieurs)\n• Fresqu'Aéro (IPSA)\n• Fresque du Numérique\n  (4 écoles ingénieurs)\n• Pas systématisé\n  à l'ensemble du\n  groupe (27 écoles)",
-        "24": ""
-      },
-      "notes": {
-        "blanche": {
-          "forme": "",
-          "fond": ""
-        },
-        "sylvain": {
-          "forme": 1,
-          "fond": 1
-        }
-      },
-      "comment": ""
-    },
-    {
       "name": "AD EDUCATION",
       "data": {
         "0": "AD EDUCATION",
