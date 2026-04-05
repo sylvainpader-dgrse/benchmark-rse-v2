@@ -4470,6 +4470,15 @@ const BENCHMARK_DATA = {
       "biodiv": 23,
       "circular": 14,
       "invest": 10
+    },
+    "PARIS-DAUPHINE - PSL": {
+      "global": 45,
+      "gov": 43,
+      "social": 35,
+      "carbon": 20,
+      "biodiv": 23,
+      "circular": 14,
+      "invest": 10
     }
   }
 };
