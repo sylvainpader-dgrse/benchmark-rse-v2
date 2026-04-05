@@ -3320,7 +3320,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 3.5,
-          "fond": 5
+          "fond": 4.5
         }
       },
       "comment": ""
@@ -3361,7 +3361,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 2.5,
-          "fond": 3.5
+          "fond": 3
         }
       },
       "comment": ""
@@ -3443,7 +3443,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 2.5,
-          "fond": 4
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3484,7 +3484,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 2.5,
-          "fond": 3.5
+          "fond": 3
         }
       },
       "comment": ""
@@ -3525,7 +3525,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 3,
-          "fond": 4
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3566,7 +3566,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 3,
-          "fond": 4.5
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3689,7 +3689,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 2,
-          "fond": 1.5
+          "fond": 0.5
         }
       },
       "comment": ""
@@ -3730,7 +3730,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 3,
-          "fond": 4
+          "fond": 3
         }
       },
       "comment": ""
@@ -3812,7 +3812,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 4,
-          "fond": 3.5
+          "fond": 3
         }
       },
       "comment": ""
@@ -3853,7 +3853,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 2.5,
-          "fond": 3.5
+          "fond": 3
         }
       },
       "comment": ""
@@ -3935,7 +3935,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 2.5,
-          "fond": 3.5
+          "fond": 4
         }
       },
       "comment": ""
@@ -3976,7 +3976,7 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 4,
-          "fond": 3.5
+          "fond": 3
         }
       },
       "comment": ""
