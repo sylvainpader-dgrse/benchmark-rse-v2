@@ -947,6 +947,192 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   margin-top: 2px;
 }
 
+/* === XERFI === */
+.xerfi-header {
+  margin-bottom: 1.5rem;
+}
+.xerfi-header h2 {
+  font-size: 1.3rem;
+  color: var(--primary);
+  margin-bottom: 0.3rem;
+}
+.xerfi-source {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+.xerfi-kpi-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.xerfi-kpi {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.2rem;
+  text-align: center;
+  border-top: 4px solid var(--accent);
+}
+.xerfi-kpi-num {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--primary);
+  line-height: 1;
+}
+.xerfi-kpi-label {
+  font-size: 0.8rem;
+  color: var(--text);
+  margin-top: 0.4rem;
+  line-height: 1.4;
+}
+.xerfi-kpi-source {
+  font-size: 0.65rem;
+  color: var(--text-light);
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+.xerfi-section {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.xerfi-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.8rem 1.2rem;
+  background: #FAFAFA;
+  border-bottom: 1px solid var(--border);
+}
+.xerfi-section-header h3 {
+  flex: 1;
+  font-size: 0.95rem;
+  color: var(--text);
+  margin: 0;
+}
+.xerfi-badge {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 0.75rem;
+  color: var(--white);
+  flex-shrink: 0;
+}
+.xerfi-badge.red { background: var(--accent); }
+.xerfi-badge.orange { background: var(--score-retard); }
+.xerfi-badge.grey { background: #999; }
+.xerfi-page {
+  font-size: 0.7rem;
+  color: var(--text-light);
+  background: #F0F0F0;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.xerfi-section-body {
+  padding: 1rem 1.2rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+.xerfi-section-body p { margin-bottom: 0.6rem; }
+.xerfi-section-body ul {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
+.xerfi-section-body li {
+  margin-bottom: 0.3rem;
+  font-size: 0.83rem;
+}
+.xerfi-section-body blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
+  background: #FDF0F4;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+.xerfi-insight {
+  margin-top: 0.8rem;
+  padding: 0.8rem 1rem;
+  background: #F5F0FF;
+  border-left: 3px solid var(--primary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.8rem;
+}
+.xerfi-insight strong { color: var(--primary); }
+.xerfi-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8rem 0;
+  font-size: 0.8rem;
+}
+.xerfi-table th {
+  background: var(--primary);
+  color: var(--white);
+  padding: 0.5rem 0.8rem;
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+.xerfi-table td {
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid var(--border);
+}
+.xerfi-table .negative { color: var(--non-text); font-weight: 700; }
+.xerfi-table .positive { color: var(--oui-text); font-weight: 700; }
+.xerfi-case {
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  background: #FAFAFA;
+  border-radius: var(--radius);
+  border-left: 3px solid var(--accent);
+}
+.xerfi-case h4 {
+  font-size: 0.9rem;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+.xerfi-case ul { padding-left: 1rem; }
+.xerfi-case li { font-size: 0.8rem; margin-bottom: 0.2rem; }
+.xerfi-absent {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.2rem;
+  margin-top: 1.5rem;
+  border-top: 4px solid #999;
+}
+.xerfi-absent h3 {
+  font-size: 1rem;
+  color: var(--text);
+  margin-bottom: 0.8rem;
+}
+.xerfi-absent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.xerfi-absent-item {
+  padding: 0.5rem 0.8rem;
+  background: #F5F5F5;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  border-left: 3px solid #CCC;
+}
+
 /* === FOOTER === */
 footer {
   text-align: center;
