@@ -70,27 +70,35 @@ function renderAll() {
 
 function extractLabels(school, idx) {
   const justif = D.justifications[idx];
-  if (!justif) return { labels: [], pacte: false };
+  if (!justif) return { labels: [], pacte: false, sam: false };
   const labelText = justif.justifs['4'] || '';
+  const allText = Object.values(justif.justifs).join(' ');
   const labels = [];
-  if (/lucie/i.test(labelText)) labels.push('LUCIE');
-  if (/dd&rs|dd rs|ddrs/i.test(labelText) && /label/i.test(labelText) && /obtenu|renouvel|labellis/i.test(labelText)) labels.push('DD&RS');
-  if (/ecovadis/i.test(labelText)) labels.push('EcoVadis');
-  if (/iso.?14001/i.test(labelText)) labels.push('ISO 14001');
-  if (/b.?corp/i.test(labelText)) labels.push('B Corp');
+  // Only show DD&RS if the school actually HAS the label (OUI in grille)
+  if (school.verdicts['4'] === 'OUI') {
+    if (/lucie/i.test(labelText)) labels.push('LUCIE');
+    else if (/dd&rs|dd.rs/i.test(labelText)) labels.push('DD&RS');
+    else if (/ecovadis/i.test(labelText)) labels.push('EcoVadis');
+    else if (/iso.?14001/i.test(labelText)) labels.push('ISO 14001');
+    else labels.push('Label RSE');
+  }
+  // Societe a Mission
+  const sam = /soci.t..?.?mission/i.test(allText) && /statut|depuis|obtenu|devenu/i.test(allText);
+  // Pacte Mondial
   const pacte = /pacte mondial|global compact/i.test(labelText);
-  return { labels, pacte };
+  return { labels, pacte, sam };
 }
 
 function renderStats() {
   const total = D.grille.length;
-  let labelled = 0, rapport = 0, pacte = 0;
+  let labelled = 0, pacte = 0, sam = 0;
   D.grille.forEach((s, i) => {
     if (s.verdicts['4'] === 'OUI') labelled++;
-    if (s.verdicts['26'] === 'OUI') rapport++;
     const info = extractLabels(s, i);
     if (info.pacte) pacte++;
+    if (info.sam) sam++;
   });
+  const rapportAnalyses = D.focus.length;
   const el = document.getElementById('statsBanner');
   if (!el) return;
   el.innerHTML = `
@@ -104,13 +112,13 @@ function renderStats() {
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${labelled*100/total}%"></div></div>
     </div>
     <div class="stat-card">
-      <div class="stat-num">${Math.round(rapport*100/total)}%</div>
-      <div class="stat-label">Rapport RSE public (${rapport}/${total})</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:${rapport*100/total}%"></div></div>
+      <div class="stat-num">${Math.round(rapportAnalyses*100/total)}%</div>
+      <div class="stat-label">Rapports RSE analysés (${rapportAnalyses}/${total})</div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${rapportAnalyses*100/total}%"></div></div>
     </div>
     <div class="stat-card">
       <div class="stat-num">${Math.round(pacte*100/total)}%</div>
-      <div class="stat-label">Pacte Mondial / Global Compact (${pacte}/${total})</div>
+      <div class="stat-label">Pacte Mondial (${pacte}/${total})</div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${pacte*100/total}%"></div></div>
     </div>`;
 }
@@ -212,9 +220,10 @@ function renderGrille() {
     const labelInfo = extractLabels(s, grilleIdx);
     let pills = '';
     labelInfo.labels.forEach(l => {
-      const cls = l === 'DD&RS' ? 'pill-ddrs' : l === 'LUCIE' ? 'pill-lucie' : l === 'EcoVadis' ? 'pill-ecovadis' : l.includes('ISO') ? 'pill-iso' : 'pill-bcorp';
+      const cls = l === 'DD&RS' ? 'pill-ddrs' : l === 'LUCIE' ? 'pill-lucie' : l === 'EcoVadis' ? 'pill-ecovadis' : l.includes('ISO') ? 'pill-iso' : l === 'Label RSE' ? 'pill-ddrs' : 'pill-bcorp';
       pills += `<span class="label-pill ${cls}">${l}</span>`;
     });
+    if (labelInfo.sam) pills += `<span class="label-pill pill-sam">Sté à Mission</span>`;
     if (labelInfo.pacte) pills += `<span class="label-pill pill-pacte">Pacte Mondial</span>`;
     body += `<td class="school-cell ${ig ? 'igensia' : ''}">${s.name.replace(/\n/g, ' ')}${pills ? '<div class="school-labels">' + pills + '</div>' : ''}</td>`;
     for (let j = 1; j <= 29; j++) {
