@@ -30,8 +30,9 @@
   <button class="tab active" data-tab="grille">Grille de critères</button>
   <button class="tab" data-tab="justifications">Justifications</button>
   <button class="tab" data-tab="radar">Radar par axe</button>
-  <button class="tab" data-tab="xerfi">Analyse Xerfi</button>
+  <span class="tab-separator"></span>
   <button class="tab" data-tab="focus">Focus Rapports RSE</button>
+  <button class="tab" data-tab="xerfi">Analyse Xerfi</button>
 </nav>
 
 <div class="stats-banner" id="statsBanner"></div>
@@ -81,7 +82,22 @@
     <div id="radarTable" class="radar-table-wrapper"></div>
   </section>
 
-  <!-- TAB 4: ANALYSE XERFI -->
+  <!-- TAB 4: FOCUS RAPPORTS RSE -->
+  <section id="tab-focus" class="tab-content">
+    <div class="focus-split">
+      <div class="focus-left">
+        <h2>Classement des rapports RSE</h2>
+        <p class="tab-intro">Note finale = moyenne (Forme + Fond) des deux évaluateurs</p>
+        <div id="focusRanking"></div>
+      </div>
+      <div class="focus-right">
+        <h2>Détail par école ou groupe</h2>
+        <div id="focusDetail"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAB 5: ANALYSE XERFI -->
   <section id="tab-xerfi" class="tab-content">
     <div class="xerfi-header">
       <h2>La RSE dans les ecoles de commerce a l'horizon 2030</h2>
@@ -104,11 +120,6 @@
         <div class="xerfi-kpi-label">de satisfaction etudiante sur l'integration RSE dans les enseignements (67% en 2025 vs 76% en 2024)</div>
         <div class="xerfi-kpi-source">p. 46 — Signal d'alerte : les ecoles communiquent mais ne livrent pas assez</div>
       </div>
-      <div class="xerfi-kpi">
-        <div class="xerfi-kpi-num">0</div>
-        <div class="xerfi-kpi-label">section dediee a la RSE sur 231 pages : la RSE n'est pas encore un axe de differenciation strategique</div>
-        <div class="xerfi-kpi-source">Analyse transversale du rapport</div>
-      </div>
     </div>
 
     <div class="xerfi-section">
@@ -120,7 +131,7 @@
       <div class="xerfi-section-body">
         <p>Dans le schema des sept facteurs de mutation du marche, la RSE apparait explicitement comme tendance de fond : la "montee de la RSE et de l'IA dans les entreprises" est listee parmi les evolutions du monde du travail qui transforment les besoins en competences et donc les strategies des ecoles.</p>
         <div class="xerfi-insight">
-          <strong>Ce que ca signifie pour IGENSIA :</strong> La RSE n'est pas un phenomene marginal mais un determinant structurel de la demande adressee aux ecoles de commerce. IGENSIA, avec son label LUCIE 26000 et ses 30h de formation DD obligatoires, est positionnee sur ce facteur de mutation.
+          <strong>Ce que ca signifie pour IGENSIA :</strong> Xerfi positionne la RSE au meme niveau que l'IA comme facteur de transformation du marche. Cela signifie que les entreprises attendent des diplomes formes aux enjeux RSE — et donc que les ecoles qui integrent la RSE dans leurs cursus repondent a une demande reelle du marche, pas a une mode. IGENSIA, avec son label LUCIE 26000, sa strategie RSE 2025-2028 en 5 axes / 30 engagements, et ses 30h de formation DD obligatoires des la 1re annee, est l'un des rares groupes prives a s'etre positionne structurellement sur ce facteur de mutation — la ou la plupart des concurrents prives (Galileo, IONIS, AD Education) n'ont pas encore formalise de demarche equivalente.
         </div>
       </div>
     </div>
@@ -234,9 +245,6 @@
             <tr><td>KEDGE / IRD</td><td>2024</td><td>MOOC "Science et Entreprenariat"</td><td>MOOC</td></tr>
           </tbody>
         </table>
-        <div class="xerfi-insight">
-          <strong>Ce que ca signifie pour IGENSIA :</strong> Les programmes RSE viennent quasi exclusivement des grandes ecoles. Les groupes prives (Omnes, Galileo, AD Education) investissent dans l'IA et les campus mais peu dans la RSE pedagogique. IGENSIA fait exception avec HOPEN et les 30h DD.
-        </div>
       </div>
     </div>
 
@@ -260,63 +268,6 @@
       </div>
     </div>
 
-    <div class="xerfi-section">
-      <div class="xerfi-section-header">
-        <span class="xerfi-badge orange">9</span>
-        <h3>Strategies RSE des leaders : etudes de cas</h3>
-        <span class="xerfi-page">pp. 197, 202-203, 217, 227</span>
-      </div>
-      <div class="xerfi-section-body">
-        <div class="xerfi-case">
-          <h4>EDHEC — "Generations 2050"</h4>
-          <ul>
-            <li>Renovation campus Lille (60 M euros) : -40% empreinte carbone, certification BREEAM</li>
-            <li>Axe 1 : entreprise "Net Positive" — depasser la RSE traditionnelle pour un modele a impact positif</li>
-            <li>Climate Finance School : formation finance durable pour tous les etudiants</li>
-          </ul>
-        </div>
-        <div class="xerfi-case">
-          <h4>Grenoble EM — "Eagle 2030"</h4>
-          <ul>
-            <li>EnerG Institute (transitions energetiques)</li>
-            <li>"Moving Mountains" (developpement durable en milieu alpin)</li>
-            <li>Chaire Territoires en Transitions</li>
-          </ul>
-        </div>
-        <div class="xerfi-case">
-          <h4>emlyon — Plan strategique</h4>
-          <ul>
-            <li>Label SDG inside sur l'ensemble des enseignements</li>
-            <li>Doyen dedie a la pedagogie en Anthropocene</li>
-            <li>Academie de la Transition (neo-industrialisation decarbonee)</li>
-            <li>Plan Climat : objectif Net Zero d'ici 2030</li>
-          </ul>
-        </div>
-        <div class="xerfi-case">
-          <h4>EM Strasbourg — Plan 2022-2027</h4>
-          <ul>
-            <li>Trois valeurs fondatrices : developpement durable, diversite, ethique</li>
-            <li>Master tri-national "European Digital & Sustainable Business" (sept. 2024)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="xerfi-section">
-      <div class="xerfi-section-header">
-        <span class="xerfi-badge grey">10</span>
-        <h3>Le statut EESPIG : un cadre RSE institutionnel</h3>
-        <span class="xerfi-page">p. 34</span>
-      </div>
-      <div class="xerfi-section-body">
-        <p>64 etablissements labellises EESPIG en 2024 (dont ESSEC, EDHEC, IESEG, KEDGE, ESSCA). Ce statut impose un engagement formel sur six missions de service public incluant l'insertion professionnelle et la cooperation internationale.</p>
-        <p>La subvention EESPIG etait de 583 euros/etudiant en 2021-2022 (baisse de 50% depuis 2008) contre 11 630 euros/etudiant dans le public.</p>
-        <div class="xerfi-insight">
-          <strong>Ce que ca signifie pour IGENSIA :</strong> IGENSIA, en tant qu'association loi 1901, a un statut different mais partage la mission d'interet general. Le label LUCIE 26000 vient combler l'absence d'EESPIG en matiere de credibilite RSE externe.
-        </div>
-      </div>
-    </div>
-
     <div class="xerfi-absent">
       <h3>Ce que le rapport Xerfi ne couvre PAS</h3>
       <div class="xerfi-absent-grid">
@@ -329,21 +280,6 @@
       </div>
       <div class="xerfi-insight">
         <strong>C'est la que notre benchmark apporte de la valeur :</strong> il couvre precisement ce que Xerfi ne traite pas — l'analyse critere par critere de la maturite RSE de 42 ecoles et groupes.
-      </div>
-    </div>
-  </section>
-
-  <!-- TAB 5: FOCUS RAPPORTS RSE -->
-  <section id="tab-focus" class="tab-content">
-    <div class="focus-split">
-      <div class="focus-left">
-        <h2>Classement des rapports RSE</h2>
-        <p class="tab-intro">Note finale = moyenne (Forme + Fond) des deux évaluateurs</p>
-        <div id="focusRanking"></div>
-      </div>
-      <div class="focus-right">
-        <h2>Détail par école ou groupe</h2>
-        <div id="focusDetail"></div>
       </div>
     </div>
   </section>

@@ -114,6 +114,12 @@ header {
   color: var(--primary);
   border-bottom-color: var(--accent);
 }
+.tab-separator {
+  width: 1px;
+  background: var(--border);
+  margin: 0.5rem 0.5rem;
+  align-self: stretch;
+}
 
 /* === MAIN === */
 main {
