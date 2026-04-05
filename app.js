@@ -551,15 +551,40 @@ function renderRadar() {
 
   const datasets = [];
 
-  // IGENSIA always first
+  const UNCERTAINTY = 12; // ±12% margin
+
+  // IGENSIA uncertainty band (upper)
   if (igensiaData) {
+    const igScores = AXES.map(a => getAxeScore(igensiaData, a));
+    datasets.push({
+      label: 'Marge d\'incertitude IGENSIA',
+      data: igScores.map(s => Math.min(100, s + UNCERTAINTY)),
+      backgroundColor: 'rgba(74,25,66,0.06)',
+      borderColor: 'rgba(74,25,66,0.15)',
+      borderWidth: 1,
+      borderDash: [3, 3],
+      pointRadius: 0,
+      fill: '+1',
+    });
+    // IGENSIA main line
     datasets.push({
       label: 'IGENSIA Education',
-      data: AXES.map(a => getAxeScore(igensiaData, a)),
+      data: igScores,
       backgroundColor: RADAR_COLORS[0].bg,
       borderColor: RADAR_COLORS[0].border,
       borderWidth: 3,
       pointRadius: 5,
+    });
+    // IGENSIA uncertainty band (lower)
+    datasets.push({
+      label: '_lower',
+      data: igScores.map(s => Math.max(0, s - UNCERTAINTY)),
+      backgroundColor: 'rgba(74,25,66,0.06)',
+      borderColor: 'rgba(74,25,66,0.15)',
+      borderWidth: 1,
+      borderDash: [3, 3],
+      pointRadius: 0,
+      fill: '-1',
     });
   }
 
@@ -614,13 +639,22 @@ function renderRadar() {
       plugins: {
         legend: {
           position: 'bottom',
-          labels: { font: { family: 'Archivo', size: 12 }, padding: 20 },
-        },
-        tooltip: {
-          callbacks: {
-            label: ctx => `${ctx.dataset.label}: ${ctx.parsed.r.toFixed(0)}%`,
+          labels: {
+            font: { family: 'Archivo', size: 12 },
+            padding: 20,
+            filter: item => !item.text.startsWith('_'),
           },
         },
+        tooltip: {
+          filter: item => !item.dataset.label.startsWith('_'),
+          callbacks: {
+            label: ctx => {
+              if (ctx.dataset.label.startsWith('_') || ctx.dataset.label.includes('incertitude')) return null;
+              return `${ctx.dataset.label}: ${ctx.parsed.r.toFixed(0)}%`;
+            },
+          },
+        },
+        filler: { propagate: true },
       },
     },
   });

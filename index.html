@@ -6,7 +6,7 @@
 <title>Benchmark RSE — IGENSIA Education</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=21">
+<link rel="stylesheet" href="style.css?v=22">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -70,6 +70,9 @@
     <div class="radar-chart-container" style="max-width:700px; margin:0 auto;">
       <h3>Notre Benchmark (29 critères — 6 axes)</h3>
       <canvas id="radarChart"></canvas>
+      <div class="radar-methodology">
+        <p><strong>Note méthodologique :</strong> Les scores sont basés sur la présence/absence documentée de critères (méthode binaire : OUI / PARTIEL / NON). La zone ombrée autour d'IGENSIA représente une marge d'incertitude de ±12%, inhérente à cette approche. Un score élevé signifie que les critères sont documentés publiquement, pas nécessairement que la qualité d'exécution est maximale.</p>
+      </div>
     </div>
     <div id="radarTable" class="radar-table-wrapper"></div>
   </section>
@@ -94,7 +97,7 @@
   <p>Benchmark RSE — Mémoire IGENSIA Education — 2026</p>
 </footer>
 
-<script src="data.js?v=21"></script>
-<script src="app.js?v=21"></script>
+<script src="data.js?v=22"></script>
+<script src="app.js?v=22"></script>
 </body>
 </html>

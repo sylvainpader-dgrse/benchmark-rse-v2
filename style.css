@@ -659,6 +659,19 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   margin-top: 0.8rem;
   font-style: italic;
 }
+.radar-methodology {
+  margin-top: 1.2rem;
+  padding: 1rem;
+  background: #F5F0FF;
+  border-left: 3px solid var(--primary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.8rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+.radar-methodology strong {
+  color: var(--primary);
+}
 @media (max-width: 900px) {
   .radar-dual { grid-template-columns: 1fr; }
 }
