@@ -760,11 +760,21 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
 }
 .comparison-criterion:last-child { border-bottom: none; }
 .crit-summary {
-  font-size: 0.75rem;
-  color: var(--text-light);
-  margin-top: 0.2rem;
+  font-size: 0.78rem;
+  color: var(--text);
+  margin-top: 0.3rem;
+  margin-left: 12px;
+  line-height: 1.5;
+}
+.crit-focus {
+  font-size: 0.73rem;
+  color: var(--primary);
+  margin-top: 0.3rem;
   margin-left: 12px;
   line-height: 1.4;
+  padding: 0.3rem 0.5rem;
+  background: #F5F0FF;
+  border-radius: 4px;
 }
 .crit-other-item {
   display: flex;

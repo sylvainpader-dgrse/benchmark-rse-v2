@@ -791,17 +791,61 @@ function renderRadar() {
 // =============================
 // RADAR COMPARISON PANEL
 // =============================
-function getJustifSummary(justif) {
-  if (!justif) return '';
+function getJustifParts(justif) {
+  if (!justif) return { summary: '', bullets: [], focus: [] };
   const clean = justif.replace(/^(OUI|NON|PARTIEL)\s*[\u2014—-]\s*/i, '');
-  // Take everything before "Focus apprenants" or "Source :"
-  let text = clean.split(/Focus apprenants/i)[0];
-  text = text.split(/\nSource\s*:/i)[0];
-  // Remove bullet points and join into flowing text
-  text = text.replace(/\n+\u2022\s*/g, '. ').replace(/\n+/g, ' ').trim();
-  // Clean double periods/spaces
-  text = text.replace(/\.\s*\./g, '.').replace(/\s+/g, ' ');
-  return text;
+
+  // Split on Focus apprenants
+  const parts = clean.split(/Focus apprenants?\s*:/i);
+  const mainPart = parts[0] || '';
+  const focusPart = parts[1] || '';
+
+  // Remove Source lines
+  const mainClean = mainPart.split(/\nSource\s*:/i)[0];
+
+  // Extract summary: first sentence(s) before bullet points
+  const lines = mainClean.split('\n').filter(l => l.trim() && !l.trim().startsWith('\u2022'));
+  const firstLine = lines.join(' ').trim();
+
+  // Extract bullet points
+  const bullets = [];
+  const bulletMatches = mainClean.match(/\u2022\s*[^\n]+/g) || [];
+  bulletMatches.forEach(b => {
+    const text = b.replace(/^\u2022\s*/, '').trim();
+    if (text.length > 10) bullets.push(text);
+  });
+
+  // Extract focus apprenants bullets
+  const focus = [];
+  const focusClean = focusPart.split(/\nSource\s*:/i)[0];
+  const focusBullets = focusClean.match(/\u2022\s*[^\n]+/g) || [];
+  focusBullets.forEach(b => {
+    const text = b.replace(/^\u2022\s*/, '').trim();
+    if (text.length > 10) focus.push(text);
+  });
+
+  return { summary: firstLine, bullets, focus };
+}
+
+function findUniquePractices(otherParts, igParts) {
+  // Find bullet points from other school that are NOT in IGENSIA's justification
+  const igAll = (igParts.summary + ' ' + igParts.bullets.join(' ')).toLowerCase();
+  const unique = [];
+
+  // Check each bullet from the other school
+  otherParts.bullets.forEach(bullet => {
+    // Extract key terms (3+ char words)
+    const terms = bullet.toLowerCase().match(/[a-zàâéèêëïîôùûüç]{4,}/g) || [];
+    // Count how many key terms are also in IGENSIA's text
+    const overlap = terms.filter(t => igAll.includes(t)).length;
+    const overlapRatio = terms.length > 0 ? overlap / terms.length : 0;
+    // Keep if less than 50% overlap (= truly different practice)
+    if (overlapRatio < 0.5 && bullet.length > 15) {
+      unique.push(bullet);
+    }
+  });
+
+  return unique;
 }
 
 function renderRadarComparison(igensiaData) {
@@ -840,39 +884,69 @@ function renderRadarComparison(igensiaData) {
       const igV = igensiaData.verdicts[String(col)] || '';
       const critName = D.criteria[col - 1]?.name || '';
       const igJustifText = igJustif.justifs[String(col)] || '';
-      const igSummary = getJustifSummary(igJustifText);
+      const igParts = getJustifParts(igJustifText);
       const dotCls = igV === 'OUI' ? 'dot-oui' : igV === 'PARTIEL' ? 'dot-partiel' : 'dot-non';
 
-      // Collect what others do on this criterion
+      // IGENSIA side: summary + focus apprenants
+      let igHtml = `<div class="crit-summary">${escapeHTML(igParts.summary)}</div>`;
+      if (igParts.focus.length > 0) {
+        igHtml += `<div class="crit-focus"><strong>Apprenants :</strong> ${escapeHTML(igParts.focus[0])}</div>`;
+      }
+
+      // Others side: only unique/different practices
       let othersHtml = '';
+      let hasContent = false;
       otherSchools.forEach(({grille: s, justif: j}) => {
         const v = s.verdicts[String(col)] || '';
-        if (v === 'NON') return; // Skip if they don't do it either
-        const shortName = s.name.replace(/\n/g, ' ');
-        const summary = getJustifSummary(j.justifs[String(col)] || '');
-        if (!summary) return;
-        const oDotCls = v === 'OUI' ? 'dot-oui' : 'dot-partiel';
+        if (v === 'NON') return;
+        const shortName = s.name.replace(/\n/g, ' ').substring(0, 30);
+        const otherParts = getJustifParts(j.justifs[String(col)] || '');
         const isBetter = (igV === 'NON' && v !== 'NON') || (igV === 'PARTIEL' && v === 'OUI');
-        othersHtml += `<div class="crit-other-item ${isBetter ? 'is-better' : ''}">
-          <span class="crit-dot ${oDotCls}"></span>
-          <span><strong>${shortName}</strong> : ${escapeHTML(summary)}</span>
-        </div>`;
+
+        // Get unique practices (not already done by IGENSIA)
+        const unique = findUniquePractices(otherParts, igParts);
+
+        // Also check focus apprenants for unique student practices
+        const igFocusAll = igParts.focus.join(' ').toLowerCase();
+        const uniqueFocus = otherParts.focus.filter(f => {
+          const terms = f.toLowerCase().match(/[a-zàâéèêëïîôùûüç]{4,}/g) || [];
+          const overlap = terms.filter(t => igFocusAll.includes(t)).length;
+          return terms.length > 0 && (overlap / terms.length) < 0.5;
+        });
+
+        if (unique.length > 0 || uniqueFocus.length > 0) {
+          hasContent = true;
+          const cls = isBetter ? 'is-better' : '';
+          othersHtml += `<div class="crit-other-item ${cls}">
+            <span class="crit-dot ${v === 'OUI' ? 'dot-oui' : 'dot-partiel'}"></span>
+            <span><strong>${shortName}</strong> (${v})`;
+          unique.forEach(u => {
+            othersHtml += `<br>• ${escapeHTML(u)}`;
+          });
+          uniqueFocus.forEach(f => {
+            othersHtml += `<br><em>🎓 ${escapeHTML(f)}</em>`;
+          });
+          othersHtml += `</span></div>`;
+        }
       });
 
-      html += `<div class="comparison-criterion">
-        <div class="comparison-columns">
-          <div class="comparison-col col-igensia">
-            <div class="crit-line">
-              <span class="crit-dot ${dotCls}"></span>
-              <span class="crit-label"><strong>${critName}</strong> (${igV})</span>
+      // Only show this criterion if there's something to compare
+      if (hasContent || igV !== 'OUI') {
+        html += `<div class="comparison-criterion">
+          <div class="comparison-columns">
+            <div class="comparison-col col-igensia">
+              <div class="crit-line">
+                <span class="crit-dot ${dotCls}"></span>
+                <span class="crit-label"><strong>${critName}</strong> (${igV})</span>
+              </div>
+              ${igHtml}
             </div>
-            <div class="crit-summary">${escapeHTML(igSummary)}</div>
+            <div class="comparison-col col-others">
+              ${othersHtml || '<div class="comparison-empty">Pas de pratique différenciante identifiée</div>'}
+            </div>
           </div>
-          <div class="comparison-col col-others">
-            ${othersHtml || '<div class="comparison-empty">—</div>'}
-          </div>
-        </div>
-      </div>`;
+        </div>`;
+      }
     });
 
     html += `</div>`;
