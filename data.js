@@ -3278,8 +3278,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 4,
+          "fond": 4
         }
       },
       "comment": "COMMENTAIRE"
@@ -3319,8 +3319,8 @@ const BENCHMARK_DATA = {
           "fond": 4
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 4.5,
+          "fond": 5
         }
       },
       "comment": ""
@@ -3360,8 +3360,8 @@ const BENCHMARK_DATA = {
           "fond": 4
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 4,
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3401,8 +3401,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 1,
+          "fond": 1
         }
       },
       "comment": ""
@@ -3442,8 +3442,8 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 3,
+          "fond": 3
         }
       },
       "comment": ""
@@ -3483,8 +3483,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 3.5,
+          "fond": 4
         }
       },
       "comment": ""
@@ -3524,8 +3524,8 @@ const BENCHMARK_DATA = {
           "fond": 3
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 2.5,
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3565,8 +3565,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 3.5,
+          "fond": 4
         }
       },
       "comment": ""
@@ -3606,8 +3606,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 4,
+          "fond": 4.5
         }
       },
       "comment": ""
@@ -3647,8 +3647,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 4.5,
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3688,8 +3688,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 4,
+          "fond": 4
         }
       },
       "comment": ""
@@ -3729,8 +3729,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 2,
+          "fond": 1.5
         }
       },
       "comment": ""
@@ -3770,8 +3770,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 3,
+          "fond": 4
         }
       },
       "comment": ""
@@ -3811,8 +3811,8 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 2,
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3852,8 +3852,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 3.5,
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3893,8 +3893,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 3,
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3934,8 +3934,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 3.5,
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -3975,8 +3975,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 3,
+          "fond": 3.5
         }
       },
       "comment": ""
@@ -4016,8 +4016,8 @@ const BENCHMARK_DATA = {
           "fond": ""
         },
         "sylvain": {
-          "forme": "",
-          "fond": ""
+          "forme": 4,
+          "fond": 3.5
         }
       },
       "comment": ""
