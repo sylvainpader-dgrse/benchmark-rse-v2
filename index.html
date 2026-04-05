@@ -6,7 +6,7 @@
 <title>Benchmark RSE — IGENSIA Education</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=18">
+<link rel="stylesheet" href="style.css?v=19">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -67,16 +67,9 @@
       </div>
       <div id="radarChips" class="radar-chips"></div>
     </div>
-    <div class="radar-dual">
-      <div class="radar-chart-container">
-        <h3>Notre Benchmark (29 critères)</h3>
-        <canvas id="radarChart"></canvas>
-      </div>
-      <div class="radar-chart-container">
-        <h3>2050analytics (scoring /100)</h3>
-        <canvas id="radarChart2050"></canvas>
-        <p class="radar-note">Données disponibles pour 39 écoles sur 43. Source : 2050analytics.com</p>
-      </div>
+    <div class="radar-chart-container" style="max-width:700px; margin:0 auto;">
+      <h3>Notre Benchmark (29 critères — 6 axes)</h3>
+      <canvas id="radarChart"></canvas>
     </div>
     <div id="radarTable" class="radar-table-wrapper"></div>
   </section>
@@ -101,7 +94,7 @@
   <p>Benchmark RSE — Mémoire IGENSIA Education — 2026</p>
 </footer>
 
-<script src="data.js?v=18"></script>
-<script src="app.js?v=18"></script>
+<script src="data.js?v=19"></script>
+<script src="app.js?v=19"></script>
 </body>
 </html>
