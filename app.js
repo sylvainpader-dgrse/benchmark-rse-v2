@@ -61,10 +61,58 @@ function setupSearch() {
 }
 
 function renderAll() {
+  renderStats();
   renderGrille();
   renderJustifications();
   renderRadar();
   renderFocus();
+}
+
+function extractLabels(school, idx) {
+  const justif = D.justifications[idx];
+  if (!justif) return { labels: [], pacte: false };
+  const labelText = justif.justifs['4'] || '';
+  const labels = [];
+  if (/lucie/i.test(labelText)) labels.push('LUCIE');
+  if (/dd&rs|dd rs|ddrs/i.test(labelText) && /label/i.test(labelText) && /obtenu|renouvel|labellis/i.test(labelText)) labels.push('DD&RS');
+  if (/ecovadis/i.test(labelText)) labels.push('EcoVadis');
+  if (/iso.?14001/i.test(labelText)) labels.push('ISO 14001');
+  if (/b.?corp/i.test(labelText)) labels.push('B Corp');
+  const pacte = /pacte mondial|global compact/i.test(labelText);
+  return { labels, pacte };
+}
+
+function renderStats() {
+  const total = D.grille.length;
+  let labelled = 0, rapport = 0, pacte = 0;
+  D.grille.forEach((s, i) => {
+    if (s.verdicts['4'] === 'OUI') labelled++;
+    if (s.verdicts['26'] === 'OUI') rapport++;
+    const info = extractLabels(s, i);
+    if (info.pacte) pacte++;
+  });
+  const el = document.getElementById('statsBanner');
+  if (!el) return;
+  el.innerHTML = `
+    <div class="stat-card">
+      <div class="stat-num">${total}</div>
+      <div class="stat-label">Écoles & groupes analysés</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">${Math.round(labelled*100/total)}%</div>
+      <div class="stat-label">Labellisées RSE (${labelled}/${total})</div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${labelled*100/total}%"></div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">${Math.round(rapport*100/total)}%</div>
+      <div class="stat-label">Rapport RSE public (${rapport}/${total})</div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${rapport*100/total}%"></div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">${Math.round(pacte*100/total)}%</div>
+      <div class="stat-label">Pacte Mondial / Global Compact (${pacte}/${total})</div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${pacte*100/total}%"></div></div>
+    </div>`;
 }
 
 // --- Helpers ---
@@ -160,7 +208,15 @@ function renderGrille() {
   filtered.forEach(s => {
     const ig = isIgensia(s.name);
     body += `<tr class="${ig ? 'igensia-row' : ''}">`;
-    body += `<td class="school-cell ${ig ? 'igensia' : ''}">${s.name.replace(/\n/g, ' ')}</td>`;
+    const grilleIdx = D.grille.indexOf(s);
+    const labelInfo = extractLabels(s, grilleIdx);
+    let pills = '';
+    labelInfo.labels.forEach(l => {
+      const cls = l === 'DD&RS' ? 'pill-ddrs' : l === 'LUCIE' ? 'pill-lucie' : l === 'EcoVadis' ? 'pill-ecovadis' : l.includes('ISO') ? 'pill-iso' : 'pill-bcorp';
+      pills += `<span class="label-pill ${cls}">${l}</span>`;
+    });
+    if (labelInfo.pacte) pills += `<span class="label-pill pill-pacte">Pacte Mondial</span>`;
+    body += `<td class="school-cell ${ig ? 'igensia' : ''}">${s.name.replace(/\n/g, ' ')}${pills ? '<div class="school-labels">' + pills + '</div>' : ''}</td>`;
     for (let j = 1; j <= 29; j++) {
       const v = s.verdicts[j] || '';
       body += `<td>${badgeHTML(v)}</td>`;
