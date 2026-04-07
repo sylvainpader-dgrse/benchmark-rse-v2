@@ -213,7 +213,7 @@ function renderGrille() {
     { name: '2 — ENGAGEMENT PARTIES PRENANTES', cols: [6,8,11,13,14,15], color: '#2B5EA7' },
     { name: '3 — IMPACT ENVIRONNEMENTAL', cols: [16,17,18,19,20,21], color: '#4CAF50' },
     { name: '4 — QUALIT\u00c9 DE VIE & \u00c9GALIT\u00c9', cols: [7,23,24,25], color: '#E91E63' },
-    { name: '5 — UTILIT\u00c9 SOCI\u00c9TALE & TERRITOIRES', cols: [10,12,22], color: '#00BCD4' },
+    { name: '5 — UTILIT\u00c9 SOCI\u00c9TALE & TERRITOIRES', cols: [10,12,22,30,31,32,33], color: '#00BCD4' },
   ];
   catRanges.forEach(c => {
     catRow += `<th class="cat-header" colspan="${c.cols.length}" style="background:${c.color}">${c.name}</th>`;
@@ -229,7 +229,7 @@ function renderGrille() {
     const c = D.criteria[col - 1];
     if (c) critRow += `<th title="${c.name}">${c.name}</th>`;
   });
-  critRow += '<th class="score-col">/29</th></tr>';
+  critRow += '<th class="score-col">/33</th></tr>';
 
   document.getElementById('grilleHead').innerHTML = catRow + critRow;
 
@@ -298,7 +298,7 @@ function renderJustifications() {
     card.innerHTML = `
       <div class="justif-header" onclick="this.parentElement.classList.toggle('open')">
         <span class="school-name">${s.name.replace(/\n/g, ' ')}</span>
-        <span class="score-tag ${scoreClass(score)}">${score}/29</span>
+        <span class="score-tag ${scoreClass(score)}">${score}/33</span>
         <span class="arrow">&#9662;</span>
       </div>
       <div class="justif-body">${critHTML}</div>`;
@@ -546,7 +546,7 @@ const AXES = [
   { id: '2', name: 'Engagement\nParties Prenantes', cols: [6,8,11,13,14,15], max: 6 },
   { id: '3', name: 'Impact\nEnvironnemental', cols: [16,17,18,19,20,21], max: 6 },
   { id: '4', name: 'Qualit\u00e9 de Vie\n& \u00c9galit\u00e9', cols: [7,23,24,25], max: 4 },
-  { id: '5', name: 'Utilit\u00e9 Soci\u00e9tale\n& Territoires', cols: [10,12,22], max: 3 },
+  { id: '5', name: 'Utilit\u00e9 Soci\u00e9tale\n& Territoires', cols: [10,12,22,30,31,32,33], max: 7 },
 ];
 
 const RADAR_COLORS = [
@@ -782,9 +782,9 @@ function renderRadar() {
     });
 
     html += '<tr style="font-weight:900; border-top:2px solid var(--primary)"><td>TOTAL</td><td>29</td>';
-    allSchools.forEach(s => { html += `<td>${s.score}/29</td>`; });
+    allSchools.forEach(s => { html += `<td>${s.score}/33</td>`; });
     const avgTotal = D.grille.filter(s => !isIgensia(s.name)).reduce((sum, s) => sum + s.score, 0) / D.grille.filter(s => !isIgensia(s.name)).length;
-    html += `<td>${avgTotal.toFixed(1)}/29</td></tr>`;
+    html += `<td>${avgTotal.toFixed(1)}/33</td></tr>`;
     html += '</tbody></table>';
     tableEl.innerHTML = html;
   }
