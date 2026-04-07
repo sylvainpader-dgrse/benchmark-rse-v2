@@ -204,9 +204,12 @@ thead tr:nth-child(2) th {
 thead th:hover { background: var(--primary-light); }
 thead th.cat-header {
   background: var(--accent);
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   font-weight: 800;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  padding: 0.5rem 0.6rem;
+  text-transform: uppercase;
 }
 thead th.school-col {
   text-align: left;
