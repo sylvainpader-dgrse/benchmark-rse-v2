@@ -182,9 +182,9 @@ table {
 thead th {
   background: var(--primary);
   color: var(--white);
-  padding: 0.6rem 0.4rem;
+  padding: 0.6rem 0.5rem;
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   text-align: center;
   cursor: pointer;
   border-right: 2px solid var(--white);
@@ -192,6 +192,7 @@ thead th {
   position: sticky;
   top: 0;
   z-index: 10;
+  min-width: 90px;
 }
 thead tr:first-child th {
   top: 0;
