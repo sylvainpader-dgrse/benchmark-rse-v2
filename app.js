@@ -542,11 +542,11 @@ function handleCommentChange(e) {
 // TAB 4: RADAR PAR AXE
 // =============================
 const AXES = [
-  { id: '1', name: 'Gouvernance\nResponsable', cols: [1,2,3,4,5,9,26,27,28,29], max: 10 },
-  { id: '2', name: 'Engager nos\nParties Prenantes', cols: [6,8,11,13,14,15], max: 6 },
-  { id: '3', name: 'R\u00e9duire notre\nImpact Environnemental', cols: [16,17,18,19,20,21], max: 6 },
-  { id: '4', name: 'Qualit\u00e9 de Vie\n& \u00c9galit\u00e9 des Chances', cols: [7,23,24,25], max: 4 },
-  { id: '5', name: 'Utilit\u00e9 pour la\nSoci\u00e9t\u00e9 & Territoires', cols: [10,12,22,30,31,32,33], max: 7 },
+  { id: '1', name: 'Gouvernance', cols: [1,2,3,4,5,9,26,27,28,29], max: 10 },
+  { id: '2', name: 'Parties Prenantes', cols: [6,8,11,13,14,15], max: 6 },
+  { id: '3', name: 'Environnement', cols: [16,17,18,19,20,21], max: 6 },
+  { id: '4', name: 'Qualit\u00e9 de Vie', cols: [7,23,24,25], max: 4 },
+  { id: '5', name: 'Soci\u00e9t\u00e9 & Territoires', cols: [10,12,22,30,31,32,33], max: 7 },
 ];
 
 const RADAR_COLORS = [
