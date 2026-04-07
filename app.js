@@ -223,11 +223,25 @@ function renderGrille() {
   // Build column order from catRanges
   const colOrder = catRanges.flatMap(c => c.cols);
 
+  // Build color map: col -> lighter version of axis color
+  const colColorMap = {};
+  const lighterColors = {
+    '#260D66': '#3D1A8F',
+    '#E60F7D': '#F04090',
+    '#00B050': '#00CC5C',
+    '#00B0F0': '#33C0F5',
+    '#C49476': '#D4A88E',
+  };
+  catRanges.forEach(c => {
+    c.cols.forEach(col => { colColorMap[col] = lighterColors[c.color] || c.color; });
+  });
+
   // Build criteria header row
   let critRow = '<tr><th class="school-col">\u00c9cole / Groupe</th>';
   colOrder.forEach(col => {
     const c = D.criteria[col - 1];
-    if (c) critRow += `<th title="${c.name}">${c.name}</th>`;
+    const bg = colColorMap[col] || 'var(--primary)';
+    if (c) critRow += `<th title="${c.name}" style="background:${bg}">${c.name}</th>`;
   });
   critRow += '<th class="score-col">/37</th></tr>';
 
