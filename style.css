@@ -178,6 +178,7 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   font-size: 0.8rem;
+  table-layout: fixed;
 }
 thead th {
   background: var(--primary);
