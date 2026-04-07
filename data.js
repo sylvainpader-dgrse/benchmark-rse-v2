@@ -1,181 +1,176 @@
 const BENCHMARK_DATA = {
   "categories": [
     {
-      "id": "A",
-      "name": "A — GOUVERNANCE & PILOTAGE RSE",
+      "id": "1",
+      "name": "1 — GOUVERNANCE RESPONSABLE",
       "colStart": 1
     },
     {
-      "id": "B",
-      "name": "B — POLITIQUE SOCIALE & INCLUSION",
+      "id": "2",
+      "name": "2 — ENGAGEMENT PARTIES PRENANTES",
       "colStart": 6
     },
     {
-      "id": "C",
-      "name": "C — FORMATION & PÉDAGOGIE DD",
-      "colStart": 11
-    },
-    {
-      "id": "D",
-      "name": "D — EMPREINTE ENVIRONNEMENTALE",
+      "id": "3",
+      "name": "3 — IMPACT ENVIRONNEMENTAL",
       "colStart": 16
     },
     {
-      "id": "E",
-      "name": "E — CAMPUS & ACHATS RESPONSABLES",
-      "colStart": 22
+      "id": "4",
+      "name": "4 — QUALITÉ DE VIE & ÉGALITÉ",
+      "colStart": 7
     },
     {
-      "id": "F",
-      "name": "",
-      "colStart": 26
+      "id": "5",
+      "name": "5 — UTILITÉ SOCIÉTALE & TERRITOIRES",
+      "colStart": 10
     }
   ],
   "criteria": [
     {
       "col": 1,
       "name": "Poste RSE\ndédié au\nCOMEX/DG",
-      "category": "A"
+      "category": "1"
     },
     {
       "col": 2,
       "name": "Comité RSE\nopérationnel\nactif",
-      "category": "A"
+      "category": "1"
     },
     {
       "col": 3,
       "name": "Plan / feuille\nde route RSE\nformalisé",
-      "category": "A"
+      "category": "1"
     },
     {
       "col": 4,
       "name": "Label ou\ncertification\nRSE externe",
-      "category": "A"
+      "category": "1"
     },
     {
       "col": 5,
       "name": "Budget RSE\ndédié\n(connu/estimé)",
-      "category": "A"
+      "category": "1"
     },
     {
       "col": 6,
       "name": "Sensibilisation VSS",
-      "category": "B"
+      "category": "2"
     },
     {
       "col": 7,
       "name": "Accompagnement Handicap",
-      "category": "B"
+      "category": "4"
     },
     {
       "col": 8,
       "name": "Accord QVCT\nou équivalent",
-      "category": "B"
+      "category": "2"
     },
     {
       "col": 9,
       "name": "Dispositif\nanticorruption\n& alerte",
-      "category": "B"
+      "category": "1"
     },
     {
       "col": 10,
       "name": "Politique\ndiversité &\nouverture sociale",
-      "category": "B"
+      "category": "5"
     },
     {
       "col": 11,
       "name": "Socle DD\nobligatoire\n(heures ≥ 15h)",
-      "category": "C"
+      "category": "2"
     },
     {
       "col": 12,
       "name": "Parcours\nspécialisé\nRSE/DD diplômant",
-      "category": "C"
+      "category": "5"
     },
     {
       "col": 13,
       "name": "DD intégré\ndans 100%\ndes programmes",
-      "category": "C"
+      "category": "2"
     },
     {
       "col": 14,
       "name": "Formation des\nenseignants\naux enjeux DD",
-      "category": "C"
+      "category": "2"
     },
     {
       "col": 15,
       "name": "Fresque Climat\nou atelier\néquivalent",
-      "category": "C"
+      "category": "2"
     },
     {
       "col": 16,
       "name": "Bilan Carbone\nréalisé\n(scopes 1+2)",
-      "category": "D"
+      "category": "3"
     },
     {
       "col": 17,
       "name": "Scope 3\ninclus dans\nle bilan",
-      "category": "D"
+      "category": "3"
     },
     {
       "col": 18,
       "name": "Objectif\nréduction\nGES chiffré",
-      "category": "D"
+      "category": "3"
     },
     {
       "col": 19,
       "name": "Numérique\nresponsable\nformalisé",
-      "category": "D"
+      "category": "3"
     },
     {
       "col": 20,
       "name": "Politique\nmobilité\ndurable",
-      "category": "D"
+      "category": "3"
     },
     {
       "col": 21,
       "name": "Action Biodiversité",
-      "category": "D"
+      "category": "3"
     },
     {
       "col": 22,
       "name": "Charte achats\nresponsables\nadoptée",
-      "category": "E"
+      "category": "5"
     },
     {
       "col": 23,
       "name": "Tri et gestion\ndéchets\nformalisés",
-      "category": "E"
+      "category": "4"
     },
     {
       "col": 24,
       "name": "Campus certifié\nou éco-labellisé",
-      "category": "E"
+      "category": "4"
     },
     {
       "col": 25,
       "name": "Politique\nalimentation\ndurable campus",
-      "category": "E"
+      "category": "4"
     },
     {
       "col": 26,
       "name": "Rapport/page\nRSE public\ndisponible",
-      "category": "F"
+      "category": "1"
     },
     {
       "col": 27,
       "name": "Contenu mis\nà jour\n≤ 2 ans",
-      "category": "F"
+      "category": "1"
     },
     {
       "col": 28,
       "name": "Accessible\nen ≤ 3 clics\nsite web",
-      "category": "F"
+      "category": "1"
     },
     {
       "col": 29,
       "name": "KPIs RSE\npubliés avec\ndonnées chiffrées",
-      "category": "F"
+      "category": "1"
     }
   ],
   "grille": [
