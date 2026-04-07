@@ -85,12 +85,12 @@ const BENCHMARK_DATA = {
     {
       "col": 12,
       "name": "Accord QVCT ou équivalent",
-      "category": "2"
+      "category": "4"
     },
     {
       "col": 13,
       "name": "Sensibilisation VSS",
-      "category": "2"
+      "category": "4"
     },
     {
       "col": 14,
