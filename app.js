@@ -156,12 +156,11 @@ function scoreClass(score) {
 
 function getCatName(letter) {
   const names = {
-    'A': 'Gouvernance',
-    'B': 'Social',
-    'C': 'Formation',
-    'D': 'Environnement',
-    'E': 'Campus',
-    'F': 'Transparence'
+    '1': 'Gouvernance',
+    '2': 'Parties Prenantes',
+    '3': 'Environnement',
+    '4': 'Qualit\u00e9 de Vie',
+    '5': 'Utilit\u00e9 Soci\u00e9tale'
   };
   return names[letter] || letter;
 }
@@ -210,26 +209,27 @@ function renderGrille() {
   // Build category header row
   let catRow = '<tr><th class="school-col cat-header">ÉCOLE / GROUPE</th>';
   const catRanges = [
-    { name: 'A — GOUVERNANCE', cols: [1,2,3,4,5] },
-    { name: 'B — SOCIAL', cols: [6,7,8,9,10] },
-    { name: 'C — FORMATION', cols: [11,12,13,14,15] },
-    { name: 'D — ENVIRONNEMENT', cols: [16,17,18,19,20,21] },
-    { name: 'E — CAMPUS', cols: [22,23,24,25] },
-    { name: 'F — TRANSPARENCE', cols: [26,27,28,29] },
+    { name: '1 — GOUVERNANCE RESPONSABLE', cols: [1,2,3,4,5,9,26,27,28,29], color: '#2D1B4E' },
+    { name: '2 — ENGAGEMENT PARTIES PRENANTES', cols: [6,8,11,13,14,15], color: '#1B3A8C' },
+    { name: '3 — IMPACT ENVIRONNEMENTAL', cols: [16,17,18,19,20,21], color: '#00A651' },
+    { name: '4 — QUALIT\u00c9 DE VIE & \u00c9GALIT\u00c9', cols: [7,23,24,25], color: '#E6007E' },
+    { name: '5 — UTILIT\u00c9 SOCI\u00c9TALE & TERRITOIRES', cols: [10,12,22,30,31,32,33], color: '#0099CC' },
   ];
   catRanges.forEach(c => {
-    catRow += `<th class="cat-header" colspan="${c.cols.length}">${c.name}</th>`;
+    catRow += `<th class="cat-header" colspan="${c.cols.length}" style="background:${c.color}">${c.name}</th>`;
   });
   catRow += '<th class="cat-header score-col">SCORE</th></tr>';
 
+  // Build column order from catRanges
+  const colOrder = catRanges.flatMap(c => c.cols);
+
   // Build criteria header row
-  let critRow = '<tr><th class="school-col">École / Groupe</th>';
-  D.criteria.forEach((c, i) => {
-    if (i < 29) {
-      critRow += `<th title="${c.name}">${c.name}</th>`;
-    }
+  let critRow = '<tr><th class="school-col">\u00c9cole / Groupe</th>';
+  colOrder.forEach(col => {
+    const c = D.criteria[col - 1];
+    if (c) critRow += `<th title="${c.name}">${c.name}</th>`;
   });
-  critRow += '<th class="score-col">/29</th></tr>';
+  critRow += '<th class="score-col">/33</th></tr>';
 
   document.getElementById('grilleHead').innerHTML = catRow + critRow;
 
@@ -245,13 +245,13 @@ function renderGrille() {
       const cls = l === 'DD&RS' ? 'pill-ddrs' : l === 'LUCIE' ? 'pill-lucie' : l === 'EcoVadis' ? 'pill-ecovadis' : l.includes('ISO') ? 'pill-iso' : l === 'Label RSE' ? 'pill-ddrs' : 'pill-bcorp';
       pills += `<span class="label-pill ${cls}">${l}</span>`;
     });
-    if (labelInfo.sam) pills += `<span class="label-pill pill-sam">Société à Mission</span>`;
+    if (labelInfo.sam) pills += `<span class="label-pill pill-sam">Soci\u00e9t\u00e9 \u00e0 Mission</span>`;
     if (labelInfo.pacte) pills += `<span class="label-pill pill-pacte">Pacte Mondial</span>`;
     body += `<td class="school-cell ${ig ? 'igensia' : ''}">${s.name.replace(/\n/g, ' ')}${pills ? '<div class="school-labels">' + pills + '</div>' : ''}</td>`;
-    for (let j = 1; j <= 29; j++) {
+    colOrder.forEach(j => {
       const v = s.verdicts[j] || '';
       body += `<td>${badgeHTML(v)}</td>`;
-    }
+    });
     body += `<td class="score-cell ${scoreClass(s.score)}">${s.score}</td>`;
     body += '</tr>';
   });
@@ -298,7 +298,7 @@ function renderJustifications() {
     card.innerHTML = `
       <div class="justif-header" onclick="this.parentElement.classList.toggle('open')">
         <span class="school-name">${s.name.replace(/\n/g, ' ')}</span>
-        <span class="score-tag ${scoreClass(score)}">${score}/29</span>
+        <span class="score-tag ${scoreClass(score)}">${score}/33</span>
         <span class="arrow">&#9662;</span>
       </div>
       <div class="justif-body">${critHTML}</div>`;
@@ -542,12 +542,11 @@ function handleCommentChange(e) {
 // TAB 4: RADAR PAR AXE
 // =============================
 const AXES = [
-  { id: 'A', name: 'Gouvernance', cols: [1,2,3,4,5], max: 5 },
-  { id: 'B', name: 'Social', cols: [6,7,8,9,10], max: 5 },
-  { id: 'C', name: 'Formation', cols: [11,12,13,14,15], max: 5 },
-  { id: 'D', name: 'Environnement', cols: [16,17,18,19,20,21], max: 6 },
-  { id: 'E', name: 'Campus', cols: [22,23,24,25], max: 4 },
-  { id: 'F', name: 'Transparence', cols: [26,27,28,29], max: 4 },
+  { id: '1', name: 'Gouvernance\nResponsable', cols: [1,2,3,4,5,9,26,27,28,29], max: 10 },
+  { id: '2', name: 'Engagement\nParties Prenantes', cols: [6,8,11,13,14,15], max: 6 },
+  { id: '3', name: 'Impact\nEnvironnemental', cols: [16,17,18,19,20,21], max: 6 },
+  { id: '4', name: 'Qualit\u00e9 de Vie\n& \u00c9galit\u00e9', cols: [7,23,24,25], max: 4 },
+  { id: '5', name: 'Utilit\u00e9 Soci\u00e9tale\n& Territoires', cols: [10,12,22,30,31,32,33], max: 7 },
 ];
 
 const RADAR_COLORS = [
@@ -783,9 +782,9 @@ function renderRadar() {
     });
 
     html += '<tr style="font-weight:900; border-top:2px solid var(--primary)"><td>TOTAL</td><td>29</td>';
-    allSchools.forEach(s => { html += `<td>${s.score}/29</td>`; });
+    allSchools.forEach(s => { html += `<td>${s.score}/33</td>`; });
     const avgTotal = D.grille.filter(s => !isIgensia(s.name)).reduce((sum, s) => sum + s.score, 0) / D.grille.filter(s => !isIgensia(s.name)).length;
-    html += `<td>${avgTotal.toFixed(1)}/29</td></tr>`;
+    html += `<td>${avgTotal.toFixed(1)}/33</td></tr>`;
     html += '</tbody></table>';
     tableEl.innerHTML = html;
   }
