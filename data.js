@@ -1,196 +1,181 @@
 const BENCHMARK_DATA = {
   "categories": [
     {
-      "id": "1",
-      "name": "1 — GOUVERNANCE RESPONSABLE",
+      "id": "A",
+      "name": "A — GOUVERNANCE & PILOTAGE RSE",
       "colStart": 1
     },
     {
-      "id": "2",
-      "name": "2 — ENGAGEMENT PARTIES PRENANTES",
+      "id": "B",
+      "name": "B — POLITIQUE SOCIALE & INCLUSION",
       "colStart": 6
     },
     {
-      "id": "3",
-      "name": "3 — IMPACT ENVIRONNEMENTAL",
+      "id": "C",
+      "name": "C — FORMATION & PÉDAGOGIE DD",
+      "colStart": 11
+    },
+    {
+      "id": "D",
+      "name": "D — EMPREINTE ENVIRONNEMENTALE",
       "colStart": 16
     },
     {
-      "id": "4",
-      "name": "4 — QUALITÉ DE VIE & ÉGALITÉ",
-      "colStart": 7
+      "id": "E",
+      "name": "E — CAMPUS & ACHATS RESPONSABLES",
+      "colStart": 22
     },
     {
-      "id": "5",
-      "name": "5 — UTILITÉ SOCIÉTALE & TERRITOIRES",
-      "colStart": 10
+      "id": "F",
+      "name": "",
+      "colStart": 26
     }
   ],
   "criteria": [
     {
       "col": 1,
       "name": "Poste RSE\ndédié au\nCOMEX/DG",
-      "category": "1"
+      "category": "A"
     },
     {
       "col": 2,
       "name": "Comité RSE\nopérationnel\nactif",
-      "category": "1"
+      "category": "A"
     },
     {
       "col": 3,
       "name": "Plan / feuille\nde route RSE\nformalisé",
-      "category": "1"
+      "category": "A"
     },
     {
       "col": 4,
       "name": "Label ou\ncertification\nRSE externe",
-      "category": "1"
+      "category": "A"
     },
     {
       "col": 5,
       "name": "Budget RSE\ndédié\n(connu/estimé)",
-      "category": "1"
+      "category": "A"
     },
     {
       "col": 6,
       "name": "Sensibilisation VSS",
-      "category": "2"
+      "category": "B"
     },
     {
       "col": 7,
       "name": "Accompagnement Handicap",
-      "category": "4"
+      "category": "B"
     },
     {
       "col": 8,
       "name": "Accord QVCT\nou équivalent",
-      "category": "2"
+      "category": "B"
     },
     {
       "col": 9,
       "name": "Dispositif\nanticorruption\n& alerte",
-      "category": "1"
+      "category": "B"
     },
     {
       "col": 10,
       "name": "Politique\ndiversité &\nouverture sociale",
-      "category": "5"
+      "category": "B"
     },
     {
       "col": 11,
       "name": "Socle DD\nobligatoire\n(heures ≥ 15h)",
-      "category": "2"
+      "category": "C"
     },
     {
       "col": 12,
       "name": "Parcours\nspécialisé\nRSE/DD diplômant",
-      "category": "5"
+      "category": "C"
     },
     {
       "col": 13,
       "name": "DD intégré\ndans 100%\ndes programmes",
-      "category": "2"
+      "category": "C"
     },
     {
       "col": 14,
       "name": "Formation des\nenseignants\naux enjeux DD",
-      "category": "2"
+      "category": "C"
     },
     {
       "col": 15,
       "name": "Fresque Climat\nou atelier\néquivalent",
-      "category": "2"
+      "category": "C"
     },
     {
       "col": 16,
       "name": "Bilan Carbone\nréalisé\n(scopes 1+2)",
-      "category": "3"
+      "category": "D"
     },
     {
       "col": 17,
       "name": "Scope 3\ninclus dans\nle bilan",
-      "category": "3"
+      "category": "D"
     },
     {
       "col": 18,
       "name": "Objectif\nréduction\nGES chiffré",
-      "category": "3"
+      "category": "D"
     },
     {
       "col": 19,
       "name": "Numérique\nresponsable\nformalisé",
-      "category": "3"
+      "category": "D"
     },
     {
       "col": 20,
       "name": "Politique\nmobilité\ndurable",
-      "category": "3"
+      "category": "D"
     },
     {
       "col": 21,
       "name": "Action Biodiversité",
-      "category": "3"
+      "category": "D"
     },
     {
       "col": 22,
       "name": "Charte achats\nresponsables\nadoptée",
-      "category": "5"
+      "category": "E"
     },
     {
       "col": 23,
       "name": "Tri et gestion\ndéchets\nformalisés",
-      "category": "4"
+      "category": "E"
     },
     {
       "col": 24,
       "name": "Campus certifié\nou éco-labellisé",
-      "category": "4"
+      "category": "E"
     },
     {
       "col": 25,
       "name": "Politique\nalimentation\ndurable campus",
-      "category": "4"
+      "category": "E"
     },
     {
       "col": 26,
       "name": "Rapport/page\nRSE public\ndisponible",
-      "category": "1"
+      "category": "F"
     },
     {
       "col": 27,
       "name": "Contenu mis\nà jour\n≤ 2 ans",
-      "category": "1"
+      "category": "F"
     },
     {
       "col": 28,
       "name": "Accessible\nen ≤ 3 clics\nsite web",
-      "category": "1"
+      "category": "F"
     },
     {
       "col": 29,
       "name": "KPIs RSE\npubliés avec\ndonnées chiffrées",
-      "category": "1"
-    },
-    {
-      "col": 30,
-      "name": "Citoyenneté apprenants (projets solidaires)",
-      "category": "5"
-    },
-    {
-      "col": 31,
-      "name": "Mécénat de projets locaux d'intérêt général",
-      "category": "5"
-    },
-    {
-      "col": 32,
-      "name": "Vie associative campus (étudiants)",
-      "category": "5"
-    },
-    {
-      "col": 33,
-      "name": "Achat inclusif et local",
-      "category": "5"
+      "category": "F"
     }
   ],
   "grille": [
@@ -225,13 +210,9 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "OUI",
-        "31": "OUI",
-        "32": "OUI",
-        "33": "PARTIEL"
+        "29": "OUI"
       },
-      "score": 26.0
+      "score": 22.5
     },
     {
       "name": "HEC PARIS",
@@ -264,11 +245,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 27.0
     },
@@ -303,11 +280,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 28.5
     },
@@ -342,11 +315,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "PARTIEL",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 24.5
     },
@@ -381,11 +350,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 27.0
     },
@@ -420,11 +385,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 25.5
     },
@@ -459,11 +420,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 27.0
     },
@@ -498,11 +455,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 27.5
     },
@@ -537,11 +490,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 24.0
     },
@@ -576,11 +525,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 24.5
     },
@@ -615,11 +560,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 22.0
     },
@@ -654,11 +595,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 25.0
     },
@@ -693,11 +630,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 23.5
     },
@@ -732,11 +665,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 23.5
     },
@@ -771,11 +700,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 23.5
     },
@@ -810,11 +735,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 26.0
     },
@@ -849,11 +770,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 24.0
     },
@@ -888,11 +805,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 19.5
     },
@@ -927,11 +840,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 24.0
     },
@@ -966,11 +875,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "NON",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON"
       },
       "score": 17.0
     },
@@ -1005,11 +910,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 26.5
     },
@@ -1044,11 +945,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 15.0
     },
@@ -1083,11 +980,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 23.0
     },
@@ -1122,11 +1015,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 19.5
     },
@@ -1161,11 +1050,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 21.0
     },
@@ -1200,11 +1085,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 18.0
     },
@@ -1239,11 +1120,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 18.0
     },
@@ -1278,11 +1155,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 18.5
     },
@@ -1317,11 +1190,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 18.5
     },
@@ -1356,11 +1225,7 @@ const BENCHMARK_DATA = {
         "26": "NON",
         "27": "NON",
         "28": "PARTIEL",
-        "29": "NON",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON"
       },
       "score": 4.0
     },
@@ -1395,11 +1260,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 12.0
     },
@@ -1434,11 +1295,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 16.0
     },
@@ -1473,11 +1330,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 25.5
     },
@@ -1512,11 +1365,7 @@ const BENCHMARK_DATA = {
         "26": "PARTIEL",
         "27": "PARTIEL",
         "28": "PARTIEL",
-        "29": "NON",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON"
       },
       "score": 7.0
     },
@@ -1551,11 +1400,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 22.0
     },
@@ -1590,11 +1435,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "PARTIEL",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL"
       },
       "score": 22.0
     },
@@ -1629,11 +1470,7 @@ const BENCHMARK_DATA = {
         "26": "PARTIEL",
         "27": "OUI",
         "28": "OUI",
-        "29": "NON",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON"
       },
       "score": 8.0
     },
@@ -1668,11 +1505,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 19.0
     },
@@ -1707,11 +1540,7 @@ const BENCHMARK_DATA = {
         "26": "PARTIEL",
         "27": "OUI",
         "28": "OUI",
-        "29": "NON",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON"
       },
       "score": 9.5
     },
@@ -1746,11 +1575,7 @@ const BENCHMARK_DATA = {
         "26": "NON",
         "27": "NON",
         "28": "NON",
-        "29": "NON",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON"
       },
       "score": 2.0
     },
@@ -1785,11 +1610,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "OUI",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI"
       },
       "score": 24.5
     },
@@ -1824,11 +1645,7 @@ const BENCHMARK_DATA = {
         "26": "PARTIEL",
         "27": "PARTIEL",
         "28": "OUI",
-        "29": "NON",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON"
       },
       "score": 11.0
     }
@@ -1865,11 +1682,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport RSE 2024-2025 du Groupe IGENSIA Education publiquement disponible en PDF sur le site officiel : igensia-education.fr/notre-demarche-rse\n• Page dédiée RSE accessible sur le site institutionnel\n• Rapport de 48 pages couvrant l'ensemble des dimensions RSE (gouvernance, apprenants, collaborateurs, campus, partenaires)\n\nFocus apprenants :\n• Le rapport contient une section entière dédiée aux engagements envers les apprenants (pp. 14-27). Source : igensia-education.fr/notre-demarche-rse\n• Rapport RSE 2024-2025, daté 02/2026",
         "27": "OUI — Le rapport RSE 2024-2025 est publié en février 2026, soit moins de 2 ans après les données présentées (exercice 2024-2025).\n\n• La page RSE du site est à jour avec références à la labellisation LUCIE 26000 obtenue en juin 2025\n\nFocus apprenants :\n• Les données apprenants (chiffres HOPEN 2024-2025, Hand'IGS, FOR ME) sont contemporaines de la publication. Source : Rapport RSE 2024-2025, p. 48 (mention 02/2026) ; igensia-education.fr/notre-demarche-rse",
         "28": "OUI — La page RSE est accessible en moins de 3 clics depuis la page d'accueil : Accueil → Groupe → Démarche RSE.\n\n• Menu principal visible en haut du site\n• Le rapport PDF est directement téléchargeable depuis cette page via un lien explicite\n\nFocus apprenants :\n• Un apprenant ou futur apprenant peut accéder au rapport RSE et à la démarche en moins de 3 clics. Source : igensia-education.fr, navigation vérifiée",
-        "29": "OUI — Le rapport RSE 2024-2025 publie des KPIs chiffrés : 25 498 tCO2e totales (scopes 1+2+3), objectif -40% à 2030, -33% consommation énergie 2021-2024, 2 300 apprenants HOPEN, 30h formation DD/an, 1 744 alternants QPPV, 594 apprenants handicap, 7 tCO2e évitées tri sélectif Paris, 10,5 tCO2e évitées Karos, index égalité 76/100 (2024), 36% directions terminé saison 1.\n\nFocus apprenants :\n• Les indicateurs apprenants sont chiffrés et sourcés (participation HOPEN, taux handicap, insertion professionnelle 91%). Source : Rapport RSE 2024-2025, multiples pages",
-        "30": "OUI — Programme QPPV (1 744 alternants issus de Quartiers Prioritaires accompagnés en 2024-2025), séminaire HOPEN pour l'engagement citoyen, partenariat Restos du Cœur.\n\nFocus apprenants :\n• Les apprenants sont engagés dans des projets solidaires via le programme QPPV et les associations étudiantes",
-        "31": "OUI — Partenariats avec Restos du Cœur, ANLCI (lutte contre l'illettrisme), Fondation Mozaïk (diversité), Café Joyeux (insertion handicap). Forum associations prévu dans la feuille de route LUCIE (ENG-10).\n\nFocus apprenants :\n• Les apprenants participent aux actions de mécénat via les associations étudiantes et les événements solidaires",
-        "32": "OUI — Why Not Factory (incubateur national), associations étudiantes actives sur les campus, événementiel responsable (ENG-27), Semaine RSE de l'IMSI.\n\nFocus apprenants :\n• Vie associative dynamique avec incubateur et événements RSE",
-        "33": "PARTIEL — Charte achats responsables adoptée en 2025 intègre des critères de proximité, mais l'inventaire des fournisseurs locaux est en cours (ENG-12, échéance 2026).\n\nFocus apprenants :\n• Les achats campus (restauration, fournitures) intègrent progressivement des fournisseurs locaux"
+        "29": "OUI — Le rapport RSE 2024-2025 publie des KPIs chiffrés : 25 498 tCO2e totales (scopes 1+2+3), objectif -40% à 2030, -33% consommation énergie 2021-2024, 2 300 apprenants HOPEN, 30h formation DD/an, 1 744 alternants QPPV, 594 apprenants handicap, 7 tCO2e évitées tri sélectif Paris, 10,5 tCO2e évitées Karos, index égalité 76/100 (2024), 36% directions terminé saison 1.\n\nFocus apprenants :\n• Les indicateurs apprenants sont chiffrés et sourcés (participation HOPEN, taux handicap, insertion professionnelle 91%). Source : Rapport RSE 2024-2025, multiples pages"
       },
       "sources": "https://www.igensia-education.fr/notre-demarche-rse"
     },
@@ -1904,11 +1717,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Sustainability Report 2024 (52 pages) publié publiquement.\n\n• DPEF 2024 (4ème édition)\n• Rapport PRME 2024 (2ème édition, juillet 2024)\n• Rapport UN Global Compact (novembre 2024)\n• Page dédiée HEC Sustainability sur le site\n\nFocus apprenants :\n• Le rapport est librement accessible et présente des données sur les programmes étudiants",
         "27": "OUI — Rapport 2024 couvrant l'année académique 2023-2024 ET l'année civile 2024.\n\n• DPEF complétée en juin 2024\n• Données fraîches, mises à jour annuellement\n\nFocus apprenants :\n• Les indicateurs pédagogiques (% heures ESG, nombre d'étudiants) sont mis à jour chaque année académique",
         "28": "OUI — Page hec.edu/sustainability directement accessible depuis la homepage\n• Rapport téléchargeable en PDF\n• Page LinkedIn S&O Institute (4 900 abonnés, 100+ posts/an)\n• P.17\n\nFocus apprenants :\n• Section dédiée aux étudiants et aux programmes sur la page sustainability",
-        "29": "OUI — Nombreux KPIs chiffrés publiés : 27% MBA / 43% EMBA heures ESG ; 380 étudiants Parcours Engagement ; 3 000+ h service civique ; 452 t déchets ; 32 t bio-déchets ; -278 tCO₂ viande ; 358 staff formés éthique ; 70,8/100 bien-être staff ; 13 000+ élèves Égalité des Chances ; 61 startups incubées.\n\n• P.4-51\n\nFocus apprenants :\n• Les KPIs apprenants sont particulièrement détaillés : heures, nombre d'étudiants, partenaires entreprises, bourses",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — Nombreux KPIs chiffrés publiés : 27% MBA / 43% EMBA heures ESG ; 380 étudiants Parcours Engagement ; 3 000+ h service civique ; 452 t déchets ; 32 t bio-déchets ; -278 tCO₂ viande ; 358 staff formés éthique ; 70,8/100 bien-être staff ; 13 000+ élèves Égalité des Chances ; 61 startups incubées.\n\n• P.4-51\n\nFocus apprenants :\n• Les KPIs apprenants sont particulièrement détaillés : heures, nombre d'étudiants, partenaires entreprises, bourses"
       },
       "sources": "https://www.hec.edu/sites/default/files/documents/Sustainability%20Report%202024_HEC%20Paris%20%281%29.pdf\n\nhttps://2050analytics.com/fr/org/3236.hec-paris\n\nhttps://www.hec.edu/fr"
     },
@@ -1943,11 +1752,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport DD&RS 2025 (22 pages) public sur essec.\n\n• Site essec.edu/together\n• Rapports PRME\n• Page dédiée Together\n• Rapport annuel\n• P.1-22\n\nFocus apprenants :\n• Le rapport présente des KPIs directement centrés sur les apprenants (100% formés, 130h, 30% spécialisés, 350+ handicap…)",
         "27": "OUI — Rapport 2025 couvrant années académiques 2023/2024 et 2024/2025.\n\n• Données actualisées annuellement\n• KPIs comparatifs 23/24 vs 18/19 publiés\n• P.3, 15\n\nFocus apprenants :\n• Les indicateurs pédagogiques et étudiants sont mis à jour chaque rentrée académique",
         "28": "OUI — Section Together accessible depuis la homepage essec.\n\n• Rapport téléchargeable\n• LinkedIn Together actif\n• Page executive-education.essec.edu avec certificat RSE directement accessible\n\nFocus apprenants :\n• Page dédiée aux programmes étudiants DD&RS accessible en 2 clics",
-        "29": "OUI — KPIs chiffrés publiés : 100% étudiants formés ; 130h obligatoires GE / 120h GBBA ; 30% spécialisation DD&RS ; 37 ETP Together ; 350+ étudiants handicap soutenus ; 89/100 index égalité pro ; -10% empreinte carbone/étudiant ; x1,9 taux recyclage ; -30% déchets ; 33% publications DD&RS ; 60 profs Guilde ; -40% énergie visé.\n\nFocus apprenants :\n• La majorité des KPIs publiés sont directement centrés sur les apprenants",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs chiffrés publiés : 100% étudiants formés ; 130h obligatoires GE / 120h GBBA ; 30% spécialisation DD&RS ; 37 ETP Together ; 350+ étudiants handicap soutenus ; 89/100 index égalité pro ; -10% empreinte carbone/étudiant ; x1,9 taux recyclage ; -30% déchets ; 33% publications DD&RS ; 60 profs Guilde ; -40% énergie visé.\n\nFocus apprenants :\n• La majorité des KPIs publiés sont directement centrés sur les apprenants"
       },
       "sources": "https://assets.ctfassets.net/vmb6iqn8sgcm/1AoLEi0C4L4pGygYA4WJQu/60b0aeae54fb13320fd9c33b21171613/2025_ESSEC_RAPPORT_DDRS_FR.pdf\n\nhttps://2050analytics.com/fr/org/18730.essec-business-school\n\nhttps://www.essec.edu/fr/"
     },
@@ -1982,11 +1787,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport DDRS 2023 public (36 pages), disponible sur edhec.\n\n• Page dédiée politique DDRS sur edhec.edu\n• Membre PRME avec rapports SIP\n• Positive Impact Rating publié annuellement\n• P.1-36 rapport DDRS 2023\n\nFocus apprenants :\n• Le rapport présente des KPIs centrés sur les apprenants (100% formés, 14% boursiers, 1 300+ bourses/an)",
         "27": "PARTIEL — Rapport DDRS publié en 2023 couvrant principalement les données 2022.\n\n• Bilan carbone réalisé pour la première fois en 2022\n• Suivi carbone tous les 2 ans (pas annuel)\n• Données partiellement à jour\n• Page DDRS du site peu mise à jour depuis\n\nFocus apprenants :\n• Les indicateurs pédagogiques (100% étudiants formés, % boursiers) sont les plus régulièrement actualisés",
         "28": "OUI — Page edhec.edu/fr/decouvrir-edhec/politique-ddrs accessible depuis le menu principal\n• Rapport téléchargeable\n• EDHEC Vox portail dédié à la diffusion des recherches\n\nFocus apprenants :\n• Section dédiée aux programmes DD et à l'engagement étudiant accessible facilement depuis le site",
-        "29": "PARTIEL — KPIs publiés mais limités : 100% étudiants formés ; 14% boursiers (objectif 20%) ; 3 M€ bourses ; +60 startups/an ; 25% publications RSE ; 47% présidentes asso.\n\n• Peu de KPIs environnementaux chiffrés et comparatifs dans le rapport 2023 (premier bilan carbone, pas encore de trajectoire de réduction chiffrée avec données historiques)\n• P.3, 28 rapport DDRS 2023\n\nFocus apprenants :\n• Les KPIs apprenants (boursiers, formations, associations) sont les mieux documentés ; les KPIs campus restent à consolider",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — KPIs publiés mais limités : 100% étudiants formés ; 14% boursiers (objectif 20%) ; 3 M€ bourses ; +60 startups/an ; 25% publications RSE ; 47% présidentes asso.\n\n• Peu de KPIs environnementaux chiffrés et comparatifs dans le rapport 2023 (premier bilan carbone, pas encore de trajectoire de réduction chiffrée avec données historiques)\n• P.3, 28 rapport DDRS 2023\n\nFocus apprenants :\n• Les KPIs apprenants (boursiers, formations, associations) sont les mieux documentés ; les KPIs campus restent à consolider"
       },
       "sources": "https://www.edhec.edu/sites/default/files/2023-07/rapport-ddrs-2023-edhec.pdf\nhttps://www.edhec.edu/fr\nhttps://2050analytics.com/fr/org/17973.edhec-business-school"
     },
@@ -2021,11 +1822,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport d'engagement 2025 (38 pages) public sur em-lyon.\n\n• DPEF 2024-2025 vérifiée par OTI accrédité COFRAC, publique\n• 5ème édition DPEF\n• Rapport engagement 2025 p.1, DPEF p.1\n\nFocus apprenants :\n• Les deux documents présentent des KPIs directement centrés sur les apprenants (100% formés, boursiers, handicap, engagements responsables)",
         "27": "OUI — DPEF exercice clos 30 juin 2025, vérifiée en octobre 2025.\n\n• Rapport d'engagement 2025 publié\n• Données annualisées et mises à jour\n• 5ème DPEF consécutive\n• DPEF p.1\n\nFocus apprenants :\n• Les indicateurs pédagogiques et étudiants (engagements, boursiers, handicap) sont mis à jour annuellement et vérifiés par l'OTI",
         "28": "OUI — Section dédiée \"Engagement social et environnemental\" accessible depuis le menu principal em-lyon.\n\n• Rapport d'engagement et DPEF téléchargeables directement\n\nFocus apprenants :\n• Page ESE accessible en 2 clics depuis la homepage ; section programmes DD directement liée",
-        "29": "OUI — KPIs chiffrés publiés et vérifiés OTI : -30% émissions GES (2022-2025) ; 1 747 engagements responsables ; 100% projets expérientiels avec dimension ESG ; 100% cours SDGs Inside ; % boursiers CROUS ; étudiants handicap accompagnés ; kWh/m²/an ; m³/m² eau ; % femmes corps professoral.\n\n• DPEF annexe 1, Rapport 2025 p.7\n\nFocus apprenants :\n• La majorité des KPIs vérifiés par l'OTI sont centrés sur les apprenants (boursiers, engagements responsables, handicap, formation ESG)",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs chiffrés publiés et vérifiés OTI : -30% émissions GES (2022-2025) ; 1 747 engagements responsables ; 100% projets expérientiels avec dimension ESG ; 100% cours SDGs Inside ; % boursiers CROUS ; étudiants handicap accompagnés ; kWh/m²/an ; m³/m² eau ; % femmes corps professoral.\n\n• DPEF annexe 1, Rapport 2025 p.7\n\nFocus apprenants :\n• La majorité des KPIs vérifiés par l'OTI sont centrés sur les apprenants (boursiers, engagements responsables, handicap, formation ESG)"
       },
       "sources": "https://res.cloudinary.com/emlyon/image/upload/v1765364826/PDF/ESE/declaration-de-performance-extra-financiere-avi-oti-2024-2025.pdf\nhttps://res.cloudinary.com/emlyon/image/upload/v1768830781/Documents-a-heberger/rapport-d-engagement-2025-emlyon-v4.pdf\n\nhttps://em-lyon.com/fr/responsabilite-sociale-et-environnementale"
     },
@@ -2060,11 +1857,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Site dédié impakt.\n\n• kedge.edu (rapport DD 100% en ligne, note ecoindex A, sobre et accessible)\n• Rapport DD publié annuellement depuis 15+ ans (10ème édition publiée en 2020/2021)\n• Page RSE sur kedge.edu/l-ecole/rse\n• Labels et engagements tous publics. impakt.kedge.edu\n\nFocus apprenants :\n• Le site IMPAKT présente des chiffres clés directement liés aux apprenants (100% étudiants sensibilisés, 6,5 M€ aides, 19 000h bénévolat, 43% diplômés premier job en transition)",
         "27": "OUI — Chiffres clés 2024/2025 publiés sur impakt.\n\n• kedge.edu/nos-realisations\n• Rapport DD mis à jour annuellement (15+ éditions)\n• Plan Climat actualisé chaque année\n• KPIs par engagement suivis et publiés. impakt.kedge.edu/nos-realisations\n\nFocus apprenants :\n• Les KPIs apprenants (100% sensibilisés, 6,5 M€ aides, 43% premier job impact) sont mis à jour annuellement",
         "28": "OUI — Section KEDGE IMPAKT accessible en 2 clics depuis kedge.\n\n• edu (menu \"À propos\" → \"Transition durable & inclusive\" → \"KEDGE IMPAKT\")\n• Site impakt.kedge.edu dédié, sobre et accessible (ecoindex A). impakt.kedge.edu\n\nFocus apprenants :\n• La page impakt.kedge.edu est conçue pour être accessible à tous, y compris aux étudiants en situation de handicap visuel (normes accessibilité numérique respectées)",
-        "29": "PARTIEL — KPIs publiés annuellement sur impakt.\n\n• kedge.edu : -50% CO2 depuis 2018 ; 100% étudiants sensibilisés ; 100% appels d'offre avec critères RSE ; 6,5 M€ aides étudiants ; 19 000h bénévolat tutorat ; 43% diplômés premier job en transition ; 89% collaborateurs formés éthique ; 170+ cours\n• Mais peu de données chiffrées détaillées (tonnes CO2 absolues, nb étudiants handicap, % boursiers, consommation énergie kWh) comparé à HEC, ESSEC ou emlyon (DPEF vérifiée OTI). impakt.kedge.edu/nos-realisations\n\nFocus apprenants :\n• Les KPIs \"formation\" (100% sensibilisés, 170+ cours, 43% diplômés) sont bien documentés ; les KPIs sociaux apprenants (handicap, boursiers) sont moins précis",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — KPIs publiés annuellement sur impakt.\n\n• kedge.edu : -50% CO2 depuis 2018 ; 100% étudiants sensibilisés ; 100% appels d'offre avec critères RSE ; 6,5 M€ aides étudiants ; 19 000h bénévolat tutorat ; 43% diplômés premier job en transition ; 89% collaborateurs formés éthique ; 170+ cours\n• Mais peu de données chiffrées détaillées (tonnes CO2 absolues, nb étudiants handicap, % boursiers, consommation énergie kWh) comparé à HEC, ESSEC ou emlyon (DPEF vérifiée OTI). impakt.kedge.edu/nos-realisations\n\nFocus apprenants :\n• Les KPIs \"formation\" (100% sensibilisés, 170+ cours, 43% diplômés) sont bien documentés ; les KPIs sociaux apprenants (handicap, boursiers) sont moins précis"
       },
       "sources": "https://kedge.edu/\nhttps://impakt.kedge.edu/\nhttps://impakt.kedge.edu/nos-engagements\nhttps://kedge.edu/l-ecole/rse/rapports-et-publications-developpement-durable-kedge"
     },
@@ -2099,11 +1892,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport de Société à Mission 2025 (40p, octobre 2025, audité OTI KPMG).\n\n• Communication sur l'Engagement PRME 2024 (38p, janvier 2025)\n• Section « GEM Société à Mission » sur grenoble-em.com avec 7 sous-rubriques (Raison d'être, Campus responsable, Politique Sociale, Égalité F/H, Pédagogie pour les transitions, Recherche à Impact, Écosystèmes)\n• Rapport SàM 2025 p.1-3\n\nFocus apprenants :\n• les deux rapports sont publics et librement téléchargeables, rendant lisible pour les candidats et étudiants l'engagement réel de l'école",
         "27": "OUI — Rapport SàM 2025 publié octobre 2025, audité par KPMG.\n\n• Communication PRME 2024 publiée janvier 2025\n• Deux rapports sur la période de 12 mois\n• Indicateurs présentés à l'OTI KPMG lors de l'audit d'octobre 2025\n• Rapport SàM 2025 p.16\n\nFocus apprenants :\n• les indicateurs apprenants (alternants, exonérations, handicap, VSS, bourses) sont mis à jour et audités annuellement",
         "28": "OUI — Menu principal → « L'École » → « GEM Société à Mission » : accessible en 2 clics depuis la page d'accueil.\n\n• Sous-rubriques directement listées dans le menu de navigation\n• Page Santé/Prévention/Diversité/Inclusion accessible en 3 clics via « Expérience GEM ». grenoble-em.com\n\nFocus apprenants :\n• la page dédiée aux services apprenants (santé, handicap, VSS, bourses) est accessible en moins de 3 clics depuis l'accueil",
-        "29": "OUI — KPIs chiffrés et audités par KPMG : 9,5 ktCO₂ (bilan carbone 2024-2025), 87/100 (index égalité F/H), 1 684 alternants, 308 exonérations PGE, 174 étudiants handicap, 20 bourses Fondation, 65% syllabi RSE, 98% objectifs RSE atteints, 273 collaborateurs formés, 62 partenariats territoriaux, 694 000 € de financement partenaires.\n\n• Rapport SàM 2025 p.18-31\n\nFocus apprenants :\n• les KPIs apprenants (alternance, handicap, bourses, VSS, acquisition compétences RSE) sont parmi les plus détaillés et les mieux documentés du benchmark",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs chiffrés et audités par KPMG : 9,5 ktCO₂ (bilan carbone 2024-2025), 87/100 (index égalité F/H), 1 684 alternants, 308 exonérations PGE, 174 étudiants handicap, 20 bourses Fondation, 65% syllabi RSE, 98% objectifs RSE atteints, 273 collaborateurs formés, 62 partenariats territoriaux, 694 000 € de financement partenaires.\n\n• Rapport SàM 2025 p.18-31\n\nFocus apprenants :\n• les KPIs apprenants (alternance, handicap, bourses, VSS, acquisition compétences RSE) sont parmi les plus détaillés et les mieux documentés du benchmark"
       },
       "sources": "https://www.grenoble-em.com/wp-content/uploads/GEM_Rapport_societe_mission_5512ffaf87.pdf\n\nhttps://www.grenoble-em.com/"
     },
@@ -2138,11 +1927,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport de Responsabilité Sociétale 2024-25 (44 pages) publié.\n\n• Page RSE dédiée sur omneseducation.com/le-groupe/demarche-rse/\n• Présence sur 2050analytics.com\n• Rapport structuré en 5 parties avec indicateurs de suivi sur 5 ans (2020-2025). omneseducation.com + Rapport RSE 2024-25\n\nFocus apprenants :\n• le rapport est publié et accessible, permettant aux candidats et étudiants d'évaluer l'engagement du groupe\n• 88 référents étudiants RSE contribuent à sa diffusion",
         "27": "OUI — Rapport RSE 2024-25 publié (rapport annuel, exercice 2024-25).\n\n• Indicateurs présentés sur 5 années consécutives (2020-2025)\n• Rapport RSE 2024-25, p.40-43\n\nFocus apprenants :\n• les indicateurs apprenants (SHIFT, PACT, TASK, handicap, alternance, référents RSE étudiants) sont mis à jour annuellement avec suivi sur 5 ans",
         "28": "OUI — Menu omneseducation.\n\n• com → « Le groupe » → « Démarche RSE » : accessible en 2 clics depuis la page d'accueil. omneseducation.com/le-groupe/demarche-rse/\n\nFocus apprenants :\n• la page RSE accessible facilement permet aux candidats d'évaluer l'engagement du groupe avant leur choix d'école",
-        "29": "OUI — KPIs très détaillés sur 5 ans : budget RSE 310 000€, 9 comités RSE, 77 réunions, 40 000 étudiants, 22 campus, 17 720 tCO₂e, 506 kgCO₂e/étudiant, 100% matériel IT recyclé, 100% nouveaux entrants Fresque Climat, 100% écoles avec cellule d'écoute, 94,5% programmes RSE, 2 238 certifications TASK, 6 300 étudiants SHIFT, 1 869 PACT, 88 référents étudiants, 700 étudiants handicap, 110 référents Time to Act, index EFH 89,3/100.\n\n• Rapport RSE 2024-25, p.40-43\n\nFocus apprenants :\n• les KPIs apprenants sont parmi les plus complets du benchmark avec suivi longitudinal sur 5 ans",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs très détaillés sur 5 ans : budget RSE 310 000€, 9 comités RSE, 77 réunions, 40 000 étudiants, 22 campus, 17 720 tCO₂e, 506 kgCO₂e/étudiant, 100% matériel IT recyclé, 100% nouveaux entrants Fresque Climat, 100% écoles avec cellule d'écoute, 94,5% programmes RSE, 2 238 certifications TASK, 6 300 étudiants SHIFT, 1 869 PACT, 88 référents étudiants, 700 étudiants handicap, 110 référents Time to Act, index EFH 89,3/100.\n\n• Rapport RSE 2024-25, p.40-43\n\nFocus apprenants :\n• les KPIs apprenants sont parmi les plus complets du benchmark avec suivi longitudinal sur 5 ans"
       },
       "sources": "https://www.omneseducation.com/\nhttps://www.omneseducation.com/le-groupe/demarche-rse/\nhttps://2050analytics.com/fr/org/27013.omnes-education"
     },
@@ -2177,11 +1962,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport de durabilité annuel complet (68 pages, AY 2023-2024), aligné GRI Standards (GRI 1 Foundation 2021), PRME, UNAI, SDGs, publié en janvier 2025.\n\n• Disponible librement sur insead.edu\n• Page Hoffmann Institute dédiée\n\nSource : insead.edu/research/hoffmann-institute\n\nFocus apprenants :\n• le rapport est public, téléchargeable sans inscription, et communiqué activement à la communauté étudiante",
         "27": "OUI — Rapport AY 2023-2024 publié en janvier 2025 — soit moins de 5 mois après la fin de la période de reporting (août 2024).\n\n• Cycle annuel de reporting\n• Précédente édition couvrait AY 2021-2023 (biennale)\n• Rapport p.58\n\nFocus apprenants :\n• l'actualité du rapport est directement pertinente pour les cohortes en cours ; les données étudiant (diversité, bourses) sont mises à jour annuellement",
         "28": "OUI — Rapport accessible depuis insead.\n\n• edu > The Hoffmann Institute > Sustainability Report en moins de 3 clics\n• Lien direct disponible\n\nSource : insead.edu\n\nFocus apprenants :\n• le rapport est librement téléchargeable sans création de compte ni barrière d'accès",
-        "29": "OUI — KPIs chiffrés complets publiés : émissions GES scopes 1/2/3 détaillées (kg CO2e par catégorie), consommation énergie par campus (kWh), eau (m³), déchets (kg), données RH (1 104 salariés, 67% femmes, index égalité 86/100), données financières (revenus 309M€ AY 2022-23), bourses (8M€, 365 bénéficiaires), 1 500 étudiants par programme par nationalité et genre.\n\n• Rapport p.27, p.46-57\n\nFocus apprenants :\n• les KPIs incluent des données étudiant détaillées (diversité, nationalités, genres, bourses par cohorte)",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs chiffrés complets publiés : émissions GES scopes 1/2/3 détaillées (kg CO2e par catégorie), consommation énergie par campus (kWh), eau (m³), déchets (kg), données RH (1 104 salariés, 67% femmes, index égalité 86/100), données financières (revenus 309M€ AY 2022-23), bourses (8M€, 365 bénéficiaires), 1 500 étudiants par programme par nationalité et genre.\n\n• Rapport p.27, p.46-57\n\nFocus apprenants :\n• les KPIs incluent des données étudiant détaillées (diversité, nationalités, genres, bourses par cohorte)"
       },
       "sources": "https://www.insead.edu/\nhttps://www.insead.edu/system/files/2025-02/sustainability-report-2024.pdf?utm_medium=organic&utm_source=bing"
     },
@@ -2216,11 +1997,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Carbon Footprint 2024 (23 pages, vérifié AFNOR) publié en décembre 2025, accessible librement sur escp.\n\n• Page dédiée \"Sustainability, Ethics and Responsibility\"\n• Activity Report 2023 public\n• Berlin Sustainability Report 2022 public\n\nSource : escp.eu/ethics-responsibility-sustainability ; escp.eu/sites/default/files/PDF/ESCP_Carbon_Footprint_2024.pdf\n\nFocus apprenants :\n• tous les documents sont librement téléchargeables sans inscription",
         "27": "OUI — Carbon Footprint 2024 publié le 16 décembre 2025 (données calendaire 2024).\n\n• Page sustainability mise à jour régulièrement (mention \"mars 2026\" chez 2050analytics)\n• Cycle annuel de reporting amorcé depuis 2022\n\nSource : ESCP_Carbon_Footprint_2024.pdf p.1\n\nFocus apprenants :\n• les données de mobilité étudiante sont incluses et actualisées annuellement",
         "28": "OUI — Page sustainability accessible depuis escp.\n\n• eu > School & Campuses > Sustainability en 2 clics\n• Carbon Footprint PDF en lien direct sur la page sustainability\n\nSource : escp.eu/ethics-responsibility-sustainability\n\nFocus apprenants :\n• l'ensemble des ressources est accessible sans barrière d'accès ni création de compte depuis la page d'accueil",
-        "29": "OUI — KPIs chiffrés publiés et vérifiés AFNOR : 28 247 t CO2e scopes 1+2+3 détaillées par catégorie, évolution vs 2021-2022, consommation gaz (2 862 506 kWh) et électricité (4 449 248 kWh) par campus, déchets (370 580 kg), 23% électricité verte, Ma Petite Planète (1 102 participants, 66,2 t CO2e évitées).\n\nSource : ESCP_Carbon_Footprint_2024.pdf p.10-20\n\nFocus apprenants :\n• les données de mobilité étudiante (7 420 t CO2e) et de participation aux éco-défis sont publiées et chiffrées",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs chiffrés publiés et vérifiés AFNOR : 28 247 t CO2e scopes 1+2+3 détaillées par catégorie, évolution vs 2021-2022, consommation gaz (2 862 506 kWh) et électricité (4 449 248 kWh) par campus, déchets (370 580 kg), 23% électricité verte, Ma Petite Planète (1 102 participants, 66,2 t CO2e évitées).\n\nSource : ESCP_Carbon_Footprint_2024.pdf p.10-20\n\nFocus apprenants :\n• les données de mobilité étudiante (7 420 t CO2e) et de participation aux éco-défis sont publiées et chiffrées"
       },
       "sources": "https://escp.eu/\nhttps://escp.eu/ethics-responsibility-sustainability\nhttps://escp.eu/sites/default/files/PDF/ESCP_Carbon_Footprint_2024.pdf\nhttps://2050analytics.com/fr/org/3229.escp-business-school"
     },
@@ -2255,11 +2032,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Mini-site RSE dédié public (r.\n\n• mbs-education.com/mbs-rse-accueil) avec 6 sections thématiques\n• Politique DD 2021 téléchargeable\n• Bilan Carbone 2024 téléchargeable (publié mai 2025)\n• Page RSE sur le site officiel mbs-education.com\n\nSource : mbs-education.com/rse ; r.mbs-education.com/mbs-rse-accueil\n\nFocus apprenants :\n• tous les documents sont librement accessibles sans inscription",
         "27": "OUI — Bilan Carbone 2024 publié en mai 2025 (données 2024).\n\n• Mini-site RSE actif et à jour\n• Index égalité F/H publié au 1er mars 2025 (82/100)\n• La Politique DD date de 2021 — document de référence toujours en ligne mais datant de plus de 2 ans ; compensé par les mises à jour du mini-site et du bilan carbone annuel\n\nSource : mbs-education.com/rse\n\nFocus apprenants :\n• les données étudiantes (index égalité, taux de féminisation) sont mises à jour annuellement",
         "28": "OUI — Page RSE accessible depuis mbs-education.\n\n• com > L'école > Diversité et Égalité des chances > RSE et développement durable en 3 clics\n• Mini-site RSE lié directement depuis la page principale\n\nSource : mbs-education.com/rse\n\nFocus apprenants :\n• le mini-site RSE est accessible sans barrière d'accès ni création de compte",
-        "29": "PARTIEL — Index égalité F/H publié avec données chiffrées (82/100, détail des 5 indicateurs).\n\n• Données de féminisation par programme publiées\n• Stratégie climat en 6 axes publiée\n• Bilan carbone 2024 disponible\n• Mais pas de KPIs environnementaux chiffrés publiés en ligne (pas de données kWh, kg CO2, kg déchets accessibles directement sur le site sans télécharger le bilan)\n\nSource : mbs-education.com/rse\n\nFocus apprenants :\n• les données étudiantes (part des femmes, boursiers, taux d'emploi à 1 an) sont publiées avec chiffres",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — Index égalité F/H publié avec données chiffrées (82/100, détail des 5 indicateurs).\n\n• Données de féminisation par programme publiées\n• Stratégie climat en 6 axes publiée\n• Bilan carbone 2024 disponible\n• Mais pas de KPIs environnementaux chiffrés publiés en ligne (pas de données kWh, kg CO2, kg déchets accessibles directement sur le site sans télécharger le bilan)\n\nSource : mbs-education.com/rse\n\nFocus apprenants :\n• les données étudiantes (part des femmes, boursiers, taux d'emploi à 1 an) sont publiées avec chiffres"
       },
       "sources": "https://2050analytics.com/fr/org/34406.montpellier-business-school\nhttps://www.mbs-education.com/#\nhttps://www.mbs-education.com/mbs/rse-developpement-durable/\nhttps://r.mbs-education.com/mbs-rse-accueil/\nhttps://www.mbs-education.com/mbs/a-propos-de-mbs/diversite/besoins-specifiques-handicap/\nhttps://www.mbs-education.com/mbs/a-propos-de-mbs/diversite/"
     },
@@ -2294,11 +2067,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page dédiée \"Notre action pour l'environnement\" en accès public sur sciencespo.\n\n• fr, avec le plan d'action téléchargeable (PDF, 448ko) et le bilan du plan 2020-2023\n• Pages dédiées sur le handicap, les VSS, la diversité et l'ouverture sociale, toutes accessibles publiquement\n\nSource : sciencespo.fr/fr/a-propos/notre-action-pour-environnement/\n\nFocus apprenants :\n• Pages étudiants dédiées VSS, handicap, carrières, toutes accessibles sur sciencespo.fr/students/",
         "27": "OUI — Le plan d'action 2024-2027 a été publié en 2024.\n\n• Le site RSE est régulièrement mis à jour\n• Point d'étape bilan 2022 du dispositif VSS publié en février 2023\n• Bilan carbone 2019 ajusté en 2023\n• Objectif 10.2 : mise à jour du bilan carbone tous les 2 ans\n• Toutes les publications identifiées datent de moins de 2 ans\n\nSource : Plan 2024-2027 (2024) + pages web sciencespo.fr mises à jour en 2024-2025\n\nFocus apprenants :\n• Les pages étudiants (handicap, VSS, scolarité) sont régulièrement actualisées",
         "28": "OUI — La page \"Notre action pour l'environnement\" est accessible depuis l'accueil du site (sciencespo.\n\n• fr → À propos → Notre action pour l'environnement) en moins de 3 clics\n• Les pages VSS et handicap sont accessibles depuis les rubriques \"Vous êtes… Étudiant\" en 2-3 clics\n\nSource : sciencespo.fr/fr/a-propos/notre-action-pour-environnement/\n\nFocus apprenants :\n• sciencespo.fr/students/fr/vivre/ donne accès direct aux ressources VSS et handicap en 2 clics depuis la homepage étudiants",
-        "29": "OUI — KPIs RSE publiés avec données chiffrées : bilan carbone détaillé par poste (9 postes chiffrés en tCO2), objectifs de réduction chiffrés et datés (scopes 1+2+3), nombre d'enquêtes CEIP (51 en 2022), délais de traitement (2,3 mois), nombre d'étudiants handicapés (~300), taux de boursiers (25%), objectif 30% boursiers, 50% d'internationaux, gains carbone plan de sobriété (15%).\n\nSource : Plan 2024-2027 + newsroom.sciencespo.fr/point-detape-un-an-apres ; sciencespo.fr/nous-soutenir/fr/landing_projet/ouvrir/\n\nFocus apprenants :\n• Les données publiées incluent des KPIs spécifiques aux apprenants : taux de boursiers, nombre d'étudiants handicapés accompagnés, résultats des enquêtes VSS",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs RSE publiés avec données chiffrées : bilan carbone détaillé par poste (9 postes chiffrés en tCO2), objectifs de réduction chiffrés et datés (scopes 1+2+3), nombre d'enquêtes CEIP (51 en 2022), délais de traitement (2,3 mois), nombre d'étudiants handicapés (~300), taux de boursiers (25%), objectif 30% boursiers, 50% d'internationaux, gains carbone plan de sobriété (15%).\n\nSource : Plan 2024-2027 + newsroom.sciencespo.fr/point-detape-un-an-apres ; sciencespo.fr/nous-soutenir/fr/landing_projet/ouvrir/\n\nFocus apprenants :\n• Les données publiées incluent des KPIs spécifiques aux apprenants : taux de boursiers, nombre d'étudiants handicapés accompagnés, résultats des enquêtes VSS"
       },
       "sources": "https://www.sciencespo.fr/fr/vie-a-sciences-po/scolarite-et-vie-pratique/\n\nhttps://www.sciencespo.fr/fr/\n\nhttps://www.sciencespo.fr/executive-education/fr/programmes-pour-les-individus/transition-ecologique-rse/\n\nhttps://www.sciencespo.fr/fr/a-propos/universite-ouverte-tous/lutter-contre-les-discriminations/\n\nhttps://www.sciencespo.fr/fr/a-propos/universite-ouverte-tous/lutter-contre-les-violences-sexistes-et-sexuelles/\n\nhttps://www.sciencespo.fr/sites/default/files/2024_2027_Plan_d_action_transition_ecologique.pdf"
     },
@@ -2333,11 +2102,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport d'activité DD&RS 2025 public et téléchargeable sur audencia.\n\n• Page dédiée \"Vision et engagements responsables\" avec sous-pages par axe stratégique (stratégie, enseignement, recherche, environnement, politique sociale)\n\nSource : audencia.com/lecole/vision-engagements-responsables + RA DD&RS 2025 (28/02/25)\n\nFocus apprenants :\n• Le rapport présente des KPIs étudiants (% boursiers, % handicap, % formés Gaïa, % cours intégrant DD)",
         "27": "OUI — Le rapport DD&RS 2025 date du 28 février 2025, soit moins de 2 ans.\n\n• Le site audencia.com présente des contenus mis à jour en 2024-2025\n\nSource : RA DD&RS 2025, p.16 (date 28/02/25)\n\nFocus apprenants :\n• Les données étudiantes (2,27% handicap, 25% boursiers, 100% formés Gaïa) correspondent à l'année académique 2024",
         "28": "OUI — La page \"Vision et engagements responsables\" est accessible depuis l'accueil d'audencia.\n\n• com en 2 clics (accueil → L'école → Vision et engagements responsables)\n• Le rapport DD&RS est téléchargeable directement depuis cette page\n\nSource : audencia.com/lecole/vision-engagements-responsables\n\nFocus apprenants :\n• Les pages dédiées aux étudiants (Gaïa, formation DD) sont accessibles en moins de 3 clics depuis l'accueil",
-        "29": "OUI — KPIs chiffrés publiés : 11% du budget global dédié DD&RS, 29 membres équipes internes, 4ème place ChangeNOW 2024, 100% étudiants formés par Gaïa, 78% des cours intégrant TES, 177 collaborateurs formés (100% du personnel), 42 objectifs carbone, 100% des directions formées à la stratégie bas carbone, 1133 kg CO2/étudiant, index égalité F/H 97/100, 2,27% étudiants handicapés, 25% boursiers.\n\nSource : RA DD&RS 2025, pp.5, 7, 10, 13, 15\n\nFocus apprenants :\n• KPIs spécifiques apprenants publiés : taux de boursiers (25%), taux d'étudiants handicapés (2,27%), taux de couverture pédagogique DD (100% formés Gaïa, 78% des cours)",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs chiffrés publiés : 11% du budget global dédié DD&RS, 29 membres équipes internes, 4ème place ChangeNOW 2024, 100% étudiants formés par Gaïa, 78% des cours intégrant TES, 177 collaborateurs formés (100% du personnel), 42 objectifs carbone, 100% des directions formées à la stratégie bas carbone, 1133 kg CO2/étudiant, index égalité F/H 97/100, 2,27% étudiants handicapés, 25% boursiers.\n\nSource : RA DD&RS 2025, pp.5, 7, 10, 13, 15\n\nFocus apprenants :\n• KPIs spécifiques apprenants publiés : taux de boursiers (25%), taux d'étudiants handicapés (2,27%), taux de couverture pédagogique DD (100% formés Gaïa, 78% des cours)"
       },
       "sources": "https://www.audencia.com/\nhttps://www.audencia.com/lecole/vision-engagements-responsables\nhttps://www.audencia.com/gaia\nhttps://www.audencia.com/lecole/vision-engagements-responsables/politique-sociale-qualite-de-vie\nhttps://www.audencia.com/lecole/vision-engagements-responsables/environnement-decarbonation\nhttps://www.audencia.com/lecole/vision-engagements-responsables/recherche-innovation-DDRS\nhttps://www.audencia.com/lecole/vision-engagements-responsables/enseignements-formations-DDRS\nhttps://www.audencia.com/lecole/vision-engagements-responsables/strategie-gourvenance-DDRS\nhttps://www.calameo.com/read/000137206ba80aabdd42b?authid=6L5hy6cJSXV0"
     },
@@ -2372,11 +2137,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Schéma Directeur TES 2025 public et téléchargeable.\n\n• Rapport RSE 2022-2024 publié en 2024\n• Page \"vision RSE\" sur excelia-group.fr avec présentation des engagements\n• Times Higher Education Impact Rankings publié\n\nSource : Schéma Directeur TES 2025, p.1 + p.6 + excelia-group.fr/a-propos-dexcelia/le-groupe/vision-rse\n\nFocus apprenants :\n• Le Schéma Directeur mentionne explicitement les indicateurs étudiants (ouverture sociale, handicap, VSS)",
         "27": "OUI — Le Schéma Directeur TES date de juin 2025 (<2 ans).\n\n• Le rapport RSE 2022-2024 publié en 2024\n• Le site excelia-group.fr est à jour\n\nSource : Schéma Directeur TES 2025, p.1 (date 2025) + p.6 (publication rapport RSE 2024)\n\nFocus apprenants :\n• Les données étudiantes sont actualisées pour l'exercice en cours",
         "28": "OUI — La page \"vision RSE\" est accessible depuis excelia-group.\n\n• fr → À propos d'Excelia → Le groupe → Vision RSE en moins de 3 clics\n• Le Schéma Directeur TES est téléchargeable depuis cette page\n\nSource : excelia-group.fr/a-propos-dexcelia/le-groupe/vision-rse\n\nFocus apprenants :\n• Les pages dédiées à la vie étudiante (diversité, handicap) sont accessibles en 2-3 clics depuis l'accueil",
-        "29": "OUI — KPIs publiés dans le Schéma Directeur : objectifs chiffrés par axe (80% des modules avec TES, 25% du personnel formé/an, index F/H 100/100 à 3 ans, 20% du budget formation alloué à la TES, 17k€ investissement formation/promotion, taux féminisation COMEX 83%), THEi Rankings ODD chiffrés (ODD 8 : 81/100 18e mondial, ODD 10 : 79.\n\n• 1/100 61e mondial)\n\nSource : Schéma Directeur TES 2025, pp.7, 24\n\nFocus apprenants :\n• KPIs spécifiques apprenants : Cordées de la Réussite, bourses sociales, fléchage handicap sur tous les campus, actions VSS multi-campus nouvelles promotions",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs publiés dans le Schéma Directeur : objectifs chiffrés par axe (80% des modules avec TES, 25% du personnel formé/an, index F/H 100/100 à 3 ans, 20% du budget formation alloué à la TES, 17k€ investissement formation/promotion, taux féminisation COMEX 83%), THEi Rankings ODD chiffrés (ODD 8 : 81/100 18e mondial, ODD 10 : 79.\n\n• 1/100 61e mondial)\n\nSource : Schéma Directeur TES 2025, pp.7, 24\n\nFocus apprenants :\n• KPIs spécifiques apprenants : Cordées de la Réussite, bourses sociales, fléchage handicap sur tous les campus, actions VSS multi-campus nouvelles promotions"
       },
       "sources": "https://www.excelia-group.fr/a-propos-dexcelia/nos-ecoles/excelia-business-school\nhttps://www.excelia-group.fr/a-propos-dexcelia/le-groupe/vision-rse\nhttps://www.excelia-group.fr/a-propos-dexcelia/le-groupe/la-diversite-chez-excelia\nhttps://www.excelia-group.fr/sites/excelia-group.fr/files/2025-06/Excelia_Sch%C3%A9ma%20Directeur%20RSDD_062025.pdf"
     },
@@ -2411,11 +2172,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page dédiée \"Dauphine Durable\" (dauphine.\n\n• psl.eu/dauphine/dauphine-durable), page \"Campus Durable & RSU\", page \"Égalité, Diversité, Politiques Sociales & RSU\", brochure \"Offre de formation Transition Écologique\" publique et téléchargeable\n\nSource : dauphine.psl.eu/dauphine/dauphine-durable + responsabilite-sociale-universite/\n\nFocus apprenants :\n• Leçon inaugurale du cours \"Enjeux écologiques\" accessible sur le site internet de Dauphine pour les étudiants",
         "27": "OUI — Le document \"Offre de Formation Transition Écologique\" est récent (2024).\n\n• Les pages Campus Durable et RSU sont mises à jour en 2024-2025\n• Index égalité F/H 2025 publié\n\nSource : dauphine.psl.eu (pages mises à jour 2024-2025)\n\nFocus apprenants :\n• Les informations sur les cours DD, les dispositifs étudiants (handicap, VSS) sont actualisées pour l'année académique en cours",
         "28": "OUI — La page \"Dauphine Durable\" est accessible depuis l'accueil de dauphine.\n\n• psl.eu → Dauphine → Dauphine Durable en 2 clics\n• La page Campus Durable est accessible en 3 clics (accueil → Dauphine → Responsabilité Environnementale et Sociale → Campus Durable)\n\nSource : dauphine.psl.eu/dauphine/dauphine-durable\n\nFocus apprenants :\n• Les ressources pédagogiques DD (SPOC, cours L1) sont accessibles depuis la page formation en moins de 3 clics",
-        "29": "OUI — KPIs publiés : objectif -3%/an de l'empreinte carbone (CES 2022), 288 étudiants handicapés accompagnés (2024), index F/H 87/100 (2025), PSL 47e THE Impact Rankings 2023, 250+ cours DD, label DD&RS pour 4 ans, 3800 cadres formés/an en formation continue.\n\nSource : Brochure \"Dauphine Durable\" p.4 + dauphine.psl.eu/dauphine/responsabilite-sociale-universite/egalite-diversite-politiques-sociales\n\nFocus apprenants :\n• KPIs étudiants publiés : nombre d'étudiants handicapés accompagnés, taux de couverture DD des formations (100% L1, >250 cours master)",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs publiés : objectif -3%/an de l'empreinte carbone (CES 2022), 288 étudiants handicapés accompagnés (2024), index F/H 87/100 (2025), PSL 47e THE Impact Rankings 2023, 250+ cours DD, label DD&RS pour 4 ans, 3800 cadres formés/an en formation continue.\n\nSource : Brochure \"Dauphine Durable\" p.4 + dauphine.psl.eu/dauphine/responsabilite-sociale-universite/egalite-diversite-politiques-sociales\n\nFocus apprenants :\n• KPIs étudiants publiés : nombre d'étudiants handicapés accompagnés, taux de couverture DD des formations (100% L1, >250 cours master)"
       },
       "sources": "4-pages_Formations_Transition_ecologique_Dauphine.pdf\npdf\n\nhttps://dauphine.psl.eu/\nhttps://dauphine.psl.eu/dauphine/dauphine-durable\nhttps://dauphine.psl.eu/dauphine/responsabilite-sociale-universite/campus-durable\nhttps://dauphine.psl.eu/dauphine/responsabilite-sociale-universite/formation-et-enseignement\nhttps://dauphine.psl.eu/dauphine/responsabilite-sociale-universite/recherche"
     },
@@ -2450,11 +2207,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page dédiée \"Soutenabilité\" avec Plan Climat téléchargeable, page \"RSE\", bilan Plan Climat publié en février 2026, communiqués de presse réguliers.\n\n• Site polytechnique.edu avec espace dédié RSE et soutenabilité\n\nSource : polytechnique.edu/ecole/soutenabilite + polytechnique.edu/ecole/responsabilite-societale-et-environnementale\n\nFocus apprenants :\n• Vidéos dédiées aux réalisations Plan Climat disponibles en ligne ; espace étudiant dédié",
         "27": "OUI — Bilan Plan Climat 2026 publié en février 2026 (<2 ans).\n\n• Page Soutenabilité mise à jour régulièrement\n• Le rapport Plan Climat 2022-2025 avec des réalisations actualisées est disponible\n\nSource : polytechnique.edu/presse/communiques.../bilan-du-plan-climat (17/02/2026)\n\nFocus apprenants :\n• Le bilan inclut des données actualisées sur la formation des étudiants aux enjeux de durabilité",
         "28": "OUI — La page \"Soutenabilité\" est accessible depuis polytechnique.\n\n• edu → École → Soutenabilité en 2 clics\n• La page RSE est accessible en 2 clics\n• Les liens directs vers le Plan Climat sont disponibles\n\nSource : polytechnique.edu/ecole/soutenabilite\n\nFocus apprenants :\n• L'Espace étudiant accessible depuis l'accueil donne accès aux ressources RSE en 2-3 clics",
-        "29": "OUI — KPIs publiés avec données chiffrées : -33% gaz/m² (2019-2024), -16% électricité/m², 28% repas végétariens (2023), -30% repas à dominante bœuf, 253 places vélo créées, 1,6 tonne de matériel réemployé (Ressourc'X), 21 laboratoires Labos 1.\n\n• 5, 4 000+ publications ODD (2019-2025), 100% des programmes avec socle DD, volume horaire DD triplé, label DD&RS 4 ans\n\nSource : innovation24.news/2026/02/17 + polytechnique.edu/ecole/soutenabilite\n\nFocus apprenants :\n• KPIs pédagogiques explicites : 100% des programmes avec socle DD, volume horaire triplé, cours obligatoire 40h Engineering Sustainability",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs publiés avec données chiffrées : -33% gaz/m² (2019-2024), -16% électricité/m², 28% repas végétariens (2023), -30% repas à dominante bœuf, 253 places vélo créées, 1,6 tonne de matériel réemployé (Ressourc'X), 21 laboratoires Labos 1.\n\n• 5, 4 000+ publications ODD (2019-2025), 100% des programmes avec socle DD, volume horaire DD triplé, label DD&RS 4 ans\n\nSource : innovation24.news/2026/02/17 + polytechnique.edu/ecole/soutenabilite\n\nFocus apprenants :\n• KPIs pédagogiques explicites : 100% des programmes avec socle DD, volume horaire triplé, cours obligatoire 40h Engineering Sustainability"
       },
       "sources": "https://www.polytechnique.edu/\nhttps://www.polytechnique.edu/ecole/responsabilite-societale-et-environnementale\nhttps://www.calameo.com/read/006319277ef92591c2d3d\nhttps://gargantua.polytechnique.fr/siatel-web/app/linkto/mICYYYShxxJZ?aw=1\nhttps://www.polytechnique.edu/ecole/soutenabilite"
     },
@@ -2489,11 +2242,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport d'activités SKEMA Transitions 2024-2025 publié et accessible publiquement.\n\n• Page dédiée skema.edu/fr/transitions\n• Rapport PRME publié\n• Accès direct via le site officiel\n\nSource : Rapport (document uploadé, décembre 2025) ; https://www.skema.edu/fr/transitions",
         "27": "OUI — Rapport daté décembre 2025, donc mis à jour dans les 12 derniers mois.\n\n• Page skema.edu/transitions mise à jour régulièrement\n\nSource : Rapport p.24 (\"document non contractuel — Décembre 2025\")",
         "28": "OUI — Page SKEMA Transitions accessible directement depuis le menu principal de skema.\n\n• edu (rubrique \"Entreprises\" > \"Transitions\" ou via URL directe skema.edu/fr/transitions)\n• Accessible en moins de 3 clics depuis la page d'accueil\n\nSource : https://www.skema.edu/fr/transitions",
-        "29": "OUI — KPIs publiés avec données chiffrées : taux d'avancement des objectifs (100%, 86%, 60%, 54%…), nombre de participants aux ateliers (1300 Fresque Climat, 900 Atelier 2Tonnes, 700 Fresque Numérique), réductions carbone (-30% vols, -15,5% électricité, 32 TeqCO2 covoiturage), montants financiers (3,6M€ bourses, 1,5M€ Chaire), nombre d'associations à impact (42%, 38/91).\n\nSource : Rapport pp.15, 17, 20-23",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs publiés avec données chiffrées : taux d'avancement des objectifs (100%, 86%, 60%, 54%…), nombre de participants aux ateliers (1300 Fresque Climat, 900 Atelier 2Tonnes, 700 Fresque Numérique), réductions carbone (-30% vols, -15,5% électricité, 32 TeqCO2 covoiturage), montants financiers (3,6M€ bourses, 1,5M€ Chaire), nombre d'associations à impact (42%, 38/91).\n\nSource : Rapport pp.15, 17, 20-23"
       },
       "sources": "https://www.skema.edu/fr/entreprises\nhttps://www.skema.edu/fr/transitions?utm_source=microsoft&utm_medium=paid&utm_campaign=Marque\nhttps://publications.skema.edu/books/cgzp/?_gl=1*uxdkt8*_gcl_au*MTI0NjI1MTU5OS4xNzQxODU3MjM1"
     },
@@ -2528,11 +2277,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport de Société à Mission 2024-2025 publié en janvier 2026, accessible publiquement.\n\n• Page RSE dédiée sur le site officiel : https://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/ avec sous-pages thématiques (enseignements, recherche, campus responsable, politique sociale, handicap, gouvernance DD-RS, ancrage territorial, associations étudiantes) 2026) ; https://www.tbs-education.fr/tbs/decouvrir-tbs/societe-a-mission/\n\nSource : Rapport (document uploadé, janv",
         "27": "OUI — Rapport daté janvier 2026, donc mis à jour dans les 12 derniers mois.\n\n• Le rapport précise \"version de travail du 12/01/26\" (p.15), confirmant sa fraîcheur\n• Page RSE et ses sous-pages régulièrement maintenues\n\nSource : Rapport p.15 (mention date) ; page tbs-education.fr/tbs/responsabilite-societale-developpement-durable/ active",
         "28": "OUI — La page RSE est accessible directement depuis le menu principal du site tbs-education.\n\n• fr, rubrique \"TBS\" > \"Responsabilité Sociétale & Développement Durable\", accessible en moins de 3 clics\n• Le rapport Société à Mission est accessible via une page dédiée à la mission\n\nSource : https://www.tbs-education.fr/tbs/decouvrir-tbs/societe-a-mission/ et https://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/",
-        "29": "OUI — KPIs publiés avec données chiffrées : 19,2% des ECTS dédiés DD&RS, 61% des articles liés RSE-DD, 128 articles classés, 54% des marchés avec clause DDRS, 124 ESH pris en charge, 30% d'étudiants internationaux, 800 étudiants à l'Atelier 2Tonnes, 131 collaborateurs formés, 23% des diplômés dans des postes à impact, progression annuelle des indicateurs documentée avec comparatif N-1 et objectif 2026.\n\nSource : Rapport pp.10, 15, 17, 20, 22, 25, 27",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs publiés avec données chiffrées : 19,2% des ECTS dédiés DD&RS, 61% des articles liés RSE-DD, 128 articles classés, 54% des marchés avec clause DDRS, 124 ESH pris en charge, 30% d'étudiants internationaux, 800 étudiants à l'Atelier 2Tonnes, 131 collaborateurs formés, 23% des diplômés dans des postes à impact, progression annuelle des indicateurs documentée avec comparatif N-1 et objectif 2026.\n\nSource : Rapport pp.10, 15, 17, 20, 22, 25, 27"
       },
       "sources": "https://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/enseignements/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/recherche/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/campus-responsable/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/associations-etudiantes/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/gouvernance-dd-rs/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/politique-sociale/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/handicap/\n\nValorisation de l’engagement étudiant | TBS Education\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/ancrage-territorial-reseaux/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/bonnes-pratiques/\n\nhttps://www.tbs-education.fr/tbs/decouvrir-tbs/societe-a-mission/"
     },
@@ -2567,11 +2312,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport d'Impact 2024-2025 public (47 pages), disponible en téléchargement sur ieseg.fr/lecole/la-rse-a-lieseg/\n• Page RSE dédiée avec stratégie, piliers, indicateurs\n\nSource : https://www.ieseg.fr/lecole/la-rse-a-lieseg/ ; Rapport d'Impact 2024-2025 (document uploadé)\n\nFocus apprenants :\n• Le rapport et la page RSE sont accessibles à tous les étudiants et parties prenantes ; indicateurs pédagogiques publiés séparément par pilier",
         "27": "OUI — Rapport d'Impact 2024-2025 daté de l'année académique en cours (document produit en 2025).\n\n• La page RSE du site est mise à jour avec des données 2024-2025\n\nSource : ieseg.fr/lecole/la-rse-a-lieseg/ (mise à jour 2025) ; Rapport d'Impact 2024-2025\n\nFocus apprenants :\n• Données fraîches accessibles aux étudiants pour mesurer les progrès de l'école sur les enjeux qui les concernent directement",
         "28": "OUI — La page RSE est accessible en 2 clics depuis la page d'accueil de l'IÉSEG (menu \"L'École\" → \"La RSE à l'IÉSEG\").\n\n• Le rapport d'impact est directement téléchargeable depuis cette page\n\nSource : https://www.ieseg.fr/lecole/la-rse-a-lieseg/\n\nFocus apprenants :\n• Accès facilité pour les étudiants souhaitant consulter les engagements, indicateurs et dispositifs RSE de l'école",
-        "29": "OUI — KPIs RSE publiés avec données chiffrées exhaustives : tableaux d'indicateurs par pilier (Piliers 1 à 4 + Impact dans les Écosystèmes) sur deux années de comparaison (2023-2024 vs 2024-2025).\n\n• Exemples : 81 % cours ISE, 12 109 tCO₂e, 1,332 tCO₂e/personne, 95/100 index égalité, 996 étudiants aidés financièrement, etc\n• 17, 24-25, 32, 41-42, 46\n\nSource : Rapport d'Impact 2024-2025, p\n\nFocus apprenants :\n• KPIs pédagogiques et étudiants publiés en détail (nombre de cours, étudiants formés VSS, participants Changemakers Odyssey, etc.) permettant aux étudiants d'évaluer concrètement la démarche de l'école",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs RSE publiés avec données chiffrées exhaustives : tableaux d'indicateurs par pilier (Piliers 1 à 4 + Impact dans les Écosystèmes) sur deux années de comparaison (2023-2024 vs 2024-2025).\n\n• Exemples : 81 % cours ISE, 12 109 tCO₂e, 1,332 tCO₂e/personne, 95/100 index égalité, 996 étudiants aidés financièrement, etc\n• 17, 24-25, 32, 41-42, 46\n\nSource : Rapport d'Impact 2024-2025, p\n\nFocus apprenants :\n• KPIs pédagogiques et étudiants publiés en détail (nombre de cours, étudiants formés VSS, participants Changemakers Odyssey, etc.) permettant aux étudiants d'évaluer concrètement la démarche de l'école"
       },
       "sources": "https://www.ieseg.fr/?utm_source=bing-search&utm_medium=cpc&utm_campaign=brand-fr&utm_term=ieseg%20school%20of%20management&utm_content=fr-hp&msclkid=38e021d452741ef19da448691e8fa106\n\nhttps://www.ieseg.fr/lecole/la-rse-a-lieseg/"
     },
@@ -2606,11 +2347,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page RSE dédiée accessible sur rennes-sb.fr/demarche-rse/ avec description de la démarche, bilan carbone, politique sociale\n• Rapport PRME publié (mentionné dans les sources)\n• Fondation RSB, projets solidaires et ouverture sociale documentés publiquement\n\nSource : rennes-sb.fr/demarche-rse/ ; rennes-sb.fr/projets-solidaires/\n\nFocus apprenants :\n• Les pages RSE et projets solidaires sont accessibles aux étudiants et décrivent les dispositifs qui leur sont destinés",
         "27": "OUI — La page démarche RSE et le contenu des pages RSE sont datés de 2024-2025 (mentions de plans 2024-2028, d'objectifs 2024-2025, copyright 2025).\n\n• Mise à jour récente confirmée\n\nSource : rennes-sb.fr/demarche-rse/ (copyright 2025, contenu plan stratégique 2024-2028)\n\nFocus apprenants :\n• Informations à jour disponibles pour les étudiants souhaitant évaluer l'engagement RSE de l'école",
         "28": "OUI — La section RSE est accessible depuis le menu principal (\"L'École\" → \"RSE\" → \"Démarche RSE\"), soit 2 clics depuis la page d'accueil.\n\nSource : rennes-sb.fr (navigation menu principal)\n\nFocus apprenants :\n• Accessibilité immédiate pour les étudiants et candidats souhaitant consulter les engagements RSE de l'école",
-        "29": "NON — La page démarche RSE est essentiellement narrative, sans tableau de KPIs RSE publiés avec données chiffrées sur plusieurs années.\n\n• Quelques données ponctuelles sont mentionnées (192 personnes formées, bilan carbone 2022) mais sans tableau structuré d'indicateurs publics et actualisés\n• Le rapport PRME est mentionné mais pas directement accessible/lié\n\nSource : rennes-sb.fr/demarche-rse/ (absence de tableau KPIs)\n\nFocus apprenants :\n• Non applicable — les étudiants ne disposent pas de tableau de bord RSE quantifié accessible",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON — La page démarche RSE est essentiellement narrative, sans tableau de KPIs RSE publiés avec données chiffrées sur plusieurs années.\n\n• Quelques données ponctuelles sont mentionnées (192 personnes formées, bilan carbone 2022) mais sans tableau structuré d'indicateurs publics et actualisés\n• Le rapport PRME est mentionné mais pas directement accessible/lié\n\nSource : rennes-sb.fr/demarche-rse/ (absence de tableau KPIs)\n\nFocus apprenants :\n• Non applicable — les étudiants ne disposent pas de tableau de bord RSE quantifié accessible"
       },
       "sources": "https://www.rennes-sb.fr/\nhttps://www.rennes-sb.fr/projets-solidaires/\nhttps://www.rennes-sb.fr/demarche-rse/\nhttps://images.rennes-sb.com/frontend/2024/06/Resultats-bilan-carbone_Rennes-SB.pdf?_gl=1*16gm27u*_gcl_au*MjE2NDMxNzEuMTc3NDAxNDE1Mg..*_ga*MzM2NzgyMDgxLjE3NzQwMTQxMzg.*_ga_QV3F24R0MQ*czE3NzQwMTQxMzckbzEkZzEkdDE3NzQwMTQxODEkajMwJGwwJGgxMTYyODc3NjQ0"
     },
@@ -2645,11 +2382,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport d'Engagement TSE 2025 publié et accessible sur le site NEOMA (https://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE)\n• Bilan GES 2022-2023 publié via plateforme Greenly et enregistré sur l'ADEME (Bilan GES p.8)\n• Page dédiée TSE sur le site officiel de l'école\n• DPEF mentionnée (p.11)\n\nFocus apprenants :\n• Rapport public accessible à tous, dont aux futurs et actuels étudiants souhaitant évaluer l'engagement TSE de NEOMA. Source : Rapport TSE 2025, p.11 & https://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE",
         "27": "OUI — Rapport d'Engagement TSE 2025 publié en 2025 (données 2024-2025), Bilan GES publié en 2024 sur données 2022-2023.\n\n• Mise à jour inférieure à 2 ans pour les deux documents principaux\n• Progression classement ChangeNow (8→5ème, 2024) et Label DD&RS 2024-2027 confirmés récents\n\nFocus apprenants :\n• Les informations sur les programmes, bourses et dispositifs étudiants (NEOMACT, etc.) sont mises à jour récemment. Source : Rapport TSE 2025 (couverture) & Bilan GES 2022-2023 (couverture)",
         "28": "OUI — Le site neoma-bs.\n\n• fr dispose d'une section dédiée accessible en 2-3 clics depuis la homepage : « Découvrez NEOMA BS » > « Une école engagée TSE » > sous-pages dédiées (enseignement responsable, NEOMACT, engagements environnementaux)\n• URL directe : https://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE\n\nFocus apprenants :\n• La page TSE est également accessible depuis les pages programmes, permettant aux candidats de la consulter facilement. Source : https://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE",
-        "29": "OUI — KPIs chiffrés nombreux et publiés dans le rapport : 453 cours TSE (vs 332 en 2021-22), >10 000 étudiants certifiés NEOMACT Academy, >30 000h de formation, >1 500 participants aux ateliers 2 tonnes, 17 000 tCO2e (BEGES), 33% d'étudiants aidés financièrement, 956 bourses sociales / 2 431 K€, Index F/H 88/100, 52% d'étudiantes, 66% femmes dans effectif, 45% femmes COMEX, 1 514 alternants, 249 bourses internationales, >200 tuteurs / >400 collégiens suivis \n• 3, 16-17, 36-39, 40, 42)\n\nFocus apprenants :\n• La majorité des KPIs publiés concerne directement les étudiants (formation, bourses, engagement). Source : Rapport TSE 2025, multiple pages",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs chiffrés nombreux et publiés dans le rapport : 453 cours TSE (vs 332 en 2021-22), >10 000 étudiants certifiés NEOMACT Academy, >30 000h de formation, >1 500 participants aux ateliers 2 tonnes, 17 000 tCO2e (BEGES), 33% d'étudiants aidés financièrement, 956 bourses sociales / 2 431 K€, Index F/H 88/100, 52% d'étudiantes, 66% femmes dans effectif, 45% femmes COMEX, 1 514 alternants, 249 bourses internationales, >200 tuteurs / >400 collégiens suivis \n• 3, 16-17, 36-39, 40, 42)\n\nFocus apprenants :\n• La majorité des KPIs publiés concerne directement les étudiants (formation, bourses, engagement). Source : Rapport TSE 2025, multiple pages"
       },
       "sources": "https://neoma-bs.fr/\n\nhttps://neoma-bs.fr/recherche?search_api_fulltext=rse\n\nhttps://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE/enseignement-responsable\n\nhttps://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE/neomact\n\nhttps://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE/nos-engagements-environnementaux\n\nhttps://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE"
     },
@@ -2684,11 +2417,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page DDRS dédiée avec bilan 2024-2025 publié en actualité (https://tsm-education.fr/actualites/bilan-ddrs-2024-2025-tsm)\n• Communiqué de presse DDRS publié en juin 2025 (PDF accessible)\n• Rapport PRME mentionné sur la page labels\n• Page dédiée aux engagements TSM accessible\n\nFocus apprenants :\n• Informations publiques accessibles aux candidats et étudiants souhaitant évaluer l'engagement DDRS de TSM. Source : https://tsm-education.fr/ecole/engagements/developpement-durable-responsabilite-societale",
         "27": "OUI — Bilan DDRS 2024-2025 publié en 2025 (article actualité récent).\n\n• Communiqué de presse daté juin 2025\n• Mise à jour < 2 ans confirmée\n\nFocus apprenants :\n• Les informations sur les dispositifs étudiants (cours L1, Master RSE, associations) sont à jour. Source : https://tsm-education.fr/actualites/bilan-ddrs-2024-2025-tsm",
         "28": "OUI — La section DDRS est accessible via : Accueil > L'école > Nos engagements > Développement Durable et Responsabilité Sociétale — soit en 3 clics depuis la homepage.\n\n• URL directe : https://tsm-education.fr/ecole/engagements/developpement-durable-responsabilite-societale\n\nFocus apprenants :\n• Accessible depuis la navigation principale du site. Source : https://tsm-education.fr",
-        "29": "PARTIEL — Le bilan DDRS 2024-2025 contient des éléments qualitatifs (3 000h de bénévolat par 300 étudiants L1, 40% des thèses DDRS sur 5 ans, nouveau module L2, nouveau Master RSE) mais pas de KPIs RSE chiffrés consolidés et structurés (émissions CO2, taux de tri, budget, Index F/H, etc.\n\n• Le communiqué de presse présente des données isolées mais pas un tableau de bord KPIs au sens benchmark\n\nFocus apprenants :\n• Le chiffre des 3 000h de bénévolat et les 300 étudiants L1 concernés sont des indicateurs orientés apprenants publiés. Source : communiqué de presse TSM juin 2025 & https://tsm-education.fr/actualites/bilan-ddrs-2024-2025-tsm",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — Le bilan DDRS 2024-2025 contient des éléments qualitatifs (3 000h de bénévolat par 300 étudiants L1, 40% des thèses DDRS sur 5 ans, nouveau module L2, nouveau Master RSE) mais pas de KPIs RSE chiffrés consolidés et structurés (émissions CO2, taux de tri, budget, Index F/H, etc.\n\n• Le communiqué de presse présente des données isolées mais pas un tableau de bord KPIs au sens benchmark\n\nFocus apprenants :\n• Le chiffre des 3 000h de bénévolat et les 300 étudiants L1 concernés sont des indicateurs orientés apprenants publiés. Source : communiqué de presse TSM juin 2025 & https://tsm-education.fr/actualites/bilan-ddrs-2024-2025-tsm"
       },
       "sources": "https://tsm-education.fr/\nhttps://tsm-education.fr/ecole/engagements/mission-valeurs\nhttps://tsm-education.fr/ecole/engagements/developpement-durable-responsabilite-societale\nhttps://tsm-education.fr/ecole/engagements/handicap-inclusion\nhttps://tsm-education.fr/ecole/engagements/numerique-pedagogie\nhttps://tsm-education.fr/actualites/bilan-ddrs-2024-2025-tsm"
     },
@@ -2723,11 +2452,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page « Nos engagements » très complète (https://www.\n\n• clermont-sb.fr/une-ecole-engagee/)\n• Charte RSE publiée depuis 2017 (https://www.clermont-sb.fr/charte-rse/)\n• Rapport d'activité 2022-23 et 2024-25 en ligne\n• Bilan carbone PDF téléchargeable\n• Rapport TSE publié (déc 2024)\n\nSource : https://www.clermont-sb.fr/une-ecole-engagee/\n\nFocus apprenants :\n• Transparence totale, toute l'information accessible aux candidats et étudiants",
         "27": "OUI — Contenu mis à jour : page engagements datée janvier 2026, label DD&RS décembre 2025, rapport TSE octobre 2024, rapport d'activité 2024-25 en ligne.\n\n• Bilan Fondation 2025 publié 2026)\n\nSource : https://www.clermont-sb.fr/une-ecole-engagee/ (mis à jour janv\n\nFocus apprenants :\n• Les informations récentes permettent aux candidats d'évaluer l'engagement actuel de l'école",
         "28": "OUI — Accessible depuis la page d'accueil > « Clermont School of Business » > « Nos engagements » (2 clics).\n\n• Charte RSE accessible depuis « Politique sociale » > « Charte RSE / Index égalité »\n\nSource : navigation site clermont-sb.fr\n\nFocus apprenants :\n• Information facilement trouvable par un candidat ou étudiant",
-        "29": "PARTIEL — Des données chiffrées sont publiées : 167 M€ d'impact territorial (BSIS), 100h DD en Bachelor, 20% volume horaire RSE, 91 bourses, 177 k€ collectés Fondation, 12 personnes formées bilan carbone.\n\n• Mais les KPIs du bilan carbone (tonnes CO₂ par scope, trajectoire chiffrée) ne sont pas directement accessibles en synthèse sur le site — le PDF du bilan carbone est téléchargeable mais pas résumé en KPIs sur la page\n\nSource : https://www.clermont-sb.fr/une-ecole-engagee/ ; PDF bilan carbone\n\nFocus apprenants :\n• Les données sur les bourses et l'ouverture sociale sont bien publiées ; les données carbone nécessitent de télécharger le PDF",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — Des données chiffrées sont publiées : 167 M€ d'impact territorial (BSIS), 100h DD en Bachelor, 20% volume horaire RSE, 91 bourses, 177 k€ collectés Fondation, 12 personnes formées bilan carbone.\n\n• Mais les KPIs du bilan carbone (tonnes CO₂ par scope, trajectoire chiffrée) ne sont pas directement accessibles en synthèse sur le site — le PDF du bilan carbone est téléchargeable mais pas résumé en KPIs sur la page\n\nSource : https://www.clermont-sb.fr/une-ecole-engagee/ ; PDF bilan carbone\n\nFocus apprenants :\n• Les données sur les bourses et l'ouverture sociale sont bien publiées ; les données carbone nécessitent de télécharger le PDF"
       },
       "sources": "https://www.esc-clermont.fr\nhttps://www.clermont-sb.fr/charte-rse/\nhttps://www.clermont-sb.fr/diversite-et-ouverture-sociale/\nhttps://www.clermont-sb.fr/parcours-adaptes/\nhttps://www.clermont-sb.fr/e2c/\n\nhttps://www.clermont-sb.fr/rapport-dactivite-2022-2023/"
     },
@@ -2762,11 +2487,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport RSO 2023 publié en PDF (FR + EN).\n\n• Page recherche RSE dédiée\n• Chaire DD&RSE avec publications\n• Score A sur 2050analytics (top 5% du secteur)\n\nSource : https://www.em-strasbourg.com/sites/default/files/2023-12/rapport_rso_em_strasbourg_business_school_2023_fr.pdf ; 2050analytics\n\nFocus apprenants :\n• Rapport RSO public, accessible et complet",
         "27": "OUI — Rapport RSO daté 2023, publié en décembre 2023.\n\n• 2050analytics mis à jour en janvier 2026\n• Actualités RSE régulières sur le site\n\nSource : Rapport RSO 2023 ; 2050analytics\n\nFocus apprenants :\n• Données récentes et régulièrement actualisées",
         "28": "OUI — Accessible depuis L'école > ou La recherche > Chaires > DD&RSE (2-3 clics).\n\n• Page Missions sociales & handicap accessible depuis Vie étudiante\n\nSource : navigation em-strasbourg.com\n\nFocus apprenants :\n• Navigation claire et intuitive",
-        "29": "OUI — Rapport RSO 2023 avec 75 initiatives RSE documentées couvrant 6 thématiques.\n\n• Score A 2050analytics (top 5%)\n• KPIs identifiés dans le rapport : neutralité carbone, biodiversité, économie circulaire, investissements durables, social, gouvernance\n• Master tri-national avec données\n\nSource : Rapport RSO 2023 ; 2050analytics\n\nFocus apprenants :\n• KPIs structurés et publiés dans le rapport RSO ; transparence reconnue par 2050analytics",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — Rapport RSO 2023 avec 75 initiatives RSE documentées couvrant 6 thématiques.\n\n• Score A 2050analytics (top 5%)\n• KPIs identifiés dans le rapport : neutralité carbone, biodiversité, économie circulaire, investissements durables, social, gouvernance\n• Master tri-national avec données\n\nSource : Rapport RSO 2023 ; 2050analytics\n\nFocus apprenants :\n• KPIs structurés et publiés dans le rapport RSO ; transparence reconnue par 2050analytics"
       },
       "sources": "https://www.em-strasbourg.com/fr/lp-post-bac?utm_source=google&utm_medium=google_ads&utm_campaign=generique&utm_content=post_bac&gad_source=1&gad_campaignid=23162859965&gclid=CjwKCAjwg_nNBhAGEiwAiYPYA1k_i3gwVrKfs_6oT2VfrHQBFilYrxpMqf7q19E30I2T-Qt3eOe0dRoC7CkQAvD_BwE\n\nhttps://www.em-strasbourg.com/fr/etudiant/vie-etudiante-et-services/missions-sociales-et-handicap\n\nhttps://www.em-strasbourg.com/fr/recherche/chaires/developpement-durable-et-rse\n\nhttps://2050analytics.com/fr/org/18250.em-strasbourg-business-school"
     },
@@ -2801,11 +2522,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport ESG 2023-24 publié (2e édition, 34 pages).\n\n• Disponible sur https://ad-education.com/notre-rapport-esg/\n\nSource : Rapport ESG 2023-24, couverture\n\nFocus apprenants :\n• Rapport public accessible à tous les candidats et étudiants",
         "27": "OUI — 2e rapport ESG couvrant 2023-24, publié fin 2024.\n\n• Contenu mis à jour annuellement\n\nSource : Rapport ESG 2023-24 p.6 (édito Martin Coriat)\n\nFocus apprenants :\n• Rapport annuel garantissant la fraîcheur des informations",
         "28": "OUI — Page dédiée sur ad-education.\n\n• com avec rapport téléchargeable\n• Accessible en ≤3 clics depuis la page d'accueil\n\nSource : https://ad-education.com/notre-rapport-esg/\n\nFocus apprenants :\n• Facilement trouvable pour un candidat ou étudiant",
-        "29": "OUI — KPIs publiés : 2 000 t CO₂ (hors France), 1,5 M€ de bourses, 6 300 étudiants formés climat, 70% des écoles avec enseignements DD, 15 campus rénovés, 4 campus panneaux solaires, 45% campus énergie verte, 74% en emploi à 6 mois, 68% satisfaction pédagogie, objectif 40-60% femmes dans les COMEX.\n\nSource : Rapport ESG 2023-24 p.8, p.23\n\nFocus apprenants :\n• Données chiffrées transparentes sur l'engagement du groupe",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs publiés : 2 000 t CO₂ (hors France), 1,5 M€ de bourses, 6 300 étudiants formés climat, 70% des écoles avec enseignements DD, 15 campus rénovés, 4 campus panneaux solaires, 45% campus énergie verte, 74% en emploi à 6 mois, 68% satisfaction pédagogie, objectif 40-60% femmes dans les COMEX.\n\nSource : Rapport ESG 2023-24 p.8, p.23\n\nFocus apprenants :\n• Données chiffrées transparentes sur l'engagement du groupe"
       },
       "sources": "https://2050analytics.com/fr/org/11229.ad-education\nhttps://ad-education.com\nhttps://ad-education.com/notre-rapport-esg/\n\nhttps://ad-education.com/notre-rapport-esg/"
     },
@@ -2840,11 +2557,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page RSE dédiée « Responsabilité sociale et environnementale » sur icn-artem.\n\n• Brochure ICN Impact téléchargeable\n• Bilan GES 2023 en PDF\n• Article label DD&RS publié\n\nSource : https://www.icn-artem.com/responsabilite-sociale-et-environnementale/\n\nFocus apprenants :\n• Information RSE accessible et structurée pour les candidats et étudiants",
         "27": "OUI — Contenu récent : label DD&RS obtenu début 2024, bilan GES 2023 publié en 2025, brochure ICN Impact (2022).\n\n• Page RSE mise à jour régulièrement\n\nSource : icn-artem.com\n\nFocus apprenants :\n• Informations à jour permettant de suivre les progrès",
         "28": "OUI — Accessible depuis l'accueil : ICN > L'école > Politique RSE (2 clics).\n\nSource : navigation icn-artem.com\n\nFocus apprenants :\n• Facilement trouvable",
-        "29": "PARTIEL — Des données sont publiées (50 étudiants handicap, label DD&RS, bilan GES PDF, Global Compact, PRME) mais pas de tableau de KPIs synthétique avec données carbone, taux de tri, % programmes DD, etc. Source : icn-artem.\n\nFocus apprenants :\n• Transparence partielle ; les KPIs carbone nécessitent de télécharger le PDF",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — Des données sont publiées (50 étudiants handicap, label DD&RS, bilan GES PDF, Global Compact, PRME) mais pas de tableau de KPIs synthétique avec données carbone, taux de tri, % programmes DD, etc. Source : icn-artem.\n\nFocus apprenants :\n• Transparence partielle ; les KPIs carbone nécessitent de télécharger le PDF"
       },
       "sources": "https://www.icn-artem.com/?utm_term=icn%20business%20school&utm_campaign=S4020_Brand_FR_IA&utm_source=adwords&utm_medium=ppc&hsa_acc=7940826425&hsa_cam=23009734789&hsa_grp=185963544940&hsa_ad=797622984199&hsa_src=g&hsa_tgt=kwd-754632575196&hsa_kw=icn%20business%20school&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23009734789&gclid=CjwKCAjwg_nNBhAGEiwAiYPYAwk-UoF6X_kIBC_UeFWRGWZj1418haw4_Z42cqDKCipT_PoSG4iohxoCQRgQAvD_BwE\nhttps://www.icn-artem.com/responsabilite-sociale-et-environnementale/\nhttps://wpapi.icn-artem.com/app/uploads/2025/06/ICN-BS-2023-Bilan-demissions-de-gaz-a-effet-de-serre-1-1.pdf"
     },
@@ -2879,11 +2592,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page RSE dédiée « Démarche RSE » sur le site.\n\n• Bilan carbone PDF téléchargeable\n• Article label DD&RS publié\n• Actualités RSE régulières\n\nSource : https://www.em-normandie.com/grande-ecole-de-management/la-strategie/demarche-rse\n\nFocus apprenants :\n• Information accessible pour candidats et étudiants",
         "27": "OUI — Label DD&RS récent.\n\n• Bilan carbone 2021-2022\n• Actualités RSE datant de 2022-2024\n• Contenu régulièrement mis à jour\n\nSource : site em-normandie.com\n\nFocus apprenants :\n• Informations récentes disponibles",
         "28": "OUI — Accessible depuis l'accueil : La stratégie > Démarche RSE (2-3 clics).\n\n• Page VSS accessible depuis Équilibre et Inclusion\n\nSource : navigation em-normandie.com\n\nFocus apprenants :\n• Facilement trouvable",
-        "29": "PARTIEL — Des données sont publiées (bilan carbone PDF, label DD&RS, convention égalité, partenariats FACE/Wi-Filles) mais pas de tableau synthétique de KPIs RSE avec données chiffrées consolidées (tonnes CO₂, % programmes DD, nombre de boursiers, etc.\n\nSource : site em-normandie.com\n\nFocus apprenants :\n• Transparence partielle ; les KPIs carbone sont dans le PDF",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — Des données sont publiées (bilan carbone PDF, label DD&RS, convention égalité, partenariats FACE/Wi-Filles) mais pas de tableau synthétique de KPIs RSE avec données chiffrées consolidées (tonnes CO₂, % programmes DD, nombre de boursiers, etc.\n\nSource : site em-normandie.com\n\nFocus apprenants :\n• Transparence partielle ; les KPIs carbone sont dans le PDF"
       },
       "sources": "www.em-normandie.com\nhttps://www.em-normandie.com/sites/default/files/medias/documents/bilan-carbone-2021-2022.pdf"
     },
@@ -2918,11 +2627,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page RSE dédiée très complète sur psbedu.\n\n• paris\n• Bilan carbone avec graphique publié\n• Label STAR documenté\n• CRECC présenté\n\nSource : https://www.psbedu.paris/fr/ecole/demarche-rse\n\nFocus apprenants :\n• Page RSE accessible, riche et structurée",
         "27": "OUI — Bilan carbone 2023-2024 publié.\n\n• Label STAR lancé en 2023\n• Page RSE régulièrement mise à jour (référence 2025)\n\nSource : page RSE PSB\n\nFocus apprenants :\n• Données récentes disponibles",
         "28": "OUI — Accessible depuis École > Notre démarche RSE (2 clics depuis l'accueil).\n\nSource : navigation psbedu.paris\n\nFocus apprenants :\n• Navigation claire et intuitive",
-        "29": "OUI — KPIs publiés : 4 264,4 tCO₂e (BC scope 1+2+3), 45 cours DD, 3 facteurs d'émissions identifiés (alimentation, déplacements étudiants, visiteurs), Label STAR depuis 2023.\n\nSource : page RSE PSB\n\nFocus apprenants :\n• Données chiffrées transparentes et accessibles",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs publiés : 4 264,4 tCO₂e (BC scope 1+2+3), 45 cours DD, 3 facteurs d'émissions identifiés (alimentation, déplacements étudiants, visiteurs), Label STAR depuis 2023.\n\nSource : page RSE PSB\n\nFocus apprenants :\n• Données chiffrées transparentes et accessibles"
       },
       "sources": "https://www.psbedu.paris/fr/ecole/notre-ecole?gge_source=google&gge_medium=cpc&gge_term=paris%20school%20of%20business&gge_campaign=Search-Marque&gad_source=1&gad_campaignid=112417110&gclid=CjwKCAjwg_nNBhAGEiwAiYPYA85cnhOA-7wnE0K6NowLVpraNbUdmXIFI5DpybnjIQRNqN92JmClARoCfosQAvD_BwE\n\nhttps://2050analytics.com/fr/org/27463.paris-school-of-business\nhttps://www.psbedu.paris/fr/ecole/demarche-rse"
     },
@@ -2957,11 +2662,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Le 5e Rapport de Responsabilité Sociétale (décembre 2024, 24 pages) est publié et accessible en téléchargement.\n\n• La page RSE du site web est dédiée (bsb-education.com/fr/lecole/engagements-rse)\n• Les indicateurs égalité F/H sont publiés séparément\n\nFocus apprenants :\n• Le rapport RSE met les étudiants au centre de la communication (signature \"We believe in Youth\"). Les indicateurs égalité sont déclinés par programme (Bachelor/MGE)",
         "27": "OUI — Le 5e Rapport RSE date de décembre 2024, soit moins de 2 ans.\n\n• Il couvre les années académiques 2022-2024 et projette 2024-2026 (p.21)\n• Les indicateurs égalité sont pour 2024-25\n\nFocus apprenants :\n• Rapport à jour, couvrant la période récente 2022-2024 avec des projections",
         "28": "OUI — La page RSE est accessible via le menu principal du site : bsb-education.\n\n• com > L'école > Engagements RSE\n• Accessible en 2-3 clics\n• Le rapport RSE est téléchargeable depuis cette page\n\nFocus apprenants :\n• Page facilement accessible depuis le site web principal de l'école",
-        "29": "PARTIEL — Le rapport RSE présente des actions qualitatives détaillées mais peu de KPIs RSE chiffrés systématiques.\n\n• L'index égalité professionnelle est publié (87/100, site web)\n• Les indicateurs égalité F/H sont détaillés par programme\n• Cependant, le rapport RSE ne contient pas de tableau de bord consolidé avec KPIs environnementaux chiffrés (émissions GES, consommation énergétique, déchets, etc.)\n• Le PIR est mentionné comme reconnaissance mais sans données chiffrées granulaires\n\nFocus apprenants :\n• Indicateurs égalité F/H publiés (% femmes candidates, inscrites, diplômées, boursières, salaires post-diplôme). Fondation BSB : 2,9 M€ collectés, 950+ étudiants soutenus (p.9). Mission Handicap : ~100 étudiants/an. Pas de KPIs environnementaux chiffrés publiés",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — Le rapport RSE présente des actions qualitatives détaillées mais peu de KPIs RSE chiffrés systématiques.\n\n• L'index égalité professionnelle est publié (87/100, site web)\n• Les indicateurs égalité F/H sont détaillés par programme\n• Cependant, le rapport RSE ne contient pas de tableau de bord consolidé avec KPIs environnementaux chiffrés (émissions GES, consommation énergétique, déchets, etc.)\n• Le PIR est mentionné comme reconnaissance mais sans données chiffrées granulaires\n\nFocus apprenants :\n• Indicateurs égalité F/H publiés (% femmes candidates, inscrites, diplômées, boursières, salaires post-diplôme). Fondation BSB : 2,9 M€ collectés, 950+ étudiants soutenus (p.9). Mission Handicap : ~100 étudiants/an. Pas de KPIs environnementaux chiffrés publiés"
       },
       "sources": "https://www.bsb-education.com/fr\nhttps://www.bsb-education.com/fr/lecole/engagements-rse"
     },
@@ -2996,11 +2697,7 @@ const BENCHMARK_DATA = {
         "26": "NON — L'IAE Aix-Marseille n'a pas de rapport RSE public propre.\n\n• La page \"Vie étudiante et environnement\" du site (iae-aix.univ-amu.fr/fr/vie-etudiante-environnement) contient principalement des infos sur la vie étudiante (BDE, BDS, Junior) et sur la région, quasiment rien sur l'environnement ou la RSE\n• Pas de page RSE dédiée\n\nFocus apprenants :\n• Pas de rapport RSE accessible pour les apprenants au niveau de l'IAE",
         "27": "NON — En l'absence de rapport RSE, le critère de mise à jour n'est pas applicable.\n\n• L'article \"L'IAE fait sa RSE\" date de 2019, soit plus de 5 ans\n\nFocus apprenants :\n• Pas de contenu RSE à jour au niveau IAE",
         "28": "PARTIEL — Le site web de l'IAE mentionne en accès direct un lien vers le \"service respect-égalité\" d'AMU.\n\n• La rubrique \"Vie étudiante et environnement\" est accessible en 2-3 clics\n• Cependant, le contenu RSE/DD est quasi absent de cette page\n\nFocus apprenants :\n• Page accessible mais contenu RSE/environnemental très limité",
-        "29": "NON — Aucun KPI RSE publié au niveau de l'IAE Aix-Marseille.\n\n• Pas de données chiffrées sur l'empreinte environnementale, la diversité, ou les indicateurs sociaux propres à l'IAE (hors ranking FT et taux d'insertion)\n\nFocus apprenants :\n• Pas de KPIs RSE accessibles",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON — Aucun KPI RSE publié au niveau de l'IAE Aix-Marseille.\n\n• Pas de données chiffrées sur l'empreinte environnementale, la diversité, ou les indicateurs sociaux propres à l'IAE (hors ranking FT et taux d'insertion)\n\nFocus apprenants :\n• Pas de KPIs RSE accessibles"
       },
       "sources": "https://iae-aix.univ-amu.fr/fr\nhttps://iae-aix.univ-amu.fr/fr/vie-etudiante-environnement"
     },
@@ -3035,11 +2732,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page RSE dédiée et structurée \"Un engagement responsable\" (iae.\n\n• univ-lyon3.fr/un-engagement-responsable)\n• Rapports PRME/UN Global Compact publiés régulièrement (2016, 2018, 2020, 2022, 2025)\n• Page accessible depuis le menu L'école > Un engagement responsable\n\nFocus apprenants :\n• Rapports PRME détaillant les actions RSE accessibles en ligne. Page RSE complète avec informations structurées",
         "27": "OUI — La page RSE est mise à jour (dernière mise à jour 20 janvier 2026).\n\n• Le dernier rapport PRME date de 2025\n• Les actualités RSE sont régulières (mars 2026 : Master MEQ2D et empreinte carbone, OGSE collecte alimentaire, The Week, etc.)\n\nFocus apprenants :\n• Contenu RSE à jour, actualités régulières",
         "28": "OUI — Accessible en 2-3 clics : iaelyon > L'école > Un engagement responsable.\n\n• Bien visible dans le menu de navigation\n\nFocus apprenants :\n• Page facilement trouvable depuis le site principal",
-        "29": "PARTIEL — Les rapports PRME contiennent des données sur les actions RSE.\n\n• La page RSE fournit des chiffres clés (25-30% de boursiers, 26 000h BMA/an, 1 200 alternants)\n• Cependant, pas de tableau de bord consolidé avec KPIs environnementaux (émissions, énergie, déchets)\n\nFocus apprenants :\n• Quelques KPIs sociaux publiés (boursiers, BMA, alternance) mais pas de KPIs environnementaux",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — Les rapports PRME contiennent des données sur les actions RSE.\n\n• La page RSE fournit des chiffres clés (25-30% de boursiers, 26 000h BMA/an, 1 200 alternants)\n• Cependant, pas de tableau de bord consolidé avec KPIs environnementaux (émissions, énergie, déchets)\n\nFocus apprenants :\n• Quelques KPIs sociaux publiés (boursiers, BMA, alternance) mais pas de KPIs environnementaux"
       },
       "sources": "https://iae.univ-lyon3.fr\nhttps://iae.univ-lyon3.fr/un-engagement-responsable"
     },
@@ -3074,11 +2767,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Page Transition Écologique et Sociale dédiée et très complète (esdes.fr/accueil/lecole/transition-ecologique-sociale/)\n• Sous-pages : Engagements, Manifeste, PRME, Politique Achat Responsable\n• Infographie synthétique des actions RSE\n• Livre RSE de l'ESDES publié (recherche)\n\nFocus apprenants :\n• Page RSE complète avec contenu structuré. Manifeste accessible. Politique d'achat responsable téléchargeable",
         "27": "OUI — Page RSE active avec contenu récent (politique achat 2025, Andy Day 2024, étudiants MSc engagés 2024).\n\n• Infographie mise à jour\n• Label DD&RS en cours\n\nFocus apprenants :\n• Contenu récent et régulièrement mis à jour",
         "28": "OUI — Accessible en 2-3 clics : esdes.\n\n• fr > L'École > Transition écologique et sociale\n• Bien visible dans le menu principal\n\nFocus apprenants :\n• Navigation claire et accessible",
-        "29": "PARTIEL — Quelques KPIs publiés : 22% d'étudiants aidés financièrement, 12% boursiers CROUS, 46% de publications recherche RSE.\n\n• Objectif neutralité carbone affiché\n• Cependant, pas de tableau de bord consolidé avec KPIs environnementaux chiffrés (émissions, énergie, déchets)\n\nFocus apprenants :\n• KPIs sociaux publiés (aides financières). Pas de KPIs environnementaux chiffrés",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — Quelques KPIs publiés : 22% d'étudiants aidés financièrement, 12% boursiers CROUS, 46% de publications recherche RSE.\n\n• Objectif neutralité carbone affiché\n• Cependant, pas de tableau de bord consolidé avec KPIs environnementaux chiffrés (émissions, énergie, déchets)\n\nFocus apprenants :\n• KPIs sociaux publiés (aides financières). Pas de KPIs environnementaux chiffrés"
       },
       "sources": "https://www.esdes.fr/accueil/vie-etudiante/vie-de-campus/nos-campus/?utm_term=esdes%20campus&utm_campaign=ASUC+-+FR+-+Notoriété&utm_source=adwords&utm_medium=ppc&hsa_acc=4278227287&hsa_cam=989132096&hsa_grp=188477913309&hsa_ad=784546465886&hsa_src=g&hsa_tgt=kwd-2391840596294&hsa_kw=esdes%20campus&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=989132096&gclid=Cj0KCQjwpv7NBhCzARIsADkIfWzey8kFyHmzw6EOUXeSNJgmZVbpnzsYRGrC8KEPKyt-6Oczr3tjwbsaAq_UEALw_wcB\n\n\n\nhttps://www.esdes.fr/accueil/lecole/transition-ecologique-sociale/\n\nhttps://www.esdes.fr/accueil/lecole/transition-ecologique-sociale/manifeste-de-lesdes/\n\nhttps://www.esdes.fr/accueil/lecole/transition-ecologique-sociale/politique-achat-responsable/\n\nhttps://www.esdes.fr/accueil/lecole/transition-ecologique-sociale/prme-principles-for-responsible-management-education/\n\nhttps://2050analytics.com/fr/org/18649.esdes-business-school"
     },
@@ -3113,11 +2802,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Politique DD&RS de 30 pages publiée et accessible (essca.\n\n• Gender Equality Plan sept\n• 2024 publié\n• Rapport PRME (2e rapport, 2022)\n• Site web dédié (essca.eu/a-propos/developpement-durable-et-responsabilite-societale-a-l-essca/)\n• ESSCA Knowledge (site de valorisation recherche)\n\nFocus apprenants :\n• Documents RSE complets et accessibles",
         "27": "OUI — Politique DD&RS datée du 10 mars 2023.\n\n• GEP daté de septembre 2024\n• Label DD&RS obtenu fin 2023\n• Direction Impact Durable créée rentrée 2023\n• Contenu régulièrement mis à jour (classement ChangeNOW/Les Echos nov 2024)\n\nFocus apprenants :\n• Documents récents et mis à jour",
         "28": "OUI — Page DD&RS accessible sur le site : essca.\n\n• eu > À propos > DD&RS (2-3 clics)\n• Politique DD&RS téléchargeable en PDF\n• GEP téléchargeable\n\nFocus apprenants :\n• Navigation claire et accessible depuis le site principal",
-        "29": "OUI — Indicateurs de performance détaillés pour chaque pilier dans la politique DD&RS \n• 7, 9, 13-14, 18, 20, 24, 29)\n• Index égalité F/H : 93/100 (2022), 91/100 (2023) (GEP p.2)\n• 12,5% des cours traitent ODD 5\n• Consommation énergie kWhEF/m²/an\n• Émissions CO2 tCO2eq/an. % déchets valorisés\n• Taux bénéficiaires IKV\n• Bilan social publié annuellement\n• FT 8e mondial publications RSE (2021)\n• FT 20e mondial heures enseignement éthique/RSE (2023)\n\nFocus apprenants :\n• KPIs très détaillés couvrant tous les piliers : social, environnemental, pédagogique, recherche. Index égalité 91-93/100",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — Indicateurs de performance détaillés pour chaque pilier dans la politique DD&RS \n• 7, 9, 13-14, 18, 20, 24, 29)\n• Index égalité F/H : 93/100 (2022), 91/100 (2023) (GEP p.2)\n• 12,5% des cours traitent ODD 5\n• Consommation énergie kWhEF/m²/an\n• Émissions CO2 tCO2eq/an. % déchets valorisés\n• Taux bénéficiaires IKV\n• Bilan social publié annuellement\n• FT 8e mondial publications RSE (2021)\n• FT 20e mondial heures enseignement éthique/RSE (2023)\n\nFocus apprenants :\n• KPIs très détaillés couvrant tous les piliers : social, environnemental, pédagogique, recherche. Index égalité 91-93/100"
       },
       "sources": "https://www.essca.eu/lp-fi-generique/?utm_source=google&utm_medium=paid-search&utm_campaign=bluelemon-brand-102025&utm_content=&utm_term=essca%20business%20school&gad_source=1&gad_campaignid=23065649948&gclid=EAIaIQobChMIp7_BtL-zkwMVzaX9BR1VMjR2EAAYAyAAEgInW_D_BwE\n\n\n\nhttps://www.essca.eu/a-propos/developpement-durable-et-responsabilite-societale-a-l-essca/?utm_source=google&utm_medium=paid-search&utm_campaign=bluelemon-brand-102025&utm_content=&utm_term=essca+business+school&gad_source=1&gad_campaignid=23065649948&gclid=EAIaIQobChMIp7_BtL-zkwMVzaX9BR1VMjR2EAAYAyAAEgInW_D_BwE\n\nhttps://2050analytics.com/fr/org/18727.essca"
     },
@@ -3152,11 +2837,7 @@ const BENCHMARK_DATA = {
         "26": "PARTIEL — Pas de page RSE dédiée identifiée sur brest-bs.\n\n• La fiche Produit en Bretagne fait office de document RSE public mais ce n'est pas un rapport RSE propre\n• L'école communique \"auprès de ses partenaires\" sur ses pratiques DD&RS\n\nFocus apprenants :\n• Pas de rapport RSE propre accessible aux apprenants",
         "27": "PARTIEL — La mission a été reformulée en 2024, ce qui est récent.\n\n• Les recrutements RSE datent de 2025\n• Cependant, pas de contenu RSE structuré et daté sur le site web\n\nFocus apprenants :\n• Actualisation récente mais pas de contenu RSE formalisé à jour",
         "28": "PARTIEL — Le site brest-bs.\n\n• com existe mais pas de section RSE/DD visible facilement\n• La fiche Campus France mentionne le DD&RS\n\nFocus apprenants :\n• Pas de page RSE ≤3 clics identifiable",
-        "29": "NON — Pas de KPIs RSE publiés.\n\nFocus apprenants :\n• Non documenté",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON — Pas de KPIs RSE publiés.\n\nFocus apprenants :\n• Non documenté"
       },
       "sources": "https://brest-bs.com/?gad_source=1&gad_campaignid=21596078544&gclid=Cj0KCQjwpv7NBhCzARIsADkIfWwLM2HaQciRE81-VrQWm4EHr5EwcJlIgejg0NPPIKNym3Hjtb0jSkkaAnQREALw_wcB"
     },
@@ -3191,11 +2872,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport d'Impact 2024-2025 de 122 pages publié et accessible en PDF.\n\n• Page dédiée \"Nos engagements\" sur ggeedu.com avec sections structurées\n• Page \"Rapports d'impact\" dédiée sur le site\n\nFocus apprenants :\n• Le rapport détaille spécifiquement l'impact sur les apprenants via les 16 Engagements Étudiants, les enquêtes de satisfaction et les données chiffrées",
         "27": "OUI — Rapport d'Impact couvrant l'année académique 2024-2025 (juillet 2024 – juin 2025), publié en 2025.\n\n• Site web ggeedu.com mis à jour avec le nouveau branding et les pages engagements\n• Contenu de moins de 2 ans\n\nFocus apprenants :\n• Les données apprenants sont actualisées annuellement via les enquêtes Harris Interactive et les KPIs des 16 Engagements",
         "28": "OUI — Depuis le site ggeedu.\n\n• com : Accueil → Nos engagements → L'impact écologique (3 clics)\n• La page \"Rapports d'impact\" est accessible en 2 clics depuis l'accueil\n• Le PDF du rapport est directement téléchargeable\n\nFocus apprenants :\n• Les apprenants et candidats peuvent accéder facilement aux informations RSE du Groupe",
-        "29": "OUI — Le rapport contient des KPIs chiffrés détaillés : 300 000 apprenants, 13 115 collaborateurs, 57 % femmes, 53 % postes de direction femmes, taux de rétention 77 %, 48 % ayant fait un stage, 50,4 M€ de bourses, 125 000 tCO2eq d'empreinte carbone, 86 % écoles avec stratégie DEI, 2,3 M€ investis campus verts, etc. Données par priorité d'impact avec comparaisons N/N-1 (p. 38, 50-51, 58, 65).\n\nFocus apprenants :\n• KPIs spécifiques apprenants publiés : satisfaction, rétention, bourses, stages, employabilité, engagement associatif (160 associations étudiantes actives)",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — Le rapport contient des KPIs chiffrés détaillés : 300 000 apprenants, 13 115 collaborateurs, 57 % femmes, 53 % postes de direction femmes, taux de rétention 77 %, 48 % ayant fait un stage, 50,4 M€ de bourses, 125 000 tCO2eq d'empreinte carbone, 86 % écoles avec stratégie DEI, 2,3 M€ investis campus verts, etc. Données par priorité d'impact avec comparaisons N/N-1 (p. 38, 50-51, 58, 65).\n\nFocus apprenants :\n• KPIs spécifiques apprenants publiés : satisfaction, rétention, bourses, stages, employabilité, engagement associatif (160 associations étudiantes actives)"
       },
       "sources": "https://www.ggeedu.com/notre-groupe\n\nhttps://www.ggeedu.com/nos-engagements#impact-ecologique\n\nhttps://www.ggeedu.com/nos-engagements#sante-mentale\n\nhttps://cdn.prod.website-files.com/687a559b3a93bfaa55915b31/698e08ba18ada0f6e72698e6_GGE_Rapport%20Impact_2024-2025_FR_compressée.pdf\n\nhttps://2050analytics.com/fr/org/20017.galileo-global-education"
     },
@@ -3230,11 +2907,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Pages dédiées très complètes sur imt-bs.\n\n• eu : \"Engagement sociétale durable\", \"Mission DD&RS\", \"Politique sociale\", \"Handicap et égalité des chances\"\n• Rapports PRME publiés tous les 2 ans\n• Réponse au Grand Baromètre du collectif \"Pour un réveil écologique\"\n• URL : imt-bs.eu/lecole/engagement-societale-durable/\n\nFocus apprenants :\n• Information accessible et détaillée sur l'ensemble des actions DD&RS impactant les étudiants",
         "27": "OUI — Label DD&RS obtenu IMT-BS (annonce récente).\n\n• Classement ChangeNow 2025 IMT-BS publié\n• Site web régulièrement mis à jour avec actualités DDRS\n• Contenu de moins de 2 ans\n\nFocus apprenants :\n• Les actualités DD&RS impactant les étudiants sont régulièrement mises à jour",
         "28": "OUI — Depuis imt-bs.\n\n• eu : Accueil → L'École → Engagement sociétale durable = 3 clics\n• Sous-pages Mission DD&RS, Politique sociale, Handicap facilement accessibles\n\nFocus apprenants :\n• Navigation intuitive pour les candidats et étudiants",
-        "29": "PARTIEL — Rapports PRME bisannuels avec données d'activités DD&RS.\n\n• Référentiel DD&RS renseigné sur la plateforme PERSEES\n• Mais pas de page publique avec KPIs RSE chiffrés consolidés (empreinte carbone, taux de tri, % programmes DD, etc.) facilement accessible\n\nFocus apprenants :\n• Les données d'impact sont dans les rapports PRME mais pas sous forme de dashboard KPIs publics",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "PARTIEL — Rapports PRME bisannuels avec données d'activités DD&RS.\n\n• Référentiel DD&RS renseigné sur la plateforme PERSEES\n• Mais pas de page publique avec KPIs RSE chiffrés consolidés (empreinte carbone, taux de tri, % programmes DD, etc.) facilement accessible\n\nFocus apprenants :\n• Les données d'impact sont dans les rapports PRME mais pas sous forme de dashboard KPIs publics"
       },
       "sources": "https://www.imt-bs.eu\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/actualites-ddrs/\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/mission-ddrs/\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/politique-sociale/handicap-et-egalites-des-chances/\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/politique-sociale/\nwww.imt-bs.eu/lecole/engagement-societale-durable/politique-sociale/handicap-et-egalites-des-chances/"
     },
@@ -3269,11 +2942,7 @@ const BENCHMARK_DATA = {
         "26": "PARTIEL — Une page dédiée existe sur le site iscparis.\n\n• com (Responsabilité Sociétale, diversité et inclusion)\n• Un guide Inclusion & Diversité est téléchargeable en PDF\n• Mais aucun rapport RSE/DD autonome publié\n• Le contenu se limite à diversité/inclusion/handicap sans volet environnemental\n\nSource : page Responsabilité Sociétale, iscparis.com\n\nFocus apprenants :\n• Information accessible sur l'inclusion mais absence totale de communication environnementale",
         "27": "OUI — La page RSE mentionne le plan stratégique 2025, la Journée du Bonheur 2023, et des contenus datés de moins de 2 ans.\n\n• Le site est régulièrement mis à jour avec événements récents\n\nSource : site iscparis.com\n\nFocus apprenants :\n• Informations récentes accessibles",
         "28": "OUI — Depuis iscparis.\n\n• com : menu ISC Paris → Responsabilité Sociétale, diversité et inclusion = 2-3 clics\n• Page facilement accessible depuis la navigation principale\n\nSource : site iscparis.com\n\nFocus apprenants :\n• Navigation intuitive pour les candidats et étudiants",
-        "29": "NON — Aucun KPI RSE publié avec données chiffrées (empreinte carbone, taux de tri, % programmes DD, données diversité chiffrées, satisfaction, etc.\n\n• Le contenu est déclaratif sans indicateurs mesurables\n\nSource : site iscparis.com — aucune donnée chiffrée identifiée\n\nFocus apprenants :\n• Aucune donnée chiffrée d'impact publiée",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON — Aucun KPI RSE publié avec données chiffrées (empreinte carbone, taux de tri, % programmes DD, données diversité chiffrées, satisfaction, etc.\n\n• Le contenu est déclaratif sans indicateurs mesurables\n\nSource : site iscparis.com — aucune donnée chiffrée identifiée\n\nFocus apprenants :\n• Aucune donnée chiffrée d'impact publiée"
       },
       "sources": "https://www.iscparis.com\nhttps://www.iscparis.com/isc-paris-responsabilite-societale-diversite-et-inclusion/"
     },
@@ -3308,11 +2977,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport PRME 2024 de 65 pages publié en décembre 2025, très détaillé.\n\n• Rapport BSIS 2025 (Paris et Nice)\n• Page RSE sur ipag.edu\n• Pages Chaires dédiées\n\nSource : Rapport PRME 2024 (document intégral)\n\nFocus apprenants :\n• Le rapport détaille l'impact sur les étudiants (formation, accompagnement, emploi)",
         "27": "OUI — Rapport PRME daté décembre 2025 (< 6 mois).\n\n• BSIS renouvelé mai 2025\n• Plan stratégique IPAG 2029 récent\n• Contenu de moins de 2 ans\n• 1, 6\n\nSource : Rapport PRME 2024, p\n\nFocus apprenants :\n• Données actualisées 2024-2025 sur l'accompagnement handicap, l'insertion, les programmes",
         "28": "OUI — ipag.\n\n• edu avec pages dédiées RSE, Chaires, programmes\n• Rapport PRME téléchargeable\n• Navigation 2-3 clics depuis l'accueil\n\nSource : ipag.edu\n\nFocus apprenants :\n• Accès facile pour candidats et étudiants",
-        "29": "OUI — KPIs détaillés publiés dans le Rapport PRME : 65 % contributions recherche RSE, 60 % publications classées RSE, 50 %+ EC publiant sur RSE, 139 étudiants handicap accompagnés, 120 en 2023-2024, 93/98 aménagements, 43,4 % alumni PGE 2023 en emploi lié RSE/social/transition, 64 % femmes personnel, 50/50 CODIR, gender gap nul, 434 étudiants internationaux, 55+ organisations partenaires Chaire, 150+ rapports/livrables, 18 500 cadres formés.\n\n• 17, 19-20, 37-38, 60-62\n\nSource : Rapport PRME 2024, p\n\nFocus apprenants :\n• KPIs spécifiques apprenants : taux d'emploi RSE, accompagnement handicap, section obligatoire mémoire, 100 % diplômés formés RSE",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs détaillés publiés dans le Rapport PRME : 65 % contributions recherche RSE, 60 % publications classées RSE, 50 %+ EC publiant sur RSE, 139 étudiants handicap accompagnés, 120 en 2023-2024, 93/98 aménagements, 43,4 % alumni PGE 2023 en emploi lié RSE/social/transition, 64 % femmes personnel, 50/50 CODIR, gender gap nul, 434 étudiants internationaux, 55+ organisations partenaires Chaire, 150+ rapports/livrables, 18 500 cadres formés.\n\n• 17, 19-20, 37-38, 60-62\n\nSource : Rapport PRME 2024, p\n\nFocus apprenants :\n• KPIs spécifiques apprenants : taux d'emploi RSE, accompagnement handicap, section obligatoire mémoire, 100 % diplômés formés RSE"
       },
       "sources": "https://www.ipag.edu https://www.ipag.edu/ipag-et-la-rse-engagement-et-certification-eespig"
     },
@@ -3347,11 +3012,7 @@ const BENCHMARK_DATA = {
         "26": "PARTIEL — Page RSE dédiée sur esce.\n\n• Renvoi vers la démarche TIME TO ACT d'OMNES\n• Rapport PRME et Rapport RSE publiés au niveau OMNES (Rapport Annuel RSE OMNES 2024-25 existe, évalué dans le benchmark OMNES)\n• Mais pas de rapport RSE propre à l'ESCE\n\nSource : page RSE esce.fr ; omneseducation.com\n\nFocus apprenants :\n• Information sur la page RSE mais renvoi au Groupe pour les données détaillées",
         "27": "OUI — Page RSE mise à jour (dernière modification 23/03/2026 selon le footer).\n\n• Contenu TIME TO ACT et PACT datés 2022-2025\n• Moins de 2 ans\n\nSource : page RSE esce.fr\n\nFocus apprenants :\n• Contenu récent",
         "28": "OUI — Depuis esce.\n\n• fr : L'école → Qui sommes-nous → Responsabilité Sociale et Environnementale = 3 clics\n• Page accessible depuis la navigation principale\n\nSource : site esce.fr\n\nFocus apprenants :\n• Navigation intuitive",
-        "29": "NON — Aucun KPI RSE propre à l'ESCE publié (empreinte carbone, taux de tri, % programmes DD, données diversité chiffrées).\n\n• Les KPIs sont au niveau Groupe OMNES\n\nSource : site esce.fr — aucune donnée chiffrée propre\n\nFocus apprenants :\n• Aucune donnée chiffrée propre à l'ESCE",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON — Aucun KPI RSE propre à l'ESCE publié (empreinte carbone, taux de tri, % programmes DD, données diversité chiffrées).\n\n• Les KPIs sont au niveau Groupe OMNES\n\nSource : site esce.fr — aucune donnée chiffrée propre\n\nFocus apprenants :\n• Aucune donnée chiffrée propre à l'ESCE"
       },
       "sources": "https://ecoles.esce.fr/tous-programmes-accueil-candidature/?utm_source=google&utm_medium=cpc&utm_campaign=156158846&utm_content=10515925286&utm_term=784572633560&utm_id=156158846_10515925286_784572633560&et_keyword=esce&et_campaign=156158846&et_device=c&et_matchtype=e&gad_source=1&gad_campaignid=156158846&gclid=CjwKCAjwyYPOBhBxEiwAgpT8P6gDfqUHErpaDpIvroiwZ_tDtlkq5i-ShHphy8_cyYo4Hq2I0BQ0zxoCjowQAvD_BwE https://www.esce.fr/responsabilite-sociale-environnementale/ https://www.esce.fr/etudiants-besoins-specifiques/"
     },
@@ -3386,11 +3047,7 @@ const BENCHMARK_DATA = {
         "26": "NON — Aucune page RSE/DD dédiée sur le site edcparis.\n\n• Pas de rapport RSE ni de rapport PRME\n• Le seul contenu identifié est le Module Sustainable Development et les articles Supply Chain/AMF via 2050analytics\n\nSource : site edcparis.edu — aucune page RSE\n\nFocus apprenants :\n• Aucune communication RSE structurée",
         "27": "NON — Pas de contenu RSE récent publié (pas de rapport, pas de page dédiée).\n\nSource : site edcparis.edu\n\nFocus apprenants :\n• Aucun contenu RSE daté",
         "28": "NON — Pas de page RSE accessible.\n\n• Le site ne propose aucun chemin d'accès vers des informations RSE/DD dans la navigation\n\nSource : site edcparis.edu\n\nFocus apprenants :\n• Aucune accessibilité RSE",
-        "29": "NON — Aucun KPI RSE publié.\n\nSource : site edcparis.edu\n\nFocus apprenants :\n• Aucune donnée",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON — Aucun KPI RSE publié.\n\nSource : site edcparis.edu\n\nFocus apprenants :\n• Aucune donnée"
       },
       "sources": "https://2050analytics.com/fr/org/17945.edc-paris-business-school https://www.edcparis.edu/fr/ https://www.edcparis.edu/fr/"
     },
@@ -3425,11 +3082,7 @@ const BENCHMARK_DATA = {
         "26": "OUI — Rapport de progrès DD-RS 2026 (5ème rapport, 44 pages).\n\n• Publié tous les 2 ans depuis 2017\n• Page Engagements sur efrei.fr\n• Candidature label DD&RS déposée\n\nSource : Rapport DD-RS 2026 (document intégral)\n\nFocus apprenants :\n• Le rapport détaille l'ensemble des actions impactant les étudiants",
         "27": "OUI — Rapport daté 2026 (< 1 an).\n\n• Données 2024-2025 et 2025-2026 actualisées\n• Plan stratégique 2024-2029\n\nSource : Rapport DD-RS 2026\n\nFocus apprenants :\n• Données très récentes",
         "28": "OUI — efrei.fr/engagements/ accessible en 2 clics\n• Rapport téléchargeable\n\nSource : site efrei.fr\n\nFocus apprenants :\n• Navigation intuitive",
-        "29": "OUI — KPIs très détaillés publiés : 3 500 tCO2e, 0,58 tCO2e/étudiant, 323 ESH, 22,1 % étudiantes, 19,95 % internationaux, 800 K€ bourses, 326 boursiers, 2 300 Fresque Climat, 500 atelier 2tonnes, 3 400 journée EFG, 84 % satisfaction collaborateurs, index égalité 90, 100 % enseignants formés DD, 55 % femmes personnel, 61 893 kg déchets, 4,5 % tri, 8 257 m3 eau, 60 actions EFG associations.\n\n• 16-17, 24-25, 32-33, 40-41\n\nSource : Rapport DD-RS 2026, p\n\nFocus apprenants :\n• KPIs spécifiques apprenants nombreux et détaillés",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "OUI — KPIs très détaillés publiés : 3 500 tCO2e, 0,58 tCO2e/étudiant, 323 ESH, 22,1 % étudiantes, 19,95 % internationaux, 800 K€ bourses, 326 boursiers, 2 300 Fresque Climat, 500 atelier 2tonnes, 3 400 journée EFG, 84 % satisfaction collaborateurs, index égalité 90, 100 % enseignants formés DD, 55 % femmes personnel, 61 893 kg déchets, 4,5 % tri, 8 257 m3 eau, 60 actions EFG associations.\n\n• 16-17, 24-25, 32-33, 40-41\n\nSource : Rapport DD-RS 2026, p\n\nFocus apprenants :\n• KPIs spécifiques apprenants nombreux et détaillés"
       },
       "sources": "https://www.efrei.fr https://www.efrei.fr/engagements/"
     },
@@ -3464,11 +3117,7 @@ const BENCHMARK_DATA = {
         "26": "PARTIEL — Page « Raison d'être » sur ionis-group.\n\n• Article newsroom sur les sociétés à mission\n• Mais pas de rapport RSE Groupe consolidé ni de rapport de mission publié\n\nSource : site ionis-group.com\n\nFocus apprenants :\n• Communication RSE fragmentée, pas de rapport dédié",
         "27": "PARTIEL — L'article sociétés à mission date de novembre 2023.\n\n• La page Raison d'être est mise à jour (mentions 2024-2025)\n• Moins de 2 ans mais contenu limité\n\nSource : site ionis-group.com, newsroom\n\nFocus apprenants :\n• Contenu récent mais incomplet",
         "28": "OUI — ionis-group.\n\n• com → Le Groupe → Notre raison d'être = 2-3 clics\n• Navigation claire\n\nSource : site ionis-group.com\n\nFocus apprenants :\n• Navigation intuitive",
-        "29": "NON — Aucun KPI RSE Groupe publié (empreinte carbone, taux diversité, % programmes DD, données environnementales).\n\n• Les seules données chiffrées sont les bourses Fondation IONIS (350) et IONIS Goodwills (19 projets)\n\nSource : site ionis-group.com — aucun tableau de bord\n\nFocus apprenants :\n• Aucune donnée chiffrée RSE globale",
-        "30": "",
-        "31": "",
-        "32": "",
-        "33": ""
+        "29": "NON — Aucun KPI RSE Groupe publié (empreinte carbone, taux diversité, % programmes DD, données environnementales).\n\n• Les seules données chiffrées sont les bourses Fondation IONIS (350) et IONIS Goodwills (19 projets)\n\nSource : site ionis-group.com — aucun tableau de bord\n\nFocus apprenants :\n• Aucune donnée chiffrée RSE globale"
       },
       "sources": "https://www.ionis-group.com\nhttps://www.ionis-group.com/groupe/raison-etre-valeurs-engagements/"
     }
