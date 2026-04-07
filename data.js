@@ -160,17 +160,17 @@ const BENCHMARK_DATA = {
     {
       "col": 27,
       "name": "Tri et gestion déchets formalisés",
-      "category": "4"
+      "category": "3"
     },
     {
       "col": 28,
       "name": "Campus certifié ou éco-labellisé",
-      "category": "4"
+      "category": "3"
     },
     {
       "col": 29,
       "name": "Politique alimentation durable campus",
-      "category": "4"
+      "category": "3"
     },
     {
       "col": 30,
@@ -205,11 +205,6 @@ const BENCHMARK_DATA = {
     {
       "col": 36,
       "name": "Achat inclusif et local",
-      "category": "5"
-    },
-    {
-      "col": 37,
-      "name": "Insertion professionnelle (taux emploi publié)",
       "category": "5"
     }
   ],
@@ -252,8 +247,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -295,8 +289,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -338,8 +331,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -381,8 +373,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -424,8 +415,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -467,8 +457,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -510,8 +499,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -553,8 +541,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -596,8 +583,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -639,8 +625,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -682,8 +667,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -725,8 +709,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -768,8 +751,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -811,8 +793,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -854,8 +835,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -897,8 +877,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -940,8 +919,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -983,8 +961,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1026,8 +1003,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1069,8 +1045,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1112,8 +1087,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1155,8 +1129,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1198,8 +1171,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1241,8 +1213,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1284,8 +1255,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1327,8 +1297,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1370,8 +1339,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1413,8 +1381,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1456,8 +1423,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1499,8 +1465,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1542,8 +1507,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1585,8 +1549,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1628,8 +1591,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1671,8 +1633,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1714,8 +1675,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1757,8 +1717,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1800,8 +1759,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1843,8 +1801,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1886,8 +1843,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1929,8 +1885,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -1972,8 +1927,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     },
@@ -2015,8 +1969,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "score": 0
     }
@@ -2060,8 +2013,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.igensia-education.fr/notre-demarche-rse"
     },
@@ -2103,8 +2055,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.hec.edu/sites/default/files/documents/Sustainability%20Report%202024_HEC%20Paris%20%281%29.pdf\n\nhttps://2050analytics.com/fr/org/3236.hec-paris\n\nhttps://www.hec.edu/fr"
     },
@@ -2146,8 +2097,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://assets.ctfassets.net/vmb6iqn8sgcm/1AoLEi0C4L4pGygYA4WJQu/60b0aeae54fb13320fd9c33b21171613/2025_ESSEC_RAPPORT_DDRS_FR.pdf\n\nhttps://2050analytics.com/fr/org/18730.essec-business-school\n\nhttps://www.essec.edu/fr/"
     },
@@ -2189,8 +2139,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.edhec.edu/sites/default/files/2023-07/rapport-ddrs-2023-edhec.pdf\nhttps://www.edhec.edu/fr\nhttps://2050analytics.com/fr/org/17973.edhec-business-school"
     },
@@ -2232,8 +2181,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://res.cloudinary.com/emlyon/image/upload/v1765364826/PDF/ESE/declaration-de-performance-extra-financiere-avi-oti-2024-2025.pdf\nhttps://res.cloudinary.com/emlyon/image/upload/v1768830781/Documents-a-heberger/rapport-d-engagement-2025-emlyon-v4.pdf\n\nhttps://em-lyon.com/fr/responsabilite-sociale-et-environnementale"
     },
@@ -2275,8 +2223,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://kedge.edu/\nhttps://impakt.kedge.edu/\nhttps://impakt.kedge.edu/nos-engagements\nhttps://kedge.edu/l-ecole/rse/rapports-et-publications-developpement-durable-kedge"
     },
@@ -2318,8 +2265,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.grenoble-em.com/wp-content/uploads/GEM_Rapport_societe_mission_5512ffaf87.pdf\n\nhttps://www.grenoble-em.com/"
     },
@@ -2361,8 +2307,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.omneseducation.com/\nhttps://www.omneseducation.com/le-groupe/demarche-rse/\nhttps://2050analytics.com/fr/org/27013.omnes-education"
     },
@@ -2404,8 +2349,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.insead.edu/\nhttps://www.insead.edu/system/files/2025-02/sustainability-report-2024.pdf?utm_medium=organic&utm_source=bing"
     },
@@ -2447,8 +2391,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://escp.eu/\nhttps://escp.eu/ethics-responsibility-sustainability\nhttps://escp.eu/sites/default/files/PDF/ESCP_Carbon_Footprint_2024.pdf\nhttps://2050analytics.com/fr/org/3229.escp-business-school"
     },
@@ -2490,8 +2433,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://2050analytics.com/fr/org/34406.montpellier-business-school\nhttps://www.mbs-education.com/#\nhttps://www.mbs-education.com/mbs/rse-developpement-durable/\nhttps://r.mbs-education.com/mbs-rse-accueil/\nhttps://www.mbs-education.com/mbs/a-propos-de-mbs/diversite/besoins-specifiques-handicap/\nhttps://www.mbs-education.com/mbs/a-propos-de-mbs/diversite/"
     },
@@ -2533,8 +2475,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.sciencespo.fr/fr/vie-a-sciences-po/scolarite-et-vie-pratique/\n\nhttps://www.sciencespo.fr/fr/\n\nhttps://www.sciencespo.fr/executive-education/fr/programmes-pour-les-individus/transition-ecologique-rse/\n\nhttps://www.sciencespo.fr/fr/a-propos/universite-ouverte-tous/lutter-contre-les-discriminations/\n\nhttps://www.sciencespo.fr/fr/a-propos/universite-ouverte-tous/lutter-contre-les-violences-sexistes-et-sexuelles/\n\nhttps://www.sciencespo.fr/sites/default/files/2024_2027_Plan_d_action_transition_ecologique.pdf"
     },
@@ -2576,8 +2517,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.audencia.com/\nhttps://www.audencia.com/lecole/vision-engagements-responsables\nhttps://www.audencia.com/gaia\nhttps://www.audencia.com/lecole/vision-engagements-responsables/politique-sociale-qualite-de-vie\nhttps://www.audencia.com/lecole/vision-engagements-responsables/environnement-decarbonation\nhttps://www.audencia.com/lecole/vision-engagements-responsables/recherche-innovation-DDRS\nhttps://www.audencia.com/lecole/vision-engagements-responsables/enseignements-formations-DDRS\nhttps://www.audencia.com/lecole/vision-engagements-responsables/strategie-gourvenance-DDRS\nhttps://www.calameo.com/read/000137206ba80aabdd42b?authid=6L5hy6cJSXV0"
     },
@@ -2619,8 +2559,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.excelia-group.fr/a-propos-dexcelia/nos-ecoles/excelia-business-school\nhttps://www.excelia-group.fr/a-propos-dexcelia/le-groupe/vision-rse\nhttps://www.excelia-group.fr/a-propos-dexcelia/le-groupe/la-diversite-chez-excelia\nhttps://www.excelia-group.fr/sites/excelia-group.fr/files/2025-06/Excelia_Sch%C3%A9ma%20Directeur%20RSDD_062025.pdf"
     },
@@ -2662,8 +2601,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "4-pages_Formations_Transition_ecologique_Dauphine.pdf\npdf\n\nhttps://dauphine.psl.eu/\nhttps://dauphine.psl.eu/dauphine/dauphine-durable\nhttps://dauphine.psl.eu/dauphine/responsabilite-sociale-universite/campus-durable\nhttps://dauphine.psl.eu/dauphine/responsabilite-sociale-universite/formation-et-enseignement\nhttps://dauphine.psl.eu/dauphine/responsabilite-sociale-universite/recherche"
     },
@@ -2705,8 +2643,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.polytechnique.edu/\nhttps://www.polytechnique.edu/ecole/responsabilite-societale-et-environnementale\nhttps://www.calameo.com/read/006319277ef92591c2d3d\nhttps://gargantua.polytechnique.fr/siatel-web/app/linkto/mICYYYShxxJZ?aw=1\nhttps://www.polytechnique.edu/ecole/soutenabilite"
     },
@@ -2748,8 +2685,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.skema.edu/fr/entreprises\nhttps://www.skema.edu/fr/transitions?utm_source=microsoft&utm_medium=paid&utm_campaign=Marque\nhttps://publications.skema.edu/books/cgzp/?_gl=1*uxdkt8*_gcl_au*MTI0NjI1MTU5OS4xNzQxODU3MjM1"
     },
@@ -2791,8 +2727,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/enseignements/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/recherche/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/campus-responsable/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/associations-etudiantes/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/gouvernance-dd-rs/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/politique-sociale/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/handicap/\n\nValorisation de l’engagement étudiant | TBS Education\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/ancrage-territorial-reseaux/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/bonnes-pratiques/\n\nhttps://www.tbs-education.fr/tbs/decouvrir-tbs/societe-a-mission/"
     },
@@ -2834,8 +2769,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.ieseg.fr/?utm_source=bing-search&utm_medium=cpc&utm_campaign=brand-fr&utm_term=ieseg%20school%20of%20management&utm_content=fr-hp&msclkid=38e021d452741ef19da448691e8fa106\n\nhttps://www.ieseg.fr/lecole/la-rse-a-lieseg/"
     },
@@ -2877,8 +2811,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.rennes-sb.fr/\nhttps://www.rennes-sb.fr/projets-solidaires/\nhttps://www.rennes-sb.fr/demarche-rse/\nhttps://images.rennes-sb.com/frontend/2024/06/Resultats-bilan-carbone_Rennes-SB.pdf?_gl=1*16gm27u*_gcl_au*MjE2NDMxNzEuMTc3NDAxNDE1Mg..*_ga*MzM2NzgyMDgxLjE3NzQwMTQxMzg.*_ga_QV3F24R0MQ*czE3NzQwMTQxMzckbzEkZzEkdDE3NzQwMTQxODEkajMwJGwwJGgxMTYyODc3NjQ0"
     },
@@ -2920,8 +2853,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://neoma-bs.fr/\n\nhttps://neoma-bs.fr/recherche?search_api_fulltext=rse\n\nhttps://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE/enseignement-responsable\n\nhttps://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE/neomact\n\nhttps://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE/nos-engagements-environnementaux\n\nhttps://neoma-bs.fr/decouvrez-neoma-bs/une-ecole-engagee-TSE"
     },
@@ -2963,8 +2895,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://tsm-education.fr/\nhttps://tsm-education.fr/ecole/engagements/mission-valeurs\nhttps://tsm-education.fr/ecole/engagements/developpement-durable-responsabilite-societale\nhttps://tsm-education.fr/ecole/engagements/handicap-inclusion\nhttps://tsm-education.fr/ecole/engagements/numerique-pedagogie\nhttps://tsm-education.fr/actualites/bilan-ddrs-2024-2025-tsm"
     },
@@ -3006,8 +2937,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.esc-clermont.fr\nhttps://www.clermont-sb.fr/charte-rse/\nhttps://www.clermont-sb.fr/diversite-et-ouverture-sociale/\nhttps://www.clermont-sb.fr/parcours-adaptes/\nhttps://www.clermont-sb.fr/e2c/\n\nhttps://www.clermont-sb.fr/rapport-dactivite-2022-2023/"
     },
@@ -3049,8 +2979,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.em-strasbourg.com/fr/lp-post-bac?utm_source=google&utm_medium=google_ads&utm_campaign=generique&utm_content=post_bac&gad_source=1&gad_campaignid=23162859965&gclid=CjwKCAjwg_nNBhAGEiwAiYPYA1k_i3gwVrKfs_6oT2VfrHQBFilYrxpMqf7q19E30I2T-Qt3eOe0dRoC7CkQAvD_BwE\n\nhttps://www.em-strasbourg.com/fr/etudiant/vie-etudiante-et-services/missions-sociales-et-handicap\n\nhttps://www.em-strasbourg.com/fr/recherche/chaires/developpement-durable-et-rse\n\nhttps://2050analytics.com/fr/org/18250.em-strasbourg-business-school"
     },
@@ -3092,8 +3021,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://2050analytics.com/fr/org/11229.ad-education\nhttps://ad-education.com\nhttps://ad-education.com/notre-rapport-esg/\n\nhttps://ad-education.com/notre-rapport-esg/"
     },
@@ -3135,8 +3063,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.icn-artem.com/?utm_term=icn%20business%20school&utm_campaign=S4020_Brand_FR_IA&utm_source=adwords&utm_medium=ppc&hsa_acc=7940826425&hsa_cam=23009734789&hsa_grp=185963544940&hsa_ad=797622984199&hsa_src=g&hsa_tgt=kwd-754632575196&hsa_kw=icn%20business%20school&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23009734789&gclid=CjwKCAjwg_nNBhAGEiwAiYPYAwk-UoF6X_kIBC_UeFWRGWZj1418haw4_Z42cqDKCipT_PoSG4iohxoCQRgQAvD_BwE\nhttps://www.icn-artem.com/responsabilite-sociale-et-environnementale/\nhttps://wpapi.icn-artem.com/app/uploads/2025/06/ICN-BS-2023-Bilan-demissions-de-gaz-a-effet-de-serre-1-1.pdf"
     },
@@ -3178,8 +3105,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "www.em-normandie.com\nhttps://www.em-normandie.com/sites/default/files/medias/documents/bilan-carbone-2021-2022.pdf"
     },
@@ -3221,8 +3147,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.psbedu.paris/fr/ecole/notre-ecole?gge_source=google&gge_medium=cpc&gge_term=paris%20school%20of%20business&gge_campaign=Search-Marque&gad_source=1&gad_campaignid=112417110&gclid=CjwKCAjwg_nNBhAGEiwAiYPYA85cnhOA-7wnE0K6NowLVpraNbUdmXIFI5DpybnjIQRNqN92JmClARoCfosQAvD_BwE\n\nhttps://2050analytics.com/fr/org/27463.paris-school-of-business\nhttps://www.psbedu.paris/fr/ecole/demarche-rse"
     },
@@ -3264,8 +3189,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.bsb-education.com/fr\nhttps://www.bsb-education.com/fr/lecole/engagements-rse"
     },
@@ -3307,8 +3231,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://iae-aix.univ-amu.fr/fr\nhttps://iae-aix.univ-amu.fr/fr/vie-etudiante-environnement"
     },
@@ -3350,8 +3273,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://iae.univ-lyon3.fr\nhttps://iae.univ-lyon3.fr/un-engagement-responsable"
     },
@@ -3393,8 +3315,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.esdes.fr/accueil/vie-etudiante/vie-de-campus/nos-campus/?utm_term=esdes%20campus&utm_campaign=ASUC+-+FR+-+Notoriété&utm_source=adwords&utm_medium=ppc&hsa_acc=4278227287&hsa_cam=989132096&hsa_grp=188477913309&hsa_ad=784546465886&hsa_src=g&hsa_tgt=kwd-2391840596294&hsa_kw=esdes%20campus&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=989132096&gclid=Cj0KCQjwpv7NBhCzARIsADkIfWzey8kFyHmzw6EOUXeSNJgmZVbpnzsYRGrC8KEPKyt-6Oczr3tjwbsaAq_UEALw_wcB\n\n\n\nhttps://www.esdes.fr/accueil/lecole/transition-ecologique-sociale/\n\nhttps://www.esdes.fr/accueil/lecole/transition-ecologique-sociale/manifeste-de-lesdes/\n\nhttps://www.esdes.fr/accueil/lecole/transition-ecologique-sociale/politique-achat-responsable/\n\nhttps://www.esdes.fr/accueil/lecole/transition-ecologique-sociale/prme-principles-for-responsible-management-education/\n\nhttps://2050analytics.com/fr/org/18649.esdes-business-school"
     },
@@ -3436,8 +3357,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.essca.eu/lp-fi-generique/?utm_source=google&utm_medium=paid-search&utm_campaign=bluelemon-brand-102025&utm_content=&utm_term=essca%20business%20school&gad_source=1&gad_campaignid=23065649948&gclid=EAIaIQobChMIp7_BtL-zkwMVzaX9BR1VMjR2EAAYAyAAEgInW_D_BwE\n\n\n\nhttps://www.essca.eu/a-propos/developpement-durable-et-responsabilite-societale-a-l-essca/?utm_source=google&utm_medium=paid-search&utm_campaign=bluelemon-brand-102025&utm_content=&utm_term=essca+business+school&gad_source=1&gad_campaignid=23065649948&gclid=EAIaIQobChMIp7_BtL-zkwMVzaX9BR1VMjR2EAAYAyAAEgInW_D_BwE\n\nhttps://2050analytics.com/fr/org/18727.essca"
     },
@@ -3479,8 +3399,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://brest-bs.com/?gad_source=1&gad_campaignid=21596078544&gclid=Cj0KCQjwpv7NBhCzARIsADkIfWwLM2HaQciRE81-VrQWm4EHr5EwcJlIgejg0NPPIKNym3Hjtb0jSkkaAnQREALw_wcB"
     },
@@ -3522,8 +3441,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.ggeedu.com/notre-groupe\n\nhttps://www.ggeedu.com/nos-engagements#impact-ecologique\n\nhttps://www.ggeedu.com/nos-engagements#sante-mentale\n\nhttps://cdn.prod.website-files.com/687a559b3a93bfaa55915b31/698e08ba18ada0f6e72698e6_GGE_Rapport%20Impact_2024-2025_FR_compressée.pdf\n\nhttps://2050analytics.com/fr/org/20017.galileo-global-education"
     },
@@ -3565,8 +3483,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.imt-bs.eu\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/actualites-ddrs/\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/mission-ddrs/\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/politique-sociale/handicap-et-egalites-des-chances/\nhttps://www.imt-bs.eu/lecole/engagement-societale-durable/politique-sociale/\nwww.imt-bs.eu/lecole/engagement-societale-durable/politique-sociale/handicap-et-egalites-des-chances/"
     },
@@ -3608,8 +3525,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.iscparis.com\nhttps://www.iscparis.com/isc-paris-responsabilite-societale-diversite-et-inclusion/"
     },
@@ -3651,8 +3567,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.ipag.edu https://www.ipag.edu/ipag-et-la-rse-engagement-et-certification-eespig"
     },
@@ -3694,8 +3609,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://ecoles.esce.fr/tous-programmes-accueil-candidature/?utm_source=google&utm_medium=cpc&utm_campaign=156158846&utm_content=10515925286&utm_term=784572633560&utm_id=156158846_10515925286_784572633560&et_keyword=esce&et_campaign=156158846&et_device=c&et_matchtype=e&gad_source=1&gad_campaignid=156158846&gclid=CjwKCAjwyYPOBhBxEiwAgpT8P6gDfqUHErpaDpIvroiwZ_tDtlkq5i-ShHphy8_cyYo4Hq2I0BQ0zxoCjowQAvD_BwE https://www.esce.fr/responsabilite-sociale-environnementale/ https://www.esce.fr/etudiants-besoins-specifiques/"
     },
@@ -3737,8 +3651,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://2050analytics.com/fr/org/17945.edc-paris-business-school https://www.edcparis.edu/fr/ https://www.edcparis.edu/fr/"
     },
@@ -3780,8 +3693,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.efrei.fr https://www.efrei.fr/engagements/"
     },
@@ -3823,8 +3735,7 @@ const BENCHMARK_DATA = {
         "33": "",
         "34": "",
         "35": "",
-        "36": "",
-        "37": ""
+        "36": ""
       },
       "sources": "https://www.ionis-group.com\nhttps://www.ionis-group.com/groupe/raison-etre-valeurs-engagements/"
     }
