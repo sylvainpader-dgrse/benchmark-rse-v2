@@ -156,10 +156,10 @@ function scoreClass(score) {
 
 function getCatName(letter) {
   const names = {
-    '1': 'Gouvernance',
+    '1': 'Gouvernance Responsable',
     '2': 'Parties Prenantes',
-    '3': 'Environnement',
-    '4': 'Qualit\u00e9 de Vie',
+    '3': 'Impact Environnemental',
+    '4': 'Qualit\u00e9 de Vie & \u00c9galit\u00e9',
     '5': 'Utilit\u00e9 Soci\u00e9tale'
   };
   return names[letter] || letter;
@@ -209,11 +209,11 @@ function renderGrille() {
   // Build category header row
   let catRow = '<tr><th class="school-col cat-header">ÉCOLE / GROUPE</th>';
   const catRanges = [
-    { name: '1 — GOUVERNANCE RESPONSABLE', cols: [1,2,3,4,5,9,26,27,28,29], color: '#2D1B4E' },
-    { name: '2 — ENGAGEMENT PARTIES PRENANTES', cols: [6,8,11,13,14,15], color: '#1B3A8C' },
-    { name: '3 — IMPACT ENVIRONNEMENTAL', cols: [16,17,18,19,20,21], color: '#00A651' },
-    { name: '4 — QUALIT\u00c9 DE VIE & \u00c9GALIT\u00c9', cols: [7,23,24,25], color: '#E6007E' },
-    { name: '5 — UTILIT\u00c9 SOCI\u00c9TALE & TERRITOIRES', cols: [10,12,22,30,31,32,33], color: '#0099CC' },
+    { name: 'GOUVERNANCE RESPONSABLE', cols: [1,2,3,4,5,9,26,27,28,29], color: '#260D66' },
+    { name: 'ENGAGER NOS PARTIES PRENANTES', cols: [6,8,11,13,14,15], color: '#E60F7D' },
+    { name: 'R\u00c9DUIRE NOTRE IMPACT ENVIRONNEMENTAL', cols: [16,17,18,19,20,21], color: '#00B050' },
+    { name: 'QUALIT\u00c9 DE VIE & \u00c9GALIT\u00c9 DES CHANCES', cols: [7,23,24,25], color: '#00B0F0' },
+    { name: 'UTILIT\u00c9 POUR LA SOCI\u00c9T\u00c9 & TERRITOIRES', cols: [10,12,22,30,31,32,33], color: '#C49476' },
   ];
   catRanges.forEach(c => {
     catRow += `<th class="cat-header" colspan="${c.cols.length}" style="background:${c.color}">${c.name}</th>`;
@@ -543,10 +543,10 @@ function handleCommentChange(e) {
 // =============================
 const AXES = [
   { id: '1', name: 'Gouvernance\nResponsable', cols: [1,2,3,4,5,9,26,27,28,29], max: 10 },
-  { id: '2', name: 'Engagement\nParties Prenantes', cols: [6,8,11,13,14,15], max: 6 },
-  { id: '3', name: 'Impact\nEnvironnemental', cols: [16,17,18,19,20,21], max: 6 },
-  { id: '4', name: 'Qualit\u00e9 de Vie\n& \u00c9galit\u00e9', cols: [7,23,24,25], max: 4 },
-  { id: '5', name: 'Utilit\u00e9 Soci\u00e9tale\n& Territoires', cols: [10,12,22,30,31,32,33], max: 7 },
+  { id: '2', name: 'Engager nos\nParties Prenantes', cols: [6,8,11,13,14,15], max: 6 },
+  { id: '3', name: 'R\u00e9duire notre\nImpact Environnemental', cols: [16,17,18,19,20,21], max: 6 },
+  { id: '4', name: 'Qualit\u00e9 de Vie\n& \u00c9galit\u00e9 des Chances', cols: [7,23,24,25], max: 4 },
+  { id: '5', name: 'Utilit\u00e9 pour la\nSoci\u00e9t\u00e9 & Territoires', cols: [10,12,22,30,31,32,33], max: 7 },
 ];
 
 const RADAR_COLORS = [
