@@ -294,8 +294,7 @@ function renderJustifications() {
 
     let critHTML = '';
     D.criteria.forEach((c, i) => {
-      if (i >= 29) return;
-      const justif = s.justifs[String(i + 1)] || '';
+      const justif = s.justifs[String(c.col)] || '';
       if (!justif) return;
       const verdict = justif.split(' ')[0].replace('—', '').replace('\u2014', '').trim();
       critHTML += `
