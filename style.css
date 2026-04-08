@@ -178,7 +178,6 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   font-size: 0.8rem;
-  table-layout: fixed;
 }
 thead th {
   background: var(--primary);
@@ -193,7 +192,7 @@ thead th {
   position: sticky;
   top: 0;
   z-index: 10;
-  min-width: 90px;
+  min-width: 110px;
 }
 thead tr:first-child th {
   top: 0;
