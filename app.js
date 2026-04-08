@@ -243,7 +243,7 @@ function renderGrille() {
     const bg = colColorMap[col] || 'var(--primary)';
     if (c) critRow += `<th title="${c.name}" style="background:${bg}">${c.name}</th>`;
   });
-  critRow += '<th class="score-col">/37</th></tr>';
+  critRow += '<th class="score-col">/36</th></tr>';
 
   document.getElementById('grilleHead').innerHTML = catRow + critRow;
 
@@ -312,7 +312,7 @@ function renderJustifications() {
     card.innerHTML = `
       <div class="justif-header" onclick="this.parentElement.classList.toggle('open')">
         <span class="school-name">${s.name.replace(/\n/g, ' ')}</span>
-        <span class="score-tag ${scoreClass(score)}">${score}/37</span>
+        <span class="score-tag ${scoreClass(score)}">${score}/36</span>
         <span class="arrow">&#9662;</span>
       </div>
       <div class="justif-body">${critHTML}</div>`;
@@ -332,12 +332,16 @@ function escapeHTML(str) {
 
 function formatJustif(str) {
   let text = escapeHTML(str);
-  // Bold OUI/NON/PARTIEL at start (handle both — and &mdash;)
-  text = text.replace(/^(OUI|NON|PARTIEL)\s*[\u2014\u2013—-]\s*/, '<strong>$1</strong> \u2014 ');
-  // Bold "Focus apprenants :" (case insensitive, with or without newline before)
-  text = text.replace(/\n*(Focus apprenants?\s*:)/gi, '\n\n<strong>$1</strong>');
-  // Separate Source lines with spacing
-  text = text.replace(/\n*(Source\s*:[^\n]*)/gi, '\n\n<span class="justif-source">$1</span>');
+  // Bold verdict
+  text = text.replace(/^(OUI|NON|PARTIEL)\s*[\u2014\u2013\u2212—-]\s*/, '<strong>$1</strong> \u2014 ');
+  // Bold section headers: Général, Apprenants, Collaborateurs
+  text = text.replace(/\n*(G\u00e9n\u00e9ral\s*:)/gi, '\n\n<strong class="justif-section">$1</strong>');
+  text = text.replace(/\n*(Apprenants?\s*:)/gi, '\n\n<strong class="justif-section section-apprenants">$1</strong>');
+  text = text.replace(/\n*(Collaborateurs?\s*:)/gi, '\n\n<strong class="justif-section section-collabs">$1</strong>');
+  // Also support old format
+  text = text.replace(/\n*(Focus apprenants?\s*:)/gi, '\n\n<strong class="justif-section section-apprenants">$1</strong>');
+  // Source lines in italic grey
+  text = text.replace(/\n*(Source\s*:[^\n]*)/gi, '\n<span class="justif-source">$1</span>');
   return text;
 }
 
@@ -796,9 +800,9 @@ function renderRadar() {
     });
 
     html += '<tr style="font-weight:900; border-top:2px solid var(--primary)"><td>TOTAL</td><td>29</td>';
-    allSchools.forEach(s => { html += `<td>${s.score}/37</td>`; });
+    allSchools.forEach(s => { html += `<td>${s.score}/36</td>`; });
     const avgTotal = D.grille.filter(s => !isIgensia(s.name)).reduce((sum, s) => sum + s.score, 0) / D.grille.filter(s => !isIgensia(s.name)).length;
-    html += `<td>${avgTotal.toFixed(1)}/37</td></tr>`;
+    html += `<td>${avgTotal.toFixed(1)}/36</td></tr>`;
     html += '</tbody></table>';
     tableEl.innerHTML = html;
   }

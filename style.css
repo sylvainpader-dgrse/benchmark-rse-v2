@@ -358,6 +358,21 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   font-weight: 800;
   color: var(--primary);
 }
+.justif-section {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+.justif-section.section-apprenants {
+  background: #FDE8F0;
+  color: #C2185B;
+}
+.justif-section.section-collabs {
+  background: #E3F2FD;
+  color: #1565C0;
+}
 .justif-source {
   display: inline;
   font-size: 0.8rem;
