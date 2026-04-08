@@ -348,6 +348,17 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   padding: 0.1rem 0.4rem;
   border-radius: 3px;
 }
+.crit-definition {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  font-style: italic;
+  margin: 0.2rem 0 0.4rem 0;
+  padding: 0.3rem 0.6rem;
+  background: #F9F9F9;
+  border-left: 2px solid var(--border);
+  border-radius: 0 4px 4px 0;
+  line-height: 1.4;
+}
 .justif-text {
   font-size: 0.85rem;
   color: var(--text);

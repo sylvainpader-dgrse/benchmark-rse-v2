@@ -241,7 +241,10 @@ function renderGrille() {
   colOrder.forEach(col => {
     const c = D.criteria[col - 1];
     const bg = colColorMap[col] || 'var(--primary)';
-    if (c) critRow += `<th title="${c.name}" style="background:${bg}">${c.name}</th>`;
+    if (c) {
+      const tip = c.definition ? `${c.name}\n\n${c.definition}\n\nOUI : ${c.seuils?.oui || ''}\nPARTIEL : ${c.seuils?.partiel || ''}\nNON : ${c.seuils?.non || ''}` : c.name;
+      critRow += `<th title="${tip}" style="background:${bg}">${c.name}</th>`;
+    }
   });
   critRow += '<th class="score-col">/36</th></tr>';
 
@@ -304,6 +307,7 @@ function renderJustifications() {
             <span class="crit-cat">${getCatName(c.category)}</span>
             <span class="crit-name">${c.name}</span>
           </div>
+          ${c.definition ? `<div class="crit-definition">${escapeHTML(c.definition)}</div>` : ''}
           <div class="justif-text">${formatJustif(justif)}</div>
         </div>`;
     });

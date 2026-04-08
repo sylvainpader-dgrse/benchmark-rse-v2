@@ -30,182 +30,398 @@ const BENCHMARK_DATA = {
     {
       "col": 1,
       "name": "Poste RSE dédié au COMEX/DG",
-      "category": "1"
+      "category": "1",
+      "definition": "Existence d'un poste ou d'une fonction RSE/DD identifié(e) au sein du comité exécutif ou rattaché(e) directement à la direction générale, avec un mandat formalisé.",
+      "seuils": {
+        "oui": "Poste dédié nommément identifié, rattaché au COMEX/DG",
+        "partiel": "Référent RSE identifié mais sans rattachement COMEX",
+        "non": "Aucun poste ni fonction RSE identifié(e)"
+      }
     },
     {
       "col": 2,
       "name": "Comité RSE opérationnel actif",
-      "category": "1"
+      "category": "1",
+      "definition": "Existence d'un ou plusieurs comités RSE opérationnels, avec membres identifiés, fréquence de réunion documentée et missions définies. Inclut les comités stratégiques, de pilotage ou de mission.",
+      "seuils": {
+        "oui": "Comité(s) RSE actif(s) avec composition et fréquence documentées",
+        "partiel": "Comité existant mais peu documenté ou peu actif",
+        "non": "Aucun comité RSE identifié"
+      }
     },
     {
       "col": 3,
       "name": "Plan / feuille de route RSE formalisé",
-      "category": "1"
+      "category": "1",
+      "definition": "Existence d'un plan stratégique RSE formalisé avec axes, engagements, échéancier et indicateurs de suivi. Peut prendre la forme d'un schéma directeur DD&RS, d'un plan d'engagements ou d'une feuille de route RSE.",
+      "seuils": {
+        "oui": "Plan/feuille de route RSE formalisé avec axes et échéancier",
+        "partiel": "Orientations RSE communiquées mais pas de plan structuré",
+        "non": "Aucune feuille de route RSE identifiée"
+      }
     },
     {
       "col": 4,
       "name": "Label ou certification RSE externe",
-      "category": "1"
+      "category": "1",
+      "definition": "Obtention d'un label ou d'une certification RSE/DD externe reconnue : DD&RS (CIRSES), LUCIE 26000 (ISO 26000), EcoVadis, ISO 14001, B Corp. Les accréditations académiques (AACSB, EQUIS, AMBA) ne comptent pas seules.",
+      "seuils": {
+        "oui": "Label RSE/DD obtenu et en cours de validité",
+        "partiel": "Démarche de labellisation engagée ou label expiré",
+        "non": "Aucun label RSE/DD"
+      }
     },
     {
       "col": 5,
       "name": "Budget RSE dédié publié",
-      "category": "1"
+      "category": "1",
+      "definition": "Publication d'un budget ou d'une enveloppe financière dédié(e) à la RSE/DD, même sous forme d'estimation. Inclut les ETP dédiés, les fonds spécifiques, les investissements RSE.",
+      "seuils": {
+        "oui": "Budget RSE chiffré et publié",
+        "partiel": "Mentions d'investissements RSE sans montant consolidé",
+        "non": "Aucune information budgétaire RSE"
+      }
     },
     {
       "col": 6,
       "name": "Dispositif anticorruption & alerte éthique",
-      "category": "1"
+      "category": "1",
+      "definition": "Existence d'un dispositif formalisé de prévention de la corruption et/ou d'un canal d'alerte éthique. Inclut : code de conduite, charte éthique, procédure de signalement (loi Sapin II, loi Waserman), référent éthique désigné.",
+      "seuils": {
+        "oui": "Dispositif complet : code + procédure d'alerte + référent",
+        "partiel": "Code de conduite sans procédure d'alerte formalisée",
+        "non": "Aucun dispositif identifié"
+      }
     },
     {
       "col": 7,
       "name": "Transparence RSE (rapport, KPIs, accessibilité)",
-      "category": "1"
+      "category": "1",
+      "definition": "Disponibilité publique d'informations RSE : rapport RSE ou page dédiée, données mises à jour régulièrement, accessibles facilement, avec KPIs chiffrés. Synthèse des anciens critères : rapport public + MAJ ≤ 2 ans + accessibilité ≤ 3 clics + KPIs.",
+      "seuils": {
+        "oui": "Rapport/page RSE public, à jour, accessible, avec KPIs",
+        "partiel": "Informations RSE partielles ou non à jour",
+        "non": "Aucune communication RSE publique"
+      }
     },
     {
       "col": 8,
       "name": "Socle DD obligatoire (≥ 15h/an)",
-      "category": "2"
+      "category": "2",
+      "definition": "Intégration d'un socle de formation obligatoire au développement durable et à la RSE pour les apprenants, d'un volume ≥ 15h/an. Répond à l'exigence MESR de 30h sur le cycle. Inclut les modules DD en tronc commun, pas les options.",
+      "seuils": {
+        "oui": "Socle DD obligatoire ≥ 15h/an déployé",
+        "partiel": "Modules DD présents mais < 15h ou non obligatoires",
+        "non": "Aucun socle DD obligatoire"
+      }
     },
     {
       "col": 9,
       "name": "DD intégré dans 100% des programmes",
-      "category": "2"
+      "category": "2",
+      "definition": "Intégration effective des enjeux DD/RSE dans la totalité des programmes de formation (Bachelor, Master, MSc, MBA). Ne se limite pas au tronc commun mais concerne les enseignements de spécialité.",
+      "seuils": {
+        "oui": "100% des programmes intègrent le DD",
+        "partiel": "Intégration en cours ou partielle (< 100%)",
+        "non": "DD non intégré dans les programmes de spécialité"
+      }
     },
     {
       "col": 10,
       "name": "Sensibilisation DD onboarding apprenants",
-      "category": "2"
+      "category": "2",
+      "definition": "Existence d'un dispositif de sensibilisation DD/RSE spécifique à l'accueil des nouveaux apprenants (onboarding). Exemples : séminaire d'intégration DD, journée transition écologique, atelier 2tonnes. Distinct du socle DD annuel.",
+      "seuils": {
+        "oui": "Dispositif d'onboarding DD formalisé pour tous les entrants",
+        "partiel": "Sensibilisation ponctuelle sans dispositif systématique",
+        "non": "Aucun dispositif d'onboarding DD"
+      }
     },
     {
       "col": 11,
       "name": "Fresque Climat ou atelier équivalent",
-      "category": "2"
+      "category": "2",
+      "definition": "Déploiement d'ateliers de sensibilisation climat/environnement type Fresque du Climat, Fresque de la Biodiversité, atelier 2tonnes, ou équivalent reconnu. Doit concerner un volume significatif de participants.",
+      "seuils": {
+        "oui": "Ateliers déployés systématiquement pour apprenants et/ou collaborateurs",
+        "partiel": "Ateliers proposés ponctuellement ou à un public restreint",
+        "non": "Aucun atelier climat/environnement"
+      }
     },
     {
       "col": 12,
       "name": "Accord QVCT ou équivalent",
-      "category": "4"
+      "category": "4",
+      "definition": "Existence d'un accord QVCT (Qualité de Vie et Conditions de Travail) signé avec les partenaires sociaux, ou d'un dispositif équivalent structuré. L'accord QVCT n'est pas une obligation légale (seule la négociation annuelle l'est).",
+      "seuils": {
+        "oui": "Accord QVCT signé ou dispositif équivalent formalisé",
+        "partiel": "Actions QVT sans accord formalisé",
+        "non": "Aucun dispositif QVT/QVCT identifié"
+      }
     },
     {
       "col": 13,
       "name": "Sensibilisation VSS",
-      "category": "4"
+      "category": "4",
+      "definition": "Déploiement d'un dispositif de prévention des violences sexistes et sexuelles (VSS) : formation, sensibilisation, procédure de signalement, référent(e) VSS. Concerne apprenants ET collaborateurs.",
+      "seuils": {
+        "oui": "Dispositif VSS complet déployé (formation + signalement + référent)",
+        "partiel": "Dispositif en cours de déploiement ou partiel",
+        "non": "Aucun dispositif VSS identifié"
+      }
     },
     {
       "col": 14,
       "name": "Formation DD collaborateurs",
-      "category": "2"
+      "category": "2",
+      "definition": "Existence d'un programme de formation DD/RSE dédié aux collaborateurs (hors enseignants). Inclut : parcours e-learning, Climate School, séminaires DD, formations présentielles. Doit concerner l'ensemble des équipes.",
+      "seuils": {
+        "oui": "Programme de formation DD déployé pour tous les collaborateurs",
+        "partiel": "Formation DD pour une partie des collaborateurs",
+        "non": "Aucune formation DD collaborateurs"
+      }
     },
     {
       "col": 15,
       "name": "Ambassadeurs / référents RSE internes",
-      "category": "2"
+      "category": "2",
+      "definition": "Réseau de référents, ambassadeurs ou pilotes RSE identifiés au sein de l'établissement. Personnes formées et mandatées pour relayer la démarche RSE dans leur direction ou service.",
+      "seuils": {
+        "oui": "Réseau de référents/ambassadeurs RSE actif et documenté",
+        "partiel": "Quelques référents identifiés sans réseau structuré",
+        "non": "Aucun référent RSE identifié"
+      }
     },
     {
       "col": 16,
       "name": "Formation des enseignants aux enjeux DD",
-      "category": "2"
+      "category": "2",
+      "definition": "Formation des enseignants et formateurs aux enjeux DD/RSE pour qu'ils intègrent ces sujets dans leurs cours. Inclut : ateliers pédagogiques, certifications DD, séminaires de sensibilisation enseignants.",
+      "seuils": {
+        "oui": "Formation DD enseignants formalisée et déployée",
+        "partiel": "Sensibilisation ponctuelle sans programme structuré",
+        "non": "Aucune formation DD pour les enseignants"
+      }
     },
     {
       "col": 17,
       "name": "Recherche liée RSE/DD (publications, chaires)",
-      "category": "2"
+      "category": "2",
+      "definition": "Production de recherche académique liée aux enjeux RSE/DD : publications, chaires de recherche, laboratoires dédiés, partenariats de recherche sur la transition.",
+      "seuils": {
+        "oui": "Chaire(s) RSE/DD ou volume significatif de publications RSE",
+        "partiel": "Quelques publications ou projets sans structure dédiée",
+        "non": "Aucune activité de recherche RSE identifiée"
+      }
     },
     {
       "col": 18,
       "name": "Bilan Carbone réalisé (scopes 1+2)",
-      "category": "3"
+      "category": "3",
+      "definition": "Réalisation d'un bilan des émissions de gaz à effet de serre couvrant a minima les scopes 1 (combustion directe) et 2 (électricité). Méthode : Bilan Carbone® ADEME, GHG Protocol, BEGES réglementaire.",
+      "seuils": {
+        "oui": "BC réalisé, résultats publiés",
+        "partiel": "BC en cours ou résultats non publiés",
+        "non": "Aucun bilan carbone réalisé"
+      }
     },
     {
       "col": 19,
       "name": "Scope 3 inclus dans le bilan",
-      "category": "3"
+      "category": "3",
+      "definition": "Inclusion du scope 3 (émissions indirectes : déplacements, achats, numérique, restauration, mobilité étudiante) dans le bilan carbone. Le scope 3 représente généralement 80-95% des émissions d'un établissement ESR.",
+      "seuils": {
+        "oui": "Scope 3 détaillé avec principaux postes identifiés",
+        "partiel": "Scope 3 partiellement couvert ou non détaillé",
+        "non": "Scope 3 non inclus"
+      }
     },
     {
       "col": 20,
       "name": "Objectif réduction GES chiffré",
-      "category": "3"
+      "category": "3",
+      "definition": "Fixation d'un objectif chiffré de réduction des émissions de GES avec échéance (ex: -40% d'ici 2030). L'objectif doit être publié et idéalement aligné sur les Accords de Paris ou la SNBC.",
+      "seuils": {
+        "oui": "Objectif chiffré publié avec échéance",
+        "partiel": "Ambition de réduction sans objectif chiffré précis",
+        "non": "Aucun objectif GES"
+      }
     },
     {
       "col": 21,
       "name": "Plan de transition / décarbonation formalisé",
-      "category": "3"
+      "category": "3",
+      "definition": "Existence d'un plan de transition ou de décarbonation formalisé (document autonome) détaillant les actions, le calendrier et les responsables pour atteindre les objectifs GES. Distinct du simple objectif chiffré.",
+      "seuils": {
+        "oui": "Plan de transition formalisé, documenté et suivi",
+        "partiel": "Actions de réduction identifiées sans plan autonome",
+        "non": "Aucun plan de transition"
+      }
     },
     {
       "col": 22,
       "name": "Numérique responsable formalisé",
-      "category": "3"
+      "category": "3",
+      "definition": "Formalisation d'une politique de numérique responsable : charte d'usages, mesure de l'empreinte numérique, allongement de durée de vie des équipements, sobriété des usages, éco-conception des services numériques.",
+      "seuils": {
+        "oui": "Politique numérique responsable formalisée avec actions",
+        "partiel": "Charte ou sensibilisation sans politique structurée",
+        "non": "Aucune démarche numérique responsable"
+      }
     },
     {
       "col": 23,
       "name": "Politique mobilité durable",
-      "category": "3"
+      "category": "3",
+      "definition": "Mise en place d'une politique de mobilité durable : plan de mobilité, covoiturage, vélos, incitations transports en commun, réduction des déplacements aériens, forfait mobilité durable.",
+      "seuils": {
+        "oui": "Politique de mobilité durable formalisée avec actions",
+        "partiel": "Actions ponctuelles sans politique structurée",
+        "non": "Aucune politique mobilité durable"
+      }
     },
     {
       "col": 24,
       "name": "Action Biodiversité",
-      "category": "3"
+      "category": "3",
+      "definition": "Actions formalisées en faveur de la biodiversité sur ou autour des campus : diagnostic écologique, charte biodiversité, aménagements (ruches, jardins, espaces végétalisés), partenariats environnementaux (OFB, LPO). Un simple atelier ponctuel (Fresque de la Biodiversité) ne suffit pas.",
+      "seuils": {
+        "oui": "Politique ou charte biodiversité + actions concrètes documentées",
+        "partiel": "Actions ponctuelles sans politique globale",
+        "non": "Aucune action biodiversité structurée"
+      }
     },
     {
       "col": 25,
       "name": "Accompagnement Handicap",
-      "category": "4"
+      "category": "4",
+      "definition": "Dispositif d'accompagnement des personnes en situation de handicap : référent handicap, aménagements, plans d'accompagnement individualisés. Concerne apprenants ET collaborateurs.",
+      "seuils": {
+        "oui": "Mission handicap dédiée avec référent et accompagnement",
+        "partiel": "Accompagnement basique sans structure dédiée",
+        "non": "Aucun dispositif handicap identifié"
+      }
     },
     {
       "col": 26,
       "name": "Politique inclusion & diversité",
-      "category": "4"
+      "category": "4",
+      "definition": "Politique formalisée de promotion de l'inclusion et de la diversité : égalité des chances, ouverture sociale, accès aux publics éloignés de l'ESR, partenariats solidaires, cordées de la réussite.",
+      "seuils": {
+        "oui": "Politique inclusion formalisée avec actions et indicateurs",
+        "partiel": "Actions d'inclusion sans politique structurée",
+        "non": "Aucune politique d'inclusion identifiée"
+      }
     },
     {
       "col": 27,
       "name": "Tri et gestion déchets formalisés",
-      "category": "3"
+      "category": "3",
+      "definition": "Dispositif formalisé de tri, collecte et valorisation des déchets sur les campus : poubelles de tri, filières de recyclage, compostage, suivi des volumes, objectifs de réduction.",
+      "seuils": {
+        "oui": "Tri formalisé avec filières et suivi",
+        "partiel": "Tri basique sans suivi ni objectifs",
+        "non": "Aucun dispositif de tri structuré"
+      }
     },
     {
       "col": 28,
       "name": "Campus certifié ou éco-labellisé",
-      "category": "3"
+      "category": "3",
+      "definition": "Certification environnementale d'au moins un campus ou bâtiment : HQE, BREEAM, LEED, Bâtiment Biosourcé, label E+C-, BBC. La mention d'éco-conception sans certification formelle ne suffit pas.",
+      "seuils": {
+        "oui": "Au moins un campus/bâtiment certifié",
+        "partiel": "Éco-conception documentée sans certification formelle",
+        "non": "Aucune certification campus"
+      }
     },
     {
       "col": 29,
       "name": "Politique alimentation durable campus",
-      "category": "3"
+      "category": "3",
+      "definition": "Politique d'alimentation durable sur les campus : réduction de la viande, circuits courts, anti-gaspi alimentaire, bio, menus végétariens, partenariat avec prestataires engagés.",
+      "seuils": {
+        "oui": "Politique alimentation durable formalisée avec actions",
+        "partiel": "Actions ponctuelles ou en cours de structuration",
+        "non": "Aucune politique alimentaire durable"
+      }
     },
     {
       "col": 30,
       "name": "Dispositif bien-être / santé mentale apprenants",
-      "category": "4"
+      "category": "4",
+      "definition": "Dispositif de soutien au bien-être et à la santé mentale des apprenants : cellule d'écoute, psychologue, téléconsultation, accompagnement social. Distinct du dispositif handicap.",
+      "seuils": {
+        "oui": "Dispositif de soutien dédié aux apprenants formalisé",
+        "partiel": "Soutien ponctuel sans dispositif structuré",
+        "non": "Aucun dispositif bien-être apprenants"
+      }
     },
     {
       "col": 31,
       "name": "Parcours spécialisé RSE/DD diplômant",
-      "category": "5"
+      "category": "5",
+      "definition": "Existence d'un ou plusieurs parcours diplômants spécialisés en RSE/DD : MSc, MBA, MS, certificat dédié RSE/DD/transition. Distinct du socle DD obligatoire pour tous.",
+      "seuils": {
+        "oui": "Au moins un parcours diplômant RSE/DD dans l'offre",
+        "partiel": "Modules de spécialisation sans parcours diplômant dédié",
+        "non": "Aucun parcours spécialisé RSE/DD"
+      }
     },
     {
       "col": 32,
       "name": "Charte achats responsables adoptée",
-      "category": "5"
+      "category": "5",
+      "definition": "Adoption d'une charte d'achats responsables intégrant des critères éthiques, sociaux et environnementaux dans le processus d'achat et de sélection des fournisseurs.",
+      "seuils": {
+        "oui": "Charte adoptée et intégrée aux appels d'offres",
+        "partiel": "Critères RSE dans certains achats sans charte formelle",
+        "non": "Aucune charte achats responsables"
+      }
     },
     {
       "col": 33,
       "name": "Citoyenneté apprenants (projets solidaires)",
-      "category": "5"
+      "category": "5",
+      "definition": "Engagement des apprenants dans des projets solidaires, citoyens ou d'intérêt général : projets associatifs crédités ECTS, bénévolat valorisé, missions terrain, défis solidaires.",
+      "seuils": {
+        "oui": "Dispositif formalisé d'engagement citoyen apprenants",
+        "partiel": "Actions ponctuelles sans intégration curriculaire",
+        "non": "Aucun dispositif d'engagement citoyen"
+      }
     },
     {
       "col": 34,
       "name": "Mécénat de projets locaux",
-      "category": "5"
+      "category": "5",
+      "definition": "Soutien à des projets locaux d'intérêt général : partenariats avec des associations, mécénat, fonds de dotation, forums solidaires, actions de proximité.",
+      "seuils": {
+        "oui": "Partenariats formalisés avec associations d'intérêt général",
+        "partiel": "Actions ponctuelles sans partenariat structuré",
+        "non": "Aucun mécénat ni partenariat solidaire"
+      }
     },
     {
       "col": 35,
       "name": "Vie associative campus (étudiants)",
-      "category": "5"
+      "category": "5",
+      "definition": "Dynamisation de la vie associative étudiante sur les campus : accompagnement des associations, projets à impact, incubateur, événements responsables.",
+      "seuils": {
+        "oui": "Accompagnement structuré des associations avec projets à impact",
+        "partiel": "Vie associative active mais sans accompagnement RSE structuré",
+        "non": "Pas de vie associative significative"
+      }
     },
     {
       "col": 36,
       "name": "Achat inclusif et local",
-      "category": "5"
+      "category": "5",
+      "definition": "Démarche d'achat inclusif et local : inventaire des fournisseurs de proximité, recours aux ESAT/EA, critères de proximité dans les achats, contribution au développement économique territorial.",
+      "seuils": {
+        "oui": "Politique d'achat local et inclusif formalisée",
+        "partiel": "Critères de proximité intégrés sans politique dédiée",
+        "non": "Aucune démarche d'achat local/inclusif"
+      }
     }
   ],
   "grille": [
