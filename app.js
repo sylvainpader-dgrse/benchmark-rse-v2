@@ -337,8 +337,9 @@ function formatJustif(str) {
   let text = escapeHTML(str);
   // Bold verdict
   text = text.replace(/^(OUI|NON|PARTIEL)\s*[\u2014\u2013\u2212—-]\s*/, '<strong>$1</strong> \u2014 ');
-  // Bold section headers: Général, Apprenants, Collaborateurs
-  text = text.replace(/\n*(G\u00e9n\u00e9ral\s*:)/gi, '\n\n<strong class="justif-section">$1</strong>');
+  // Remove "Général :" header (content follows directly after verdict)
+  text = text.replace(/\n*G\u00e9n\u00e9ral\s*:\n*/gi, '\n');
+  // Bold section headers: Apprenants, Collaborateurs
   text = text.replace(/\n*(Apprenants?\s*:)/gi, '\n\n<strong class="justif-section section-apprenants">$1</strong>');
   text = text.replace(/\n*(Collaborateurs?\s*:)/gi, '\n\n<strong class="justif-section section-collabs">$1</strong>');
   // Also support old format
