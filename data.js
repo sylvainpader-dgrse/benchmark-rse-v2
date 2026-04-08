@@ -442,8 +442,8 @@ const BENCHMARK_DATA = {
         "12": "OUI",
         "13": "PARTIEL",
         "14": "OUI",
-        "15": "OUI",
-        "16": "OUI",
+        "15": "PARTIEL",
+        "16": "PARTIEL",
         "17": "PARTIEL",
         "18": "OUI",
         "19": "OUI",
@@ -465,7 +465,7 @@ const BENCHMARK_DATA = {
         "35": "PARTIEL",
         "36": "PARTIEL"
       },
-      "score": 27.5
+      "score": 26.5
     },
     {
       "name": "HEC PARIS",
@@ -725,7 +725,7 @@ const BENCHMARK_DATA = {
         "1": "OUI",
         "2": "OUI",
         "3": "OUI",
-        "4": "OUI",
+        "4": "PARTIEL",
         "5": "OUI",
         "6": "OUI",
         "7": "OUI",
@@ -759,7 +759,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 33.5
+      "score": 33.0
     },
     {
       "name": "INSEAD",
@@ -2208,8 +2208,8 @@ const BENCHMARK_DATA = {
         "12": "OUI — Accord QVCT signé en décembre 2022 avec les partenaires sociaux.\n\nGénéral :\n• Comité QVCT avec partenaires sociaux et référents bien-être\n• Modules formation managers (non-discrimination, signaux faibles, équilibre pro/perso)\nSource : Rapport RSE 2024-2025, p. 29\n\nApprenants :\n• Non directement concernés par l’accord QVCT (salariés)\n\nCollaborateurs :\n• 142 managers formés à la QVCT et à la culture managériale\n• Semaine QVCT organisée en juin 2024 et 2025\n• Référents bien-être volontaires formés depuis 2023\nSource : Rapport RSE 2024-2025, p. 28-30",
         "13": "PARTIEL — Dispositif VSS prévu à partir du printemps 2026.\n\nGénéral :\n• La prévention VSS fait partie de la politique RH et de la feuille de route RSE\n• Actions concrètes non encore déployées (prévues printemps 2026)\nSource : Rapport RSE 2024-2025, p. 34\n\nApprenants :\n• Ateliers de sensibilisation prévus sur le campus de Nanterre\n• Conférences et podcast en préparation\nSource : Rapport RSE 2024-2025, p. 34\n\nCollaborateurs :\n• Formation des formateurs et responsables de formation prévue via podcast\nSource : Rapport RSE 2024-2025, p. 34",
         "14": "OUI — Parcours Engagé (AXA Climate School) déployé pour 100% des collaborateurs.\n\nGénéral :\n• Parcours 100% digital en 6 saisons, déployé depuis novembre 2024\n• 100% des directions et services adressés, 36% ont terminé la saison 1\nSource : Rapport RSE 2024-2025, p. 32\n\nApprenants :\n• Les apprenants bénéficient également des supports AXA Climate School dans le module DD-RSE\nSource : Rapport RSE 2024-2025, p. 16\n\nCollaborateurs :\n• Parcours couvre : transition environnementale, conséquences sur les organisations, RSE, leviers d’action par métier\nSource : Rapport RSE 2024-2025, p. 32",
-        "15": "OUI — 17 pilotes RSE issus de différentes directions + référents bien-être.\n\nGénéral :\n• Comité de Pilotage Opérationnel RSE : 17 pilotes transversaux\n• Communauté d’ambassadeurs RSE en cours de structuration\nSource : Rapport RSE 2024-2025, p. 13\n\nApprenants :\n• Les pilotes incluent des responsables pédagogiques garants du déploiement DD dans les programmes\nSource : Rapport RSE 2024-2025, p. 13\n\nCollaborateurs :\n• Référents bien-être volontaires formés depuis 2023 (une dizaine)\n• Mobilisation des collaborateurs dans la durée (ENG-29 grille LUCIE)\nSource : Rapport RSE 2024-2025, p. 30",
-        "16": "OUI — Formation des enseignants intégrée via le Parcours Engagé et les modules DD.\n\nGénéral :\n• Les formateurs sont formés aux contenus DD-RSE pour dispenser les modules apprenants\nSource : Rapport RSE 2024-2025, p. 16\n\nApprenants :\n• Les enseignants formés transmettent les enjeux DD dans tous les programmes de 1re et 2e année\nSource : Rapport RSE 2024-2025, p. 16, 22\n\nCollaborateurs :\n• Les formateurs permanents et vacataires sont concernés par le Parcours Engagé AXA Climate School\nSource : Rapport RSE 2024-2025, p. 32",
+        "15": "PARTIEL — 17 pilotes RSE actifs mais réseau d’ambassadeurs en cours de structuration.\n\nGénéral :\n• Comité de Pilotage Opérationnel : 17 pilotes transversaux actifs\n• Communauté d’ambassadeurs RSE prévue mais pas encore formalisée\nSource : Rapport RSE 2024-2025, p. 13\n\nApprenants :\n• Les pilotes incluent des responsables pédagogiques\nSource : Rapport RSE 2024-2025, p. 13\n\nCollaborateurs :\n• Référents bien-être volontaires formés (une dizaine)\n• Réseau structuré en cours de constitution\nSource : Rapport RSE 2024-2025, p. 30",
+        "16": "PARTIEL — Enseignants formés via le Parcours Engagé (même dispositif que collaborateurs), pas de programme spécifique.\n\nGénéral :\n• Les formateurs sont formés aux contenus DD-RSE pour dispenser les modules\n• Pas de programme dédié enseignants (type séminaire pédagogique DD)\nSource : Rapport RSE 2024-2025, p. 16\n\nApprenants :\n• Les enseignants formés transmettent les enjeux DD dans les cours\nSource : Rapport RSE 2024-2025, p. 16, 22\n\nCollaborateurs :\n• Parcours Engagé AXA Climate School couvre formateurs permanents et vacataires\nSource : Rapport RSE 2024-2025, p. 32",
         "17": "PARTIEL — Recherche RSE mentionnée mais pas structurée en chaires ou publications dédiées.\n\nGénéral :\n• Le laboratoire de recherche de l’ICD Business School structure ses travaux autour de l’IA, du management à l’ère de l’anthropocène et de l’innovation pédagogique\n• Pas de chaire RSE dédiée ni de volume de publications RSE publié\nSource : Rapport RSE 2024-2025, p. 25\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
         "18": "OUI — Bilan Carbone® réalisé avec SAMI, méthode ADEME, scopes 1+2+3.\n\nGénéral :\n• Prestataire : SAMI, méthode Bilan Carbone® certifiée ADEME / GHG Protocol\n• Périmètre : campus Paris, Lyon, Toulouse (2022-2023)\n• Total : 25 498 tCO2e\n• Enquêtes : 951 apprenants + 136 formateurs + 51% des collaborateurs\nSource : Rapport RSE 2024-2025, p. 10\n\nApprenants :\n• Les déplacements des apprenants font partie du scope 3 mesuré\nSource : Rapport RSE 2024-2025, p. 10\n\nCollaborateurs :\n• 51% des collaborateurs ont répondu aux enquêtes de collecte de données\nSource : Rapport RSE 2024-2025, p. 10",
         "19": "OUI — Scope 3 représente la quasi-totalité des émissions.\n\nGénéral :\n• Restauration & hébergement : 8 007 tCO2e\n• Déplacements : 6 079 tCO2e\n• Achats de services : 4 147 tCO2e\n• Numérique : 2 619 tCO2e\nSource : Rapport RSE 2024-2025, p. 10\n\nApprenants :\n• Les déplacements apprenants et la restauration sont les principaux postes scope 3\nSource : Rapport RSE 2024-2025, p. 10\n\nCollaborateurs :\n• Les déplacements professionnels des collaborateurs sont intégrés au scope 3\nSource : Rapport RSE 2024-2025, p. 10",
@@ -2491,7 +2491,7 @@ const BENCHMARK_DATA = {
         "1": "OUI — Directrice RSE (Muriel Cordier) au Comité Stratégique, CEO intègre RSE comme pilier.\n\nGénéral :\n• Direction de l’Engagement Humain & Sociétal (Loïc Delboulbe)\n• RSE = l’un des 4 piliers transversaux du COMEX\nSource : Rapport RSE 2024-25, p. 4 ; CSR Report 2023, p. 6\n\nApprenants :\n• 100+ conseillers Time to Act étudiants et éco-délégués\nSource : CSR Report 2023, p. 9\n\nCollaborateurs :\n• Direction RSE pour les 1 800 collaborateurs\nSource : CSR Report 2023, p. 9",
         "2": "OUI — 9 comités RSE actifs en 2024-25, 77 réunions.\n\nGénéral :\n• Comité stratégique RSE, CSRD, Carbone (11 mbr), TEDS (10 mbr), référents Time to Act (34 collab + 50 étudiants)\n• Évolution : 1 comité (20-21) → 9 (24-25)\nSource : Rapport RSE 2024-25, p. 21\n\nApprenants :\n• 50 étudiants dans le Comité référents\nSource : Rapport RSE 2024-25, p. 21\n\nCollaborateurs :\n• 34 collaborateurs référents + 11 Comité Carbone\nSource : Rapport RSE 2024-25, p. 21",
         "3": "OUI — Stratégie \"Time to Act\" (2021-22), 4 piliers, plan transition 53 actions.\n\nGénéral :\n• 4 piliers : Accomplish, Be Consistent, Take Care, Gouvernance\n• Plan de transition carbone 2025-2030 en 53 actions\nSource : Rapport RSE 2024-25, p. 4 ; CSR Report 2023, p. 5\n\nApprenants :\n• Pilier \"Time to Accomplish\" dédié formation RSE\nSource : Rapport RSE 2024-25, p. 8\n\nCollaborateurs :\n• Couvre 1 800 collaborateurs, 22 campus\nSource : CSR Report 2023, p. 9",
-        "4": "OUI — Pacte Mondial (2007), candidat DD&RS, C3D, anticipé CSRD.\n\nGénéral :\n• Top 20 \"Change Leaders\" français (TASK/Sulitest)\n• Anticipé la CSRD avec 1 an d'avance\n• Signataires : Charte LGBT+, WEPS, #StOpE\nSource : Rapport RSE 2024-25, p. 6, 11\n\nApprenants :\n• 2 238 étudiants ont passé TASK by Sulitest\nSource : Rapport RSE 2024-25, p. 21\n\nCollaborateurs :\n• Membres du réseau C3D\nSource : Rapport RSE 2024-25, p. 11",
+        "4": "PARTIEL — Candidat label DD&RS (CIRSES), non encore obtenu. Membre Pacte Mondial (2007).\n\nGénéral :\n• Candidat DD&RS = démarche engagée, label non obtenu\n• Membre Pacte Mondial France depuis 2007 (engagement volontaire, pas un label certifié)\n• Membre C3D, anticipé CSRD avec 1 an d’avance\n• Top 20 Change Leaders (TASK/Sulitest)\nSource : Rapport RSE 2024-25, p. 6, 11\n\nApprenants :\n• 2 238 étudiants ont passé TASK by Sulitest\nSource : Rapport RSE 2024-25, p. 21\n\nCollaborateurs :\n• Membres du réseau C3D\nSource : Rapport RSE 2024-25, p. 11",
         "5": "OUI — Budget RSE publié sur 5 ans : 1 458€ (20-21) → 310 000€ (24-25).\n\nGénéral :\n• ×212 en 5 ans, données publiées dans les indicateurs\n• 17 projets financés via l’appel à projets Time to Act\nSource : Rapport RSE 2024-25, p. 21\n\nApprenants :\n• Budget couvre les projets étudiants Time to Act\nSource : Rapport RSE 2024-25, p. 21\n\nCollaborateurs :\n• Budget couvre la Fresque du Climat pour tous les nouveaux\nSource : Rapport RSE 2024-25, p. 9",
         "6": "OUI — Charte éthique + dispositif anticorruption + alerte confidentielle.\n\nGénéral :\n• Charte éthique pour toute la communauté\n• Dispositif anticorruption avec contrôles internes\n• 1 incident traité et sanctionné\nSource : CSR Report 2023, p. 8\n\nApprenants :\n• Charte applicable aux étudiants\nSource : CSR Report 2023, p. 8\n\nCollaborateurs :\n• Dispositif d’alerte confidentiel et sécurisé\nSource : CSR Report 2023, p. 8",
         "7": "OUI — Rapport RSE 2024-25 (44p) + indicateurs 5 ans + page RSE dédiée.\n\nGénéral :\n• Rapport publié librement + CSR Report EN\n• Indicateurs 2020-21 à 2024-25 (5 ans)\n• omneseducation.com/le-groupe/demarche-rse/ (2 clics)\nSource : Rapport RSE 2024-25, p. 21-22\n\nApprenants :\n• Données publiées : 40 000 étudiants, TASK, programmes RSE\nSource : Rapport RSE 2024-25, p. 22\n\nCollaborateurs :\n• KPIs collab : 1 300 ADM, index F/H, QVCT\nSource : Rapport RSE 2024-25, p. 22",
