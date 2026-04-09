@@ -100,7 +100,7 @@ function renderStats() {
       labelled++;
       const info = extractLabels(s, i);
       if (info.labels.includes('DD&RS')) ddrs++;
-      else if (info.labels.includes('LUCIE')) lucie++;
+      if (info.labels.includes('LUCIE')) lucie++;
       else if (info.labels.includes('EcoVadis')) ecovadis++;
       else otherLabel++;
     }
