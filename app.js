@@ -109,6 +109,28 @@ function renderStats() {
     if (info.sam) sam++;
   });
   const rapportAnalyses = D.focus.length;
+
+  // Score moyen par axe (écoles remplies seulement)
+  const axesDef = [
+    { name: 'Gouvernance', cols: [1,2,3,4,5,6,7], color: '#260D66' },
+    { name: 'Parties prenantes', cols: [8,9,10,11,14,15,16,17], color: '#E60F7D' },
+    { name: 'Environnement', cols: [18,19,20,21,22,23,24,27,28,29], color: '#00B050' },
+    { name: 'Qualité de vie', cols: [12,13,25,26,30], color: '#00B0F0' },
+    { name: 'Utilité sociétale', cols: [31,32,33,34,35,36], color: '#C49476' },
+  ];
+  const filledSchools = D.grille.filter(s => s.score > 0);
+  const axeAvgs = axesDef.map(ax => {
+    let totalPts = 0, totalMax = 0;
+    filledSchools.forEach(s => {
+      ax.cols.forEach(c => {
+        const v = s.verdicts[String(c)] || '';
+        if (v === 'OUI') totalPts += 1;
+        else if (v === 'PARTIEL') totalPts += 0.5;
+        totalMax += 1;
+      });
+    });
+    return { name: ax.name, color: ax.color, pct: totalMax > 0 ? Math.round(totalPts * 100 / totalMax) : 0 };
+  });
   const el = document.getElementById('statsBanner');
   if (!el) return;
 
@@ -140,6 +162,10 @@ function renderStats() {
       <div class="stat-num">${sam}<span class="stat-num-small">/${total}</span></div>
       <div class="stat-label">Société à Mission</div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${sam*100/total}%"></div></div>
+    </div>
+    <div class="stat-card stat-card-axes">
+      <div class="stat-label" style="margin-bottom:6px;font-weight:700;">Moyenne par axe (${filledSchools.length} écoles)</div>
+      ${axeAvgs.map(a => `<div class="axe-bar-row"><span class="axe-bar-label">${a.name}</span><div class="axe-bar-bg"><div class="axe-bar-fill" style="width:${a.pct}%;background:${a.color}"></div></div><span class="axe-bar-pct">${a.pct}%</span></div>`).join('')}
     </div>
   `;
 }
@@ -203,8 +229,17 @@ function renderGrille() {
   const sorted = [...igensia, ...others];
   const filtered = sorted.filter(s => matchesSearch(s.name));
 
+  // Build justification lookup for tooltips
+  const justifMap = {};
+  D.justifications.forEach(j => { justifMap[j.name] = j.justifs; });
+
+  // Compute ranks (others only, IGENSIA = ★)
+  let rank = 0;
+  const rankMap = {};
+  others.forEach(s => { rank++; rankMap[s.name] = rank; });
+
   // Build category header row
-  let catRow = '<tr><th class="school-col cat-header">ÉCOLE / GROUPE</th>';
+  let catRow = '<tr><th class="school-col cat-header">ÉCOLE / GROUPE</th><th class="cat-header rank-col">#</th>';
   const catRanges = [
     { name: 'GOUVERNANCE RESPONSABLE', cols: [1,2,3,4,5,6,7], color: '#260D66' },
     { name: 'ENGAGER NOS PARTIES PRENANTES', cols: [8,9,10,11,14,15,16,17], color: '#E60F7D' },
@@ -234,7 +269,7 @@ function renderGrille() {
   });
 
   // Build criteria header row
-  let critRow = '<tr><th class="school-col">\u00c9cole / Groupe</th>';
+  let critRow = '<tr><th class="school-col">\u00c9cole / Groupe</th><th class="rank-col">#</th>';
   colOrder.forEach(col => {
     const c = D.criteria[col - 1];
     const bg = colColorMap[col] || 'var(--primary)';
@@ -262,9 +297,12 @@ function renderGrille() {
     if (labelInfo.sam) pills += `<span class="label-pill pill-sam">Soci\u00e9t\u00e9 \u00e0 Mission</span>`;
     if (labelInfo.pacte) pills += `<span class="label-pill pill-pacte">Pacte Mondial</span>`;
     body += `<td class="school-cell ${ig ? 'igensia' : ''}">${s.name.replace(/\n/g, ' ')}${pills ? '<div class="school-labels">' + pills + '</div>' : ''}</td>`;
+    body += `<td class="rank-cell">${ig ? '\u2605' : (rankMap[s.name] || '')}</td>`;
+    const sJustifs = justifMap[s.name] || {};
     colOrder.forEach(j => {
       const v = s.verdicts[j] || '';
-      body += `<td>${badgeHTML(v)}</td>`;
+      const jText = (sJustifs[String(j)] || '').replace(/"/g, '&quot;').replace(/\n/g, ' ').substring(0, 120);
+      body += `<td title="${jText}">${badgeHTML(v)}</td>`;
     });
     body += `<td class="score-cell ${scoreClass(s.score)}">${s.score}</td>`;
     body += '</tr>';
