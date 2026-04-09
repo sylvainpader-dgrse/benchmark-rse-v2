@@ -127,6 +127,11 @@ function renderStats() {
       </div>
     </div>
     <div class="stat-card">
+      <div class="stat-num">${rapportAnalyses}<span class="stat-num-small">/${total}</span></div>
+      <div class="stat-label">Rapports RSE analysés</div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${rapportAnalyses*100/total}%"></div></div>
+    </div>
+    <div class="stat-card">
       <div class="stat-num">${pacte}<span class="stat-num-small">/${total}</span></div>
       <div class="stat-label">Pacte Mondial / PRME</div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${pacte*100/total}%"></div></div>
@@ -141,10 +146,9 @@ function renderStats() {
 
 // --- Helpers ---
 function scoreClass(score) {
-  if (score >= 33) return 'score-elite';
   if (score >= 30) return 'score-avance';
-  if (score >= 25) return 'score-correct';
-  if (score >= 18) return 'score-retard';
+  if (score >= 24) return 'score-correct';
+  if (score >= 16) return 'score-retard';
   return 'score-insuffisant';
 }
 
