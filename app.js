@@ -122,27 +122,11 @@ function renderStats() {
       <div class="stat-label">Labellisées RSE</div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${labelled*100/total}%"></div></div>
       <div class="stat-pills-row">
-        <span class="stat-pill pill-ddrs">DD&RS <strong>${ddrs}</strong> <em>(${Math.round(ddrs*100/labelled)}%)</em></span>
+        <span class="stat-pill pill-ddrs">DD&RS <strong>${ddrs}</strong></span>
         <span class="stat-pill pill-lucie">LUCIE <strong>${lucie}</strong></span>
-        <span class="stat-pill pill-ecovadis">EcoVadis <strong>${ecovadis}</strong></span>
-        ${otherLabel ? `<span class="stat-pill pill-other">Autre <strong>${otherLabel}</strong></span>` : ''}
       </div>
     </div>
-    <div class="stat-card">
-      <div class="stat-num">${rapportAnalyses}<span class="stat-num-small">/${total}</span></div>
-      <div class="stat-label">Rapports RSE analysés</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:${rapportAnalyses*100/total}%"></div></div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">${pacte}<span class="stat-num-small">/${total}</span></div>
-      <div class="stat-label">Pacte Mondial / PRME</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:${pacte*100/total}%"></div></div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">${sam}<span class="stat-num-small">/${total}</span></div>
-      <div class="stat-label">Société à Mission</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:${sam*100/total}%"></div></div>
-    </div>`;
+  `;
 }
 
 // --- Helpers ---
