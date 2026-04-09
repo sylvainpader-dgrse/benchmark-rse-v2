@@ -535,7 +535,7 @@ const BENCHMARK_DATA = {
         "21": "OUI",
         "22": "OUI",
         "23": "OUI",
-        "24": "OUI",
+        "24": "PARTIEL",
         "25": "OUI",
         "26": "OUI",
         "27": "OUI",
@@ -549,7 +549,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 34.0
+      "score": 33.5
     },
     {
       "name": "EDHEC BUSINESS SCHOOL",
@@ -2301,7 +2301,7 @@ const BENCHMARK_DATA = {
         "21": "OUI — 8 plans d’action déployés dont un plan Climat dédié.\n\n• Plan Climat intégré à la stratégie Transcend 2024-2028\n• 8 plans d’action : Formation, Recherche, D&I, Déchets, Climat, Biodiversité, Ancrage territorial, Numérique responsable\n• Participation Act’Sup ADEME\nSource : Rapport DD&RS 2025, p. 4\n\nApprenants :\n• Le plan couvre la mobilité étudiante et les campus\nSource : Rapport DD&RS 2025, p. 9\n\nCollaborateurs :\n• Le plan couvre les opérations et déplacements professionnels\nSource : Rapport DD&RS 2025, p. 9",
         "22": "OUI — Plan numérique responsable formalisé avec réductions documentées.\n\n• Optimisation de l’infrastructure cloud : -150 To de stockage réduit\n• Plan d’action numérique responsable = l’un des 8 plans de la stratégie\nSource : Rapport DD&RS 2025, p. 4, 9\n\nApprenants :\n• Sensibilisation aux usages numériques responsables\nSource : Rapport DD&RS 2025, p. 9\n\nCollaborateurs :\n• Réduction de l’empreinte numérique des services\nSource : Rapport DD&RS 2025, p. 9",
         "23": "OUI — Budget mobilité durable + financement de 45 déplacements bas-carbone.\n\n• 45 déplacements bas-carbone financés en 2023/24\n• Politique de réduction des déplacements aériens\nSource : Rapport DD&RS 2025, p. 5\n\nApprenants :\n• Financement de la mobilité étudiante alternative aux vols\nSource : Rapport DD&RS 2025, p. 5\n\nCollaborateurs :\n• Budget mobilité durable pour les déplacements professionnels\nSource : Rapport DD&RS 2025, p. 5",
-        "24": "OUI — Plan d’action Biodiversité dédié = l’un des 8 plans stratégiques.\n\n• La biodiversité est l’un des 8 plans d’action formalisés de la stratégie Together\n• Campus de Cergy avec espaces naturels préservés\nSource : Rapport DD&RS 2025, p. 4\n\nApprenants :\n• Sensibilisation à la biodiversité via les cours et Fresques\nSource : Rapport DD&RS 2025, p. 6\n\nCollaborateurs :\n• Non détaillé spécifiquement",
+        "24": "PARTIEL — Biodiversité identifiée comme l’un des 8 plans stratégiques, mais actions concrètes non documentées.\n\n• La biodiversité est l’un des 8 plans d’action formalisés de la stratégie Together\n• Campus de Cergy avec espaces naturels\n• Mais aucune action concrète documentée : pas de diagnostic écologique, pas de charte biodiversité, pas d’aménagements spécifiques publiés\nSource : Rapport DD&RS 2025, p. 4\n\nApprenants :\n• Sensibilisation via Fresque de la Biodiversité (ponctuelle)\nSource : Rapport DD&RS 2025, p. 11\n\nCollaborateurs :\n• Non documenté",
         "25": "OUI — Accompagnement handicap via le CEDI (16 personnes) avec aménagements.\n\n• Pôle dédié au sein du CEDI\n• Aménagements d’examens et de cursus\nSource : Rapport DD&RS 2025, p. 10\n\nApprenants :\n• Accompagnement individualisé des étudiants handicapés\nSource : Rapport DD&RS 2025, p. 10\n\nCollaborateurs :\n• Politique d’inclusion intégrée à la DRH\nSource : Rapport DD&RS 2025, p. 10",
         "26": "OUI — CEDI (Centre Égalité Diversité Inclusion) avec 20 ans d’engagement, 16 ETP, 5 pôles.\n\n• Programme Égalité des Chances depuis 2003 (\"Une grande école, pourquoi pas moi ?\")\n• Charte Autre Cercle (LGBT+) signée en 2024\n• 3 000+ boursiers accompagnés depuis la création\nSource : Rapport DD&RS 2025, p. 10-11\n\nApprenants :\n• Programme d’égalité des chances historique, tutorat, bourses\nSource : Rapport DD&RS 2025, p. 10\n\nCollaborateurs :\n• Politique DEI couvre le recrutement et la promotion interne\nSource : Rapport DD&RS 2025, p. 10",
         "27": "OUI — Plan d’action Déchets dédié + bornes 6 flux + élimination plastique.\n\n• Plan Déchets = l’un des 8 plans stratégiques\n• Bornes de collecte en 6 flux depuis 2021\n• Élimination de la vente de bouteilles plastique (2021)\n• Gobelets lavables systématisés (2023)\nSource : Rapport DD&RS 2025, p. 9\n\nApprenants :\n• Sensibilisation au tri via les dispositifs campus\nSource : Rapport DD&RS 2025, p. 9\n\nCollaborateurs :\n• Dispositifs accessibles à tous sur le campus\nSource : Rapport DD&RS 2025, p. 9",
