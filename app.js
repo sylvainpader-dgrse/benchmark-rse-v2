@@ -315,12 +315,19 @@ function renderJustifications() {
     .sort((a, b) => (scoreMap[b.name] || 0) - (scoreMap[a.name] || 0));
   const sorted = [...igensiaJ, ...othersJ];
 
+  // Build rank map
+  const rankMapJ = {};
+  let rankJ = 0;
+  othersJ.forEach(s => { rankJ++; rankMapJ[s.name] = rankJ; });
+
   const filtered = sorted.filter(s => matchesSearch(s.name));
   const container = document.getElementById('justifList');
   container.innerHTML = '';
 
   filtered.forEach((s, idx) => {
     const score = scoreMap[s.name] || 0;
+    const ig = isIgensia(s.name);
+    const rankLabel = ig ? '\u2605' : (rankMapJ[s.name] ? '#' + rankMapJ[s.name] : '');
     const card = document.createElement('div');
     card.className = 'justif-card';
 
@@ -344,7 +351,7 @@ function renderJustifications() {
     card.innerHTML = `
       <div class="justif-header" onclick="this.parentElement.classList.toggle('open')">
         <span class="school-name">${s.name.replace(/\n/g, ' ')}</span>
-        <span class="score-tag ${scoreClass(score)}">${score}/36</span>
+        <span class="score-tag ${scoreClass(score)}">${score}/36 <small>${rankLabel}</small></span>
         <span class="arrow">&#9662;</span>
       </div>
       <div class="justif-body">${critHTML}</div>`;
