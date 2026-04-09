@@ -809,7 +809,16 @@ function renderRadar() {
         },
       },
       plugins: {
-        legend: { display: false },
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: { family: 'Archivo', size: 12 },
+            padding: 20,
+            filter: item => !item.text.startsWith('_'),
+            usePointStyle: true,
+            pointStyle: 'line',
+          },
+        },
         tooltip: {
           filter: item => !item.dataset.label.startsWith('_'),
           callbacks: {
