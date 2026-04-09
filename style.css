@@ -215,9 +215,6 @@ thead th.cat-header {
 thead th.school-col {
   text-align: left;
   min-width: 200px;
-  position: sticky;
-  left: 0;
-  z-index: 20;
   background: #E60F7D;
 }
 thead th.score-col {
