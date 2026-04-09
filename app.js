@@ -278,6 +278,18 @@ function renderGrille() {
 
   document.getElementById('grilleHead').innerHTML = catRow + critRow;
 
+  // Fix sticky tops dynamically after render
+  requestAnimationFrame(() => {
+    const thead = document.querySelector('#grilleTable thead');
+    if (thead) {
+      const row1 = thead.querySelector('tr:first-child');
+      const row1H = row1 ? row1.offsetHeight : 35;
+      const row2H = thead.querySelector('tr:nth-child(2)') ? thead.querySelector('tr:nth-child(2)').offsetHeight : 35;
+      thead.querySelectorAll('tr:nth-child(2) th').forEach(th => { th.style.top = row1H + 'px'; });
+      document.querySelectorAll('tr.igensia-row td').forEach(td => { td.style.top = (row1H + row2H) + 'px'; });
+    }
+  });
+
   // Build body
   let body = '';
   filtered.forEach(s => {
