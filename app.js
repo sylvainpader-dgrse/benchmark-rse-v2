@@ -649,7 +649,7 @@ function getBestAxeScores() {
     if (s.score === 0) return;
     AXES.forEach((axe, i) => {
       const sc = getAxeScore(s, axe);
-      if (sc > bests[i].score) { bests[i].score = sc; bests[i].name = s.name.replace(/\n/g,' ').substring(0,20); }
+      if (sc > bests[i].score) { bests[i].score = sc; bests[i].name = s.name.replace(/\n/g,' '); }
     });
   });
   return bests;
@@ -659,11 +659,11 @@ function getAvgAxeScores() {
   const sums = AXES.map(() => 0);
   let count = 0;
   D.grille.forEach(s => {
-    if (isIgensia(s.name)) return;
+    if (isIgensia(s.name) || s.score === 0) return;
     AXES.forEach((axe, i) => { sums[i] += getAxeScore(s, axe); });
     count++;
   });
-  return sums.map(s => s / count);
+  return sums.map(s => count > 0 ? s / count : 0);
 }
 
 function renderRadar() {
