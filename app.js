@@ -141,10 +141,10 @@ function renderStats() {
 
 // --- Helpers ---
 function scoreClass(score) {
-  if (score >= 27) return 'score-elite';
-  if (score >= 24) return 'score-avance';
-  if (score >= 20) return 'score-correct';
-  if (score >= 15) return 'score-retard';
+  if (score >= 33) return 'score-elite';
+  if (score >= 30) return 'score-avance';
+  if (score >= 25) return 'score-correct';
+  if (score >= 18) return 'score-retard';
   return 'score-insuffisant';
 }
 
