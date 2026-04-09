@@ -852,40 +852,38 @@ function renderRadar() {
   // Build comparison table
   const tableEl = document.getElementById('radarTable');
   if (tableEl) {
-    let allSchools = [];
-    if (igensiaData) allSchools.push(igensiaData);
-    radarSchools.forEach(name => {
-      const s = D.grille.find(x => x.name === name);
-      if (s) allSchools.push(s);
-    });
+    const filledOthers = D.grille.filter(s => !isIgensia(s.name) && s.score > 0);
+    const avgTotalScore = filledOthers.reduce((sum, s) => sum + s.score, 0) / (filledOthers.length || 1);
 
-    let html = '<table><thead><tr><th>Axe</th><th>Max</th>';
-    allSchools.forEach(s => {
-      const short = s.name.replace(/\n/g, ' ').substring(0, 20);
-      html += `<th>${short}</th>`;
-    });
-    html += '<th>Moyenne</th><th>Meilleur</th><th>Leader</th></tr></thead><tbody>';
+    let html = '<table><thead><tr><th>Axe</th><th style="min-width:80px;">\u2605 IGENSIA</th><th>Moyenne</th><th>Meilleur</th><th style="min-width:180px;">Leader</th></tr></thead><tbody>';
 
     AXES.forEach((axe, ai) => {
+      const igRaw = igensiaData ? axe.cols.reduce((sum, col) => {
+        const v = igensiaData.verdicts[String(col)] || '';
+        return sum + (v === 'OUI' ? 1 : v === 'PARTIEL' ? 0.5 : 0);
+      }, 0) : 0;
+      const avgRaw = (avgScores[ai] * axe.max / 100).toFixed(1);
+      const bestRaw = (bestScores[ai].score * axe.max / 100).toFixed(1);
+      const pct = igensiaData ? Math.round(getAxeScore(igensiaData, axe)) : 0;
+      const avgPct = Math.round(avgScores[ai]);
+      const bestPct = Math.round(bestScores[ai].score);
       html += `<tr>`;
-      html += `<td>${axe.id} — ${axe.name}</td><td>${axe.max}</td>`;
-      allSchools.forEach(s => {
-        const raw = axe.cols.reduce((sum, col) => {
-          const v = s.verdicts[String(col)] || '';
-          return sum + (v === 'OUI' ? 1 : v === 'PARTIEL' ? 0.5 : 0);
-        }, 0);
-        html += `<td>${raw}/${axe.max}</td>`;
-      });
-      html += `<td>${(avgScores[ai] * axe.max / 100).toFixed(1)}/${axe.max}</td>`;
-      html += `<td>${(bestScores[ai].score * axe.max / 100).toFixed(1)}/${axe.max}</td>`;
-      html += `<td style="font-size:0.7rem">${bestScores[ai].name}</td>`;
+      html += `<td>${axe.name}</td>`;
+      html += `<td><strong>${igRaw}</strong>/${axe.max} <small style="opacity:0.6">(${pct}%)</small></td>`;
+      html += `<td>${avgRaw}/${axe.max} <small style="opacity:0.6">(${avgPct}%)</small></td>`;
+      html += `<td><strong>${bestRaw}</strong>/${axe.max} <small style="opacity:0.6">(${bestPct}%)</small></td>`;
+      html += `<td>${bestScores[ai].name}</td>`;
       html += '</tr>';
     });
 
-    html += '<tr style="font-weight:900; border-top:2px solid var(--primary)"><td>TOTAL</td><td>29</td>';
-    allSchools.forEach(s => { html += `<td>${s.score}/36</td>`; });
-    const avgTotal = D.grille.filter(s => !isIgensia(s.name)).reduce((sum, s) => sum + s.score, 0) / D.grille.filter(s => !isIgensia(s.name)).length;
-    html += `<td>${avgTotal.toFixed(1)}/36</td></tr>`;
+    const igTotal = igensiaData ? igensiaData.score : 0;
+    const bestTotal = Math.max(...D.grille.filter(s => s.score > 0).map(s => s.score));
+    html += `<tr style="font-weight:900; border-top:2px solid var(--primary)">`;
+    html += `<td>TOTAL</td>`;
+    html += `<td><strong>${igTotal}</strong>/36</td>`;
+    html += `<td>${avgTotalScore.toFixed(1)}/36</td>`;
+    html += `<td><strong>${bestTotal}</strong>/36</td>`;
+    html += `<td></td></tr>`;
     html += '</tbody></table>';
     tableEl.innerHTML = html;
   }
