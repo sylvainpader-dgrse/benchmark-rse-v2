@@ -126,6 +126,16 @@ function renderStats() {
         <span class="stat-pill pill-lucie">LUCIE <strong>${lucie}</strong></span>
       </div>
     </div>
+    <div class="stat-card">
+      <div class="stat-num">${pacte}<span class="stat-num-small">/${total}</span></div>
+      <div class="stat-label">Pacte Mondial / PRME</div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${pacte*100/total}%"></div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">${sam}<span class="stat-num-small">/${total}</span></div>
+      <div class="stat-label">Société à Mission</div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${sam*100/total}%"></div></div>
+    </div>
   `;
 }
 
