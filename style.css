@@ -292,7 +292,7 @@ tbody tr.igensia-row td {
 tbody tr.igensia-row td.school-cell {
   z-index: 9;
 }
-tbody tr:hover td { background: #F5F0FF; }
+tbody tr:hover td:not(.score-cell) { background: #F5F0FF; }
 tbody tr:hover td.school-cell { background: #F0E6FF !important; }
 
 .score-num { font-weight: 800; font-size: 0.85rem; }
@@ -919,6 +919,13 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   border-bottom: 1px solid var(--border);
   font-size: 0.85rem;
   font-weight: 600;
+  white-space: normal;
+  word-break: break-word;
+}
+.radar-table-wrapper td:last-child {
+  text-align: left;
+  min-width: 160px;
+  font-size: 0.75rem;
 }
 .radar-table-wrapper td:first-child {
   text-align: left;
