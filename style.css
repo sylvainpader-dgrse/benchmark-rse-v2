@@ -282,14 +282,15 @@ tbody td.school-cell.igensia {
   background: #F9F0FF;
   color: var(--primary);
 }
-tbody tr.igensia-row {
+tbody tr.igensia-row td {
+  background: #F9F0FF !important;
+  border-bottom: 2px solid var(--accent);
   position: sticky;
   top: 70px;
   z-index: 8;
 }
-tbody tr.igensia-row td {
-  background: #F9F0FF;
-  border-bottom: 2px solid var(--accent);
+tbody tr.igensia-row td.school-cell {
+  z-index: 9;
 }
 tbody tr:hover td { background: #F5F0FF; }
 tbody tr:hover td.school-cell { background: #F0E6FF !important; }
