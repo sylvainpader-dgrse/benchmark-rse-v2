@@ -218,6 +218,7 @@ thead th.school-col {
   position: sticky;
   left: 0;
   z-index: 20;
+  background: #E60F7D;
 }
 thead th.score-col {
   background: var(--primary);
@@ -291,6 +292,8 @@ tbody tr.igensia-row td {
 tbody tr:hover td { background: #F5F0FF; }
 tbody tr:hover td.school-cell { background: #F0E6FF !important; }
 
+.score-num { font-weight: 800; font-size: 0.85rem; }
+.score-rank { font-size: 0.65rem; font-weight: 600; opacity: 0.7; margin-top: 1px; }
 .score-cell {
   font-weight: 800;
   font-size: 0.85rem;
