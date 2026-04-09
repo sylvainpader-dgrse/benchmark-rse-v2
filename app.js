@@ -628,8 +628,19 @@ function getAxeScore(school, axe) {
     if (v === 'OUI') score += 1;
     else if (v === 'PARTIEL') score += 0.5;
   }
-  // Plafonné à 85% : un OUI binaire ne vaut pas 100% d'excellence
-  return (score / axe.max) * 85;
+  return (score / axe.max) * 100;
+}
+
+function getBestAxeScores() {
+  const bests = AXES.map(() => ({ score: 0, name: '' }));
+  D.grille.forEach(s => {
+    if (s.score === 0) return;
+    AXES.forEach((axe, i) => {
+      const sc = getAxeScore(s, axe);
+      if (sc > bests[i].score) { bests[i].score = sc; bests[i].name = s.name.replace(/\n/g,' ').substring(0,20); }
+    });
+  });
+  return bests;
 }
 
 function getAvgAxeScores() {
@@ -693,25 +704,13 @@ function renderRadar() {
   const labels = AXES.map(a => a.name);
   const igensiaData = D.grille.find(s => isIgensia(s.name));
   const avgScores = getAvgAxeScores();
+  const bestScores = getBestAxeScores();
 
   const datasets = [];
 
-  const UNCERTAINTY = 12; // ±12% margin
-
-  // IGENSIA uncertainty band (upper)
+  // IGENSIA main line
   if (igensiaData) {
     const igScores = AXES.map(a => getAxeScore(igensiaData, a));
-    datasets.push({
-      label: 'Marge d\'incertitude IGENSIA',
-      data: igScores.map(s => Math.min(100, s + UNCERTAINTY)),
-      backgroundColor: 'rgba(74,25,66,0.06)',
-      borderColor: 'rgba(74,25,66,0.15)',
-      borderWidth: 1,
-      borderDash: [3, 3],
-      pointRadius: 0,
-      fill: '+1',
-    });
-    // IGENSIA main line
     datasets.push({
       label: 'IGENSIA Education',
       data: igScores,
@@ -720,28 +719,29 @@ function renderRadar() {
       borderWidth: 3,
       pointRadius: 5,
     });
-    // IGENSIA uncertainty band (lower)
-    datasets.push({
-      label: '_lower',
-      data: igScores.map(s => Math.max(0, s - UNCERTAINTY)),
-      backgroundColor: 'rgba(74,25,66,0.06)',
-      borderColor: 'rgba(74,25,66,0.15)',
-      borderWidth: 1,
-      borderDash: [3, 3],
-      pointRadius: 0,
-      fill: '-1',
-    });
   }
 
   // Average
   datasets.push({
-    label: 'Moyenne (hors IGENSIA)',
+    label: 'Moyenne benchmark',
     data: avgScores,
     backgroundColor: 'rgba(150,150,150,0.1)',
     borderColor: '#999',
     borderWidth: 2,
     borderDash: [5, 5],
     pointRadius: 3,
+  });
+
+  // Best in class
+  datasets.push({
+    label: 'Meilleur par axe',
+    data: bestScores.map(b => b.score),
+    backgroundColor: 'rgba(76,175,80,0.05)',
+    borderColor: '#4CAF50',
+    borderWidth: 1.5,
+    borderDash: [2, 4],
+    pointRadius: 2,
+    pointStyle: 'triangle',
   });
 
   // Selected schools
@@ -759,10 +759,37 @@ function renderRadar() {
     });
   });
 
+  // Plugin: colored concentric zones (green/yellow/red)
+  const zonePlugin = {
+    id: 'radarZones',
+    beforeDraw(chart) {
+      const { ctx } = chart;
+      const r = chart.scales.r;
+      const cx = r.xCenter, cy = r.yCenter;
+      const zones = [
+        { from: 0, to: 30, color: 'rgba(229,57,53,0.06)' },    // rouge: insuffisant
+        { from: 30, to: 55, color: 'rgba(255,193,7,0.06)' },    // jaune: en progression
+        { from: 55, to: 100, color: 'rgba(76,175,80,0.06)' },   // vert: avancé
+      ];
+      zones.forEach(z => {
+        const r1 = r.getDistanceFromCenterForValue(z.from);
+        const r2 = r.getDistanceFromCenterForValue(z.to);
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(cx, cy, r2, 0, 2 * Math.PI);
+        ctx.arc(cx, cy, r1, 0, 2 * Math.PI, true);
+        ctx.fillStyle = z.color;
+        ctx.fill();
+        ctx.restore();
+      });
+    }
+  };
+
   if (radarChart) radarChart.destroy();
   radarChart = new Chart(canvas, {
     type: 'radar',
     data: { labels, datasets },
+    plugins: [zonePlugin],
     options: {
       responsive: true,
       scales: {
@@ -794,7 +821,7 @@ function renderRadar() {
           filter: item => !item.dataset.label.startsWith('_'),
           callbacks: {
             label: ctx => {
-              if (ctx.dataset.label.startsWith('_') || ctx.dataset.label.includes('incertitude')) return null;
+              if (ctx.dataset.label.startsWith('_')) return null;
               return `${ctx.dataset.label}: ${ctx.parsed.r.toFixed(0)}%`;
             },
           },
@@ -823,7 +850,7 @@ function renderRadar() {
       const short = s.name.replace(/\n/g, ' ').substring(0, 20);
       html += `<th>${short}</th>`;
     });
-    html += '<th>Moyenne</th></tr></thead><tbody>';
+    html += '<th>Moyenne</th><th>Meilleur</th><th>Leader</th></tr></thead><tbody>';
 
     AXES.forEach((axe, ai) => {
       html += `<tr>`;
@@ -836,6 +863,8 @@ function renderRadar() {
         html += `<td>${raw}/${axe.max}</td>`;
       });
       html += `<td>${(avgScores[ai] * axe.max / 100).toFixed(1)}/${axe.max}</td>`;
+      html += `<td>${(bestScores[ai].score * axe.max / 100).toFixed(1)}/${axe.max}</td>`;
+      html += `<td style="font-size:0.7rem">${bestScores[ai].name}</td>`;
       html += '</tr>';
     });
 
