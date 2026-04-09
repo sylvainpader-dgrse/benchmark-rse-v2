@@ -499,7 +499,7 @@ const BENCHMARK_DATA = {
         "27": "OUI",
         "28": "PARTIEL",
         "29": "OUI",
-        "30": "PARTIEL",
+        "30": "OUI",
         "31": "OUI",
         "32": "OUI",
         "33": "OUI",
@@ -507,7 +507,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 32.5
+      "score": 33.0
     },
     {
       "name": "ESSEC BUSINESS SCHOOL",
@@ -541,7 +541,7 @@ const BENCHMARK_DATA = {
         "27": "OUI",
         "28": "PARTIEL",
         "29": "OUI",
-        "30": "PARTIEL",
+        "30": "OUI",
         "31": "OUI",
         "32": "OUI",
         "33": "OUI",
@@ -549,7 +549,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 33.5
+      "score": 34.0
     },
     {
       "name": "EDHEC BUSINESS SCHOOL",
@@ -610,7 +610,7 @@ const BENCHMARK_DATA = {
         "12": "PARTIEL",
         "13": "OUI",
         "14": "OUI",
-        "15": "PARTIEL",
+        "15": "OUI",
         "16": "OUI",
         "17": "OUI",
         "18": "OUI",
@@ -633,7 +633,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "OUI"
       },
-      "score": 34.5
+      "score": 35.0
     },
     {
       "name": "KEDGE BUSINESS SCHOOL",
@@ -749,7 +749,7 @@ const BENCHMARK_DATA = {
         "25": "OUI",
         "26": "OUI",
         "27": "OUI",
-        "28": "PARTIEL",
+        "28": "OUI",
         "29": "PARTIEL",
         "30": "PARTIEL",
         "31": "OUI",
@@ -759,7 +759,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 31.0
+      "score": 31.5
     },
     {
       "name": "INSEAD",
@@ -961,7 +961,7 @@ const BENCHMARK_DATA = {
         "27": "PARTIEL",
         "28": "PARTIEL",
         "29": "PARTIEL",
-        "30": "PARTIEL",
+        "30": "OUI",
         "31": "OUI",
         "32": "PARTIEL",
         "33": "OUI",
@@ -969,7 +969,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 29.0
+      "score": 29.5
     },
     {
       "name": "EXCELIA BUSINESS SCHOOL",
@@ -1123,7 +1123,7 @@ const BENCHMARK_DATA = {
         "21": "OUI",
         "22": "OUI",
         "23": "OUI",
-        "24": "NON",
+        "24": "PARTIEL",
         "25": "OUI",
         "26": "OUI",
         "27": "PARTIEL",
@@ -1137,7 +1137,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 30.0
+      "score": 30.5
     },
     {
       "name": "TBS EDUCATION",
@@ -2265,7 +2265,7 @@ const BENCHMARK_DATA = {
         "27": "OUI — 1ère \"zone verte\" dédiée au tri en France (200m²) + -70% bouteilles plastique.\n\n• Zone de tri de 200m² unique en France pour un campus\n• -70% de bouteilles plastique en 1 an\n• 52 fontaines à eau installées\n• 15 800 mégots collectés/recyclés en 8 mois\n• Tri sélectif en restauration\nSource : site web campus-durable\n\nApprenants :\n• Campagne \"Bring your own cup\", éco-gestes quotidiens\nSource : site web campus-durable\n\nCollaborateurs :\n• Zone de tri accessible à tous sur le campus\nSource : site web campus-durable",
         "28": "PARTIEL — Projet de rénovation campus 230M€ avec Responsible Campus Charter, mais pas encore certifié.\n\n• Rénovation du campus de Jouy-en-Josas (ouverture prévue 2031)\n• Sustainable Campus Charter = durabilité obligatoire dans le cahier des charges\n• Pas de certification HQE/BREEAM (certification environnementale internationale des bâtiments) sur les bâtiments actuels\nSource : Sustainability Report 2024, p. 36\n\nApprenants :\n• Futurs espaces étudiants conçus selon des normes environnementales\nSource : Sustainability Report 2024, p. 36\n\nCollaborateurs :\n• Non documenté",
         "29": "OUI — -30% gaspillage alimentaire + Potajouy + menus vegan + circuits courts.\n\n• -30% de gaspillage alimentaire en restauration campus (2019)\n• Potajouy : jardin potager étudiant\n• Paniers légumes bio en vente\n• Options vegan au restaurant, portions maîtrisées\nSource : site web campus-durable\n\nApprenants :\n• Potajouy géré par les étudiants\nSource : site web campus-durable\n\nCollaborateurs :\n• Restaurant campus avec options durables\nSource : site web campus-durable",
-        "30": "PARTIEL — Initiatives bien-être présentes mais pas de cellule dédiée type FOR ME (le dispositif IGENSIA d'accompagnement complet : soutien psychologique, médical, social et juridique, gratuit pour tous les apprenants).\n\n• Accord RPS (Risques Psycho-Sociaux : prévention du stress, harcèlement, burnout) signé, DUERP (Document Unique d'Évaluation des Risques Professionnels — obligation légale) finalisé\n• Pas de cellule d’écoute psychologique dédiée aux étudiants mentionnée dans le rapport\nSource : Sustainability Report 2024, p. 46\n\nApprenants :\n• School Advisor Program pour accompagnement mais pas de dispositif santé mentale dédié\nSource : Sustainability Report 2024, p. 44\n\nCollaborateurs :\n• Prévention RPS formalisée\nSource : Sustainability Report 2024, p. 46",
+        "30": "OUI — Medical Center sur le campus avec médecins, psychologues et infirmières + Student Counseling dédié.\n\n• Medical Center (Bâtiment L) : médecins généralistes, psychologues, infirmières\n• Student Counseling (Bâtiment M, 1er étage) : accompagnement dédié\n• School Advisor Program pour suivi individualisé\nSource : hec.edu/campus-life ; Sustainability Report 2024\n\nApprenants :\n• Psychologues + counseling dédié sur le campus\nSource : hec.edu/campus-life\n\nCollaborateurs :\n• Accord RPS (Risques Psycho-Sociaux : prévention du stress, harcèlement, burnout) signé\nSource : Sustainability Report 2024, p. 46",
         "31": "OUI — Master SASI (Sustainability & Social Innovation) + 4 certificats ESG + Strategy for Impact.\n\n• Master SASI : programme spécialisé complet en durabilité et innovation sociale\n• 4 certificats ESG dans le MBA\n• Certificat Strategy for Impact (Mazars Chair)\n• EMBA major \"Transforming Business for Sustainability\"\nSource : Sustainability Report 2024, p. 22-24\n\nApprenants :\n• Parcours diplômants RSE/DD accessibles à tous les niveaux\nSource : Sustainability Report 2024, p. 22-24\n\nCollaborateurs :\n• Non applicable",
         "32": "OUI — Responsible Purchasing Policy développée en 2024.\n\n• Politique d’achats responsables intégrant des critères sociaux, sociétaux et environnementaux\n• Évaluation des fournisseurs sur ces critères\nSource : Sustainability Report 2024, p. 49\n\nApprenants :\n• Impact indirect sur la qualité des services campus\nSource : Sustainability Report 2024, p. 49\n\nCollaborateurs :\n• Politique applicable à toutes les directions achats\nSource : Sustainability Report 2024, p. 49",
         "33": "OUI — Parcours Engagement (stage terrain 3 semaines) + associations à impact + 120 tuteurs/an.\n\n• Stage terrain de 3 semaines obligatoire au contact de populations vulnérables\n• NetPositive+, Esp’R, Fleur de Bitume : associations étudiantes à impact\n• 300 volontaires Croix-Rouge pour les JO 2024 via ESSEC/ESCP\n• 120 étudiants tuteurs/an dans les programmes Égalité des Chances\nSource : Sustainability Report 2024, p. 19, 29, 42\n\nApprenants :\n• Engagement citoyen intégré au cursus (crédité)\nSource : Sustainability Report 2024, p. 19\n\nCollaborateurs :\n• Non applicable",
@@ -2289,7 +2289,7 @@ const BENCHMARK_DATA = {
         "9": "OUI — 100% des programmes de formation initiale intègrent systématiquement les enjeux DD&RS.\n\n• Socle commun renforcé : tous les programmes (GE, BBA, MSc, Executive Master) couverts\n• Sustainability Track lancé dans le GBBA et l’Executive Master\nSource : Rapport DD&RS 2025, p. 6, 11\n\nApprenants :\n• Chaque étudiant, quel que soit son programme, est formé aux enjeux DD\nSource : Rapport DD&RS 2025, p. 6\n\nCollaborateurs :\n• Non applicable",
         "10": "OUI — Onboarding DD formalisé pour les nouveaux étudiants ET les nouveaux collaborateurs.\n\n• Séminaire d’intégration \"Welcome Day Together\" pour tous les nouveaux étudiants\n• Fresque du Climat (atelier collaboratif de 3h basé sur les rapports du GIEC pour comprendre les causes et conséquences du changement climatique) proposée à l’onboarding\nSource : Rapport DD&RS 2025, p. 6 ; site web essec.edu\n\nApprenants :\n• Tous les nouveaux entrants sensibilisés dès l’arrivée\nSource : Rapport DD&RS 2025, p. 6\n\nCollaborateurs :\n• Onboarding DD pour les nouveaux collaborateurs\nSource : Rapport DD&RS 2025, p. 5",
         "11": "OUI — Fresque du Climat (atelier collaboratif de 3h basé sur les rapports du GIEC pour comprendre les causes et conséquences du changement climatique) + Fresque de la Diversité déployées.\n\n• Fresque du Climat proposée aux étudiants et collaborateurs\n• Fresque de la Diversité lancée en 2022 (innovation pédagogique)\nSource : Rapport DD&RS 2025, p. 11\n\nApprenants :\n• Fresques intégrées au parcours de formation\nSource : Rapport DD&RS 2025, p. 11\n\nCollaborateurs :\n• Fresques proposées au staff\nSource : Rapport DD&RS 2025, p. 11",
-        "12": "OUI — Politique QVT formalisée pour les collaborateurs.\n\n• Actions QVT intégrées à la politique sociale\nSource : Rapport DD&RS 2025, p. 3\n\nApprenants :\n• Non directement concernés\n\nCollaborateurs :\n• Politique sociale documentée incluant prévention RPS (Risques Psycho-Sociaux : prévention du stress, harcèlement, burnout)\nSource : Rapport DD&RS 2025, p. 3",
+        "12": "OUI — Programme ESSECare déployé pour 900 employés et professeurs (3 pays) + plateforme teale de santé mentale.\n\n• ESSECare : programme de bien-être au travail pour 900 collaborateurs et professeurs\n• Partenariat teale (plateforme de santé mentale) depuis début 2023\n• 4 séances gratuites avec des experts par salarié\n• ~600 vidéos/podcasts/exercices accessibles\n• Bilans trimestriels anonymisés de santé mentale\n• Plus de la moitié des utilisateurs se connectent régulièrement\nSource : teale.io/essec ; essec.edu/teale-sante-mentale\n\nApprenants :\n• Non applicable (programme collaborateurs)\n\nCollaborateurs :\n• 900 employés couverts, engagement régulier\nSource : teale.io/essec",
         "13": "OUI — Dispositif VSS intégré au Centre Égalité Diversité et Inclusion (CEDI (Centre pour l'Équité, la Diversité et l'Inclusion de l'ESSEC), 16 personnes).\n\n• CEDI restructuré en 5 pôles depuis mars 2024\n• 16 personnes à plein temps\n• Actions de sensibilisation et formation prévention VSS\nSource : Rapport DD&RS 2025, p. 10\n\nApprenants :\n• Programmes de sensibilisation aux VSS pour les étudiants\nSource : Rapport DD&RS 2025, p. 10\n\nCollaborateurs :\n• Formation des équipes via le CEDI\nSource : Rapport DD&RS 2025, p. 10",
         "14": "OUI — Réseau de 23 ambassadeurs formés + parcours dédié collaborateurs.\n\n• 23 ambassadeurs dans les services depuis janvier 2024 pour relayer la démarche\n• Formations spécifiques pour les équipes\nSource : Rapport DD&RS 2025, p. 5\n\nApprenants :\n• Non applicable directement\n\nCollaborateurs :\n• 23 ambassadeurs volontaires issus de différents services, formés et actifs\nSource : Rapport DD&RS 2025, p. 5",
         "15": "OUI — 23 ambassadeurs dans les services + COCON (Comité Consultatif rassemblant les parties prenantes internes pour piloter la stratégie RSE) + éco-délégués.\n\n• Réseau d’ambassadeurs lancé en janvier 2024 : 23 membres volontaires\n• Rôle : faciliter la circulation de l’information RSE et encourager les initiatives\nSource : Rapport DD&RS 2025, p. 5\n\nApprenants :\n• Collège étudiants dans le COCON\nSource : Rapport DD&RS 2025, p. 5\n\nCollaborateurs :\n• 23 ambassadeurs formés et mandatés dans les services\nSource : Rapport DD&RS 2025, p. 5",
@@ -2307,7 +2307,7 @@ const BENCHMARK_DATA = {
         "27": "OUI — Plan d’action Déchets dédié + bornes 6 flux + élimination plastique.\n\n• Plan Déchets = l’un des 8 plans stratégiques\n• Bornes de collecte en 6 flux depuis 2021\n• Élimination de la vente de bouteilles plastique (2021)\n• Gobelets lavables systématisés (2023)\nSource : Rapport DD&RS 2025, p. 9\n\nApprenants :\n• Sensibilisation au tri via les dispositifs campus\nSource : Rapport DD&RS 2025, p. 9\n\nCollaborateurs :\n• Dispositifs accessibles à tous sur le campus\nSource : Rapport DD&RS 2025, p. 9",
         "28": "PARTIEL — Campus de Cergy avec espaces verts mais pas de certification environnementale formelle.\n\n• Pas de certification HQE/BREEAM (certification environnementale internationale des bâtiments) mentionnée\n• Actions concrètes d’éco-conception présentes mais sans label\nSource : Rapport DD&RS 2025, p. 9\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
         "29": "OUI — Charte de l’Alimentation Durable adoptée.\n\n• Charte de l’alimentation durable formalisée (mentionnée p. 9)\n• Réduction du gaspillage alimentaire\n• Options végétariennes/vegan\nSource : Rapport DD&RS 2025, p. 9\n\nApprenants :\n• Impact direct sur la restauration étudiante\nSource : Rapport DD&RS 2025, p. 9\n\nCollaborateurs :\n• Restaurant campus concerné\nSource : Rapport DD&RS 2025, p. 9",
-        "30": "PARTIEL — Actions de bien-être présentes via le CEDI (Centre pour l'Équité, la Diversité et l'Inclusion de l'ESSEC) mais pas de cellule dédiée santé mentale type FOR ME (le dispositif IGENSIA d'accompagnement complet : soutien psychologique, médical, social et juridique, gratuit pour tous les apprenants).\n\n• Le CEDI accompagne les étudiants sur les problématiques d’inclusion\n• Pas de dispositif d’écoute psychologique dédié mentionné\nSource : Rapport DD&RS 2025, p. 10\n\nApprenants :\n• Accompagnement via le CEDI mais pas de cellule santé mentale dédiée\nSource : Rapport DD&RS 2025, p. 10\n\nCollaborateurs :\n• Prévention RPS intégrée à la politique sociale\nSource : Rapport DD&RS 2025, p. 3",
+        "30": "OUI — Programme feelgood@essec avec psychologue dédiée (Vanessa Ntakabanyura) + système d’alerte structuré.\n\n• feelgood@essec : programme complet de bien-être avec psychologue professionnelle dédiée\n• Consultations individuelles, conférences gestion du stress\n• Système d’alerte : enseignants, associations étudiantes et responsables de résidence formés à identifier les étudiants en difficulté\n• Points bien-être crédités académiquement\nSource : campusmatin.com/sante-mentale-etudiants\n\nApprenants :\n• Psychologue dédiée + alerte structurée + crédits bien-être\nSource : campusmatin.com\n\nCollaborateurs :\n• ESSECare + plateforme teale (voir C12)\nSource : teale.io/essec",
         "31": "OUI — Multiples parcours spécialisés RSE/DD : MSc Sustainability Transformation, Bachelor ACT, Executive Master.\n\n• MSc in Sustainability Transformation (2022)\n• Bachelor ACT avec CY Cergy Paris Université (2022)\n• Sustainability Track dans le GBBA et l’Executive Master (2024)\n• Executive Master in Strategies for Sustainability (2024)\nSource : Rapport DD&RS 2025, p. 6, 11\n\nApprenants :\n• 4+ parcours diplômants spécialisés RSE/DD accessibles\nSource : Rapport DD&RS 2025, p. 6, 11\n\nCollaborateurs :\n• Executive Master accessible aux professionnels en activité\nSource : Rapport DD&RS 2025, p. 11",
         "32": "OUI — Politique achats responsables intégrée à la stratégie.\n\n• Critères RSE dans les achats\nSource : Rapport DD&RS 2025, p. 4\n\nApprenants :\n• Impact indirect sur les services campus\nSource : Rapport DD&RS 2025\n\nCollaborateurs :\n• Politique applicable aux directions achats\nSource : Rapport DD&RS 2025",
         "33": "OUI — Programme d’égalité des chances historique + PACT (Programme d'engagement citoyen — bénévolat crédité ECTS) bénévolat + associations à impact.\n\n• \"Une grande école, pourquoi pas moi ?\" depuis 2003 : tutorat lycéens\n• Associations étudiantes à impact : Esp’R, Enactus ESSEC\n• 3 000+ boursiers accompagnés\nSource : Rapport DD&RS 2025, p. 10-11\n\nApprenants :\n• Engagement citoyen structuré et crédité\nSource : Rapport DD&RS 2025, p. 10\n\nCollaborateurs :\n• Non applicable",
@@ -2376,7 +2376,7 @@ const BENCHMARK_DATA = {
         "12": "PARTIEL — Accord égalité F/H signé (2018) et index 90/100, mais pas d’accord QVCT (Qualité de Vie et Conditions de Travail) formalisé documenté.\n\n• Accord égalité professionnelle signé décembre 2018\n• Index égalité F/H : 90/100 en 2024 (89 en 2023)\n• Gender Equality Plan validé par le Comité Exécutif\n• Pas d’accord QVCT spécifique documenté\nSource : em-lyon.com/sante-diversite-et-inclusion ; DPEF 2023-2024\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Index 90/100, accord égalité en vigueur\nSource : em-lyon.com/sante-diversite-et-inclusion",
         "13": "OUI — Dispositif VSS complet : plateforme SpeakUp anonyme 24/7 + cellule interne + protocole Safe Campus + charte L’Autre Cercle.\n\n• SpeakUp : plateforme de signalement anonyme 24/7 sur serveurs chiffrés (pionniers dans l’enseignement supérieur français, lancée 2020)\n• Cellule interne de référencement avec protocole d’accompagnement (développé avec Safe Campus et L’égalité à la page)\n• Charte L’Autre Cercle (charte d’engagement LGBT+ pour l’enseignement supérieur) signée\nSource : em-lyon.com/sante-diversite-et-inclusion\n\nApprenants :\n• SpeakUp accessible à tous les étudiants 24/7\nSource : em-lyon.com/sante-diversite-et-inclusion\n\nCollaborateurs :\n• Formation compliance et protocole interne\nSource : DPEF 2023-2024",
         "14": "OUI — 100% du personnel formé aux enjeux sociaux et environnementaux (objectif atteint fin 2024).\n\n• Objectif plan Résonances : 100% des équipes formées = atteint\n• Fresque du Numérique Responsable déployée pour le personnel\n• Formation aux enjeux socio-environnementaux intégrée\nSource : Rapport d’engagement 2024, p. 7 ; em-lyon.com/engagement-environnemental\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• 100% formés aux enjeux sociaux et environnementaux\nSource : Rapport d’engagement 2024, p. 7",
-        "15": "PARTIEL — Comité de Mission et direction de l’engagement mais pas de réseau de référents RSE dans chaque département documenté.\n\n• Direction de l’Engagement Social et Environnemental dédiée\n• Comité de Mission = organe de pilotage, pas un réseau d’ambassadeurs\n• Pas de réseau de référents RSE dans chaque département documenté\nSource : Rapport d’engagement 2024, p. 11\n\nApprenants :\n• NOISE (Nouvel Observatoire de l’Innovation Sociale et Environnementale — association étudiante RSE de référence, 34 membres) fait le relais\nSource : em-lyon.com/vie-associative/noise\n\nCollaborateurs :\n• Non documenté",
+        "15": "OUI — Direction de l’Engagement Social et Environnemental intégrée au Management Committee + 30 ambassadeurs étudiants Makesense.\n\n• Direction ESE (Bénédicte Bost) = rattachée au Management Committee\n• Comité de Mission = organe de suivi avec représentants internes (Françoise Dany, professeure RH)\n• 30 ambassadeurs étudiants formés par Makesense (organisation spécialisée dans l’engagement citoyen)\n• Association NOISE (34 membres, 8 pôles) = relais RSE étudiant\nSource : em-lyon.com/comite-de-mission ; planetegrandesecoles.com/emlyon-societe-a-mission\n\nApprenants :\n• 30 ambassadeurs Makesense + NOISE\nSource : planetegrandesecoles.com\n\nCollaborateurs :\n• Direction ESE + représentant au Comité de Mission\nSource : em-lyon.com/comite-de-mission",
         "16": "OUI — SDGs Inside = méthode développée par les enseignants-chercheurs emlyon pour intégrer le DD dans tous les cours.\n\n• SDGs Inside (méthode de cartographie de 35 compétences RSE alignées sur les 17 ODD) développée par le corps professoral emlyon\n• 90% des cours analysés via cette méthode\n• 50 nouveaux professeurs-chercheurs recrutés (objectif Résonances)\nSource : Rapport d’engagement 2024, p. 7 ; em-lyon.com/teaching-model\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Les enseignants sont formés et utilisent SDGs Inside dans leurs cours\nSource : em-lyon.com/teaching-model",
         "17": "OUI — Alternative Futures Institute (décembre 2025) + 3 chaires RSE + 70% des publications liées à la mission RSE.\n\n• Alternative Futures Institute : recherche sur les stratégies d’entreprise dans les limites planétaires (directeur : Thomas Gauthier)\n• Chaire Stratégie dans l’Anthropocène (avec Carbone 4)\n• Chaire Santé Mentale des Dirigeants de PME (avec Malakoff Humanis)\n• Chaire Risques Climatiques et Assurance (avec Groupama Rhône-Alpes)\n• Près de 70% des publications de la Faculté concernent les enjeux RSE\nSource : em-lyon.com/alternative-futures-institute ; Rapport d’engagement 2024\n\nApprenants :\n• 7 000+ étudiants formés en prospective depuis 2018\nSource : em-lyon.com/alternative-futures-institute\n\nCollaborateurs :\n• 8 centres de recherche contribuent à l’engagement RSE\nSource : Rapport d’engagement 2024",
         "18": "OUI — 3 bilans carbone réalisés (dont 2025), résultats publiés : 11 000 tCO2 en 2022, -30% en 2025.\n\n• 1er bilan carbone réalisé (année de référence 2022)\n• 3ème bilan carbone (2025) montre -30% vs 2022\n• Certifié Net Zero Contributor par Greenly (cabinet spécialisé en comptabilité carbone)\nSource : em-lyon.com/engagement-environnemental\n\nApprenants :\n• Données incluent la mobilité étudiante\nSource : em-lyon.com/engagement-environnemental\n\nCollaborateurs :\n• Données couvrent les campus et opérations\nSource : em-lyon.com/engagement-environnemental",
@@ -2515,7 +2515,7 @@ const BENCHMARK_DATA = {
         "25": "OUI — 43 référents handicap + accord groupe + PAEH individualisé.\n• Accord de groupe handicap signé été 2024\nSource : Rapport RSE 2024-25, p. 18-19\n\nApprenants :\n• PAEH individualisé, COMASCO (ECE)\nSource : Rapport RSE 2024-25, p. 18 ; CSR Report 2023, p. 36\n\nCollaborateurs :\n• Achat inclusif ESAT/entreprises adaptées\nSource : Rapport RSE 2024-25, p. 18",
         "26": "OUI — Politique EDI 6 axes (2023) + Gender Equality Plan 2024-2027.\n• Index F/H : 89,3/100, 58% managers femmes\n• Charte LGBT+ signée juin 2025, WEPS, #StOpE\nSource : Rapport RSE 2024-25, p. 17-19 ; Gender Plan p. 2-3\n\nApprenants :\n• Podcasts MISMATCH, conférences\nSource : Rapport RSE 2024-25, p. 7\n\nCollaborateurs :\n• Objectif féminisation COMEX/CODIR d'ici 2026\nSource : Gender Plan, p. 3",
         "27": "OUI — -47% déchets + filières tri + collecte mégots.\n• Îlots collecteurs flash codes (Lyon), partenariat Cyclope, compostage\nSource : Rapport RSE 2024-25, p. 12\n\nApprenants :\n• Ateliers SERD pour étudiants\nSource : Rapport RSE 2024-25, p. 12\n\nCollaborateurs :\n• Sensibilisation régulière\nSource : Rapport RSE 2024-25, p. 12",
-        "28": "PARTIEL — Futur campus Marseille certifié bas carbone (2026), existants non certifiés.\n• Marseille : blocs terre comprimée, biosourcés, géothermie marine\n• Campus La Défense : usage frugal énergie\nSource : CSR Report 2023, p. 23\n\nApprenants :\n• Panneaux solaires toit végétalisé (ECE)\nSource : CSR Report 2023, p. 27\n\nCollaborateurs :\n• Non documenté",
+        "28": "OUI — Plusieurs campus certifiés : Toulouse BREEAM Excellent + BBC, Lyon HQE Bâtiment Durable, Marseille BREEAM Very Good + BBCA.\n\n• Campus Toulouse : BREEAM (certification environnementale internationale des bâtiments) niveau Excellent + BBC Effinergie 2017\n• Campus Lyon « La Citadelle » : HQE Bâtiment Durable (très haute performance)\n• Campus Marseille : BREEAM Very Good + BBCA (Bâtiment Bas Carbone) + BDM Silver\nSource : planetegrandesecoles.com/omnes-nouveaux-campus\n\nApprenants :\n• Campus certifiés sur 3 sites\nSource : planetegrandesecoles.com\n\nCollaborateurs :\n• Idem\nSource : planetegrandesecoles.com",
         "29": "PARTIEL — Potagers, ateliers alimentation, frigos anti-gaspi.\n• Potager solidaire Rennes, aromatiques Bordeaux, pédagogique Chambéry\n• Frigos anti-gaspi prix réduit (Rennes)\nSource : Rapport RSE 2024-25, p. 12\n\nApprenants :\n• Ateliers Récup & Gamelles (Lyon)\nSource : Rapport RSE 2024-25, p. 12\n\nCollaborateurs :\n• Non documenté",
         "30": "PARTIEL — Actions bien-être présentes sans cellule dédiée apprenants.\n• Plan QVCT (Qualité de Vie et Conditions de Travail) couvre le bien-être au travail\nSource : CSR Report 2023, p. 37\n\nApprenants :\n• 300 volontaires Croix-Rouge (JO 2024), pas de cellule d'écoute type FOR ME (le dispositif IGENSIA d'accompagnement complet : soutien psychologique, médical, social et juridique, gratuit et confidentiel pour tous les apprenants)\nSource : CSR Report 2023, p. 38\n\nCollaborateurs :\n• Enquête bien-être annuelle\nSource : CSR Report 2023, p. 37",
         "31": "OUI — Plusieurs parcours diplômants spécifiquement dédiés à la RSE/DD dans les écoles du groupe.\n\n• MSc \"Manager du Développement Durable et de la Transition Écologique\" (INSEEC MSc) : forme des spécialistes de la transition\n• Executive MBA \"Transition énergétique et écologique, RSE & DD\" (IFG) : pour cadres en activité\n• MSc \"Sustainability and Innovation Management\" (IUM Monaco) : anglophone, orienté innovation durable\n• MSc \"Manager de l’Innovation et de la RSE\" (HEIP) : croise sciences politiques et RSE\nSource : CSR Report 2023, p. 10\n\nApprenants :\n• 4 parcours diplômants RSE/DD accessibles dans différentes écoles du groupe\nSource : CSR Report 2023, p. 10\n\nCollaborateurs :\n• L’Executive MBA IFG est accessible aux professionnels en reconversion\nSource : CSR Report 2023, p. 10",
@@ -2727,7 +2727,7 @@ const BENCHMARK_DATA = {
         "27": "PARTIEL — Pas de dispositif de tri détaillé documenté dans le rapport.\n\n• Non détaillé dans le rapport DD&RS 2026\nSource : Rapport DD&RS 2026 (absence constatée)\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
         "28": "PARTIEL — Pas de certification campus documentée.\n\n• 4 campus (Nantes Atlantic, Mediacampus, City Campus, Vendée, Paris) mais pas de certification HQE/BREEAM (certification environnementale internationale des bâtiments)\nSource : Rapport DD&RS 2026, p. 16\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
         "29": "PARTIEL — Pas de politique d’alimentation durable formalisée documentée.\n\n• Non mentionné dans le rapport DD&RS 2026\nSource : Rapport DD&RS 2026 (absence constatée)\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
-        "30": "PARTIEL — Page \"Santé et bien-être\" identifiée sur le site mais pas de dispositif dédié documenté dans le rapport.\n\n• Page \"Santé et bien-être\" dans le menu Vie étudiante du site\n• Pas de cellule d’écoute psychologique type FOR ME (le dispositif IGENSIA d'accompagnement complet : soutien psychologique, médical, social et juridique, gratuit pour tous les apprenants) documentée dans le rapport\nSource : Site web audencia.com ; Rapport DD&RS 2026 (absence constatée)\n\nApprenants :\n• Page dédiée sur le site mais détail non documenté\nSource : Site web audencia.com\n\nCollaborateurs :\n• Non documenté",
+        "30": "OUI — Psychologue dédiée sur campus (depuis 2024, trilingue FR/EN/CN) + service d’écoute 24/7 gratuit + Étudiants Relais Santé.\n\n• Psychologue dédiée sur le campus Atlantic (bimensuel + distanciel), trilingue\n• Service d’écoute en ligne gratuit 24/7 avec psychologues en 3 langues\n• Infirmerie sur les campus nantais\n• « Étudiants Relais Santé » : 5 étudiants formés en prévention par les pairs\n• Formation « Premiers Secours en Santé Mentale France » pour les référents\n• Partenariat santé universitaire Nantes Université\nSource : audencia.com/health-and-well-being ; fondation.audencia.com/etudiants-relais-sante\n\nApprenants :\n• Psychologue + écoute 24/7 + relais étudiants\nSource : audencia.com/health-and-well-being\n\nCollaborateurs :\n• Non documenté spécifiquement",
         "31": "OUI — MSc Management for Sustainable Business + MS APTE (Acteur Pour la Transition Écologique) en alternance.\n\n• MSc MSB : 1ère promotion en 2025, 54 étudiants certifiés Bilan Carbone®\n• MS APTE : Mastère Spécialisé en alternance, dédié à la transition écologique\n• GAIA : l’école des transitions écologiques et sociales (entité dédiée)\nSource : Rapport DD&RS 2026, p. 6 ; audencia.com/les-formations/mastere-specialise/acteur-pour-la-transition-ecologique\n\nApprenants :\n• Parcours diplômants RSE/DD accessibles\nSource : Rapport DD&RS 2026, p. 6\n\nCollaborateurs :\n• Non applicable",
         "32": "PARTIEL — Pas de charte achats responsables documentée dans le rapport.\n\n• Non mentionné dans le rapport DD&RS 2026\nSource : Rapport DD&RS 2026 (absence constatée)\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
         "33": "OUI — Programme Quartiers d’Affaires (100+ dirigeants QPV/an) + Lighthouse + engagement associatif.\n\n• Partenariat Quartiers d’Affaires : 100+ dirigeants QPV formés chaque année\n• Programme Lighthouse pour l’égalité des chances\n• Institut de l’Entrepreneuriat actif\nSource : Rapport DD&RS 2026, p. 5 ; site web audencia.com\n\nApprenants :\n• Les étudiants participent aux programmes solidaires\nSource : Rapport DD&RS 2026, p. 5\n\nCollaborateurs :\n• Non applicable",
@@ -2889,7 +2889,7 @@ const BENCHMARK_DATA = {
         "21": "OUI — Plan 3D axe Décarbonation formalisé + ISO 14001 (management environnemental) sur 3 campus + 50M€ investis.\n\n• Axe Décarbonation du Plan 3D avec objectifs et actions concrètes\n• ISO 14001 sur 3 campus français (système de management environnemental certifié)\n• 50M€ d’investissement dans les infrastructures campus\n• Politique de mobilité responsable lancée 2024\nSource : Rapport, p. 6, 12 ; skema.edu/transitions\n\nApprenants :\n• Guide mobilité responsable étudiants\nSource : Guide mobilité responsable (PDF)\n\nCollaborateurs :\n• Politique mobilité responsable pour le personnel\nSource : skema.edu/transitions",
         "22": "OUI — Charte Numérique Responsable signée (2024) + Fresque du Numérique obligatoire + Chaire AI for Good + objectif -50% données serveurs.\n\n• Adhésion à la Charte Numérique Responsable (Institut du Numérique Responsable, 2024)\n• Fresque du Numérique (atelier pour comprendre l’impact environnemental du numérique) obligatoire pour tous les L3\n• Chaire Generative AI for Good (Microsoft, 2024)\n• Objectif : -50% du volume de données sur les serveurs (2024)\nSource : Rapport, p. 6 ; charter.isit-europe.org/skema ; CGE article\n\nApprenants :\n• Fresque du Numérique obligatoire L3\nSource : Rapport, p. 15\n\nCollaborateurs :\n• Charte NR signée pour l’institution\nSource : charter.isit-europe.org",
         "23": "OUI — Guide de mobilité responsable publié + politique mobilité responsable (2024) + 80% mobilité douce à Lille.\n\n• Guide de l’étudiant pour une mobilité responsable publié (marche, vélo, transports, covoiturage, alternatives à l’avion)\n• Politique de mobilité responsable lancée 2024 pour personnel et étudiants\n• Campus Lille : 80%+ des déplacements en mobilité douce, dont 20% à pied ou vélo\n• MOVE FOR GOOD : projets à impact intégrés aux mobilités internationales (pilote Dubaï 2024-25)\nSource : Guide mobilité responsable (PDF) ; bipiz.org/skema\n\nApprenants :\n• Guide mobilité responsable + MOVE FOR GOOD\nSource : Guide (PDF)\n\nCollaborateurs :\n• Politique mobilité responsable 2024\nSource : skema.edu/transitions",
-        "24": "NON — Pas d’action biodiversité structurée documentée.\n\n• Aucune politique biodiversité, diagnostic ou aménagement documenté\nSource : Rapport (absence constatée)\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
+        "24": "PARTIEL — Conférences biodiversité + jardin potager collaboratif + expositions GoodPlanet, mais pas de plan biodiversité formalisé.\n\n• Conférence sur l’interdépendance biodiversité-climat (Paul Leadley)\n• Exposition « Biodiversity, Everything is Alive » (Fondation GoodPlanet) sur tous les campus français\n• Jardin potager collaboratif en toiture (campus Sophia Antipolis)\n• Partenariat association « Oiseaux et Nature »\n• Plan d’action « identité environnementale » des campus visé d’ici 2026\nSource : skema.edu/transitions-week ; energic.io/skema\n\nApprenants :\n• Jardin potager + expositions accessibles\nSource : energic.io/skema\n\nCollaborateurs :\n• Non documenté",
         "25": "OUI — Référent handicap sur chaque campus via SKEMA KARE + campus Lille accessible PMR + bourse Hermès handicap.\n\n• Référent handicap dédié sur chaque campus (contact via SKEMA KARE)\n• Campus Lille : rampes, ascenseurs, parking adapté, bureaux adaptés, toilettes accessibles\n• Bourse Hermès pour étudiants en situation de handicap\n• SEEPH (Semaine Européenne pour l’Emploi des Personnes Handicapées) annuelle\n• Association Sk’enigma : sensibilisation handicap (prix « Jeux-DYS »)\nSource : skema.edu/handicap ; business-cool.com/hermes-skema\n\nApprenants :\n• Référent par campus + aménagements\nSource : skema.edu/handicap\n\nCollaborateurs :\n• SEEPH annuelle\nSource : skema.edu/handicap",
         "26": "OUI — Plan égalité genres 2022-2025 + Observatoire Féminisation + Chaire Diversité & Inclusion (1,5M€) + 1 000 bourses/an.\n\n• Plan égalité des genres 2022-2025 formalisé\n• Observatoire de la Féminisation des Entreprises (CAC 40)\n• Chaire Diversité & Inclusion (1,5M€, Groupe Premium, 30 bourses Global BBA)\n• Jusqu’à 1 000 bourses/an, objectif 10M€ d’aides d’ici 2027\n• Cordées de la Réussite + Make it Possible (Fondation des Possibles)\n• Charte de la Diversité signée (2011)\nSource : Rapport, p. 6 ; skema.edu/support ; fliphtml5.com/skema-gender-equality\n\nApprenants :\n• 1 000 bourses/an, Cordées de la Réussite\nSource : skema.edu/support\n\nCollaborateurs :\n• Plan égalité genres appliqué au personnel\nSource : fliphtml5.com/skema-gender-equality",
         "27": "PARTIEL — ISO 14001 couvre la gestion des déchets mais pas de suivi chiffré détaillé publié.\n\n• ISO 14001 inclut la gestion des déchets dans le périmètre certifié\n• Certification BREEAM couvre la valorisation des déchets\n• Pas de données de tri chiffrées publiées dans le rapport\nSource : Rapport, p. 6 ; skema-bs.fr/certification\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
