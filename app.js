@@ -238,8 +238,8 @@ function renderGrille() {
   const rankMap = {};
   others.forEach(s => { rank++; rankMap[s.name] = rank; });
 
-  // Build category header row
-  let catRow = '<tr><th class="school-col cat-header">ÉCOLE / GROUPE</th><th class="cat-header rank-col">#</th>';
+  // Build category header row — school+rank fusionnés en rowspan=2
+  let catRow = '<tr><th class="school-col cat-header" rowspan="2" style="background:#E60F7D;">ÉCOLE / GROUPE</th><th class="cat-header rank-col" rowspan="2" style="background:#E60F7D;">#</th>';
   const catRanges = [
     { name: 'GOUVERNANCE RESPONSABLE', cols: [1,2,3,4,5,6,7], color: '#260D66' },
     { name: 'ENGAGER NOS PARTIES PRENANTES', cols: [8,9,10,11,14,15,16,17], color: '#E60F7D' },
@@ -269,7 +269,7 @@ function renderGrille() {
   });
 
   // Build criteria header row
-  let critRow = '<tr><th class="school-col">\u00c9cole / Groupe</th><th class="rank-col">#</th>';
+  let critRow = '<tr>';
   colOrder.forEach(col => {
     const c = D.criteria[col - 1];
     const bg = colColorMap[col] || 'var(--primary)';
