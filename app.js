@@ -229,10 +229,6 @@ function renderGrille() {
   const sorted = [...igensia, ...others];
   const filtered = sorted.filter(s => matchesSearch(s.name));
 
-  // Build justification lookup for tooltips
-  const justifMap = {};
-  D.justifications.forEach(j => { justifMap[j.name] = j.justifs; });
-
   // Compute ranks (others only, IGENSIA = ★)
   let rank = 0;
   const rankMap = {};
@@ -298,11 +294,9 @@ function renderGrille() {
     if (labelInfo.pacte) pills += `<span class="label-pill pill-pacte">Pacte Mondial</span>`;
     body += `<td class="school-cell ${ig ? 'igensia' : ''}">${s.name.replace(/\n/g, ' ')}${pills ? '<div class="school-labels">' + pills + '</div>' : ''}</td>`;
     body += `<td class="rank-cell">${ig ? '\u2605' : (rankMap[s.name] || '')}</td>`;
-    const sJustifs = justifMap[s.name] || {};
     colOrder.forEach(j => {
       const v = s.verdicts[j] || '';
-      const jText = (sJustifs[String(j)] || '').replace(/"/g, '&quot;').replace(/\n/g, ' ').substring(0, 120);
-      body += `<td title="${jText}">${badgeHTML(v)}</td>`;
+      body += `<td>${badgeHTML(v)}</td>`;
     });
     body += `<td class="score-cell ${scoreClass(s.score)}">${s.score}</td>`;
     body += '</tr>';
