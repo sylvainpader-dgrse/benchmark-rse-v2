@@ -865,22 +865,18 @@ function renderRadar() {
       }, 0) : 0;
       const avgRaw = (avgScores[ai] * axe.max / 100).toFixed(1);
       const bestRaw = (bestScores[ai].score * axe.max / 100).toFixed(1);
-      const pct = igensiaData ? Math.round(getAxeScore(igensiaData, axe)) : 0;
-      const avgPct = Math.round(avgScores[ai]);
-      const bestPct = Math.round(bestScores[ai].score);
       html += `<tr>`;
       html += `<td style="border-left:4px solid ${axeColors[ai]};padding-left:10px;">${axe.name}</td>`;
-      html += `<td><strong>${igRaw}</strong>/${axe.max} <small style="opacity:0.6">(${pct}%)</small></td>`;
-      html += `<td>${avgRaw}/${axe.max} <small style="opacity:0.6">(${avgPct}%)</small></td>`;
+      html += `<td>${igRaw}/${axe.max}</td>`;
+      html += `<td>${avgRaw}/${axe.max}</td>`;
       html += `<td>${bestScores[ai].name}</td>`;
       html += '</tr>';
     });
 
     const igTotal = igensiaData ? igensiaData.score : 0;
-    const bestTotal = Math.max(...D.grille.filter(s => s.score > 0).map(s => s.score));
     html += `<tr style="font-weight:900; border-top:2px solid var(--primary)">`;
-    html += `<td>TOTAL</td>`;
-    html += `<td><strong>${igTotal}</strong>/36</td>`;
+    html += `<td style="border-left:4px solid var(--primary);padding-left:10px;">TOTAL</td>`;
+    html += `<td>${igTotal}/36</td>`;
     html += `<td>${avgTotalScore.toFixed(1)}/36</td>`;
     html += `<td></td></tr>`;
     html += '</tbody></table>';
