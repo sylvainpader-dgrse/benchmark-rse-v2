@@ -351,7 +351,7 @@ function renderJustifications() {
     card.innerHTML = `
       <div class="justif-header" onclick="this.parentElement.classList.toggle('open')">
         <span class="school-name">${s.name.replace(/\n/g, ' ')}</span>
-        <span class="score-tag ${scoreClass(score)}">${score}/36 <small>${rankLabel}</small></span>
+        <span class="score-tag ${scoreClass(score)}">${score}/36<br><small style="opacity:0.8">${rankLabel}</small></span>
         <span class="arrow">&#9662;</span>
       </div>
       <div class="justif-body">${critHTML}</div>`;
@@ -809,14 +809,7 @@ function renderRadar() {
         },
       },
       plugins: {
-        legend: {
-          position: 'bottom',
-          labels: {
-            font: { family: 'Archivo', size: 12 },
-            padding: 20,
-            filter: item => !item.text.startsWith('_'),
-          },
-        },
+        legend: { display: false },
         tooltip: {
           filter: item => !item.dataset.label.startsWith('_'),
           callbacks: {
