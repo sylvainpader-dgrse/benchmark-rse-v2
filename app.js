@@ -366,7 +366,14 @@ function renderJustifications() {
         <span class="score-tag ${scoreClass(score)}">${score}/36<br><small style="opacity:0.8">${rankLabel}</small></span>
         <span class="arrow">&#9662;</span>
       </div>
-      <div class="justif-body">${critHTML}</div>`;
+      <div class="justif-body">
+        ${critHTML}
+        ${s.sources ? `<div class="sources-box"><div class="sources-title">Sources consultées</div><div class="sources-list">${s.sources.split('\n').filter(l => l.trim()).map(l => {
+          const trimmed = l.trim();
+          if (trimmed.startsWith('http')) return '<a href="' + trimmed + '" target="_blank" rel="noopener">' + trimmed.replace(/^https?:\/\//, '').substring(0, 60) + (trimmed.length > 70 ? '...' : '') + '</a>';
+          return '<span>' + trimmed + '</span>';
+        }).join('')}</div></div>` : ''}
+      </div>`;
     container.appendChild(card);
   });
 }

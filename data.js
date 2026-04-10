@@ -2231,7 +2231,7 @@ const BENCHMARK_DATA = {
         "35": "PARTIEL — Vie associative présente mais accompagnement structuré prévu à partir de décembre 2026.\n• Why Not Factory (incubateur) accompagne apprenants, alumni et collaborateurs\n• Accompagnement des associations étudiantes dans un projet à impact prévu d’ici décembre 2026\nSource : Rapport RSE 2024-2025, p. 20, 27\n\nApprenants :\n• Associations étudiantes actives sur les campus\n• Why Not Factory : 18 à 70 ans, mixité des profils\nSource : Rapport RSE 2024-2025, p. 20\n\nCollaborateurs :\n• Les collaborateurs peuvent être accompagnés par la WNF pour entreprendre\nSource : Rapport RSE 2024-2025, p. 20",
         "36": "PARTIEL — Charte achats responsables intègre des critères de proximité, inventaire en cours.\n• La charte achats responsables mentionne les fournisseurs locaux\n• L’inventaire des fournisseurs de proximité est en cours (échéance 2026)\nSource : Grille LUCIE ENG-12\n\nApprenants :\n• Les achats campus (restauration, fournitures) intègrent progressivement des fournisseurs locaux\nSource : Rapport RSE 2024-2025, p. 38\n\nCollaborateurs :\n• Non documenté spécifiquement"
       },
-      "sources": "https://www.igensia-education.fr/notre-demarche-rse"
+      "sources": "Rapport RSE IGENSIA 2024-2025\nhttps://www.igensia-education.fr/notre-demarche-rse"
     },
     {
       "name": "HEC PARIS",
@@ -2273,7 +2273,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — Écosystème associatif riche et accompagné : NetPositive+, Esp’R, Impact Company Lab.\n\n• NetPositive+ : initiatives environnementales, compensation carbone\n• Esp’R : plaidoyer écologique, Earth Week\n• MBA Sustainability Club\n• Impact Company Lab : podcast et initiatives étudiantes\n• HEC Social Entrepreneurship Center + DeepTech Center (CDL Carbon Removal)\nSource : Sustainability Report 2024, p. 29, 32-33\n\nApprenants :\n• Vie associative très riche avec projets à impact documentés\nSource : Sustainability Report 2024, p. 28-29\n\nCollaborateurs :\n• HEC Stand Up : programme gratuit de 10 semaines pour l’entrepreneuriat social\nSource : Sustainability Report 2024, p. 32",
         "36": "PARTIEL — Politique territoriale avec les Yvelines, mais pas de politique d’achat local formalisée.\n\n• Partenariat 10 ans avec Département des Yvelines pour l’insertion locale\n• Bénévolat dans les associations locales (rayon 15 km)\n• Pas d’inventaire fournisseurs locaux ni de politique achat inclusif dédiée\nSource : Sustainability Report 2024, p. 50-51\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://www.hec.edu/sites/default/files/documents/Sustainability%20Report%202024_HEC%20Paris%20%281%29.pdf\n\nhttps://2050analytics.com/fr/org/3236.hec-paris\n\nhttps://www.hec.edu/fr"
+      "sources": "HEC Sustainability Report 2024\nhttps://www.hec.edu/en/school/sustainability"
     },
     {
       "name": "ESSEC BUSINESS SCHOOL",
@@ -2315,7 +2315,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — Écosystème associatif riche : Enactus ESSEC, Esp’R, BDE engagé + COCON (Comité Consultatif rassemblant les parties prenantes internes pour piloter la stratégie RSE).\n\n• Associations à impact social et environnemental actives et accompagnées\n• COCON intègre le collège étudiants dans la gouvernance\n• Together Impact Fund finance les initiatives étudiantes\nSource : Rapport DD&RS 2025, p. 5, 10\n\nApprenants :\n• Vie associative dynamique avec financement via le Together Impact Fund\nSource : Rapport DD&RS 2025, p. 5\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Ancrage territorial formalisé mais pas de politique d’achat local dédiée.\n\n• Partenariat territorial avec Cergy-Pontoise\n• ESS Accelerator en IDF\n• Pas d’inventaire fournisseurs locaux ni de politique achat inclusif dédiée\nSource : Rapport DD&RS 2025, p. 12\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://assets.ctfassets.net/vmb6iqn8sgcm/1AoLEi0C4L4pGygYA4WJQu/60b0aeae54fb13320fd9c33b21171613/2025_ESSEC_RAPPORT_DDRS_FR.pdf\n\nhttps://2050analytics.com/fr/org/18730.essec-business-school\n\nhttps://www.essec.edu/fr/"
+      "sources": "Rapport DD&RS ESSEC 2025\nhttps://together.essec.edu/"
     },
     {
       "name": "EDHEC BUSINESS SCHOOL",
@@ -2357,7 +2357,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — 100+ associations actives + label Citizen Associations créé + accompagnement structuré.\n\n• 100+ associations étudiantes actives (vie associative = point fort reconnu)\n• Label Citizen Associations créé : cahier des charges sur éthique, impact social, impact environnemental\n• Objectif 100% associations labellisées d'ici 2028\n• Associations engagées : Develop (DD depuis 14 ans), WinFin (D&I finance), Le Chti\nSource : Rapport DDRS 2023, p. 5 ; Plan Générations 2050, p. 3\n\nApprenants :\n• 100+ associations, 47% de présidentes\nSource : Rapport DDRS 2023, p. 3\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Prestataires locaux engagés (API Restauration, 1001 feuilles, ATF Gaia ESS) mais pas de politique d'achat local et inclusif formalisée.\n\n• API Restauration : produits locaux privilégiés\n• 1001 feuilles : gestion espaces verts locale et écologique\n• ATF Gaia : économie sociale, solidaire et circulaire (recyclage IT)\n• Pas de politique d'achat inclusif et local formalisée en tant que telle\nSource : Rapport DDRS 2023, p. 14\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://www.edhec.edu/sites/default/files/2023-07/rapport-ddrs-2023-edhec.pdf\nhttps://www.edhec.edu/fr\nhttps://2050analytics.com/fr/org/17973.edhec-business-school"
+      "sources": "HEC Sustainability Report 2024\nhttps://www.hec.edu/en/school/sustainability"
     },
     {
       "name": "EMLYON BUSINESS SCHOOL",
@@ -2399,7 +2399,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — 45 associations + charte RSE signée par 42 d’entre elles + label Ecollab.\n\n• Près de 45 associations étudiantes actives sur tous les campus\n• Charte RSE signée février 2026 : rapports RSE annuels, bilans carbone, formation diversité et 2tonnes\n• 100% des associations ont fait leur rapport RSE, 64% ont obtenu le label Ecollab (label RSE des événements étudiants, créé par NOISE)\n• 85% des bureaux ont fait la formation diversité et l’atelier 2tonnes\nSource : em-lyon.com/csr-charter\n\nApprenants :\n• 1 000+ étudiants impliqués\nSource : em-lyon.com/csr-charter\n\nCollaborateurs :\n• Non applicable",
         "36": "OUI — Label RFAR (achats responsables) + circuits courts alimentaires + AMAP locale.\n\n• Label RFAR = politique d’achat responsable certifiée incluant l’impact sur l’écosystème local\n• Melchior : restauration avec produits locaux en circuits courts\n• AMAP (paniers de producteurs locaux et bio) organisée par NOISE pour la communauté emlyon\n• Membre du programme Lyon Climatically Neutral 2030 = ancrage territorial\nSource : em-lyon.com/label-rfar ; em-lyon.com/engagement-environnemental\n\nApprenants :\n• AMAP et restauration locale accessibles\nSource : em-lyon.com/engagement-environnemental\n\nCollaborateurs :\n• Politique d’achat certifiée RFAR\nSource : em-lyon.com/label-rfar"
       },
-      "sources": "https://res.cloudinary.com/emlyon/image/upload/v1765364826/PDF/ESE/declaration-de-performance-extra-financiere-avi-oti-2024-2025.pdf\nhttps://res.cloudinary.com/emlyon/image/upload/v1768830781/Documents-a-heberger/rapport-d-engagement-2025-emlyon-v4.pdf\n\nhttps://em-lyon.com/fr/responsabilite-sociale-et-environnementale"
+      "sources": "Rapport d'engagement emlyon 2024 (40p)\nDPEF 2023-2024 (74p) — Avis OTI Baker Tilly STREGO\nEngagement Report 2023 (EN)\nhttps://em-lyon.com/fr/responsabilite-sociale-et-environnementale\nhttps://em-lyon.com/fr/engagement-environnemental\nhttps://em-lyon.com/fr/sante-diversite-et-inclusion"
     },
     {
       "name": "KEDGE BUSINESS SCHOOL",
@@ -2441,7 +2441,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — Vie associative active avec associations à impact social et environnemental.\n\n• Associations étudiantes actives sur les 4 campus français\n• Association Campus Durable (gère la flotte de vélos)\n• SimONU depuis 2006\n• Les Gourmets (45 membres) avec pôle impact environnemental et social\nSource : etudiant.kedge.edu/associations ; impakt.kedge.edu/nos-realisations\n\nApprenants :\n• Associations à impact actives\nSource : etudiant.kedge.edu/associations\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Partenariat Parc National des Calanques (ancrage territorial) mais pas de politique d’achat local et inclusif formalisée.\n\n• Partenariat Parc National des Calanques = ancrage local fort\n• Compostage : 900 kg de compost réutilisé localement\n• Pas de politique d’achat local et inclusif formalisée en tant que telle\nSource : etudiant.kedge.edu/calanques ; impakt.kedge.edu/nos-realisations\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://kedge.edu/\nhttps://impakt.kedge.edu/\nhttps://impakt.kedge.edu/nos-engagements\nhttps://kedge.edu/l-ecole/rse/rapports-et-publications-developpement-durable-kedge"
+      "sources": "Rapport DD KEDGE 2020-21\nGuide des achats responsables KEDGE\nGuide Access 2025-26 (handicap)\nGuide WellNess 2019\nhttps://impakt.kedge.edu\nhttps://impakt.kedge.edu/nos-engagements\nhttps://impakt.kedge.edu/nos-realisations\nhttps://kedge.edu/l-ecole/rse"
     },
     {
       "name": "GRENOBLE EM",
@@ -2483,7 +2483,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — 22+ associations actives avec représentants RSE dans chaque association + IMPACT (9 pôles DD).\n\n• 22+ associations étudiantes, ~700 événements/an\n• IMPACT : association RSE de référence avec 9 pôles\n• Représentants RSE dans chaque association (point fort audit DD&RS)\nSource : grenoble-em.com/students-associations ; label-ddrs.org/gem\n\nApprenants :\n• Vie associative riche avec dimension RSE structurée\nSource : grenoble-em.com/students-associations\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Chaire Territoires en Transition ancrée localement (Métropole, Département) mais pas de politique d’achat local formalisée.\n\n• Chaire Territoires en Transition = ancrage territorial fort avec partenaires publics locaux\n• Paniers Terroir IMPACT : produits locaux et de saison\n• Partenaires ESS (ELISE, Lemon Tri) pour le tri des déchets\n• Pas de politique d’achat local et inclusif formalisée\nSource : grenoble-em.com/chaire-territoires-en-transition\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://www.grenoble-em.com/wp-content/uploads/GEM_Rapport_societe_mission_5512ffaf87.pdf\n\nhttps://www.grenoble-em.com/"
+      "sources": "Rapport Société à Mission GEM 2025 (40p)\nRapport pratiques écologiques GEM\nRapport Chaire Energy for Society 2022-25\nhttps://www.grenoble-em.com/ecole/decouvrir-gem/strategie-eagle-2030/\nhttps://www.grenoble-em.com/chaire-territoires-en-transition/"
     },
     {
       "name": "OMNES EDUCATION\n(Groupe)",
@@ -2525,7 +2525,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — Éco-délégués + conseillers Time to Act (programme de mobilisation RSE avec ambassadeurs étudiants et éco-délégués) + 6 incubateurs.\n• Comité Responsible Campus par site\nSource : CSR Report 2023, p. 9, 26\n\nApprenants :\n• Défi \"Set the green transition in motion\" (Lyon)\n• Associations engagées actives\nSource : CSR Report 2023, p. 17\n\nCollaborateurs :\n• Conseillers Time to Act (programme de mobilisation RSE avec ambassadeurs étudiants et éco-délégués) dans chaque service\nSource : CSR Report 2023, p. 9",
         "36": "PARTIEL — Achat inclusif ESAT (accord handicap), pas de politique achat local.\n• Recours ESAT/entreprises adaptées\n• Pas d'inventaire fournisseurs locaux\nSource : Rapport RSE 2024-25, p. 18\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://www.omneseducation.com/\nhttps://www.omneseducation.com/le-groupe/demarche-rse/\nhttps://2050analytics.com/fr/org/27013.omnes-education"
+      "sources": "Rapport RSE OMNES Education 2024-25\nCSR Report OMNES 2023 (EN)\nhttps://www.omneseducation.com/le-groupe/demarche-rse/"
     },
     {
       "name": "INSEAD",
@@ -2567,7 +2567,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — 40+ clubs étudiants avec INDEVOR (depuis 1993) + Student Impact Fund + clubs DEI dédiés.\n\n• 40+ clubs étudiants actifs\n• INDEVOR : plus ancien club sustainability (1993)\n• Student Impact Fund : investissement à impact (130K$+)\n• Clubs DEI (Diversity, Equity, Inclusion) dédiés\nSource : clubs.insead.edu ; insead.edu/dei-student-clubs\n\nApprenants :\n• 40+ clubs actifs\nSource : clubs.insead.edu\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Produits locaux dans la restauration (pain Fontainebleau, salades 5 km) mais pas de politique d’achat local formalisée.\n\n• Pain boulangé localement, salades cultivées à 5 km (Chailly-en-Bière)\n• Producteurs locaux privilégiés pour la restauration\n• Pas de politique d’achat local et inclusif formalisée\nSource : insead.edu/sustainable-food\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://www.insead.edu/\nhttps://www.insead.edu/system/files/2025-02/sustainability-report-2024.pdf?utm_medium=organic&utm_source=bing"
+      "sources": "INSEAD Sustainability Report 2023\nINSEAD Annual Report 2023-24 (87p)\nINSEAD Code of Conduct and Ethics (28p)\nINSEAD Climate Journey (sept. 2023)\nhttps://www.insead.edu/impact-focus/sustainability\nhttps://www.insead.edu/psychological-services\nhttps://www.insead.edu/diversity-inclusion"
     },
     {
       "name": "ESCP BUSINESS SCHOOL",
@@ -2609,7 +2609,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — 16+ associations sustainability + Student Sustainability Board structuré + collaboration Associate Dean.\n\n• Student Sustainability Board : 5 associations majeures collaborant avec l’Associate Dean\n• GEA Sustainability, NOISE ESCP, Oikos, Lighthouse, AGORA\n• 16+ associations dédiées au total\nSource : escp.eu/sustainable-students-societies\n\nApprenants :\n• Vie associative sustainability très structurée\nSource : escp.eu/sustainable-students-societies\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Pas de politique d’achat local et inclusif formalisée.\n\n• Aucune politique d’achat local documentée\nSource : escp.eu (absence constatée)\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://escp.eu/\nhttps://escp.eu/ethics-responsibility-sustainability\nhttps://escp.eu/sites/default/files/PDF/ESCP_Carbon_Footprint_2024.pdf\nhttps://2050analytics.com/fr/org/3229.escp-business-school"
+      "sources": "ESCP Sustainability Report Berlin 2022 (62p)\nESCP Rapport d'activité 2023\nFondation ESCP Rapport 2023\nhttps://escp.eu/ethics-responsibility-sustainability\nhttps://escp.eu/real-estate-projects"
     },
     {
       "name": "MONTPELLIER BUSINESS SCHOOL",
@@ -2651,7 +2651,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — Gaia + 5 associations ODD + Act for Change + actions ECTS.\n\n• Gaia : association DD de référence, membre REFEDD\n• 5 associations 100% ODD\n• Act for Change : parcours leadership 90h + mentorat\n• Actions citoyennes valorisées en ECTS\nSource : montpellier-bs.com/gaia\n\nApprenants :\n• Vie associative riche avec crédits ECTS\nSource : montpellier-bs.com\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Yunus Centre ancrage local + Klaxit covoiturage local mais pas de politique d’achat local formalisée.\n\n• Yunus Centre = ancrage territorial fort (Montpellier)\n• Klaxit covoiturage : partenariat local\n• Alentours (entreprise bio circuits courts) lauréate du Social Business Project MBS\n• Pas de politique d’achat local et inclusif formalisée\nSource : mbs-education.com\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://2050analytics.com/fr/org/34406.montpellier-business-school\nhttps://www.mbs-education.com/#\nhttps://www.mbs-education.com/mbs/rse-developpement-durable/\nhttps://r.mbs-education.com/mbs-rse-accueil/\nhttps://www.mbs-education.com/mbs/a-propos-de-mbs/diversite/besoins-specifiques-handicap/\nhttps://www.mbs-education.com/mbs/a-propos-de-mbs/diversite/"
+      "sources": "Bilan Carbone Montpellier BS (45p, BL évolution)\nMBS Politique développement durable\nCP Bilan RSE MBS\nFondation MBS Rapport Moral 2021-22\nhttps://r.mbs-education.com/mbs-rse-accueil/\nhttps://r.mbs-education.com/mbs-rse-gestion-environnementale/\nhttps://www.mbs-education.com/fondation-mecenat/"
     },
     {
       "name": "SCIENCES PO PARIS",
@@ -2735,7 +2735,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — Vie associative active avec Bureau Des Sports engagé + conférences GAIA (l'école des transitions écologiques et sociales d'Audencia, qui forme 100% des étudiants en formation initiale).\n\n• BDS co-organise la journée du handicap avec FC Nantes\n• Conférences thématiques GAIA animées par les étudiants M1\n• Institut de l’Entrepreneuriat\nSource : Rapport DD&RS 2026, p. 11, 13 ; site web audencia.com\n\nApprenants :\n• Étudiants M1 GAIA animent les conférences\nSource : Rapport DD&RS 2026, p. 11\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Partenariat Quartiers d’Affaires (ancrage QPV) mais pas de politique d’achat local formalisée.\n\n• Formation de 100+ dirigeants QPV = contribution au développement économique local\n• Pas d’inventaire fournisseurs locaux ni de politique achat inclusif dédiée\nSource : Rapport DD&RS 2026, p. 5\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://www.audencia.com/\nhttps://www.audencia.com/lecole/vision-engagements-responsables\nhttps://www.audencia.com/gaia\nhttps://www.audencia.com/lecole/vision-engagements-responsables/politique-sociale-qualite-de-vie\nhttps://www.audencia.com/lecole/vision-engagements-responsables/environnement-decarbonation\nhttps://www.audencia.com/lecole/vision-engagements-responsables/recherche-innovation-DDRS\nhttps://www.audencia.com/lecole/vision-engagements-responsables/enseignements-formations-DDRS\nhttps://www.audencia.com/lecole/vision-engagements-responsables/strategie-gourvenance-DDRS\nhttps://www.calameo.com/read/000137206ba80aabdd42b?authid=6L5hy6cJSXV0"
+      "sources": "Rapport DD&RS Audencia 2026\nhttps://www.audencia.com/en/student-experience\nhttps://rse.audencia.com/"
     },
     {
       "name": "EXCELIA BUSINESS SCHOOL",
@@ -2903,7 +2903,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — CASK structure la vie associative + HOPE + ENACTUS + Special Achievement pour projets à impact.\n\n• CASK : confédération structurant, soutenant et finançant les associations sur 3 campus français\n• « Special Achievement » : reconnaissance des projets étudiants à impact social/environnemental/associatif\n• HOPE, ENACTUS, Sk’enigma (handicap) actives\nSource : asso-skema.fr ; Rapport\n\nApprenants :\n• Vie associative structurée avec récompenses impact\nSource : asso-skema.fr\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — MOVE FOR GOOD (projets à impact local dans les mobilités) mais pas de politique d’achat local formalisée.\n\n• MOVE FOR GOOD : projets à impact local/social/environnemental intégrés aux échanges internationaux\n• Pas de politique d’achat local et inclusif formalisée\nSource : Rapport, p. 15\n\nApprenants :\n• MOVE FOR GOOD\nSource : Rapport, p. 15\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://www.skema.edu/fr/entreprises\nhttps://www.skema.edu/fr/transitions?utm_source=microsoft&utm_medium=paid&utm_campaign=Marque\nhttps://publications.skema.edu/books/cgzp/?_gl=1*uxdkt8*_gcl_au*MTI0NjI1MTU5OS4xNzQxODU3MjM1"
+      "sources": "Rapport SKEMA Transitions 2024-2025 (24p)\nGuide de l'étudiant pour une mobilité responsable\nhttps://www.skema.edu/fr/transitions\nhttps://www.skema.edu/fr/communique-de-presses/skema-renouvellement-du-label-ddrs-pour-4-ans"
     },
     {
       "name": "TBS EDUCATION",
@@ -2945,7 +2945,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — 37 associations étudiantes dont B3D (DD depuis 2009) + ANEDD (depuis 2007) + formations VSS obligatoires pour les bureaux.\n\n• 37 associations étudiantes\n• B3D PGE + B3D Bachelor = associations DD-RSE dédiées\n• ANEDD : événement RSE annuel phare depuis 2007\n• Formations obligatoires VSS et événements responsables pour tous les bureaux associatifs\n• Projet d’introduction de critères d’impact positif dans la labellisation associative\nSource : Rapport SM 2024-25, p. 7, 17\n\nApprenants :\n• 37 associations, formations RSE\nSource : Rapport SM 2024-25, p. 7\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — COMUE Toulouse (ancrage territorial fort) + LIFE Waste2Build mais pas de politique d’achat local formalisée.\n\n• COMUE Toulouse : Festival Futurs Proches, covoiturage inter-établissements\n• LIFE Waste2Build : partenariat économie circulaire avec Toulouse Métropole\n• Partenariat lycée Berthelot (ancrage local)\n• Pas de politique d’achat local et inclusif formalisée\nSource : Rapport SM 2024-25, p. 25-26\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/enseignements/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/recherche/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/campus-responsable/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/associations-etudiantes/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/gouvernance-dd-rs/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/politique-sociale/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/handicap/\n\nValorisation de l’engagement étudiant | TBS Education\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/ancrage-territorial-reseaux/\n\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/bonnes-pratiques/\n\nhttps://www.tbs-education.fr/tbs/decouvrir-tbs/societe-a-mission/"
+      "sources": "Rapport Société à Mission TBS 2024-2025 (30p)\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/\nhttps://www.tbs-education.fr/tbs/decouvrir-tbs/societe-a-mission/\nhttps://www.tbs-education.fr/tbs/responsabilite-societale-developpement-durable/gouvernance-dd-rs/charte-ethique-de-tbs/"
     },
     {
       "name": "IESEG SCHOOL OF MANAGEMENT",
@@ -3029,7 +3029,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — 20+ associations + référents RSE + RSB for Change (club alumni) + Act for a Better Campus.\n\n• 20+ associations avec référents RSE\n• RSB for Change : club alumni connectant étudiants et professionnels RSE\n• Act for a Better Campus Challenge\n• Dématérialisation, tri, bien-être dans chaque association\nSource : rennes-sb.com/student-associations\n\nApprenants :\n• Vie associative structurée avec RSE\nSource : rennes-sb.com\n\nCollaborateurs :\n• Non applicable",
         "36": "OUI — Membre Produit en Bretagne + Marque Bretagne + projets agroalimentaires locaux (Linconiaa).\n\n• Membre Produit en Bretagne (réseau économique régional, 500 entreprises)\n• Partenaire Marque Bretagne\n• Projet Linconiaa : 3 ans avec entreprises agroalimentaires locales (Région Bretagne + Rennes Métropole)\n• Approvisionnement local et bio pour la restauration\nSource : produitenbretagne.bzh/rennes-sb ; rennes-sb.fr/recherche-et-impact\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Ancrage territorial fort\nSource : produitenbretagne.bzh"
       },
-      "sources": "https://www.rennes-sb.fr/\nhttps://www.rennes-sb.fr/projets-solidaires/\nhttps://www.rennes-sb.fr/demarche-rse/\nhttps://images.rennes-sb.com/frontend/2024/06/Resultats-bilan-carbone_Rennes-SB.pdf?_gl=1*16gm27u*_gcl_au*MjE2NDMxNzEuMTc3NDAxNDE1Mg..*_ga*MzM2NzgyMDgxLjE3NzQwMTQxMzg.*_ga_QV3F24R0MQ*czE3NzQwMTQxMzckbzEkZzEkdDE3NzQwMTQxODEkajMwJGwwJGgxMTYyODc3NjQ0"
+      "sources": "https://www.rennes-sb.fr/rse/\nhttps://www.rennes-sb.fr/demarche-rse/\nhttps://www.rennes-sb.fr/ouverture-sociale/\nhttps://www.rennes-sb.fr/labels-accreditations-et-affiliations/"
     },
     {
       "name": "NEOMA BUSINESS SCHOOL",
@@ -3659,7 +3659,7 @@ const BENCHMARK_DATA = {
         "35": "PARTIEL — Vie associative active dans les écoles mais pas d’accompagnement RSE structuré au niveau groupe.\n\n• Associations étudiantes présentes dans les écoles (activités culturelles, sociales, professionnelles)\n• Partenariat Makesense pour l’engagement associatif étudiant\n• Soirées d’intégration avec associations, programmes de mentorat\n• Pas d’accompagnement RSE structuré des associations au niveau groupe\nSource : esgci.com/galileo-makesense ; studialisedu.net\n\nApprenants :\n• Vie associative active dans les écoles individuelles\nSource : studialisedu.net\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Actions d’achat inclusif via ZACK/Ateliers Sans Frontières et restauration locale, mais pas de politique formalisée.\n\n• Certification ZACK : 129,8h de travail financées aux Ateliers Sans Frontières (insertion professionnelle)\n• Collecte Manutan : 49h de travail en réinsertion\n• Campus Confluence : restauration par Graille (plats frais et locaux)\n• Pas de politique d’achat local et inclusif formalisée au niveau groupe\nSource : ggeedu.com/nos-engagements ; lyondecideurs.com/galileo-confluence\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Partenariats insertion (Ateliers Sans Frontières)\nSource : ggeedu.com/nos-engagements"
       },
-      "sources": "https://www.ggeedu.com/notre-groupe\n\nhttps://www.ggeedu.com/nos-engagements#impact-ecologique\n\nhttps://www.ggeedu.com/nos-engagements#sante-mentale\n\nhttps://cdn.prod.website-files.com/687a559b3a93bfaa55915b31/698e08ba18ada0f6e72698e6_GGE_Rapport%20Impact_2024-2025_FR_compressée.pdf\n\nhttps://2050analytics.com/fr/org/20017.galileo-global-education"
+      "sources": "GGE Rapport Impact 2024-2025 (FR)\nGGE Impact Report 2023-2024 (EN)\nhttps://www.ggeedu.com/nos-engagements\nhttps://www.ggeedu.com/notre-groupe"
     },
     {
       "name": "IMT BUSINESS SCHOOL",
@@ -3953,7 +3953,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — 410+ associations étudiantes avec accompagnement structuré et projets à impact.\n\n• 410+ associations réparties sur les 29 écoles et tous les campus\n• Projets à impact : IDEES Madagascar, 4L Trophy, 1 course pour la vie, BioCampus\n• Compétitions : Prologin (30+ ans de compétition nationale de programmation à l’EPITA)\n• ESME : obligation d’au moins 1 action RSE par association\nSource : ionis-group.com/associations ; actu.ionis-group.com/engagement\n\nApprenants :\n• 410+ associations actives, vie associative très riche\nSource : ionis-group.com/associations\n\nCollaborateurs :\n• Non applicable",
         "36": "NON — Pas de politique d’achat local et inclusif formalisée au niveau groupe.\n\n• Sup’Biotech BioCampus : approvisionnement local ponctuel\n• Pas de politique formalisée\nSource : Recherche web (absence constatée)\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "https://www.ionis-group.com\nhttps://www.ionis-group.com/groupe/raison-etre-valeurs-engagements/"
+      "sources": "Rapport Comité de Mission ESME 2024-2025 (24p)\nhttps://www.ionis-group.com\nhttps://www.ionis-group.com/pedagogie-innovation/associations-etudiantes/\nhttps://newsroom.ionis-group.com/"
     }
   ],
   "focusHeaders": [

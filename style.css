@@ -1251,3 +1251,39 @@ footer {
   .tab { padding: 0.7rem 1rem; font-size: 0.85rem; white-space: nowrap; }
   .notes-grid { grid-template-columns: 1fr; }
 }
+
+/* Sources box in justifications */
+.sources-box {
+  margin-top: 18px;
+  padding: 14px 18px;
+  background: #f8f6ff;
+  border: 1px solid #e0d8f0;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary);
+}
+.sources-title {
+  font-weight: 700;
+  font-size: 0.82rem;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+.sources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.sources-list a, .sources-list span {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  word-break: break-all;
+}
+.sources-list a {
+  color: #1565C0;
+  text-decoration: none;
+}
+.sources-list a:hover {
+  text-decoration: underline;
+}
+.sources-list span {
+  color: #555;
+}
