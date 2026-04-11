@@ -2273,7 +2273,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — Écosystème associatif riche et accompagné : NetPositive+, Esp’R, Impact Company Lab.\n\n• NetPositive+ : initiatives environnementales, compensation carbone\n• Esp’R : plaidoyer écologique, Earth Week\n• MBA Sustainability Club\n• Impact Company Lab : podcast et initiatives étudiantes\n• HEC Social Entrepreneurship Center + DeepTech Center (CDL Carbon Removal)\nSource : Sustainability Report 2024, p. 29, 32-33\n\nApprenants :\n• Vie associative très riche avec projets à impact documentés\nSource : Sustainability Report 2024, p. 28-29\n\nCollaborateurs :\n• HEC Stand Up : programme gratuit de 10 semaines pour l’entrepreneuriat social\nSource : Sustainability Report 2024, p. 32",
         "36": "PARTIEL — Politique territoriale avec les Yvelines, mais pas de politique d’achat local formalisée.\n\n• Partenariat 10 ans avec Département des Yvelines pour l’insertion locale\n• Bénévolat dans les associations locales (rayon 15 km)\n• Pas d’inventaire fournisseurs locaux ni de politique achat inclusif dédiée\nSource : Sustainability Report 2024, p. 50-51\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "HEC Sustainability Report 2024\nhttps://www.hec.edu/en/school/sustainability/sustainability-report\nhttps://www.hec.edu"
+      "sources": "HEC Sustainability Report 2024\nhttps://www.hec.edu/en/school/sustainability\nhttps://www.hec.edu"
     },
     {
       "name": "ESSEC BUSINESS SCHOOL",
@@ -2315,7 +2315,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — Écosystème associatif riche : Enactus ESSEC, Esp’R, BDE engagé + COCON (Comité Consultatif rassemblant les parties prenantes internes pour piloter la stratégie RSE).\n\n• Associations à impact social et environnemental actives et accompagnées\n• COCON intègre le collège étudiants dans la gouvernance\n• Together Impact Fund finance les initiatives étudiantes\nSource : Rapport DD&RS 2025, p. 5, 10\n\nApprenants :\n• Vie associative dynamique avec financement via le Together Impact Fund\nSource : Rapport DD&RS 2025, p. 5\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Ancrage territorial formalisé mais pas de politique d’achat local dédiée.\n\n• Partenariat territorial avec Cergy-Pontoise\n• ESS Accelerator en IDF\n• Pas d’inventaire fournisseurs locaux ni de politique achat inclusif dédiée\nSource : Rapport DD&RS 2025, p. 12\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "Rapport DD&RS ESSEC 2025\nhttps://www.essec.edu/fr/pages/transition-ecologique-sociale/\nhttps://www.essec.edu"
+      "sources": "Rapport DD&RS ESSEC 2025\nhttps://www.essec.edu/fr/actualites/\nhttps://www.essec.edu"
     },
     {
       "name": "EDHEC BUSINESS SCHOOL",
@@ -2357,7 +2357,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — 100+ associations actives + label Citizen Associations créé + accompagnement structuré.\n\n• 100+ associations étudiantes actives (vie associative = point fort reconnu)\n• Label Citizen Associations créé : cahier des charges sur éthique, impact social, impact environnemental\n• Objectif 100% associations labellisées d'ici 2028\n• Associations engagées : Develop (DD depuis 14 ans), WinFin (D&I finance), Le Chti\nSource : Rapport DDRS 2023, p. 5 ; Plan Générations 2050, p. 3\n\nApprenants :\n• 100+ associations, 47% de présidentes\nSource : Rapport DDRS 2023, p. 3\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Prestataires locaux engagés (API Restauration, 1001 feuilles, ATF Gaia ESS) mais pas de politique d'achat local et inclusif formalisée.\n\n• API Restauration : produits locaux privilégiés\n• 1001 feuilles : gestion espaces verts locale et écologique\n• ATF Gaia : économie sociale, solidaire et circulaire (recyclage IT)\n• Pas de politique d'achat inclusif et local formalisée en tant que telle\nSource : Rapport DDRS 2023, p. 14\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "HEC Sustainability Report 2024\nhttps://www.hec.edu/en/school/sustainability/sustainability-report\nhttps://www.hec.edu"
+      "sources": "HEC Sustainability Report 2024\nhttps://www.hec.edu/en/school/sustainability\nhttps://www.hec.edu"
     },
     {
       "name": "EMLYON BUSINESS SCHOOL",
@@ -2735,7 +2735,7 @@ const BENCHMARK_DATA = {
         "35": "OUI — Vie associative active avec Bureau Des Sports engagé + conférences GAIA (l'école des transitions écologiques et sociales d'Audencia, qui forme 100% des étudiants en formation initiale).\n\n• BDS co-organise la journée du handicap avec FC Nantes\n• Conférences thématiques GAIA animées par les étudiants M1\n• Institut de l’Entrepreneuriat\nSource : Rapport DD&RS 2026, p. 11, 13 ; site web audencia.com\n\nApprenants :\n• Étudiants M1 GAIA animent les conférences\nSource : Rapport DD&RS 2026, p. 11\n\nCollaborateurs :\n• Non applicable",
         "36": "PARTIEL — Partenariat Quartiers d’Affaires (ancrage QPV) mais pas de politique d’achat local formalisée.\n\n• Formation de 100+ dirigeants QPV = contribution au développement économique local\n• Pas d’inventaire fournisseurs locaux ni de politique achat inclusif dédiée\nSource : Rapport DD&RS 2026, p. 5\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté"
       },
-      "sources": "Rapport DD&RS Audencia 2026\nhttps://www.audencia.com/en/student-experience\nhttps://rse.audencia.com/\nhttps://www.audencia.com/en/student-experience/vie-sur-nos-campus/health-and-well-being\nhttps://www.audencia.com"
+      "sources": "Rapport DD&RS Audencia 2026\nhttps://www.audencia.com/en/student-experience\nhttps://www.audencia.com/lecole/vision-engagements-responsables/\nhttps://www.audencia.com/en/student-experience/vie-sur-nos-campus/health-and-well-being\nhttps://www.audencia.com"
     },
     {
       "name": "EXCELIA BUSINESS SCHOOL",
