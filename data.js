@@ -426,7 +426,7 @@ const BENCHMARK_DATA = {
   ],
   "grille": [
     {
-      "name": "★ IGENSIA EDUCATION\n(cible — auto-éval.)",
+      "name": "★ IGENSIA EDUCATION\n(Groupe — auto-éval.)",
       "verdicts": {
         "1": "OUI",
         "2": "OUI",
@@ -1560,7 +1560,7 @@ const BENCHMARK_DATA = {
       "score": 28.5
     },
     {
-      "name": "PARIS SCHOOL OF BUSINESS",
+      "name": "PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)",
       "verdicts": {
         "1": "PARTIEL",
         "2": "PARTIEL",
@@ -2022,7 +2022,7 @@ const BENCHMARK_DATA = {
       "score": 16.0
     },
     {
-      "name": "ESCE BUSINESS SCHOOL",
+      "name": "ESCE BUSINESS SCHOOL\n(Groupe OMNES Education)",
       "verdicts": {
         "1": "PARTIEL",
         "2": "PARTIEL",
@@ -2064,7 +2064,7 @@ const BENCHMARK_DATA = {
       "score": 9.0
     },
     {
-      "name": "EDC PARIS",
+      "name": "EDC PARIS\n(Groupe Planeta)",
       "verdicts": {
         "1": "NON",
         "2": "NON",
@@ -2192,7 +2192,7 @@ const BENCHMARK_DATA = {
   ],
   "justifications": [
     {
-      "name": "★ IGENSIA EDUCATION\n(cible — auto-éval.)",
+      "name": "★ IGENSIA EDUCATION\n(Groupe — auto-éval.)",
       "justifs": {
         "1": "OUI — Poste de Directrice Développement Durable (Heide Mathieu) rattaché à la gouvernance du Groupe, avec appui du Directeur des services et de la transformation (Laurent Legeai) au niveau COMEX.\n\n• La Directrice DD est nommement identifiée dans le rapport RSE et sur le site institutionnel\n• La RSE est portée au COMEX par Laurent Legeai et validée par le Conseil d’Administration\n• La gouvernance RSE implique 3 niveaux : CA/COMEX, Comité Stratégique, Comité de Pilotage\nSource : Rapport RSE 2024-2025, p. 5, 12-13\n\nApprenants :\n• La Directrice DD est garante de l’intégration RSE dans tous les programmes de formation\nSource : Rapport RSE 2024-2025, p. 5\n\nCollaborateurs :\n• Le COMEX valide les orientations RSE qui impactent la politique RH, les conditions de travail et la stratégie du Groupe\nSource : Rapport RSE 2024-2025, p. 12",
         "2": "OUI — Gouvernance RSE à trois niveaux formalisée et active.\n• Conseil d’Administration & COMEX : définit et valide la vision et les orientations\n• Comité Stratégique : 8 à 10 membres, valide et challenge les orientations\n• Comité de Pilotage Opérationnel RSE : 17 pilotes issus de différentes directions\n• Premier comité stratégique et premier comité de pilotage tenus en septembre 2025\nSource : Rapport RSE 2024-2025, p. 13\n\nApprenants :\n• Le comité de pilotage intègre des pilotes des directions pédagogiques\nSource : Rapport RSE 2024-2025, p. 13\n\nCollaborateurs :\n• 17 pilotes issus de toutes les directions, caractère transversal du plan\nSource : Rapport RSE 2024-2025, p. 13",
@@ -3326,7 +3326,7 @@ const BENCHMARK_DATA = {
       "sources": "Bilan carbone EM Normandie 2021-2022\nRapport Fondation EM Normandie 2023\nhttps://www.em-normandie.com/grande-ecole-de-management/la-strategie/school-for-good\nhttps://www.em-normandie.com/grande-ecole-de-management/equilibre-et-inclusion/linclusion-lem-normandie\nhttps://www.em-normandie.com/grande-ecole-de-management/equilibre-et-inclusion/accompagnement-psycho-social\nhttps://www.em-normandie.com/le-corps-professoral/la-recherche-lem-normandie/les-chaires-de-recherche/chaire-excellence-europeenne-economie-circulaire"
     },
     {
-      "name": "PARIS SCHOOL OF BUSINESS",
+      "name": "PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)",
       "justifs": {
         "1": "PARTIEL — Département RSE créé 2018 piloté par Carole Simonnet (professeure finance), pas un poste COMEX/DG dédié. Politique RSE à 4 niveaux intégrée au modèle pédagogique.\n\n• Département RSE créé en 2018, piloté par Carole Simonnet (professeure de finance)\n• Politique RSE à 4 niveaux : connaissances, MOOCs/projets, conférences, Label STAR\n• Carole Simonnet = enseignante-chercheure, pas un poste de direction COMEX\nSource : Rapport RSE PSB 2022-23, p. 6\n\nApprenants : département RSE dédié pilotant les 4 niveaux.\nCollaborateurs : RSE portée par une professeure, pas par un membre du COMEX.",
         "2": "PARTIEL — Département RSE actif mais pas de comité RSE formalisé avec composition et fréquence documentés.\n\n• Département RSE coordonne les actions\n• Pas de comité RSE formel identifié\nSource : Rapport RSE 2022-23, p. 6\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
@@ -3788,7 +3788,7 @@ const BENCHMARK_DATA = {
       "sources": "Rapport PRME IPAG Business School 2024 (68 pages)\nhttps://www.ipag.edu/ipag-et-la-rse-engagement-et-certification-eespig\nhttps://www.ipag.edu/ipag-et-la-rse-engagement-et-certification-eespig\nhttps://www.ipag.edu/accreditations-et-labels-0\nhttps://www.ipag.edu/chaires\nhttps://www.ipag.edu/les-associations-etudiantes\nhttps://www.ipag.edu/inclusion-et-handicap\nhttps://www.ipag.edu/sante-et-bien-etre"
     },
     {
-      "name": "ESCE BUSINESS SCHOOL",
+      "name": "ESCE BUSINESS SCHOOL\n(Groupe OMNES Education)",
       "justifs": {
         "1": "PARTIEL -- Frederique Boitel est Referente RSE Diversite & Inclusion a l'ESCE, mais elle n'est pas identifiee comme membre du COMEX ou du comite de direction.\n\n* Frederique Boitel : Referente RSE Diversite & Inclusion\n* Fonction de referente identifiee, sans rattachement COMEX documente\n* L'ESCE fait partie du groupe OMNES Education qui dispose d'une direction RSE groupe, mais le perimetre evalue est celui de l'ESCE propre\nSource : esce.fr/handicap ; guide etudiant besoins specifiques ESCE\n\nApprenants : interlocutrice RSE identifiee.\nCollaborateurs : referente RSE sans mandat COMEX documente.",
         "2": "PARTIEL -- Commission Diversite & Inclusion existante a l'ESCE, mais composition et frequence de reunion non documentees publiquement.\n\n* Commission Diversite & Inclusion mentionnee dans le guide etudiant besoins specifiques\n* Pas de composition detaillee ni de frequence de reunion publiees\n* OMNES Education dispose d'un programme TIME TO ACT au niveau groupe\nSource : guide etudiant besoins specifiques ESCE p.4\n\nApprenants : commission existante traitant de diversite et inclusion.\nCollaborateurs : comite existant mais peu documente.",
@@ -3830,7 +3830,7 @@ const BENCHMARK_DATA = {
       "sources": "Guide de l'etudiant.e a besoins specifiques ESCE (19 pages)\nhttps://www.esce.fr/\nhttps://www.esce.fr/etudiants-besoins-specifiques/\nhttps://www.esce.fr/diplomes-accreditations/\nhttps://www.esce.fr/programmes/\nhttps://www.esce.fr/responsabilite-sociale-environnementale/\nhttps://www.esce.fr/enseignants-et-recherche/\nOMNES Education - TIME TO ACT initiative RSE\nQS World University Rankings 2025"
     },
     {
-      "name": "EDC PARIS",
+      "name": "EDC PARIS\n(Groupe Planeta)",
       "justifs": {
         "1": "NON — Le rapport SIP 2024 indique explicitement « No Entity Yet » pour la structure organisationnelle dédiée au management responsable.\n\n• SIP 2024 : « Organizational Structure for RME: No Entity Yet »\n• Accountability : « Informal Faculty/Staff Stewardship » uniquement\n• Aucun poste RSE dédié au COMEX\nSource : SIP EDC Paris 2024 p.7\n\nApprenants : pas d'interlocuteur RSE dédié.\nCollaborateurs : pas de structure RSE.",
         "2": "NON — Aucun comité RSE opérationnel identifié.\n\n• SIP 2024 : aucune mention de comité RSE\nSource : SIP EDC Paris 2024\n\nApprenants : non documenté.\nCollaborateurs : non documenté.",
