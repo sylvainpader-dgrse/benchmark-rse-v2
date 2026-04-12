@@ -4814,6 +4814,416 @@ const BENCHMARK_DATA = {
         }
       },
       "comment": "Rapport TSE de 44 pages. BEGES scopes 1-3 (17 000 tCO2e). Label DD&RS 4 ans (2024). NEOMACT Academy obligatoire 100%. Index egalite 88/100. Budget bourses 2 431K euros (+56%).\n\nNEOMA a un volume d'emissions comparable (17 000 vs 25 498 tCO2e) pour un effectif plus petit. Budget bourses publie. Mais rapport peu lisible et pas de scope 3 detaille dans ce document. IGENSIA est plus transparent sur le BC."
+    },
+    {
+      "name": "ÉCOLE POLYTECHNIQUE",
+      "data": {
+        "0": "ÉCOLE POLYTECHNIQUE",
+        "1": "Établissement public",
+        "2": "",
+        "3": "2022-2025",
+        "4": "Bilan du Plan Climat 2022-2025",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
+    },
+    {
+      "name": "ESSCA BUSINESS SCHOOL",
+      "data": {
+        "0": "ESSCA BUSINESS SCHOOL",
+        "1": "Association loi 1901 (EESPIG)",
+        "2": "",
+        "3": "2024-2025",
+        "4": "Rapport d'activité ESSCA 2024-2025",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
+    },
+    {
+      "name": "CLERMONT SCHOOL OF BUSINESS",
+      "data": {
+        "0": "CLERMONT SCHOOL OF BUSINESS",
+        "1": "Association loi 1901 (EESPIG)",
+        "2": "",
+        "3": "2025",
+        "4": "Rapport d'activité Clermont BS 2025",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
+    },
+    {
+      "name": "BURGUNDY SCHOOL OF BUSINESS",
+      "data": {
+        "0": "BURGUNDY SCHOOL OF BUSINESS",
+        "1": "Association loi 1901 (EESPIG)",
+        "2": "",
+        "3": "2024",
+        "4": "5e Rapport RSE BSB 2024",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
+    },
+    {
+      "name": "EFREI",
+      "data": {
+        "0": "EFREI",
+        "1": "Association loi 1901 (EESPIG)",
+        "2": "",
+        "3": "2026",
+        "4": "Rapport de progrès DD&RS Efrei 2026",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
+    },
+    {
+      "name": "PARIS-DAUPHINE - PSL",
+      "data": {
+        "0": "PARIS-DAUPHINE - PSL",
+        "1": "Établissement public (Grand Établissement)",
+        "2": "",
+        "3": "2025",
+        "4": "Rapport d'activité Dauphine-PSL 2025",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
+    },
+    {
+      "name": "IMT BUSINESS SCHOOL",
+      "data": {
+        "0": "IMT BUSINESS SCHOOL",
+        "1": "Établissement public (IMT)",
+        "2": "",
+        "3": "2023",
+        "4": "Rapport ODD Global IMT-BS 2023",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
+    },
+    {
+      "name": "MONTPELLIER BUSINESS SCHOOL",
+      "data": {
+        "0": "MONTPELLIER BUSINESS SCHOOL",
+        "1": "Association loi 1901 (EESPIG)",
+        "2": "",
+        "3": "2024",
+        "4": "Bilan Carbone MBS",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
+    },
+    {
+      "name": "EM STRASBOURG BUSINESS SCHOOL",
+      "data": {
+        "0": "EM STRASBOURG BUSINESS SCHOOL",
+        "1": "Composante Université de Strasbourg",
+        "2": "",
+        "3": "2023",
+        "4": "Rapport RSO EM Strasbourg 2023",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
+    },
+    {
+      "name": "PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)",
+      "data": {
+        "0": "PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)",
+        "1": "SAS (Galileo Global Education)",
+        "2": "",
+        "3": "2023-2024",
+        "4": "Rapport RSE PSB 2023-2024",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      },
+      "notes": {
+        "blanche": {
+          "forme": "",
+          "fond": ""
+        },
+        "sylvain": {
+          "forme": "",
+          "fond": ""
+        }
+      },
+      "comment": ""
     }
   ],
   "analytics2050": {
