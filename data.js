@@ -4157,7 +4157,7 @@ const BENCHMARK_DATA = {
           "fond": 4.5
         }
       },
-      "comment": "Le rapport le plus abouti du benchmark, 44 pages. Les KPIs sont précis et tracés dans le temps (budget RSE 310k€, évolution depuis 2020), le bilan carbone couvre les trois scopes, et les objectifs non atteints sont clairement mentionnés — ce qui est suffisamment rare pour être souligné. La distinction apprenants/collaborateurs est explicite tout au long du document. Par rapport à IGENSIA, c'est la référence à viser pour le prochain rapport : même structure de groupe, mais avec plusieurs années d'avance sur le reporting."
+      "comment": "Le rapport le plus abouti du benchmark, 44 pages. Les KPIs sont précis et tracés dans le temps (budget RSE 310k€, évolution depuis 2020), le bilan carbone couvre les trois scopes, et les objectifs non atteints sont clairement mentionnés — ce qui est suffisamment rare pour être souligné. La distinction apprenants/collaborateurs est explicite tout au long du document. Par rapport à IGENSIA, c'est la référence à viser pour le prochain rapport : périmètre multi-écoles comparable, mais avec plusieurs années d'avance sur le reporting."
     },
     {
       "name": "GALILEO GLOBAL EDUCATION",
