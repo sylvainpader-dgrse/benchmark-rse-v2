@@ -4775,47 +4775,6 @@ const BENCHMARK_DATA = {
       "comment": "Rapport TSE de 44 pages. BEGES scopes 1-3 (17 000 tCO2e). Label DD&RS 4 ans (2024). NEOMACT Academy obligatoire 100%. Index egalite 88/100. Budget bourses 2 431K euros (+56%).\n\nNEOMA a un volume d'emissions comparable (17 000 vs 25 498 tCO2e) pour un effectif plus petit. Budget bourses publie. Mais rapport peu lisible et pas de scope 3 detaille dans ce document. IGENSIA est plus transparent sur le BC."
     },
     {
-      "name": "CLERMONT SCHOOL OF BUSINESS",
-      "data": {
-        "0": "CLERMONT SCHOOL OF BUSINESS",
-        "1": "Association loi 1901 (EESPIG)\nAnciennement ESC Clermont BS\nCCI Puy-de-Dome",
-        "2": "175 salaries permanents\n55 enseignants-chercheurs permanents\n450 professeurs affilies\n800 etudiants internationaux (41% effectif)\n924 etudiants en alternance\n18 000 membres reseau alumni (112 pays)\n95 creations entreprises SquareLab (87% survie a 3 ans)\n153 stagiaires E2C Puy-de-Dome\nFondation : 190 000 euros collectes, 94 bourses (110 100 euros)",
-        "3": "2024-2025\n(rapport publie novembre 2025)",
-        "4": "Rapport d'activite Clermont School of Business 2024-2025",
-        "5": "https://www.clermont-sb.fr/rapport-dactivite-2024-2025/",
-        "6": "46p",
-        "7": "Francais",
-        "8": "Rapport d'activite general (pas un rapport RSE dedie) avec volet RSE integre.\nFormat flipbook interactif puis PDF.\nIdentite visuelle nouvelle (changement de nom ESC Clermont BS -> Clermont School of Business).\nMise en page professionnelle, photos campus Trudaine XL.\nStructure thematique : Formation, Vie etudiante, Innovation pedagogique, Qualite, International, Entreprises, Recherche, RSE/DD&RS, Fondation, E2C.",
-        "9": "Photos campus Trudaine XL, Logos accreditations (AACSB, AMBA, EFMD), Photos vie etudiante et associations, Chiffres cles par section, Portraits collaborateurs",
-        "10": "Rapport d'activite global couvrant toutes les dimensions de l'ecole.\nVolet RSE/DD&RS integre (pas autonome) : Label DD&RS, campus BREEAM Very Good, programme Engage, E2C, Fondation.\nPerimetre : annee academique 2024-2025.",
-        "11": "p.1 - Edito DG (nouveau chapitre Campus Trudaine XL)\np.5 - Chiffres cles 2024-2025\np.9 - Formation initiale : refonte maquettes PGE (integration sciences humaines et RSE)\np.12 - Vie associative : programme Engage (credits ECTS, formations responsables associations)\np.14 - Formation continue : 1 000 professionnels formes, egalite professionnelle\np.16 - Innovation pedagogique : 300 licences ChatGPT Edu, partenariat OpenAI\np.18 - Qualite et accreditations : AACSB, AMBA, eligible EQUIS (audit 2028)\np.22 - Entreprises et carrieres : 953 alternants, 650+ entreprises, CareerLab\np.24 - SquareLab incubateur : 21 projets, 107 500 euros financements, 87% survie 3 ans\np.26 - Alumni : 18 000 membres, 56 evenements, soiree EXPLORE\np.28 - Fondation : 190 000 euros dons, 94 bourses, partenariat Mecenat Partners\np.30 - E2C Puy-de-Dome : 153 jeunes accueillis, insertion, partenariat Volvic/GEIQ\np.34 - International : 539 nouveaux etudiants internationaux, 255 partenaires, Summer School BLCU\np.37 - RSE et DD&RS (section dediee)",
-        "12": "APPRENANTS :\nProgramme Engage : valorisation engagement etudiant, jusqu'a 3 ECTS, formations obligatoires responsables associations\nStudent Advisory Board (SAB) : dialogue permanent etudiants-direction\nMaster Strategy & Sustainable Organizational Transformation\nRefonte PGE : integration accrue sciences humaines et RSE (3e evolution majeure)\nCampus Trudaine XL : extension 4 000 m2, certification BREEAM Very Good\nE2C Puy-de-Dome : 153 jeunes accueillis, partenariat Volvic (6 jeunes integres dont 4 en alternance)\n800 etudiants internationaux (41% effectif)\n94 bourses Fondation (110 100 euros)\n5 Labs : InfoLab, GraphLab, LearningLab, CareerLab, SquareLab\n\nCOLLABORATEURS :\nFormation continue : 1 000 professionnels formes, taux satisfaction 3,8/4\nEgalite professionnelle : actions formation et lutte contre discriminations\nSeminaire pedagogique enseignants-chercheurs (reflexivite, innovation)\n1 059 heures de formation collaborateurs (IA, pedagogie)\n300 licences ChatGPT Edu deployees (pedagogie + fonctions support)\nPartenariat OpenAI pour integration IA generative",
-        "13": "Label DD&RS (obtenu 2026)\nAACSB + AMBA\nEFMD\nCGE\nBienvenue en France\nEligible EQUIS (audit prevu 2028)\nCertification BREEAM Very Good (Campus Trudaine XL)",
-        "14": "Referentiel DD&RS (label obtenu 2026)\nODD (alignement mentionne)",
-        "15": "Index egalite Homme-Femme publie\nProgramme Engage : formations obligatoires associations (prevention risques, evenements respectueux)\nE2C Puy-de-Dome : 153 jeunes, inclusion sociale, partenariat Volvic/GEIQ\nFondation : 94 bourses, egalite des chances\nCourse de la Diversite avec Club des 1 000 Entreprises d'Auvergne",
-        "16": "Non detaille dans le rapport d'activite.\nLabel DD&RS obtenu en 2026 implique un bilan carbone realise.",
-        "17": "Volet RSE du rapport d'activite :\nLabel DD&RS obtenu 2026\nCampus Trudaine XL certifie BREEAM Very Good (extension 4 000 m2)\nProgramme Engage : credits ECTS engagement citoyen\nRefonte PGE : integration RSE comme 3e evolution majeure\nMaster Strategy & Sustainable Organizational Transformation\nE2C Puy-de-Dome : insertion jeunes quartiers prioritaires\nFondation : bourses egalite des chances\nSquareLab : orientation impact social et environnemental des projets incubes",
-        "18": "Label DD&RS obtenu 2026\nCampus Trudaine XL certifie BREEAM Very Good\n175 salaries, 55 EC permanents\n924 alternants\n800 etudiants internationaux (41%)\n153 jeunes E2C accueillis\n94 bourses Fondation (110 100 euros)\n190 000 euros dons collectes\n95 entreprises creees SquareLab (87% survie 3 ans)\n21 projets accompagnes 2024-25 (107 500 euros financements)\n18 000 alumni dans 112 pays\n1 000 professionnels formes en FC\nTaux satisfaction FC : 3,8/4\n539 nouveaux etudiants internationaux\n300 licences ChatGPT Edu",
-        "19": "2",
-        "20": "Direction TSE (Transition Socio-Ecologique) creee avril 2023 (Robin Jund)\nStudent Advisory Board (SAB)\nInternational Advisory Board (IAB)\nFondation Clermont SB (Robin Jund, directeur)",
-        "21": "NON publie",
-        "22": "OUI\nRefonte PGE : integration accrue RSE comme 3e evolution majeure\nMaster Strategy & Sustainable Organizational Transformation\nProgramme Engage : engagement citoyen credite ECTS",
-        "23": "Non detaille dans le rapport d'activite",
-        "24": "Rapport d'activite general 46 pages (pas un rapport RSE dedie). Section RSE/DD&RS integree mais moins detaillee que les rapports RSE autonomes. Points forts : Campus Trudaine XL certifie BREEAM Very Good, label DD&RS obtenu 2026, programme Engage (ECTS engagement), refonte PGE avec RSE comme axe majeur, E2C 153 jeunes, Fondation 94 bourses. Le rapport couvre largement la vie de l'ecole (formation, international, innovation, carrieres) avec la RSE comme fil conducteur plutot que sujet principal."
-      },
-      "notes": {
-        "blanche": {
-          "forme": "",
-          "fond": ""
-        },
-        "sylvain": {
-          "forme": "",
-          "fond": ""
-        }
-      },
-      "comment": ""
-    },
-    {
       "name": "BURGUNDY SCHOOL OF BUSINESS",
       "data": {
         "0": "BURGUNDY SCHOOL OF BUSINESS",
