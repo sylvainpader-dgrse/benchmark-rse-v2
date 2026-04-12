@@ -4741,7 +4741,7 @@ const BENCHMARK_DATA = {
         "2": "7 500 étudiants dont 25 % d'internationaux (2 111 étudiants internationaux en 2024-2025, soit 25 % selon le rapport — correction de la fiche initiale qui indiquait 33,5 %). 2 campus : Lille et Paris-La Défense. 342 universités partenaires dans 74 pays. 16,8 ETP dédiés à l'impact social et environnemental. 8 associations étudiantes dédiées RSE (110 étudiants, 12 % des engagés associatifs). Index égalité F/H : 95/100. 36 % des diplômés occupent un emploi lié à la RSE. 116 M€ de produits d'exploitation 2024-2025.",
         "3": "2024-2025",
         "4": "Rapport d'Impact Social et Environnemental 2024-2025",
-        "5": "RapportImpact-IESEG-2024-25-FR.pdf",
+        "5": "https://www.ieseg.fr/pdf/RapportImpact-IESEG-2024-25-FR.pdf",
         "6": "47p",
         "7": "Français",
         "8": "Rapport d'impact structuré autour de 4 piliers RSE.\n• Identité visuelle IÉSEG (bleu marine et jaune vif)\n• Mise en page très structurée avec navigation horizontale permanente (menu en haut de chaque page), tableaux KPI détaillés par pilier, infographies, photos campus (Lille, Paris-La Défense), verbatims parties prenantes et diplômés, pictogrammes\n• Format annuel bilingue (version FR consultée, version EN disponible)",
