@@ -4113,10 +4113,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 3.5,
-          "fond": 4.0
+          "fond": 3.5
         }
       },
-      "comment": "Premier rapport RSE du groupe, 48 pages, exercice 2024-2025. Strategie RSE 360° structuree en 5 axes et 30 engagements operationnels (plan 2025-2028), validee par le COMEX et un jury d'experts LUCIE. Gouvernance a 3 niveaux (CA/COMEX, Comite Strategique 8-10 membres, Comite de Pilotage Operationnel 17 pilotes). Label LUCIE 26000 obtenu en juin 2025 (base ISO 26000). Bilan Carbone scopes 1+2+3 realise avec SAMI (methode ADEME) : 25 498 tCO2e sur Paris, Lyon, Toulouse. Objectif -40% GES d'ici 2030. 30h/an de socle DD obligatoire des la 1re annee + seminaire HOPEN (2 300 apprenants). Campus des Groues eco-construit (75% materiaux biosources, label Batiment Biosource). Charte achats responsables (100% appels d'offres). Structure claire \"C'est realise / C'est lance / C'est prevu\" qui donne de la credibilite (pas de greenwashing)."
+      "comment": "1er rapport RSE du groupe (48p). KPIs solides (BC 25 498 tCO2e detaille, 30h/an DD, 594 handicap, 2 300 HOPEN). Codification claire Realise/Lance/Prevu = transparente. 5 axes couverts. Distinction apprenants/collaborateurs bien structuree (sections dediees). Points faibles : index egalite F/H en baisse (84->75), VSS prevu mais pas deploye. Par rapport a IGENSIA : c'est le rapport cible, bon premier exercice."
     },
     {
       "name": "OMNES EDUCATION",
@@ -4157,7 +4157,7 @@ const BENCHMARK_DATA = {
           "fond": 4.5
         }
       },
-      "comment": "Rapport le plus complet du benchmark. Seul a cocher tous les criteres de fond : scope 3 detaille (17 720 tCO2e, 506 kg/etudiant), CSRD, double materialite, KPIs sur 5 ans, budget RSE publie (310 000 euros/an avec evolution depuis 2020). 9 comites RSE actifs. Strategie \"Time to Act\" structuree en 4 piliers.\n\nOmnes publie son budget RSE et fait du suivi pluriannuel — deux elements qu'IGENSIA n'a pas encore. La double materialite et la reference CSRD sont en avance. En revanche, la densite du texte rend le rapport moins engageant qu'IGENSIA."
+      "comment": "Rapport le plus complet du benchmark (44p). KPIs tres detailles (budget RSE 310k, BC scopes 1-2-3, 30h DD obligatoire). 5 axes couverts exhaustivement. Distinction apprenants/collaborateurs explicite. Transparent sur les limites (objectifs non atteints mentionnes). Par rapport a IGENSIA : reference en matiere de reporting RSE groupe, IGENSIA peut s'en inspirer pour son 2e rapport."
     },
     {
       "name": "GALILEO GLOBAL EDUCATION",
@@ -4198,7 +4198,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "Rapport d'impact de 122 pages, ambitieux en volume. 4 priorites d'impact, reference CSRD et materialite. Couverture de 300 000+ apprenants dans 19 pays. Mais bilan carbone non detaille par scope, pas de KPIs consolides groupe, pas de temoignages.\n\nGalileo a une echelle internationale qu'IGENSIA n'a pas, mais son rapport manque de precision operationnelle. IGENSIA est plus concret avec des chiffres detailles (25 498 tCO2e, objectif -40%) sur un perimetre maitrise."
+      "comment": "Rapport volumineux (122p) mais dilue. KPIs presents mais eparpilles. BC partiel (campus uniquement). Double materialite = bon signal. Melange realise/prevu pas toujours clair. Couverture 5 axes inegale (fort sur social, faible sur environnement). Pas de distinction claire apprenants/collaborateurs. Par rapport a IGENSIA : volume impressionnant mais IGENSIA fait mieux en 48p sur la clarte."
     },
     {
       "name": "AD EDUCATION",
@@ -4236,10 +4236,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 2.0,
-          "fond": 3.0
+          "fond": 2.5
         }
       },
-      "comment": "Rapport ESG de 34 pages, aeree mais basique. Bilan carbone scopes 1+2 (2 000 tCO2e), objectif neutralite carbone 2030. 70% des ecoles avec enseignements environnementaux. Pas de scope 3 detaille, pas d'ODD.\n\nAD Education est derriere IGENSIA sur tous les criteres de fond. Pas de label RSE equivalent, pas de scope 3, pas de socle DD structure. IGENSIA a une longueur d'avance claire."
+      "comment": "Rapport ESG court (34p). KPIs limites (BC hors France seulement, 2 000 tCO2e). Beaucoup de declaratif. Certification SQC Neutre Carbone contestable (scopes 1+2 uniquement). Couverture partielle des 5 axes (faible sur gouvernance et recherche). Pas de distinction apprenants/collaborateurs. Par rapport a IGENSIA : IGENSIA est plus rigoureux sur le BC et plus transparent."
     },
     {
       "name": "ESSEC BUSINESS SCHOOL",
@@ -4277,10 +4277,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 4.0,
-          "fond": 3.5
+          "fond": 4.0
         }
       },
-      "comment": "Rapport DD&RS de 22 pages, bien structure. 37 personnes dediees DD&RS, 130h cours obligatoires transition, bilan carbone annualise depuis 2018. Strategie \"Together\" integree a \"Transcend 2024-2028\". 60 profs Guilde Sustainability.\n\nESSEC a plus de moyens humains (37 ETP vs 1 directrice DD chez IGENSIA) et un historique plus long (BC depuis 2018). Mais le rapport est dense et court. IGENSIA compense par son label LUCIE et sa gouvernance a 3 niveaux."
+      "comment": "Rapport DD&RS dense (22p). KPIs solides (37 ETP, 130h cours transition, BC complet). Schema Directeur DD&RS 2024 bien structure. 5 axes couverts. Distinction apprenants/collaborateurs presente. Manque un peu d'autocritique. Par rapport a IGENSIA : ESSEC est plus mature sur le BC et les heures DD (130h vs 30h), modele a suivre."
     },
     {
       "name": "EMLYON BUSINESS SCHOOL",
@@ -4321,7 +4321,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "Rapport d'engagement de 38 pages, Societe a Mission depuis 2021. -30% emissions depuis 2022. 100% cours analyses referentiel SDGs Inside. Plan Resonances 2024-2028. Comite de Mission avec 5 externes.\n\nemlyon a le statut Societe a Mission qu'IGENSIA n'a pas, et un historique de reduction GES documente. Mais le rapport manque de visuels et de chiffres precis sur le scope 3. IGENSIA est plus transparent sur son BC (25 498 tCO2e detaille)."
+      "comment": "Rapport engagement Societe a Mission (38p). KPIs corrects (BC -30%, SDGs Inside 100%). Mais ton tres promotionnel, peu d'autocritique. Couverture 5 axes OK mais angles morts sur politique sociale collaborateurs. Distinction apprenants/collaborateurs faible. Par rapport a IGENSIA : emlyon a l'avantage du statut Societe a Mission, IGENSIA est plus transparent sur les limites."
     },
     {
       "name": "EDHEC BUSINESS SCHOOL",
@@ -4362,7 +4362,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "Rapport DDRS de 36 pages, dense. Scope 3 detaille, materialite presente, 100% etudiants sensibilises. 20M euros EDHEC-Risk Climate Impact Institute. Plan \"Impact Future Generations 2025\".\n\nEDHEC est en avance sur la finance climatique (20M euros institut dedie) et la materialite. Mais le rapport est dense et peu lisible. IGENSIA est plus accessible en forme et a un plan d'engagement plus operationnel (30 engagements concrets)."
+      "comment": "Rapport DDRS structure (36p). KPIs presents (100% sensibilises, BC complet, matrice materialite Capgemini). 5 axes couverts mais environnement moins detaille. Distinction apprenants/collaborateurs presente. Transparence correcte. Par rapport a IGENSIA : EDHEC a une matrice de materialite qu'IGENSIA n'a pas encore, bon benchmark."
     },
     {
       "name": "INSEAD",
@@ -4403,7 +4403,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "Sustainability Report de 67 pages en anglais. BC scopes 1+2+3 tres detaille (17 559 tCO2e), mesure par TRAACE. Reference CSRD. Hoffmann Institute finance par dotation. Durabilite integree dans les 14 cours core MBA.\n\nINSEAD est plus avance sur le BC (prestataire SaaS, donnees tres precises) et l'integration dans le MBA. Mais rapport tres dense, peu de temoignages, pas d'ODD. IGENSIA est plus equilibre en forme et plus accessible."
+      "comment": "Sustainability Report academique (67p). Fort sur la recherche (35 cas + 56 articles). BC complet scopes 1-2-3 avec detail par campus. Mais peu d'actions concretes campus, ton institutionnel. Couverture 5 axes desequilibree (fort recherche, faible social). Distinction apprenants/collaborateurs limitee. Par rapport a IGENSIA : INSEAD excelle en recherche, IGENSIA en actions concretes campus."
     },
     {
       "name": "HEC PARIS",
@@ -4444,7 +4444,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "Sustainability Report de 52 pages en anglais/francais. Label DD&RS (2024), Global Compact. BC scopes 1+2+3, objectif -40% energie 2030. S&O Institute. 20% de la recherche sur la durabilite.\n\nHEC a le prestige et les moyens (230M euros nouveau campus). Mais le rapport manque de KPIs structures et de temoignages. IGENSIA est plus concret sur les engagements operationnels et le plan d'action."
+      "comment": "Sustainability Report solide (52p). BC complet audite. 20% recherche sustainability. Bon sur gouvernance et formation. Mais format tres institutionnel, peu de donnees operationnelles. Couverture 5 axes correcte. Par rapport a IGENSIA : HEC a un BC audite et plus d'heures DD, IGENSIA est plus concret sur les actions terrain."
     },
     {
       "name": "EXCELIA BUSINESS SCHOOL",
@@ -4485,7 +4485,7 @@ const BENCHMARK_DATA = {
           "fond": 4.0
         }
       },
-      "comment": "Rapport TES de 44 pages, bien aeree. Label DD&RS 2024, BC scopes 1+2+3, materialite. 13 903h dediees RSE/DD (25% des heures). Pionniere Societe a Mission (2020). 5 axes structurants.\n\nExcelia est comparable a IGENSIA en equilibre forme/fond. Pionniere sur la Societe a Mission. Plus d'heures DD (13 903h vs 30h/etudiant). Mais pas de label ISO 26000 equivalent a LUCIE."
+      "comment": "Rapport Transition Ecologique et Societale (44p). Pionniere (IRSI depuis 2010). KPIs nombreux (28 projets transversaux, 13 903h DD, BC complet). 5 axes bien couverts. Distinction apprenants/collaborateurs claire. Transparence bonne (objectifs non atteints mentionnes). Par rapport a IGENSIA : Excelia est une reference historique en RSE ecoles de commerce, modele sur les KPIs."
     },
     {
       "name": "AUDENCIA BUSINESS SCHOOL",
@@ -4523,10 +4523,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 4.0,
-          "fond": 3.0
+          "fond": 3.5
         }
       },
-      "comment": "Rapport DD&RS de 28 pages, aeree et lisible. 1ere BS a obtenir DD&RS (2016) et label LUCIE. Strategie bas-carbone ACT'Sup. Gaia integre dans tous les programmes. Materialite, CSRD.\n\nAudencia a aussi LUCIE + DD&RS, avec un historique plus long (2016). Mais le rapport manque de KPIs chiffres et de scope 3. IGENSIA est plus detaille sur le bilan carbone."
+      "comment": "Rapport DD&RS compact (16p). Tres bon tableau indicateurs comparatifs 2024/2025 (p.15). KPIs clairs (83% cours transition, 51 ETP DD&RS, 4e BC). Structure Realisations/Projections efficace. Mais format court = moins de profondeur. Par rapport a IGENSIA : le tableau comparatif annuel d'Audencia est un modele qu'IGENSIA devrait adopter."
     },
     {
       "name": "KEDGE BUSINESS SCHOOL",
@@ -4564,10 +4564,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 2.0,
-          "fond": 3.5
+          "fond": 3.0
         }
       },
-      "comment": "Rapport de 16 pages (2020-21), format vieillissant. BC tous les 3 ans (10 KT), scope 3 significatif. 150K euros budget RSE. Label DD&RS (2019). 45% projets incubes DD&RS.\n\nRapport ancien (2020-21) vs rapport 2024-25 chez IGENSIA. Fond correct mais forme obsolete. IGENSIA est plus actuel et plus detaille. KEDGE a un budget RSE publie (150K) qu'IGENSIA n'a pas."
+      "comment": "Rapport DD ancien (16p, 2020-2021). KPIs presents mais dates (150k budget, 70 volontaires). BC scope 3 mentionne mais peu detaille. Couverture 5 axes correcte mais superficielle vu le format court. Pas de distinction apprenants/collaborateurs explicite. Par rapport a IGENSIA : rapport trop ancien pour etre vraiment comparable, KEDGE devrait publier une version actualisee."
     },
     {
       "name": "SKEMA BUSINESS SCHOOL",
@@ -4608,7 +4608,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "Rapport Transitions de 24 pages, aeree. Plan 3D (Diversite, Decarbonation, Digital for Good). Label DD&RS renouvele 4 ans, ISO 14001. 1 300 participants Fresque du Climat. BC scopes 1+2+3.\n\nSKEMA a ISO 14001 (certification campus) qu'IGENSIA n'a pas. Plan 3D bien structure. Mais rapport court et moins detaille. IGENSIA a plus de profondeur sur les engagements (30 vs plan general)."
+      "comment": "Rapport Transitions (24p). KPIs corrects (1 300 Fresque, label DD&RS 4 ans, BC publie). Mais format compact = peu de profondeur. Melange realise/prevu pas toujours clair. Couverture 5 axes OK. Par rapport a IGENSIA : SKEMA a le label DD&RS et l'ISO 14001 qu'IGENSIA n'a pas, mais le rapport manque de detail."
     },
     {
       "name": "GRENOBLE EM",
@@ -4646,10 +4646,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": 2.0,
-          "fond": 3.0
+          "fond": 3.5
         }
       },
-      "comment": "Communication sur l'Engagement de 38 pages, dense. Societe a Mission (2021), DD&RS (2021). BC depuis 2013, processus ACT aligne Paris. 10 314 ktCO2e. 466 contributions intellectuelles RSE.\n\nGEM a un historique long (BC depuis 2013, ACT depuis 2020) et le statut Societe a Mission. Mais rapport tres dense et peu lisible. IGENSIA est plus accessible et a un plan d'action plus operationnel."
+      "comment": "Communication sur l'Engagement (38p). Societe a Mission depuis 2021 (1ere grande ecole FR). KPIs solides (BC 10 314 tCO2e, -14% vs 2019, SBTi). 5 axes couverts via le rapport Societe a Mission. Transparence correcte (Comite de Mission independant). Par rapport a IGENSIA : GEM a une trajectoire SBTi validee qu'IGENSIA devrait viser."
     },
     {
       "name": "TBS",
@@ -4690,7 +4690,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "Rapport Societe a Mission de 30 pages. 4 objectifs statutaires, 8 engagements. 61% des articles de recherche lies RSE-DD. BC 11 000 tCO2e. Label DD&RS (2017). 19,2% ECTS dediees DD&RS.\n\nTBS a le statut Societe a Mission et un taux eleve de recherche RSE (61%). Mais rapport peu lisible  et budget RSE non publie. IGENSIA est plus equilibre en forme et a un BC plus detaille."
+      "comment": "Rapport Societe a Mission (30p). KPIs recherche exceptionnels (61% publications RSE, 42 revues 3-4 etoiles). BC complet. 4 objectifs statutaires avec indicateurs. Mais couverture environnement campus faible. Par rapport a IGENSIA : TBS est une reference en recherche RSE (61% vs quasi 0% pour IGENSIA), axe a developper."
     },
     {
       "name": "IESEG SCHOOL OF MANAGEMENT",
@@ -4731,7 +4731,7 @@ const BENCHMARK_DATA = {
           "fond": 4.0
         }
       },
-      "comment": "Rapport d'Impact de 47 pages. BC 12 109 tCO2e, scope 3 detaille, CSRD, label DD&RS (2023, 4 ans). Objectif -31% d'ici 2030. 81% cours PGE integrent l'impact. Triple couronne + PRME + EESPIG.\n\nIESEG est comparable a IGENSIA en completude. Plus avance sur le CSRD et l'objectif GES chiffre (-31%). IGENSIA a LUCIE (plus exigeant que DD&RS) et un BC plus ancien."
+      "comment": "Rapport d'Impact (47p). KPIs tres detailles (81% cours PGE sustainability, 61 cours dedies, BC publie dans le rapport). 5 axes bien couverts (4 piliers structures). Distinction apprenants/collaborateurs presente. Transparence bonne. Par rapport a IGENSIA : IESEG integre 81% de ses cours au DD, IGENSIA est a 30h obligatoire = ecart significatif."
     },
     {
       "name": "NEOMA BUSINESS SCHOOL",
@@ -4772,7 +4772,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "Rapport TSE de 44 pages. BEGES scopes 1-3 (17 000 tCO2e). Label DD&RS 4 ans (2024). NEOMACT Academy obligatoire 100%. Index egalite 88/100. Budget bourses 2 431K euros (+56%).\n\nNEOMA a un volume d'emissions comparable (17 000 vs 25 498 tCO2e) pour un effectif plus petit. Budget bourses publie. Mais rapport peu lisible et pas de scope 3 detaille dans ce document. IGENSIA est plus transparent sur le BC."
+      "comment": "Rapport Engagement TSE (44p). KPIs presents (index F/H 88, 52% etudiantes, BC scopes 1-3). Mais ton promotionnel, peu d'autocritique. Couverture 5 axes OK mais recherche peu detaillee. Par rapport a IGENSIA : NEOMA a un index F/H superieur (88 vs 75), IGENSIA doit progresser sur cet indicateur."
     },
     {
       "name": "BURGUNDY SCHOOL OF BUSINESS",
@@ -4810,10 +4810,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": "",
-          "fond": ""
+          "fond": 3.0
         }
       },
-      "comment": ""
+      "comment": "5e Rapport RSE (24p). Bon historique (module Impact depuis 2005, pionniere). KPIs presents mais BC absent (prevu 2024-26). Couverture 5 axes correcte. Programme (Re)Connect refugies = original. Mais pas de chiffres carbone = lacune majeure. Par rapport a IGENSIA : BSB a 20 ans d'avance sur l'engagement citoyen mais IGENSIA a deja un BC, BSB non."
     },
     {
       "name": "EFREI",
@@ -4851,10 +4851,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": "",
-          "fond": ""
+          "fond": 3.5
         }
       },
-      "comment": ""
+      "comment": "Rapport de Progres DD&RS (23p). KPIs solides (323 handicap, 81.7% engages, 100% processus DD&RS). BC complet. Campus E+C- E3C1. 6 engagements bien structures. Distinction apprenants/collaborateurs claire. Charte associations DD obligatoire = innovant. Par rapport a IGENSIA : EFREI a un Mastere Green IT et une charte associations DD qu'IGENSIA pourrait adopter."
     },
     {
       "name": "EM STRASBOURG BUSINESS SCHOOL",
@@ -4892,10 +4892,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": "",
-          "fond": ""
+          "fond": 3.5
         }
       },
-      "comment": ""
+      "comment": "9e Rapport RSO (38p, depuis 2010). Budget RSO publie (92k euros) = rare et transparent. KPIs sur 4 annees comparatives = exemplaire. CforCSR obligatoire diplomation. Mais BC propre date de 2010. Couverture 5 axes bonne. Par rapport a IGENSIA : EM Strasbourg publie son budget RSO, IGENSIA devrait faire de meme. Le suivi sur 4 ans est un modele."
     },
     {
       "name": "PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)",
@@ -4933,10 +4933,10 @@ const BENCHMARK_DATA = {
         },
         "sylvain": {
           "forme": "",
-          "fond": ""
+          "fond": 2.5
         }
       },
-      "comment": ""
+      "comment": "Sustainable Development Progress Report (19p, en anglais). Sulitest massif (50%+ etudiants FR). Fresque 100% B3+M2. Mais BC absent, KPIs limites, tableau SDG generique. Couverture 5 axes desequilibree. RSE portee par une professeure, pas un poste COMEX. Par rapport a IGENSIA : PSB a le Sulitest qu'IGENSIA n'a pas, mais IGENSIA est plus structure sur la gouvernance RSE."
     }
   ],
   "analytics2050": {
