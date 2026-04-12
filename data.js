@@ -4939,47 +4939,6 @@ const BENCHMARK_DATA = {
       "comment": ""
     },
     {
-      "name": "PARIS-DAUPHINE - PSL",
-      "data": {
-        "0": "PARIS-DAUPHINE - PSL",
-        "1": "Établissement public (Grand Établissement)",
-        "2": "",
-        "3": "2025",
-        "4": "Rapport d'activité Dauphine-PSL 2025",
-        "5": "",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": "",
-        "11": "",
-        "12": "",
-        "13": "",
-        "14": "",
-        "15": "",
-        "16": "",
-        "17": "",
-        "18": "",
-        "19": "",
-        "20": "",
-        "21": "",
-        "22": "",
-        "23": "",
-        "24": ""
-      },
-      "notes": {
-        "blanche": {
-          "forme": "",
-          "fond": ""
-        },
-        "sylvain": {
-          "forme": "",
-          "fond": ""
-        }
-      },
-      "comment": ""
-    },
-    {
       "name": "EM STRASBOURG BUSINESS SCHOOL",
       "data": {
         "0": "EM STRASBOURG BUSINESS SCHOOL",
@@ -5024,30 +4983,30 @@ const BENCHMARK_DATA = {
       "name": "PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)",
       "data": {
         "0": "PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)",
-        "1": "SAS (Galileo Global Education)",
-        "2": "",
-        "3": "2023-2024",
-        "4": "Rapport RSE PSB 2023-2024",
-        "5": "",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": "",
-        "11": "",
-        "12": "",
-        "13": "",
-        "14": "",
-        "15": "",
-        "16": "",
-        "17": "",
-        "18": "",
-        "19": "",
-        "20": "",
-        "21": "",
-        "22": "",
-        "23": "",
-        "24": ""
+        "1": "SAS au capital de 13 267 469 euros\nGroupe Galileo Global Education\nMembre Conference des Grandes Ecoles\nMembre associe Hesam Universites",
+        "2": "~4 000 etudiants\n18 846+ alumni\n~200 collaborateurs dont ~100 chercheurs permanents\nCampus 10 000 m2 (Paris, a cote de Station F)\nTriple accredite : AACSB + AMBA + EFMD\n100+ nationalites\nProgrammes : PGE (Grade Master), Bachelor (Grade Licence), MSc, MBA",
+        "3": "2022-2023\n(rapport publie 2023)",
+        "4": "Sustainable Development Progress Report 2022-2023",
+        "5": "https://library.psbedu.paris/ajax.php?module=cms&categ=document&action=render&id=142",
+        "6": "19p",
+        "7": "Anglais",
+        "8": "Rapport RSE dedie en anglais.\nDesign moderne, identite PSB coherente (noir/blanc/couleurs vives).\nStructure : Mission, PRME, CSR Policy (4 niveaux), Teaching, Associations, Research, Partnerships, SDG mapping.\nTableau synthetique SDG actions + metriques (p.13-15).\nVerbatims etudiants (ambassadeur Impact Campus).\nFormat compact 19 pages.",
+        "9": "Photos campus (Paris Innovation Cluster, pres Station F), Logos PRME et accreditations, Tableau SDG x actions x metriques (3 pages), Photos associations (Gducoeur, Nosy Komba), Schema Label STAR 4 piliers",
+        "10": "Politique RSE a 4 niveaux :\n1. Connaissances transitions (MOOCs, Sulitest)\n2. Projets humanitaires (Solidarity Awards)\n3. Conferences International Futures\n4. Label STAR (Sustainability Track for Advanced Responsibility)\n\nMapping complet 17 ODD x actions x metriques",
+        "11": "p.1 - Couverture\np.2 - Editorial DG\np.3 - Presentation PSB (triple accredited, 10 000m2, Station F)\np.4-5 - Mission + Valeurs + PRME (signataire 2014)\np.6 - Politique RSE a 4 niveaux\np.7-8 - Sulitest (50%+ des etudiants FR prenant le test), cours dedies RSE dans tous les programmes\np.9 - Label STAR (lance 2023, 4 piliers : Academic, Professional, International, Associative)\np.10-11 - Climate Collage (100% Bachelor 3 + Master 2 depuis 3 ans), conferences, UDiscover, ambassadeur Impact Campus, European Weeks (SERD + SEDD)\np.12 - Reseaux : CGE (Plan Vert, Gender Equality, DD), Campus Responsables, associations (GduCoeur)\np.13-15 - Tableau SDG mapping complet (17 ODD x actions x metriques)\np.16-17 - Chaires de recherche : New Practices for Innovation, Living Health, Energy Economics & Ecological Transition\np.18-19 - Cloture",
+        "12": "APPRENANTS :\nSulitest obligatoire Bachelor 3 + Master 2 (~1 050 etudiants/an), PSB = 50%+ des etudiants FR prenant le Sulitest\nClimate Collage (Fresque du Climat) : 100% Bachelor 3 + Master 2 depuis 3 ans\nLabel STAR lance 2023 : systeme de points sur 4 piliers (Academic, Professional, International, Associative)\nCours dedies RSE : Business Ethics (MIB depuis 2010/11), Sustainability Impact Measurement (3A, 27h), CSR dans toutes les specialisations\nSolidarity Awards : projets humanitaires en partenariat (finaliste Campus Responsables)\nGduCoeur : projet Nosy Komba Madagascar (10 ans, mediatheque) + projet Guria Inde (lutte prostitution forcee, 35 etudiants a Varanasi, 22 000 euros)\nAmbassadeur Impact Campus (service civique etudiant)\nEuropean Weeks : SERD (dechets) + SEDD (DD)\nUDiscover : parcours extra-academique operationnel 5 ans\nBiodiversite : jardin potager campus, fleurs pour insectes, parrainage 2 ruches a Sancerre (Beopolis)\n\nCOLLABORATEURS :\nDepartement RSE dedie (Carole Simonnet, professeure finance)\nParticipation active groupes de travail CGE (Gender Equality, Diversite, DD)\nChaire Energy Economics & Ecological Transition (douzaine de chercheurs, 2 doctorants, 1 ingenieur)\nChaire Living Health + New Practices for Innovation\nProjet Erasmus+ BE YOU (entrepreneuriat durable jeunes, 2020-2023)\nProjet Erasmus+ Success4all (entrepreneuriat inclusif, 2016-2019)\nProjet Erasmus+ VIFRE (entrepreneuriat refugies, 2017-2020)",
+        "13": "PRME (signataire 2014)\nTriple accreditation : AACSB + AMBA + EFMD\nCGE\nLabel STAR (cree 2023, interne PSB)",
+        "14": "17 ODD de l'ONU (mapping complet)\nSulitest (TOEFL du DD)\nPlan Vert CGE\nPRME 6 principes",
+        "15": "Solidarity Awards (projets humanitaires etudiants)\nGduCoeur : Nosy Komba Madagascar (10 ans) + Guria Inde\nAmbassadeur Impact Campus (service civique)\nGenre : indicateurs feminisation etudiants, staff, professeurs, board (p.13)\nDiversite : CGE working group",
+        "16": "Non detaille dans ce rapport.\nPolitique de gestion environnementale mentionnee (energie, eau, air, dechets, biodiversite) mais pas de BC chiffre.",
+        "17": "Politique RSE 4 niveaux :\n1. Connaissances : MOOCs, Sulitest obligatoire\n2. Projets humanitaires : Solidarity Awards, GduCoeur\n3. Conferences : International Futures\n4. Label STAR (2023) : parcours engagement DD sur 5 ans\n\nRecherche :\nChaire Energy Economics & Ecological Transition (geopolitique, macroeconomie, risques techno/environnementaux)\nChaire Living Health\nChaire New Practices for Innovation\n3 projets Erasmus+ (BE YOU, Success4all, VIFRE)\n\nCampus :\nJardin potager, fleurs, parrainage ruches Sancerre\nEuropean Weeks (SERD + SEDD)\nAmbassadeur Impact Campus",
+        "18": "~1 050 etudiants/an Sulitest (50%+ des etudiants FR)\n100% Bachelor 3 + Master 2 font la Fresque du Climat (3 ans)\n~4 000 etudiants, 100+ nationalites\n35 etudiants a Varanasi (Guria), 22 000 euros collectes depuis 2014\n10 ans projet Nosy Komba Madagascar\nLabel STAR lance 2023\nChaire Energie : douzaine chercheurs, 2 doctorants\n3 projets Erasmus+ (total ~700k euros)\n2 ruches parrainées a Sancerre\n19 846+ alumni",
+        "19": "2",
+        "20": "Departement RSE (Carole Simonnet, professeure finance)\nGroupe Galileo Global Education\nParticipation active CGE (Gender Equality, DD, Diversite)",
+        "21": "NON publie",
+        "22": "OUI\nSulitest obligatoire Bachelor 3 + Master 2\nCours dedies RSE dans tous les programmes\nLabel STAR : parcours engagement DD",
+        "23": "OUI\nClimate Collage (Fresque du Climat) : 100% Bachelor 3 + Master 2 depuis 3 ans",
+        "24": "Rapport RSE dedie en anglais, 19 pages, 2022-2023. Format compact mais structure. Points forts : Sulitest massif (50%+ des etudiants FR), Fresque du Climat 100% B3+M2 depuis 3 ans, Label STAR (2023), projets humanitaires au long cours (Nosy Komba 10 ans, Guria Inde), chaire Energy & Ecological Transition, 3 projets Erasmus+. Points d'attention : BC non publie, budget RSE non publie, RSE portee par une professeure (pas un poste COMEX). Rapport en anglais uniquement. Biodiversite originale (jardin potager campus + ruches Sancerre)."
       },
       "notes": {
         "blanche": {
