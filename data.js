@@ -975,7 +975,7 @@ const BENCHMARK_DATA = {
       "name": "EXCELIA BUSINESS SCHOOL",
       "verdicts": {
         "1": "OUI",
-        "2": "OUI",
+        "2": "PARTIEL",
         "3": "OUI",
         "4": "OUI",
         "5": "PARTIEL",
@@ -1011,7 +1011,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 25.0
+      "score": 24.5
     },
     {
       "name": "PARIS-DAUPHINE - PSL",
@@ -1269,7 +1269,7 @@ const BENCHMARK_DATA = {
       "name": "NEOMA BUSINESS SCHOOL",
       "verdicts": {
         "1": "OUI",
-        "2": "OUI",
+        "2": "PARTIEL",
         "3": "OUI",
         "4": "OUI",
         "5": "PARTIEL",
@@ -1305,7 +1305,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 29.0
+      "score": 28.5
     },
     {
       "name": "TOULOUSE SCHOOL OF MANAGEMENT",
@@ -1479,7 +1479,7 @@ const BENCHMARK_DATA = {
       "name": "ICN BUSINESS SCHOOL",
       "verdicts": {
         "1": "PARTIEL",
-        "2": "OUI",
+        "2": "PARTIEL",
         "3": "OUI",
         "4": "OUI",
         "5": "PARTIEL",
@@ -1515,7 +1515,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 26.0
+      "score": 25.5
     },
     {
       "name": "EM NORMANDIE",
@@ -1605,7 +1605,7 @@ const BENCHMARK_DATA = {
       "name": "BURGUNDY SCHOOL OF BUSINESS",
       "verdicts": {
         "1": "PARTIEL",
-        "2": "OUI",
+        "2": "PARTIEL",
         "3": "OUI",
         "4": "OUI",
         "5": "PARTIEL",
@@ -1641,7 +1641,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 29.5
+      "score": 29.0
     },
     {
       "name": "IAE AIX-MARSEILLE",
@@ -2741,7 +2741,7 @@ const BENCHMARK_DATA = {
       "name": "EXCELIA BUSINESS SCHOOL",
       "justifs": {
         "1": "OUI — IRSI (Institut de la Responsabilité Sociétale par l'Innovation, depuis 2012) + Schéma Directeur RSDD formalisé.\n\n• IRSI créé en 2012, structure la démarche RSE\n• Schéma Directeur RSDD publié (PDF)\n• Plan stratégique 2025-2030 avec pilier RSE\nSource : Excelia_Schema_Directeur_RSDD.pdf ; excelia-group.fr/vision-rse\n\nApprenants :\n• Non documenté directement\n\nCollaborateurs :\n• IRSI coordonne la démarche\nSource : excelia-group.fr/vision-rse",
-        "2": "OUI — IRSI + chaire RSE fusionnée + gouvernance DD intégrée.\n\n• Chaire Ingénierie de la Responsabilité Sociétale et Innovation (2010, fusion de 4 chaires)\n• IRSI = institut interne de recherche-intervention\nSource : excelia-group.com/chairs\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• IRSI implique chercheurs et personnel\nSource : excelia-group.com/chairs",
+        "2": "PARTIEL — IRSI (Institut de la Responsabilité Sociétale par l'Innovation) + chaire RSE fusionnée, mais un institut de recherche n'est pas un comité RSE opérationnel.\n\n• IRSI (depuis 2010) = institut interne de recherche-intervention, pas un comité\n• Chaire Ingénierie de la Responsabilité Sociétale et Innovation (2010, fusion de 4 chaires)\n• Pas de comité RSE opérationnel avec composition et fréquence documentées\nSource : excelia-group.com/chairs\n\nApprenants : bénéficient de l'IRSI et de la chaire.\nCollaborateurs : institut de recherche, pas de comité opérationnel.",
         "3": "OUI — Plan stratégique 2025-2030 avec pilier RSE + Schéma Directeur RSDD.\n\n• Plan 2025-2030 dévoilé avec axes RSE formalisés\n• Schéma Directeur RSDD (PDF publié)\n• Plan précédent 2020-2025 incluait calculateur carbone\nSource : 042025Planstrat2530VF.pdf ; Excelia_Schema_Directeur_RSDD.pdf\n\nApprenants :\n• Climacité + Humacité intégrés au plan\nSource : excelia-group.fr/plan-strategique\n\nCollaborateurs :\n• Plan couvre le fonctionnement\nSource : excelia-group.fr/plan-strategique",
         "4": "OUI — Label DD&RS (Développement Durable & Responsabilité Sociétale de l'enseignement supérieur) obtenu juin 2024 pour 2 ans.\n\n• Label DD&RS obtenu en juin 2024\n• Pionnière : 1er programme DD en 1999\n• EESPIG (1 des 8 écoles de management)\nSource : thotismedia.com/excelia-ddrs ; excelia-group.fr/label-ddrs\n\nApprenants :\n• Le label évalue la formation\nSource : thotismedia.com\n\nCollaborateurs :\n• Le label couvre la politique sociale\nSource : thotismedia.com",
         "5": "PARTIEL — Calculateur carbone individuel déployé mais pas de budget RSE global chiffré.\n\n• Calculateur carbone pour chaque étudiant et employé (depuis 2022)\n• XL Vision (transformation numérique) : 5,6M€ investis\n• Pas de budget RSE global publié\nSource : excelia-group.com\n\nApprenants :\n• Calculateur carbone accessible\nSource : excelia-group.com\n\nCollaborateurs :\n• Non documenté",
@@ -3035,7 +3035,7 @@ const BENCHMARK_DATA = {
       "name": "NEOMA BUSINESS SCHOOL",
       "justifs": {
         "1": "OUI — Direction TSE (Transition Sociale et Environnementale) intégrée au plan stratégique + NEOMACT.\n\n• TSE = pilier du plan stratégique « Engage for the Future » 2023-2027\n• NEOMACT : système d'engagement obligatoire pour toutes les associations\n• 5ème ChangeNOW/Les Échos 2024\nSource : neoma-bs.fr/ecole-engagee-TSE ; Rapport engagement TSE 2025\n\nApprenants :\n• NEOMACT obligatoire depuis sept. 2024\nSource : neoma-bs.com/neomact\n\nCollaborateurs :\n• Non documenté directement",
-        "2": "OUI — NEOMACT structure l'engagement + référent RSE obligatoire dans chaque association + 4 Centres d'Excellence.\n\n• NEOMACT : chaque association a un référent RSE obligatoire (depuis sept. 2024)\n• 4 Centres d'Excellence dont « The World We Want »\n• Gold Award QS Reimagine Education pour NEOMACT\nSource : neoma-bs.com/neomact\n\nApprenants :\n• Référent RSE dans chaque association\nSource : neoma-bs.com/neomact\n\nCollaborateurs :\n• Non documenté",
+        "2": "PARTIEL — NEOMACT (programme structurant) + centre de recherche, mais un programme et un centre ne sont pas un comité RSE opérationnel.\n\n• NEOMACT = programme/structure d'engagement RSE, pas un comité avec composition formelle\n• Référent RSE obligatoire dans chaque association étudiante\n• Pas de comité RSE avec membres identifiés et fréquence de réunion documentée\nSource : neoma-bs.fr\n\nApprenants : NEOMACT structure l'engagement.\nCollaborateurs : programme actif, pas de comité opérationnel formel.",
         "3": "OUI — Plan stratégique « Engage for the Future » 2023-2027 + en avance à mi-parcours.\n\n• Plan 2023-2027 avec TSE comme pilier\n• À mi-parcours : en avance sur les objectifs\n• Label UNESCO pour séminaire Sustainability Transitions\nSource : neoma-bs.fr/plan-strategique ; Rapport engagement TSE 2025\n\nApprenants :\n• TSE dans la stratégie pédagogique\nSource : Rapport TSE 2025\n\nCollaborateurs :\n• Non applicable",
         "4": "OUI — Label DD&RS obtenu juin 2024 pour la durée maximale de 4 ans (1ère candidature).\n\n• Label DD&RS obtenu juin 2024 pour 4 ans\n• Points forts audit : stratégie RSE cohérente, recherche ODD, « Sustainable Campus », Wellness Centre, formation personnel 2Tonnes\nSource : neoma-bs.fr/actualites/neoma-decroche-le-label-ddrs\n\nApprenants :\n• Le label évalue la formation\nSource : neoma-bs.fr\n\nCollaborateurs :\n• Formation 2Tonnes soulignée par le jury\nSource : neoma-bs.fr",
         "5": "PARTIEL — 956 bourses sociales 2024-25 (2,4M€, +56%) mais pas de budget RSE global.\n\n• 956 bourses sociales en 2024-25 pour 2 431 000€ (+56% vs 2023-24)\n• 100% des CROUS échelon 7 entièrement financés (depuis 2024-25)\n• 10 bourses Veuve Clicquot (scolarité complète + frais de vie)\n• Pas de budget RSE global publié\nSource : fondation-neoma.fr/equal-opportunity\n\nApprenants :\n• 956 bourses + Veuve Clicquot\nSource : fondation-neoma.fr\n\nCollaborateurs :\n• Non documenté",
@@ -3245,7 +3245,7 @@ const BENCHMARK_DATA = {
       "name": "ICN BUSINESS SCHOOL",
       "justifs": {
         "1": "PARTIEL — Plan ICN Impact 2022-2026 structurant (8 axes, 64 actions, 17 services), mais aucun poste RSE dédié nommément rattaché au COMEX identifié.\n\n• Plan ICN Impact 2022-2026 : 8 axes, 64 actions, 24 indicateurs, 17 services engagés\n• Alliance ARTEM depuis 1999 (ICN + ENSAD + Mines Nancy)\n• Pas de Directeur/Directrice RSE au COMEX identifié nommément\nSource : ICN-Impact_WEB_FR.pdf, p. 2-4\n\nApprenants : plan structurant avec 12 associations impliquées.\nCollaborateurs : 17 services engagés mais pas de poste COMEX RSE dédié.",
-        "2": "OUI — Chaire UNESCO « Art & Sciences pour les ODD » (2019-2020, avec Université de Lorraine) + CEREN + collectif ICN Impact.\n\n• Chaire UNESCO créée 2019-2020 : coopération Nord-Sud pour les 17 ODD\n• 40% des articles publiés liés éthique/RSE/DD (rapport HCERES)\n• Collectif ICN Impact coordonne l’ensemble\nSource : ICN-Impact_WEB_FR.pdf ; HCERES\n\nApprenants :\n• Non documenté directement\n\nCollaborateurs :\n• 40% des publications RSE\nSource : HCERES",
+        "2": "PARTIEL — Chaire UNESCO « Art & Sciences pour les ODD » + collectif ICN Impact, mais pas de comité RSE opérationnel avec composition et fréquence documentées.\n\n• Chaire UNESCO (2019-2020) = chaire de recherche, pas un comité opérationnel\n• Collectif ICN Impact coordonne la démarche mais sans composition/fréquence documentées\n• 40% des articles liés éthique/RSE/DD (HCERES)\nSource : ICN-Impact_WEB_FR.pdf ; HCERES\n\nApprenants : collectif ICN Impact structure l'engagement.\nCollaborateurs : coordination via le collectif, pas de comité formel.",
         "3": "OUI — ICN Impact 2022-2026 = plan d’action stratégique formalisé avec 64 actions, 24 indicateurs, 8 axes.\n\n• Co-construction multi-acteurs, sobriété, éthique, ouverture, collaboration, inclusion\n• Interdisciplinarité ATM (Art, Technologie, Management) = spécificité ICN\n• Ancrage local + réplicabilité + indicateurs de performance + mesure d’impact + reporting\nSource : ICN-Impact_WEB_FR.pdf, p. 2-4\n\nApprenants :\n• Intégrés dans la co-construction\nSource : ICN-Impact_WEB_FR.pdf, p. 2\n\nCollaborateurs :\n• 32 axes et services engagés\nSource : ICN-Impact_WEB_FR.pdf, p. 3",
         "4": "OUI — Label DD&RS (Développement Durable & Responsabilité Sociétale de l’enseignement supérieur) obtenu début 2024 + Pacte Mondial + PRME.\n\n• Label DD&RS obtenu (parmi les 10% d’écoles labellisées en France)\n• Pacte Mondial des Nations Unies signataire\n• PRME (Principles for Responsible Management Education) signataire\nSource : icn-artem.com/news/icn-obtient-le-label-ddrs\n\nApprenants :\n• Le label évalue la formation\nSource : icn-artem.com\n\nCollaborateurs :\n• Le label couvre la politique sociale\nSource : icn-artem.com",
         "5": "PARTIEL — 1 114 200€ d’aides étudiants distribuées + soutien humain et financier pour les transitions mais pas de budget RSE global consolidé.\n\n• 1 114 200€ d’aides étudiants\n• Commission sociale : exonération partielle/totale des frais de scolarité\n• Fonds de dotation offrant des bourses\n• Plan ICN Impact mentionne « soutien humain et financier » pour les transitions\nSource : planetegrandesecoles.com/icn-bourses ; ICN-Impact_WEB_FR.pdf, p. 4\n\nApprenants :\n• 1,1M€ d’aides + exonérations\nSource : planetegrandesecoles.com\n\nCollaborateurs :\n• Non documenté",
@@ -3371,7 +3371,7 @@ const BENCHMARK_DATA = {
       "name": "BURGUNDY SCHOOL OF BUSINESS",
       "justifs": {
         "1": "PARTIEL — Anne-Laure Brochet responsable Accréditations & RSE, stratégie « Act for Change » (2022-2027), mais pas de poste RSE dédié au COMEX confirmé.\n\n• Anne-Laure Brochet : responsable Accréditations & RSE\n• Stratégie RSE « Act for Change » (2022-2027) en 3 piliers et 6 cibles ODD\n• 20 ans d'engagement RSE formalisé (depuis 2003)\n• Rattachement COMEX de cette fonction non confirmé\nSource : Rapport RSE BSB 2024, p. 5 ; recherche web\n\nApprenants : stratégie RSE structurante sur 3 piliers.\nCollaborateurs : responsable RSE identifiée mais niveau COMEX non confirmé.",
-        "2": "OUI — Chaire Management & Innovation Responsables (MIR, partenariat La Poste) + Accord de Grenoble (4ème école de management signataire, 11 objectifs concrets).\n\n• Accord de Grenoble signé 2021 (CTES — Convention pour la Transition des Établissements du Supérieur) : initiative étudiante engageant les établissements dans la transition socio-écologique\n• 11 objectifs couvrant formation, recherche, partenariats, politique sociale, gestion environnementale du campus\n• CEREN (Centre de Recherche sur l’Entreprise, créé 2003) : modèles de responsabilité sociale, éthique, durabilité\nSource : Rapport RSE 2024, p. 7\n\nApprenants :\n• Fédération des Étudiants BSB co-signataire de l’Accord de Grenoble\nSource : Rapport RSE 2024, p. 7\n\nCollaborateurs :\n• Chaire MIR implique les chercheurs\nSource : bsb-education.com/csr-commitments",
+        "2": "PARTIEL — Chaire MIR (partenariat La Poste) + Accord de Grenoble signé, mais pas de comité RSE opérationnel propre avec composition et fréquence documentées.\n\n• Chaire Management & Innovation Responsables (MIR, La Poste) = chaire de recherche, pas un comité\n• Accord de Grenoble signé 2021 (CTES) : 11 objectifs, mais c'est un engagement signé, pas un comité interne\n• Pas de comité RSE avec membres identifiés et fréquence de réunion documentée\nSource : Rapport RSE BSB 2024\n\nApprenants : bénéficient de la chaire MIR et de l'Accord de Grenoble.\nCollaborateurs : pas de comité RSE opérationnel documenté.",
         "3": "OUI — Act for Change (3 piliers, 6 objectifs ODD) + Accord de Grenoble (11 objectifs) + Manifeste BSB publié + 5ème rapport RSE.\n\n• Manifeste BSB publié (bsb-education.com/manifeste)\n• 5ème rapport RSE 2024 publié (24 pages)\n• 12 projets prioritaires définis pour 2024-2026 dans une logique d’amélioration continue\nSource : Rapport RSE 2024, p. 5, 21\n\nApprenants :\n• Formation RSE intégrée dans tous les programmes\nSource : Rapport RSE 2024, p. 16\n\nCollaborateurs :\n• 12 projets couvrent le fonctionnement\nSource : Rapport RSE 2024, p. 21",
         "4": "OUI — Label DD&RS (Développement Durable & Responsabilité Sociétale de l’enseignement supérieur) obtenu juin 2024 (1ère labellisation) + PRME + Charte LGBT+ + Charte Diversité.\n\n• Label DD&RS obtenu juin 2024 pour 2 ans\n• Positive Impact Rating : « Transforming School » (Top 50 mondial)\n• Charte LGBT+ de L’Autre Cercle signée 2024 (5ème grande école de management)\n• Charte de la Diversité signée 2011\n• PRME signataire depuis 2015\n• Accord de Grenoble signé 2021\n• Adhésion CIRSES (Collectif pour la RSE dans l’Enseignement Supérieur) 2018\nSource : Rapport RSE 2024, p. 6-7, 13\n\nApprenants :\n• Fédération des Étudiants co-signataire des chartes\nSource : Rapport RSE 2024, p. 7\n\nCollaborateurs :\n• Labels couvrent la politique sociale\nSource : Rapport RSE 2024, p. 7",
         "5": "PARTIEL — Fondation BSB (2,9M€ collectés, 950+ étudiants soutenus depuis 2014) + campus Lyon 40M€ mais pas de budget RSE global consolidé.\n\n• Fondation BSB (2014, Fondation de France) : 2 900 000€ collectés, 950+ étudiants soutenus\n• Fonds de solidarité : 100 000€ débloqués pendant le COVID\n• Campus Lyon : 40M€+ investis\n• Pas de budget RSE global consolidé publié\nSource : Rapport RSE 2024, p. 9 ; fondation.bsb-education.com\n\nApprenants :\n• 950+ soutenus depuis 2014, bourses « Coup de pouce » (1K-3,5K€)\nSource : fondation.bsb-education.com\n\nCollaborateurs :\n• Non documenté",
