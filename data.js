@@ -4536,7 +4536,7 @@ const BENCHMARK_DATA = {
         "2": "~9 000 etudiants\n36 000+ alumni\n8 campus (Nantes, Paris St-Ouen, Vendee, Shenzhen, Sao Paulo...)\n51 membres des equipes internes dedies DD&RS (vs 29 en 2024)\n62 enseignants-chercheurs membres du collectif CARES\n367 nouveaux collaborateurs formes aux transitions (vs 177 en 2024)\n83% des cours incluent la transition ecologique et sociale (vs 78% en 2024)\n100% des etudiants en FI formes par Gaia\n4,12% etudiants en situation de handicap (vs 2,27% en 2024)\n25% etudiants boursiers\n65% des publications portent sur les transitions\n42 objectifs de reduction impact carbone\n4e bilan carbone consecutif\n7 528 femmes formees a NegoTraining (vs 5 997 en 2024)\n8% du budget total alloue aux enjeux de transition (vs 11% en 2024)",
         "3": "2025-2026\n(rapport DD&RS publie 2026)",
         "4": "Rapport d'activite Developpement Durable & Responsabilite Societale DD&RS 2026",
-        "5": "https://www.linkedin.com/posts/audencia_rapport-dactivit%C3%A9-ddrs-audencia-2026-activity-7441799069787656192",
+        "5": "https://rse.audencia.com/",
         "6": "16p",
         "7": "Français",
         "8": "Design epure et professionnel, identite Audencia coherente.\nPalette : blanc/bleu/vert/orange, mise en page aeree.\nStructure claire en 5 axes : Strategie & Gouvernance / Enseignement & Formation / Recherche & Innovation / Environnement & Decarbonation / Politique Sociale & QVT.\nChaque axe structure en 3 blocs : Realisations 2025 + Projection 2026 + Chiffres cles.\nVerbatims/photos integres.\nTableau de suivi des indicateurs globaux (p.15) avec comparaison 2024/2025.\nFormat compact (16p) vs rapport precedent (28p).",
