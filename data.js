@@ -4782,7 +4782,7 @@ const BENCHMARK_DATA = {
         "2": "Campus Dijon + Campus Lyon (nouveau campus sept 2025 : 101 rue Professeur Beauvisage)\nFondation BSB : 2 900 000 euros collectes depuis creation, 950+ étudiants soutenus\nMission Handicap : ~100 étudiants accompagnes/an\nModule Impact : ~300 étudiants/an, 20-40h engagement citoyen\nProgramme (Re)Connect : accompagnement refugies vers employabilite (depuis 2021)",
         "3": "2022-2024\n(5e rapport, publie décembre 2024)",
         "4": "5e Rapport de Responsabilité Sociétale BSB - Décembre 2024",
-        "5": "https://hello.bsb-éducation.com/hubfs/RSE/BSB%20-%20%235e%20Rapport%20RSE2024_FR%20-%20Medium.pdf",
+        "5": "https://www.bsb-education.com/fr/lecole/engagements-rse",
         "6": "24p",
         "7": "Français",
         "8": "Rapport RSE dédié (5e edition).\nMise en page professionnelle, identite BSB cohérente.\nStructure en 3 piliers stratégiques (Act for Respect / Act for Sustainability / Act for Empowerment) avec 6 objectifs.\nTimeline engagement RSE depuis 2005 (p.6).\nVerbatims editoriaux (DG Stephan Bourcieu, Anne-Laure Brochet).\n12 projets prioritaires futurs detailles (p.21).\nFormat compact 24 pages.",

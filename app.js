@@ -820,7 +820,10 @@ function renderRadar() {
           },
           pointLabels: {
             font: { family: 'Archivo', size: 13, weight: '700' },
-            color: '#2D2D2D',
+            color: function(ctx) {
+              const axeColors = ['#4A1942', '#E60F7D', '#00B050', '#00B0F0', '#C49476'];
+              return axeColors[ctx.index % axeColors.length];
+            },
           },
           grid: { color: 'rgba(0,0,0,0.08)' },
         },
@@ -854,37 +857,6 @@ function renderRadar() {
   render2050Radar();
   renderRadarComparison(igensiaData);
 
-  // Build comparison table
-  const tableEl = document.getElementById('radarTable');
-  if (tableEl) {
-    const filledOthers = D.grille.filter(s => !isIgensia(s.name) && s.score > 0);
-    const avgTotalScore = filledOthers.reduce((sum, s) => sum + s.score, 0) / (filledOthers.length || 1);
-
-    const axeColors = ['#260D66', '#E60F7D', '#00B050', '#00B0F0', '#C49476'];
-    let html = '<table><thead><tr><th>Axe</th><th style="min-width:80px;">\u2605 IGENSIA</th><th>Moyenne</th></tr></thead><tbody>';
-
-    AXES.forEach((axe, ai) => {
-      const igRaw = igensiaData ? axe.cols.reduce((sum, col) => {
-        const v = igensiaData.verdicts[String(col)] || '';
-        return sum + (v === 'OUI' ? 1 : v === 'PARTIEL' ? 0.5 : 0);
-      }, 0) : 0;
-      const avgRaw = (avgScores[ai] * axe.max / 100).toFixed(1);
-      html += `<tr>`;
-      html += `<td style="border-left:4px solid ${axeColors[ai]};padding-left:10px;">${axe.name}</td>`;
-      html += `<td>${igRaw}/${axe.max}</td>`;
-      html += `<td>${avgRaw}/${axe.max}</td>`;
-      html += '</tr>';
-    });
-
-    const igTotal = igensiaData ? igensiaData.score : 0;
-    html += `<tr style="font-weight:900; border-top:2px solid var(--primary)">`;
-    html += `<td style="border-left:4px solid var(--primary);padding-left:10px;">TOTAL</td>`;
-    html += `<td>${igTotal}/36</td>`;
-    html += `<td>${avgTotalScore.toFixed(1)}/36</td>`;
-    html += `<td></td></tr>`;
-    html += '</tbody></table>';
-    tableEl.innerHTML = html;
-  }
 }
 
 // =============================
