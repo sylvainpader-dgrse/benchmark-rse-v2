@@ -4980,115 +4980,33 @@ const BENCHMARK_DATA = {
       "comment": ""
     },
     {
-      "name": "IMT BUSINESS SCHOOL",
-      "data": {
-        "0": "IMT BUSINESS SCHOOL",
-        "1": "Établissement public (IMT)",
-        "2": "",
-        "3": "2023",
-        "4": "Rapport ODD Global IMT-BS 2023",
-        "5": "",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": "",
-        "11": "",
-        "12": "",
-        "13": "",
-        "14": "",
-        "15": "",
-        "16": "",
-        "17": "",
-        "18": "",
-        "19": "",
-        "20": "",
-        "21": "",
-        "22": "",
-        "23": "",
-        "24": ""
-      },
-      "notes": {
-        "blanche": {
-          "forme": "",
-          "fond": ""
-        },
-        "sylvain": {
-          "forme": "",
-          "fond": ""
-        }
-      },
-      "comment": ""
-    },
-    {
-      "name": "MONTPELLIER BUSINESS SCHOOL",
-      "data": {
-        "0": "MONTPELLIER BUSINESS SCHOOL",
-        "1": "Association loi 1901 (EESPIG)",
-        "2": "",
-        "3": "2024",
-        "4": "Bilan Carbone MBS",
-        "5": "",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": "",
-        "11": "",
-        "12": "",
-        "13": "",
-        "14": "",
-        "15": "",
-        "16": "",
-        "17": "",
-        "18": "",
-        "19": "",
-        "20": "",
-        "21": "",
-        "22": "",
-        "23": "",
-        "24": ""
-      },
-      "notes": {
-        "blanche": {
-          "forme": "",
-          "fond": ""
-        },
-        "sylvain": {
-          "forme": "",
-          "fond": ""
-        }
-      },
-      "comment": ""
-    },
-    {
       "name": "EM STRASBOURG BUSINESS SCHOOL",
       "data": {
         "0": "EM STRASBOURG BUSINESS SCHOOL",
-        "1": "Composante Université de Strasbourg",
-        "2": "",
-        "3": "2023",
-        "4": "Rapport RSO EM Strasbourg 2023",
-        "5": "",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": "",
-        "11": "",
-        "12": "",
-        "13": "",
-        "14": "",
-        "15": "",
-        "16": "",
-        "17": "",
-        "18": "",
-        "19": "",
-        "20": "",
-        "21": "",
-        "22": "",
-        "23": "",
-        "24": ""
+        "1": "Etablissement public\nComposante Universite de Strasbourg\nSeule Grande Ecole de management en France au sein d'une universite de recherche pluridisciplinaire\nFusion IECS + IAE en 2007",
+        "2": "3 programmes : Bachelor, Programme Grande Ecole, Masters universitaires + Doctorat\n3 valeurs fondatrices : Ethique, Diversite, Developpement Durable\nLabel Diversite AFNOR (depuis 2012, renouvele 2021 pour 4 ans)\nPRME signataire depuis 2010 + Pacte Mondial\n9e rapport RSO (depuis 2010)\n56% de femmes cadres enseignants permanents\n76% de femmes cadres BIATSS\nBudget RSO : 92k euros (2022-23)\n1 ETP service RSO (2022-23)",
+        "3": "2022-2023\n(9e rapport RSO, publie 2023)",
+        "4": "Rapport RSO EM Strasbourg Business School 2023",
+        "5": "https://www.em-strasbourg.com/sites/default/files/2023-12/rapport_rso_em_strasbourg_business_school_2023_fr.pdf",
+        "6": "38p",
+        "7": "Francais",
+        "8": "9e rapport RSO dedie (depuis 2010, biennal).\nStructure claire : Mission et valeurs, Presentation politique RSO, Fonctionnement responsable, Formation, Recherche, Impact societal.\nChaque section avec tableaux d'indicateurs chiffres sur 4 annees (19/20, 20/21, 21/22, 22/23).\nObjectifs et indicateurs adosses a la politique avec statut avancement.\nVerbatims et portraits (personnels, etudiants, partenaires).\nMise en page professionnelle, identite EM Strasbourg.\nTimeline engagement RSO.",
+        "9": "Tableaux indicateurs chiffres (4 annees comparatives), Organigramme gouvernance (Conseil d'Ecole, COS, Directeur, IAB, Comite Executif, Comite RSO), Photos campus et evenements, Portraits inspirants (personnel, etudiants), Schemas processus VSS",
+        "10": "RSO (Responsabilite Societale des Organisations) - 3 valeurs fondatrices :\n1. Ethique\n2. Diversite\n3. Developpement Durable\n\nPolitique RSO structuree autour de :\n- Fonctionnement responsable (gouvernance, politique sociale, bien-etre, mobilite, dechets, BC, communication)\n- Formation (Bachelor, PGE, Masters, CforCSR, CLUE)\n- Recherche (clusters, doctorants, publications ODD)\n- Impact societal",
+        "11": "p.2 - Sommaire\np.3 - Lettre d'engagement du directeur (9e rapport, renouvellement PRME)\np.4 - Mission et valeurs (3 valeurs, fusion 2007, composante Unistra)\np.5-9 - Presentation politique RSO : objectifs strategiques, ODD cibles (8 prioritaires), enquete RSO 19 services, Nuit des valeurs (satisfaction 3,7/5)\np.10-18 - Fonctionnement responsable :\n  Gouvernance : Comite RSO (toutes parties prenantes), Service RSO (1 ETP + stagiaires)\n  Budget RSO : 92k euros (22/23)\n  Label Diversite AFNOR (2012, renouvele 2021)\n  Politique sociale : DuoDays handicap, Handitech Trophy\n  Bien-etre : Journee bien-etre (inscriptions remplies en 1 jour), meditation, sophrologie\n  Mobilite : Forfait mobilite durable 300 euros/an (velo, covoiturage, intermodalite), challenge velo (3 987 km)\n  Dechets : biodechets Green Phoenix (velo cargo + methanisation), composteur\n  Bilan carbone : dernier propre 2010, BC Unistra 2021 recu mi-2023\n  Campus : parvis vegetalise, jardin zen\np.19-27 - Formation :\n  CforCSR plateforme e-learning (training + certification, obligatoire diplomation)\n  Bachelor : cours projet 1A-2A (association, budget, valeurs EM)\n  PGE : Entomovoria (cas transdisciplinaire, labellise FNEGE 2023), EM's Kitchen (street food eco-responsable)\n  CLUE (module europeen depuis 2018)\n  Green Mobility project (5 steps pour la mobilite internationale)\n  Plantation de haies (Bachelor 1A + PGE 1A, fevrier-mars 2023)\n  VSS : chargee de mission, processus revu, Ithaque (risques festifs), B3V (espace ressources, cercles de parole)\n  Module bien-etre CforCSR (VSS + sante mentale + addictions)\np.28-31 - Recherche : 25% EC permanents dans potes RSO, 2 clusters (appel 2022, 3 ans), doctorants RSO, 12 ODD couverts par publications (vs 8 en 21/22)\np.32-38 - Impact societal",
+        "12": "APPRENANTS :\nCforCSR plateforme e-learning obligatoire pour diplomation (training + certification, 3 programmes)\nBachelor : cours projet 1A-2A (association, budget, integration valeur EM)\nPGE : Entomovoria (cas transdisciplinaire nourrir humanite, labellise FNEGE 2023), EM's Kitchen (street food eco-responsable, benefices reverses associations)\nCLUE : module europeen competences interculturelles (Parlement europeen)\nGreen Mobility : 5 steps pour eco-responsabiliser la mobilite internationale (plantation de haies, checklist mobilite verte)\nPlantation de haies : Bachelor 1A + PGE 1A (fevrier-mars 2023)\nVSS : chargee de mission, processus signalement revu, formations risques festifs (Ithaque), B3V espace ressources (bibliotheque sante mentale, materiel reduction risques, boite protections hygieniques solidaire, cercles de parole)\nModule bien-etre CforCSR (VSS + sante mentale + addictions)\nDU Leadership Meditation Neurosciences (depuis sept 2021, intervenants : Leila Hoballah/Make Sense, Pablo Servigne, Matthieu Ricard)\n\nCOLLABORATEURS :\n56% femmes cadres enseignants permanents (stable)\n76% femmes cadres BIATSS\nLabel Diversite AFNOR (2012, renouvele 2021 pour 4 ans)\nForfait mobilite durable : 300 euros/an (velo, covoiturage, intermodalite train+velo), challenge velo 3 987 km\nJournee bien-etre : ateliers meditation, sophrologie, sante mentale (inscriptions remplies en 1 jour)\nNewsletter RSO + focus service trimestriel + petit-dejeuner convivialite\nFormation VSS prevue rentree 2023 pour enseignants\nDuoDays handicap : postes de stages internes ouverts",
+        "13": "PRME (signataire depuis 2010, 9e rapport)\nPacte Mondial des Nations Unies (signataire)\nLabel Diversite AFNOR (2012, renouvele 2021 pour 4 ans)\nAccord de Grenoble CTES (non mentionne)\nDD&RS : obtenu par Universite de Strasbourg (oct 2024, post-rapport)",
+        "14": "ISO 26000 (reference dans la politique RSO)\n8 ODD prioritaires (p.6-7)\nGuide competences DD&RS CGE/CPU\nCriteres label Diversite AFNOR (25 criteres discrimination)",
+        "15": "Label Diversite AFNOR (25 criteres discrimination)\nService action sociale : 4 personnes (aide etudiants)\nMission handicap : DuoDays, Handitech Trophy, Student Center\nForfait mobilite durable 300 euros/an\nJournee bien-etre (meditation, sophrologie, sante mentale)\nChargee de mission VSS\nB3V espace ressources (sante mentale, VSS, addictions)\nPlan communication diversite sur 3 ans (2023-2025)",
+        "16": "PARTIEL\nDernier BC propre EM Strasbourg : 2010\nBC Universite de Strasbourg 2021 : resultats recus mi-2023\nPas de comparaison possible avec bilan precedent\nPlan d'action BC prevu rentree 2023 : deplacements, intrants, numerique et energie\nPas d'objectif chiffre defini (refuse de fixer un chiffre decorelle de la realite)",
+        "17": "Politique RSO structuree autour de 3 valeurs + ODD :\n\nFONCTIONNEMENT RESPONSABLE\nComite RSO (toutes parties prenantes)\nService RSO (1 ETP + stagiaires), budget 92k euros\nLabel Diversite AFNOR\nForfait mobilite durable 300 euros\nBiodechets Green Phoenix (velo cargo + methanisation)\nVegetalisation campus (parvis, jardin zen)\n\nFORMATION\nCforCSR obligatoire diplomation\nEntomovoria (labellise FNEGE 2023)\nGreen Mobility project (5 steps mobilite internationale)\nDU Leadership Meditation Neurosciences\nVSS : processus revu + B3V + formations risques festifs\n\nRECHERCHE\n25% EC permanents dans poles RSO\n2 clusters recherche transversaux (appel 2022, 3 ans)\n12 ODD couverts par publications (vs 8 en 21/22)\nChaire DD&RSE (Pia Imbs, 2008)\nChaire Finance Durable (Maxime Merli, 2022)\n\nIMPACT SOCIETAL\nEnactus, Initiatives Durables, Entreprises pour la Cite",
+        "18": "9e rapport RSO (depuis 2010, biennal)\nBudget RSO : 92k euros (22/23), evolution : 97k (19/20), 181k (20/21, refonte CforCSR), 101k (21/22)\n1 ETP service RSO (22/23), evolution : 1,5 (19/20-20/21), 2,5 (21/22)\n56% femmes cadres enseignants permanents\n76% femmes cadres BIATSS\nForfait mobilite durable : 300 euros/an\nChallenge velo : 3 987 km (22/23)\nBiodechets : collecte Green Phoenix (velo cargo)\nProjets RSO portes par les personnels : 8 (22/23), evolution : 2 (20/21), 10 (21/22)\n12 ODD couverts par publications (vs 8 en 21/22)\nEnquete valeurs : 3,7/5 satisfaction etudiants\n19 personnes interviewees enquete RSO services",
+        "19": "3",
+        "20": "Comite RSO : role garant et conseiller, toutes parties prenantes (administratifs, EC, etudiants, alumni, partenaires)\nService RSO : chargee de mission RSO temps plein + stagiaires\nComite Executif\nConseil d'Ecole\nComite d'Orientation Strategique\nInternational Advisory Board\nDirecteur : lettre engagement PRME",
+        "21": "OUI\nBudget RSO publie : 92k euros (2022-23)\nEvolution : 97k (19/20), 181k (20/21, dont refonte CforCSR), 101k (21/22)",
+        "22": "OUI\nCforCSR plateforme e-learning obligatoire pour la diplomation (tous programmes)\nEntomovoria labellise FNEGE 2023\nCLUE module europeen\nGreen Mobility project",
+        "23": "Non mentionne dans ce rapport (2023)\nFresque du Climat realisee lors de l'International Week 2023 (source site web)",
+        "24": "9e rapport RSO dedie, 38 pages, couvrant 2022-2023. Rapport mature (publie depuis 2010). Points forts : budget RSO publie (92k euros), Label Diversite AFNOR (depuis 2012), CforCSR plateforme e-learning obligatoire diplomation, indicateurs chiffres sur 4 annees. Originalites : Entomovoria (labellise FNEGE), B3V espace bien-etre (cercles de parole, materiel reduction risques), DU Leadership Meditation Neurosciences (Matthieu Ricard). Points d'attention : BC propre date de 2010 (BC Unistra 2021 recu mi-2023 mais pas de comparaison possible), pas d'objectif GES chiffre, 1 seul ETP RSO (en baisse). Transparence exemplaire sur le budget RSO et son evolution."
       },
       "notes": {
         "blanche": {
