@@ -861,7 +861,7 @@ function renderRadar() {
     const avgTotalScore = filledOthers.reduce((sum, s) => sum + s.score, 0) / (filledOthers.length || 1);
 
     const axeColors = ['#260D66', '#E60F7D', '#00B050', '#00B0F0', '#C49476'];
-    let html = '<table><thead><tr><th>Axe</th><th style="min-width:80px;">\u2605 IGENSIA</th><th>Moyenne</th><th style="min-width:180px;">Leader</th></tr></thead><tbody>';
+    let html = '<table><thead><tr><th>Axe</th><th style="min-width:80px;">\u2605 IGENSIA</th><th>Moyenne</th></tr></thead><tbody>';
 
     AXES.forEach((axe, ai) => {
       const igRaw = igensiaData ? axe.cols.reduce((sum, col) => {
@@ -869,12 +869,10 @@ function renderRadar() {
         return sum + (v === 'OUI' ? 1 : v === 'PARTIEL' ? 0.5 : 0);
       }, 0) : 0;
       const avgRaw = (avgScores[ai] * axe.max / 100).toFixed(1);
-      const bestRaw = (bestScores[ai].score * axe.max / 100).toFixed(1);
       html += `<tr>`;
       html += `<td style="border-left:4px solid ${axeColors[ai]};padding-left:10px;">${axe.name}</td>`;
       html += `<td>${igRaw}/${axe.max}</td>`;
       html += `<td>${avgRaw}/${axe.max}</td>`;
-      html += `<td>${bestScores[ai].name}</td>`;
       html += '</tr>';
     });
 
