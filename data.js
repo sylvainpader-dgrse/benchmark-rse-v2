@@ -4782,7 +4782,7 @@ const BENCHMARK_DATA = {
         "2": "~9 500 étudiants\n3 campus : Reims, Rouen, Paris + 1 campus virtuel (premier en Europe)\n400 universités partenaires dans 61 pays\n88 % de partenaires accrédités\n25 % d'étudiants internationaux, 100 nationalités différentes\nPlus de 200 enseignants-chercheurs dont 73 % d'internationaux, 40 nationalités dans le corps professoral\nPlus de 700 collaborateurs",
         "3": "2024-2025",
         "4": "Rapport d'Engagement 2025 — Transition Sociale et Environnementale",
-        "5": "Une école engagée | Neoma Business School",
+        "5": "https://www.calameo.com/books/007974700afd8f5fe33b4",
         "6": "44p",
         "7": "Français",
         "8": "Rapport PDF structuré en 4 chapitres colorés (vert olive, rose/magenta, violet, vert émeraude).\n• Identité visuelle NEOMA (violet/orange)\n• Mise en page avec photos campus, verbatims, pictogrammes ODD, chiffres clés mis en avant\n• Format bilingue implicite (contenu en français)",
