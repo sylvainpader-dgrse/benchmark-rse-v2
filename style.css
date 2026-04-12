@@ -903,41 +903,58 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
 
 .radar-table-wrapper {
   background: var(--white);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  overflow-x: auto;
-  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(74,25,66,0.08);
+  overflow: hidden;
+  margin-top: 1.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .radar-table-wrapper table {
   width: 100%;
   border-collapse: collapse;
 }
 .radar-table-wrapper th {
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
   color: var(--white);
-  padding: 0.6rem 1rem;
+  padding: 0.8rem 1.2rem;
   font-size: 0.8rem;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
-.radar-table-wrapper th:first-child { text-align: left; }
-.radar-table-wrapper td {
-  padding: 0.5rem 1rem;
-  text-align: center;
-  border-bottom: 1px solid var(--border);
-  font-size: 0.85rem;
-  font-weight: 600;
-  white-space: normal;
-  word-break: break-word;
-}
-.radar-table-wrapper td:last-child {
+.radar-table-wrapper th:first-child {
   text-align: left;
-  min-width: 160px;
-  font-size: 0.75rem;
+  border-radius: 0;
+}
+.radar-table-wrapper td {
+  padding: 0.7rem 1.2rem;
+  text-align: center;
+  border-bottom: 1px solid #f0edf2;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  transition: background 0.2s;
+}
+.radar-table-wrapper tr:hover td {
+  background: #faf8fc;
 }
 .radar-table-wrapper td:first-child {
   text-align: left;
   font-weight: 700;
+  font-size: 0.85rem;
+  padding-left: 1rem;
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+.radar-table-wrapper tr:last-child td {
+  border-bottom: none;
+  font-weight: 800;
+  font-size: 0.95rem;
+  background: #faf8fc;
+  border-top: 2px solid var(--primary);
 }
 .radar-table-wrapper tr.igensia-radar-row td {
   background: #F9F0FF;
