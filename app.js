@@ -163,10 +163,6 @@ function renderStats() {
       <div class="stat-label">Société à Mission</div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${sam*100/total}%"></div></div>
     </div>
-    <div class="stat-card stat-card-axes">
-      <div class="stat-label" style="margin-bottom:6px;font-weight:700;">Moyenne par axe (${filledSchools.length} écoles)</div>
-      ${axeAvgs.map(a => `<div class="axe-bar-row"><span class="axe-bar-label">${a.name}</span><div class="axe-bar-bg"><div class="axe-bar-fill" style="width:${a.pct}%;background:${a.color}"></div></div><span class="axe-bar-pct">${a.pct}%</span></div>`).join('')}
-    </div>
   `;
 }
 
@@ -706,7 +702,8 @@ function renderRadar() {
     html += '<span class="radar-chip" style="background:#999">Moyenne</span>';
     radarSchools.forEach((name, i) => {
       const color = RADAR_COLORS[(i + 2) % RADAR_COLORS.length].border;
-      html += `<span class="radar-chip" style="background:${color}">${name.replace(/\n/g,' ').substring(0,25)} <span class="chip-remove" data-idx="${i}">&times;</span></span>`;
+      const shortName = name.split('\n')[0].replace('★ ','');
+      html += `<span class="radar-chip" style="background:${color}">${shortName} <span class="chip-remove" data-idx="${i}">&times;</span></span>`;
     });
     chipsEl.innerHTML = html;
     chipsEl.querySelectorAll('.chip-remove').forEach(btn => {
@@ -770,7 +767,7 @@ function renderRadar() {
     if (!school) return;
     const colorIdx = (i + 2) % RADAR_COLORS.length;
     datasets.push({
-      label: name.replace(/\n/g, ' ').substring(0, 30),
+      label: name.split('\n')[0].replace('★ ',''),
       data: AXES.map(a => getAxeScore(school, a)),
       backgroundColor: RADAR_COLORS[colorIdx].bg,
       borderColor: RADAR_COLORS[colorIdx].border,
@@ -1003,7 +1000,7 @@ function renderRadarComparison(igensiaData) {
       otherSchools.forEach(({grille: s, justif: j}) => {
         const v = s.verdicts[String(col)] || '';
         if (v === 'NON') return;
-        const shortName = s.name.replace(/\n/g, ' ').substring(0, 30);
+        const shortName = s.name.split('\n')[0].replace('★ ','');
         const otherParts = getJustifParts(j.justifs[String(col)] || '');
         const isBetter = (igV === 'NON' && v !== 'NON') || (igV === 'PARTIEL' && v === 'OUI');
 
@@ -1094,7 +1091,7 @@ function render2050Radar() {
     if (!d) return;
     const colorIdx = (i + 2) % RADAR_COLORS.length;
     datasets.push({
-      label: name.replace(/\n/g, ' ').substring(0, 25),
+      label: name.split('\n')[0].replace('★ ',''),
       data: KEYS_2050.map(k => d[k]),
       backgroundColor: RADAR_COLORS[colorIdx].bg,
       borderColor: RADAR_COLORS[colorIdx].border,
