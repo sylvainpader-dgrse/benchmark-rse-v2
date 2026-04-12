@@ -290,6 +290,10 @@ tbody tr.igensia-row td {
   top: 70px;
   z-index: 8;
 }
+tbody tr.igensia-row td.score-avance { background: var(--score-avance) !important; }
+tbody tr.igensia-row td.score-confirme { background: var(--score-confirme) !important; }
+tbody tr.igensia-row td.score-correct { background: var(--score-correct) !important; }
+tbody tr.igensia-row td.score-insuffisant { background: var(--score-insuffisant) !important; }
 tbody tr.igensia-row td.school-cell {
   z-index: 9;
 }
