@@ -4905,7 +4905,7 @@ const BENCHMARK_DATA = {
         "2": "~4 000 etudiants\n18 846+ alumni\n~200 collaborateurs dont ~100 chercheurs permanents\nCampus 10 000 m2 (Paris, a cote de Station F)\nTriple accredite : AACSB + AMBA + EFMD\n100+ nationalites\nProgrammes : PGE (Grade Master), Bachelor (Grade Licence), MSc, MBA",
         "3": "2022-2023\n(rapport publie 2023)",
         "4": "Sustainable Development Progress Report 2022-2023",
-        "5": "https://library.psbedu.paris/ajax.php?module=cms&categ=document&action=render&id=142",
+        "5": "https://www.psbedu.paris/fr/actus/rse-psb",
         "6": "19p",
         "7": "Anglais",
         "8": "Rapport RSE dedie en anglais.\nDesign moderne, identite PSB coherente (noir/blanc/couleurs vives).\nStructure : Mission, PRME, CSR Policy (4 niveaux), Teaching, Associations, Research, Partnerships, SDG mapping.\nTableau synthetique SDG actions + metriques (p.13-15).\nVerbatims etudiants (ambassadeur Impact Campus).\nFormat compact 19 pages.",
