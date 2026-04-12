@@ -1394,7 +1394,7 @@ const BENCHMARK_DATA = {
     {
       "name": "EM STRASBOURG BUSINESS SCHOOL",
       "verdicts": {
-        "1": "OUI",
+        "1": "PARTIEL",
         "2": "OUI",
         "3": "OUI",
         "4": "OUI",
@@ -1431,7 +1431,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 26.0
+      "score": 25.5
     },
     {
       "name": "AD EDUCATION\n(Groupe)",
@@ -1478,7 +1478,7 @@ const BENCHMARK_DATA = {
     {
       "name": "ICN BUSINESS SCHOOL",
       "verdicts": {
-        "1": "OUI",
+        "1": "PARTIEL",
         "2": "OUI",
         "3": "OUI",
         "4": "OUI",
@@ -1515,7 +1515,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 26.5
+      "score": 26.0
     },
     {
       "name": "EM NORMANDIE",
@@ -1562,7 +1562,7 @@ const BENCHMARK_DATA = {
     {
       "name": "PARIS SCHOOL OF BUSINESS",
       "verdicts": {
-        "1": "OUI",
+        "1": "PARTIEL",
         "2": "PARTIEL",
         "3": "PARTIEL",
         "4": "NON",
@@ -1599,12 +1599,12 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "NON"
       },
-      "score": 19.0
+      "score": 18.5
     },
     {
       "name": "BURGUNDY SCHOOL OF BUSINESS",
       "verdicts": {
-        "1": "OUI",
+        "1": "PARTIEL",
         "2": "OUI",
         "3": "OUI",
         "4": "OUI",
@@ -1641,7 +1641,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 30.0
+      "score": 29.5
     },
     {
       "name": "IAE AIX-MARSEILLE",
@@ -2824,7 +2824,7 @@ const BENCHMARK_DATA = {
     {
       "name": "ÉCOLE POLYTECHNIQUE",
       "justifs": {
-        "1": "OUI — Plan Climat lancé janvier 2022 + gouvernance DD intégrée.\n\n• Plan Climat structuré avec comité de pilotage\n• 677/900 employés formés à la soutenabilité\n• 8M€+ investis en efficacité énergétique\nSource : polytechnique.edu/plan-climat\n\nApprenants :\n• Cours Engineering Sustainability obligatoire (40h, 2ème année)\nSource : polytechnique.edu/engineering-sustainability\n\nCollaborateurs :\n• 677/900 formés\nSource : polytechnique.edu/plan-climat",
+        "1": "OUI — Capucine Pêtre-Spassky nommée Directrice de la Transformation Environnementale et Sociétale (TES) en mai 2024, membre du COMEX, rattachée au DG.\n\n• Capucine Pêtre-Spassky : Directrice TES depuis mai 2024, membre du COMEX\n• Mission : structurer la stratégie de transformation environnementale et sociétale\n• Plan Climat structuré avec comité de pilotage\n• 677/900 employés formés à la soutenabilité\n• 8M€+ investis en efficacité énergétique\nSource : polytechnique.edu (communiqué mai 2024) ; polytechnique.edu/plan-climat\n\nApprenants : direction dédiée au plus haut niveau.\nCollaborateurs : 677/900 formés, plan climat piloté par la Directrice TES.",
         "2": "OUI — Comité de pilotage Plan Climat + ESIC (Ethics and Scientific Integrity Committee).\n\n• Comité pilotage Plan Climat\n• ESIC : organe consultatif éthique/intégrité\n• Référent Intégrité Scientifique\nSource : polytechnique.edu/ethics ; Note d'organisation Plan Climat.pdf\n\nApprenants :\n• Non documenté directement\n\nCollaborateurs :\n• ESIC + RIS actifs\nSource : polytechnique.edu/ethics",
         "3": "OUI — Plan Climat 2022-2025 avec bilan publié + SDVE 2025-2029.\n\n• Plan Climat : objectifs chiffrés, bilan publié (gaz -33%/m², élec -16%/m²)\n• SDVE 2025-2029 (Schéma Directeur Vie Étudiante)\nSource : Bilan Plan Climat 2022-2025.pdf ; polytechnique.edu\n\nApprenants :\n• SDVE couvre la vie étudiante\nSource : polytechnique.edu\n\nCollaborateurs :\n• Plan Climat couvre les opérations\nSource : polytechnique.edu/plan-climat",
         "4": "OUI — Label DD&RS obtenu janvier 2025 pour la durée maximale de 4 ans.\n\n• Label DD&RS obtenu pour 4 ans (annoncé janvier 2025)\n• Couvre les 17 ODD, 5 axes\nSource : polytechnique.edu/press-release-ddrs\n\nApprenants :\n• Le label évalue la formation\nSource : polytechnique.edu\n\nCollaborateurs :\n• Le label couvre la politique sociale\nSource : polytechnique.edu",
@@ -3160,7 +3160,7 @@ const BENCHMARK_DATA = {
     {
       "name": "EM STRASBOURG BUSINESS SCHOOL",
       "justifs": {
-        "1": "OUI — Stratégie RSO structurée autour de 3 valeurs (Ethique, Diversité, Développement Durable) + Rapport RSO annuel depuis 2010 + PRME/Global Compact signataire.\n\n• 3 valeurs fondatrices de l’école : Éthique, Diversité, Développement Durable\n• Rapport RSO publié annuellement depuis 2010 (9 rapports SIP PRME déposés)\n• PRME signataire depuis avril 2010 + Pacte Mondial des Nations Unies signataire\n• Trophée des Communications du Pacte Mondial (catégorie ONG, 2018)\n• Score A par 2050analytics (communique mieux que ses pairs)\nSource : Rapport RSO 2023 ; em-strasbourg.com/nos-trois-valeurs ; unprme.org/em-strasbourg\n\nApprenants :\n• 3 000 étudiants concernés par le parcours RSO\nSource : em-strasbourg.com\n\nCollaborateurs :\n• Trophée Pacte Mondial + rapports RSO depuis 2010\nSource : unglobalcompact.org/participants/3099",
+        "1": "PARTIEL — Chaire DD&RSE (Pia Imbs, 2008) et Rapport RSO annuel depuis 2010, mais aucun poste RSE dédié nommément rattaché au COMEX/DG identifié.\n\n• Chaire DD&RSE dirigée par Pia Imbs (enseignante-chercheure, depuis 2008)\n• 3 valeurs fondatrices : Éthique, Diversité, Développement Durable\n• Rapport RSO publié annuellement depuis 2010 (9 rapports SIP PRME)\n• PRME signataire depuis 2010 + Pacte Mondial signataire\n• Pas de Directeur/Directrice RSE au COMEX identifié\nSource : Rapport RSO 2023 ; em-strasbourg.com/nos-trois-valeurs\n\nApprenants : chaire DD&RSE irrigue les programmes.\nCollaborateurs : engagement porté par une chaire académique, pas un poste COMEX.",
         "2": "OUI — Chaire DD&RSE (Pia Imbs, 2008, ~20 partenaires, ~6 séminaires/an) + Chaire Finance Durable (Maxime Merli, 2022, CIC CIB) + Lab Humanis (14 chercheurs RSE).\n\n• Chaire DD&RSE (créée 2008, Pia Imbs) : ~3 conférences/an, ~3 séminaires/an, ~2 formations entreprises/an, ~20 entreprises partenaires\n• Chaire Finance Durable (sept. 2022, Maxime Merli, financée CIC CIB) : 6 publications peer-reviewed (2022-2025), comité pilotage avec traders CIC\n• Lab Humanis : 14 enseignants-chercheurs, publications et thèses RSE primées\nSource : em-strasbourg.com/chaires/dd-rse ; em-strasbourg.com/chaires/sustainable-finance\n\nApprenants :\n• Non documenté directement\n\nCollaborateurs :\n• 14 chercheurs Lab Humanis + 2 chaires\nSource : em-strasbourg.com/chaires",
         "3": "OUI — Stratégie 3 Valeurs formalisée + Parcours RSO obligatoire depuis 2012 + objectif CforCSR ≥60% + Rapport RSO primé.\n\n• Parcours RSO « 3 Valeurs » créé 2012, obligatoire pour les 3 000 étudiants\n• CforCSR© (Certification for Corporate Social Responsibility) : plateforme e-learning + certification, objectif ≥60%, résultat 2015-16 = 70%\n• Rapport RSO annuel (9 éditions, trophée Pacte Mondial 2018)\nSource : bipiz.org/em-strasbourg-parcours-rso ; cforcsr.com\n\nApprenants :\n• Parcours RSO obligatoire 3 000 étudiants\nSource : bipiz.org\n\nCollaborateurs :\n• Rapport RSO annuel\nSource : unglobalcompact.org",
         "4": "OUI — Label Diversité AFNOR (1ère institution publique en France, février 2012, renouvelé 2021-2025) = label RSE certifié par un tiers.\n\n• Label Diversité AFNOR obtenu février 2012 (1ère institution publique d’enseignement supérieur en France)\n• Renouvelé 2016, puis octobre 2021 pour la période 2021-2025\n• 100ème membre de l’AFMD (Association Française des Managers de la Diversité)\n• Note : DD&RS obtenu par l’Université de Strasbourg (oct. 2024) mais pas propre à EM Strasbourg\nSource : em-strasbourg.com/diversity-label ; em-strasbourg.com/distinctions\n\nApprenants :\n• Le label évalue la diversité dans la formation\nSource : em-strasbourg.com\n\nCollaborateurs :\n• Label couvre la politique RH de diversité\nSource : em-strasbourg.com",
@@ -3244,7 +3244,7 @@ const BENCHMARK_DATA = {
     {
       "name": "ICN BUSINESS SCHOOL",
       "justifs": {
-        "1": "OUI — Plan d’action ICN Impact 2022-2026 structuré autour de 8 axes (64 actions, 24 indicateurs, 17 services engagés) + Alliance ARTEM.\n\n• ICN Impact : plan stratégique RSE formalisé sur 8 axes : Gouvernance, Environnement & Biodiversité, Politique sociale, Enseignement/Formation, Recherche & Innovation, Économique, Numérique, Communauté\n• 64 actions concrètes, 24 indicateurs de performance, 17 services engagés, 2 incubateurs, 12 associations, 20 ODD touchés\n• Alliance ARTEM depuis 1999 (ICN + ENSAD Nancy + Mines Nancy) sur campus partagé\nSource : ICN-Impact_WEB_FR.pdf, p. 2-4\n\nApprenants :\n• 12 associations étudiantes impliquées dans le plan\nSource : ICN-Impact_WEB_FR.pdf, p. 3\n\nCollaborateurs :\n• 17 services engagés dans la démarche\nSource : ICN-Impact_WEB_FR.pdf, p. 3",
+        "1": "PARTIEL — Plan ICN Impact 2022-2026 structurant (8 axes, 64 actions, 17 services), mais aucun poste RSE dédié nommément rattaché au COMEX identifié.\n\n• Plan ICN Impact 2022-2026 : 8 axes, 64 actions, 24 indicateurs, 17 services engagés\n• Alliance ARTEM depuis 1999 (ICN + ENSAD + Mines Nancy)\n• Pas de Directeur/Directrice RSE au COMEX identifié nommément\nSource : ICN-Impact_WEB_FR.pdf, p. 2-4\n\nApprenants : plan structurant avec 12 associations impliquées.\nCollaborateurs : 17 services engagés mais pas de poste COMEX RSE dédié.",
         "2": "OUI — Chaire UNESCO « Art & Sciences pour les ODD » (2019-2020, avec Université de Lorraine) + CEREN + collectif ICN Impact.\n\n• Chaire UNESCO créée 2019-2020 : coopération Nord-Sud pour les 17 ODD\n• 40% des articles publiés liés éthique/RSE/DD (rapport HCERES)\n• Collectif ICN Impact coordonne l’ensemble\nSource : ICN-Impact_WEB_FR.pdf ; HCERES\n\nApprenants :\n• Non documenté directement\n\nCollaborateurs :\n• 40% des publications RSE\nSource : HCERES",
         "3": "OUI — ICN Impact 2022-2026 = plan d’action stratégique formalisé avec 64 actions, 24 indicateurs, 8 axes.\n\n• Co-construction multi-acteurs, sobriété, éthique, ouverture, collaboration, inclusion\n• Interdisciplinarité ATM (Art, Technologie, Management) = spécificité ICN\n• Ancrage local + réplicabilité + indicateurs de performance + mesure d’impact + reporting\nSource : ICN-Impact_WEB_FR.pdf, p. 2-4\n\nApprenants :\n• Intégrés dans la co-construction\nSource : ICN-Impact_WEB_FR.pdf, p. 2\n\nCollaborateurs :\n• 32 axes et services engagés\nSource : ICN-Impact_WEB_FR.pdf, p. 3",
         "4": "OUI — Label DD&RS (Développement Durable & Responsabilité Sociétale de l’enseignement supérieur) obtenu début 2024 + Pacte Mondial + PRME.\n\n• Label DD&RS obtenu (parmi les 10% d’écoles labellisées en France)\n• Pacte Mondial des Nations Unies signataire\n• PRME (Principles for Responsible Management Education) signataire\nSource : icn-artem.com/news/icn-obtient-le-label-ddrs\n\nApprenants :\n• Le label évalue la formation\nSource : icn-artem.com\n\nCollaborateurs :\n• Le label couvre la politique sociale\nSource : icn-artem.com",
@@ -3328,7 +3328,7 @@ const BENCHMARK_DATA = {
     {
       "name": "PARIS SCHOOL OF BUSINESS",
       "justifs": {
-        "1": "OUI — Département RSE créé 2018 (Carole Simonnet, professeure finance) + politique RSE à 4 niveaux intégrée au modèle pédagogique.\n\n• Politique RSE structurée à 4 niveaux : 1) connaissances transitions, 2) MOOCs + projets humanitaires (Solidarity Awards), 3) conférences International Futures, 4) Label STAR\n• Management environnemental intégré (achats, transport, énergie, eau, déchets, biodiversité)\n• Campus 10 000 m² à côté de Station F (hub innovation Paris)\nSource : Rapport RSE 2022-23, p. 6\n\nApprenants :\n• 4 000 étudiants, 100+ nationalités\nSource : Rapport RSE 2022-23, p. 3\n\nCollaborateurs :\n• ~200 collaborateurs dont ~100 chercheurs permanents\nSource : Rapport RSE 2022-23, p. 3",
+        "1": "PARTIEL — Département RSE créé 2018 piloté par Carole Simonnet (professeure finance), pas un poste COMEX/DG dédié. Politique RSE à 4 niveaux intégrée au modèle pédagogique.\n\n• Département RSE créé en 2018, piloté par Carole Simonnet (professeure de finance)\n• Politique RSE à 4 niveaux : connaissances, MOOCs/projets, conférences, Label STAR\n• Carole Simonnet = enseignante-chercheure, pas un poste de direction COMEX\nSource : Rapport RSE PSB 2022-23, p. 6\n\nApprenants : département RSE dédié pilotant les 4 niveaux.\nCollaborateurs : RSE portée par une professeure, pas par un membre du COMEX.",
         "2": "PARTIEL — Département RSE actif mais pas de comité RSE formalisé avec composition et fréquence documentés.\n\n• Département RSE coordonne les actions\n• Pas de comité RSE formel identifié\nSource : Rapport RSE 2022-23, p. 6\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
         "3": "PARTIEL — Politique RSE à 4 niveaux + stratégie 2028 annoncée mais plan formalisé avec indicateurs non publié.\n\n• 4 niveaux de la politique RSE structurés\n• Stratégie 2028 annoncée\n• Pas de plan avec indicateurs et échéancier publié\nSource : Rapport RSE 2022-23, p. 6 ; planetegrandesecoles.com/psb-strategie-2028\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
         "4": "NON — Aucun label RSE/DD obtenu. PRME signé (engagement volontaire, pas un label certifié).\n\n• PRME (Principles for Responsible Management Education) signé en 2014\n• Triple accréditation AACSB + AMBA + EFMD Master\n• Pas de label DD&RS, LUCIE ni EcoVadis\nSource : Rapport RSE 2022-23, p. 5\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Non applicable",
@@ -3370,7 +3370,7 @@ const BENCHMARK_DATA = {
     {
       "name": "BURGUNDY SCHOOL OF BUSINESS",
       "justifs": {
-        "1": "OUI — Stratégie RSE « Act for Change » (2022-2027) structurée en 3 piliers et 6 cibles ODD, intégrée au plan stratégique UP 2027.\n\n• 3 piliers : Act for Respect (égalité, diversité, consommation responsable), Act for Sustainability (gouvernance, recherche), Act for Empowerment (formation, employabilité)\n• 6 objectifs alignés sur les ODD (Objectifs de Développement Durable de l’ONU)\n• 20 ans d’engagement RSE formalisé (depuis 2003)\nSource : Rapport RSE BSB 2024, p. 5\n\nApprenants :\n• Signature « We believe in Youth » : étudiants placés au cœur du modèle de formation\nSource : Rapport RSE 2024, p. 2\n\nCollaborateurs :\n• 5 valeurs BSB guident les décisions : esprit entrepreneurial, intégrité, impact, diversité, accompagnement\nSource : Rapport RSE 2024, p. 3",
+        "1": "PARTIEL — Anne-Laure Brochet responsable Accréditations & RSE, stratégie « Act for Change » (2022-2027), mais pas de poste RSE dédié au COMEX confirmé.\n\n• Anne-Laure Brochet : responsable Accréditations & RSE\n• Stratégie RSE « Act for Change » (2022-2027) en 3 piliers et 6 cibles ODD\n• 20 ans d'engagement RSE formalisé (depuis 2003)\n• Rattachement COMEX de cette fonction non confirmé\nSource : Rapport RSE BSB 2024, p. 5 ; recherche web\n\nApprenants : stratégie RSE structurante sur 3 piliers.\nCollaborateurs : responsable RSE identifiée mais niveau COMEX non confirmé.",
         "2": "OUI — Chaire Management & Innovation Responsables (MIR, partenariat La Poste) + Accord de Grenoble (4ème école de management signataire, 11 objectifs concrets).\n\n• Accord de Grenoble signé 2021 (CTES — Convention pour la Transition des Établissements du Supérieur) : initiative étudiante engageant les établissements dans la transition socio-écologique\n• 11 objectifs couvrant formation, recherche, partenariats, politique sociale, gestion environnementale du campus\n• CEREN (Centre de Recherche sur l’Entreprise, créé 2003) : modèles de responsabilité sociale, éthique, durabilité\nSource : Rapport RSE 2024, p. 7\n\nApprenants :\n• Fédération des Étudiants BSB co-signataire de l’Accord de Grenoble\nSource : Rapport RSE 2024, p. 7\n\nCollaborateurs :\n• Chaire MIR implique les chercheurs\nSource : bsb-education.com/csr-commitments",
         "3": "OUI — Act for Change (3 piliers, 6 objectifs ODD) + Accord de Grenoble (11 objectifs) + Manifeste BSB publié + 5ème rapport RSE.\n\n• Manifeste BSB publié (bsb-education.com/manifeste)\n• 5ème rapport RSE 2024 publié (24 pages)\n• 12 projets prioritaires définis pour 2024-2026 dans une logique d’amélioration continue\nSource : Rapport RSE 2024, p. 5, 21\n\nApprenants :\n• Formation RSE intégrée dans tous les programmes\nSource : Rapport RSE 2024, p. 16\n\nCollaborateurs :\n• 12 projets couvrent le fonctionnement\nSource : Rapport RSE 2024, p. 21",
         "4": "OUI — Label DD&RS (Développement Durable & Responsabilité Sociétale de l’enseignement supérieur) obtenu juin 2024 (1ère labellisation) + PRME + Charte LGBT+ + Charte Diversité.\n\n• Label DD&RS obtenu juin 2024 pour 2 ans\n• Positive Impact Rating : « Transforming School » (Top 50 mondial)\n• Charte LGBT+ de L’Autre Cercle signée 2024 (5ème grande école de management)\n• Charte de la Diversité signée 2011\n• PRME signataire depuis 2015\n• Accord de Grenoble signé 2021\n• Adhésion CIRSES (Collectif pour la RSE dans l’Enseignement Supérieur) 2018\nSource : Rapport RSE 2024, p. 6-7, 13\n\nApprenants :\n• Fédération des Étudiants co-signataire des chartes\nSource : Rapport RSE 2024, p. 7\n\nCollaborateurs :\n• Labels couvrent la politique sociale\nSource : Rapport RSE 2024, p. 7",

@@ -17,6 +17,7 @@
   --non-text: #9C0006;
   --score-elite: #1B5E20;
   --score-avance: #4CAF50;
+  --score-confirme: #8BC34A;
   --score-correct: #FFC107;
   --score-retard: #FF9800;
   --score-insuffisant: #E53935;
@@ -307,6 +308,8 @@ tbody tr:hover td.score-elite,
 tbody td.score-elite { background: var(--score-elite) !important; color: #fff !important; }
 tbody tr:hover td.score-avance,
 tbody td.score-avance { background: var(--score-avance) !important; color: #fff !important; }
+tbody tr:hover td.score-confirme,
+tbody td.score-confirme { background: var(--score-confirme) !important; color: #fff !important; }
 tbody tr:hover td.score-correct,
 tbody td.score-correct { background: var(--score-correct) !important; color: #333 !important; }
 tbody tr:hover td.score-retard,
@@ -336,6 +339,7 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
 .justif-header:hover .score-tag { opacity: 1 !important; }
 .score-tag.score-elite { background: var(--score-elite) !important; }
 .score-tag.score-avance { background: var(--score-avance) !important; }
+.score-tag.score-confirme { background: var(--score-confirme) !important; }
 .score-tag.score-correct { background: var(--score-correct) !important; color: #333 !important; }
 .score-tag.score-retard { background: var(--score-retard) !important; }
 .score-tag.score-insuffisant { background: var(--score-insuffisant) !important; }

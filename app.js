@@ -173,6 +173,7 @@ function renderStats() {
 // --- Helpers ---
 function scoreClass(score) {
   if (score >= 30) return 'score-avance';
+  if (score >= 25) return 'score-confirme';
   if (score >= 20) return 'score-correct';
   return 'score-insuffisant';
 }
