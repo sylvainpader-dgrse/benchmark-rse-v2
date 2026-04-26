@@ -137,7 +137,7 @@ function renderStats() {
   el.innerHTML = `
     <div class="stat-card">
       <div class="stat-num">${total}</div>
-      <div class="stat-label">${total - 5} écoles et 5 groupes analysés</div>
+      <div class="stat-label">${total - 6} écoles et 6 groupes analysés</div>
     </div>
     <div class="stat-card stat-card-labels">
       <div class="stat-num">${labelled}<span class="stat-num-small">/${total}</span></div>
