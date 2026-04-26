@@ -191,6 +191,13 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Verdict C4 : PARTIEL → NON
   - Score : 20.5 → 20.0 (tier En progression conservé)
   - Excel mis à jour (Grille R37)
+- **Audencia Business School enrichi** (26 avril) :
+  - 21 justifs enrichies (C2, C3, C5, C6, C9, C12, C15, C16, C17, C18, C20, C21, C22, C23, C24, C26, C27, C29, C32, C33, C34)
+  - Verdicts modifiés : C22 PARTIEL → OUI (Charte INR + adhésion + plan sobriété 2022) ; C24 PARTIEL → OUI (partenariat WWF + groupe biodiversité + charte éco-événements)
+  - Score : 29.5 → **30.5** (Confirmé → **Avancé**)
+  - Corrections : "CAR" → "CARES" (acronyme correct du collectif), suppression extrapolation budget C5
+  - Sources : Rapport DD&RS 2026 (16p) + rse.audencia.com + sources web vérifiées
+  - Excel mis à jour (Grille R19)
 
 ### 📋 Travail antérieur reverté (commit `d62751c`)
 - Enrichissements en lot des 8 écoles (CESI, OMNES, AD, Galileo, IONIS, IGENSIA, EMLYON, ESSEC)
@@ -202,9 +209,13 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 2. **OMNES** (groupe le plus avancé)
 3. **CESI** (groupe le plus récent)
 4. **Galileo, IONIS** (autres groupes)
-5. **Top écoles Avancé** (EMLYON, ESSEC, ÉCOLE POLY, HEC, KEDGE, ESCP, EDHEC, ESSCA, GEM, SCIENCES PO, SKEMA, TBS)
-6. **Écoles Confirmé** (BSB, AUDENCIA, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
+5. **Top écoles Avancé** (EMLYON, ESSEC, ÉCOLE POLY, HEC, KEDGE, ESCP, EDHEC, ESSCA, GEM, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
+6. **Écoles Confirmé** (BSB, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
 7. **Reste** (En progression / Insuffisant)
+
+### 💡 Méthode validée et améliorée (post-Audencia)
+- **Croisement systématique PDF + sites web** : pour chaque "PARTIEL faible" du rapport, vérifier sur le site école (rse.<école>.com, fondation, chaires) avant de conclure NON. Audencia a démontré que 4 critères "PARTIEL" cachaient des dispositifs solides documentés sur le site (C22 numérique INR, C24 biodiversité WWF, C27 économie circulaire, C32 achats responsables).
+- **Préconisation explicite avec scénarios** : présenter "conservateur / médian / maximaliste" avec impact score, pour que l'utilisateur tranche en conscience.
 
 ---
 
