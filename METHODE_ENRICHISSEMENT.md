@@ -198,6 +198,14 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Corrections : "CAR" → "CARES" (acronyme correct du collectif), suppression extrapolation budget C5
   - Sources : Rapport DD&RS 2026 (16p) + rse.audencia.com + sources web vérifiées
   - Excel mis à jour (Grille R19)
+- **Brest Business School enrichi** (26 avril) :
+  - 24 justifs enrichies (C1, C3, C4, C6, C7, C8, C9, C10, C12, C15, C16, C17, C18, C21, C23, C25, C26, C27, C30, C31, C32, C33, C34, C35)
+  - **Examen équilibré dans les 2 sens** (suite remarque utilisateur sur biais à la hausse)
+  - 3 descentes (cohérence méthode AD) : C4 PARTIEL → NON (zéro label dans périmètre strict) ; C6 PARTIEL → NON (charte étudiante ≠ dispositif anti-corruption) ; C8 OUI → PARTIEL (MS et MIB pas documentés sur DD obligatoire ≥15h/an)
+  - 10 montées : C12, C18, C21, C23, C27, C32 NON → PARTIEL ; C16, C17, C25, C26 PARTIEL → OUI
+  - Score : 11.0 → **14.5** (Insuffisant maintenu, <20)
+  - Sources : Rapport PRME 2021 (86p) + brest-bs.com + vérifs web
+  - Excel mis à jour (Grille R44)
 
 ### 📋 Travail antérieur reverté (commit `d62751c`)
 - Enrichissements en lot des 8 écoles (CESI, OMNES, AD, Galileo, IONIS, IGENSIA, EMLYON, ESSEC)
@@ -213,9 +221,17 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 6. **Écoles Confirmé** (BSB, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
 7. **Reste** (En progression / Insuffisant)
 
-### 💡 Méthode validée et améliorée (post-Audencia)
+### 💡 Méthode validée et améliorée (post-Audencia + Brest BS)
 - **Croisement systématique PDF + sites web** : pour chaque "PARTIEL faible" du rapport, vérifier sur le site école (rse.<école>.com, fondation, chaires) avant de conclure NON. Audencia a démontré que 4 critères "PARTIEL" cachaient des dispositifs solides documentés sur le site (C22 numérique INR, C24 biodiversité WWF, C27 économie circulaire, C32 achats responsables).
 - **Préconisation explicite avec scénarios** : présenter "conservateur / médian / maximaliste" avec impact score, pour que l'utilisateur tranche en conscience.
+- **🆕 Examen équilibré dans les 2 sens (post-Brest BS)** : NE JAMAIS se contenter d'examiner les montées. Toujours challenger les verdicts actuels OUI et PARTIEL avec un œil sceptique :
+  - **OUI** → questionner si le périmètre "TOUS les apprenants" / "scopes 1+2+3" / "≥15h/an" est réellement satisfait
+  - **PARTIEL** → questionner si la périphérie ne ferait pas glisser à NON (cohérence avec C4 AD : zéro label conforme = NON)
+  - Présenter à l'utilisateur les **descentes possibles** en parallèle des montées, avec le calcul net du score
+- **Cohérence inter-écoles sur le périmètre strict** :
+  - C4 (Label RSE) : zéro label DD&RS/LUCIE/EcoVadis/ISO 14001/B Corp = NON systématique (cf. AD, Brest BS)
+  - C6 (Procédure éthique) : charte étudiante ≠ dispositif anti-corruption Sapin II
+  - C8 (Cours DD ≥15h/an) : doit être démontré pour TOUS les programmes, pas seulement Bachelor/PGE
 
 ---
 
