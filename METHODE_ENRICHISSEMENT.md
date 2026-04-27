@@ -263,6 +263,11 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - C1 OUI maintenu : Direction RSE créée 2020 + équipe projet Efrei for Good (4 personnes sous responsabilité CODIR) + Stéphanie Libeskind Responsable RSE + maillage 80+ personnes (60 référents EFG + 6 référents harcèlement + référents thématiques)
   - Score : 29.0 → **30.5** (Confirmé → **Avancé** ✨, seuil ≥30)
   - Excel mis à jour (Grille R23)
+- **EM Normandie enrichi** (26 avril, sources officielles strictes) :
+  - 12 justifs enrichies (C1, C5, C7, C15, C17, C18, C19, C25, C30, C33, C34, C35) avec Rapport Fondation EMN 2023 (14p) + Bilan Carbone 2021-2022 via Carbo (35p)
+  - **Aucun changement de verdict** (verdicts actuels déjà cohérents et bien justifiés)
+  - Score : 28.5 → **28.5** (Confirmé maintenu)
+  - Apports : Élian Pilvin DG + Philippe-Jean Péron Président Fondation + Solène Heurtebis Directrice DISE + détails 648K€ Fondation depuis 2016, 241 bourses + 11 entités BC consolidé 4 782 tCO2e + 5 chaires + 15 EC lauréats Prix Excellence Académique + Start'EM Day mars 2023
 
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
