@@ -257,6 +257,12 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Apports Plan 2050 : Centre for Net Positive Business (21M€), Climate Finance School (41M€), Fonds Générations Powered by EDHEC (40M€), Transformative Journey ≥20% ECTS, Label Citizen Associations (100% asso d'ici 2028), 270M€ investissement total
   - Score : 32.0 → **32.5** (Avancé maintenu, ≥30)
   - Excel mis à jour (Grille R11)
+- **EFREI enrichi** (26 avril, sources officielles strictes) :
+  - 22 justifs enrichies avec Rapport RSE 2026 (23p) + Charte Éthique (V2 nov 2025, 7p) + Charte Laïcité/Diversité (V2 déc 2025, 4p)
+  - 5 verdicts modifiés : 1 descente (C4 PARTIEL → NON, candidature DD&RS fin 2025 mais pas obtenu) + 4 montées : C14 PARTIEL → OUI (100% enseignants formés 2j + 14h/an formation DD/RS moyenne par personne), C20 PARTIEL → OUI (objectif chiffré -5%/an d'ici 2050 aligné Accord de Paris), C21 PARTIEL → OUI (Schéma directeur DD/RS adopté CA juillet 2024 + 6 chartes signées + actions concrètes), C30 PARTIEL → OUI (Medaviz 24/7 + Nevaya psy multilingue + psy sociale Eva Souchet sur campus + dispositif évaluation santé mentale)
+  - C1 OUI maintenu : Direction RSE créée 2020 + équipe projet Efrei for Good (4 personnes sous responsabilité CODIR) + Stéphanie Libeskind Responsable RSE + maillage 80+ personnes (60 référents EFG + 6 référents harcèlement + référents thématiques)
+  - Score : 29.0 → **30.5** (Confirmé → **Avancé** ✨, seuil ≥30)
+  - Excel mis à jour (Grille R23)
 
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
