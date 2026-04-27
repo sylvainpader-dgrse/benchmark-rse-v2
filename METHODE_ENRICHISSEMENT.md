@@ -289,6 +289,14 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 - Si rapport et site donnent des valeurs différentes (ex. EMLYON gobelets 15 000/mois vs 2M/an, alimentation 40% vs 50%, index 89 vs 90/100) : **garder la valeur du site officiel** (généralement plus à jour) et ne pas retirer.
 - Cette règle évite les faux retraits qui appauvriraient indûment les justifs.
 
+- **ESCE Business School enrichi** (27 avril, sources officielles strictes) :
+  - 10 justifs enrichies (C1, C2, C13, C15, C25, C26, C30, C33, C34, C35) avec Guide étudiant besoins spécifiques 2024-2025 (19p) + esce.fr/responsabilite-sociale-environnementale
+  - **Aucun changement de verdict** (score 9.0 maintenu, Insuffisant)
+  - Documentation ESCE très limitée (1 seul PDF disponible : guide handicap 19p) — cohérent avec score bas
+  - Apports : Frédérique Boitel Référente RSE-D&I (Faculty Lounge 6e étage sud) + Commission Diversité & Inclusion 9 membres détaillés (DGA Guillaume Ferrante + Dir Faculté Renaud Rodein-Collot + Dir PGE Sélima Sakji + Dir Bachelor Isabelle Pierre-Bassani + Dir MSc Sonia Issolah + Resp Career Marine Talabart + Resp Coord péda Nassima Rami + Resp DRI Jean-Charles Galli) + dispositif handicap complet (sous-titrage cours présentiel/distanciel synchrone+asynchrone, logiciels Antidote + reconnaissance vocale, accessibilité PMR + boucles magnétiques + ascenseurs sonores, 4 ans alternance pour RQTH, mobilité internationale anticipée 6-12 mois) + sportif/artiste haut niveau + proche aidant + partenariats AGEFIPH/FIPHFP/MDPH/CDAPH/Fédé Handinamique/Fondation TotalEnergies (mobilité internationale handicap)/bourses Erasmus+ majorées + sensibilisation systématique des jurys aux discriminations avant chaque demi-journée + RGPD strict pour la confidentialité + PACT 25h ECTS-validé Groupe SOS missions environnementales/sociales/solidaires (5 écoles OMNES depuis 2022) + 44 nationalités + QS 7e mondial diversité + DuoDay + SHIFT(S) conférences/masterclass + conférence annuelle 4h transition écologique 5e année
+  - Score : 9.0 → **9.0** (Insuffisant maintenu, <20)
+  - Pas de mise à jour Excel nécessaire (0 verdict, score inchangé)
+
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
 - **C8 (Cours DD ≥15h/an)** : volume horaire significatif (>30h/an Bachelor) = présomption forte de couverture systématique, sauf si explicitement contredit. Ne pas systématiquement descendre OUI → PARTIEL juste parce que MSc/MBA pas explicitement documentés. Apprécier au cas par cas.
