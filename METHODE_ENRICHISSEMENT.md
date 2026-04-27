@@ -307,8 +307,11 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
     - C13 PARTIEL → OUI (Safe Week octobre 2022 + 2 référentes VSS UCLy dédiées + journée Tous Responsables obligatoire WEI depuis 2009 + signature charte Cpas1option + sensibilisation théâtre + Point écoute psychologue Laure Mayoud)
     - C31 PARTIEL → OUI (3 MSc 100% impact : Circular Economy/Sustainable Tourism/Impact Finance + 2 spécialisations master RSE 547h+523h + Master Management Sciences Humaines et Innovation + DU Environnement + Executive Master Leadership Responsable + 4 programmes Référent RSE 65h)
   - Apports : 348h DD = 24% enseignement obligatoire + 80% électifs/masterclasses composante RSE + 67 800h bénévolat 2 ans (+226% via SoliCity 150h obligatoires) + 2 045 étudiants aidés financièrement 1,36M€ (1 sur 2) + Index F/H UCLy 98/100 (+5 vs 2021, +19 vs 2018) + 73% femmes CoDir Esdes + ISBO créé juillet 2021 + 4 grands projets recherche (ISBO + Mane Flavor 300K€ + PrIORRA 782K€ FEDER + Observatoire RSE Afrique) + 1er atelier Fresque du Climat employés 13 juillet 2023 + 215 étudiants labellisés LADAPT 1 sur 2 ans (Andy Day) + Banque Alimentaire 13e édition 26 tonnes/52 000 repas + Tim&Colette 110 binômes 2022 + KAPS 78 places + 70 projets entrepreneuriaux 2 ans dont 60 à impact + Executive Master Leadership Responsable 484h + 4 programmes Référent RSE + politique chauffage oct 2022 (-10/-12% conso) + audit énergétique Nerco campus Saint-Paul aligné ELAN 2030/2040 + BEGES UCLy 2021 (Esqese, publié ADEME)
-  - Score : 26.5 → **27.5** (Confirmé maintenu)
-  - Excel mis à jour (Grille R31)
+  - **Auto-critique biais (challenge utilisateur post-injection)** : 2 descentes appliquées rétroactivement pour cohérence stricte avec autres écoles :
+    - C20 OUI → PARTIEL (objectif neutralité carbone affiché mais pas chiffré, contrairement à EMLYON -25%/2030, EFREI -5%/an, ESCP -55%/2030)
+    - C29 OUI → PARTIEL (politique alimentation durable formalisée mais formulations qualitatives « faible », « non négligeable » sans % cible vs EMLYON 50% végétal)
+  - Score net : 26.5 → 27.5 (montées) → **26.5 (Confirmé maintenu)** après application descentes
+  - Excel mis à jour (Grille R31, score final 26.5)
 
 - **ESCE Business School enrichi** (27 avril, sources officielles strictes) :
   - 10 justifs enrichies (C1, C2, C13, C15, C25, C26, C30, C33, C34, C35) avec Guide étudiant besoins spécifiques 2024-2025 (19p) + esce.fr/responsabilite-sociale-environnementale
