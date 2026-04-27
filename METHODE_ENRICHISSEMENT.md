@@ -250,6 +250,13 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - **Sources strictement limitées au site officiel + SIP 2024** (rapport PRME minimaliste : « No Entity Yet », « Professor-Discretionary », « No Performance Disclosure »)
   - Pas d'enrichissement par presse externe (Le Parisien 1er Diversité Sociale, Le Point, etc.) selon nouvelle règle stricte sources
   - Excel mis à jour (Grille R46)
+- **EDHEC Business School enrichi** (26 avril, sources officielles strictes) :
+  - 12 justifs enrichies (C1, C3, C5, C8, C9, C17, C20, C23, C27, C33, C34, C35) avec Plan Générations 2050 (juin 2024) + Rapport DDRS 2023
+  - 1 verdict modifié : C27 PARTIEL → OUI (filière déchets formalisée et chiffrée — Lemon Tri 19 000 kg Roubaix 2022 valorisé 97% recyclage matière + ATF Gaia + API Restauration entreprise à mission + Beesk anti-gaspi + compost campus Lille)
+  - C1 OUI maintenu : Cécile Legrand (Responsable RSE depuis février 2022) avec mandat formalisé via plan stratégique « Impact Future Generations » + « Générations 2050 » porté par DG Emmanuel Métais ; Ethics Board structuré depuis 2011
+  - Apports Plan 2050 : Centre for Net Positive Business (21M€), Climate Finance School (41M€), Fonds Générations Powered by EDHEC (40M€), Transformative Journey ≥20% ECTS, Label Citizen Associations (100% asso d'ici 2028), 270M€ investissement total
+  - Score : 32.0 → **32.5** (Avancé maintenu, ≥30)
+  - Excel mis à jour (Grille R11)
 
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
