@@ -37,6 +37,12 @@
 - Référencer la **page précise** : `Source : Rapport ESG 2023-24, p. 17`
 - Distinguer ce qui est documenté de ce qui ne l'est pas (« non documenté », « le rapport ne précise pas »)
 
+### 🔒 RÈGLE STRICTE SOURCES (validée 26 avril, post-EDC)
+- **SEULEMENT** : (1) site web officiel de l'école/groupe + (2) documents officiels publiés par l'école (rapports RSE/ESG, chartes, accords, indicateurs égalité, plans stratégiques publiés)
+- **INTERDIT** : presse externe (Le Parisien, Le Point, L'Étudiant, Les Échos), agences info (presseagence, objectif-ast), Wikipédia, classements externes, articles non publiés par l'école
+- **EXCEPTION** : si la page officielle de l'école mentionne ses propres classements (ex: « Nous sommes 4e ChangeNow »), on peut le citer en sourçant la page école, pas l'éditeur du classement
+- **CHAQUE NOUVELLE ÉCOLE** : croisement systématique PDF + site officiel école obligatoire
+
 ### ❌ Ce qui est INTERDIT
 - **Comparer à une autre école/groupe** dans une justif (le radar compare, pas la justif)
 - Superlatifs éditoriaux (« exemplaire », « le plus abouti », « pionnier », « remarquable »)
@@ -237,10 +243,23 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 29.5 → **30.0** (Confirmé → **Avancé** ✨)
   - Sources : Rapport d'activité 2024-2025 (46p, nov 2025) + Charte RSE (signée 10 nov 2017) + clermont-sb.fr
   - Excel mis à jour (Grille R21)
+- **EDC Paris Business School enrichi** (26 avril, méthode rigueur sources) :
+  - 12 justifs enrichies (C1, C4, C7, C8, C15, C17, C20, C25, C26, C33, C34, C35) UNIQUEMENT avec sources officielles (SIP 2024 + edcparis.edu)
+  - 1 verdict modifié : C4 PARTIEL → NON (zéro label dans périmètre strict — PRME/BSIS/EFMD/AACSB/Qualiopi sont engagement ou accréditations académiques, pas labels RSE)
+  - Score : 6.5 → **6.0** (Insuffisant maintenu)
+  - **Sources strictement limitées au site officiel + SIP 2024** (rapport PRME minimaliste : « No Entity Yet », « Professor-Discretionary », « No Performance Disclosure »)
+  - Pas d'enrichissement par presse externe (Le Parisien 1er Diversité Sociale, Le Point, etc.) selon nouvelle règle stricte sources
+  - Excel mis à jour (Grille R46)
 
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
 - **C8 (Cours DD ≥15h/an)** : volume horaire significatif (>30h/an Bachelor) = présomption forte de couverture systématique, sauf si explicitement contredit. Ne pas systématiquement descendre OUI → PARTIEL juste parce que MSc/MBA pas explicitement documentés. Apprécier au cas par cas.
+
+### 🆕 Règle ajoutée (post-EDC Paris) — RIGUEUR SOURCES
+- **Sources strictement limitées** : site officiel école + documents publiés par l'école
+- **Pas de presse, pas d'articles tiers, pas de Wikipédia, pas de classements externes** (Le Parisien, Le Point, letudiant, presseagence, objectif-ast, etc.)
+- Si une école est faiblement documentée (cas EDC : SIP minimaliste « No Entity Yet », site sans page RSE), assumer le score bas — ne pas chercher à enrichir avec des sources externes pour le faire artificiellement remonter
+- Cette règle préserve l'**équité d'évaluation** entre écoles : toutes sont jugées sur leurs propres communications officielles uniquement
 
 ### 📋 Travail antérieur reverté (commit `d62751c`)
 - Enrichissements en lot des 8 écoles (CESI, OMNES, AD, Galileo, IONIS, IGENSIA, EMLYON, ESSEC)
