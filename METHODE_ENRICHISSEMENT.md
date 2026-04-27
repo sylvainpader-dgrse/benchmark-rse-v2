@@ -301,6 +301,21 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 33.0 → **33.5** (Avancé maintenu, ≥30)
   - Excel mis à jour (Grille R10)
 
+- **EXCELIA Business School enrichi** (27 avril, sources officielles strictes + auto-critique biais) :
+  - 20 justifs enrichies (C1, C2, C3, C4, C7, C8, C9, C12, C13, C14, C16, C17, C18, C19, C20, C21, C27, C30, C32, C34) avec Schéma Directeur RSDD juin 2025 (25p, signé Bruno NEIL DG + Tamym ABDESSEMED DGA) + Rapport TES 2022-2024 (44p, signé Bruno NEIL DG, sept 2024) + Rapport RSE 2020-2021 (32p) + Plan stratégique 2025-2030 « Intelligences for our FutureS » (avril 2025) + excelia-group.fr
+  - **8 verdicts modifiés (toutes des montées, 0 descente)** :
+    - C2 PARTIEL→OUI (Comité parties prenantes oct 2023 + Comité éthique recherche nov 2023 + Sénat étudiants 341 membres déc 2023 + COPIL trimestriel SD RSDD)
+    - C9 PARTIEL→OUI (25% heures enseignement RSE + 75% modules irrigués + TASK™ Sulitest objectif 100% en 2026)
+    - C12 NON→PARTIEL (projet accord QVCT SD RSDD + 12 référents RPS juin 2024 + charte télétravail révisée)
+    - C18 PARTIEL→OUI (Bilan Carbone 9 191 tCO2e Coopérative Carbone La Rochelle + ADEME, scopes 1+2+3, 2,1 tCO2e/étudiant)
+    - C19 NON→OUI (scope 3 détaillé : déplacements, achats, sous-traitances, déchets, fret)
+    - C20 NON→PARTIEL (Programme ACT® pas à pas ADEME aligné Accord de Paris + objectif sobriété -10% en 2024 vs 2019, mais pas d'objectif chiffré pluriannuel — cohérence biais)
+    - C21 PARTIEL→OUI (Schéma Directeur RSDD juin 2025 + Plan ACT® + Plan sobriété énergétique nov 2022 + FMD sept 2023 + Campus Tours BEE + Plan biodéchets)
+    - C27 PARTIEL→OUI (66 pôles tri La Rochelle remplaçant 315 individuelles + Biotop sept 2023 = -11 tCO2e + Greenwishes Orléans mai 2024 + projet biodéchets)
+  - Apports : Plan « Intelligences for our FutureS » 2025-2030 + Bruno NEIL DG + Tamym ABDESSEMED DGA + Lisa MCALLISTER Directrice TES (créée janv 2023) + Soizic DAOUX + Pierric FARGEAS + 5 axes RSDD pilotés au COMEX + 6 000 étudiants + 391 salariés + 4 campus (La Rochelle, Tours, Orléans, Paris) + Niort + Bilan Carbone détaillé scopes 1+2+3 + Plan ACT® ADEME + 5 chaires IRSI + Comptabilité élargie CARE projet doctoral cofinancé Université La Rochelle + Cécile EZVAN Directrice IRSI + Jean-Pierre HELFER Directeur Recherche + Pierre BARET axe DD/RSE + 42 EC + 278 contributions intellectuelles RSE 2021-2023 (50% liées ODD) + 5e ChangeNOW × Les Echos START 2024 + Top 50 mondial PIR niveau 4 + THE IMPACT 301-400/2000 (2e management française) + ODD 8 18e mondial + XL ACT 4 jours formation collaborateurs (28% sensibilisé 2023, objectif 25%/an, 17K€/promotion x 2/an) + Blue Education Experience juin 2023 + Blue Engagement Days + 13 903h enseignement RSE = 25% + 290 enseignants impliqués + 91% Sulitest + 60% TASK™ (objectif 100% en 2026) + Humacité 802 missions + Climacité 553 missions + Direction Engagement Étudiant rentrée 2024 + Sénat 341 étudiants + 30 Sentinelles + Cnaé + 12 référents RPS + Forfait Mobilités Durables 85 salariés + Fondation Excelia 95 676€ (20 entreprises mécènes, 14 étudiants, 5 projets) + Coopérative Carbone La Rochelle + LRTZC + 66 pôles tri + Biotop -11 tCO2e + Greenwishes + Campus Tours BEE bois/paille + référentiel compétences DD&RS CDEFM (présidé Bruno NEIL) + Comité parties prenantes 3 collèges (Corinne GENDRON UQAM)
+  - Score : **24.5 → 29.0** (En progression → **Confirmé** ≥25 ✨ — passage de tier)
+  - Excel mis à jour (Grille R34)
+
 - **ESSEC Business School enrichi** (27 avril, sources officielles strictes + auto-critique biais) :
   - 17 justifs enrichies (C1, C2, C3, C5, C7, C8, C10, C11, C12, C13, C17, C18, C20, C26, C27, C30, C34) avec Rapport DD&RS Sustainability and Social Responsibility 2025 ESSEC (signé Vincenzo Vinzi Dean + Anne-Claire Pache Associate Dean for Strategy and Sustainability)
   - **1 verdict modifié (descente cohérence biais stricte)** : C20 OUI → PARTIEL — résultat passé tangible (-10% empreinte par étudiant 23/24 vs 18/19) MAIS pas d'objectif chiffré formalisé (% réduction par an, année cible) ni trajectoire publique, contrairement à EMLYON -25%/2030, EFREI -5%/an aligné Accord de Paris, ESCP -55%/2030 + Net Zero 2050. Cohérence stricte avec correctifs ESDES + ESSCA.
