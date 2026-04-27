@@ -276,6 +276,18 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 25.5 → **26.0** (Confirmé maintenu)
   - Sources : Rapport RSO 2023 (38p, mai 2023) + em-strasbourg.com
   - Excel mis à jour (Grille R32)
+- **EMLYON Business School enrichi** (27 avril, sources officielles strictes + vérification site) :
+  - 21 justifs enrichies par AJOUT (C1, C2, C3, C5, C7, C8, C9, C11, C12, C14, C15, C17, C18, C20, C26, C27, C29, C30, C32, C33, C34) avec Rapport d'engagement 2024 (40p, avril 2025) + DPEF 2023-2024 vérifié OTI Baker Tilly STREGO (74p, accrédité COFRAC n° 3-1883) + em-lyon.com
+  - **Aucun changement de verdict** (score 35.0 maintenu, top du benchmark)
+  - **Apprentissage clé** : ne JAMAIS retirer un chiffre déjà sourcé sur le site officiel sans avoir vérifié le site (cas « 2 millions de gobelets/an » : initialement proposé à retrait sur la base du rapport « 15 000/mois », vérification em-lyon.com a confirmé la valeur 2M/an officielle → conservée). Idem pour 50% alimentation végétale (rapport dit 40%, site dit 50% à jour 2024) et index égalité 90/100 (rapport dit 89/100 fin 2023, site dit 90/100 en 2024).
+  - Apports : Bénédicte Bost DESE au Comité Exécutif (10 personnes) + Comité de Mission 9p (6 externes) + Conseil de Surveillance 12p + Commission RSE 4p + Direction ESE 13 collaborateurs RSE + 7 médico-sociaux + 35 profs task force + 30 ambassadeurs collaborateurs + 1 responsable RSE/asso (33 assos) + 4 chaires alignées mission (nouvelle Transition Hydrogène avec Vinci+Centrale Lyon) + Institut HITS Healthcare créé + cursus emlyon BioPharma + Label HRS4R Commission Européenne février 2025 + La Toile 95% satisfaction 90% réussite + 219 étudiants handicap (+135% depuis 2021) + TrEMplin 137 boursiers (+61%) + Conseil de Surveillance 41% femmes (5/12) + Charte LGBT+ Autre Cercle depuis 2022 (77% bienveillance baromètre) + Junior Entreprise label Engagé RSE AFNOR + +18% dons Fondation 2023 vs 2022 + Pass Betterway 400€/an + 86 associations partenaires + 1612 engagements/an + 87 300h bénévolat
+  - Score : 35.0 → **35.0** (Avancé maintenu, top benchmark, ≥30)
+  - Pas de mise à jour Excel nécessaire (0 verdict, score inchangé)
+
+### 🆕 Règle ajoutée (post-EMLYON) — VÉRIF SITE AVANT RETRAIT
+- **Avant de retirer ou modifier un chiffre déjà présent dans une justif**, vérifier systématiquement sur le site officiel école si le chiffre y figure (le périmètre méthodologique inclut **site officiel + documents publiés**, donc un chiffre site est valide même s'il diffère du rapport).
+- Si rapport et site donnent des valeurs différentes (ex. EMLYON gobelets 15 000/mois vs 2M/an, alimentation 40% vs 50%, index 89 vs 90/100) : **garder la valeur du site officiel** (généralement plus à jour) et ne pas retirer.
+- Cette règle évite les faux retraits qui appauvriraient indûment les justifs.
 
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
