@@ -268,6 +268,14 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - **Aucun changement de verdict** (verdicts actuels déjà cohérents et bien justifiés)
   - Score : 28.5 → **28.5** (Confirmé maintenu)
   - Apports : Élian Pilvin DG + Philippe-Jean Péron Président Fondation + Solène Heurtebis Directrice DISE + détails 648K€ Fondation depuis 2016, 241 bourses + 11 entités BC consolidé 4 782 tCO2e + 5 chaires + 15 EC lauréats Prix Excellence Académique + Start'EM Day mars 2023
+- **EM Strasbourg Business School enrichi** (27 avril, sources officielles strictes) :
+  - 16 justifs enrichies (C1, C2, C3, C10, C12, C14, C17, C18, C21, C23, C24, C27, C33, C34, C35) avec Rapport RSO 2023 EM Strasbourg (38p) + em-strasbourg.com
+  - 3 verdicts modifiés (examen équilibré dans les 2 sens) :
+    - **1 descente** : C1 PARTIEL → NON (Auréline Gamand chargée de mission RSO + Babak Mehmanpazir DG mais comité RSO consultatif sans rattachement formalisé COMEX au sens du périmètre strict)
+    - **2 montées** : C23 PARTIEL → OUI (Forfait Mobilité Durable 300€/an propre EM + Green Mobility 5 étapes + Au boulot à Vélo 3e composante interne) ; C27 PARTIEL → OUI (Green Phoenix biodéchets startup alumni + Recygo papier 800kg + Cy-clope mégots 35kg + 21 points collecte)
+  - Score : 25.5 → **26.0** (Confirmé maintenu)
+  - Sources : Rapport RSO 2023 (38p, mai 2023) + em-strasbourg.com
+  - Excel mis à jour (Grille R32)
 
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
