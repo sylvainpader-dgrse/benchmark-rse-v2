@@ -219,6 +219,15 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 29.0 → **28.5** (Confirmé maintenu)
   - Sources : Rapport RSE 2024 BSB (24p, déc 2024, récent) + Indicateurs égalité 2024-25 + Accord collectif égalité + Plan d'action égalité 2023-24 + bsb-education.com
   - Excel mis à jour (Grille R22)
+- **★ IGENSIA Education enrichi** (CIBLE du benchmark — 26 avril) :
+  - 36 justifs enrichies (tous les critères)
+  - 2 verdicts modifiés : C8 OUI → PARTIEL (Mastères pas couverts par 30h/an, rentrée 2027 prévue) ; C23 PARTIEL → OUI (forfait mobilité 150€/an + Karos + locaux vélos = politique formalisée)
+  - C1 OUI confirmé : Heide Mathieu (Directrice DD) avec mandat formalisé sur stratégie LUCIE 26000, rattachée DG (périmètre satisfait)
+  - Correction factuelle : index égalité C26 corrigé (76/100 et non 93/100)
+  - Score : 27.0 → **27.0** (Confirmé maintenu, inchangé)
+  - **CONFIRMATION ANTI-ERREUR** : IGENSIA = fédération d'associations à but non lucratif (loi 1901), PAS Société à Mission (vérifié rapport p. 6 + Wikipédia + nominations 2023)
+  - Sources : Rapport RSE 2024-2025 (48p, mars 2026) + igensia-education.fr + LinkedIn + nominations Groupe IGS juin 2023
+  - Excel mis à jour (Grille R29)
 
 ### 📋 Travail antérieur reverté (commit `d62751c`)
 - Enrichissements en lot des 8 écoles (CESI, OMNES, AD, Galileo, IONIS, IGENSIA, EMLYON, ESSEC)
@@ -226,13 +235,13 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 - AD a été refait proprement après revert avec la nouvelle méthode
 
 ### 🔜 À faire (par ordre de priorité)
-1. **IGENSIA** (cible — re-faire proprement après l'erreur Société à Mission)
+1. ~~IGENSIA (cible)~~ ✅ Fait proprement avec sources verifiées
 2. **OMNES** (groupe le plus avancé)
 3. **CESI** (groupe le plus récent)
 4. **Galileo, IONIS** (autres groupes)
 5. **Top écoles Avancé** (EMLYON, ESSEC, ÉCOLE POLY, HEC, KEDGE, ESCP, EDHEC, ESSCA, GEM, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
-6. **Écoles Confirmé** (BSB, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
-7. **Reste** (En progression / Insuffisant)
+6. **Écoles Confirmé** (BSB ✅, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
+7. **Reste** (En progression / Insuffisant — Brest BS ✅, AD ✅)
 
 ### 💡 Méthode validée et améliorée (post-Audencia + Brest BS)
 - **Croisement systématique PDF + sites web** : pour chaque "PARTIEL faible" du rapport, vérifier sur le site école (rse.<école>.com, fondation, chaires) avant de conclure NON. Audencia a démontré que 4 critères "PARTIEL" cachaient des dispositifs solides documentés sur le site (C22 numérique INR, C24 biodiversité WWF, C27 économie circulaire, C32 achats responsables).
