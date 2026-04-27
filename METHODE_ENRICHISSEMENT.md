@@ -289,6 +289,18 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 - Si rapport et site donnent des valeurs différentes (ex. EMLYON gobelets 15 000/mois vs 2M/an, alimentation 40% vs 50%, index 89 vs 90/100) : **garder la valeur du site officiel** (généralement plus à jour) et ne pas retirer.
 - Cette règle évite les faux retraits qui appauvriraient indûment les justifs.
 
+- **ESCP Business School enrichi** (27 avril, sources officielles strictes) :
+  - 20 justifs enrichies (C1, C2, C3, C5, C6, C7, C8, C9, C10, C12, C13, C16, C17, C18, C19, C20, C21, C25, C26, C34) avec Rapport activité 2023 (16p) + Carbon Footprint 2024 vérifié AFNOR Certification (25p, ISO 14064-3:2019, niveau Reasonable, certificat 116114.1) + Brochure Sustainability ESCP (5p) + Rapport Fondation 2023 (24p) + Sustainability Report Berlin 2022 (34p) + escp.eu
+  - **1 montée** : C16 PARTIEL → OUI (Train the Trainers programme lancé 2023 avec Le Campus de la Transition + 10 ambassadeurs « connectors » dans chaque département académique + 20+ profs Sustainability Department dirigé par Prof. Julien Schmitt)
+  - **Corrections factuelles importantes** :
+    - C7, C18, C21 : « Bilan Carbone audité PWC » → **AFNOR Certification** (niveau Reasonable, supérieur à Limited)
+    - C2 : « Sustainability Advisory Council 13 leaders, lancé avril 2025 » → **12 leaders, Sustainability Leaders Alliance « in formation »** (brochure)
+    - C9 : « 2 MSc » → **3 MSc + 21 spécialisations MiM**
+    - C17 : Sustainability Department dirigé par **Prof. Julien Schmitt** + **2 centres recherche RESET et STAR** + 14 chaires + 3 Professorships
+  - Apports : Léon Laulusa Executive President & Dean (mai 2023) + plan « Choice & Experiences » 2022-25 + LIGhTS 6 priorités + 9 786 étudiants 135 nationalités + 14 chaires (Women in Finance déc 2023 avec 6 mécènes + Cartier ESCP-HEC + BNPP + Schneider + BPCE + IoT + Diversity Gap + Africa AXIAN/Attijariwafa) + 3 Professorships (KPMG, L'Oréal, Monaco) + ERIM + Ethical assessment committee 2021 + AI User Charter mai 2023 + Bilan Carbone 28 247 tCO2e détaillé scope 1+2+3 + Plan transition 22 actions 8 axes + Personal carbon account + 320M€ rénovation 5 campus + Madrid LEED Platinum + Turin classe A4 + Berlin 100% renouvelable TÜV Nord + Camden Climate Alliance Londres + Effinature visé Paris (urbain biodiversité, refuges flore/faune locales) + Ma Petite Planète depuis 2022 (1102 participants jan 2025 -66,2 tCO2e) + Designing Europe en train (1400 étudiants) + AXA Climate School 900 certifiés + 1461 séminaires obligatoires + Sulitest étendu 2024 + 5,1M€ Fondation 2023 (+24,4%) 47 projets + 9M€ Égalité chances + 869 bourses + 117 Chances Augmentées + 7 910 repas 1€ + 53 prêts BNPP + Talent Spring KPMG + 24% boursiers PGE + Index F/H 97/100 (2026) + 100 associations étudiantes
+  - Score : 33.0 → **33.5** (Avancé maintenu, ≥30)
+  - Excel mis à jour (Grille R10)
+
 - **ESCE Business School enrichi** (27 avril, sources officielles strictes) :
   - 10 justifs enrichies (C1, C2, C13, C15, C25, C26, C30, C33, C34, C35) avec Guide étudiant besoins spécifiques 2024-2025 (19p) + esce.fr/responsabilite-sociale-environnementale
   - **Aucun changement de verdict** (score 9.0 maintenu, Insuffisant)
