@@ -228,6 +228,19 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - **CONFIRMATION ANTI-ERREUR** : IGENSIA = fédération d'associations à but non lucratif (loi 1901), PAS Société à Mission (vérifié rapport p. 6 + Wikipédia + nominations 2023)
   - Sources : Rapport RSE 2024-2025 (48p, mars 2026) + igensia-education.fr + LinkedIn + nominations Groupe IGS juin 2023
   - Excel mis à jour (Grille R29)
+- **Clermont School of Business enrichi** (26 avril) :
+  - 17 justifs enrichies sur les critères clés (C1, C4, C8, C12, C13, C14, C17, C18, C21, C23, C25, C26, C28, C29, C30, C33, C34)
+  - 1 verdict modifié : C29 PARTIEL → OUI (charte alimentation durable Fresh Food Lab signée 5 fév 2025)
+  - C8 OUI maintenu après challenge utilisateur : 100h DD Bachelor (~33h/an, très au-dessus du seuil 15h) + 30h PGE + 4 spécialisations RSE PGE + Académie interdisciplinaire transitions = volume très significatif probablement déployé partout
+  - C1 OUI confirmé : Robin Jund = Directeur TSE (poste de direction, pas responsable opérationnel) + Sandrine Villeneuve Chargée Mission TSE depuis avril 2025
+  - C4 confirmé OUI : Label DD&RS obtenu décembre 2025 (vérifié sur clermont-sb.fr/en)
+  - Score : 29.5 → **30.0** (Confirmé → **Avancé** ✨)
+  - Sources : Rapport d'activité 2024-2025 (46p, nov 2025) + Charte RSE (signée 10 nov 2017) + clermont-sb.fr
+  - Excel mis à jour (Grille R21)
+
+### 🆕 Règle méthodologique ajoutée (post-Clermont)
+- **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
+- **C8 (Cours DD ≥15h/an)** : volume horaire significatif (>30h/an Bachelor) = présomption forte de couverture systématique, sauf si explicitement contredit. Ne pas systématiquement descendre OUI → PARTIEL juste parce que MSc/MBA pas explicitement documentés. Apprécier au cas par cas.
 
 ### 📋 Travail antérieur reverté (commit `d62751c`)
 - Enrichissements en lot des 8 écoles (CESI, OMNES, AD, Galileo, IONIS, IGENSIA, EMLYON, ESSEC)
