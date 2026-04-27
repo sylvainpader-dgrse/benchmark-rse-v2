@@ -204,8 +204,21 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - 3 descentes (cohérence méthode AD) : C4 PARTIEL → NON (zéro label dans périmètre strict) ; C6 PARTIEL → NON (charte étudiante ≠ dispositif anti-corruption) ; C8 OUI → PARTIEL (MS et MIB pas documentés sur DD obligatoire ≥15h/an)
   - 10 montées : C12, C18, C21, C23, C27, C32 NON → PARTIEL ; C16, C17, C25, C26 PARTIEL → OUI
   - Score : 11.0 → **14.5** (Insuffisant maintenu, <20)
+  - **Correction rétroactive C1 PARTIEL → NON** (suite challenge utilisateur) : A. Choquet pas au COMEX → score 14.5 → **14.0**
   - Sources : Rapport PRME 2021 (86p) + brest-bs.com + vérifs web
   - Excel mis à jour (Grille R44)
+- **Correction rétroactive AD Education C1** (26 avril, suite cohérence stricte) :
+  - C1 PARTIEL → NON (la justif disait déjà explicitement « Pas de Direction RSE dédiée au COMEX identifiée »)
+  - Score : 20.0 → **19.5**
+  - Tier : « En progression » → **« Insuffisant »** ⬇ (passage de seuil 20)
+  - Excel mis à jour (Grille R37)
+- **Burgundy School of Business (BSB) enrichi** (26 avril) :
+  - 27 justifs enrichies (tous les critères)
+  - 3 descentes (cohérence stricte) : C1 PARTIEL → NON (Anne-Laure Brochet pas au Directoire) ; C12 OUI → PARTIEL (politique QVT à formaliser, projet 2024-26) ; C14 OUI → PARTIEL (seuls nouveaux salariés formés, déploiement total 2027)
+  - 2 montées (preuves solides) : C9 PARTIEL → OUI (« tous les programmes intègrent 1 objectif RSE » — Indicateurs égalité 2024-25) ; C21 PARTIEL → OUI (Stratégie Act for Change formalisée + label DD&RS audit 5 axes)
+  - Score : 29.0 → **28.5** (Confirmé maintenu)
+  - Sources : Rapport RSE 2024 BSB (24p, déc 2024, récent) + Indicateurs égalité 2024-25 + Accord collectif égalité + Plan d'action égalité 2023-24 + bsb-education.com
+  - Excel mis à jour (Grille R22)
 
 ### 📋 Travail antérieur reverté (commit `d62751c`)
 - Enrichissements en lot des 8 écoles (CESI, OMNES, AD, Galileo, IONIS, IGENSIA, EMLYON, ESSEC)
@@ -229,9 +242,11 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - **PARTIEL** → questionner si la périphérie ne ferait pas glisser à NON (cohérence avec C4 AD : zéro label conforme = NON)
   - Présenter à l'utilisateur les **descentes possibles** en parallèle des montées, avec le calcul net du score
 - **Cohérence inter-écoles sur le périmètre strict** :
+  - C1 (Gouvernance RSE) : poste/fonction RSE/DD au sein du COMEX/Directoire OU rattaché(e) directement à la DG **avec mandat formalisé** = condition stricte. Si la fonction RSE est portée par un(e) responsable opérationnel(le) sans rattachement exécutif → **NON systématique** (cf. correction rétroactive AD, Brest BS, BSB).
   - C4 (Label RSE) : zéro label DD&RS/LUCIE/EcoVadis/ISO 14001/B Corp = NON systématique (cf. AD, Brest BS)
   - C6 (Procédure éthique) : charte étudiante ≠ dispositif anti-corruption Sapin II
   - C8 (Cours DD ≥15h/an) : doit être démontré pour TOUS les programmes, pas seulement Bachelor/PGE
+- **🆕 Audit rétroactif obligatoire sur les écoles déjà traitées** : à chaque nouvelle règle stricte établie (ex. C1 COMEX), repasser sur les écoles précédemment enrichies pour appliquer la cohérence (sinon, biais d'inégalité d'évaluation entre écoles).
 
 ---
 
