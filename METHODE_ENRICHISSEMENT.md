@@ -352,6 +352,17 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 9.0 → **9.0** (Insuffisant maintenu, <20)
   - Pas de mise à jour Excel nécessaire (0 verdict, score inchangé)
 
+- **Galileo Global Education enrichi** (28 avril, sources officielles strictes — toutes traductions FR appliquées) :
+  - 24 justifs enrichies (C1, C2, C3, C4, C5, C6, C7, C8, C9, C13, C15, C16, C17, C18, C19, C23, C25, C26, C27, C30, C31, C33, C34, C35) avec Galileo Impact Report 2023-2024 EN (72p, source primaire bien extraite) + Rapport d'Impact 2024-2025 FR (122p, encoding partiel) + galileo-globaleducation.com
+  - **3 verdicts modifiés (toutes des montées, 0 descente)** :
+    - C2 PARTIEL → OUI (Comité d'Audit et des Risques = plus haute autorité ESG + Comité Stratégique Impact + 30 « impact champions » +13 nouveaux 2024 + parrains exécutifs Marc-François Mignot Mahon Président-DG + Madeleine Dembélé Directrice Impact)
+    - C3 PARTIEL → OUI (Stratégie Impact 4 piliers + 16 engagements étudiants + 120 KPI déployés + transition vers reporting CSRD + matérialité double 2024)
+    - C27 NON → PARTIEL (suivi déchets Scope 3 depuis 2022 + ZACK 8 320 kg sauvés 518.72 tCO2e évitées + Manutan 2.7t IT 172 tCO2 + Strate Design recyclé)
+  - Apports : Marc-François Mignot Mahon Président-DG + Madeleine Dembélé Directrice Impact + 4 piliers Impact + 110 000+ étudiants + 56 écoles 18 pays + HuCare programme étudiants + ZACK reprise IT + ASSF Académie Sport Santé Forme + SCICONUM + AKAD/NABA/IPETH/EUC/UCIMED/ESEI + #NonCestNon + Diversity Fresco + Fresque du Climat
+  - Choix linguistique (validé utilisateur) : justifs **entièrement en français**, traductions appliquées (« Audit and Risk Committee » → « Comité d'Audit et des Risques », « executive sponsors » → « parrains exécutifs », « Chief People Officer » → « Directeur des Ressources Humaines »). Noms de programmes propres conservés en VO (HuCare, ZACK, SCICONUM, ASSF, AKAD, NABA, IPETH, EUC, UCIMED, #NonCestNon).
+  - Score : 20.0 → **21.5** (En progression maintenu, ≥20)
+  - Excel mis à jour (Grille R39)
+
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
 - **C8 (Cours DD ≥15h/an)** : volume horaire significatif (>30h/an Bachelor) = présomption forte de couverture systématique, sauf si explicitement contredit. Ne pas systématiquement descendre OUI → PARTIEL juste parce que MSc/MBA pas explicitement documentés. Apprécier au cas par cas.
@@ -371,7 +382,7 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 1. ~~IGENSIA (cible)~~ ✅ Fait proprement avec sources verifiées
 2. **OMNES** (groupe le plus avancé)
 3. **CESI** (groupe le plus récent)
-4. **Galileo, IONIS** (autres groupes)
+4. ~~Galileo~~ ✅ Fait (28 avril, FR), **IONIS** (autre groupe)
 5. **Top écoles Avancé** (EMLYON, ESSEC, ÉCOLE POLY, HEC, KEDGE, ESCP, EDHEC, ESSCA, GEM, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
 6. **Écoles Confirmé** (BSB ✅, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
 7. **Reste** (En progression / Insuffisant — Brest BS ✅, AD ✅)
