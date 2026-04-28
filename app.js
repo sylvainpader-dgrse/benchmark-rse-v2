@@ -387,6 +387,8 @@ function escapeHTML(str) {
 
 function formatJustif(str) {
   let text = escapeHTML(str);
+  // Markdown gras : **texte** -> <strong>texte</strong>
+  text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   // Bold verdict
   text = text.replace(/^(OUI|NON|PARTIEL)\s*[\u2014\u2013\u2212—-]\s*/, '<strong>$1</strong> \u2014 ');
   // Remove "Général :" header (content follows directly after verdict)
