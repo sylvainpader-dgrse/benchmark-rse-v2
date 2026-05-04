@@ -352,6 +352,34 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 9.0 → **9.0** (Insuffisant maintenu, <20)
   - Pas de mise à jour Excel nécessaire (0 verdict, score inchangé)
 
+- **Lot HEC + IAE LYON + ICN enrichi en parallèle (28 avril, 3 sub-agents diagnostic + arbitrage strict utilisateur)** :
+  - **Méthode innovante** : 3 sub-agents lancés en parallèle pour la phase diagnostic (extraction PDF + lecture justifs + vérif site + diagnostic équilibré) ; arbitrage final manuel sur les propositions selon périmètre strict du mémo (§6 cohérence inter-écoles).
+  - **HEC Paris** (idx 1) :
+    - 11 justifs enrichies (C1, C7, C16, C17, C18, C20, C21, C27, C29, C32, C34) avec Sustainability Report 2024 (52p, signé Eloïc Peyrache + François Collin CSO) + Transition Report 2022 (61p)
+    - **1 descente C20 OUI → PARTIEL** (cohérence biais stricte) : pas de SBTi, pas d'objectif GHG global chiffré, le seul chiffre -40% énergie d'ici 2030 = obligation décret tertiaire pas trajectoire climat scientifique
+    - C5 montée proposée par sub-agent **REJETÉE** (cohérence ESDES « pas de budget RSE consolidé publié ») → PARTIEL maintenu
+    - Apports : François Collin CSO + 60+ membres + 4ème DPEF juin 2024 + 2nd PRME Progress + 2nd Global Compact Progress + faculty retreat Chamonix 2024 + Center for Impact Finance créé 2024 (Pr. Stefano Lovo, 18 profs, 11 cours, 12+ projets) + 2 nouvelles chaires (Nexans Sustainable Business Transformation + Rothschild Data & Impact Investment) + 278 tCO2 évités viande rouge -35% + 32t biodéchets + Climate & Resource Mgmt Policy 2024 + Responsible Purchasing Policy juillet 2024 4 axes + ESS Accelerator IDF + Brigades Vertes + ZNIEFF DRIEAT IDF
+    - Score : 33.0 → **32.5** (Avancé maintenu, ≥30)
+    - Excel mis à jour (Grille R8)
+  - **IAE LYON** (idx 30) :
+    - 10 justifs enrichies (C1, C2, C3, C8, C9, C10, C17, C26, C33, C34) avec PRME SIP Sustainability Report 2025 (41p) + iae.univ-lyon3.fr (direction-generale + classements-et-accreditations + un-engagement-responsable)
+    - **1 montée C1 PARTIEL → OUI** : Amélie Bohas explicitement nommée « Responsable transition écologique et coordination intersites » dans équipe Direction Générale étendue (site officiel) + mandat formalisé via stratégie 2024-2028 pilier S'ENGAGER + Marie-Christine Chalus DG (Présidente IAE FRANCE depuis juillet 2024)
+    - C4 descente proposée par sub-agent **REJETÉE** (cohérence ESDES : composante UCLy bénéficie LUCIE UCLy = OUI maintenu, donc iaelyon composante Lyon 3 bénéficie DD&RS Lyon 3 = PARTIEL maintenu)
+    - Apports : équipe Direction étendue 10 personnes nommées + 4 piliers stratégie 2024-2028 + SAB prévu 2025 + BSIS 2026 + 6 diplômes spécialisés DD (RSEEO, MEQ2D, QSE, SMIB, SEC) + CforCSR© plateforme e-learning obligatoire tous M2 + BMA module obligatoire Licence + Start'iaelyon 1000 L1 + Week'UP 800 M1 + Global Talks 2025 500 L3 « Inclusion & Sustainability » + 30 000h bénévolat/an + Junior Conseil + That's iaelyon expo photo mars 2025 + Magellan Lab + Graduate School IEIS + 3 chaires (Coopératifs/Mutualistes 2012, Values of Care 2016, CLEA 2022) + 9 articles RSE/49 en 2024 + 25-30% boursiers + 45% classes moyennes/défavorisées + 6786 étudiants iaelyon (sur 24569 Lyon 3) + 2000 partenaires socio-éco + CPME AuRA + Fondation de France
+    - Score : 21.0 → **21.5** (En progression maintenu, ≥20)
+    - Excel mis à jour (Grille R36)
+  - **ICN Business School** (idx 25) :
+    - 9 justifs enrichies (C1, C7, C8, C13, C16, C18, C19, C25, C30) avec Etat-des-lieux DDRSE 2022 PRME SIP (67p, signé Muriel Cordier + Krista Finstad-Million) + Plaquette ICN Impact 2022-2026 + Bilan GES Greenly 2023 (83p, 2804 tCO2e, scope 3) + 2 guides handicap (PEPS + FALC) + icn-artem.com/candidats/lecole/politique-rse
+    - **1 montée C16 PARTIEL → OUI** : Plan ICN Impact 2022-2026 actif (axe 4 forme toute la communauté + axe 5 R&I responsable chercheurs) + SULITEST profs/personnels + Krista Finstad-Million pilote PRME France-Benelux Chapter (62 écoles signataires)
+    - **1 descente C7 OUI → PARTIEL** : pas de rapport RSE/DD&RS annuel récent (SIP-PRME date de 2022, soit 4 ans), juste plaquette + bilan GES 2023 sur le site officiel ; cohérence stricte
+    - C1 montée proposée par sub-agent **REJETÉE** (vérif site officiel ICN : Muriel Cordier PAS confirmée 2025, juste « Myriam Mauroy Responsable de la gestion des données RSE » = fonction opérationnelle pas direction RSE rattachée DG) → PARTIEL maintenu
+    - C2 montée proposée par sub-agent **REJETÉE** (COPIL 25 personnes documenté en 2022 mais pas confirmé 2025 sur site officiel) → PARTIEL maintenu
+    - Apports : Plan ICN Impact 2022-2026 actif (8 axes, 64 actions, 24 indicateurs, 32 services, 12 assos) + 3 campus Paris/Nancy/Berlin + Bilan Greenly 2023 (2804 tCO2e, 13 tCO2e/collaborateur, score Greenly 98%, déménagement 2023 +75% immobilisations) + index F/H 96/100 (1ère Challenges 2022) + 2 psychologues internes + Madeleine Ostrowski référente handicap + commission validation aménagements + bourses Handinamique/GIVEKA 5000€/AGEFIPH 54+92 + RQTH apprentissage 4 ans + 2 guides handicap (standard + FALC) + 80% cours ≥20% RSE + 17 ODD syllabi + Krista Finstad-Million PRME France-Benelux Chapter + Myriam Mauroy gestion données RSE 2025
+    - Score : 25.5 → **25.5** (Confirmé maintenu, net 0 après examen équilibré)
+    - Excel mis à jour (Grille R33)
+  - **Bilan global lot 3 écoles** : 2 montées (IAE LYON C1 + ICN C16) + 2 descentes (HEC C20 + ICN C7) = examen équilibré rigoureux + 4 montées proposées par sub-agents REJETÉES par cohérence stricte (HEC C5 + IAE C4 + ICN C1 + ICN C2) → biais à la hausse évité
+  - **Apprentissage méthodologique** : sub-agents efficaces pour préparation/diagnostic mais biaisent à la hausse (ils proposent +6.5 net, application stricte = +0.5 net). Validation manuelle indispensable.
+
 - **Grenoble EM enrichi** (28 avril, sources officielles strictes + auto-critique stricte biais après challenge utilisateur) :
   - 36 justifs enrichies (tous critères) avec Rapport Société à Mission 2025 (40p, oct 2025, audit OTI KPMG) + Rapport d'activité Chaire Energy for Society 2022-2025 (17p) + Rapport pratiques écologiques 2023 (73p, baromètre transitions ADEME-Métropole) + grenoble-em.com (sustainable-campus + gender-equality + our-commitments)
   - **3 verdicts modifiés (examen équilibré 2 sens, 2 montées + 1 descente)** :
@@ -396,7 +424,9 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 2. **OMNES** (groupe le plus avancé)
 3. **CESI** (groupe le plus récent)
 4. ~~Galileo~~ ✅ Fait (28 avril, FR), **IONIS** (autre groupe)
-5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY, HEC, KEDGE, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
+5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY, HEC ✅, KEDGE, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
+6. **Écoles Confirmé** (BSB ✅, INSEAD, IESEG, NEOMA, EFREI ✅, EM NORMANDIE ✅, RENNES SB, IMT-BS, CLERMONT ✅, DAUPHINE, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅)
+7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅)
 6. **Écoles Confirmé** (BSB ✅, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
 7. **Reste** (En progression / Insuffisant — Brest BS ✅, AD ✅)
 
