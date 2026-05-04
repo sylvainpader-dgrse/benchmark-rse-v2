@@ -352,6 +352,19 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 9.0 → **9.0** (Insuffisant maintenu, <20)
   - Pas de mise à jour Excel nécessaire (0 verdict, score inchangé)
 
+- **Grenoble EM enrichi** (28 avril, sources officielles strictes + auto-critique stricte biais après challenge utilisateur) :
+  - 36 justifs enrichies (tous critères) avec Rapport Société à Mission 2025 (40p, oct 2025, audit OTI KPMG) + Rapport d'activité Chaire Energy for Society 2022-2025 (17p) + Rapport pratiques écologiques 2023 (73p, baromètre transitions ADEME-Métropole) + grenoble-em.com (sustainable-campus + gender-equality + our-commitments)
+  - **3 verdicts modifiés (examen équilibré 2 sens, 2 montées + 1 descente)** :
+    - **Montée C11 PARTIEL → OUI** (Fresque du Climat 100% personnel 2022 + module L3 Discover 45h ateliers/fresques/bilan carbone + Olympiades Sustainability 15j d'activités RSE + Back-to-School Challenge 700 étudiants/an depuis 2018 + TASK Sulitest obligatoire pour tous + fresques thématiques toute l'année — dispositif d'ateliers collaboratifs systématique)
+    - **Montée C16 PARTIEL → OUI** (Plan d'appui formel + 2 enseignants référents pilotes + référent RSE par département + Brown Bags + journée pédagogique + invitation observer cours RSE + support méthodique syllabi avec mesure → résultat 100% syllabi avec contribution RSE en 24-25 vs 31% en 23-24, x3 en un an)
+    - **Descente C20 OUI → PARTIEL (cohérence biais stricte avec ESDES/ESSCA/ESSEC)** : trajectoire « alignée » +1.5°C avec ADEME ACT + CEC + résultat -21% vs 2019, mais aucun objectif chiffré explicite (% par an, année cible) publié, pas de validation SBTi officielle — Comité de Mission demande explicitement « actions sur les mobilités regroupées dans un plan global » (p. 37)
+  - **Découverte C9** : 100% syllabi avec contribution RSE en 24-25 (vs 31% en 23-24, x3 en un an) — KPI majeur Rapport SM 2025 p. 18 (justif mise à jour)
+  - **Conflit chiffres index égalité C26** : site officiel = 94/100 en 2025 (vs 85/100 en 23 et 24) ; Rapport SM = 87/100 sur période 24-25 (vs 76/100 en 23-24). Périmètres temporels différents → règle post-EMLYON appliquée (garder valeur site officiel + mentionner aussi rapport SM)
+  - **Auto-critique appliquée (challenge utilisateur)** : C14 (formation DD collaborateurs) initialement proposée en montée puis RETIRÉE — 273 collaborateurs formés en 24-25 (vs 151 en 23-24) en hausse mais pas systématique annuellement à 100%, dispositif en cours de structuration → PARTIEL maintenu par prudence
+  - Apports : Fouziya Bouzerda DG + Julie Perrin-Halot Directrice RSE + Jean-Christophe Terrier Président Comité Mission + EAGLE 2030 piliers Journey/Sciences/Transitions + 3 instituts d'excellence (EnerG/Future of Work/Moving Mountains) + modèle 60/20/20 (60% présentiel, 20% terrain, 20% virtuel) + Référentiel CDEFM DD&RS + Assurance of Learning AoL + Tag systématique publications académiques transitions + Carrière à Impact module 3 ans + Journée Sustainability Chamrousse + Olympiades Sustainability open badges + 6+ chaires (Territoires en Transition Daudigeos/Ottaviani avec Métropole/Département/Cluster Montagne, Energy for Society Carine Sebi avec 3 auditions Assemblée Nationale + 9 articles The Conversation 80 000 vues + 74 articles presse + 13 conférences académiques + MSc Energy Business and Climate Strategies sept 2024, Paix Économique 2012, FERE 2016, Inclusive Sustainability, Européenne des Transitions déc 2024) + KPMG OTI octobre 2025 + Bilan carbone 9 500 tCO2e en 24-25 (vs 10 300 en 23-24, -21% vs 2019, 3 scopes, 3 campus Sémard/GEM Labs/Pantin) + Pantin certifié E+C-/biodiversité/zéro déchet structure 100% bois biosourcée + 11+ tonnes triées 2024 + ELISE/Lemon Tri ESS + Newcy gobelets/Dabba contenants + 273 collaborateurs formés DD 24-25 (vs 151) + Care Line GEM for me 24/7 14 langues + Certificat Manager Inclusif obligatoire PGE+M1+DBD + 174 étudiants handicap déclarés 24-25 + 50 salles Hyflex 2023 + parcours Asperger + concours dédié + 1684 alternants (vs 1362) + 308 partiellement exonérés 24-25 (vs 206) + 20 boursiers Fondation (vs 17) + 3 dispositifs Excellence/Coup de pouce/Urgence + Refugee Grant Program + Index F/H 94/100 site (87/100 rapport) + ratios F/H corps prof 53/47 (vs 48/52) et programmes 46/54 + Chaire FERE ~30 profs + Prem1ères 100% femmes + lycées QPV
+  - Score : 30.5 → **31.0** (Avancé maintenu, ≥30) — net +0.5 après auto-critique
+  - Excel mis à jour (Grille R15)
+
 - **Galileo Global Education enrichi** (28 avril, sources officielles strictes — toutes traductions FR appliquées) :
   - 24 justifs enrichies (C1, C2, C3, C4, C5, C6, C7, C8, C9, C13, C15, C16, C17, C18, C19, C23, C25, C26, C27, C30, C31, C33, C34, C35) avec Galileo Impact Report 2023-2024 EN (72p, source primaire bien extraite) + Rapport d'Impact 2024-2025 FR (122p, encoding partiel) + galileo-globaleducation.com
   - **3 verdicts modifiés (toutes des montées, 0 descente)** :
@@ -383,7 +396,7 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 2. **OMNES** (groupe le plus avancé)
 3. **CESI** (groupe le plus récent)
 4. ~~Galileo~~ ✅ Fait (28 avril, FR), **IONIS** (autre groupe)
-5. **Top écoles Avancé** (EMLYON, ESSEC, ÉCOLE POLY, HEC, KEDGE, ESCP, EDHEC, ESSCA, GEM, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
+5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY, HEC, KEDGE, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
 6. **Écoles Confirmé** (BSB ✅, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
 7. **Reste** (En progression / Insuffisant — Brest BS ✅, AD ✅)
 
