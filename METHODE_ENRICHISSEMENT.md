@@ -352,6 +352,50 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 9.0 → **9.0** (Insuffisant maintenu, <20)
   - Pas de mise à jour Excel nécessaire (0 verdict, score inchangé)
 
+- **Lot IESEG + IMT-BS + INSEAD enrichi en parallèle (28 avril, 3 sub-agents diagnostic + arbitrage strict)** — **3 PASSAGES TIER Confirmé → Avancé** :
+  - **IESEG School of Management** (idx 18) :
+    - 12 justifs enrichies (C1, C2, C3, C4, C12, C16, C20, C21, C22, C23, C27, C32) avec Rapport d'Impact 2024-2025 (48p, signé Caroline Roussel DG + Myriam Degrave Directrice Déléguée Impact Social et Environnemental) + GEP 2022-2027 + Flyer Discrimination jurys 2024 + ieseg.fr/lecole/la-rse-a-lieseg
+    - **7 montées + 1 descente (cohérence biais stricte)** :
+      - C12 NON→PARTIEL : Wellbeing for Staff #Takecare Thursdays (34 sessions/336 participations 24-25) + 23 collab formés CNV + statuts spécifiques + GEP work-life balance
+      - C16 PARTIEL→OUI : Parcours Transition 2026 23h obligatoire 5 modules + 11 Ambassadeurs Durabilité + référentiel Shift Project ClimatSup + 560+ collaborateurs formés
+      - C20 OUI→PARTIEL (descente cohérence biais) : -31%/2030 annoncé sans baseline absolue ni jalons annuels ni SBTi (cohérence ESDES/ESSCA/ESSEC/GEM/HEC)
+      - C21 PARTIEL→OUI : Plan Climatique 2022-2026 + Transition 2026 (68 axes/253 actions/160 indicateurs) + 3 engagements territoriaux signés
+      - C22 PARTIEL→OUI : Politique numérique Code Vert + partenariat Latitudes + 80% matériel ESS + 873 étudiants formés IA éthique
+      - C23 PARTIEL→OUI : Politique voyage durable 2025 (train obligatoire <6h) + #TakeTheTrain 220 étudiants 15 611€ + indemnité km vélo 68 collab + 135 places + 12 bornes
+      - C27 PARTIEL→OUI : 38,2 t déchets ménagers (-37%) + 13,5 t carton/papier + Lemon Tri Lille + DEEE 1t + mégots 18,2kg
+      - C32 PARTIEL→OUI : Stratégie achats responsables formalisée + objectifs 2030 chiffrés (catalogue goodies) + résultats publiés (29% goodies responsables, 69% Europe, 62% recyclés)
+    - 3 montées proposées par sub-agent **REJETÉES** : C5 (cohérence ESDES, ETP ≠ budget consolidé), C24 (pas de partenariat WWF type Audencia), C29 (pas de % végétal cible)
+    - Apports : 16,8 ETP DISE + Caroline Roussel DG + Myriam Degrave CODIR depuis mai 2025 + 11 Ambassadeurs Durabilité + PRME Education Award ONU juin 2025 + Trophée FT Responsible Business Education 2024 + 3 engagements territoriaux (Lille 2021/Grenoble 2022/Paris-La Défense 2023) + Bilan carbone 12 109 tCO2e (94% scope 3) + -2,3%/an/utilisateur 24-25 + label DD&RS 27 juin 2023
+    - Score : 29.5 → **32.5** (Confirmé → **Avancé** ✨, ≥30) — passage tier
+    - Excel mis à jour (Grille R20)
+  - **IMT Business School** (idx 35) :
+    - 7 justifs enrichies (C1, C18, C19, C20, C21, C23, C27) avec Politique DD&RS Feuille de route 2023-2027 (signée Emma Carré Responsable DD&RS + Approbation Claire Thierry + Herbert Castéran) + Rapport ODD GLOBAL 2023 IMT-BS (104p) + Guide Handicap IMT-BS (32p) + Charte Respect-Égalité IMT 2025
+    - **5 montées + 1 descente (cohérence biais stricte)** :
+      - C18 PARTIEL→OUI : **DÉCOUVERTE MAJEURE** Bilan Carbone propre IMT-BS 2 440 tCO2e publié (méthode ADEME ABC, scopes 1+2+3 détaillés)
+      - C19 PARTIEL→OUI : scope 3 détaillé (Déplacements 1158 + Achats 353 + Immobilisations 326 + Déchets 73 + Fret 0,5)
+      - C20 OUI→PARTIEL (descente cohérence biais) : -25%/2027 = IMT GROUPE pas IMT-BS (Feuille de route DD&RS dit explicitement « établir une trajectoire » comme action FUTURE)
+      - C21 PARTIEL→OUI : Politique DD&RS Feuille de route 2023-2027 propre IMT-BS (5 axes, 18 actions) + Plan ACT®/sobriété
+      - C23 PARTIEL→OUI : Forfait mobilité 200€/an + 9 bornes + prêt vélo 0% + 50% TC + Plan Mobilité Inter-Établissements (Univ Évry, ENSIIE, CROUS)
+      - C27 PARTIEL→OUI : Lemon Tri 142 kg gobelets + DEEE 1,75t + cession 45 PC à RECLS + Ammaréal livres + biodéchets restaurant
+    - 1 montée proposée par sub-agent **REJETÉE** : C5 NON→PARTIEL (cohérence HEC, Cadre de gestion ministériel ≠ budget RSE consolidé)
+    - Apports : Emma Carré Responsable DD&RS + Claire Thierry/Herbert Castéran Direction signataires + Mission DD&RS structurée + 5 axes + 18 actions + jalons 2027 + Plan stratégique Impact 2027
+    - Score : 28.0 → **30.0** (Confirmé → **Avancé** ✨ tout juste, ≥30) — passage tier
+    - Excel mis à jour (Grille R28)
+  - **INSEAD** (idx 8) :
+    - 12 justifs enrichies (C1, C4, C11, C14, C16, C17, C18, C19, C22, C26, C28, C32) avec Sustainability Report INSEAD + Annual Report 2023-24 (87p) + Code of Conduct juin 2025 + Anti-Harassment Policy V5.0 juin 2025 + Consensual Relationships Policy mai 2025 + Gender Equality Plan 2026-2028 + designing-sustainability-governance-report 2022
+    - **4 montées + 1 descente (prudence ajoutée)** :
+      - C4 NON→OUI : **DÉCOUVERTE MAJEURE** EcoVadis Silver 68/100 (mai 2023) confirmée ; justif actuelle disait à tort « zéro label » alors qu'EcoVadis figure dans liste §6 du mémo. Cofondateur Pierre-François Thaler (alumni MBA'99D) + Pr Atalay Atasu Scientific Advisory Board EcoVadis + Katell Le Goulven Purpose Committee EcoVadis
+      - C11 PARTIEL→OUI : Climate Fresk Workshops Earth Week 2023 (Europe + Asia campuses) + Earth Week annuelle (1ère éd. mars 2022, 2e éd. avril 2023) + SDG Week annuelle (4e éd. nov 2022, 10+ sessions, 40+ speakers) + Health Week
+      - C14 PARTIEL→OUI : Programme Growing Together 2023-24 = 100% des 900 employés all-staff all-campus, faculty-led learning journey, Way We Work principles
+      - C22 NON→PARTIEL : Code of Conduct (juin 2025) §2.6 sur usage IA responsable + Confidentiality Charter §4.1 sécurité info (cadre formel mais pas charte INR autonome)
+      - **C28 OUI→PARTIEL (descente AJOUTÉE par prudence)** : BCA Green Mark Platinum Singapour non confirmée à date sur sources publiques INSEAD ; HQE Excellent / BREEAM Very Good Fontainebleau « visés » (futur, pas obtenus)
+    - **C20 maintenu OUI** : INSEAD a -67% scope 1+2 d'ici 2035 base 2019 + Net Zero 2050 + UNFCCC 1.5°C explicitement référencé + Climate Journey taskforce piloté par COO + Maria Fedorova Sustainability and Climate Initiatives Manager → objectif chiffré pluriannuel solide, cohérent avec EFREI -5%/an, ESCP -55%/2030, EMLYON -25%/2030 (tous OUI sans SBTi formel mais avec objectif chiffré)
+    - Apports : Hoffmann Global Institute + Climate Journey taskforce + Maria Fedorova Partnership Manager Sustainability/Climate + Katell Le Goulven Executive Director Hoffmann + 43 projets recherche sustainability >960K€ + 32 faculty + 4 chaires (Pitt Atasu, Firmenich Iancu, Goltz Guadalupe, Janssen Joos) + 2 Distinguished Fellows + Hoffmann-WEF Fellowships + Bilan carbone 14 590 tCO2e (Traace, GHG Protocol+ISO+BEGES, scope 3 = 80%) + GEP 2026-2028 signé Monique van Donzel + 24% femmes faculty + 42% femmes MBA + Solar farm Singapour 2023 + Masterplan Fontainebleau 60M€ BEI
+    - Score : 29.5 → **31.5** (Confirmé → **Avancé** ✨, ≥30) — passage tier
+    - Excel mis à jour (Grille R18)
+  - **Bilan global lot 3 écoles** : 16 montées + 3 descentes = examen équilibré rigoureux + 4 montées proposées par sub-agents REJETÉES (IESEG C5/C24/C29 + IMT C5) + 1 descente AJOUTÉE manuellement (INSEAD C28 prudence) → 3 PASSAGES TIER Confirmé → Avancé.
+  - **Apprentissage** : sub-agents biaisent toujours à la hausse mais cette fois la majorité des montées étaient solides et chiffrées (rapports récents 24-25). Net retenu : +7.0 sur +9.5 proposé (74% de retenue vs 7% sur lot précédent HEC/IAE/ICN).
+
 - **Lot HEC + IAE LYON + ICN enrichi en parallèle (28 avril, 3 sub-agents diagnostic + arbitrage strict utilisateur)** :
   - **Méthode innovante** : 3 sub-agents lancés en parallèle pour la phase diagnostic (extraction PDF + lecture justifs + vérif site + diagnostic équilibré) ; arbitrage final manuel sur les propositions selon périmètre strict du mémo (§6 cohérence inter-écoles).
   - **HEC Paris** (idx 1) :
@@ -425,7 +469,7 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 3. **CESI** (groupe le plus récent)
 4. ~~Galileo~~ ✅ Fait (28 avril, FR), **IONIS** (autre groupe)
 5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY, HEC ✅, KEDGE, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
-6. **Écoles Confirmé** (BSB ✅, INSEAD, IESEG, NEOMA, EFREI ✅, EM NORMANDIE ✅, RENNES SB, IMT-BS, CLERMONT ✅, DAUPHINE, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅)
+6. **Écoles Confirmé** (BSB ✅, INSEAD ✅, IESEG ✅, NEOMA, EFREI ✅, EM NORMANDIE ✅, RENNES SB, IMT-BS ✅, CLERMONT ✅, DAUPHINE, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅)
 7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅)
 6. **Écoles Confirmé** (BSB ✅, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
 7. **Reste** (En progression / Insuffisant — Brest BS ✅, AD ✅)
