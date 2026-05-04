@@ -536,6 +536,47 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - **Bilan global lot 3 écoles** : 5 montées (NEOMA C2/C13/C19/C21 + OMNES C6) + 4 descentes (NEOMA C20 + MBS C1 + OMNES C8/C28) = **net +0.5**, examen équilibré rigoureux + 1 PASSAGE TIER (NEOMA Confirmé → Avancé)
   - **Apprentissage** : sub-agents proposent 12 montées et 6 descentes ; arbitrage manuel retient 5 montées + 4 descentes après vérif périmètre strict §6 (47% retenu vs 74% lot précédent IESEG/IMT/INSEAD). Le diagnostic OMNES illustre l'efficacité de la règle anti-presse externe (descente C28 trouvée par recherche exhaustive zéro occurrence BREEAM/HQE/LEED dans rapport officiel).
 
+- **Lot Paris-Dauphine + École Polytechnique + PSB enrichi en parallèle (4 mai 2026, 3 sub-agents diagnostic + arbitrage strict)** — **2 PASSAGES TIER (Dauphine Confirmé→Avancé + PSB Insuffisant→En progression)** :
+  - **Paris-Dauphine - PSL** (idx=14) :
+    - 11 justifs enrichies/réécrites (C1, C8, C13, C18, C19, C20, C22, C24, C25, C28, C32) avec Schéma Directeur DD&RSE Dauphine + DAUPHINE 2025 RA + RA UPD 2023 + 4-pages Formations Transition écologique + dauphine.psl.eu (7 pages RSE) + fondation-dauphine.fr
+    - **5 verdicts modifiés (4 montées + 1 descente — examen équilibré)** :
+      - **Descente C8 OUI→PARTIEL** : cours L1 obligatoire « Enjeux écologiques du XXIe siècle » + L2 prolongement 2025 6 cours, mais volume <15h/an non démontré pour TOUS programmes (Executive Education hors certificat). Cohérence stricte ESDES/ESSCA/HEC + lots récents IGENSIA/OMNES/Brest BS/BSB/Polytechnique
+      - **Montée C18 PARTIEL→OUI** : 2 BEGES réalisés (2018, 2021) avec ventilation publique (Schéma Directeur p. 24, 28, 41) + cycle triennal formalisé. Ventilation 2018 : déplacements >50%, achats 31%, domicile-travail <1%
+      - **Montée C19 NON→PARTIEL** : postes scope 3 nommés et chiffrés en % (cf. C18) mais sans tonnages absolus ni méthodologie complète sur tous postes
+      - **Montée C20 PARTIEL→OUI** : -3% par an d'empreinte carbone formalisé Schéma Directeur p. 24 + -40% consommations énergie d'ici 2030 (Plan sobriété énergétique 2022) = trajectoire publique chiffrée
+      - **Montée C28 PARTIEL→OUI** : Bâtiment Europlaza Dauphine Executive Education (~2 500 m² La Défense) **doublement certifié NF HQE™ Exploitation et BREEAM In-Use International « Very Good »** — « 3e bâtiment de France » à obtenir ce double label (RA 2025 p. 49)
+    - Apports : VP RESU Stéphanie Monjon membre COMEX + 6 référents thématiques (Resp. environnementale, Égalité, LGBT+, Intégrité scientifique, Déontologie) + 30 correspondants RSU depuis 2018 + Béatrice Parance Déléguée RESU + CES créé 2022 (~40 membres) + PAEP 2021 12 obj/72 actions + Plan LGBT+ adopté CA janv 2024 + cellule veille mars 2018 (17 mbr) + médiateur externe nov 2023 + index égalité 94/100 + Mission Handicap + SDPH 2022-2025 (5 axes/150 actions, 4e SDPH 2026 en cours, taux emploi handicap >5%) + chantier sobriété numérique RSU+DNum + adhésion AMUE-CNRS + 1/2j sensibilisation DNum janv 2024 + refonte site éco-conçue 2025 + jardin 900 m² sans phytos + nouveau cours L2 forêts/océans/sols/agriculture rentrée 2025 + clinique juridique Bloom/Pollinis 2023-24 + Fondation Madeleine 750k€/15 ans + poste achat durable financé via PSL
+    - Score : 28.5 → **30.0** (Confirmé → **Avancé** ✨, ≥30, net +1.5) — passage tier
+    - Excel mis à jour (Grille R24)
+  - **École Polytechnique** (idx=15) :
+    - 11 justifs enrichies/réécrites (C1, C4, C5, C8, C18, C19, C20, C22, C28, C29, C32) avec Plan Climat Polytechnique (288p) + Bilan Plan Climat 2022-2025 + Rapport Annuel 2024 + Note d'organisation Plan Climat + Index F/H 2025 + Plan VSS + Plaquettes Pôle Égalité des Chances + polytechnique.edu (7 pages RSE)
+    - **3 verdicts modifiés (2 montées + 1 descente — examen équilibré rigoureux vu score 33.5 déjà élevé)** :
+      - **Descente C8 OUI→PARTIEL** : cours obligatoire « Engineering Sustainability » 40h Cycle ingénieur 2A exemplaire (Céline Guivarch GIEC, 8 départements), mais Bachelor 1A et MSc&T 1A = 7h obligatoires + Bachelor 2A = 14h (Plan Climat p. 12) — < seuil 15h/an pour TOUS programmes. Cohérence stricte avec descentes IGENSIA/OMNES/Brest BS/BSB/Dauphine
+      - **Montée C19 PARTIEL→OUI** : scope 3 ventilé (Plan Climat p. 24-25) — énergie/bâtiments 36% / achats biens et services 28% / déplacements 19% / immobilisations matériel recherche 12% (1 933 tCO2e) / restauration et déchets <1%
+      - **Montée C22 PARTIEL→OUI** : Manifeste Planet Tech'Care signé en 2020 (engagement de référence sectoriel) + déploiement Papercut sur la majeure partie du parc + indicateur KPI Plan Climat + colloque sobriété numérique DSI + contribution rapport Cigref/Shift Project — politique numérique responsable formalisée
+    - **Vérifications strictes ne déclenchant pas de descente** :
+      - C20 OUI maintenu : -20% GES par usager poste énergie + neutralité carbone campus 2050 + résultats partiels gaz -33%/m², électricité -16%/m² (2019-2024) + 89% achats >40K€ critères environnementaux dès 2023 → trajectoire chiffrée pluriannuelle solide
+      - C28 PARTIEL maintenu : rénovation ensemble central « vise l'obtention du niveau Argent du label Bâtiment Durable Francilien » = certification VISÉE pas obtenue (Plan Climat p. 40)
+      - C4 OUI maintenu : Label DD&RS obtenu janvier 2025 par CIRSES, durée maximale 4 ans (2025-2029), couvre 17 ODD et 5 axes
+    - Apports : Capucine Pêtre-Spassky Directrice TES depuis mai 2024 au COMEX + Anne-Sarah Socié BGES + Laure Fau GT Net Zéro + 677/900 employés formés + 8M€+ investis 2019-2024 + budget pôle TES 90k€/an + Fonds DD 400k€/an pour 10 doctorants/an + Fondation 87,3M€ levés + Restaurant Magnan 25% végé quotidien + opérations Magnan bas carbone 3x/an + note carbone publiée chaque jour + méthanisation biodéchets + 89% marchés >40K€ critères environnementaux + objectif 50% commandes achats responsables + formation 2j équipe achats + Plan national achats durables 2022-2025
+    - Score : 33.5 → **34.0** (Avancé maintenu, ≥30, net +0.5)
+    - Excel mis à jour (Grille R7)
+  - **PSB Paris School of Business** (idx=27) :
+    - 11 justifs enrichies/réécrites (C1, C2, C3, C13, C18, C19, C25, C26, C30, C31, C35) avec Rapport RSE PSB 2023-2024 (145p) + psbedu.paris (4 pages RSE)
+    - **5 verdicts modifiés (toutes des montées, 0 descente — sources solides documentées site officiel)** :
+      - **Montée C1 PARTIEL→OUI** : « Le Responsable DD&RSE est sous la responsabilité directe du Directeur Général » (psbedu.paris/fr/ecole/demarche-rse). Évolution organisationnelle post-rapport 2022-23 (où la RSE était portée par Carole Simonnet professeure finance) → fonction DD&RSE désormais rattachée formellement DG
+      - **Montée C13 PARTIEL→OUI** : campagne NonC'estNon + 2 référents harcèlement formés 1,5 jour par avocat + adresse dédiée respect-egalite@psbedu.paris + procédure de signalement et d'enquête + ligne HuCare 24/7. Triptyque VSS satisfait (cohérent NEOMA C13)
+      - **Montée C18 PARTIEL→OUI** : bilan carbone 2023-2024 = 4 264,4 tCO2e publié sur site officiel (intègre alimentation, transport étudiants, déplacements visiteurs)
+      - **Montée C19 NON→PARTIEL** : postes scope 3 nommés (food, student transportation, visitor travel) sur site officiel, sans tableau détaillé par poste (PARTIEL prudent)
+      - **Montée C30 PARTIEL→OUI** : Programme HuCare = ligne d'écoute 24/7 + consultations hebdomadaires sur le campus, gratuites/anonymes/confidentielles avec un professionnel de santé mentale (cohérent NEOMA C30 angela@)
+    - **C4 NON maintenu (vérification stricte)** : 0 occurrence DD&RS/CIRSES/LUCIE/EcoVadis/ISO 14001/B Corp dans le Rapport RSE 2023-2024 PSB ; PRME (signé 2014) = engagement Pacte Mondial UN, pas un label RSE strict ; Label STAR (créé 2023) = label INTERNE PSB, pas externe ; AACSB/AMBA/EFMD = accréditations académiques pas labels RSE
+    - **C20/C21 NON maintenus** : plan décarbonation « en cours d'élaboration » → pas encore d'objectif GES chiffré pluriannuel ni trajectoire publique
+    - Apports : Comité CSR formalisé avec 3 missions et 4 collèges (CSR Dpt + étudiants + enseignants/administration + partenaires), réunions « at least twice a year » (minimal) + Programme P.A.S. (Projet d'Accompagnement à la Scolarité) formalisé + référent handicap dédié + plans aménagement individualisés + Label STAR 4 piliers + 45 cours dédiés DD + Sulitest obligatoire B3+M2 + Business Ethics MIB depuis 2010 + 13 associations / ~1 000 étudiants / 100 projets / Green Club, GduCoeur, My Green Campus, Impact Campus + Semaine Déchets + Semaine DD
+    - Score : 18.5 → **21.0** (Insuffisant → **En progression** ✨, ≥20, net +2.5) — passage tier
+    - Excel mis à jour (Grille R40)
+  - **Bilan global lot 3 écoles** : 11 montées (Dauphine 4 + Polytechnique 2 + PSB 5) + 2 descentes (Dauphine C8 + Polytechnique C8) = **net +5.0**, **2 PASSAGES TIER** (Dauphine Confirmé→Avancé + PSB Insuffisant→En progression)
+  - **Apprentissage** : C8 (≥15h/an pour TOUS programmes) commence à constituer une jurisprudence forte — descente cohérente sur tout score où Bachelor/MBA ne sont pas systématiquement à ≥15h/an obligatoires. Vérification stricte sur le site officiel a permis de monter PSB sans descente (pas de surinterprétation, juste des dispositifs effectivement publiés mais non documentés dans le rapport 2022-23 qui datait).
+
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
 - **C8 (Cours DD ≥15h/an)** : volume horaire significatif (>30h/an Bachelor) = présomption forte de couverture systématique, sauf si explicitement contredit. Ne pas systématiquement descendre OUI → PARTIEL juste parce que MSc/MBA pas explicitement documentés. Apprécier au cas par cas.
@@ -556,9 +597,9 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 2. ~~OMNES~~ ✅ Fait (4 mai, score 31.0 Avancé maintenu)
 3. **CESI** (groupe le plus récent)
 4. ~~Galileo~~ ✅ Fait (28 avril, FR), **IONIS** (autre groupe)
-5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY, HEC ✅, KEDGE ✅, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅, NEOMA ✅ passage Avancé)
-6. **Écoles Confirmé** (BSB ✅, INSEAD ✅, IESEG ✅, NEOMA ✅, EFREI ✅, EM NORMANDIE ✅, RENNES SB, IMT-BS ✅, CLERMONT ✅, DAUPHINE, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅, MONTPELLIER BS ✅)
-7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅, IPAG ✅, ISC PARIS ✅)
+5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY ✅, HEC ✅, KEDGE ✅, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅, NEOMA ✅ passage Avancé, DAUPHINE ✅ passage Avancé)
+6. **Écoles Confirmé** (BSB ✅, INSEAD ✅, IESEG ✅, NEOMA ✅, EFREI ✅, EM NORMANDIE ✅, RENNES SB, IMT-BS ✅, CLERMONT ✅, DAUPHINE ✅, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅, MONTPELLIER BS ✅)
+7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅, IPAG ✅, ISC PARIS ✅, PSB ✅ passage En progression)
 
 ### 💡 Méthode validée et améliorée (post-Audencia + Brest BS)
 - **Croisement systématique PDF + sites web** : pour chaque "PARTIEL faible" du rapport, vérifier sur le site école (rse.<école>.com, fondation, chaires) avant de conclure NON. Audencia a démontré que 4 critères "PARTIEL" cachaient des dispositifs solides documentés sur le site (C22 numérique INR, C24 biodiversité WWF, C27 économie circulaire, C32 achats responsables).
