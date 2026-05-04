@@ -612,6 +612,34 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - **Bilan global lot 3 écoles** : 6 montées (Rennes C16/C21/C22/C23/C27/C32) + 3 descentes (Sciences Po C8 + SKEMA C28 + Rennes C8) = **net +1.5**, **2 PASSAGES TIER OPPOSÉS** (Rennes ↑ Avancé / Sciences Po ↓ Confirmé) — premier cas du benchmark où une descente fait basculer un Avancé limite vers Confirmé
   - **Apprentissage** : C8 jurisprudence forte appliquée systématiquement aux 3 écoles avec score limite — Sciences Po (24h pour 1A Collège uniquement) et Rennes SB (parcours E&T 30% sans volume ≥15h chiffré) ont basculé. SKEMA C8 OUI maintenu vu preuves alternatives solides (objectif 100% étudiants formés bas-carbone ATTEINT + 21/25 spécialisations master + Fresques 1 300+900 participants). C28 (certification bâtimentaire) appliqué strict OMNES → SKEMA même critère = ISO 14001 ≠ BREEAM/HQE/LEED.
 
+- **Lot TBS Education + TSM enrichi en parallèle (4 mai 2026, 2 sub-agents diagnostic + arbitrage strict)** — **Aucun passage tier, 3 descentes cohérence stricte** :
+  - **TBS Education** (idx=17) :
+    - 2 justifs réécrites (C8, C28) avec Rapport Société à Mission TBS 2024-2025 (30p) + tbs-education.com/sustainable-campus
+    - **2 verdicts modifiés (descentes cohérence stricte)** :
+      - **Descente C8 OUI→PARTIEL** : 19,2% des ECTS dédiés DD&RS sur Bachelor + PGE en 2024-25 (vs 14% en 23-24, objectif 20% en 2026), module DD-RS B1 4 campus FR/EN, MS Manager des risques (Paris rentrée 2025) — MAIS programmes MS, MSc spécialisés, Doctoral et Formation Continue NON couverts par le périmètre chiffré. Cohérence stricte avec descentes IGENSIA/OMNES/Brest BS/BSB/Polytechnique/Dauphine/Sciences Po/Rennes SB
+      - **Descente C28 OUI→PARTIEL** : 572 modules photovoltaïques (192 kWc) + béton bas-carbone + réemploi 1,6 M€ + 31 698 m² confirmés sur tbs-education.com/sustainable-campus, MAIS le label « Bâtiment Durable Occitanie Silver » n'est NI mentionné dans le Rapport SàM 2024-25 (30p) NI sur la page sustainable-campus officielle ; source initiale envirobat-oc.fr/campus-tbs en 404. Cohérence stricte avec descente OMNES C28 (mai 2026, 0 occurrence dans rapport officiel)
+    - C5 PARTIEL maintenu : Fondation TBS 2,6M€ et 1500 bourses depuis 2008 ≠ budget RSE consolidé (Direction Transition Sociétale = 2 ETP, ETP ≠ budget)
+    - C19 NON maintenu : 6 catégories GES couvertes mais aucune ventilation scope 3 publiée
+    - C20 PARTIEL maintenu : Démarche ACT Pas-à-Pas ADEME en cours (étapes 1-2 réalisées, 3-4 à venir 25/26), pas encore d'objectif chiffré pluriannuel publié
+    - C22 PARTIEL maintenu : Ecosia moteur officiel mais aucune charte INR signée
+    - **C2/C3 OUI consolidés** : Société à Mission depuis 2022, Comité de Mission documenté, 4 OS statutaires avec indicateurs et cibles 2026
+    - **Auto-critique du Comité de Mission** : « passer d'une logique d'intentions à une logique de trajectoire » (rapport p.28-29) reconnaît la nécessité de compléter les approches qualitatives par des objectifs quantifiés
+    - Score : 31.0 → **30.0** (Avancé maintenu, ≥30 à la limite, net -1.0)
+    - Excel mis à jour (Grille R14)
+  - **TSM Toulouse School of Management** (idx=21) :
+    - 1 justif réécrite (C8) avec SIP 2025 (28p, extraction texte limitée 8k chars / images PDF) + tsm-education.fr (4 pages site)
+    - **1 verdict modifié (descente cohérence stricte)** :
+      - **Descente C8 OUI→PARTIEL** : UE « Être un Manager Responsable et Citoyen » obligatoire dès la L1 management (sept 2024) + Master M2 Droit/Gestion RSE 425h alternance + Sulitest + 4 Fresques (Climat, Biodiversité, RSE, Numérique) en Welcome Week — MAIS TSM compte 20+ diplômes / 81 parcours et MS, Masters spécialisés (Finance/Marketing/RH) et Doctoral non documentés à ≥15h/an. Cohérence stricte avec descentes IGENSIA/OMNES/Brest BS/BSB/Polytechnique/Dauphine/Sciences Po/Rennes SB/TBS
+    - **0 montée** : documentation très limitée (PDF SIP-PRME 2025 majoritairement images + 4 pages site) — diagnostic conservateur conforme exemple ESCE/EDC
+    - **Périmètre TSM vs UT Capitole respecté** : nombreuses politiques (Mission Égalité, Cellule Stop Violences, Mission Handicap, Plan Égalité 2021-2023 ext. 2024-26, marchés publics, Bilan Carbone, Plan Vert, mobilité 18 établissements) sont au niveau Université Toulouse Capitole, pas propre TSM → maintien des PARTIEL légitime (cohérent §6 mémo)
+    - C4 NON maintenu : EQUIS (oct 2023, 5 ans) + EFMD x3 + Qualiopi (2022) + ChooseMyCompany + Bienvenue en France + PRME signataire 2017 + Pacte Mondial = aucun label RSE certifié périmètre §6 (DD&RS candidature automne 2026)
+    - C18 PARTIEL / C19 NON / C20 PARTIEL : aucun BC propre TSM publié, communauté Toulouse -30% GES 2027 = niveau université
+    - **Apports SIP 2025** : Julien Grobert directeur + Stephan Peze directeur adjoint Enjeux Sociétaux DD&RSE au COMEX + Comité de transition socio-écologique 2023 + Charge DD&RS recruté 2025 + Chaire TREND(S) (Isabelle Collin-Lachaud, ~30 chercheurs, 15 institutions, 4 pays) + TSM-R UMR CNRS 5303 + 4 articles peer-reviewed RME 2024 / 35 totaux (11%) + Ecolibris asso DD créée 2025 + 13 Étudiants Référents Sportifs + Ambassadeurs DDRS étudiants
+    - Score : 23.5 → **23.0** (En progression maintenu, ≥20, net -0.5)
+    - Excel mis à jour (Grille R35)
+  - **Bilan global lot 2 écoles** : 0 montée + 3 descentes (TBS C8/C28 + TSM C8) = **net -1.5**, aucun passage tier
+  - **Apprentissage** : la jurisprudence stricte C8 (≥15h/an pour TOUS programmes) continue de filtrer les écoles avec couverture partielle (Bachelor+PGE seulement). C28 vérification stricte « certification mentionnée dans rapport officiel » continue de filtrer les écoles dont les certifications anciennes ne sont plus actualisées dans les rapports récents. **Ces 2 règles ont fait 5 descentes cumulées sur les 6 derniers lots** (Sciences Po, Rennes SB, TBS, TSM C8 + OMNES, SKEMA, TBS C28).
+
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
 - **C8 (Cours DD ≥15h/an)** : volume horaire significatif (>30h/an Bachelor) = présomption forte de couverture systématique, sauf si explicitement contredit. Ne pas systématiquement descendre OUI → PARTIEL juste parce que MSc/MBA pas explicitement documentés. Apprécier au cas par cas.
@@ -632,9 +660,9 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 2. ~~OMNES~~ ✅ Fait (4 mai, score 31.0 Avancé maintenu)
 3. **CESI** (groupe le plus récent)
 4. ~~Galileo~~ ✅ Fait (28 avril, FR), **IONIS** (autre groupe)
-5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY ✅, HEC ✅, KEDGE ✅, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO ✅ descente Confirmé, SKEMA ✅, TBS, AUDENCIA ✅, NEOMA ✅ passage Avancé, DAUPHINE ✅ passage Avancé, RENNES SB ✅ passage Avancé)
+5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY ✅, HEC ✅, KEDGE ✅, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO ✅ descente Confirmé, SKEMA ✅, TBS ✅, AUDENCIA ✅, NEOMA ✅ passage Avancé, DAUPHINE ✅ passage Avancé, RENNES SB ✅ passage Avancé)
 6. **Écoles Confirmé** (BSB ✅, INSEAD ✅, IESEG ✅, NEOMA ✅, EFREI ✅, EM NORMANDIE ✅, RENNES SB ✅, IMT-BS ✅, CLERMONT ✅, DAUPHINE ✅, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅, MONTPELLIER BS ✅, SCIENCES PO ✅ descente)
-7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅, IPAG ✅, ISC PARIS ✅, PSB ✅ passage En progression)
+7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅, IPAG ✅, ISC PARIS ✅, PSB ✅ passage En progression, TSM ✅)
 
 ### 💡 Méthode validée et améliorée (post-Audencia + Brest BS)
 - **Croisement systématique PDF + sites web** : pour chaque "PARTIEL faible" du rapport, vérifier sur le site école (rse.<école>.com, fondation, chaires) avant de conclure NON. Audencia a démontré que 4 critères "PARTIEL" cachaient des dispositifs solides documentés sur le site (C22 numérique INR, C24 biodiversité WWF, C27 économie circulaire, C32 achats responsables).
