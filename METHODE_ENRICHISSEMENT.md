@@ -352,6 +352,41 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 9.0 → **9.0** (Insuffisant maintenu, <20)
   - Pas de mise à jour Excel nécessaire (0 verdict, score inchangé)
 
+- **Lot IPAG + ISC PARIS + KEDGE enrichi en parallèle (28 avril, 3 sub-agents diagnostic + arbitrage strict + vérifs sites officiels)** — Lot très conservateur après vérifs URLs :
+  - **IPAG Business School** (idx 37) :
+    - 9 justifs enrichies (C1, C7, C9, C15, C17, C25, C26, C28, C31) avec Rapport PRME 2024 IPAG (68p, signé Dr. Olivier Maillard Dean & DG + Prof. Maria Giuseppina Bruna DRVI) + ipag.edu (chaires + accreditations + inclusion-handicap)
+    - **2 montées + 0 descente** :
+      - C9 PARTIEL→OUI : revendication 100% diplômés formés (PRME p. 37, 40) + 100% mémoires PGE section RSE obligatoire + cours RSE tronc commun TOUS programmes (PGE 1A/2A/5A, Bachelor BCH1+BCH2, BBA 1A/2A/3A, MBA 3 cours, DBA 1 cours obligatoire) + 43,4% diplômés PGE 2023 emploi RSE
+      - C28 NON→PARTIEL : campus Beaugrenelle-Eiffel Paris 15e bâtiment HQE (PRME p. 67), 1 campus sur 3 certifié
+    - **C1 OUI maintenu** (vs sub-agent qui doutait) : Prof. Bruna DRVI au CODIR + mandat formalisé via plan IPAG 2025-2029 axe 3 « Transformer organisations et société »
+    - Apports : 6 chaires (Entreprise Inclusive 2016 Bruna + Économie Circulaire 2016 + Entreprise Familiale + IA & Éthique + French Savoir-Faire + Finance Quantitative) + Marc Rivault Innovation Sociale et Inclusion + Dr. Manel Guechtouli Référente Nice + Dr. Batoul El Mawla Référente Environnement (1er avril 2025) + 139 étudiants handicap 24-25 (98 aménagements) + CODIR 50/50 + 64% femmes personnel + gender gap nul recrutement + AACSB juillet 2025 + BSIS Paris+Nice 2025 + 44% thèses 2024 ODD/ESG/RSE
+    - Score : 16.0 → **17.0** (Insuffisant maintenu, +1.0)
+    - Excel mis à jour (Grille R41)
+  - **ISC PARIS** (idx 36) :
+    - 4 justifs enrichies/reformulées (C1, C4, C25, C26) avec Guide Inclusion & Diversité 2023-2024 ISC Paris + iscparis.com (vérifs labels-accreditations + diversite-et-inclusion)
+    - **0 montée + 2 descentes (cohérence stricte)** :
+      - C1 PARTIEL→NON : URL responsabilite-societale-diversite/ retourne 404 + justif elle-même reconnaissait « rattachement COMEX non documenté ». Cohérence stricte AD/Brest BS/BSB/EM Strasbourg
+      - C4 OUI→NON : page officielle iscparis.com/isc-paris-labels-et-accreditations vérifiée — AUCUN label RSE strict (DD&RS/LUCIE/EcoVadis/ISO 14001/B Corp), uniquement accréditations académiques (AACSB/AMBA/BGA/EFMD/Visa/Qualiopi/BSIS) + engagements (PRME/UN Global Compact). Justif initiale sourcée « recherche web » non vérifiable. Cohérence stricte AD/Brest BS/EDC/ESCE
+    - **DÉCOUVERTE GRAVE** : 2 PDFs « ISC PARIS » du dossier DOCBENCH (BOOK DES ASSOS PARIS 2026 + NICE BOOK DES ASSOCIATIONS 2024-25 ENG) sont en réalité des PDFs IPAG Business School (89 mentions IPAG vs 17 ISC, adresses IPAG « 10-12 rue du Théâtre 75015 » + « 4 bd Carabacel Nice »). Seul Guide Inclusion 8p est vraiment ISC. Erreur de classement utilisateur DOCBENCH.
+    - Score : 13.0 → **11.5** (Insuffisant maintenu, descente -1.5)
+    - Excel mis à jour (Grille R43)
+    - **Recommandation futur** : demander rapport RSE/PRME ISC Paris si existe (équivalent SIP-PRME)
+  - **KEDGE Business School** (idx 5) :
+    - 8 justifs enrichies (C1, C2, C4, C7, C18, C19, C20, C32) avec Rapport DD KEDGE 2020-2021 (planches) + Guide Achats Responsables KEDGE + Guide Accessibilité 2025-26 + Guide Inclusivité de A à Z + Guide Management Responsable + Guide Vraies Fausses Bonnes Raisons + WellNess 2019 + impakt.kedge.edu/nos-realisations + impakt.kedge.edu/nos-engagements + kedge.edu/l-ecole/rse/act-for-the-planet
+    - **0 montée + 1 descente (cohérence biais stricte)** :
+      - C20 OUI→PARTIEL : Vérification site officiel act-for-the-planet confirme AUCUN objectif chiffré GES (% par an, année cible publique, baseline) + AUCUNE mention SBTi validé + formulations qualitatives uniquement (« contribuer à la neutralité carbone mondiale »). Le « net zéro 2030 » de la justif initiale est une **EXTRAPOLATION non sourcée** (introuvable sur kedge.edu et impakt.kedge.edu). Seuls KPI chiffrés : -25% empreinte scope 3 d'ici 2025 (Rapport DD p. 13) + résultat passé -50% CO2 depuis 2018. Cohérence stricte ESDES/ESSCA/ESSEC/GEM/HEC/IESEG/IMT-BS
+    - **3 labels stricts confirmés (vérifié site officiel)** : DD&RS (CIRSES 2019) + EcoVadis Argent 74/100 (+11 pts en 2024) + Numérique Responsable niveau 1 (sept 2023). Pacte Mondial 2005 = engagement ne compte pas
+    - **9 engagements IMPAKT confirmés** (vérifié impakt.kedge.edu/nos-realisations) : 6,5M€ aides + 89% formés éthique + 19 000h tutorat + -50% CO2 depuis 2018 + 100% AO critères + 100% étudiants sensibilisés climat + 170+ cours transition + 5 chaires + 43% diplômés emploi transition
+    - **Aucune montée pertinente identifiée** par sub-agent : malgré l'excellence globale KEDGE, les 6 PARTIEL maintenus (C5/C14/C16/C28/C29/C36) sont justifiés par périmètres stricts §6
+    - Apports : Direction Transition & Impact rattachée DG + Associated Dean for Inclusivity and Sustainability (depuis 2021) + 1ère Direction RSE 2010 + Comité IMPAKT trimestriel + Réseau des Impakteurs 2021 + Charte Diversité 2021 + Charte LGBT+ Autre Cercle + Bilan carbone tous 3 ans depuis ~2009 (10 KteqCO2/an scope 3) + 4 axes prioritaires scope 3 (Achats/Mobilité/Énergie/Numérique) + Guide Achats Responsables formalisé + 100% AO critères solidarity sourcing depuis COP15 Copenhague 2009
+    - Score : 33.0 → **32.5** (Avancé maintenu, ≥30, descente -0.5)
+    - Excel mis à jour (Grille R9)
+  - **Bilan global lot 3 écoles** : 2 montées + 3 descentes = **net -1.0** (très conservateur, équilibre le +7.0 du lot précédent)
+  - **Apprentissage méthodologique** :
+    - Vérification systématique URLs site officiel **CRUCIALE** : a éliminé l'extrapolation « net zéro 2030 » KEDGE + a confirmé la descente C4 ISC + a confirmé les chaires IPAG
+    - Détection erreur de classement DOCBENCH : 2 PDFs « ISC PARIS » sont en fait IPAG → recommandation : audit complet du DOCBENCH pour les autres écoles
+    - Sub-agents biaisent moins quand source primaire est limitée (ISC) ou ancienne (KEDGE rapport 2020-21) : ils restent prudents
+
 - **Lot IESEG + IMT-BS + INSEAD enrichi en parallèle (28 avril, 3 sub-agents diagnostic + arbitrage strict)** — **3 PASSAGES TIER Confirmé → Avancé** :
   - **IESEG School of Management** (idx 18) :
     - 12 justifs enrichies (C1, C2, C3, C4, C12, C16, C20, C21, C22, C23, C27, C32) avec Rapport d'Impact 2024-2025 (48p, signé Caroline Roussel DG + Myriam Degrave Directrice Déléguée Impact Social et Environnemental) + GEP 2022-2027 + Flyer Discrimination jurys 2024 + ieseg.fr/lecole/la-rse-a-lieseg
@@ -468,9 +503,9 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 2. **OMNES** (groupe le plus avancé)
 3. **CESI** (groupe le plus récent)
 4. ~~Galileo~~ ✅ Fait (28 avril, FR), **IONIS** (autre groupe)
-5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY, HEC ✅, KEDGE, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
+5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY, HEC ✅, KEDGE ✅, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
 6. **Écoles Confirmé** (BSB ✅, INSEAD ✅, IESEG ✅, NEOMA, EFREI ✅, EM NORMANDIE ✅, RENNES SB, IMT-BS ✅, CLERMONT ✅, DAUPHINE, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅)
-7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅)
+7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅, IPAG ✅, ISC PARIS ✅)
 6. **Écoles Confirmé** (BSB ✅, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
 7. **Reste** (En progression / Insuffisant — Brest BS ✅, AD ✅)
 
