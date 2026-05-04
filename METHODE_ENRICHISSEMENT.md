@@ -483,6 +483,59 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - Score : 20.0 → **21.5** (En progression maintenu, ≥20)
   - Excel mis à jour (Grille R39)
 
+- **Lot Montpellier BS + NEOMA + OMNES enrichi en parallèle (4 mai 2026, 3 sub-agents diagnostic + arbitrage strict)** — **1 PASSAGE TIER Confirmé → Avancé (NEOMA)** :
+  - **OMNES Education** (Groupe, idx=7) :
+    - 8 justifs enrichies/réécrites (C1, C6, C8, C12, C20, C21, C24, C26, C28) avec Rapport RSE OMNES 2024-25 (70p, signé Loïc Delboulbe Direction Engagement Humain & Sociétal + Muriel Cordier Directrice RSE Groupe) + Charte Éthique OMNES (9p) + Comité-charte-Ethique-2024-25.pdf + Plan-Egalite-FH_Gender-Equality-Plan.pdf 2024-2027 + omneseducation.com/le-groupe/demarche-rse
+    - **3 verdicts modifiés (1 montée + 2 descentes — examen équilibré strict)** :
+      - **Montée C6 PARTIEL→OUI** : dispositif d'alerte explicitement Sapin II « article 8 et 17 loi du 9 décembre 2016 » + adresse dédiée alerteethique@omneseducation.com + formulaire intranet + référents juridique/RH désignés (Charte Éthique p. 8). Cohérent avec règle stricte C6 = procédure anti-corruption Sapin II
+      - **Descente C8 OUI→PARTIEL** : SHIFT(s) à 12h/an pendant 3 ans (= 36h total) **inférieur au seuil annuel de 15h/an** + déployé sur 9 écoles sur 15 (CREA et EUBS pas encore couvertes) + MSc/MBA/Mastères non couverts (Rapport p. 8). Cohérent IGENSIA/Brest BS/BSB descentes C8
+      - **Descente C28 OUI→PARTIEL** : recherche exhaustive des 305k caractères du Rapport RSE 24-25 → **zéro occurrence BREEAM/HQE/LEED/BBC/BBCA**. La justif initiale s'appuyait uniquement sur planetegrandesecoles.com (presse externe = règle stricte §2 violée). Démarche éco-conception en cours sur Marseille/Bordeaux mais pas certification documentée à l'échelle Groupe (cohérence règle §6 « 3 sur 70 = trop peu pour OUI Groupe »)
+    - **Corrections factuelles importantes** :
+      - C20/C21 : « 53 actions » → **« 11 actions ciblées »** (Rapport 24-25 p. 26-27 actualisé, le chiffre 53 venait du CSR Report 2023 obsolète) + Comité Carbone créé en 2024 (11 décisionnaires)
+      - C24 : Charte Biodiversité Groupe rédigée 2025 + bilans écologues Chambéry/Bordeaux 24-25 + adhésion Programme Entreprises Engagées pour la Nature (OFB) + LPO + Eco Stratégie
+      - C26 : Index F/H consolidé Groupe **89,3/100** + GEP 2024-2027 + Charte LGBT+ signée juin 2025 + WEPS + #StOpE
+      - C12 : Comité QVCT 23 collaborateurs + 100% écoles Time to Take Care + Semaine QVCT (16-20 juin)
+      - C18 : 17 720 tCO2e (23-24) consolidé Groupe scopes 1+2+3 = 506 kgCO2e/étudiant ; scope 3 = 94% (Déplacements 41% / Achats 32% / Immobilisations 10%)
+    - Apports : Loïc Delboulbe Direction Engagement au COMEX + Muriel Cordier Directrice RSE Groupe Comité Stratégique + 9 comités RSE actifs 24-25 (vs 1 en 20-21) avec 77 réunions/an + 1 800 collaborateurs + 100+ conseillers Time to Act + Programme PACT 20h bénévolat ECTS + plan de transition 11 actions (mobilité étudiante 100% train ≤1j, -30% trajets avion/voiture collab, -10% logiciels, -30% stockage cloud)
+    - Score : 31.5 → **31.0** (Avancé maintenu, ≥30, net -0.5)
+    - Excel mis à jour (Grille R13)
+  - **Montpellier BS** (idx=10) :
+    - 8 justifs enrichies (C1, C8, C13, C18, C19, C22, C29, C30) avec Bilan Carbone Montpellier BS (BL Évolution, 45p) + CP Bilan RSE 2020 (Benjamin Ferran Responsable Diversité et RSE) + MBS Politique de développement durable (140p, édition 2021) + Fondation MBS Rapport moral 21-22 + r.mbs-education.com (8 pages RSE)
+    - **1 verdict modifié (1 descente, 0 montée — diagnostic conservateur)** :
+      - **Descente C1 OUI→PARTIEL** : Pôle DD/RSE composé d'1 responsable + 5 chargés de projets « sponsorisé par la DRH DRSE » selon Politique DD p. 8. Benjamin Ferran cité comme « Responsable Diversité et RSE » (pas Directeur). **Rattachement formalisé COMEX/DG non identifié** dans les sources publiées. Cohérence stricte avec descentes ESDES/BSB/Brest BS/EM Strasbourg/AD Education sur C1
+    - **Apports majeurs (sans changement de verdict)** :
+      - C8 : 200h cours RSE en PGE + « 100% étudiants formés à la RSE » (Benjamin Ferran CP 2020) + RSE/DD enseignées « du Bachelor à l'Executive MBA » + Fresque du Climat 600 étudiants/an + Challenge ODD + 25% enseignements
+      - C13 : 2 référents harcèlement sexuel et sexiste identifiés (CP RSE 2020 p. 2) + avocat spécialisé discrimination/harcèlement parmi intervenants pôle (Politique DD p. 8) + Labels AFNOR Diversité + Égalité pro
+      - C18 : Bilan Carbone **7 556 tCO2e** (incertitude 17%) BL Évolution scopes 1+2+3, plan d'action -1620 tCO2e (-21%) potentiel
+      - C19 : décomposition complète scope 3 par poste avec valeurs : Déplacements 5 139 tCO2e (68%) / Achats 1 674 (22%) / Immobilisations 366 (5%) / Énergie 281 (4%) / Froid 84 (1%) / Déchets 12 (<1%)
+      - C22 : Stratégie climat Axe 4 « Sobriété dans les usages informatiques » (Politique DD p. 9) + Digital 113 (cluster) — pas de charte INR donc NON maintenu
+      - C29 : Stratégie climat Axe 1 « Alimentation responsable sur le campus » + 30% plats viande/70% snacks (Bilan Carbone p. 21) — pas de % cible donc PARTIEL maintenu
+      - C30 : 25 permanences psychologiques/an + psychologue, équipe psy travail, avocat discrimination/harcèlement, travailleurs sociaux (Politique DD p. 8) — solide mais pas hotline 24/7 donc PARTIEL maintenu
+    - **Alertes biais** : C2 (Chaire COAST + Yunus = chaires recherche, pas comité opérationnel — risque descente future si arbitrage strict appliqué) ; C4 (Label DD&RS obtenu mai 2022 pour 4 ans = expire mai 2026 = date actuelle, à vérifier renouvellement). Sub-agent n'a pas pu vérifier WebFetch site officiel.
+    - Score : 26.5 → **26.0** (Confirmé maintenu, ≥25, net -0.5)
+    - Excel mis à jour (Grille R30)
+  - **NEOMA Business School** (idx=20) :
+    - 12 justifs enrichies (C1, C2, C8, C9, C13, C17, C19, C20, C21, C26, C33, C34) avec Rapport TSE 2025 NEOMA (44p, signé Élise Bruchet Directrice TSE) + neoma-bs.fr (6 pages engagement)
+    - **5 verdicts modifiés (4 montées + 1 descente — examen équilibré rigoureux)** :
+      - **Montée C2 PARTIEL→OUI** : 4 instances de gouvernance documentées (Rapport TSE p. 12) — COMEX (évaluation annuelle), CODIR TSE (pilotage), Comité TSE (étudiants + parties prenantes), Sustainability Committee (enseignants-chercheurs référents par département). Cohérent avec montée IESEG/Excelia C2
+      - **Montée C13 PARTIEL→OUI** : Plan de lutte 3 axes Prévenir/Accompagner/Agir + adresse dédiée **angela@neoma-bs.fr** + cellule de veille **9 collaborateurs + 3 infirmières + 3 psychologues** + référent VSS dédié + associations HeForShe Reims/Rouen (p. 33, 38). La justif initiale disait à tort « pas de plateforme de signalement ni référent VSS ». Cohérent avec OUI ESDES C13
+      - **Montée C19 PARTIEL→OUI** : scope 3 détaillé avec **5 leviers prioritaires** explicitement nommés (Rapport p. 40) — Achats / Repas et achats traiteurs / Énergie / Déplacements étudiants / Déplacements professeurs et collaborateurs. Cohérent avec montée IMT-BS/Excelia C19
+      - **Montée C21 PARTIEL→OUI** : Plan de transition formalisé (5 leviers) + politique « Notre campus vert » 6 axes (déplacements, consommation, outillage, alimentation, biodiversité, bâtiments, information) + actions chiffrées (100% flotte renouvelée, BEGES 2024 publié, LEED Platinum visé Reims, jardins partagés Rouen prix Trophées campus responsables 2022). Cohérent avec montée Audencia/IESEG/Excelia C21
+      - **Descente C20 OUI→PARTIEL** : « neutralité carbone campus 2030 » affichée mais Rapport TSE p. 40 évoque la trajectoire comme objectif futur (« Mettre en place une trajectoire de décarbonation pour réduire nos émissions »). Aucun objectif chiffré pluriannuel publié (% par an, jalons annuels), pas de validation SBTi/ACT. Cohérence stricte avec descentes ESDES/ESSCA/ESSEC/HEC/IESEG/IMT/KEDGE/GEM C20
+    - **Apports majeurs (sans changement de verdict)** :
+      - C1 : DGA « Student Experience and Sustainable Transition » au COMEX + Élise Bruchet Directrice TSE signe l'éditorial (p. 2, 12, 32) + 4 instances formelles + plan « Engage for the Future » 2023-2027
+      - C8 : NEOMACT Academy 7 modules AXA Climate School (climat, biodiversité, ressources naturelles, transition bas-carbone, économie circulaire, adaptation, biodiversité entreprise) + **>10 000 étudiants certifiés en 2 ans = >30 000 h** + NEOMACT Project 30h obligatoires PGE 1A rentrée 2025 + Atelier 2Tonnes obligatoire tous étudiants
+      - C9 : évolution 332 → 453 cours TSE entre 21-22 et 24-25 + MS Masternova (1995, AgroParisTech) + MSc Sustainability Transformations (2023, EY) + MSc AFI Finance Durable + MS Supply Chain durable + double diplôme MSc/IRIS Géoéconomie/RSE + PGE M1 semaine 9 dimensions
+      - C17 : 4 Pôles d'Excellence (The World We Want 5 axes TSE, AI Data Science & Business, The Complexity Advantage, The Future of Work) + Chaire Bioéconomie & Développement Soutenable depuis 2012 (Nicolas Befort, partenaires CCI Marne/Caisse Épargne Grand Est/VIVESCIA, 4 axes énergies vertes/agricultures durables/biomasses/alimentation soutenable)
+      - C26 : Index F/H **88/100** (2024) + 52% étudiantes + 66% femmes effectif total + 58% femmes cadres + COMEX 45% femmes + CA 46% femmes + 100% CROUS échelon 7 financés + exonérations échelons 4/5/6
+      - C33 : près de 2 000 étudiants engagés dans 100 associations + 5 pôles + référents TSE depuis 2020-21 dans chaque association + 1/4 assos dédiées RSE + Gold Award QS Reimagine Education + 500+ événements/an + 3,5M€ budget
+      - C34 : Fondation NEOMA 956 bourses 2,4M€ (+56%) + Veuve Clicquot LVMH 10/an + Cordées de la Réussite (200+ tuteurs, 400+ collégiens/lycéens, 15 ans) + dispositif PHARES handicap
+    - 3 montées proposées par sub-agent **REJETÉES** : C28 (LEED Platinum Reims pas encore livré, Paris HQE non confirmé dans Rapport TSE 25), C16 (plan de formation faculty 20h e-learning + 2T + séminaires solide mais pas chiffrage de couverture systématique 100%), pas de C5 (956 bourses ≠ budget RSE consolidé)
+    - Score : 28.5 → **30.0** (Confirmé → **Avancé** ✨, ≥30, net +1.5) — passage tier
+    - Excel mis à jour (Grille R25)
+  - **Bilan global lot 3 écoles** : 5 montées (NEOMA C2/C13/C19/C21 + OMNES C6) + 4 descentes (NEOMA C20 + MBS C1 + OMNES C8/C28) = **net +0.5**, examen équilibré rigoureux + 1 PASSAGE TIER (NEOMA Confirmé → Avancé)
+  - **Apprentissage** : sub-agents proposent 12 montées et 6 descentes ; arbitrage manuel retient 5 montées + 4 descentes après vérif périmètre strict §6 (47% retenu vs 74% lot précédent IESEG/IMT/INSEAD). Le diagnostic OMNES illustre l'efficacité de la règle anti-presse externe (descente C28 trouvée par recherche exhaustive zéro occurrence BREEAM/HQE/LEED dans rapport officiel).
+
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
 - **C8 (Cours DD ≥15h/an)** : volume horaire significatif (>30h/an Bachelor) = présomption forte de couverture systématique, sauf si explicitement contredit. Ne pas systématiquement descendre OUI → PARTIEL juste parce que MSc/MBA pas explicitement documentés. Apprécier au cas par cas.
@@ -500,14 +553,12 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 
 ### 🔜 À faire (par ordre de priorité)
 1. ~~IGENSIA (cible)~~ ✅ Fait proprement avec sources verifiées
-2. **OMNES** (groupe le plus avancé)
+2. ~~OMNES~~ ✅ Fait (4 mai, score 31.0 Avancé maintenu)
 3. **CESI** (groupe le plus récent)
 4. ~~Galileo~~ ✅ Fait (28 avril, FR), **IONIS** (autre groupe)
-5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY, HEC ✅, KEDGE ✅, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅)
-6. **Écoles Confirmé** (BSB ✅, INSEAD ✅, IESEG ✅, NEOMA, EFREI ✅, EM NORMANDIE ✅, RENNES SB, IMT-BS ✅, CLERMONT ✅, DAUPHINE, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅)
+5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY, HEC ✅, KEDGE ✅, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅, NEOMA ✅ passage Avancé)
+6. **Écoles Confirmé** (BSB ✅, INSEAD ✅, IESEG ✅, NEOMA ✅, EFREI ✅, EM NORMANDIE ✅, RENNES SB, IMT-BS ✅, CLERMONT ✅, DAUPHINE, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅, MONTPELLIER BS ✅)
 7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅, IPAG ✅, ISC PARIS ✅)
-6. **Écoles Confirmé** (BSB ✅, INSEAD, IESEG, NEOMA, EFREI, EM NORMANDIE, RENNES SB, IMT-BS, CLERMONT, DAUPHINE)
-7. **Reste** (En progression / Insuffisant — Brest BS ✅, AD ✅)
 
 ### 💡 Méthode validée et améliorée (post-Audencia + Brest BS)
 - **Croisement systématique PDF + sites web** : pour chaque "PARTIEL faible" du rapport, vérifier sur le site école (rse.<école>.com, fondation, chaires) avant de conclure NON. Audencia a démontré que 4 critères "PARTIEL" cachaient des dispositifs solides documentés sur le site (C22 numérique INR, C24 biodiversité WWF, C27 économie circulaire, C32 achats responsables).
