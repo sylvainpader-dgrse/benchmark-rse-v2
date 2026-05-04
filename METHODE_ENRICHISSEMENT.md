@@ -577,6 +577,41 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
   - **Bilan global lot 3 écoles** : 11 montées (Dauphine 4 + Polytechnique 2 + PSB 5) + 2 descentes (Dauphine C8 + Polytechnique C8) = **net +5.0**, **2 PASSAGES TIER** (Dauphine Confirmé→Avancé + PSB Insuffisant→En progression)
   - **Apprentissage** : C8 (≥15h/an pour TOUS programmes) commence à constituer une jurisprudence forte — descente cohérente sur tout score où Bachelor/MBA ne sont pas systématiquement à ≥15h/an obligatoires. Vérification stricte sur le site officiel a permis de monter PSB sans descente (pas de surinterprétation, juste des dispositifs effectivement publiés mais non documentés dans le rapport 2022-23 qui datait).
 
+- **Lot Sciences Po Paris + SKEMA + Rennes SB enrichi en parallèle (4 mai 2026, 3 sub-agents diagnostic + arbitrage strict)** — **2 PASSAGES TIER OPPOSÉS** (Rennes SB Confirmé→Avancé ↑ + Sciences Po Avancé→Confirmé ↓) :
+  - **Sciences Po Paris** (idx=11) :
+    - 1 justif réécrite (C8) avec 7 chartes officielles + sciencespo.fr (7 pages RSE)
+    - **1 verdict modifié (descente cohérence biais stricte)** :
+      - **Descente C8 OUI→PARTIEL** : cours « Culture Écologique » 24h obligatoire pour les ~1 700 étudiants 1A Collège universitaire (Pierre Charbonnier CNRS, lancé janv 2023) MAIS aucune preuve d'un volume ≥15h/an déployé dans TOUS les programmes (Masters d'écoles, Doctorat, Executive Education, prépa concours). Cohérence stricte avec descentes IGENSIA/OMNES/Brest BS/BSB/Polytechnique/Dauphine. Périmètre dispositif obligatoire restreint à l'amorce du cursus.
+    - C4 NON confirmé : statut FNSP/grand établissement, pas éligible labels DD&RS classiques. Label AFNOR Égalité pro = D&I, hors périmètre RSE générique
+    - C12 NON confirmé : aucun accord QVCT public (statut public limite l'applicabilité)
+    - Score : 30.0 → **29.5** (Avancé → **Confirmé** ⬇, <30, net -0.5) — descente tier
+    - Excel mis à jour (Grille R17)
+  - **SKEMA Business School** (idx=16) :
+    - 9 justifs enrichies/réécrites (C1, C3, C8, C18, C20, C22, C26, C28, C33) avec Rapport SKEMA Transitions 2024-2025 + Guide étudiant mobilité responsable + catalogue exch + skema.edu/transitions + charter.isit-europe.org
+    - **1 verdict modifié (descente cohérence stricte)** :
+      - **Descente C28 OUI→PARTIEL** : recherche stricte BREEAM/HQE/LEED dans Rapport SKEMA Transitions 2024-2025 (skema_full.txt 205k caractères) = 0 occurrence. ISO 14001 obtenue Sophia (2010), Lille (2016), Grand Paris (2023) = système de management environnemental (relève C4), pas une certification bâtimentaire. Études de rénovation Lille/Sophia en cours (50M€ d'investissements) = investissements futurs, pas certifications obtenues. Cohérence stricte avec descente OMNES C28
+    - **Apprentissage clé** : retrait des volumes horaires « 18h+15h+18h » de la justif C8 actuelle (non retrouvés dans sources strictes) — preuves alternatives utilisées (100% étudiants formés bas-carbone OBJECTIF ATTEINT + Fresque Climat 1 300 participants + Atelier 2 Tonnes 900 participants + 21/25 spécialisations master comportent au moins un cours intégralement lié à la décarbonation)
+    - Apports : Direction Accréditations Qualité & RSO au COMEX + Isabelle Jauny Directrice SKEMA Transitions + Thaïs Bouve Cheffe de projet RSE + Schéma Directeur DD&RS 2024-2030 (réponse exigence MESR nov 2022) + Plan 3D 30 objectifs 2024-2030 + UNVEIL 2030 4 piliers + baseline 2022 publique scopes 1+2+3 + -30% vols personnel depuis 2022 + plateforme covoiturage 150 000 km / 32 TeqCO2 évitées 2024-25 + trajectoire -15% empreinte carbone d'ici 2026 (60% atteint mi-2025) + -30% émissions campus + -40% conso énergie d'ici 2030 (40% atteint, -15,5% électricité, -19% chaleur) + Charte INR signée 25 avril 2024 (vérifié charter.isit-europe.org id=984) + -50% volume données serveurs atteint 2024 + Fresque Numérique L3 700 étudiants + 95% collaborateurs formés diversité + 3,6M€ aides étudiants 2024 (objectif 10M€/2027) + 42% assos impact (38/91, cible 50%/2026)
+    - Score : 30.5 → **30.0** (Avancé maintenu, ≥30 à la limite, net -0.5)
+    - Excel mis à jour (Grille R16)
+  - **Rennes School of Business** (idx=19) :
+    - 9 justifs enrichies/réécrites (C1, C3, C8, C16, C21, C22, C23, C27, C32) avec Schéma Directeur DD&RS V2 (déc 2024, signé Adilson Borges Directeur Exécutif/Doyen) + Bilan Carbone (résultats) + rennes-sb.fr (7 pages RSE)
+    - **7 verdicts modifiés (6 montées + 1 descente — examen équilibré rigoureux)** :
+      - **Montée C16 PARTIEL→OUI** : Plan formation DD&RS spécifique enseignants formalisé (Faculty Day dédié au lien cours/ODD + plan formation DD&RS proposé aux enseignants + sensibilisation onboarding + syllabi marqués ODD systématiquement + 90% personnel formé climat). Schéma Directeur p. 13, 26
+      - **Montée C21 PARTIEL→OUI** : Schéma Directeur DD&RS V2 (déc 2024) = plan de transition formalisé sur 5 axes / 17 sous-objectifs avec porteurs d'action, indicateurs, prochaines étapes ; objectif 4.1 explicite « diminution émissions GES » intégré au plan stratégique 2024-2028
+      - **Montée C22 PARTIEL→OUI** : « Politique de Numérique Responsable » rédigée (Schéma Directeur p. 21) + tableau de bord pilotage gestion DEEE + projet recherche ECHOS (futurs NR 2040 avec b<>com / Orange / IMT Atlantique)
+      - **Montée C23 PARTIEL→OUI** : Plan mobilité formalisé : prise en charge 50% transports en commun + prime 100€ mobilité douce + politique voyage bas-carbone + suivi tableaux de bord
+      - **Montée C27 PARTIEL→OUI** : Politique gestion déchets formalisée avec tableau de bord (déchets ménagers + DEEE) et indicateurs « % de déchets en filières et valorisés / % des DEEE recyclés »
+      - **Montée C32 PARTIEL→OUI** : Politique d'Achats Responsables formalisée — critères RSE pondération minimum 30% dans la notation des appels d'offre (critère % opposable et chiffré)
+      - **Descente C8 OUI→PARTIEL** : « Tous les cours obligatoires intègrent ≥1 cours RSE/éthique » + parcours E&T 30% cours DD, mais aucun volume horaire ≥15h/an chiffré par programme. Cohérence stricte avec descentes IGENSIA/OMNES/Brest BS/BSB/Polytechnique/Dauphine/Sciences Po
+    - **C4 NON maintenu** : Auto-évaluation DD&RS annuelle depuis 2021 mais label DD&RS NON obtenu. PRME (2017) + Positive Impact Rating niveau 4 ne sont pas des labels au sens §6
+    - **C28 NON maintenu** : Schéma directeur de programmation immobilière + critères DD&RS au projet immobilier + relamping LED + DPE + audit énergétique, mais aucune certification HQE/BREEAM/LEED/Bâtiment Biosourcé obtenue
+    - Apports : Adilson Borges Directeur Exécutif/Doyen + Blandine Dollé membre COMEX (Transformation, RH, Communication) + Département Transformation & Sustainability + 4 ETP dédiés (référente RSE faculté + responsable RSE + chargée projet RSE + data analyst) + Centre for Responsible Business 2007 + auto-évaluation DD&RS annuelle depuis 2021 + 90% personnel formé climat + Fondation 37 étudiants soutenus 23-24 puis 31 en 2025 (250 000€ visés fin 2025)
+    - Score : 28.0 → **30.5** (Confirmé → **Avancé** ✨, ≥30, net +2.5) — passage tier
+    - Excel mis à jour (Grille R27)
+  - **Bilan global lot 3 écoles** : 6 montées (Rennes C16/C21/C22/C23/C27/C32) + 3 descentes (Sciences Po C8 + SKEMA C28 + Rennes C8) = **net +1.5**, **2 PASSAGES TIER OPPOSÉS** (Rennes ↑ Avancé / Sciences Po ↓ Confirmé) — premier cas du benchmark où une descente fait basculer un Avancé limite vers Confirmé
+  - **Apprentissage** : C8 jurisprudence forte appliquée systématiquement aux 3 écoles avec score limite — Sciences Po (24h pour 1A Collège uniquement) et Rennes SB (parcours E&T 30% sans volume ≥15h chiffré) ont basculé. SKEMA C8 OUI maintenu vu preuves alternatives solides (objectif 100% étudiants formés bas-carbone ATTEINT + 21/25 spécialisations master + Fresques 1 300+900 participants). C28 (certification bâtimentaire) appliqué strict OMNES → SKEMA même critère = ISO 14001 ≠ BREEAM/HQE/LEED.
+
 ### 🆕 Règle méthodologique ajoutée (post-Clermont)
 - **C4 (Label LUCIE)** : ne PAS mentionner « 1ère école » sans vérification. Audencia détient LUCIE depuis 2013, IGENSIA depuis juin 2025, Clermont SB depuis décembre 2025 (DD&RS), BSB depuis juin 2024 (DD&RS). Plusieurs écoles du benchmark ont LUCIE ou DD&RS.
 - **C8 (Cours DD ≥15h/an)** : volume horaire significatif (>30h/an Bachelor) = présomption forte de couverture systématique, sauf si explicitement contredit. Ne pas systématiquement descendre OUI → PARTIEL juste parce que MSc/MBA pas explicitement documentés. Apprécier au cas par cas.
@@ -597,8 +632,8 @@ Voir `data.js` → `criteria` → `seuils.oui / partiel / non` pour le périmèt
 2. ~~OMNES~~ ✅ Fait (4 mai, score 31.0 Avancé maintenu)
 3. **CESI** (groupe le plus récent)
 4. ~~Galileo~~ ✅ Fait (28 avril, FR), **IONIS** (autre groupe)
-5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY ✅, HEC ✅, KEDGE ✅, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO, SKEMA, TBS, AUDENCIA ✅, NEOMA ✅ passage Avancé, DAUPHINE ✅ passage Avancé)
-6. **Écoles Confirmé** (BSB ✅, INSEAD ✅, IESEG ✅, NEOMA ✅, EFREI ✅, EM NORMANDIE ✅, RENNES SB, IMT-BS ✅, CLERMONT ✅, DAUPHINE ✅, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅, MONTPELLIER BS ✅)
+5. **Top écoles Avancé** (EMLYON ✅, ESSEC ✅, ÉCOLE POLY ✅, HEC ✅, KEDGE ✅, ESCP ✅, EDHEC ✅, ESSCA ✅, GEM ✅, SCIENCES PO ✅ descente Confirmé, SKEMA ✅, TBS, AUDENCIA ✅, NEOMA ✅ passage Avancé, DAUPHINE ✅ passage Avancé, RENNES SB ✅ passage Avancé)
+6. **Écoles Confirmé** (BSB ✅, INSEAD ✅, IESEG ✅, NEOMA ✅, EFREI ✅, EM NORMANDIE ✅, RENNES SB ✅, IMT-BS ✅, CLERMONT ✅, DAUPHINE ✅, ICN ✅, EM STRAS ✅, EXCELIA ✅, ESDES ✅, MONTPELLIER BS ✅, SCIENCES PO ✅ descente)
 7. **Écoles En progression / Insuffisant** (Brest BS ✅, AD ✅, IAE LYON ✅, GALILEO ✅, ESCE ✅, EDC ✅, IPAG ✅, ISC PARIS ✅, PSB ✅ passage En progression)
 
 ### 💡 Méthode validée et améliorée (post-Audencia + Brest BS)
