@@ -6,6 +6,8 @@ const D = BENCHMARK_DATA;
 let currentTab = 'grille';
 let searchTerm = '';
 let selectedFocusSchool = null;
+let justifFilterCrit = '';     // numéro de critère (string) ou '' pour tous
+let justifFilterVerdict = '';  // 'OUI' / 'PARTIEL' / 'NON' / '' pour tous
 
 // --- LocalStorage ---
 function loadSaved() {
@@ -38,8 +40,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setupTabs();
   setupSearch();
+  setupJustifFilter();
   renderAll();
 });
+
+function setupJustifFilter() {
+  const select = document.getElementById('justifCritSelect');
+  if (!select) return;
+  // Peuple le sélecteur avec tous les critères
+  D.criteria.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = String(c.col);
+    opt.textContent = `C${c.col} — ${c.name}`;
+    select.appendChild(opt);
+  });
+  select.addEventListener('change', e => {
+    justifFilterCrit = e.target.value;
+    // Affiche/masque les boutons verdict selon mode
+    const vfilter = document.getElementById('justifVerdictFilter');
+    if (vfilter) vfilter.style.display = justifFilterCrit ? '' : 'none';
+    if (!justifFilterCrit) justifFilterVerdict = '';
+    renderJustifications();
+  });
+  document.querySelectorAll('.verdict-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.verdict-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      justifFilterVerdict = btn.dataset.verdict;
+      renderJustifications();
+    });
+  });
+}
 
 function setupTabs() {
   document.querySelectorAll('.tab').forEach(btn => {
@@ -333,6 +364,87 @@ function renderJustifications() {
   const container = document.getElementById('justifList');
   container.innerHTML = '';
 
+  // ===== MODE FILTR\u00c9 : un seul crit\u00e8re affich\u00e9 pour toutes les \u00e9coles =====
+  if (justifFilterCrit) {
+    const crit = D.criteria.find(c => String(c.col) === String(justifFilterCrit));
+    if (!crit) return;
+
+    // R\u00e9cup\u00e8re verdict + justif par \u00e9cole pour ce crit\u00e8re
+    const rows = filtered.map(s => {
+      const grilleEntry = D.grille.find(g => g.name === s.name);
+      const verdict = (grilleEntry && grilleEntry.verdicts && grilleEntry.verdicts[String(crit.col)]) ? grilleEntry.verdicts[String(crit.col)].toUpperCase() : '';
+      const justif = s.justifs[String(crit.col)] || '';
+      const score = scoreMap[s.name] || 0;
+      const ig = isIgensia(s.name);
+      const rankLabel = ig ? '\u2605' : (rankMapJ[s.name] ? '#' + rankMapJ[s.name] : '');
+      return { name: s.name, verdict: verdict, justif: justif, score: score, ig: ig, rankLabel: rankLabel };
+    }).filter(r => {
+      if (!justifFilterVerdict) return true;
+      return r.verdict === justifFilterVerdict;
+    });
+
+    // Compteurs par verdict (tous crit\u00e8res confondus, pour info en-t\u00eate)
+    const counts = { OUI: 0, PARTIEL: 0, NON: 0 };
+    filtered.forEach(s => {
+      const ge = D.grille.find(g => g.name === s.name);
+      const v = (ge && ge.verdicts && ge.verdicts[String(crit.col)]) ? ge.verdicts[String(crit.col)].toUpperCase() : '';
+      if (v in counts) counts[v]++;
+    });
+
+    // En-t\u00eate crit\u00e8re
+    const header = document.createElement('div');
+    header.className = 'justif-filter-header';
+    const seuilsHTML = crit.seuils ? `<div class="filter-header-seuils">
+        <div><span class="badge oui">OUI</span> ${escapeHTML(crit.seuils.oui || '')}</div>
+        <div><span class="badge partiel">PARTIEL</span> ${escapeHTML(crit.seuils.partiel || '')}</div>
+        <div><span class="badge non">NON</span> ${escapeHTML(crit.seuils.non || '')}</div>
+      </div>` : '';
+    header.innerHTML = `
+      <div class="filter-header-top">
+        <span class="filter-header-num">C${crit.col}</span>
+        <span class="filter-header-name">${escapeHTML(crit.name)}</span>
+      </div>
+      ${crit.definition ? '<div class="filter-header-def">' + escapeHTML(crit.definition) + '</div>' : ''}
+      ${seuilsHTML}
+      <div class="filter-header-counts">
+        <span class="count-pill count-oui">OUI : <strong>${counts.OUI}</strong></span>
+        <span class="count-pill count-partiel">PARTIEL : <strong>${counts.PARTIEL}</strong></span>
+        <span class="count-pill count-non">NON : <strong>${counts.NON}</strong></span>
+      </div>
+    `;
+    container.appendChild(header);
+
+    // Affiche par groupe verdict (OUI puis PARTIEL puis NON)
+    const groupOrder = ['OUI', 'PARTIEL', 'NON'];
+    groupOrder.forEach(g => {
+      const groupRows = rows.filter(r => r.verdict === g);
+      if (groupRows.length === 0) return;
+      const groupDiv = document.createElement('div');
+      groupDiv.className = 'justif-filter-group-block group-' + g.toLowerCase();
+      groupDiv.innerHTML = '<div class="group-block-title">' + badgeHTML(g) + ' <span class="group-count">' + groupRows.length + ' \u00e9cole' + (groupRows.length > 1 ? 's' : '') + '</span></div>';
+      groupRows.forEach(r => {
+        const item = document.createElement('div');
+        item.className = 'justif-filter-item' + (r.ig ? ' is-igensia' : '');
+        item.innerHTML = `
+          <div class="filter-item-head">
+            <span class="filter-item-rank">${r.rankLabel}</span>
+            <span class="filter-item-name">${r.name.replace(/\n/g, ' ')}</span>
+            <span class="filter-item-score score-tag ${scoreClass(r.score)}">${r.score}/36</span>
+          </div>
+          <div class="filter-item-body">${r.justif ? formatJustif(r.justif) : '<em>Justification non disponible.</em>'}</div>
+        `;
+        groupDiv.appendChild(item);
+      });
+      container.appendChild(groupDiv);
+    });
+
+    if (rows.length === 0) {
+      container.insertAdjacentHTML('beforeend', '<div class="placeholder-msg">Aucune \u00e9cole ne correspond aux filtres actuels.</div>');
+    }
+    return;
+  }
+
+  // ===== MODE NORMAL : carte par \u00e9cole =====
   filtered.forEach((s, idx) => {
     const score = scoreMap[s.name] || 0;
     const ig = isIgensia(s.name);

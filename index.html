@@ -77,7 +77,22 @@
 
   <!-- TAB 2: JUSTIFICATIONS -->
   <section id="tab-justifications" class="tab-content">
-    <p class="tab-intro">Cliquez sur une école ou un groupe pour voir les justifications détaillées de chaque critère.</p>
+    <p class="tab-intro">Cliquez sur une école ou un groupe pour voir les justifications détaillées, ou filtrez par critère pour comparer toutes les écoles sur un même point.</p>
+    <div class="justif-filter-bar">
+      <div class="justif-filter-group">
+        <label for="justifCritSelect">Filtrer par critère :</label>
+        <select id="justifCritSelect">
+          <option value="">— Tous les critères (vue par école) —</option>
+        </select>
+      </div>
+      <div class="justif-filter-group" id="justifVerdictFilter" style="display:none;">
+        <span class="filter-label">Verdict :</span>
+        <button class="verdict-filter-btn active" data-verdict="">Tous</button>
+        <button class="verdict-filter-btn" data-verdict="OUI">OUI</button>
+        <button class="verdict-filter-btn" data-verdict="PARTIEL">PARTIEL</button>
+        <button class="verdict-filter-btn" data-verdict="NON">NON</button>
+      </div>
+    </div>
     <div id="justifList"></div>
   </section>
 
