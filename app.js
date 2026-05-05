@@ -228,6 +228,12 @@ function isIgensia(name) {
   return name.toUpperCase().includes('IGENSIA');
 }
 
+// Distingue les 6 groupes consolidés des écoles : (Groupe) ou (Groupe — auto-éval.)
+// Pas (Groupe Galileo), (Groupe OMNES), (Groupe Planeta) qui sont des écoles rattachées
+function isConsolidatedGroup(name) {
+  return /\(Groupe\)|\(Groupe\s+—/.test(name);
+}
+
 function matchesSearch(name) {
   if (!searchTerm) return true;
   return name.toLowerCase().includes(searchTerm);
@@ -383,13 +389,21 @@ function renderJustifications() {
       return r.verdict === justifFilterVerdict;
     });
 
-    // Compteurs par verdict (tous crit\u00e8res confondus, pour info en-t\u00eate)
-    const counts = { OUI: 0, PARTIEL: 0, NON: 0 };
+    // Compteurs par verdict, s\u00e9par\u00e9s \u00e9coles / groupes consolid\u00e9s
+    const counts = {
+      OUI: { ecoles: 0, groupes: 0 },
+      PARTIEL: { ecoles: 0, groupes: 0 },
+      NON: { ecoles: 0, groupes: 0 },
+    };
     filtered.forEach(s => {
       const ge = D.grille.find(g => g.name === s.name);
       const v = (ge && ge.verdicts && ge.verdicts[String(crit.col)]) ? ge.verdicts[String(crit.col)].toUpperCase() : '';
-      if (v in counts) counts[v]++;
+      if (counts[v]) {
+        if (isConsolidatedGroup(s.name)) counts[v].groupes++;
+        else counts[v].ecoles++;
+      }
     });
+    const fmtCount = c => `<strong>${c.ecoles + c.groupes}</strong> <small>(${c.ecoles} \u00e9cole${c.ecoles > 1 ? 's' : ''} + ${c.groupes} groupe${c.groupes > 1 ? 's' : ''})</small>`;
 
     // En-t\u00eate crit\u00e8re
     const header = document.createElement('div');
@@ -407,9 +421,9 @@ function renderJustifications() {
       ${crit.definition ? '<div class="filter-header-def">' + escapeHTML(crit.definition) + '</div>' : ''}
       ${seuilsHTML}
       <div class="filter-header-counts">
-        <span class="count-pill count-oui">OUI : <strong>${counts.OUI}</strong></span>
-        <span class="count-pill count-partiel">PARTIEL : <strong>${counts.PARTIEL}</strong></span>
-        <span class="count-pill count-non">NON : <strong>${counts.NON}</strong></span>
+        <span class="count-pill count-oui">OUI : ${fmtCount(counts.OUI)}</span>
+        <span class="count-pill count-partiel">PARTIEL : ${fmtCount(counts.PARTIEL)}</span>
+        <span class="count-pill count-non">NON : ${fmtCount(counts.NON)}</span>
       </div>
     `;
     container.appendChild(header);
@@ -419,9 +433,12 @@ function renderJustifications() {
     groupOrder.forEach(g => {
       const groupRows = rows.filter(r => r.verdict === g);
       if (groupRows.length === 0) return;
+      const nbEcoles = groupRows.filter(r => !isConsolidatedGroup(r.name)).length;
+      const nbGroupes = groupRows.filter(r => isConsolidatedGroup(r.name)).length;
+      const detail = nbEcoles + ' \u00e9cole' + (nbEcoles > 1 ? 's' : '') + ' + ' + nbGroupes + ' groupe' + (nbGroupes > 1 ? 's' : '');
       const groupDiv = document.createElement('div');
       groupDiv.className = 'justif-filter-group-block group-' + g.toLowerCase();
-      groupDiv.innerHTML = '<div class="group-block-title">' + badgeHTML(g) + ' <span class="group-count">' + groupRows.length + ' \u00e9cole' + (groupRows.length > 1 ? 's' : '') + '</span></div>';
+      groupDiv.innerHTML = '<div class="group-block-title">' + badgeHTML(g) + ' <span class="group-count">' + groupRows.length + ' entr\u00e9es <em>(' + detail + ')</em></span></div>';
       groupRows.forEach(r => {
         const item = document.createElement('div');
         item.className = 'justif-filter-item' + (r.ig ? ' is-igensia' : '');

@@ -372,10 +372,23 @@ thead th.rank-col, td.rank-cell {
   font-size: 0.78rem;
   font-weight: 600;
   background: rgba(255,255,255,0.15);
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+}
+.count-pill small {
+  font-weight: 400;
+  font-size: 0.72rem;
+  opacity: 0.85;
 }
 .count-oui strong { color: #C8E6C9; }
 .count-partiel strong { color: #FFF59D; }
 .count-non strong { color: #FFCDD2; }
+.group-count em {
+  font-style: normal;
+  color: #888;
+  font-size: 0.78rem;
+}
 
 .justif-filter-group-block {
   margin-bottom: 18px;
