@@ -580,6 +580,16 @@ thead th.rank-col, td.rank-cell {
 .pres-images--5 .pres-fig:first-child {
   grid-row: 1 / span 2;
 }
+
+/* Variante 'hero' : cover landscape en pleine largeur (row 1) + 2x2 inner
+   en dessous. Utilisée quand cover_landscape est true (cas Galileo). */
+.pres-images-l {
+  grid-template-columns: 1fr 1fr;
+}
+.pres-images-l .pres-fig:first-child {
+  grid-column: 1 / -1;
+  grid-row: auto;   /* annule le span vertical hérité de pres-images--N */
+}
 .pres-fig {
   background: #fafafa;
   border-radius: 8px;

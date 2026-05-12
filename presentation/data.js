@@ -1,16 +1,62 @@
 /* ==============================
    Présentation Benchmark Rapports RSE — données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 2,
+    nb_rapports: 3,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'galileo', rank: 3, score: 3.88, forme: 4.25, fond: 3.50,
+      name: 'Galileo Global Education', titre: "Rapport d'Impact 2024-2025",
+      cover_landscape: true,
+      leg_cov: "Couverture Rapport d'Impact Galileo 2024-2025",
+      leg_i1:  "Matrice de double matérialité (axe impact / axe financier, codage couleur Social-Environnement-Gouvernance)",
+      leg_i2:  "Page « GGE aujourd'hui » : 64 écoles, 133 campus, 19 pays, 300 000 apprenants + répartition par pays",
+      leg_i3:  "16 commitments envers les apprenants détaillés et catégorisés (Qualité / Programmes / Cadre / Préparation / Diversité)",
+      leg_i4:  "Annexe « Nos données d'impact » : tableaux N/N-1 par catégorie / indicateur / unité",
+      forme_plus: [
+        "Matrice de double matérialité affichée visuellement (axe impact / axe financier, codage couleur Social-Environnement-Gouvernance)",
+        "Page « GGE aujourd'hui » très visuelle (chiffres clés + camemberts genre + carte par pays sur double-page)",
+        "16 commitments envers les apprenants détaillés et catégorisés (Qualité académique / Programmes / Cadre d'apprentissage / Préparation au marché / Diversité)",
+        "Encadré « Ce que nous disent nos écoles » dans chaque chapitre : consolidation multi-écoles avec % des écoles ayant fait X",
+        "Annexe « Nos données d'impact » de 10 pages : tableaux N/N-1 catégorisés (catégorie / indicateur / unité / 2024-25 / 2023-24)",
+      ],
+      forme_moins: [
+        "122 pages : volume écrasant, le lecteur décroche bien avant la fin",
+        "KPIs noyés dans la masse, pas de page de synthèse en début de rapport",
+        "Frontière floue entre actions réalisées et actions prévues, le lecteur peine à distinguer",
+      ],
+      fond_plus: [
+        "Couverture internationale rare : 300 000 apprenants, 64 écoles, 133 campus, 19 pays",
+        "Bourses chiffrées dans le rapport : 7 195 bourses au mérite (13,6 M€, moyenne 1 671 €) + 15 427 bourses sur critères sociaux (15,6 M€, moyenne 1 013 €)",
+        "Certifications externes par école affichées : B Corp pour Regent's University, Great Place to Work, HR Excellence in Research",
+        "Trajectoire CSRD anticipée volontairement (rapport « à blanc » avant l'obligation)",
+        "Investissement chiffré pour la transition : 2,3 M€ pour des campus plus verts en 2024-2025",
+        "53 % des postes de direction du Groupe occupés par des femmes",
+        "Engagement parties prenantes formalisé pour bâtir la matrice de matérialité",
+      ],
+      fond_moins: [
+        "Bilan carbone limité aux campus, scope 3 absent (déplacements, achats, numérique)",
+        "Manque de hiérarchie : tout semble équivalent, pas de signal sur les enjeux prioritaires",
+      ],
+      idees: [
+        { titre: "Afficher notre matrice de matérialité dans le rapport",
+          pourquoi: "Galileo affiche une vraie matrice de double matérialité (p.17) avec les enjeux RSE positionnés sur 2 axes (impact / financier) et codés par couleur (Social/Environnement/Gouvernance). On voit immédiatement les enjeux prioritaires. Chez IGENSIA, pas de matrice de matérialité visible dans le rapport.",
+          comment: "Conduire un exercice de matérialité (interne + parties prenantes externes) pour positionner nos 12-15 enjeux RSE sur 2 axes : importance pour nos parties prenantes × impact opérationnel. Afficher la matrice sur 1 page en début de rapport. Les enjeux dans le cadran haut droit deviennent les priorités stratégiques." },
+        { titre: "Chiffrer nos dispositifs de soutien (bourses, aides, For Me) en nombre + montant + moyenne",
+          pourquoi: "Galileo détaille chaque dispositif de bourses : « 7 195 bourses au mérite, 13,6 M€ au total, 1 671 € en moyenne » + « 15 427 bourses sur critères sociaux, 15,6 M€, 1 013 € en moyenne ». Format puissant. Chez nous, on a For Me (190 demandes jan-juin 2025) mais en qualitatif, sans montants ni moyennes.",
+          comment: "Pour chaque dispositif de soutien apprenants (For Me, bourses, accompagnement individualisé, prêts) afficher : nombre de bénéficiaires + montant total + montant moyen par bénéficiaire + évolution N-1. Format encadré avec picto + chiffres alignés." },
+        { titre: "Encadré « Ce que nous disent nos écoles » dans chaque grande partie",
+          pourquoi: "Galileo est un groupe de 64 écoles : dans chaque chapitre, un encadré consolide les % d'écoles ayant fait X (« 86 % des écoles disposent d'une stratégie DEI », « 85 % des écoles ont une politique RSE formelle »). Vue de pilotage du Groupe vis-à-vis de ses entités. IGENSIA = groupe avec plusieurs écoles (MBA ESG, ICD, etc.) mais on ne consolide pas en % d'écoles dans le rapport.",
+          comment: "Dans chaque grande partie (Apprenants / Collabs / Campus / Partenaires), ajouter un encadré « Côté écoles » avec 4-5 indicateurs en % des écoles du Groupe (ex. « X % de nos écoles ont déployé un plan QVCT », « X % de nos campus sont éco-conçus »). Vue consolidée multi-écoles, complémentaire des KPI globaux." },
+      ],
+    },
     {
       key: 'essec', rank: 2, score: 4.00, forme: 4.00, fond: 4.00,
       name: 'ESSEC', titre: 'Rapport Développement Durable et Responsabilité Sociétale 2025',

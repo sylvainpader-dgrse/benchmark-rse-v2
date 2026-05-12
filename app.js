@@ -221,6 +221,11 @@ function renderRapportCard(r) {
     if (!leg) break;
     imgs.push({ src: `${imgDir}/${r.key}_inner${i}.jpg?v=${v}`, leg });
   }
+  // Quand toutes les images sont en landscape (cas Galileo), on bascule
+  // sur un layout 'hero' : cover en pleine largeur + 2x2 inner. Pour les
+  // covers portrait (OMNES/ESSEC), la classe -l n'est pas appliquée et
+  // la règle CSS pres-images--N fait spanner la cover sur 2 lignes.
+  const layoutCls = r.cover_landscape ? ' pres-images-l' : '';
   return `
     <section id="pres-${r.key}" class="pres-rapport">
       <div class="pres-rapport-head">
@@ -231,7 +236,7 @@ function renderRapportCard(r) {
         </div>
       </div>
 
-      <div class="pres-images pres-images--${imgs.length}">
+      <div class="pres-images pres-images--${imgs.length}${layoutCls}">
         ${imgs.map((im, i) => `
           <figure class="pres-fig">
             <img class="pres-img" src="${im.src}" alt="${escapeHTML(im.leg)}" loading="lazy">
