@@ -4934,7 +4934,7 @@ const BENCHMARK_DATA = {
           "fond": 4.0
         },
         "sylvain": {
-          "forme": "",
+          "forme": 3.5,
           "fond": 3.5
         }
       },
@@ -4975,7 +4975,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         },
         "sylvain": {
-          "forme": "",
+          "forme": 2.0,
           "fond": 3.5
         }
       },
@@ -5016,7 +5016,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         },
         "sylvain": {
-          "forme": "",
+          "forme": 2.0,
           "fond": 2.5
         }
       },
