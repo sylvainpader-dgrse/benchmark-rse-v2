@@ -352,6 +352,54 @@ thead th.rank-col, td.rank-cell {
 .verdict-filter-btn[data-verdict="PARTIEL"].active { background: #F9A825; color: #000; border-color: #F9A825; }
 .verdict-filter-btn[data-verdict="NON"].active { background: #C62828; border-color: #C62828; }
 
+.justif-axe-banner {
+  color: #fff;
+  padding: 22px 26px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 18px;
+  align-items: baseline;
+}
+.justif-axe-banner .axe-banner-num {
+  font-size: 2.1rem;
+  font-weight: 900;
+  background: rgba(255,255,255,0.18);
+  padding: 4px 16px;
+  border-radius: 8px;
+  grid-row: span 2;
+  align-self: center;
+}
+.justif-axe-banner .axe-banner-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.justif-axe-banner .axe-banner-meta {
+  font-size: 0.85rem;
+  opacity: 0.92;
+}
+.axe-header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.btn-open-justifs {
+  padding: 6px 12px;
+  border: 1px solid rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: 'Archivo', sans-serif;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-open-justifs:hover {
+  background: rgba(255,255,255,0.25);
+  border-color: rgba(255,255,255,0.7);
+}
 .justif-filter-header {
   background: linear-gradient(135deg, #4A1942, #6B3A6B);
   color: #fff;

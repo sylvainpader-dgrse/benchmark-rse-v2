@@ -44,15 +44,37 @@ document.addEventListener('DOMContentLoaded', () => {
   renderAll();
 });
 
+// Définition des axes (utilisée aussi par le radar — voir AXES const plus bas)
+const AXES_DEF = [
+  { id: '1', name: 'Gouvernance Responsable', cols: [1,2,3,4,5,6,7] },
+  { id: '2', name: 'Engager nos Parties Prenantes', cols: [8,9,10,11,14,15,16,17] },
+  { id: '3', name: 'Réduire notre Impact Environnemental', cols: [18,19,20,21,22,23,24,27,28,29] },
+  { id: '4', name: 'Qualité de Vie & Égalité des Chances', cols: [12,13,25,26,30] },
+  { id: '5', name: 'Utilité pour la Société & Territoires', cols: [31,32,33,34,35,36] },
+];
+
 function setupJustifFilter() {
   const select = document.getElementById('justifCritSelect');
   if (!select) return;
-  // Peuple le sélecteur avec tous les critères
-  D.criteria.forEach(c => {
-    const opt = document.createElement('option');
-    opt.value = String(c.col);
-    opt.textContent = `C${c.col} — ${c.name}`;
-    select.appendChild(opt);
+  // Peuple le sélecteur avec optgroup par axe (vue d'ensemble axe + critères individuels)
+  AXES_DEF.forEach(axe => {
+    const grp = document.createElement('optgroup');
+    grp.label = `Axe ${axe.id} — ${axe.name}`;
+    // Option "vue d'ensemble" de l'axe
+    const optAxe = document.createElement('option');
+    optAxe.value = `axe:${axe.id}`;
+    optAxe.textContent = `▸ Tout l'axe ${axe.id} (${axe.cols.length} critères)`;
+    grp.appendChild(optAxe);
+    // Options critères individuels de l'axe
+    axe.cols.forEach(col => {
+      const c = D.criteria.find(cr => cr.col === col);
+      if (!c) return;
+      const opt = document.createElement('option');
+      opt.value = `crit:${col}`;
+      opt.textContent = `C${col} — ${c.name}`;
+      grp.appendChild(opt);
+    });
+    select.appendChild(grp);
   });
   select.addEventListener('change', e => {
     justifFilterCrit = e.target.value;
@@ -371,12 +393,8 @@ function renderJustifications() {
   const container = document.getElementById('justifList');
   container.innerHTML = '';
 
-  // ===== MODE FILTR\u00c9 : un seul crit\u00e8re affich\u00e9 pour toutes les \u00e9coles =====
-  if (justifFilterCrit) {
-    const crit = D.criteria.find(c => String(c.col) === String(justifFilterCrit));
-    if (!crit) return;
-
-    // R\u00e9cup\u00e8re verdict + justif par \u00e9cole pour ce crit\u00e8re
+  // Rendu d'un seul crit\u00e8re pour toutes les \u00e9coles (r\u00e9utilisable en mode crit: et axe:)
+  function renderOneCriterion(crit, container) {
     const rows = filtered.map(s => {
       const grilleEntry = D.grille.find(g => g.name === s.name);
       const verdict = (grilleEntry && grilleEntry.verdicts && grilleEntry.verdicts[String(crit.col)]) ? grilleEntry.verdicts[String(crit.col)].toUpperCase() : '';
@@ -390,12 +408,7 @@ function renderJustifications() {
       return r.verdict === justifFilterVerdict;
     });
 
-    // Compteurs par verdict, s\u00e9par\u00e9s \u00e9coles / groupes consolid\u00e9s
-    const counts = {
-      OUI: { ecoles: 0, groupes: 0 },
-      PARTIEL: { ecoles: 0, groupes: 0 },
-      NON: { ecoles: 0, groupes: 0 },
-    };
+    const counts = { OUI: { ecoles: 0, groupes: 0 }, PARTIEL: { ecoles: 0, groupes: 0 }, NON: { ecoles: 0, groupes: 0 } };
     filtered.forEach(s => {
       const ge = D.grille.find(g => g.name === s.name);
       const v = (ge && ge.verdicts && ge.verdicts[String(crit.col)]) ? ge.verdicts[String(crit.col)].toUpperCase() : '';
@@ -406,7 +419,6 @@ function renderJustifications() {
     });
     const fmtCount = c => `<strong>${c.ecoles + c.groupes}</strong> <small>(${c.ecoles} \u00e9cole${c.ecoles > 1 ? 's' : ''} + ${c.groupes} groupe${c.groupes > 1 ? 's' : ''})</small>`;
 
-    // En-t\u00eate crit\u00e8re
     const header = document.createElement('div');
     header.className = 'justif-filter-header';
     const seuilsHTML = crit.seuils ? `<div class="filter-header-seuils">
@@ -425,11 +437,9 @@ function renderJustifications() {
         <span class="count-pill count-oui">OUI : ${fmtCount(counts.OUI)}</span>
         <span class="count-pill count-partiel">PARTIEL : ${fmtCount(counts.PARTIEL)}</span>
         <span class="count-pill count-non">NON : ${fmtCount(counts.NON)}</span>
-      </div>
-    `;
+      </div>`;
     container.appendChild(header);
 
-    // Affiche par groupe verdict (OUI puis PARTIEL puis NON)
     const groupOrder = ['OUI', 'PARTIEL', 'NON'];
     groupOrder.forEach(g => {
       const groupRows = rows.filter(r => r.verdict === g);
@@ -449,8 +459,7 @@ function renderJustifications() {
             <span class="filter-item-name">${r.name.replace(/\n/g, ' ')}</span>
             <span class="filter-item-score score-tag ${scoreClass(r.score)}">${r.score}/36</span>
           </div>
-          <div class="filter-item-body">${r.justif ? formatJustif(r.justif) : '<em>Justification non disponible.</em>'}</div>
-        `;
+          <div class="filter-item-body">${r.justif ? formatJustif(r.justif) : '<em>Justification non disponible.</em>'}</div>`;
         groupDiv.appendChild(item);
       });
       container.appendChild(groupDiv);
@@ -459,7 +468,41 @@ function renderJustifications() {
     if (rows.length === 0) {
       container.insertAdjacentHTML('beforeend', '<div class="placeholder-msg">Aucune \u00e9cole ne correspond aux filtres actuels.</div>');
     }
-    return;
+  }
+
+  // ===== Mode filtr\u00e9 : crit\u00e8re unique OU vue d'ensemble d'un axe =====
+  if (justifFilterCrit) {
+    const [kind, id] = justifFilterCrit.split(':');
+
+    if (kind === 'crit') {
+      const crit = D.criteria.find(c => String(c.col) === String(id));
+      if (!crit) return;
+      renderOneCriterion(crit, container);
+      return;
+    }
+
+    if (kind === 'axe') {
+      const axe = AXES_DEF.find(a => a.id === id);
+      if (!axe) return;
+      // Bandeau d'axe global
+      const axeColors = {'1':'#260D66','2':'#E60F7D','3':'#00B050','4':'#00B0F0','5':'#C49476'};
+      const axeBanner = document.createElement('div');
+      axeBanner.className = 'justif-axe-banner';
+      axeBanner.style.background = axeColors[axe.id] || '#4A1942';
+      axeBanner.innerHTML = `
+        <div class="axe-banner-num">Axe ${axe.id}</div>
+        <div class="axe-banner-name">${escapeHTML(axe.name)}</div>
+        <div class="axe-banner-meta">${axe.cols.length} crit\u00e8res analys\u00e9s pour ${filtered.length} entr\u00e9es</div>`;
+      container.appendChild(axeBanner);
+
+      // Rend chaque crit\u00e8re de l'axe successivement
+      axe.cols.forEach(col => {
+        const crit = D.criteria.find(c => c.col === col);
+        if (!crit) return;
+        renderOneCriterion(crit, container);
+      });
+      return;
+    }
   }
 
   // ===== MODE NORMAL : carte par \u00e9cole =====
@@ -1077,7 +1120,10 @@ function renderRadarComparison(igensiaData) {
     html += `<div class="comparison-axe">`;
     html += `<div class="comparison-axe-header">
       <span>${axe.id} — ${axe.name}</span>
-      <span class="axe-scores">IGENSIA : ${igScore}/${axe.max}</span>
+      <span class="axe-header-right">
+        <span class="axe-scores">IGENSIA : ${igScore}/${axe.max}</span>
+        <button class="btn-open-justifs" data-axe="${axe.id}" title="Ouvrir l'onglet Justifications filtré sur cet axe">📖 Voir les justifications</button>
+      </span>
     </div>`;
 
     axe.cols.forEach(col => {
@@ -1153,6 +1199,30 @@ function renderRadarComparison(igensiaData) {
   });
 
   el.innerHTML = html;
+
+  // Branche les boutons "Voir les justifications" : bascule vers l'onglet Justifications avec axe pré-filtré
+  el.querySelectorAll('.btn-open-justifs').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const axeId = btn.dataset.axe;
+      // Set filtre
+      const select = document.getElementById('justifCritSelect');
+      if (select) {
+        select.value = `axe:${axeId}`;
+        justifFilterCrit = `axe:${axeId}`;
+        const vfilter = document.getElementById('justifVerdictFilter');
+        if (vfilter) vfilter.style.display = '';
+      }
+      // Bascule sur l'onglet
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+      const tabBtn = document.querySelector('.tab[data-tab="justifications"]');
+      if (tabBtn) tabBtn.classList.add('active');
+      document.getElementById('tab-justifications').classList.add('active');
+      currentTab = 'justifications';
+      renderJustifications();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
 }
 
 // =============================
