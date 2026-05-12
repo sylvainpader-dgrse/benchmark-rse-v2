@@ -437,6 +437,16 @@ thead th.rank-col, td.rank-cell {
   color: var(--primary);
   font-weight: 600;
 }
+.comment-warning {
+  margin: 4px 0 8px;
+  padding: 8px 12px;
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  color: #6d4c00;
+  line-height: 1.5;
+}
 
 .justif-filter-group-block {
   margin-bottom: 18px;

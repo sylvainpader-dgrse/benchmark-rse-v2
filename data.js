@@ -4200,7 +4200,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "**Forme** : 48 pages, identité visuelle forte (violet IGENSIA + rose fuchsia), mise en page soignée et photographique. La codification « C'est réalisé / C'est lancé / C'est prévu » apporte une honnêteté rare : on voit clairement où en est chaque action. La distinction apprenants/collaborateurs est intégrée dès la structure des sections.\n\n**Fond** : bilan carbone détaillé (25 498 tCO2e, ventilé par poste et par campus), couverture sérieuse des 5 axes du référentiel. Mais l'index égalité F/H recule (84 vers 75), le dispositif VSS n'est pas encore déployé, et le budget RSE n'est pas publié. Trois points qui pèsent pour un premier exercice.\n\n*Pour IGENSIA* : bon socle de départ. Le prochain rapport gagnera à consolider les KPIs sur plusieurs années pour montrer la trajectoire."
+      "comment": "Premier rapport RSE du groupe, 48 pages. Le bilan carbone est détaillé (25 498 tCO2e, ventilé par poste et par campus), la distinction apprenants/collaborateurs est bien pensée avec des sections dédiées, et la codification « C'est réalisé / C'est lancé / C'est prévu » apporte une honnêteté rare dans ce type de document. En revanche, l'index égalité F/H recule (84à75), le dispositif VSS n'est pas encore déployé, et le budget RSE n'est pas publié. Un bon premier exercice, à consolider avec des indicateurs de suivi annuels dès le prochain rapport."
     },
     {
       "name": "OMNES EDUCATION",
@@ -4241,7 +4241,7 @@ const BENCHMARK_DATA = {
           "fond": 4.5
         }
       },
-      "comment": "**Forme** : 44 pages, le rapport le plus abouti du benchmark. Distinction apprenants/collaborateurs explicite tout au long du document, structure cohérente, lisibilité au-dessus de la moyenne.\n\n**Fond** : KPIs précis et tracés dans le temps (budget RSE 310k€, évolution documentée depuis 2020), bilan carbone scopes 1+2+3, et fait rare, les objectifs non atteints sont clairement mentionnés. La transparence est exemplaire.\n\n*Pour IGENSIA* : la référence à viser. Périmètre multi-écoles comparable, mais plusieurs années d'avance sur le reporting et la maturité des KPIs."
+      "comment": "Le rapport le plus abouti du benchmark, 44 pages. Les KPIs sont précis et tracés dans le temps (budget RSE 310k€, évolution depuis 2020), le bilan carbone couvre les trois scopes, et les objectifs non atteints sont clairement mentionnés, ce qui est suffisamment rare pour être souligné. La distinction apprenants/collaborateurs est explicite tout au long du document. Par rapport à IGENSIA, c'est la référence à viser pour le prochain rapport : périmètre multi-écoles comparable, mais avec plusieurs années d'avance sur le reporting."
     },
     {
       "name": "GALILEO GLOBAL EDUCATION",
@@ -4282,7 +4282,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "**Forme** : 122 pages. Le volume impressionne, mais le rapport se disperse. La frontière entre ce qui est fait et ce qui est prévu reste floue par endroits, ce qui complique la lecture.\n\n**Fond** : les KPIs existent mais sont noyés dans la masse. Le bilan carbone ne couvre que les campus, sans aller plus loin. La double matérialité est un bon signal méthodologique, mais elle reste isolée dans un ensemble qui manque de hiérarchie.\n\n*Pour IGENSIA* : 48 pages bien structurées valent mieux que 122 pages diffuses. La leçon, c'est qu'un rapport doit se lire d'un trait, pas se feuilleter."
+      "comment": "Un rapport volumineux (122 pages) mais qui se disperse. Les KPIs existent mais sont noyés dans la masse, le bilan carbone ne couvre que les campus, et la frontière entre ce qui est fait et ce qui est prévu reste floue par endroits. La double matérialité est un bon signal méthodologique. Face au rapport IGENSIA, le volume impressionne mais la clarté est moindre : IGENSIA dit autant en 48 pages avec une structure plus lisible."
     },
     {
       "name": "AD EDUCATION",
@@ -4323,7 +4323,7 @@ const BENCHMARK_DATA = {
           "fond": 2.5
         }
       },
-      "comment": "**Forme** : 34 pages au format ESG plus qu'au format RSE. Style financier, peu de mise en récit, peu de visuels qui engagent le lecteur. On sent l'exercice de reporting plus que la démarche d'engagement.\n\n**Fond** : c'est là que ça coince. Le bilan carbone ne couvre que les activités hors France (2 000 tCO2e), ce qui interroge la complétude. La certification « Neutre Carbone » se limite aux scopes 1 et 2, ce qui reste discutable méthodologiquement. Pas de distinction apprenants/collaborateurs, et les axes gouvernance et recherche sont à peine traités.\n\n*Pour IGENSIA* : sur la complétude du bilan carbone et la transparence globale, IGENSIA est nettement plus solide."
+      "comment": "Rapport ESG de 34 pages, assez déclaratif. Le bilan carbone ne couvre que les activités hors France (2 000 tCO2e), ce qui pose question sur la complétude. La certification « Neutre Carbone » (scopes 1+2 uniquement) est discutable du point de vue méthodologique. Les axes gouvernance et recherche sont peu traités. Pas de distinction apprenants/collaborateurs. IGENSIA fait mieux sur le bilan carbone (scopes 1+2+3 complets) et sur la transparence globale."
     },
     {
       "name": "ESSEC BUSINESS SCHOOL",
@@ -4364,7 +4364,7 @@ const BENCHMARK_DATA = {
           "fond": 4.0
         }
       },
-      "comment": "**Forme** : 22 pages denses et bien construites. Le schéma directeur DD&RS 2024 donne une vision claire dès le début du rapport. Le ton reste maîtrisé, peut-être trop : il manque un peu d'autocritique, et certains passages auraient gagné à plus de détail.\n\n**Fond** : les fondamentaux sont solides. 37 ETP dédiés, 130 heures de cours sur la transition (volume horaire élevé), bilan carbone complet. Couverture sérieuse des 5 axes, sans creuser à fond chacun d'entre eux.\n\n*Pour IGENSIA* : modèle à suivre sur le volume horaire DD (130h vs 30h) et sur la maturité du bilan carbone."
+      "comment": "Rapport DD&RS dense et bien construit en 22 pages. 37 ETP dédiés, 130 heures de cours sur la transition, bilan carbone complet, les fondamentaux sont solides. Le schéma directeur DD&RS 2024 donne une vision claire. Il manque un peu d'autocritique, le ton reste très maîtrisé. Blanche pointe aussi un manque de niveau de détail par endroits, ce qu'on partage à la lecture. Par rapport à IGENSIA, l'ESSEC est nettement plus avancée sur le volume horaire DD (130h vs 30h) et sur la maturité du bilan carbone, un bon modèle à suivre."
     },
     {
       "name": "EMLYON BUSINESS SCHOOL",
@@ -4405,7 +4405,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "**Forme** : 38 pages, rapport d'engagement adossé au statut de Société à Mission. Le ton est très promotionnel : on est plus dans la communication que dans le reporting. Peu de recul critique sur les limites.\n\n**Fond** : référentiel SDGs Inside intéressant (100% des cours analysés), bilan carbone -30%. Mais la politique sociale collaborateurs est peu développée, et on cherche les indicateurs qui montreraient les difficultés rencontrées.\n\n*Pour IGENSIA* : emlyon a l'avantage du statut Société à Mission. IGENSIA, lui, est plus honnête sur ce qui reste à faire, un atout différenciant à conserver."
+      "comment": "Rapport d'engagement lié au statut de Société à Mission, 38 pages. Le référentiel SDGs Inside (100% des cours analysés) est intéressant, le bilan carbone affiche -30%. Mais le ton est très promotionnel, avec peu de recul critique sur les limites. La politique sociale collaborateurs est peu développée. Par rapport à IGENSIA, emlyon a l'avantage du statut de Société à Mission, mais IGENSIA est plus transparent sur ce qui reste à faire."
     },
     {
       "name": "EDHEC BUSINESS SCHOOL",
@@ -4446,7 +4446,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "**Forme** : 36 pages, illustrations soignées et travaillées : la mise en image porte vraiment le rapport. La campagne anti-VSS est particulièrement réussie visuellement, ce qui n'est pas anecdotique sur ce type de sujet. Structure claire et lisible.\n\n**Fond** : matrice de matérialité réalisée avec Capgemini Invent, un exercice méthodologique solide qu'on voit peu ailleurs. Bilan carbone complet, 100% des étudiants sensibilisés. L'environnement campus reste moins détaillé que les autres axes. Transparence correcte sans être exemplaire.\n\n*Pour IGENSIA* : la matrice de matérialité est l'outil à reprendre pour le prochain rapport. Et la qualité graphique du traitement VSS mérite inspiration."
+      "comment": "Rapport DDRS structuré (36 pages) avec une matrice de matérialité réalisée par Capgemini Invent, un exercice qu'IGENSIA n'a pas encore conduit. Le bilan carbone est complet, 100% des étudiants sont sensibilisés. L'environnement campus reste toutefois moins détaillé que les autres axes. La transparence est correcte sans être exemplaire. Les illustrations sont particulièrement travaillées, et la campagne anti-VSS est visuellement réussie, ce qui n'est pas anecdotique sur ce sujet. La matrice de matérialité est un outil qu'IGENSIA gagnerait à adopter pour son prochain rapport."
     },
     {
       "name": "INSEAD",
@@ -4487,7 +4487,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "**Forme** : 67 pages, très papier de recherche. Texte dense, peu de visuels, pas de témoignages. La lecture demande de l'effort. On est plus proche de la publication académique que du rapport d'engagement.\n\n**Fond** : c'est la recherche qui porte le rapport : 35 cas pédagogiques et 56 articles sur la durabilité, c'est costaud. Le bilan carbone est détaillé par campus, ce qui est rare. En revanche, les actions concrètes sur les campus et le volet social restent en retrait.\n\n*Pour IGENSIA* : la profondeur recherche d'INSEAD est hors d'atteinte à court terme. En revanche, c'est sur le terrain et l'engagement des apprenants qu'IGENSIA garde un vrai avantage."
+      "comment": "Sustainability Report de 67 pages, très académique. La recherche est le point fort (35 cas et 56 articles sur la durabilité), le bilan carbone est détaillé par campus. En revanche, les actions concrètes sur les campus restent limitées et le volet social est en retrait. Le ton est institutionnel, peu incarné. Très technique dans son écriture, ce qui colle avec le format académique mais éloigne du registre engagement. INSEAD excelle là où IGENSIA est absent (la recherche), mais IGENSIA est plus concret sur les actions terrain et l'engagement des apprenants."
     },
     {
       "name": "HEC PARIS",
@@ -4528,7 +4528,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "**Forme** : 52 pages, format très institutionnel. Sustainability Report sobre, peu de mise en scène. Lisibilité correcte, mais peu de données opérationnelles sur le quotidien des campus, on reste à un niveau d'analyse global.\n\n**Fond** : bilan carbone audité par un tiers, fait rare dans le benchmark et signal méthodologique fort. 20% de la recherche porte sur la durabilité. Couverture correcte des cinq axes, sans aller au bout sur chacun.\n\n*Pour IGENSIA* : l'audit tiers du bilan carbone est un atout HEC qui crédibilise l'engagement. À l'inverse, IGENSIA est plus concret sur les actions apprenants et collaborateurs."
+      "comment": "Sustainability Report solide (52 pages), avec un bilan carbone audité, ce qui reste peu fréquent dans le benchmark. 20% de la recherche porte sur la durabilité. Le format est cependant très institutionnel, avec peu de données opérationnelles sur le quotidien des campus. La couverture des cinq axes est correcte sans être exhaustive. HEC a l'avantage d'un bilan carbone audité par un tiers ; IGENSIA est plus concret sur les actions apprenants et collaborateurs."
     },
     {
       "name": "EXCELIA BUSINESS SCHOOL",
@@ -4569,7 +4569,7 @@ const BENCHMARK_DATA = {
           "fond": 4.0
         }
       },
-      "comment": "**Forme** : 44 pages, structure claire avec distinction apprenants/collaborateurs visible tout au long. Format Transition Écologique et Sociétale lisible, bien organisé.\n\n**Fond** : KPIs nombreux et précis (28 projets transversaux, 13 903 heures DD, bilan carbone complet), portés par un historique long (IRSI depuis 2010). Les objectifs non atteints sont mentionnés, ce qui renforce la crédibilité. Excelia reste une référence historique en RSE chez les écoles de commerce.\n\n*Pour IGENSIA* : modèle sur la granularité des KPIs. Excelia montre qu'on peut chiffrer presque tout sans alourdir."
+      "comment": "Rapport Transition Écologique et Sociétale de 44 pages, porté par un historique long (IRSI depuis 2010). Les KPIs sont nombreux et précis (28 projets transversaux, 13 903 heures DD, bilan carbone complet). Les objectifs non atteints sont mentionnés, ce qui renforce la crédibilité. La distinction apprenants/collaborateurs est claire. Excelia est une référence historique en RSE parmi les écoles de commerce, un bon modèle pour IGENSIA sur la granularité des KPIs."
     },
     {
       "name": "AUDENCIA BUSINESS SCHOOL",
@@ -4610,7 +4610,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "**Forme** : 16 pages, format compact, plus resserré que le rapport précédent (28p). Structure « Réalisations 2025 + Projections 2026 + Chiffres clés » efficace, bien rythmée. Le tableau comparatif p.15 (15 indicateurs avec progression chiffrée) est la vraie réussite éditoriale : clair, lisible, comparable d'une année sur l'autre.\n\n**Fond** : nouveautés solides comme le Schéma Directeur DD&RS 2030, la double matérialité CSRD, le MSc MSB avec certification BC, la convention Tribunal Judiciaire pour les VSS, l'accord d'intéressement lié à la mobilité. Pionnière du secteur : 1ère BS Label DD&RS (2016), PRME Champions (2014), Global Compact depuis 2004. Quelques signaux faibles à pointer : budget transition en baisse (11% à 8%), kg CO2/étudiant en hausse (1133 à 1385, périmètre élargi). Le format court limite la profondeur d'analyse, c'est le prix à payer.\n\n*Pour IGENSIA* : le tableau comparatif annuel d'Audencia est exactement ce qu'IGENSIA devrait reprendre pour montrer la progression année après année."
+      "comment": "Rapport DD&RS compact (16 pages) mais efficace. Le tableau comparatif d'indicateurs 2024/2025 en page 15 est remarquable : 15 KPIs avec évolution chiffrée. La structure « Réalisations + Projections + Chiffres clés » par axe est claire. Le format court limite toutefois la profondeur d'analyse. À noter en passant : la convention signée avec le Tribunal Judiciaire pour les VSS et l'accord d'intéressement adossé à la mobilité, deux mécanismes qu'on voit peu ailleurs. Le tableau comparatif annuel d'Audencia est exactement ce qu'IGENSIA devrait intégrer dans son prochain rapport pour montrer la progression."
     },
     {
       "name": "KEDGE BUSINESS SCHOOL",
@@ -4651,7 +4651,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "**Forme** : 16 pages, format compact mais le rapport date de 2020-2021, ce qui le rend difficile à comparer aux rapports récents. La couverture est correcte mais superficielle, conséquence directe du format court.\n\n**Fond** : KPIs présents (150k€ budget, 70 volontaires) mais datés. Le bilan carbone scope 3 est mentionné sans détail. L'absence de publication actualisée pèse, on aimerait voir où en est KEDGE en 2024-2025.\n\n*Pour IGENSIA* : un rapport récent et complet (le tien) vaut mieux qu'un rapport ancien et compact. Ne pas attendre pour actualiser le prochain."
+      "comment": "Rapport DD de 16 pages, mais qui date de 2020-2021, ce qui le rend difficilement comparable aux rapports récents. Les KPIs sont présents (150k€ budget, 70 volontaires) mais datés. Le bilan carbone scope 3 est mentionné sans détail. La couverture est correcte mais superficielle vu le format court. KEDGE devrait publier une version actualisée ; en l'état, IGENSIA a un rapport plus récent et plus complet."
     },
     {
       "name": "SKEMA BUSINESS SCHOOL",
@@ -4692,7 +4692,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "**Forme** : 24 pages, format Transitions compact. Le mélange entre ce qui est réalisé et ce qui est prévu n'est pas toujours lisible, on aimerait une codification plus claire entre l'acquis et le futur.\n\n**Fond** : Fresque du Climat à 1 300 participants, volume significatif. Les acquis institutionnels (Label DD&RS renouvelé 4 ans, ISO 14001) sont solides. Mais le format court limite l'analyse, et le niveau de détail reste léger pour une école labellisée.\n\n*Pour IGENSIA* : à éviter sur un point : un format compact ne dispense pas de rentrer dans le détail des actions."
+      "comment": "Rapport Transitions de 24 pages, compact. Le label DD&RS renouvelé pour 4 ans et l'ISO 14001 sont des acquis qu'IGENSIA n'a pas. La Fresque du Climat touche 1 300 participants. Mais le format reste en surface, avec un mélange réalisé/prévu pas toujours lisible. SKEMA a les labels qu'IGENSIA vise (DD&RS) ; le rapport manque toutefois du niveau de détail qu'on attend d'une école labellisée."
     },
     {
       "name": "GRENOBLE EM",
@@ -4733,7 +4733,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "**Forme** : 38 pages, Communication sur l'Engagement adossée au statut de Société à Mission (1ère grande école française, 2021). Le format reste sobre et factuel, plus institutionnel que graphique.\n\n**Fond** : bilan carbone 10 314 tCO2e (-14% vs 2019) avec trajectoire SBTi validée, niveau de rigueur méthodologique élevé, peu fréquent dans le benchmark. La transparence est renforcée par le Comité de Mission indépendant qui valide ce qui est dit.\n\n*Pour IGENSIA* : la trajectoire SBTi est l'objectif à viser pour crédibiliser l'engagement climatique au-delà du simple bilan carbone."
+      "comment": "Communication sur l'Engagement de 38 pages, adossée au statut de Société à Mission (première grande école française, 2021). Le bilan carbone affiche 10 314 tCO2e (-14% vs 2019) avec une trajectoire SBTi validée, un niveau de rigueur méthodologique élevé. La transparence est renforcée par le Comité de Mission indépendant. La trajectoire SBTi est un objectif qu'IGENSIA devrait viser pour crédibiliser son engagement climatique au-delà du simple bilan carbone."
     },
     {
       "name": "TBS",
@@ -4774,7 +4774,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "**Forme** : 30 pages, format Rapport de Société à Mission. Structure correcte, lisibilité moyenne. Le rapport joue la carte du sérieux institutionnel plus que de l'engagement graphique.\n\n**Fond** : la recherche est le vrai point fort : 61% des publications portent sur la RSE, dont 42 dans des revues 3-4 étoiles, chiffre élevé. Bilan carbone complet, 4 objectifs statutaires suivis avec indicateurs. L'environnement campus reste peu couvert.\n\n*Pour IGENSIA* : sans composante recherche, IGENSIA peut s'inspirer de TBS pour valoriser les travaux de ses formateurs. L'expertise est là, il faut juste la mettre en avant."
+      "comment": "Rapport de Société à Mission de 30 pages. Le point fort est la recherche : 61% des publications portent sur la RSE, dont 42 dans des revues 3-4 étoiles, un chiffre remarquable. Le bilan carbone est complet et les 4 objectifs statutaires sont suivis avec des indicateurs. En revanche, l'environnement campus est peu couvert. TBS est une référence en recherche RSE ; IGENSIA, qui n'a pas de composante recherche, pourrait s'en inspirer pour valoriser les travaux de ses formateurs."
     },
     {
       "name": "IESEG SCHOOL OF MANAGEMENT",
@@ -4815,7 +4815,7 @@ const BENCHMARK_DATA = {
           "fond": 4.0
         }
       },
-      "comment": "**Forme** : 47 pages bien structurées autour de 4 piliers. Lisible, organisée. Distinction apprenants/collaborateurs présente. Transparence correcte.\n\n**Fond** : intégration pédagogique très forte : 81% des cours du PGE intègrent la durabilité, dont 61 entièrement dédiés. C'est l'un des taux les plus élevés du benchmark. Bilan carbone publié directement dans le rapport, données accessibles.\n\n*Pour IGENSIA* : écart significatif sur l'intégration pédagogique (81% des cours vs 30h de tronc commun). Axe de progression majeur : ne pas s'en tenir au tronc commun, irriguer chaque cours."
+      "comment": "Rapport d'Impact de 47 pages, bien structuré autour de 4 piliers. 81% des cours du PGE intègrent la durabilité, avec 61 cours entièrement dédiés, c'est l'un des taux les plus élevés du benchmark. Le bilan carbone est publié directement dans le rapport. La distinction apprenants/collaborateurs est présente et la transparence est bonne. L'écart avec IGENSIA est significatif sur l'intégration pédagogique (81% des cours vs 30h de tronc commun), un axe de progression majeur."
     },
     {
       "name": "NEOMA BUSINESS SCHOOL",
@@ -4856,7 +4856,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "**Forme** : 44 pages, Rapport d'Engagement TSE. Le ton reste promotionnel, on cherche la mise en perspective des difficultés qui manque clairement. La recherche est peu détaillée.\n\n**Fond** : KPIs présents (index F/H à 88, 52% d'étudiantes, bilan carbone scopes 1-3). Couverture correcte des axes, sans grande surprise méthodologique. L'absence d'autocritique limite la profondeur.\n\n*Pour IGENSIA* : index F/H 88 vs 75 pour IGENSIA, marge de progression claire sur l'égalité professionnelle."
+      "comment": "Rapport d'Engagement TSE de 44 pages. Les KPIs sont présents (index F/H à 88, 52% d'étudiantes, bilan carbone scopes 1-3) mais le ton reste promotionnel, sans vraie mise en perspective des difficultés. La recherche est peu détaillée. NEOMA affiche un index égalité F/H de 88 contre 75 pour IGENSIA, un indicateur sur lequel IGENSIA a une marge de progression claire."
     },
     {
       "name": "BURGUNDY SCHOOL OF BUSINESS",
@@ -4897,7 +4897,7 @@ const BENCHMARK_DATA = {
           "fond": 3.0
         }
       },
-      "comment": "**Forme** : 5e rapport RSE dédié, 24 pages, publié décembre 2024 couvrant 2022-2024. Structure claire en 3 piliers : Act for Respect / Sustainability / Empowerment. Format compact, lisible, la maturité du rapport se voit dans la cohérence éditoriale.\n\n**Fond** : historique solide, 20 ans d'engagement RSE (depuis 2005), module Impact pionnier (1ère grande école française), programme (Re)Connect pour les réfugiés (lauréat à plusieurs reprises), One Health Center, nouveau campus Lyon BREEAM Excellent, Label DD&RS obtenu juin 2024. 12 projets prioritaires 2024-26 dessinent une feuille de route claire. **Lacune majeure** : pas de bilan carbone dans ce rapport (projet 2024-26), budget RSE non publié.\n\n*Pour IGENSIA* : BSB a 20 ans d'avance sur l'engagement citoyen, IGENSIA a déjà un bilan carbone complet. Chacun ses forces."
+      "comment": "5e Rapport RSE (24 pages), qui s'appuie sur un historique solide : le module Impact existe depuis 2005, ce qui en fait la première grande école française sur ce terrain. Le programme (Re)Connect pour les réfugiés est original. En revanche, l'absence de bilan carbone est une lacune majeure (prévu pour 2024-26). La structure en trois piliers (Act for Respect / Sustainability / Empowerment) est lisible, et la feuille de route 2024-26 montre une vraie projection. BSB a vingt ans d'avance sur l'engagement citoyen, mais IGENSIA a déjà un bilan carbone complet, chacun a ses forces."
     },
     {
       "name": "EFREI",
@@ -4938,7 +4938,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "**Forme** : 23 pages publiées décembre 2025, structure en 6 engagements. Format clair et bien rythmé, on suit facilement la logique d'ensemble.\n\n**Fond** : intégration complète DD/RS dans tous les programmes depuis 2024, bloc compétence RSE validé par examen, 323 étudiants handicap accompagnés, charte associations DD obligatoire avec audit carbone, campus New Republic E+C- E3C1, équipe dédiée 4 personnes sous Codir, 81,7% étudiants engagés. **Originalités** : Mastère Green IT, projet santé April (doctorant financé par alumni de Californie), Harmony (reconditionnement PC), Efrei Falcon (drones EHPAD). Programme Xperience 2025 impressionnant (TF1, SNCF, Generali, Banque Postale). **Attention** : Fresque du Climat non mentionnée, BC détaillé non publié.\n\n*Pour IGENSIA* : Mastère Green IT et charte associations DD obligatoire sont deux idées concrètes à reprendre pour enrichir l'offre."
+      "comment": "Rapport de Progrès DD&RS de 23 pages, bien structuré en 6 engagements. 323 étudiants en situation de handicap accompagnés, 81,7% des étudiants engagés dans la transition, un campus labellisé E+C- E3C1. La charte DD obligatoire pour les associations étudiantes depuis 2023-24 est une idée qu'on voit peu ailleurs. Le bloc de compétences RSE validé par examen et la charte associations DD obligatoire avec audit carbone sont des bonnes pratiques peu fréquentes. Originalités côté projets : Mastère Green IT, projet santé April porté par un alumni, Harmony (reconditionnement PC) et Efrei Falcon (drones EHPAD). IGENSIA pourrait s'inspirer du Mastère Green IT et de la charte associations DD pour renforcer son offre."
     },
     {
       "name": "EM STRASBOURG BUSINESS SCHOOL",
@@ -4979,7 +4979,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         }
       },
-      "comment": "**Forme** : 9e rapport RSO, 38 pages, couvre 2022-2023. Rapport mature (publié depuis 2010, l'un des historiques les plus longs du benchmark). Indicateurs suivis sur 4 années comparatives, ce qui permet de voir les tendances réelles. La forme est plus institutionnelle que graphique, mais structurée.\n\n**Fond** : transparence exemplaire sur le budget RSO (92k€) et son évolution, acte rare dans le benchmark. Label Diversité AFNOR depuis 2012, CforCSR plateforme e-learning obligatoire pour la diplomation. **Originalités** : Entomovoria (labellisé FNEGE), B3V espace bien-être (cercles de parole, matériel de réduction des risques), DU Leadership Méditation Neurosciences (avec Matthieu Ricard). **Points d'attention** : bilan carbone propre date de 2010 (BC Unistra 2021 reçu mi-2023 mais pas de comparaison possible), pas d'objectif GES chiffré, 1 seul ETP RSO en baisse.\n\n*Pour IGENSIA* : deux gestes à reprendre, publier le budget RSE et suivre les indicateurs sur plusieurs années pour montrer la trajectoire."
+      "comment": "9e Rapport RSO (38 pages, publié depuis 2010), l'un des historiques les plus longs du benchmark. La publication du budget RSO (92k€) est un acte de transparence rare. Les indicateurs sont suivis sur 4 années comparatives, ce qui permet de voir les tendances. Le CforCSR est obligatoire pour la diplomation. En revanche, le bilan carbone propre date de 2010. Quelques originalités côté contenu : Entomovoria labellisé FNEGE, l'espace bien-être B3V avec cercles de parole, et le DU Leadership Méditation Neurosciences animé avec Matthieu Ricard. IGENSIA devrait s'inspirer de deux choses : publier son budget RSE et suivre ses indicateurs sur plusieurs années."
     },
     {
       "name": "PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)",
@@ -5020,7 +5020,7 @@ const BENCHMARK_DATA = {
           "fond": 2.5
         }
       },
-      "comment": "**Forme** : 19 pages en anglais uniquement, format compact mais structuré. Sustainable Development Progress Report : la mention « Progress » résume bien l'esprit du document. Choix de la langue qui ferme le rapport à une partie du public francophone.\n\n**Fond** : Sulitest massif (plus de 50% des étudiants français qui passent ce test), Fresque du Climat 100% B3+M2 depuis 3 ans, Label STAR (2023). Projets humanitaires au long cours : Nosy Komba (10 ans), Guria en Inde. Chaire Energy & Ecological Transition, 3 projets Erasmus+. Biodiversité originale (jardin potager sur campus + ruches Sancerre). **Points d'attention** : bilan carbone non publié, budget RSE non publié, RSE portée par une professeure (pas un poste COMEX), tableau ODD générique.\n\n*Pour IGENSIA* : PSB a le Sulitest qu'IGENSIA n'a pas. À l'inverse, IGENSIA a une gouvernance RSE plus structurée. Chacun ses forces."
+      "comment": "Sustainable Development Progress Report de 19 pages, en anglais. Le Sulitest est le point fort : PSB représente plus de 50% des étudiants français qui passent ce test. La Fresque du Climat est déployée à 100% des B3 et M2 depuis trois ans. Mais le bilan carbone est absent, les KPIs restent limités et le tableau ODD est générique. La RSE est portée par une professeure, pas un poste de direction. Les projets humanitaires au long cours (Nosy Komba sur 10 ans, Guria en Inde) et la biodiversité originale du campus (jardin potager, ruches à Sancerre) apportent une vraie singularité. PSB a le Sulitest qu'IGENSIA n'a pas ; IGENSIA a une gouvernance RSE plus structurée."
     },
     {
       "name": "CESI",
@@ -5061,7 +5061,7 @@ const BENCHMARK_DATA = {
           "fond": 4.0
         }
       },
-      "comment": "**Forme** : 57 pages très textuelles et institutionnelles. Peu de visuels, pas de témoignages, pas de codification claire entre ce qui est réalisé et ce qui est annoncé. La structure (4 axes, 18 enjeux, plans 1/3/5 ans) est lisible mais le format reste austère.\n\n**Fond** : périmètre considérable (25 campus, 25 000 étudiants) et BEGES 2023 d'une granularité exemplaire (2,1 tCO2e/occupant, déplacements 89 %, trajectoire -20 %/3 ans). Promotion sociale forte : 75 % d'étudiants non-cadres, Index F/H 98/100, 626 étudiants handicap accompagnés. **Bémol** : beaucoup d'actions sont encore annoncées (charte achats, charte numérique, alimentation, DD&RS) plutôt que déployées.\n\n*Pour IGENSIA* : le Schéma Directeur CESI est inspirant côté fond (KPIs nombreux, BEGES granulaire). À l'inverse, CESI gagnerait à reprendre le format visuel et la codification « réalisé / lancé / prévu » d'IGENSIA."
+      "comment": "Rapport très structuré (57 pages, 4 axes, 18 enjeux, plans d'action 1/3/5 ans) sur un périmètre considérable (25 campus, 25 000 étudiants). Le BEGES 2023 est exemplaire de granularité (2,1 tCO2e/occupant, ventilation par poste, déplacements à 89 %) avec un plan de transition voté à -20 %/3 ans. La promotion sociale est forte (75 % étudiants non-cadre, Index F/H 98/100, 626 étudiants handicap accompagnés par 43 référents). Mais la forme est très textuelle et institutionnelle (peu de visuels, pas de témoignages, pas de codification \"réalisé/lancé/prévu\" comme IGENSIA), et beaucoup d'actions restent annoncées plutôt que déployées (charte achats, charte numérique, alimentation responsable, label DD&RS). IGENSIA pourrait s'inspirer de la rigueur du Schéma Directeur CESI (KPIs nombreux, BEGES granulaire, gouvernance par 6 branches) ; CESI gagnerait en lisibilité avec un format plus visuel et plus orienté preuves de réalisation."
     }
   ],
   "analytics2050": {

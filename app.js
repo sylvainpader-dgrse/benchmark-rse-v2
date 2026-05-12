@@ -517,11 +517,7 @@ function escapeHTML(str) {
 function formatComment(str) {
   if (!str) return '<em class="comment-empty">Pas de commentaire pour ce rapport.</em>';
   let text = escapeHTML(str);
-  // **bold** -> <strong>
-  text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
-  // *italic* -> <em> (uniquement quand pas adjacent à ** déjà traité)
-  text = text.replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>');
-  // Sauts de ligne -> <br>
+  // Sauts de ligne -> paragraphes
   text = text.replace(/\n\n+/g, '</p><p>').replace(/\n/g, '<br>');
   return '<p>' + text + '</p>';
 }
@@ -692,6 +688,7 @@ function renderFocusDetail(schoolName) {
         <div class="comment-preview" id="commentPreview">${formatComment(comment)}</div>
         <details class="comment-edit-wrap">
           <summary>Modifier le commentaire</summary>
+          <p class="comment-warning">⚠ Modification locale uniquement, visible sur cet appareil. La version publiée du site reste celle de référence.</p>
           <textarea class="comment-textarea" data-school="${f.name}"
             placeholder="Ajouter un commentaire sur ce rapport RSE...">${escapeHTML(comment)}</textarea>
         </details>
