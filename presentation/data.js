@@ -19,6 +19,7 @@ const PRESENTATION_DATA = {
       leg_i2:  "Stratégie & gouvernance : schéma directeur DD&RS 2030 + matrice de double matérialité (23 IRO dont 18 jugés matériels)",
       leg_i3:  "Structure « Réalisations 2025 / Projection 2026 / Chiffres clés » par axe",
       leg_i4:  "Tableau « Suivi des indicateurs globaux » : 15 KPIs sur 5 axes, comparaison 2024 vs 2025 (p.15)",
+      leg_i5:  "Politique sociale : NégoTraining (5 500+ femmes formées depuis 2017) + journée du handicap",
       forme_plus: [
         "Format compact 16 pages, très dense sans être indigeste",
         "Structure « Réalisations 2025 / Projection 2026 » blocs distincts par axe, complétée par un encadré « Chiffres clés » : temporalité claire et systématique sur chaque chapitre",
