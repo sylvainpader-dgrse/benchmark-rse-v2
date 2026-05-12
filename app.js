@@ -224,8 +224,6 @@ function renderIgensiaReference() {
           </ul>
           <h4 class="pres-neg" style="margin-top:14px;">✗ Fond</h4>
           <ul>
-            <li><strong>Index F/H en recul</strong> (84 → 75) commenté mais sans plan d'action visible</li>
-            <li><strong>Pas de trajectoire de réduction GES chiffrée</strong> (% par an, année cible)</li>
             <li><strong>Pas de budget RSE publié</strong> en chiffre absolu</li>
             <li><strong>Pas de tableau récapitulatif</strong> d'indicateurs N / N-1 (vue trajectoire)</li>
             <li><strong>Pas d'audit externe</strong> du bilan carbone</li>

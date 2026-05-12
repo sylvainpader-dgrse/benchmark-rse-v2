@@ -36,8 +36,6 @@
 - Section « C'EST PRÉVU » avec objectifs datés (rentrée 2027, 2026)
 
 ### Faiblesses (à travailler dans le prochain rapport)
-- **Index égalité F/H en recul** (84 → 75) commenté mais sans plan d'action visible
-- **Pas de trajectoire de réduction GES chiffrée** (% par an, année cible)
 - **Pas de budget RSE publié** en chiffre absolu
 - **Pas de tableau récapitulatif** d'indicateurs N / N-1 (vue trajectoire)
 - **Pas d'audit externe** du bilan carbone
@@ -45,6 +43,10 @@
 - Pages 45, 47 vides (pagination)
 - Quelques pages monotextuelles (mots DG/DDD, stratégie p12-13)
 - Pas de schéma directeur RSE 5 axes visible en début de rapport
+
+### Sujets à NE PAS commenter
+- **Index égalité F/H** — donnée RH interne, hors-sujet pour un benchmark Forme/Fond
+- **Trajectoire de réduction GES** — IGENSIA en a une, ne pas la signaler comme manquante
 
 ### Chiffres clés présents dans le rapport (référence)
 - 19 000 personnes formées/an
