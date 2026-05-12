@@ -215,39 +215,42 @@ thead th.cat-header {
 }
 thead th.school-col {
   text-align: left;
-  min-width: 200px;
-  background: #E60F7D;
-  position: sticky;
-  left: 80px; /* après la colonne SCORE (80px) */
-  z-index: 12;
+  min-width: 200px !important;
+  width: 200px !important;
+  background: #E60F7D !important;
+  position: sticky !important;
+  left: 80px !important; /* après la colonne SCORE (80px) */
+  z-index: 12 !important;
 }
 thead th.score-col {
   background: #4A1942;
   min-width: 80px;
 }
-/* Colonne SCORE positionnée en première colonne — sticky-left à gauche */
+/* Colonne SCORE en 1ère position, sticky-left, gris ardoise — !important pour passer devant tout */
 thead th.score-col-left {
-  position: sticky;
-  left: 0;
-  top: 0;
-  z-index: 13; /* au-dessus de la colonne école */
-  background: #455A64; /* gris ardoise (plus doux que le violet foncé) */
-  min-width: 80px;
-  border-right: 2px solid var(--white);
+  position: sticky !important;
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 14 !important;
+  background: #455A64 !important;
+  color: #fff !important;
+  min-width: 80px !important;
+  width: 80px !important;
+  max-width: 80px !important;
+  border-right: 2px solid var(--white) !important;
+  text-align: center !important;
 }
 tbody td.score-cell-left {
-  position: sticky;
-  left: 0;
-  z-index: 6; /* au-dessus de la colonne école (z-index 5) */
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 6;
   border-right: 2px solid #fff;
-  min-width: 80px;
-}
-/* La cellule école garde son sticky-left, mais décalée à 80px */
-tbody td.school-cell {
-  /* on conserve les autres règles, on écrase juste left */
+  min-width: 80px !important;
+  width: 80px !important;
+  max-width: 80px !important;
 }
 tbody tr.igensia-row td.score-cell-left {
-  z-index: 10; /* IGENSIA score : double sticky (top + left) */
+  z-index: 10 !important; /* IGENSIA score : double sticky (top + left) */
 }
 thead th.rank-col, td.rank-cell {
   min-width: 32px;
