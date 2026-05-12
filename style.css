@@ -222,6 +222,23 @@ thead th.score-col {
   background: var(--primary);
   min-width: 70px;
 }
+/* Colonne SCORE déplacée à gauche, juste après ÉCOLE — sticky-left */
+thead th.score-col-left {
+  position: sticky;
+  left: 200px;
+  z-index: 12;
+  background: var(--primary);
+  border-right: 2px solid var(--white);
+}
+tbody td.score-cell-left {
+  position: sticky;
+  left: 200px;
+  z-index: 4;
+  border-right: 2px solid #fff;
+}
+tbody tr.igensia-row td.score-cell-left {
+  z-index: 8;
+}
 thead th.rank-col, td.rank-cell {
   min-width: 32px;
   max-width: 40px;
