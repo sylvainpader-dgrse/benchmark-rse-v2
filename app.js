@@ -225,7 +225,7 @@ function renderRapportCard(r) {
         <div class="pres-rank">#${r.rank}</div>
         <div class="pres-titre">
           <h2>${escapeHTML(r.name)}</h2>
-          <p class="pres-sub">${escapeHTML(r.titre)} • ${escapeHTML(r.pages)} • Forme ${r.forme.toFixed(2)} • Fond ${r.fond.toFixed(2)} • Note ${r.score.toFixed(2)}/5</p>
+          <p class="pres-sub">${escapeHTML(r.titre)}</p>
         </div>
       </div>
 
