@@ -21,6 +21,7 @@ const PRESENTATION_DATA = {
       leg_i3:  "16 commitments envers les apprenants détaillés et catégorisés (Qualité / Programmes / Cadre / Préparation / Diversité)",
       leg_i4:  "Annexe « Nos données d'impact » : tableaux N/N-1 par catégorie / indicateur / unité",
       forme_plus: [
+        "Visuel très cinématographique : photos pleine page travaillées (cadrage, monochromes bleus, portraits) et style éditorial original",
         "Matrice de double matérialité affichée visuellement (axe impact / axe financier, codage couleur Social-Environnement-Gouvernance)",
         "Page « GGE aujourd'hui » très visuelle (chiffres clés + camemberts genre + carte par pays sur double-page)",
         "16 commitments envers les apprenants détaillés et catégorisés (Qualité académique / Programmes / Cadre d'apprentissage / Préparation au marché / Diversité)",
