@@ -497,22 +497,12 @@ thead th.rank-col, td.rank-cell {
 
 /* Section IGENSIA — notre point de départ (référence) */
 .pres-reference {
-  background: linear-gradient(135deg, #fff8fc 0%, #fff5f8 100%);
-  border: 2px solid var(--accent);
+  background: #ffffff !important;
+  border: 3px solid var(--accent);
   border-radius: 14px;
   padding: 28px 30px 32px;
   margin-bottom: 32px;
-  position: relative;
-  box-shadow: 0 4px 20px rgba(230,15,125,0.12);
-}
-.pres-reference::before {
-  content: '';
-  position: absolute;
-  inset: -2px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
-  z-index: -1;
-  opacity: 0.05;
+  box-shadow: 0 4px 20px rgba(230,15,125,0.15);
 }
 .pres-ref-head {
   margin-bottom: 22px;
@@ -522,26 +512,25 @@ thead th.rank-col, td.rank-cell {
 .pres-ref-label {
   display: inline-block;
   background: var(--primary);
-  color: #fff;
-  padding: 5px 16px;
+  color: #ffffff;
+  padding: 6px 18px;
   border-radius: 14px;
   font-size: 0.82rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: 12px;
-  box-shadow: 0 2px 6px rgba(74,25,66,0.25);
+  margin-bottom: 14px;
 }
 .pres-ref-head h2 {
   font-size: 1.7rem;
   font-weight: 800;
   color: var(--primary);
   margin: 0;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+  text-shadow: none;
 }
 .pres-ref-sub {
   font-size: 0.95rem;
-  color: var(--text);
+  color: #2D2D2D;
   margin-top: 6px;
   font-weight: 500;
 }
