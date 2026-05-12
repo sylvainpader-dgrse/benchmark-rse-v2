@@ -173,8 +173,8 @@ function renderIgensiaReference() {
           <figcaption>◆ Timeline « Ce que nous avons accompli » (p.9) — codification 4 couleurs (Formation collabs / Formation apprenants / Label LUCIE / Gouvernance)</figcaption>
         </figure>
         <figure class="pres-fig">
-          <img class="pres-img" src="presentation/images/igensia_inner2.jpg" alt="Bilan Carbone détaillé" loading="lazy">
-          <figcaption>◆ Bilan Carbone (p.10) — 25 498 tCO2e ventilé par campus (Paris 66%, Lyon 18%, Nanterre 16%) et par poste</figcaption>
+          <img class="pres-img" src="presentation/images/igensia_inner2.jpg" alt="ODD et labellisation LUCIE 26000" loading="lazy">
+          <figcaption>◆ Démarche guidée par les 17 ODD + Labellisation LUCIE 26000 (p.11)</figcaption>
         </figure>
       </div>
 
@@ -224,6 +224,7 @@ function renderIgensiaReference() {
           <ul>
             <li><strong>Pas de budget RSE publié</strong> en chiffre absolu</li>
             <li><strong>Pas de tableau récapitulatif</strong> d'indicateurs N / N-1 (vue trajectoire)</li>
+            <li><strong>ODD pas explicitement connectés à nos actions</strong> — mentionnés en cadre général (p.11) mais pas mis en lien direct avec chacune des actions du rapport</li>
           </ul>
         </div>
       </div>

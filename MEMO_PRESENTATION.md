@@ -43,6 +43,7 @@
 **Fond**
 - Pas de budget RSE publié en chiffre absolu
 - Pas de tableau récapitulatif d'indicateurs N / N-1 (vue trajectoire)
+- ODD pas explicitement connectés à nos actions (mentionnés en cadre général p.11 mais pas mis en lien avec chacune des actions)
 
 ### Sujets à NE PAS commenter
 - **Index égalité F/H** — donnée RH interne, hors-sujet pour un benchmark Forme/Fond
