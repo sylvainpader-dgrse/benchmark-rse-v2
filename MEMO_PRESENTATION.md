@@ -143,25 +143,32 @@ Un onglet **« Présentation »** a été créé sur le site benchmark-rse-v2 (p
 
 **Demandé explicitement par l'utilisateur (rev. 12 mai 2026, ESSEC) :**
 
-Pour **chaque idée** proposée, mener une comparaison rigoureuse avec ce qu'IGENSIA fait déjà :
+La règle s'applique aux **3 sections** de la fiche : `forme_plus`, `fond_plus` ET `idees`. Si IGENSIA fait déjà la même chose, le sujet ne doit apparaître nulle part comme une force distinctive de l'école analysée.
+
+**Process pour chaque bullet d'analyse :**
 
 1. **Lister ce que fait l'école analysée** sur le sujet (élément précis du rapport, page si possible)
 2. **Comparer avec la fiche IGENSIA section 0 du mémo** (forces forme + forces fond)
 3. **Identifier le DELTA réel** :
-   - Si IGENSIA fait déjà ça (même approximativement) → **drop l'idée**
+   - Si IGENSIA fait déjà ça (même approximativement) → **drop l'item** (pas seulement dans idees, aussi dans forme_plus / fond_plus si c'est ce qui en faisait une force distinctive)
    - Si IGENSIA fait quelque chose de proche mais différent → questionner si la différence est significative
-   - Si IGENSIA ne le fait pas du tout → **garde l'idée**
-4. **Formuler l'idée en explicitant le delta** dans le champ `pourquoi` :
+   - Si IGENSIA ne le fait pas du tout → **garde l'item**
+4. **Pour les idées : formuler le delta explicitement** dans le champ `pourquoi` :
    - « Chez nous : X. Chez [école] : Y. » (formulation du contraste explicite)
    - Pas de « C'est une bonne pratique » sans nommer le manque chez IGENSIA
+5. **Vérifier la non-duplication intra-fiche** : un sujet (ex. témoignages) ne doit pas apparaître à la fois en `forme_plus` et `fond_plus`. Garder l'angle le plus pertinent et drop l'autre.
 
-**Anti-pattern à éviter** : proposer des idées génériques sur des sujets où IGENSIA est déjà solide (timeline, témoignages incarnés, gouvernance structurée, schémas et illustrations soignés, codification réalisé/lancé/prévu, photos qualitatives).
+**Anti-patterns à éviter** :
+- Idées génériques sur des sujets où IGENSIA est solide (timeline, témoignages incarnés, gouvernance structurée, schémas et illustrations soignés, codification réalisé/lancé/prévu, photos qualitatives, hiérarchie typo)
+- Lister une force en forme_plus / fond_plus alors qu'IGENSIA fait la même chose (donne l'impression que l'école est en avance sur ce point alors qu'on est à parité)
+- Contradictions internes (ex. forme_plus « 22 p. denses sans être indigestes » + forme_moins « texte trop dense » — choisir un angle)
+- Items duplicés entre forme et fond sur le même sujet
 
-**Quantité d'idées** : viser 2-5 idées par rapport, sur la base de **vrais deltas**. Mieux vaut 2 idées pertinentes que 7 idées dont 5 doublonnent. Pour les rapports où IGENSIA est déjà fort (cas ESSEC #2), il est normal d'avoir peu d'idées — c'est un signal de qualité.
+**Quantité d'idées** : viser 2-5 idées par rapport, sur la base de **vrais deltas**. Mieux vaut 2 idées pertinentes que 7 idées dont 5 doublonnent. Pour les rapports où IGENSIA est déjà fort (cas ESSEC #2), il est normal d'avoir peu d'items en forme_plus / fond_plus — c'est un signal de qualité, pas une lacune d'analyse.
 
 **Cas types observés** :
-- OMNES (#1) : 7 idées vraies (budget RSE, tableau 5 ans, ratés, biodiversité, ZOOM SUR, structure LUCIE schéma, couverture-graphique) — beaucoup à apprendre
-- ESSEC (#2) : 5 idées vraies après audit (KEY FIGURES par chapitre, KPI en variation, page Témoignages dédiée + alumni, réseau profs ambassadeurs, densité éditoriale) — beaucoup de bonnes pratiques déjà chez nous
+- OMNES (#1) : beaucoup de vrais deltas (budget RSE, tableau 5 ans, ratés, biodiversité, ZOOM SUR, structure LUCIE schéma, couverture-graphique)
+- ESSEC (#2) : 5 idées vraies après audit (KEY FIGURES par chapitre, KPI en variation, page Témoignages dédiée + alumni, réseau profs ambassadeurs, densité éditoriale). 3 forme_plus, 8 fond_plus — beaucoup d'éléments dropés car équivalents à ce qu'on a déjà (frise, schéma gouvernance, codification RÉALISÉ/LANCÉ/PRÉVU, témoignages variés, hiérarchie typo)
 
 ---
 
