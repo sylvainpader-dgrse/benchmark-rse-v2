@@ -110,10 +110,6 @@ function renderPresentation() {
   const data = PRESENTATION_DATA;
 
   let html = `
-    <div class="pres-hero">
-      <h1>Benchmark Rapports RSE</h1>
-    </div>
-
     ${renderIgensiaReference()}
 
     <div class="pres-jump">
