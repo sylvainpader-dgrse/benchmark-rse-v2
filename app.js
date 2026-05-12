@@ -116,8 +116,11 @@ function renderPresentation() {
       <p class="pres-hero-method">${escapeHTML(data.meta.methodo)}</p>
     </div>
 
+    ${renderIgensiaReference()}
+
     <div class="pres-jump">
       <strong>Aller à :</strong>
+      <a href="#pres-igensia-ref" class="pres-jump-link pres-jump-ref">★ Notre rapport</a>
       ${data.rapports.map(r => `<a href="#pres-${r.key}" class="pres-jump-link">#${r.rank} ${escapeHTML(r.name)}</a>`).join('')}
       <a href="#pres-synthese" class="pres-jump-link pres-jump-synthese">★ Synthèse</a>
     </div>
@@ -149,6 +152,99 @@ function renderPresentation() {
   root.querySelectorAll('.pres-img').forEach(img => {
     img.addEventListener('click', () => openLightbox(img.src, img.alt));
   });
+}
+
+function renderIgensiaReference() {
+  return `
+    <section id="pres-igensia-ref" class="pres-reference">
+      <header class="pres-ref-head">
+        <div class="pres-ref-label">★ Notre point de départ</div>
+        <h2>Rapport RSE Groupe IGENSIA Education 2024-2025</h2>
+        <p class="pres-ref-sub">48 pages — 1<sup>er</sup> rapport RSE publié par le Groupe — référence à laquelle on compare tous les autres</p>
+      </header>
+
+      <div class="pres-images">
+        <figure class="pres-fig">
+          <img class="pres-img" src="presentation/images/igensia.jpg" alt="Couverture du rapport" loading="lazy">
+          <figcaption>◆ Couverture (p.1) — identité visuelle violet + rose, 4 campus mis en avant</figcaption>
+        </figure>
+        <figure class="pres-fig">
+          <img class="pres-img" src="presentation/images/igensia_inner1.jpg" alt="Timeline 2023-2025" loading="lazy">
+          <figcaption>◆ Timeline « Ce que nous avons accompli » (p.9) — codification 4 couleurs (Formation collabs / Formation apprenants / Label LUCIE / Gouvernance)</figcaption>
+        </figure>
+        <figure class="pres-fig">
+          <img class="pres-img" src="presentation/images/igensia_inner2.jpg" alt="Bilan Carbone détaillé" loading="lazy">
+          <figcaption>◆ Bilan Carbone (p.10) — 25 498 tCO2e ventilé par campus (Paris 66%, Lyon 18%, Nanterre 16%) et par poste</figcaption>
+        </figure>
+      </div>
+
+      <div class="pres-ref-structure">
+        <h3>Structure du rapport</h3>
+        <ol>
+          <li><strong>Mots</strong> : DG + Directrice DD (p.4-5)</li>
+          <li><strong>Présentation Groupe</strong> : chiffres clés + cœur de métier (p.6-7)</li>
+          <li><strong>Notre parcours RSE</strong> : vision, timeline, bilan carbone, ODD, label LUCIE (p.8-11)</li>
+          <li><strong>Stratégie et gouvernance</strong> : 3 niveaux (CA/COMEX, Comité stratégique, COPIL 17 pilotes) (p.12-13)</li>
+          <li><strong>Apprenants</strong> — 14 pages (p.14-27)</li>
+          <li><strong>Collaborateurs</strong> — 7 pages (p.28-34)</li>
+          <li><strong>Campus</strong> — 6 pages (p.35-40)</li>
+          <li><strong>Partenaires solidaires</strong> : GMF, Airbus, Missions Locales, Restos du Cœur, Mozaïk, ANLCI (p.41-44)</li>
+          <li><strong>Conclusion</strong> + 4<sup>e</sup> de couverture (p.46-48)</li>
+        </ol>
+      </div>
+
+      <div class="pres-analysis">
+        <div class="pres-block pres-forme">
+          <h3>Ce qui marche</h3>
+          <h4 class="pres-pos">✓ Forme</h4>
+          <ul>
+            <li>Codification « C'EST RÉALISÉ / C'EST LANCÉ / C'EST PRÉVU » : structurante, rare dans le benchmark</li>
+            <li>Identité visuelle forte (violet + rose, photos pleine page très qualitatives)</li>
+            <li>Structure mémorisable : 4 grandes parties Apprenants / Collaborateurs / Campus / Partenaires</li>
+            <li>8 témoignages incarnés (étudiant, collaborateurs, directeurs, partenaires)</li>
+          </ul>
+          <h4 class="pres-pos" style="margin-top:14px;">✓ Fond</h4>
+          <ul>
+            <li>Bilan Carbone détaillé : 25 498 tCO2e ventilé par poste <strong>et</strong> par campus</li>
+            <li>Mots DG + Directrice DD : double signature gouvernance</li>
+            <li>Gouvernance RSE structurée : 3 niveaux + 17 pilotes nommés</li>
+            <li>Label LUCIE 26000 + ancrage ODD : tiers externes crédibilisants</li>
+            <li>Section « C'EST PRÉVU » avec objectifs datés (rentrée 2027 : 90% apprenants 1A/2A/3A formés)</li>
+          </ul>
+        </div>
+
+        <div class="pres-block pres-fond">
+          <h3>Ce qu'on peut améliorer</h3>
+          <h4 class="pres-neg">✗ Forme</h4>
+          <ul>
+            <li>Pages 45, 47 vides (pagination à corriger)</li>
+            <li>Quelques pages monotextuelles : mots DG/DDD très longs sans signature graphique forte</li>
+            <li>Pages stratégie p.12-13 peu illustrées</li>
+            <li>Pas de schéma directeur RSE 5 axes visible en début de rapport</li>
+          </ul>
+          <h4 class="pres-neg" style="margin-top:14px;">✗ Fond</h4>
+          <ul>
+            <li><strong>Index F/H en recul</strong> (84 → 75) commenté mais sans plan d'action visible</li>
+            <li><strong>Pas de trajectoire de réduction GES chiffrée</strong> (% par an, année cible)</li>
+            <li><strong>Pas de budget RSE publié</strong> en chiffre absolu</li>
+            <li><strong>Pas de tableau récapitulatif</strong> d'indicateurs N / N-1 (vue trajectoire)</li>
+            <li><strong>Pas d'audit externe</strong> du bilan carbone</li>
+            <li>Dispositif VSS encore en « C'EST PRÉVU » (printemps 2026)</li>
+          </ul>
+        </div>
+
+        <div class="pres-block pres-idees">
+          <h3>★ Notre fil rouge pour le prochain rapport</h3>
+          <p style="font-size: 0.9rem; line-height: 1.55; color: #333; margin-bottom: 12px;">
+            Les 21 rapports analysés ci-dessous sont autant de sources d'inspiration pour transformer ces zones à améliorer en pistes concrètes. À chaque analyse, on identifie ce qui est <strong>nouveau pour IGENSIA</strong> (à reprendre) et ce que <strong>nous faisons déjà</strong> (à conserver, à ne pas réinventer).
+          </p>
+          <p style="font-size: 0.85rem; font-style: italic; color: #6B2D6B;">
+            Ce que nous faisons déjà bien (codification réalisé/lancé/prévu, distinction apprenants/collaborateurs, gouvernance 3 niveaux, label LUCIE) ne sera pas systématiquement signalé comme « idée à reprendre » : ça ne fait pas avancer notre prochain rapport.
+          </p>
+        </div>
+      </div>
+    </section>
+  `;
 }
 
 function renderRapportCard(r) {

@@ -494,6 +494,94 @@ thead th.rank-col, td.rank-cell {
   margin-bottom: 28px;
   box-shadow: 0 2px 12px rgba(74,25,66,0.06);
 }
+
+/* Section IGENSIA — notre point de départ (référence) */
+.pres-reference {
+  background: linear-gradient(135deg, #fff8fc 0%, #fff5f8 100%);
+  border: 2px solid var(--accent);
+  border-radius: 14px;
+  padding: 28px 30px 32px;
+  margin-bottom: 32px;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(230,15,125,0.12);
+}
+.pres-reference::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+  z-index: -1;
+  opacity: 0.05;
+}
+.pres-ref-head {
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #fce4ed;
+}
+.pres-ref-label {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 4px 14px;
+  border-radius: 14px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+.pres-ref-head h2 {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin: 0;
+}
+.pres-ref-sub {
+  font-size: 0.92rem;
+  color: var(--text-light);
+  margin-top: 4px;
+}
+.pres-ref-structure {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px 22px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #f3e5ed;
+}
+.pres-ref-structure h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+.pres-ref-structure ol {
+  margin: 0;
+  padding-left: 22px;
+  columns: 2;
+  column-gap: 30px;
+}
+.pres-ref-structure li {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  margin-bottom: 5px;
+  color: #333;
+  break-inside: avoid;
+}
+.pres-ref-structure li strong {
+  color: var(--primary);
+}
+.pres-jump-ref {
+  background: var(--primary) !important;
+  color: #fff !important;
+  border-color: var(--primary) !important;
+}
+.pres-jump-ref:hover {
+  background: var(--accent) !important;
+}
+@media (max-width: 900px) {
+  .pres-ref-structure ol { columns: 1; }
+}
 .pres-rapport-head {
   display: flex;
   align-items: center;
