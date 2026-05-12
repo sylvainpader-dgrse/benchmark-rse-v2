@@ -13,7 +13,7 @@ const PRESENTATION_DATA = {
   rapports: [
     {
       key: 'galileo', rank: 3, score: 3.88, forme: 4.25, fond: 3.50,
-      name: 'Galileo Global Education', titre: "Rapport d'Impact 2024-2025",
+      name: 'Galileo Global Education', titre: "Rapport d'Impact 2024-2025", pages: '122 p.',
       cover_landscape: true,
       leg_cov: "Couverture Rapport d'Impact Galileo 2024-2025",
       leg_i1:  "Matrice de double matérialité (axe impact / axe financier, codage couleur Social-Environnement-Gouvernance)",
@@ -59,7 +59,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'essec', rank: 2, score: 4.00, forme: 4.00, fond: 4.00,
-      name: 'ESSEC', titre: 'Rapport Développement Durable et Responsabilité Sociétale 2025',
+      name: 'ESSEC', titre: 'Rapport Développement Durable et Responsabilité Sociétale 2025', pages: '22 p.',
       leg_cov: "Couverture du rapport ESSEC 2025",
       leg_i1:  "Gouvernance & Stratégie : 3 priorités / 10 engagements / 8 plans d'action + schéma visuel des 4 instances",
       leg_i2:  "Chiffres clés Environnement : -10 % empreinte CO2/étudiant, +1,9× recyclage, -30 % déchets (23/24 vs 18/19)",
