@@ -4893,7 +4893,7 @@ const BENCHMARK_DATA = {
           "fond": 3.5
         },
         "sylvain": {
-          "forme": "",
+          "forme": 3.0,
           "fond": 3.0
         }
       },
