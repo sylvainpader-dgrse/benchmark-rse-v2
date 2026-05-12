@@ -120,7 +120,7 @@ function renderPresentation() {
       <strong>Aller à :</strong>
       <a href="#pres-igensia-ref" class="pres-jump-link pres-jump-ref">★ Notre rapport</a>
       ${data.rapports.map(r => `<a href="#pres-${r.key}" class="pres-jump-link">#${r.rank} ${escapeHTML(r.name)}</a>`).join('')}
-      <a href="#pres-synthese" class="pres-jump-link pres-jump-synthese">★ Synthèse</a>
+      ${data.synthese && data.synthese.length ? '<a href="#pres-synthese" class="pres-jump-link pres-jump-synthese">★ Synthèse</a>' : ''}
     </div>
   `;
 
@@ -128,21 +128,23 @@ function renderPresentation() {
     html += renderRapportCard(r);
   });
 
-  // Synthèse finale
-  html += `
-    <section id="pres-synthese" class="pres-synthese">
-      <h2>Cinq idées prioritaires pour notre prochain rapport</h2>
-      <div class="pres-synthese-grid">
-        ${data.synthese.map(s => `
-          <div class="pres-synthese-card">
-            <div class="pres-synthese-num">${s.num}</div>
-            <h3>${escapeHTML(s.titre)}</h3>
-            <p>${escapeHTML(s.desc)}</p>
-          </div>
-        `).join('')}
-      </div>
-    </section>
-  `;
+  // Synthèse finale (uniquement si renseignée)
+  if (data.synthese && data.synthese.length) {
+    html += `
+      <section id="pres-synthese" class="pres-synthese">
+        <h2>Cinq idées prioritaires pour notre prochain rapport</h2>
+        <div class="pres-synthese-grid">
+          ${data.synthese.map(s => `
+            <div class="pres-synthese-card">
+              <div class="pres-synthese-num">${s.num}</div>
+              <h3>${escapeHTML(s.titre)}</h3>
+              <p>${escapeHTML(s.desc)}</p>
+            </div>
+          `).join('')}
+        </div>
+      </section>
+    `;
+  }
 
   root.innerHTML = html;
 
