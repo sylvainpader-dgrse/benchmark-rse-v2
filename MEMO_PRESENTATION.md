@@ -5,6 +5,64 @@
 
 ---
 
+## 0. Notre référence : le rapport IGENSIA 2024-2025 (48 p.)
+
+> Tout le benchmark sert à identifier des pistes pour améliorer **ce** rapport.
+> Lecture intégrale réalisée pour bien connaître le point de départ.
+
+### Structure
+| Section | Pages |
+|---|---|
+| Couverture + sommaire | 1-3 |
+| Mots : DG + Directrice DD | 4-5 |
+| Présentation Groupe (chiffres clés + cœur de métier) | 6-7 |
+| Notre parcours RSE (vision + timeline + BC + ODD + LUCIE) | 8-11 |
+| Stratégie + Gouvernance RSE (3 niveaux, 17 pilotes) | 12-13 |
+| Engagements auprès des **apprenants** | 14-27 (14 p.) |
+| Engagements auprès des **collaborateurs** | 28-34 (7 p.) |
+| Engagements sur nos **campus** | 35-40 (6 p.) |
+| Entreprises et partenaires **solidaires** | 41-44 (4 p.) |
+| Conclusion + 4e couv | 46-48 |
+
+### Forces (à conserver)
+- **Codification « C'EST RÉALISÉ / C'EST LANCÉ / C'EST PRÉVU »** : structurante, rare dans le benchmark
+- Identité visuelle forte : violet IGENSIA + rose fuchsia, photos pleine page très qualitatives
+- Structure mémorisable : 4 grandes parties (Apprenants / Collaborateurs / Campus / Partenaires)
+- Bilan Carbone détaillé : 25 498 tCO2e ventilé par poste **et** par campus (Paris 66%, Lyon 18%, Nanterre 16%)
+- Mots DG + Directrice DD : double signature gouvernance
+- 8 témoignages incarnés (étudiant, collaborateurs, directeurs, partenaires)
+- Gouvernance RSE structurée : 3 niveaux + 17 pilotes nommés
+- Label LUCIE 26000 + ancrage ODD : tiers externes crédibilisants
+- Section « C'EST PRÉVU » avec objectifs datés (rentrée 2027, 2026)
+
+### Faiblesses (à travailler dans le prochain rapport)
+- **Index égalité F/H en recul** (84 → 75) commenté mais sans plan d'action visible
+- **Pas de trajectoire de réduction GES chiffrée** (% par an, année cible)
+- **Pas de budget RSE publié** en chiffre absolu
+- **Pas de tableau récapitulatif** d'indicateurs N / N-1 (vue trajectoire)
+- **Pas d'audit externe** du bilan carbone
+- Dispositif VSS encore en « C'EST PRÉVU » (printemps 2026)
+- Pages 45, 47 vides (pagination)
+- Quelques pages monotextuelles (mots DG/DDD, stratégie p12-13)
+- Pas de schéma directeur RSE 5 axes visible en début de rapport
+
+### Chiffres clés présents dans le rapport (référence)
+- 19 000 personnes formées/an
+- 9 secteurs métiers
+- BC 2022-2023 : 25 498 tCO2e (Restauration 8 007 / Déplacements 6 080 / Achats 4 147 / Numérique 2 619 / Locaux 2 499 / Équipements 968)
+- 90%+ apprenants 1A formés en 2024 aux enjeux DD-RSE (objectif 90% des 1A/2A/3A d'ici fin 2027)
+- 190 demandes For Me (jan-juin 2025), répartition : 49% social/familial, 22% santé, 20% mental, 9% admin
+- 142 managers formés QVCT
+- Index égalité 2024 : 75/100 (vs 84/100 en 2023, -9 pts)
+- 1 atelier minimum / trimestre apprenants
+- 8 ateliers 2 Tonnes en 2025
+- Digital Clean Up Week : 1,83 tCO2e évitée
+- Campus des Groues (Nanterre, janvier 2025) : éco-construit, label Bâtiment Biosourcé
+- Plan Écowatt depuis 2022 : -10% conso (décret tertiaire)
+- Partenariat Karos covoiturage depuis 2023
+
+---
+
 ## 1. Contexte
 
 Un onglet **« Présentation »** a été créé sur le site benchmark-rse-v2 (pushé sur v2 le 12 mai 2026, commit `596b67e`). Il contient une **analyse rapport par rapport** des 21 rapports RSE concurrents (IGENSIA exclu — c'est notre objet à améliorer).
