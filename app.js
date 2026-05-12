@@ -160,13 +160,13 @@ function renderIgensiaReference() {
 
       <div class="pres-images">
         <figure class="pres-fig">
-          <img class="pres-img" src="presentation/images/igensia.jpg?v=hd1" alt="Couverture du rapport" loading="lazy">
+          <img class="pres-img" src="presentation/images/igensia.jpg?v=hd2" alt="Couverture du rapport" loading="lazy">
         </figure>
         <figure class="pres-fig">
-          <img class="pres-img" src="presentation/images/igensia_inner1.jpg?v=hd1" alt="Timeline 2023-2025" loading="lazy">
+          <img class="pres-img" src="presentation/images/igensia_inner1.jpg?v=hd2" alt="Timeline 2023-2025" loading="lazy">
         </figure>
         <figure class="pres-fig">
-          <img class="pres-img" src="presentation/images/igensia_inner2.jpg?v=hd1" alt="ODD et labellisation LUCIE 26000" loading="lazy">
+          <img class="pres-img" src="presentation/images/igensia_inner2.jpg?v=hd2" alt="ODD et labellisation LUCIE 26000" loading="lazy">
         </figure>
       </div>
 
@@ -211,12 +211,14 @@ function renderIgensiaReference() {
 
 function renderRapportCard(r) {
   const imgDir = 'presentation/images';
-  const v = 'hd1';
-  const imgs = [
-    { src: `${imgDir}/${r.key}.jpg?v=${v}`,         leg: r.leg_cov },
-    { src: `${imgDir}/${r.key}_inner1.jpg?v=${v}`,  leg: r.leg_i1  },
-    { src: `${imgDir}/${r.key}_inner2.jpg?v=${v}`,  leg: r.leg_i2  },
-  ];
+  const v = 'hd2';
+  // Couverture + N pages intérieures. On lit leg_i1, leg_i2, leg_i3... tant que présentes.
+  const imgs = [{ src: `${imgDir}/${r.key}.jpg?v=${v}`, leg: r.leg_cov }];
+  for (let i = 1; i <= 8; i++) {
+    const leg = r[`leg_i${i}`];
+    if (!leg) break;
+    imgs.push({ src: `${imgDir}/${r.key}_inner${i}.jpg?v=${v}`, leg });
+  }
   return `
     <section id="pres-${r.key}" class="pres-rapport">
       <div class="pres-rapport-head">

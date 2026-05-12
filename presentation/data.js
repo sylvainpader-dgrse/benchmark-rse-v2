@@ -16,6 +16,8 @@ const PRESENTATION_DATA = {
       leg_cov: "Couverture du rapport OMNES Education 2024-2025",
       leg_i1:  "Sommaire structuré en 4 piliers Time to Act / Accomplish / Be Consistent / Take Care",
       leg_i2:  "Tableau d'indicateurs sur 5 ans en fin de rapport",
+      leg_i3:  "Schéma des 4 piliers + cartographie des partenaires par axe (p.8-9)",
+      leg_i4:  "Partie biodiversité « Redonner sa place au vivant » : enjeux, engagements, diagnostics campus (p.24-25)",
       forme_plus: [
         "Format en double page joli",
         "Architecture mémorisable en 4 piliers (Time to Act / Accomplish / Be Consistent / Take Care) + socle Gouvernance",
