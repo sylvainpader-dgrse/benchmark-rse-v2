@@ -18,12 +18,14 @@ const PRESENTATION_DATA = {
       leg_i1:  "Governance & Strategy : 3 priorités / 10 commitments / 8 action plans + schéma visuel des 4 instances",
       leg_i2:  "Environment Key Figures : -10% empreinte CO2/étudiant, +1.9× recyclage, -30% déchets (23/24 vs 18/19)",
       leg_i3:  "Milestones — frise historique 1929-2024, 11 jalons de l'engagement",
+      leg_i4:  "Testimonies — 6 témoignages variés en page dédiée (externes, étudiante, alumni, prof, collab)",
       forme_plus: [
         "Densité éditoriale rare : 22 pages denses sans être indigestes",
         "Schéma de gouvernance visuel (« A Governance that includes all ESSEC stakeholders ») avec les 4 instances et leurs relations (advises / decides)",
         "KEY FIGURES en encadré dédié sur chaque chapitre, lisibles d'un coup d'œil",
         "Codification visuelle « NEW / ONGOING / ACHIEVED » qui structure le narratif",
         "Frise historique 1929-2024 (11 jalons) — récit puissant de l'engagement depuis presque un siècle",
+        "Page « Testimonies » dédiée avec 6 témoignages variés (2 externes, 1 étudiante, 1 alumni, 1 collab, 1 prof) : diversité de profils exemplaire",
         "Hiérarchie typographique claire (chapitres en majuscule, sous-titres en couleur)",
       ],
       forme_moins: [
@@ -43,8 +45,7 @@ const PRESENTATION_DATA = {
         "Témoignages d'acteurs externes (Guillaume Quevarec, Cergy-Pontoise Urban Community) en plus des internes",
       ],
       fond_moins: [
-        "Ton très maîtrisé : peu d'autocritique, pas de signal sur les difficultés rencontrées",
-        "Peu de témoignages d'apprenants directs — la voix dominante est celle des directeurs et professeurs",
+        "Ton très maîtrisé : peu d'autocritique, pas de signal sur les difficultés rencontrées ou les objectifs non atteints",
       ],
       idees: [
         { titre: "Frise historique de nos engagements RSE",
