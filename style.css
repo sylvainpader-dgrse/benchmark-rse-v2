@@ -435,18 +435,7 @@ thead th.rank-col, td.rank-cell {
 .pres-hero h1 {
   font-size: 2rem;
   font-weight: 800;
-  margin-bottom: 6px;
-}
-.pres-hero-sub {
-  font-size: 1.05rem;
-  opacity: 0.95;
-  margin-bottom: 10px;
-}
-.pres-hero-method {
-  font-size: 0.88rem;
-  opacity: 0.85;
-  line-height: 1.5;
-  max-width: 1000px;
+  margin: 0;
 }
 
 .pres-jump {

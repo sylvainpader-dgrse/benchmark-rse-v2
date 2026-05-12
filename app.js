@@ -112,8 +112,6 @@ function renderPresentation() {
   let html = `
     <div class="pres-hero">
       <h1>Benchmark Rapports RSE</h1>
-      <p class="pres-hero-sub">Analyse de ${data.meta.nb_rapports} rapports concurrents — Forme + Fond + idées concrètes à transposer chez IGENSIA</p>
-      <p class="pres-hero-method">${escapeHTML(data.meta.methodo)}</p>
     </div>
 
     ${renderIgensiaReference()}
