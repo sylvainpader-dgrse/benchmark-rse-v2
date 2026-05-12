@@ -553,6 +553,10 @@ thead th.rank-col, td.rank-cell {
   min-width: 80px;
   text-align: center;
 }
+.pres-titre {
+  flex: 1;
+  min-width: 0;
+}
 .pres-titre h2 {
   font-size: 1.6rem;
   font-weight: 800;
@@ -563,6 +567,24 @@ thead th.rank-col, td.rank-cell {
   font-size: 0.9rem;
   color: var(--text-light);
   margin-top: 4px;
+}
+.pres-score {
+  margin-left: auto;
+  font-size: 1.9rem;
+  font-weight: 900;
+  color: var(--primary);
+  background: #f4eef9;
+  padding: 6px 18px;
+  border-radius: 10px;
+  text-align: center;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.pres-score small {
+  font-size: 0.55em;
+  font-weight: 700;
+  opacity: 0.65;
+  margin-left: 2px;
 }
 
 .pres-images {
