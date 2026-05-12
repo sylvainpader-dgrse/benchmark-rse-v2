@@ -660,29 +660,21 @@ thead th.rank-col, td.rank-cell {
   color: #B26500;
   border-bottom-color: #FFC107;
 }
-.pres-idee {
+.pres-idees-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pres-idees-list li {
   background: #fff;
-  border-radius: 6px;
-  padding: 12px 14px;
-  margin-bottom: 12px;
   border-left: 4px solid #FFC107;
-}
-.pres-idee h4 {
-  font-size: 0.95rem;
-  font-weight: 700;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  line-height: 1.4;
   color: var(--primary);
-  text-transform: none;
-  letter-spacing: 0;
-  margin: 0 0 6px;
-}
-.pres-idee p {
-  font-size: 0.84rem;
-  line-height: 1.55;
-  color: #333;
-  margin-bottom: 4px;
-}
-.pres-idee strong {
-  color: #6B2D6B;
+  font-weight: 600;
 }
 
 .pres-synthese {

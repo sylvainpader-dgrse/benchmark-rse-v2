@@ -255,14 +255,10 @@ function renderRapportCard(r) {
         </div>
 
         <div class="pres-block pres-idees">
-          <h3>★ Idées pour IGENSIA</h3>
-          ${r.idees.map(i => `
-            <div class="pres-idee">
-              <h4>▸ ${escapeHTML(i.titre)}</h4>
-              <p><strong>Pourquoi :</strong> ${escapeHTML(i.pourquoi)}</p>
-              <p><strong>Comment :</strong> ${escapeHTML(i.comment)}</p>
-            </div>
-          `).join('')}
+          <h3>Idées pour IGENSIA</h3>
+          <ul class="pres-idees-list">
+            ${r.idees.map(i => `<li>${escapeHTML(i.titre)}</li>`).join('')}
+          </ul>
         </div>
       </div>
     </section>
