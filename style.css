@@ -419,34 +419,6 @@ thead th.rank-col, td.rank-cell {
   color: #999;
   font-style: italic;
 }
-.comment-edit-wrap {
-  margin-top: 4px;
-}
-.comment-edit-wrap > summary {
-  cursor: pointer;
-  font-size: 0.78rem;
-  color: #777;
-  padding: 4px 0;
-  user-select: none;
-}
-.comment-edit-wrap > summary:hover {
-  color: var(--primary);
-}
-.comment-edit-wrap[open] > summary {
-  margin-bottom: 6px;
-  color: var(--primary);
-  font-weight: 600;
-}
-.comment-warning {
-  margin: 4px 0 8px;
-  padding: 8px 12px;
-  background: #fff8e1;
-  border: 1px solid #ffe082;
-  border-radius: 6px;
-  font-size: 0.78rem;
-  color: #6d4c00;
-  line-height: 1.5;
-}
 
 .justif-filter-group-block {
   margin-bottom: 18px;
@@ -855,19 +827,6 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   display: block;
   margin-bottom: 0.4rem;
 }
-.comment-textarea {
-  width: 100%;
-  min-height: 100px;
-  padding: 0.8rem;
-  border: 2px solid var(--border);
-  border-radius: var(--radius);
-  font-family: 'Archivo', sans-serif;
-  font-size: 0.85rem;
-  resize: vertical;
-  outline: none;
-  transition: border-color 0.2s;
-}
-.comment-textarea:focus { border-color: var(--accent); }
 
 .focus-info-grid {
   display: grid;

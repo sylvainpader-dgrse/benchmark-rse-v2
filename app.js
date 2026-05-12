@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (saved.blanche && saved.blanche.fond !== '') f.notes.blanche.fond = saved.blanche.fond;
     if (saved.sylvain && saved.sylvain.forme !== '') f.notes.sylvain.forme = saved.sylvain.forme;
     if (saved.sylvain && saved.sylvain.fond !== '') f.notes.sylvain.fond = saved.sylvain.fond;
-    if (saved.comment) f.comment = saved.comment;
+    // Commentaire : toujours servi depuis data.js (source de vérité), pas écrasé par localStorage
   });
 
   setupTabs();
@@ -685,13 +685,7 @@ function renderFocusDetail(schoolName) {
 
       <div class="comment-section">
         <label>Commentaire</label>
-        <div class="comment-preview" id="commentPreview">${formatComment(comment)}</div>
-        <details class="comment-edit-wrap">
-          <summary>Modifier le commentaire</summary>
-          <p class="comment-warning">⚠ Modification locale uniquement, visible sur cet appareil. La version publiée du site reste celle de référence.</p>
-          <textarea class="comment-textarea" data-school="${f.name}"
-            placeholder="Ajouter un commentaire sur ce rapport RSE...">${escapeHTML(comment)}</textarea>
-        </details>
+        <div class="comment-preview">${formatComment(comment)}</div>
       </div>
     </div>
 
@@ -704,7 +698,6 @@ function renderFocusDetail(schoolName) {
   container.querySelectorAll('.note-input').forEach(input => {
     input.addEventListener('change', handleNoteChange);
   });
-  container.querySelector('.comment-textarea')?.addEventListener('input', handleCommentChange);
 
   // Highlight ranking
   document.querySelectorAll('.ranking-card').forEach(c => c.classList.remove('active'));
@@ -746,18 +739,6 @@ function handleNoteChange(e) {
   renderFocus();
 }
 
-function handleCommentChange(e) {
-  const school = e.target.dataset.school;
-  const val = e.target.value;
-  const f = D.focus.find(x => x.name === school);
-  if (f) f.comment = val;
-  const saved = getSavedNotes(school);
-  saved.comment = val;
-  setSavedNotes(school, saved);
-  // Mise à jour live de l'aperçu rendu
-  const preview = document.getElementById('commentPreview');
-  if (preview) preview.innerHTML = formatComment(val);
-}
 
 // =============================
 // TAB 4: RADAR PAR AXE
