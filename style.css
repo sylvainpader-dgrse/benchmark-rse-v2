@@ -213,44 +213,37 @@ thead th.cat-header {
   padding: 0.5rem 0.6rem;
   text-transform: uppercase;
 }
+/* ÉCOLE reste sticky à gauche (left: 0) — c'est la colonne d'ancrage en scroll horizontal */
 thead th.school-col {
   text-align: left;
-  min-width: 200px !important;
-  width: 200px !important;
-  background: #E60F7D !important;
-  position: sticky !important;
-  left: 80px !important; /* après la colonne SCORE (80px) */
-  z-index: 12 !important;
+  min-width: 200px;
+  background: #E60F7D;
+  position: sticky;
+  left: 0;
+  z-index: 12;
 }
 thead th.score-col {
   background: #4A1942;
   min-width: 80px;
 }
-/* Colonne SCORE en 1ère position, sticky-left, gris ardoise — !important pour passer devant tout */
+/* Colonne SCORE en 1ère position du HTML — NON sticky : défile normalement avec les critères.
+   Quand on scroll à droite, SCORE disparaît à gauche et ÉCOLE (sticky) prend sa place visuelle. */
 thead th.score-col-left {
-  position: sticky !important;
-  left: 0 !important;
-  top: 0 !important;
-  z-index: 14 !important;
-  background: #455A64 !important;
-  color: #fff !important;
-  min-width: 80px !important;
-  width: 80px !important;
-  max-width: 80px !important;
-  border-right: 2px solid var(--white) !important;
-  text-align: center !important;
+  background: #455A64;
+  color: #fff;
+  min-width: 80px;
+  width: 80px;
+  max-width: 80px;
+  border-right: 2px solid var(--white);
+  text-align: center;
+  /* position sticky héritée du thead th général (top: 0) pour le scroll vertical */
 }
 tbody td.score-cell-left {
-  position: sticky !important;
-  left: 0 !important;
-  z-index: 6;
   border-right: 2px solid #fff;
-  min-width: 80px !important;
-  width: 80px !important;
-  max-width: 80px !important;
-}
-tbody tr.igensia-row td.score-cell-left {
-  z-index: 10 !important; /* IGENSIA score : double sticky (top + left) */
+  min-width: 80px;
+  width: 80px;
+  max-width: 80px;
+  /* pas de sticky-left : défile normalement avec les autres colonnes en scroll horizontal */
 }
 thead th.rank-col, td.rank-cell {
   min-width: 32px;
@@ -537,7 +530,7 @@ tbody td.school-cell {
   font-size: 0.8rem;
   white-space: nowrap;
   position: sticky;
-  left: 80px; /* décalé après la colonne SCORE (80px) */
+  left: 0; /* ÉCOLE est l'ancre sticky à gauche ; SCORE défile normalement */
   z-index: 5;
 }
 tbody td.school-cell.igensia {
