@@ -50,11 +50,7 @@ const PRESENTATION_DATA = {
         "Bilan carbone consécutif mentionné (4e année) mais détails non affichés dans le rapport",
         "Place 4 ChangeNOW stable (2024 et 2025) : pas de progression au classement",
       ],
-      idees: [
-        { titre: "Conduire une analyse de matérialité avec IRO chiffrés (Impacts, Risques, Opportunités)",
-          pourquoi: "Audencia (p.4) va plus loin que la simple matrice : analyse fondée sur 30 référentiels, examen complet de la chaîne de valeur, identification de 23 IRO dont 18 jugés matériels. Méthodologie plus rigoureuse qu'une matrice « cosmétique » comme celle de Galileo. Chez IGENSIA, pas de matrice de matérialité affichée ni d'analyse IRO.",
-          comment: "Compléter l'idée matrice de matérialité (issue de Galileo) par une vraie démarche méthodologique : (1) analyser nos référentiels (LUCIE 26000, ODD, ISO 26000, label DD&RS) + chaîne de valeur (apprenants → collaborateurs → campus → partenaires) ; (2) identifier nos Impacts (positifs/négatifs), Risques (à anticiper) et Opportunités ; (3) hiérarchiser ceux jugés matériels ; (4) afficher le résultat sur la matrice. Réévaluation annuelle." },
-      ],
+      idees: [],
     },
     {
       key: 'excelia', rank: 4, score: 3.88, forme: 3.75, fond: 4.00,

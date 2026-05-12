@@ -264,9 +264,11 @@ function renderRapportCard(r) {
 
         <div class="pres-block pres-idees">
           <h3>Idées pour IGENSIA</h3>
+          ${r.idees.length ? `
           <ul class="pres-idees-list">
             ${r.idees.map(i => `<li>${escapeHTML(i.titre)}</li>`).join('')}
-          </ul>
+          </ul>` : `
+          <p class="pres-idees-empty">Pas d'idée éditoriale distinctive retenue : les bonnes pratiques de ce rapport sont déjà couvertes par les autres rapports du benchmark.</p>`}
         </div>
       </div>
     </section>

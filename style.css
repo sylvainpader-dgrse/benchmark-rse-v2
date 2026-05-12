@@ -701,6 +701,14 @@ thead th.rank-col, td.rank-cell {
   display: grid;
   gap: 8px;
 }
+.pres-idees-empty {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text-light);
+  font-style: italic;
+  margin: 0;
+  padding: 4px 0;
+}
 .pres-idees-list li {
   background: #fff;
   border-radius: 8px;
