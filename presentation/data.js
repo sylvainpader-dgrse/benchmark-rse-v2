@@ -1,5 +1,5 @@
 /* ==============================
-   Présentation Benchmark Rapports RSE — données analyses
+   Présentation Benchmark Rapports RSE : données analyses
    Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
@@ -63,15 +63,15 @@ const PRESENTATION_DATA = {
       leg_cov: "Couverture du rapport ESSEC 2025",
       leg_i1:  "Gouvernance & Stratégie : 3 priorités / 10 engagements / 8 plans d'action + schéma visuel des 4 instances",
       leg_i2:  "Chiffres clés Environnement : -10 % empreinte CO2/étudiant, +1,9× recyclage, -30 % déchets (23/24 vs 18/19)",
-      leg_i3:  "Frise historique 1929-2024 — 11 jalons de l'engagement",
+      leg_i3:  "Frise historique 1929-2024, 11 jalons de l'engagement",
       leg_i4:  "Page « Témoignages » dédiée : 6 témoignages variés (externes, étudiante, alumni, prof, collab)",
       forme_plus: [
-        "Encadré « Chiffres clés » dédié au démarrage de chaque chapitre — chiffres pictogrammés lisibles d'un coup d'œil",
+        "Encadré « Chiffres clés » au démarrage de chaque chapitre, avec des chiffres pictogrammés lisibles d'un coup d'œil",
       ],
       forme_moins: [
-        "Couverture classique institutionnelle (photo aérienne + titre) — ne porte pas de message stratégique",
+        "Couverture classique institutionnelle (photo aérienne + titre), ne porte pas de message stratégique",
         "Photos peu nombreuses, rendu un peu froid type rapport corporate",
-        "Témoignages regroupés sur une page dédiée en fin de rapport — moins immersif que des témoignages incarnés au fil des sections (approche IGENSIA)",
+        "Témoignages regroupés sur une page dédiée en fin de rapport, moins immersif que des témoignages incarnés au fil des sections (approche IGENSIA)",
       ],
       fond_plus: [
         "Stratégie 2024-2028 articulée en cascade : 3 priorités → 10 engagements → 8 plans d'action (incluant un axe « Alumni » formalisé)",
@@ -92,10 +92,10 @@ const PRESENTATION_DATA = {
       ],
       idees: [
         { titre: "Encadré « Chiffres clés » dédié au démarrage de chaque grande partie",
-          pourquoi: "ESSEC place un encadré récapitulatif en début de chaque chapitre (Gouvernance, Pédagogie, Recherche, Environnement, Social) avec 3-4 chiffres pictogrammés. Chez nous, les chiffres sont mentionnés dans le narratif des sections — pas regroupés en encadré récap par partie.",
+          pourquoi: "ESSEC place un encadré récapitulatif en début de chaque chapitre (Gouvernance, Pédagogie, Recherche, Environnement, Social) avec 3-4 chiffres pictogrammés. Chez nous, les chiffres sont mentionnés dans le narratif des sections, pas regroupés en encadré récap par partie.",
           comment: "Ajouter un mini-encadré « Chiffres clés » en tête de chacune de nos 4 grandes parties (Apprenants / Collabs / Campus / Partenaires solidaires) avec 3-4 indicateurs phares. Format : picto + chiffre + 1 ligne de label." },
         { titre: "Présenter nos indicateurs environnementaux en variation (delta vs année de base)",
-          pourquoi: "ESSEC affiche « -10 % empreinte CO2/étudiant », « +1,9× recyclage », « -30 % déchets » vs 18/19. Le delta rend la dynamique visible immédiatement. Nous on publie pour la première fois (valeurs brutes uniquement) — il faut acter dès maintenant l'année de base pour pouvoir comparer dès le prochain rapport.",
+          pourquoi: "ESSEC affiche « -10 % empreinte CO2/étudiant », « +1,9× recyclage », « -30 % déchets » vs 18/19. Le delta rend la dynamique visible immédiatement. Nous on publie pour la première fois (valeurs brutes uniquement). Il faut acter dès maintenant l'année de base pour pouvoir comparer dès le prochain rapport.",
           comment: "À partir du prochain rapport, sur chaque indicateur environnemental (BC, conso énergie, déchets, déplacements) : afficher la valeur N + le delta vs 2024-2025 (base 100). Visuel type pictogramme + chiffre + flèche." },
       ],
     },
@@ -110,14 +110,14 @@ const PRESENTATION_DATA = {
       forme_plus: [
         "Format en double page agréable visuellement",
         "Architecture mémorisable en 4 piliers (Time to Act / Accomplish / Be Consistent / Take Care) + socle Gouvernance, avec une page de synthèse opérationnelle par pilier",
-        "Couverture originale : graphique typographique qui porte un message (mots-clés en pavé — BIODIVERSITÉ, ADAPTATION, INCLUSION, écosystèmes), pas une simple photo",
+        "Couverture originale : graphique typographique qui porte un message (mots-clés en pavé : BIODIVERSITÉ, ADAPTATION, INCLUSION, écosystèmes), pas une simple photo",
         "Encadrés « ZOOM SUR » qui signalent les focus emblématiques (campus Marseille bas carbone, risques climatiques)",
         "Édito en interview croisée : Édouard Vaury (Directeur campus Rennes) → Marc-Henri Desportes (CEO). Plus vivant qu'un mot du DG",
         "Code couleur par pilier qui guide la navigation",
       ],
       forme_moins: [
         "Format paysage moins confortable que portrait sur écran, surtout mobile",
-        "Schéma des 4 piliers + partenaires (p.8-9) trop dense, beaucoup de logos en petit — mais l'idée de cartographier les parties prenantes est à reprendre",
+        "Schéma des 4 piliers + partenaires (p.8-9) trop dense, beaucoup de logos en petit, mais l'idée de cartographier les parties prenantes est à reprendre",
         "Plan d'action carbone 2025-2030 (11 actions) éparpillé dans le texte, pas de schéma de synthèse",
       ],
       fond_plus: [
@@ -130,7 +130,7 @@ const PRESENTATION_DATA = {
         "Biodiversité substantielle : 1er acteur de l'enseignement supérieur adhérent au Programme Entreprises Engagées pour la Nature, approche régénérative posée comme pilier",
       ],
       fond_moins: [
-        "Peu de témoignages d'apprenants directs — la voix dominante reste celle des directeurs et collaborateurs",
+        "Peu de témoignages d'apprenants directs, la voix dominante reste celle des directeurs et collaborateurs",
       ],
       idees: [
         { titre: "Publier notre budget RSE en valeur absolue avec son évolution",
@@ -150,9 +150,9 @@ const PRESENTATION_DATA = {
           comment: "Identifier 2-3 actions emblématiques par axe et leur dédier un encadré demi-page : visuel + 2-3 chiffres clés + 1 témoignage incarné. Ex chez nous : Campus des Groues éco-construit, dispositif For Me, ateliers 2tonnes." },
         { titre: "Reprendre notre structure LUCIE en schéma synthétique de début de rapport",
           pourquoi: "OMNES a transformé sa stratégie en page opérationnelle (p.8-9) : par pilier on a engagements concrets + KPI cibles + comités responsables + partenaires associés. Chez nous, on a la labellisation LUCIE 26000 et des engagements, mais on ne les a pas repris sous cette forme synthétique dans le rapport.",
-          comment: "1 page (ou double-page) en début de rapport : structure LUCIE par pilier, chacun avec son encadré contenant — les engagements LUCIE qu'on a pris + nos cibles chiffrées + les comités/pilotes responsables + les partenaires associés (LPO, GMF, Missions Locales, ANLCI, etc.). Inspiration directe du schéma OMNES p.8-9, à adapter à notre identité." },
+          comment: "1 page (ou double-page) en début de rapport : structure LUCIE par pilier, chacun avec son encadré contenant les engagements LUCIE qu'on a pris, nos cibles chiffrées, les comités/pilotes responsables et les partenaires associés (LPO, GMF, Missions Locales, ANLCI, etc.). Inspiration directe du schéma OMNES p.8-9, à adapter à notre identité." },
         { titre: "Faire de notre couverture un graphique porteur de message (pas juste une photo)",
-          pourquoi: "OMNES affiche en couverture un pavé typographique avec ses mots-clés stratégiques (BIODIVERSITÉ, ADAPTATION, INCLUSION, écosystèmes) — la couverture seule annonce déjà le projet RSE. Notre couverture actuelle (4 campus) est jolie mais ne porte pas de message sur notre démarche.",
+          pourquoi: "OMNES affiche en couverture un pavé typographique avec ses mots-clés stratégiques (BIODIVERSITÉ, ADAPTATION, INCLUSION, écosystèmes). La couverture seule annonce déjà le projet RSE. Notre couverture actuelle (4 campus) est jolie mais ne porte pas de message sur notre démarche.",
           comment: "Repenser la couverture du prochain rapport en intégrant un graphique typographique ou symbolique qui résume notre démarche RSE en 4-5 mots-clés (ex. APPRENANTS, COLLABORATEURS, CAMPUS, PARTENAIRES, ou LUCIE / ODD / RÉGÉNÉRATIF / ANCRAGE). À cadrer avec notre studio graphique." },
       ],
     },

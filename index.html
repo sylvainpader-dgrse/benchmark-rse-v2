@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Benchmark RSE — IGENSIA Education</title>
+<title>Benchmark RSE | IGENSIA Education</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260513b">
+<link rel="stylesheet" href="style.css?v=20260513d">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -60,9 +60,9 @@
         <p><strong>Scoring :</strong> Chaque école est évaluée sur 36 critères répartis en 5 axes alignés sur le référentiel LUCIE 26000 d'IGENSIA. Le score est calculé ainsi : OUI = 1 pt, PARTIEL = 0,5 pt, NON = 0 pt. Score maximum : 36/36.</p>
         <p><strong>Seuils des verdicts :</strong></p>
         <ul>
-          <li><strong>OUI</strong> — Le dispositif est déployé, documenté et vérifiable dans les sources publiques.</li>
-          <li><strong>PARTIEL</strong> — Le dispositif est initié, annoncé, ou partiellement déployé. Un objectif annoncé sans preuve de réalisation = PARTIEL.</li>
-          <li><strong>NON</strong> — Aucune donnée publique trouvée, ou absence constatée dans les rapports et sites web.</li>
+          <li><strong>OUI</strong> : le dispositif est déployé, documenté et vérifiable dans les sources publiques.</li>
+          <li><strong>PARTIEL</strong> : le dispositif est initié, annoncé, ou partiellement déployé. Un objectif annoncé sans preuve de réalisation = PARTIEL.</li>
+          <li><strong>NON</strong> : aucune donnée publique trouvée, ou absence constatée dans les rapports et sites web.</li>
         </ul>
         <p><strong>Sources :</strong> Rapports RSE/DD&RS publiés, rapports Société à Mission, DPEF, sites web institutionnels, bases publiques (Légifrance, EcoVadis, label-ddrs.org). Chaque justification cite sa source précise.</p>
         <p><strong>Écoles et groupes :</strong> Le benchmark évalue 37 écoles et 6 groupes éducatifs (IGENSIA, OMNES, AD Education, Galileo, IONIS, CESI). Lorsqu'une école et son groupe sont tous deux présents, les scores sont indépendants : le score de l'école reflète ses actions propres documentées, le score du groupe reflète la politique RSE consolidée au niveau groupe. Certaines écoles (ESCE, PSB, EDC) sont rattachées à un groupe identifié sous leur nom.</p>
@@ -84,7 +84,7 @@
       <div class="justif-filter-group">
         <label for="justifCritSelect">Filtrer par critère :</label>
         <select id="justifCritSelect">
-          <option value="">— Tous les critères (vue par école) —</option>
+          <option value="">Tous les critères (vue par école)</option>
         </select>
       </div>
       <div class="justif-filter-group" id="justifVerdictFilter" style="display:none;">
@@ -104,14 +104,14 @@
       <p class="tab-intro">Comparez IGENSIA Education avec d'autres écoles ou groupes sur les 6 axes RSE.</p>
       <div class="radar-select-wrapper">
         <label>Ajouter une école / groupe :</label>
-        <select id="radarSelect"><option value="">— Choisir —</option></select>
+        <select id="radarSelect"><option value="">Choisir une école</option></select>
         <button id="radarAddBtn" class="btn-accent">Ajouter</button>
         <button id="radarResetBtn" class="btn-outline">Réinitialiser</button>
       </div>
       <div id="radarChips" class="radar-chips"></div>
     </div>
     <div class="radar-chart-container" style="max-width:700px; margin:0 auto;">
-      <h3>Benchmark RSE (36 critères — 5 axes IGENSIA)</h3>
+      <h3>Benchmark RSE (36 critères, 5 axes IGENSIA)</h3>
       <canvas id="radarChart"></canvas>
       <div style="max-width:520px;margin:16px auto 0;padding:14px 20px;background:#f8f6ff;border:1px solid #e0d8f0;border-radius:8px;font-size:0.78rem;color:#555;line-height:1.6;">
         <div style="font-weight:700;color:#260D66;margin-bottom:6px;">Lecture du radar</div>
@@ -132,15 +132,15 @@
   <!-- TAB 4: FOCUS RAPPORTS RSE -->
   <section id="tab-focus" class="tab-content">
     <details class="methodo-note" style="margin-bottom:1rem;">
-      <summary>Note méthodologique — Périmètres des rapports analysés</summary>
+      <summary>Note méthodologique : périmètres des rapports analysés</summary>
       <div class="methodo-content">
         <p>Cette section analyse exclusivement les <strong>rapports RSE, DD&RS, Impact ou Mission</strong> publiés par les écoles et groupes du benchmark. Sont inclus :</p>
         <ul>
-          <li><strong>Rapports RSE / DD&RS / RSO</strong> — documents dédiés à la responsabilité sociétale et au développement durable (ex : IGENSIA, ESSEC, EDHEC, BSB, EFREI, EM Strasbourg)</li>
-          <li><strong>Rapports d'Impact / d'Engagement</strong> — documents mesurant l'impact social, environnemental et sociétal (ex : Galileo, IESEG, NEOMA, EMLYON)</li>
-          <li><strong>Rapports Société à Mission</strong> — rapports statutaires des écoles ayant adopté le statut (ex : TBS, Grenoble EM)</li>
-          <li><strong>Rapports ESG</strong> — documents de reporting extra-financier (ex : AD Education)</li>
-          <li><strong>Sustainability Reports</strong> — équivalents internationaux (ex : INSEAD, HEC, PSB)</li>
+          <li><strong>Rapports RSE / DD&RS / RSO</strong> : documents dédiés à la responsabilité sociétale et au développement durable (ex : IGENSIA, ESSEC, EDHEC, BSB, EFREI, EM Strasbourg)</li>
+          <li><strong>Rapports d'Impact / d'Engagement</strong> : documents mesurant l'impact social, environnemental et sociétal (ex : Galileo, IESEG, NEOMA, EMLYON)</li>
+          <li><strong>Rapports Société à Mission</strong> : rapports statutaires des écoles ayant adopté le statut (ex : TBS, Grenoble EM)</li>
+          <li><strong>Rapports ESG</strong> : documents de reporting extra-financier (ex : AD Education)</li>
+          <li><strong>Sustainability Reports</strong> : équivalents internationaux (ex : INSEAD, HEC, PSB)</li>
         </ul>
         <p><strong>Ne sont pas inclus :</strong> les rapports d'activité généraux, les rapports PRME/SIP (trop courts et standardisés), les brochures institutionnelles, les plans stratégiques ou les chartes.</p>
         <p><strong>Evaluation :</strong> chaque rapport est évalué sur deux axes (Forme et Fond) par deux évaluateurs indépendants. La note finale est la moyenne des quatre notes.</p>
@@ -190,17 +190,17 @@
       <div class="xerfi-kpi">
         <div class="xerfi-kpi-num">85%</div>
         <div class="xerfi-kpi-label">des étudiants jugent importante la prise en compte des enjeux environnementaux</div>
-        <div class="xerfi-kpi-source">p. 46 — Sondage OpinionWay / Mines Saint-Étienne, janv. 2025</div>
+        <div class="xerfi-kpi-source">p. 46, Sondage OpinionWay / Mines Saint-Étienne, janv. 2025</div>
       </div>
       <div class="xerfi-kpi">
         <div class="xerfi-kpi-num">32%</div>
         <div class="xerfi-kpi-label">des DRH citent la transition écologique comme facteur de transformation</div>
-        <div class="xerfi-kpi-source">p. 106 — 3e facteur derrière l'IA (58%) et les SI (35%)</div>
+        <div class="xerfi-kpi-source">p. 106, 3e facteur derrière l'IA (58%) et les SI (35%)</div>
       </div>
       <div class="xerfi-kpi">
         <div class="xerfi-kpi-num">-10 pts</div>
         <div class="xerfi-kpi-label">de satisfaction étudiante sur l'intégration RSE dans les enseignements (67% en 2025 vs 76% en 2024)</div>
-        <div class="xerfi-kpi-source">p. 46 — Signal d'alerte : les écoles communiquent mais ne livrent pas assez</div>
+        <div class="xerfi-kpi-source">p. 46, Signal d'alerte : les écoles communiquent mais ne livrent pas assez</div>
       </div>
     </div>
 
@@ -249,12 +249,12 @@
             <tr><td>Contenus des enseignements</td><td>67%</td><td>76%</td><td class="negative">-9 pts</td><td style="font-size:0.75rem;">Xerfi p.46 : les étudiants perçoivent un décalage entre les discours RSE et le contenu réel des cours dispensés</td></tr>
             <tr><td>Activités de recherche</td><td>69%</td><td>76%</td><td class="negative">-7 pts</td><td style="font-size:0.75rem;">Xerfi p.46 : les travaux de recherche RSE ne sont pas suffisamment relayés dans les programmes pédagogiques</td></tr>
             <tr><td>Fonctionnement interne</td><td>69%</td><td>71%</td><td class="negative">-2 pts</td><td style="font-size:0.75rem;">Xerfi p.46 : les efforts sur les campus (tri, énergie, mobilité) sont reconnus mais jugés insuffisants au regard des enjeux</td></tr>
-            <tr><td>Soutien aux projets étudiants</td><td>71%</td><td>85%</td><td class="negative">-14 pts</td><td style="font-size:0.75rem;">Xerfi p.46 : baisse la plus marquée — les dispositifs d'accompagnement (associations, projets solidaires) sont perçus comme en recul</td></tr>
+            <tr><td>Soutien aux projets étudiants</td><td>71%</td><td>85%</td><td class="negative">-14 pts</td><td style="font-size:0.75rem;">Xerfi p.46 : baisse la plus marquée, les dispositifs d'accompagnement (associations, projets solidaires) sont perçus comme en recul</td></tr>
             <tr><td>De manière générale</td><td>81%</td><td>80%</td><td class="positive">+1 pt</td><td style="font-size:0.75rem;">Xerfi p.46 : la perception globale reste stable car les écoles communiquent davantage, mais les résultats concrets ne suivent pas au même rythme</td></tr>
           </tbody>
         </table>
         <div class="xerfi-insight">
-          <strong>Ce que ça signifie pour IGENSIA :</strong> La perception recule — les écoles qui documentent et valorisent réellement leur intégration RSE (pas seulement en communication) se différencient. Le séminaire HOPEN et les 30h DD d'IGENSIA sont des preuves concrètes à mettre en avant.
+          <strong>Ce que ça signifie pour IGENSIA :</strong> La perception recule, les écoles qui documentent et valorisent réellement leur intégration RSE (pas seulement en communication) se différencient. Le séminaire HOPEN et les 30h DD d'IGENSIA sont des preuves concrètes à mettre en avant.
         </div>
       </div>
     </div>
@@ -269,7 +269,7 @@
         <p>Parmi les facteurs de croissance des écoles à l'horizon 2030, Xerfi positionne la RSE au même niveau que le digital :</p>
         <blockquote>"Le développement des compétences sera essentiel face aux mutations en cours ou futures en matière de digital et de RSE, deux thématiques sur lesquelles les écoles de commerce sont déjà particulièrement présentes."</blockquote>
         <div class="xerfi-insight">
-          <strong>Ce que ça signifie pour IGENSIA :</strong> Xerfi identifie un croisement digital + RSE comme facteur de croissance. IGENSIA, avec ses 9 filières métiers et 80% d'alternance, est naturellement positionnée pour intégrer la RSE dans chaque métier (RH, immobilier, commerce, numérique) — pas comme un module à part, mais comme une compétence transversale.
+          <strong>Ce que ça signifie pour IGENSIA :</strong> Xerfi identifie un croisement digital + RSE comme facteur de croissance. IGENSIA, avec ses 9 filières métiers et 80% d'alternance, est naturellement positionnée pour intégrer la RSE dans chaque métier (RH, immobilier, commerce, numérique), pas comme un module à part, mais comme une compétence transversale.
         </div>
       </div>
     </div>
@@ -311,14 +311,14 @@
         <table class="xerfi-table">
           <thead><tr><th>École</th><th>Date</th><th>Programme</th><th>Type</th><th>Positionnement</th></tr></thead>
           <tbody>
-            <tr><td>Grenoble EM</td><td>Jan. 2023</td><td>Cours hybride transition écologique (1 100 étudiants PGE)</td><td>Formation initiale</td><td style="font-size:0.75rem;">Intégration transversale dans le tronc commun — approche systémique</td></tr>
-            <tr><td>Audencia / Centrale Nantes</td><td>Fév. 2023</td><td>MS Ressources et Économie Circulaire</td><td>MS</td><td style="font-size:0.75rem;">Co-diplômation école de commerce + école d'ingénieurs — double légitimité</td></tr>
-            <tr><td>Audencia</td><td>Mars 2023</td><td>MS Investissements Responsables</td><td>MS</td><td style="font-size:0.75rem;">Niche finance durable — répond à une demande croissante des entreprises du secteur</td></tr>
-            <tr><td>INSEAD</td><td>Avr. 2023</td><td>Refonte MBA : 15 cours climat/inclusion/durabilité</td><td>MBA</td><td style="font-size:0.75rem;">Refonte d'un programme existant plutôt que création — signal de maturité</td></tr>
-            <tr><td>Excelia</td><td>Juin 2023</td><td>« Blue Education Experience » — transition écologique/eau</td><td>Parcours</td><td style="font-size:0.75rem;">Identité thématique forte autour de l'eau — différenciation par la spécialisation</td></tr>
-            <tr><td>ESCP / Circul'R</td><td>2023</td><td>« Leader de l'économie circulaire »</td><td>ExEd court</td><td style="font-size:0.75rem;">Format court pour cadres en activité — partenariat avec un acteur spécialisé</td></tr>
-            <tr><td>EFREI</td><td>2024</td><td>Mastère Green IT — numérique responsable</td><td>Mastère</td><td style="font-size:0.75rem;">Croisement numérique et RSE — répond aux enjeux de sobriété digitale</td></tr>
-            <tr><td>ESSCA</td><td>25+ ans</td><td>Majeure ISMESS — Innovation Sociale et Management de l'ESS</td><td>Majeure PGE</td><td style="font-size:0.75rem;">Programme historique dédié à l'ESS — ancrage de plus de 25 ans</td></tr>
+            <tr><td>Grenoble EM</td><td>Jan. 2023</td><td>Cours hybride transition écologique (1 100 étudiants PGE)</td><td>Formation initiale</td><td style="font-size:0.75rem;">Intégration transversale dans le tronc commun, approche systémique</td></tr>
+            <tr><td>Audencia / Centrale Nantes</td><td>Fév. 2023</td><td>MS Ressources et Économie Circulaire</td><td>MS</td><td style="font-size:0.75rem;">Co-diplômation école de commerce + école d'ingénieurs, double légitimité</td></tr>
+            <tr><td>Audencia</td><td>Mars 2023</td><td>MS Investissements Responsables</td><td>MS</td><td style="font-size:0.75rem;">Niche finance durable, répond à une demande croissante des entreprises du secteur</td></tr>
+            <tr><td>INSEAD</td><td>Avr. 2023</td><td>Refonte MBA : 15 cours climat/inclusion/durabilité</td><td>MBA</td><td style="font-size:0.75rem;">Refonte d'un programme existant plutôt que création, signal de maturité</td></tr>
+            <tr><td>Excelia</td><td>Juin 2023</td><td>« Blue Education Experience », transition écologique/eau</td><td>Parcours</td><td style="font-size:0.75rem;">Identité thématique forte autour de l'eau, différenciation par la spécialisation</td></tr>
+            <tr><td>ESCP / Circul'R</td><td>2023</td><td>« Leader de l'économie circulaire »</td><td>ExEd court</td><td style="font-size:0.75rem;">Format court pour cadres en activité, partenariat avec un acteur spécialisé</td></tr>
+            <tr><td>EFREI</td><td>2024</td><td>Mastère Green IT, numérique responsable</td><td>Mastère</td><td style="font-size:0.75rem;">Croisement numérique et RSE, répond aux enjeux de sobriété digitale</td></tr>
+            <tr><td>ESSCA</td><td>25+ ans</td><td>Majeure ISMESS, Innovation Sociale et Management de l'ESS</td><td>Majeure PGE</td><td style="font-size:0.75rem;">Programme historique dédié à l'ESS, ancrage de plus de 25 ans</td></tr>
           </tbody>
         </table>
         
@@ -340,7 +340,7 @@
           <li><strong>IONIS Bordeaux (2025)</strong> : campus "éco-responsable" Confluence</li>
         </ul>
         <div class="xerfi-insight">
-          <strong>Ce que ça signifie pour IGENSIA :</strong> Le campus des Groues a Nanterre (2025), éco-construit avec 75% de matériaux biosourcés et label Bâtiment Biosourcé, s'inscrit pleinement dans cette tendance — un argument de différenciation concret.
+          <strong>Ce que ça signifie pour IGENSIA :</strong> Le campus des Groues a Nanterre (2025), éco-construit avec 75% de matériaux biosourcés et label Bâtiment Biosourcé, s'inscrit pleinement dans cette tendance, un argument de différenciation concret.
         </div>
       </div>
     </div>
@@ -349,11 +349,11 @@
 </main>
 
 <footer>
-  <p>Benchmark RSE — Travail exploratoire IGENSIA Education — 2026</p>
+  <p>Benchmark RSE, Travail exploratoire IGENSIA Education, 2026</p>
 </footer>
 
-<script src="data.js?v=20260513c"></script>
-<script src="presentation/data.js?v=20260513c"></script>
-<script src="app.js?v=20260513c"></script>
+<script src="data.js?v=20260513d"></script>
+<script src="presentation/data.js?v=20260513d"></script>
+<script src="app.js?v=20260513d"></script>
 </body>
 </html>

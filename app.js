@@ -1,5 +1,5 @@
 /* ==============================
-   Benchmark RSE — IGENSIA Education
+   Benchmark RSE | IGENSIA Education
    ============================== */
 
 const D = BENCHMARK_DATA;
@@ -51,7 +51,7 @@ function setupJustifFilter() {
   D.criteria.forEach(c => {
     const opt = document.createElement('option');
     opt.value = String(c.col);
-    opt.textContent = `C${c.col} — ${c.name}`;
+    opt.textContent = `C${c.col} · ${c.name}`;
     select.appendChild(opt);
   });
   select.addEventListener('change', e => {
@@ -157,7 +157,7 @@ function renderIgensiaReference() {
     <section id="pres-igensia-ref" class="pres-reference">
       <div class="pres-ref-head">
         <h2>Rapport RSE Groupe IGENSIA Education 2024-2025</h2>
-        <p class="pres-ref-sub">48 pages — 1<sup>er</sup> rapport RSE publié par le Groupe</p>
+        <p class="pres-ref-sub">48 pages, 1<sup>er</sup> rapport RSE publié par le Groupe</p>
       </div>
 
       <div class="pres-images">
@@ -178,8 +178,8 @@ function renderIgensiaReference() {
           <h4 class="pres-pos">✓ Forme</h4>
           <ul>
             <li>Codification « C'EST RÉALISÉ / C'EST LANCÉ / C'EST PRÉVU » : structurante, rare dans le benchmark</li>
-            <li>Photos qualitatives en pleine page, schémas et illustrations soignés <em>— à maintenir et consolider</em></li>
-            <li>8 témoignages incarnés (étudiant, collaborateurs, directeurs, partenaires) <em>— à maintenir et consolider</em></li>
+            <li>Photos qualitatives en pleine page, schémas et illustrations soignés <em>(à maintenir et consolider)</em></li>
+            <li>8 témoignages incarnés (étudiant, collaborateurs, directeurs, partenaires) <em>(à maintenir et consolider)</em></li>
             <li>Structure mémorisable : 4 grandes parties Apprenants / Collaborateurs / Campus / Partenaires</li>
           </ul>
           <h4 class="pres-pos" style="margin-top:14px;">✓ Fond</h4>
@@ -196,14 +196,14 @@ function renderIgensiaReference() {
           <h3>Ce qu'on peut améliorer</h3>
           <h4 class="pres-neg">✗ Forme</h4>
           <ul>
-            <li><strong>Label LUCIE 26000 pas suffisamment visible sur la page de garde</strong> — argument d'autorité fort à exposer dès la couverture</li>
-            <li><strong>Pas de schéma directeur RSE 5 axes visible en début de rapport</strong> — le lecteur doit avoir une vue d'ensemble avant d'entrer dans le détail</li>
+            <li><strong>Label LUCIE 26000 pas suffisamment visible sur la page de garde</strong> : argument d'autorité fort à exposer dès la couverture</li>
+            <li><strong>Pas de schéma directeur RSE 5 axes visible en début de rapport</strong> : le lecteur doit avoir une vue d'ensemble avant d'entrer dans le détail</li>
           </ul>
           <h4 class="pres-neg" style="margin-top:14px;">✗ Fond</h4>
           <ul>
             <li><strong>Pas de budget RSE publié</strong> en chiffre absolu</li>
             <li><strong>Pas de tableau récapitulatif</strong> d'indicateurs N / N-1 (vue trajectoire)</li>
-            <li><strong>ODD pas explicitement connectés à nos actions</strong> — mentionnés en cadre général (p.11) mais pas mis en lien direct avec chacune des actions du rapport</li>
+            <li><strong>ODD pas explicitement connectés à nos actions</strong> : mentionnés en cadre général (p.11) mais pas mis en lien direct avec chacune des actions du rapport</li>
           </ul>
         </div>
       </div>
@@ -407,10 +407,10 @@ function isIgensia(name) {
   return name.toUpperCase().includes('IGENSIA');
 }
 
-// Distingue les 6 groupes consolidés des écoles : (Groupe) ou (Groupe — auto-éval.)
+// Distingue les 6 groupes consolidés des écoles : (Groupe) ou (Groupe, auto-éval.)
 // Pas (Groupe Galileo), (Groupe OMNES), (Groupe Planeta) qui sont des écoles rattachées
 function isConsolidatedGroup(name) {
-  return /\(Groupe\)|\(Groupe\s+—/.test(name);
+  return /\(Groupe\)|\(Groupe,\s*auto/i.test(name);
 }
 
 function matchesSearch(name) {
@@ -707,7 +707,7 @@ function formatJustif(str) {
   // Markdown gras : **texte** -> <strong>texte</strong>
   text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   // Bold verdict
-  text = text.replace(/^(OUI|NON|PARTIEL)\s*[\u2014\u2013\u2212—-]\s*/, '<strong>$1</strong> \u2014 ');
+  text = text.replace(/^(OUI|NON|PARTIEL)\s*[\u2014\u2013\u2212—,:\-]\s*/, '<strong>$1</strong> : ');
   // Remove "Général :" header (content follows directly after verdict)
   text = text.replace(/\n*G\u00e9n\u00e9ral\s*:\n*/gi, '\n');
   // Bold section headers: Apprenants, Collaborateurs
@@ -824,7 +824,7 @@ function renderFocusDetail(schoolName) {
       <h3>${f.name.replace(/\n/g, ' ')}</h3>
 
       <div class="note-finale-box">
-        <div class="big-score">${final !== null ? final.toFixed(1) : '—'}<small>/5</small></div>
+        <div class="big-score">${final !== null ? final.toFixed(1) : '·'}<small>/5</small></div>
         <div>Note finale (moyenne Forme + Fond)</div>
       </div>
 
@@ -891,7 +891,7 @@ function renderFocusDetail(schoolName) {
 function calcAvg(a, b) {
   const na = parseFloat(a);
   const nb = parseFloat(b);
-  if (isNaN(na) && isNaN(nb)) return '—';
+  if (isNaN(na) && isNaN(nb)) return '·';
   if (isNaN(na)) return nb.toFixed(1);
   if (isNaN(nb)) return na.toFixed(1);
   return ((na + nb) / 2).toFixed(1);
@@ -1172,7 +1172,7 @@ function renderRadar() {
 // =============================
 function getJustifParts(justif) {
   if (!justif) return { summary: '', bullets: [], focus: [] };
-  const clean = justif.replace(/^(OUI|NON|PARTIEL)\s*[\u2014—-]\s*/i, '');
+  const clean = justif.replace(/^(OUI|NON|PARTIEL)\s*[\u2014—,:\-]\s*/i, '');
 
   // Split on Focus apprenants
   const parts = clean.split(/Focus apprenants?\s*:/i);
@@ -1245,7 +1245,7 @@ function renderRadarComparison(igensiaData) {
   const igJustif = D.justifications.find(s => isIgensia(s.name));
   if (!igensiaData || !igJustif || otherSchools.length === 0) return;
 
-  let html = '<h3>Comparaison détaillée par axe — ce que font concrètement les autres</h3>';
+  let html = '<h3>Comparaison détaillée par axe : ce que font concrètement les autres</h3>';
 
   AXES.forEach(axe => {
     const igScore = axe.cols.reduce((sum, col) => {
@@ -1255,7 +1255,7 @@ function renderRadarComparison(igensiaData) {
 
     html += `<div class="comparison-axe">`;
     html += `<div class="comparison-axe-header">
-      <span>${axe.id} — ${axe.name}</span>
+      <span>${axe.id} · ${axe.name}</span>
       <span class="axe-scores">IGENSIA : ${igScore}/${axe.max}</span>
     </div>`;
 
