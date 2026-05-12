@@ -20,7 +20,6 @@ const PRESENTATION_DATA = {
       leg_i3:  "Milestones — frise historique 1929-2024, 11 jalons de l'engagement",
       leg_i4:  "Testimonies — 6 témoignages variés en page dédiée (externes, étudiante, alumni, prof, collab)",
       forme_plus: [
-        "Densité éditoriale : 22 pages denses (vs nos 48 p.)",
         "KEY FIGURES en encadré dédié au démarrage de chaque chapitre — chiffres pictogrammés lisibles d'un coup d'œil",
         "Page « Testimonies » dédiée en fin de rapport avec 6 témoignages variés : 2 externes, 1 étudiante, 1 alumni, 1 collab, 1 prof",
       ],
@@ -54,9 +53,6 @@ const PRESENTATION_DATA = {
         { titre: "Réseau pédagogique d'enseignants ambassadeurs RSE — différent de nos pilotes",
           pourquoi: "Chez nous : 17 pilotes nommés en gouvernance opérationnelle RSE. Chez ESSEC : en plus de la gouvernance, un « Sustainability Guild » de 60 professeurs formalisé + 12 nouveaux experts ajoutés à la faculté en 2024. C'est un réseau PÉDAGOGIQUE distinct de la gouvernance — des profs qui infusent la RSE dans leurs cours.",
           comment: "Créer (si pas déjà fait) et valoriser dans le rapport un réseau d'enseignants ambassadeurs DD-RSE. Les nommer, les compter, montrer ce qu'ils produisent (cours, modules, projets transverses). Différencier visuellement des 17 pilotes opérationnels." },
-        { titre: "Viser un rapport plus court et plus dense (22-30 p. au lieu de 48 p.)",
-          pourquoi: "ESSEC condense l'essentiel sur 22 p. denses et mémorables — c'est 2× moins que nos 48 p. Au-delà de 40-50 p., le lecteur décroche. Un rapport plus court force la hiérarchisation et l'arbitrage.",
-          comment: "Cibler ~30 p. pour le prochain rapport. Réduire les pages de transition, fusionner les sous-sections, privilégier schémas + KPI sur les paragraphes longs. Renvoyer le détail vers une annexe web si besoin." },
       ],
     },
     {
