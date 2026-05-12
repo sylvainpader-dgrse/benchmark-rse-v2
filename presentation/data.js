@@ -32,6 +32,7 @@ const PRESENTATION_DATA = {
         "122 pages : volume écrasant, le lecteur décroche bien avant la fin",
         "KPIs noyés dans la masse, pas de page de synthèse en début de rapport",
         "Frontière floue entre actions réalisées et actions prévues, le lecteur peine à distinguer",
+        "Matrice de double matérialité simplifiée et peu rigoureuse : pas d'échelle chiffrée sur les axes, positionnement qualitatif des enjeux sans méthodologie visible",
       ],
       fond_plus: [
         "Couverture internationale rare : 300 000 apprenants, 64 écoles, 133 campus, 19 pays",
