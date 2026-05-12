@@ -32,6 +32,7 @@
   <button class="tab" data-tab="justifications">Justifications</button>
   <span class="tab-separator"></span>
   <button class="tab" data-tab="focus">Focus Rapports RSE</button>
+  <button class="tab" data-tab="presentation">Présentation</button>
   <!-- Onglet Xerfi masqué (contenu conservé en back) -->
   <span class="tab-separator" style="display:none;"></span>
   <button class="tab" data-tab="xerfi" style="display:none;">Analyse Xerfi</button>
@@ -157,6 +158,17 @@
       </div>
     </div>
   </section>
+
+  <!-- TAB PRESENTATION : synthèse benchmark rapports RSE -->
+  <section id="tab-presentation" class="tab-content">
+    <div id="presentationRoot"></div>
+  </section>
+
+  <!-- Lightbox image (cliquer image dans Présentation pour agrandir) -->
+  <div id="imgLightbox" class="img-lightbox" onclick="this.classList.remove('open')">
+    <img id="imgLightboxImg" alt="">
+    <span class="lightbox-close">×</span>
+  </div>
 
   <!-- TAB 5: ANALYSE XERFI -->
   <section id="tab-xerfi" class="tab-content">
@@ -341,6 +353,7 @@
 </footer>
 
 <script src="data.js"></script>
+<script src="presentation/data.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -100,6 +100,122 @@ function renderAll() {
   renderJustifications();
   renderRadar();
   renderFocus();
+  renderPresentation();
+}
+
+// ===== TAB PRESENTATION : synthèse benchmark rapports RSE =====
+function renderPresentation() {
+  const root = document.getElementById('presentationRoot');
+  if (!root || typeof PRESENTATION_DATA === 'undefined') return;
+  const data = PRESENTATION_DATA;
+
+  let html = `
+    <div class="pres-hero">
+      <h1>Benchmark Rapports RSE</h1>
+      <p class="pres-hero-sub">Analyse de ${data.meta.nb_rapports} rapports concurrents — Forme + Fond + idées concrètes à transposer chez IGENSIA</p>
+      <p class="pres-hero-method">${escapeHTML(data.meta.methodo)}</p>
+    </div>
+
+    <div class="pres-jump">
+      <strong>Aller à :</strong>
+      ${data.rapports.map(r => `<a href="#pres-${r.key}" class="pres-jump-link">#${r.rank} ${escapeHTML(r.name)}</a>`).join('')}
+      <a href="#pres-synthese" class="pres-jump-link pres-jump-synthese">★ Synthèse</a>
+    </div>
+  `;
+
+  data.rapports.forEach(r => {
+    html += renderRapportCard(r);
+  });
+
+  // Synthèse finale
+  html += `
+    <section id="pres-synthese" class="pres-synthese">
+      <h2>Cinq idées prioritaires pour notre prochain rapport</h2>
+      <div class="pres-synthese-grid">
+        ${data.synthese.map(s => `
+          <div class="pres-synthese-card">
+            <div class="pres-synthese-num">${s.num}</div>
+            <h3>${escapeHTML(s.titre)}</h3>
+            <p>${escapeHTML(s.desc)}</p>
+          </div>
+        `).join('')}
+      </div>
+    </section>
+  `;
+
+  root.innerHTML = html;
+
+  // Click image -> lightbox
+  root.querySelectorAll('.pres-img').forEach(img => {
+    img.addEventListener('click', () => openLightbox(img.src, img.alt));
+  });
+}
+
+function renderRapportCard(r) {
+  const imgDir = 'presentation/images';
+  const imgs = [
+    { src: `${imgDir}/${r.key}.jpg`, leg: r.leg_cov },
+    { src: `${imgDir}/${r.key}_inner1.jpg`, leg: r.leg_i1 },
+    { src: `${imgDir}/${r.key}_inner2.jpg`, leg: r.leg_i2 },
+  ];
+  return `
+    <section id="pres-${r.key}" class="pres-rapport">
+      <header class="pres-rapport-head">
+        <div class="pres-rank">#${r.rank}</div>
+        <div class="pres-titre">
+          <h2>${escapeHTML(r.name)}</h2>
+          <p class="pres-sub">${escapeHTML(r.titre)} • ${escapeHTML(r.pages)} • Forme ${r.forme.toFixed(2)} • Fond ${r.fond.toFixed(2)} • Note ${r.score.toFixed(2)}/5</p>
+        </div>
+      </header>
+
+      <div class="pres-images">
+        ${imgs.map((im, i) => `
+          <figure class="pres-fig">
+            <img class="pres-img" src="${im.src}" alt="${escapeHTML(im.leg)}" loading="lazy">
+            <figcaption>◆ ${escapeHTML(im.leg)}</figcaption>
+          </figure>
+        `).join('')}
+      </div>
+
+      <div class="pres-analysis">
+        <div class="pres-block pres-forme">
+          <h3>Forme</h3>
+          <h4 class="pres-pos">✓ Points forts</h4>
+          <ul>${r.forme_plus.map(x => `<li>${escapeHTML(x)}</li>`).join('')}</ul>
+          <h4 class="pres-neg">✗ Points faibles</h4>
+          <ul>${r.forme_moins.map(x => `<li>${escapeHTML(x)}</li>`).join('')}</ul>
+        </div>
+
+        <div class="pres-block pres-fond">
+          <h3>Fond</h3>
+          <h4 class="pres-pos">✓ Points forts</h4>
+          <ul>${r.fond_plus.map(x => `<li>${escapeHTML(x)}</li>`).join('')}</ul>
+          <h4 class="pres-neg">✗ Points faibles</h4>
+          <ul>${r.fond_moins.map(x => `<li>${escapeHTML(x)}</li>`).join('')}</ul>
+        </div>
+
+        <div class="pres-block pres-idees">
+          <h3>★ Idées pour IGENSIA</h3>
+          ${r.idees.map(i => `
+            <div class="pres-idee">
+              <h4>▸ ${escapeHTML(i.titre)}</h4>
+              <p><strong>Pourquoi :</strong> ${escapeHTML(i.pourquoi)}</p>
+              <p><strong>Comment :</strong> ${escapeHTML(i.comment)}</p>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+function openLightbox(src, alt) {
+  const lb = document.getElementById('imgLightbox');
+  const img = document.getElementById('imgLightboxImg');
+  if (!lb || !img) return;
+  img.src = src;
+  img.alt = alt || '';
+  lb.classList.add('open');
 }
 
 function extractLabels(school, idx) {
