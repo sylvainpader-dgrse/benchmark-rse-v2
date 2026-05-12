@@ -572,9 +572,11 @@ thead th.rank-col, td.rank-cell {
   margin-bottom: 28px;
   align-items: start;
 }
-/* Quand on a 5 images (1 couverture portrait + 4 pages intérieures paysage),
+/* Quand la couverture est portrait et les pages intérieures sont paysage,
    la couverture occupe la colonne 1 sur 2 lignes pour matcher la hauteur
-   des 2x landscape empilées. Plus de vide blanc en dessous des landscapes. */
+   des 2x landscape empilées. Plus de vide blanc en dessous des landscapes.
+   S'applique pour 4 images (cas ESSEC) et 5 images (cas OMNES). */
+.pres-images--4 .pres-fig:first-child,
 .pres-images--5 .pres-fig:first-child {
   grid-row: 1 / span 2;
 }

@@ -1,15 +1,69 @@
 /* ==============================
    Présentation Benchmark Rapports RSE — données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
+   L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 1,
+    nb_rapports: 2,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'essec', rank: 2, score: 4.00, forme: 4.00, fond: 4.00,
+      name: 'ESSEC', titre: 'Sustainability and Social Responsibility Report 2025',
+      leg_cov: "Couverture du rapport ESSEC 2025",
+      leg_i1:  "Governance & Strategy : 3 priorités / 10 commitments / 8 action plans + schéma visuel des 4 instances",
+      leg_i2:  "Environment Key Figures : -10% empreinte CO2/étudiant, +1.9× recyclage, -30% déchets (23/24 vs 18/19)",
+      leg_i3:  "Milestones — frise historique 1929-2024, 11 jalons de l'engagement",
+      forme_plus: [
+        "Densité éditoriale rare : 22 pages denses sans être indigestes",
+        "Schéma de gouvernance visuel (« A Governance that includes all ESSEC stakeholders ») avec les 4 instances et leurs relations (advises / decides)",
+        "KEY FIGURES en encadré dédié sur chaque chapitre, lisibles d'un coup d'œil",
+        "Codification visuelle « NEW / ONGOING / ACHIEVED » qui structure le narratif",
+        "Frise historique 1929-2024 (11 jalons) — récit puissant de l'engagement depuis presque un siècle",
+        "Hiérarchie typographique claire (chapitres en majuscule, sous-titres en couleur)",
+      ],
+      forme_moins: [
+        "Couverture classique institutionnelle (photo aérienne + titre) — ne porte pas de message stratégique fort",
+        "Photos peu nombreuses, rendu un peu froid type rapport corporate",
+        "Texte très dense, peu de respirations visuelles entre les blocs",
+      ],
+      fond_plus: [
+        "Stratégie Transcend 2024-2028 articulée : 3 priorités + 10 commitments + 8 action plans (Training, Research, D&I, Circular Economy, Climate & Decarbo, Biodiversity, Community, Alumni)",
+        "37 ETP dédiés à la transformation sociale et environnementale (Together teams) répartis en 3 équipes : Equality D&I / Environmental Transformation / Social & Sustainable Innovation",
+        "60 professeurs dans la Sustainability Guild + 12 nouveaux experts sustainability ajoutés à la faculté",
+        "33% des articles académiques sur la sustainability — preuve d'intégration dans la recherche",
+        "Audit GES depuis 2018, mis à jour annuellement, stratégie carbone définie",
+        "Indicateurs environnementaux en variation : -10% empreinte CO2/étudiant, +1.9× recyclage, -30% déchets (23/24 vs 18/19)",
+        "100% des étudiants engagés avec la Diversity Fresco + 89/100 score égalité H/F 2024",
+        "Antropia ESSEC : 1er accélérateur social fondé par une business school (2008)",
+        "Témoignages d'acteurs externes (Guillaume Quevarec, Cergy-Pontoise Urban Community) en plus des internes",
+      ],
+      fond_moins: [
+        "Ton très maîtrisé : peu d'autocritique, pas de signal sur les difficultés rencontrées",
+        "Peu de témoignages d'apprenants directs — la voix dominante est celle des directeurs et professeurs",
+      ],
+      idees: [
+        { titre: "Frise historique de nos engagements RSE",
+          pourquoi: "ESSEC remonte à 1929 (1er cours d'éthique) : 11 jalons sur 95 ans qui crédibilisent l'antériorité. Une frise raconte une démarche, pas juste un état des lieux.",
+          comment: "Frise verticale en début ou milieu de rapport : création direction RSE, 1er rapport RSE, label LUCIE, premiers partenariats structurants (LPO, ANLCI, GMF, Missions Locales), 1ère Fresque du Climat, etc." },
+        { titre: "Schéma visuel de nos instances de gouvernance RSE",
+          pourquoi: "ESSEC affiche un organigramme clair des 4 instances (Societal Impact Committee, Executive Committee, Together teams, Consultative Committee) avec leurs relations. Chez nous on a 3 niveaux + 17 pilotes, mais pas mis en schéma.",
+          comment: "Organigramme 1 page : CA/COMEX → Comité stratégique RSE → COPIL 17 pilotes, avec rôles (oriente, valide, opère) et liens entre instances. À placer dans la section Gouvernance." },
+        { titre: "Indicateurs d'intégration RSE dans la formation et la recherche",
+          pourquoi: "ESSEC publie « 33% des articles académiques sur sustainability », « 60 profs dans la Sustainability Guild », « 100% des étudiants engagés avec la Diversity Fresco ». Indicateurs rares et différenciants.",
+          comment: "Sur l'axe Apprenants : % de programmes intégrant la DD-RSE, nb d'heures de cours dédiées, nb d'enseignants formés. Sur l'axe Formation : % d'apprenants ayant fait la Fresque du Climat, nb d'ateliers 2tonnes." },
+        { titre: "Présenter nos indicateurs environnementaux en variation",
+          pourquoi: "ESSEC affiche ses KPI environnementaux en variation depuis une année de base (-10%, +1.9×, -30% vs 18/19). Plus parlant qu'un chiffre absolu.",
+          comment: "Pour chaque KPI environnemental (conso énergie, déchets, déplacements, BC) : afficher la valeur N + l'évolution vs N-1 et vs année de référence (ex. -X% vs 2022). Visuel type pictogramme + chiffre + flèche." },
+        { titre: "Témoignages d'acteurs externes (partenaires, collectivités, labels)",
+          pourquoi: "ESSEC fait parler Guillaume Quevarec (responsable transition Cergy-Pontoise) en complément des voix internes. Donne du poids et de la crédibilité au discours.",
+          comment: "Intégrer 2-3 témoignages externes dans le rapport : un responsable LUCIE, un partenaire RH (GMF, ANLCI, Missions Locales), une collectivité où on est implanté. Format identique aux témoignages internes (photo + verbatim + fonction)." },
+      ],
+    },
     {
       key: 'omnes', rank: 1, score: 4.00, forme: 3.75, fond: 4.25,
       name: 'OMNES Education', titre: 'Rapport de Responsabilité Sociétale 2024-2025', pages: '44 p.',

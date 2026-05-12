@@ -108,6 +108,8 @@ function renderPresentation() {
   const root = document.getElementById('presentationRoot');
   if (!root || typeof PRESENTATION_DATA === 'undefined') return;
   const data = PRESENTATION_DATA;
+  // Tri par rang croissant : peu importe l'ordre des entrées dans data.js
+  const rapportsSorted = [...data.rapports].sort((a, b) => a.rank - b.rank);
 
   let html = `
     ${renderIgensiaReference()}
@@ -115,12 +117,12 @@ function renderPresentation() {
     <div class="pres-jump">
       <strong>Aller à :</strong>
       <a href="#pres-igensia-ref" class="pres-jump-link pres-jump-ref">★ Notre rapport</a>
-      ${data.rapports.map(r => `<a href="#pres-${r.key}" class="pres-jump-link">#${r.rank} ${escapeHTML(r.name)}</a>`).join('')}
+      ${rapportsSorted.map(r => `<a href="#pres-${r.key}" class="pres-jump-link">#${r.rank} ${escapeHTML(r.name)}</a>`).join('')}
       ${data.synthese && data.synthese.length ? '<a href="#pres-synthese" class="pres-jump-link pres-jump-synthese">★ Synthèse</a>' : ''}
     </div>
   `;
 
-  data.rapports.forEach(r => {
+  rapportsSorted.forEach(r => {
     html += renderRapportCard(r);
   });
 
