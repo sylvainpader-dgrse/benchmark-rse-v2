@@ -168,7 +168,9 @@ La règle s'applique aux **3 sections** de la fiche : `forme_plus`, `fond_plus` 
 
 **Cas types observés** :
 - OMNES (#1) : beaucoup de vrais deltas (budget RSE, tableau 5 ans, ratés, biodiversité, ZOOM SUR, structure LUCIE schéma, couverture-graphique)
-- ESSEC (#2) : 5 idées vraies après audit (KEY FIGURES par chapitre, KPI en variation, page Témoignages dédiée + alumni, réseau profs ambassadeurs, densité éditoriale). 3 forme_plus, 8 fond_plus — beaucoup d'éléments dropés car équivalents à ce qu'on a déjà (frise, schéma gouvernance, codification RÉALISÉ/LANCÉ/PRÉVU, témoignages variés, hiérarchie typo)
+- ESSEC (#2) : 4 idées vraies après audit (Chiffres clés en encadré par chapitre, indicateurs en variation, page Témoignages dédiée + alumni, réseau profs ambassadeurs). 2 forme_plus, 8 fond_plus — beaucoup d'éléments dropés car équivalents à ce qu'on a déjà (frise, schéma gouvernance, codification RÉALISÉ/LANCÉ/PRÉVU, témoignages variés, hiérarchie typo, densité éditoriale)
+
+**Discipline langue : tout en français.** Les noms propres de programmes restent (Antropia ESSEC, Time to Act, etc.) mais les termes descriptifs analytiques sont systématiquement traduits (KEY FIGURES → Chiffres clés, Testimonies → Témoignages, commitments → engagements, action plans → plans d'action, business school → école de commerce, sustainability → RSE/durabilité, etc.)
 
 ---
 
