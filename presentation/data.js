@@ -21,17 +21,16 @@ const PRESENTATION_DATA = {
       leg_i4:  "Page « Témoignages » dédiée : 6 témoignages variés (externes, étudiante, alumni, prof, collab)",
       forme_plus: [
         "Encadré « Chiffres clés » dédié au démarrage de chaque chapitre — chiffres pictogrammés lisibles d'un coup d'œil",
-        "Page « Témoignages » dédiée en fin de rapport avec 6 témoignages variés : 2 externes, 1 étudiante, 1 alumni, 1 collab, 1 prof",
       ],
       forme_moins: [
         "Couverture classique institutionnelle (photo aérienne + titre) — ne porte pas de message stratégique",
         "Photos peu nombreuses, rendu un peu froid type rapport corporate",
+        "Témoignages regroupés sur une page dédiée en fin de rapport — moins immersif que des témoignages incarnés au fil des sections (approche IGENSIA)",
       ],
       fond_plus: [
         "Stratégie 2024-2028 articulée en cascade : 3 priorités → 10 engagements → 8 plans d'action",
         "37 ETP dédiés à la transformation, répartis en 3 équipes : Égalité-Diversité-Inclusion / Transformation environnementale / Innovation sociale & durable",
-        "Réseau pédagogique formalisé de 60 professeurs ambassadeurs RSE + 12 nouveaux experts ajoutés à la faculté",
-        "33 % des articles académiques portent sur la RSE / sustainability",
+        "33 % des articles académiques portent sur la RSE / durabilité",
         "Audit GES depuis 2018, mis à jour annuellement",
         "Indicateurs environnementaux en variation : -10 % empreinte CO2/étudiant, +1,9× recyclage, -30 % déchets (23/24 vs 18/19)",
         "100 % des étudiants ont participé à la Fresque de la Diversité + 89/100 score égalité H/F 2024",
@@ -47,12 +46,6 @@ const PRESENTATION_DATA = {
         { titre: "Présenter nos indicateurs environnementaux en variation (delta vs année de base)",
           pourquoi: "ESSEC affiche « -10 % empreinte CO2/étudiant », « +1,9× recyclage », « -30 % déchets » vs 18/19. Le delta rend la dynamique visible immédiatement. Nous on publie pour la première fois (valeurs brutes uniquement) — il faut acter dès maintenant l'année de base pour pouvoir comparer dès le prochain rapport.",
           comment: "À partir du prochain rapport, sur chaque indicateur environnemental (BC, conso énergie, déchets, déplacements) : afficher la valeur N + le delta vs 2024-2025 (base 100). Visuel type pictogramme + chiffre + flèche." },
-        { titre: "Regrouper nos témoignages sur une page dédiée en fin de rapport + ajouter des alumni",
-          pourquoi: "Chez nous : 8 témoignages disséminés dans les sections (étudiant, collabs, directeurs, partenaires). Chez ESSEC : 6 témoignages concentrés sur une double-page finale + 1 alumni (Amaury Klossa, promo 1998, aujourd'hui chez Arthur D. Little) + 1 institution sectorielle (CDEFM). La concentration en fin de rapport crée une signature finale forte, et la catégorie ALUMNI manque chez nous.",
-          comment: "Pour le prochain rapport, soit doubler nos témoignages (garder les disséminés + page de synthèse en fin), soit migrer vers une page dédiée. Identifier 1-2 alumni emblématiques sur des fonctions RSE / impact dans leur entreprise + 1 institution sectorielle (LUCIE, CDEFM-équivalent)." },
-        { titre: "Réseau pédagogique d'enseignants ambassadeurs RSE — différent de nos pilotes",
-          pourquoi: "Chez nous : 17 pilotes nommés en gouvernance opérationnelle RSE. Chez ESSEC : en plus de la gouvernance, un réseau pédagogique formalisé de 60 professeurs ambassadeurs RSE + 12 nouveaux experts ajoutés à la faculté en 2024. C'est un réseau PÉDAGOGIQUE distinct de la gouvernance — des profs qui infusent la RSE dans leurs cours.",
-          comment: "Créer (si pas déjà fait) et valoriser dans le rapport un réseau d'enseignants ambassadeurs DD-RSE. Les nommer, les compter, montrer ce qu'ils produisent (cours, modules, projets transverses). Différencier visuellement des 17 pilotes opérationnels." },
       ],
     },
     {
