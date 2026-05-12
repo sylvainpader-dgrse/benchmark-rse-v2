@@ -154,7 +154,6 @@ function renderIgensiaReference() {
   return `
     <section id="pres-igensia-ref" class="pres-reference">
       <div class="pres-ref-head">
-        <div class="pres-ref-label">★ Notre point de départ</div>
         <h2>Rapport RSE Groupe IGENSIA Education 2024-2025</h2>
         <p class="pres-ref-sub">48 pages — 1<sup>er</sup> rapport RSE publié par le Groupe</p>
       </div>
@@ -162,15 +161,12 @@ function renderIgensiaReference() {
       <div class="pres-images">
         <figure class="pres-fig">
           <img class="pres-img" src="presentation/images/igensia.jpg" alt="Couverture du rapport" loading="lazy">
-          <figcaption>◆ Couverture (p.1) — identité visuelle violet + rose, 4 campus mis en avant</figcaption>
         </figure>
         <figure class="pres-fig">
           <img class="pres-img" src="presentation/images/igensia_inner1.jpg" alt="Timeline 2023-2025" loading="lazy">
-          <figcaption>◆ Timeline « Ce que nous avons accompli » (p.9) — codification 4 couleurs (Formation collabs / Formation apprenants / Label LUCIE / Gouvernance)</figcaption>
         </figure>
         <figure class="pres-fig">
           <img class="pres-img" src="presentation/images/igensia_inner2.jpg" alt="ODD et labellisation LUCIE 26000" loading="lazy">
-          <figcaption>◆ Démarche guidée par les 17 ODD + Labellisation LUCIE 26000 (p.11)</figcaption>
         </figure>
       </div>
 
@@ -234,7 +230,6 @@ function renderRapportCard(r) {
         ${imgs.map((im, i) => `
           <figure class="pres-fig">
             <img class="pres-img" src="${im.src}" alt="${escapeHTML(im.leg)}" loading="lazy">
-            <figcaption>◆ ${escapeHTML(im.leg)}</figcaption>
           </figure>
         `).join('')}
       </div>
