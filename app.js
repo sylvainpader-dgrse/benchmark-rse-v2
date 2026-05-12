@@ -268,9 +268,9 @@ function renderGrille() {
   const rankMap = {};
   others.forEach(s => { rank++; rankMap[s.name] = rank; });
 
-  // Build category header row — school fusionné en rowspan=2, plus de colonne # séparée
-  let catRow = '<tr><th class="school-col cat-header" rowspan="2" style="background:#E60F7D;">ÉCOLE / GROUPE</th>';
-  catRow += '<th class="cat-header score-col score-col-left" rowspan="2">SCORE</th>';
+  // Build category header row — SCORE en 1ère colonne, puis ÉCOLE, puis critères
+  let catRow = '<tr><th class="cat-header score-col score-col-left" rowspan="2">SCORE</th>';
+  catRow += '<th class="school-col cat-header" rowspan="2" style="background:#E60F7D;">ÉCOLE / GROUPE</th>';
   const catRanges = [
     { name: 'GOUVERNANCE RESPONSABLE', cols: [1,2,3,4,5,6,7], color: '#260D66' },
     { name: 'ENGAGER NOS PARTIES PRENANTES', cols: [8,9,10,11,14,15,16,17], color: '#E60F7D' },
@@ -339,9 +339,9 @@ function renderGrille() {
     });
     if (labelInfo.sam) pills += `<span class="label-pill pill-sam">Soci\u00e9t\u00e9 \u00e0 Mission</span>`;
     if (labelInfo.pacte) pills += `<span class="label-pill pill-pacte">Pacte Mondial</span>`;
-    body += `<td class="school-cell ${ig ? 'igensia' : ''}">${s.name.replace(/\n/g, ' ')}${pills ? '<div class="school-labels">' + pills + '</div>' : ''}</td>`;
     const rankLabel = ig ? '\u2605' : (rankMap[s.name] ? '#' + rankMap[s.name] : '');
     body += `<td class="score-cell score-cell-left ${scoreClass(s.score)}"><div class="score-num">${s.score}</div><div class="score-rank">${rankLabel}</div></td>`;
+    body += `<td class="school-cell ${ig ? 'igensia' : ''}">${s.name.replace(/\n/g, ' ')}${pills ? '<div class="school-labels">' + pills + '</div>' : ''}</td>`;
     colOrder.forEach(j => {
       const v = s.verdicts[j] || '';
       body += `<td>${badgeHTML(v)}</td>`;
