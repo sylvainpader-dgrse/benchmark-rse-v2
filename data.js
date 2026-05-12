@@ -4192,8 +4192,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 3.5,
+          "fond": 3.5
         },
         "sylvain": {
           "forme": 3.5,
@@ -4356,8 +4356,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 4.0,
+          "fond": 4.0
         },
         "sylvain": {
           "forme": 4.0,
@@ -4397,8 +4397,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 4.0,
+          "fond": 3.5
         },
         "sylvain": {
           "forme": 3.0,
@@ -4438,8 +4438,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 3.0,
+          "fond": 4.0
         },
         "sylvain": {
           "forme": 2.5,
@@ -4479,8 +4479,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 1.5,
+          "fond": 3.0
         },
         "sylvain": {
           "forme": 2.0,
@@ -4520,8 +4520,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 2.0,
+          "fond": 3.5
         },
         "sylvain": {
           "forme": 2.5,
@@ -4561,8 +4561,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 4.0,
+          "fond": 4.0
         },
         "sylvain": {
           "forme": 3.5,
@@ -4602,8 +4602,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 4.0,
+          "fond": 3.5
         },
         "sylvain": {
           "forme": 4.0,
@@ -4684,8 +4684,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 3.5,
+          "fond": 3.0
         },
         "sylvain": {
           "forme": 3.0,
@@ -4725,8 +4725,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 1.5,
+          "fond": 3.5
         },
         "sylvain": {
           "forme": 2.0,
@@ -4766,8 +4766,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 1.5,
+          "fond": 3.5
         },
         "sylvain": {
           "forme": 2.0,
@@ -4807,8 +4807,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 2.5,
+          "fond": 4.0
         },
         "sylvain": {
           "forme": 3.5,
@@ -4848,8 +4848,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 2.5,
+          "fond": 3.0
         },
         "sylvain": {
           "forme": 2.5,
@@ -4889,8 +4889,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 3.0,
+          "fond": 3.5
         },
         "sylvain": {
           "forme": "",
@@ -4930,8 +4930,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 4.0,
+          "fond": 4.0
         },
         "sylvain": {
           "forme": "",
@@ -4971,8 +4971,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 1.0,
+          "fond": 3.5
         },
         "sylvain": {
           "forme": "",
@@ -5012,8 +5012,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 1.5,
+          "fond": 3.0
         },
         "sylvain": {
           "forme": "",
@@ -5053,8 +5053,8 @@ const BENCHMARK_DATA = {
       },
       "notes": {
         "blanche": {
-          "forme": "",
-          "fond": ""
+          "forme": 0.5,
+          "fond": 4.5
         },
         "sylvain": {
           "forme": 1.0,
