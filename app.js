@@ -155,7 +155,7 @@ function renderIgensiaReference() {
     <section id="pres-igensia-ref" class="pres-reference">
       <div class="pres-ref-head">
         <h2>Rapport RSE Groupe IGENSIA Education 2024-2025</h2>
-        <p class="pres-ref-sub">48 pages — 1<sup>er</sup> rapport RSE publié par le Groupe</p>
+        <p class="pres-ref-sub">1<sup>er</sup> rapport RSE publié par le Groupe</p>
       </div>
 
       <div class="pres-images">
