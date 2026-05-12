@@ -1,16 +1,61 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 3,
+    nb_rapports: 4,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'excelia', rank: 4, score: 3.88, forme: 3.75, fond: 4.00,
+      name: 'Excelia BS', titre: 'Rapport Transition Écologique et Sociétale 2022-2024', pages: '44 p.',
+      leg_cov: "Couverture Rapport TES 2022-2024 : « Osez regarder le futur avec audace, #exploreyourfuture »",
+      leg_i1:  "Timeline 2013-2023 + schéma directeur des 5 axes (Gouvernance, Formations, Recherche, Environnement, Politique sociale)",
+      leg_i2:  "Page « Résultats et classements » : 5e ChangeNOW, niveau 4/5 PIR Top 50 mondial, 301-400 Times Higher Ed IMPACT",
+      leg_i3:  "Missions Humacité (2005) + Climacité (2020) : 1 355 missions/an chiffrées",
+      leg_i4:  "Page de synthèse « Faits marquants par axe » : chiffres pictogrammés + actions réalisées + action à venir",
+      forme_plus: [
+        "Cover engageante avec accroche forte et hashtag (« Osez regarder le futur avec audace ! #exploreyourfuture »)",
+        "Schéma directeur 5 axes visible en début de rapport (Gouvernance, Formations, Recherche, Environnement, Politique sociale) avec pictogrammes",
+        "Timeline historique 2013-2023 jalonnant l'engagement RSE du groupe sur 10 ans",
+        "Page de synthèse en fin de rapport « Faits marquants par axe » : pour chaque axe, picto + chiffres clés + faits marquants 2022-2024 + encadré « Action à venir »",
+        "Encadrés « NOUVEAU » pour signaler les actions récentes au fil du rapport",
+        "Témoignages nombreux et disséminés (12+), incluant des externes comme la Présidente du comité des parties prenantes (Corinne Gendron, UQAM)",
+      ],
+      forme_moins: [
+        "Format A4 portrait standard, peu d'audace graphique au-delà des encadrés",
+        "Pas de matrice de matérialité affichée",
+        "Schéma directeur DD&RS annoncé comme « en cours d'écriture » : projet pas encore intégré au rapport",
+      ],
+      fond_plus: [
+        "Engagement RSE historique fort : 1er Master français spécialisé en RSE & développement durable créé en 1999, IRSI créé en 2012",
+        "6e édition du rapport DD : maturité éditoriale rare",
+        "Missions Humacité (2005) + Climacité (2020) : 1 355 missions chiffrées sur 2022-2023 (802 humanitaires + 553 environnementales)",
+        "Blue Education Experience : identité thématique forte autour de l'eau (Fresque de l'eau, Masterclasses, Ocean Hackathon, Blue Education Passeport)",
+        "Label DD&RS obtenu pour 2 ans (juin 2024) + classements externes valorisés (5e ChangeNOW, niveau 4/5 PIR Top 50 mondial, 301-400 Times Higher Ed IMPACT)",
+        "IRSI : 5 chaires déployées + 42 enseignants-chercheurs RSE + 278 contributions intellectuelles publiées en 3 ans",
+        "Index égalité H/F : 90/100 (+15 pts vs N-1)",
+        "Fondation Excelia (2019) : 91 482 € distribués en 2022-2023 (projets à impacts + bourses + abondement)",
+        "Plan XL ACT : parcours pédagogique 4 jours pour former 25 % des collaborateurs à la transition écologique en 2024-2025",
+        "13 903h d'enseignement RSE/DD et 91 % des apprenants ayant passé le Sulitest",
+        "Direction de l'Engagement Étudiant (rentrée 2024) qui reconnaît l'engagement hors campus (artistes, parents, aidants, sportifs HN, réservistes…) avec certificat et prix",
+        "Présidence par Bruno NEIL (DG Excelia) de la commission DD&RS de la CDEFM + production du référentiel de compétences DD&RS pour les écoles de management",
+      ],
+      fond_moins: [
+        "Bilan carbone limité à 3 campus (La Rochelle, Tours, Orléans), Paris non couvert sur l'année 2021-2022",
+        "Pas de tableau N/N-1 d'indicateurs en fin de rapport (faits marquants en récap mais pas comparatif chiffré)",
+      ],
+      idees: [
+        { titre: "Page de synthèse « Faits marquants par axe » en fin de rapport",
+          pourquoi: "Excelia clôt son rapport (p.39-41) avec une double-page synthétique par axe : pour chaque grande partie = 3-4 chiffres pictogrammés + bullets « Faits marquants 2022-2024 » + encadré « Action à venir ». C'est un récap visuel très lisible. Chez IGENSIA on a la codification RÉALISÉ/LANCÉ/PRÉVU distribuée dans le rapport mais pas de récap synthétique en fin par grande partie.",
+          comment: "Ajouter en fin de rapport (avant la 4e de couverture) 1 page de synthèse par grande partie (Apprenants / Collabs / Campus / Partenaires) : 3-4 chiffres-pictos en haut + bullets faits marquants + encadré « Ce qui est prévu pour 2025-2026 ». Sert de résumé exécutif visuel pour le lecteur pressé." },
+      ],
+    },
     {
       key: 'galileo', rank: 3, score: 3.88, forme: 4.25, fond: 3.50,
       name: 'Galileo Global Education', titre: "Rapport d'Impact 2024-2025", pages: '122 p.',
