@@ -390,6 +390,54 @@ thead th.rank-col, td.rank-cell {
   font-size: 0.78rem;
 }
 
+/* ===== Aperçu commentaire Focus ===== */
+.comment-preview {
+  padding: 14px 18px;
+  background: #fafaff;
+  border: 1px solid #e8e2f2;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 8px;
+}
+.comment-preview p {
+  margin: 0 0 10px;
+}
+.comment-preview p:last-child {
+  margin-bottom: 0;
+}
+.comment-preview strong {
+  color: var(--primary);
+  font-weight: 700;
+}
+.comment-preview em {
+  font-style: italic;
+  color: #555;
+}
+.comment-empty {
+  color: #999;
+  font-style: italic;
+}
+.comment-edit-wrap {
+  margin-top: 4px;
+}
+.comment-edit-wrap > summary {
+  cursor: pointer;
+  font-size: 0.78rem;
+  color: #777;
+  padding: 4px 0;
+  user-select: none;
+}
+.comment-edit-wrap > summary:hover {
+  color: var(--primary);
+}
+.comment-edit-wrap[open] > summary {
+  margin-bottom: 6px;
+  color: var(--primary);
+  font-weight: 600;
+}
+
 .justif-filter-group-block {
   margin-bottom: 18px;
   border-radius: 8px;

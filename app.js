@@ -514,6 +514,18 @@ function escapeHTML(str) {
   return escaped;
 }
 
+function formatComment(str) {
+  if (!str) return '<em class="comment-empty">Pas de commentaire pour ce rapport.</em>';
+  let text = escapeHTML(str);
+  // **bold** -> <strong>
+  text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  // *italic* -> <em> (uniquement quand pas adjacent à ** déjà traité)
+  text = text.replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>');
+  // Sauts de ligne -> <br>
+  text = text.replace(/\n\n+/g, '</p><p>').replace(/\n/g, '<br>');
+  return '<p>' + text + '</p>';
+}
+
 function formatJustif(str) {
   let text = escapeHTML(str);
   // Markdown gras : **texte** -> <strong>texte</strong>
@@ -677,8 +689,12 @@ function renderFocusDetail(schoolName) {
 
       <div class="comment-section">
         <label>Commentaire</label>
-        <textarea class="comment-textarea" data-school="${f.name}"
-          placeholder="Ajouter un commentaire sur ce rapport RSE...">${escapeHTML(comment)}</textarea>
+        <div class="comment-preview" id="commentPreview">${formatComment(comment)}</div>
+        <details class="comment-edit-wrap">
+          <summary>Modifier le commentaire</summary>
+          <textarea class="comment-textarea" data-school="${f.name}"
+            placeholder="Ajouter un commentaire sur ce rapport RSE...">${escapeHTML(comment)}</textarea>
+        </details>
       </div>
     </div>
 
@@ -741,6 +757,9 @@ function handleCommentChange(e) {
   const saved = getSavedNotes(school);
   saved.comment = val;
   setSavedNotes(school, saved);
+  // Mise à jour live de l'aperçu rendu
+  const preview = document.getElementById('commentPreview');
+  if (preview) preview.innerHTML = formatComment(val);
 }
 
 // =============================
