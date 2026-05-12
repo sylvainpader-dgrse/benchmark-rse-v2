@@ -139,6 +139,30 @@ Un onglet **« Présentation »** a été créé sur le site benchmark-rse-v2 (p
 - Recommandations **opérationnelles** : « Pourquoi » + « Comment » concrets (pas des généralités)
 - IGENSIA exclu des 21 analyses (objet à améliorer, pas à comparer à soi-même)
 
+### 🎯 Rigueur analytique — comparaison systématique IGENSIA ↔ rapport analysé
+
+**Demandé explicitement par l'utilisateur (rev. 12 mai 2026, ESSEC) :**
+
+Pour **chaque idée** proposée, mener une comparaison rigoureuse avec ce qu'IGENSIA fait déjà :
+
+1. **Lister ce que fait l'école analysée** sur le sujet (élément précis du rapport, page si possible)
+2. **Comparer avec la fiche IGENSIA section 0 du mémo** (forces forme + forces fond)
+3. **Identifier le DELTA réel** :
+   - Si IGENSIA fait déjà ça (même approximativement) → **drop l'idée**
+   - Si IGENSIA fait quelque chose de proche mais différent → questionner si la différence est significative
+   - Si IGENSIA ne le fait pas du tout → **garde l'idée**
+4. **Formuler l'idée en explicitant le delta** dans le champ `pourquoi` :
+   - « Chez nous : X. Chez [école] : Y. » (formulation du contraste explicite)
+   - Pas de « C'est une bonne pratique » sans nommer le manque chez IGENSIA
+
+**Anti-pattern à éviter** : proposer des idées génériques sur des sujets où IGENSIA est déjà solide (timeline, témoignages incarnés, gouvernance structurée, schémas et illustrations soignés, codification réalisé/lancé/prévu, photos qualitatives).
+
+**Quantité d'idées** : viser 2-5 idées par rapport, sur la base de **vrais deltas**. Mieux vaut 2 idées pertinentes que 7 idées dont 5 doublonnent. Pour les rapports où IGENSIA est déjà fort (cas ESSEC #2), il est normal d'avoir peu d'idées — c'est un signal de qualité.
+
+**Cas types observés** :
+- OMNES (#1) : 7 idées vraies (budget RSE, tableau 5 ans, ratés, biodiversité, ZOOM SUR, structure LUCIE schéma, couverture-graphique) — beaucoup à apprendre
+- ESSEC (#2) : 5 idées vraies après audit (KEY FIGURES par chapitre, KPI en variation, page Témoignages dédiée + alumni, réseau profs ambassadeurs, densité éditoriale) — beaucoup de bonnes pratiques déjà chez nous
+
 ---
 
 ## 3. Ordre du classement (par note finale Forme+Fond)
