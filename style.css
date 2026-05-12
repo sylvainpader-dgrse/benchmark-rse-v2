@@ -521,55 +521,29 @@ thead th.rank-col, td.rank-cell {
 }
 .pres-ref-label {
   display: inline-block;
-  background: var(--accent);
+  background: var(--primary);
   color: #fff;
-  padding: 4px 14px;
+  padding: 5px 16px;
   border-radius: 14px;
-  font-size: 0.78rem;
-  font-weight: 700;
+  font-size: 0.82rem;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(74,25,66,0.25);
 }
 .pres-ref-head h2 {
   font-size: 1.7rem;
   font-weight: 800;
   color: var(--primary);
   margin: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.6);
 }
 .pres-ref-sub {
-  font-size: 0.92rem;
-  color: var(--text-light);
-  margin-top: 4px;
-}
-.pres-ref-structure {
-  background: #fff;
-  border-radius: 10px;
-  padding: 18px 22px 20px;
-  margin-bottom: 20px;
-  border: 1px solid #f3e5ed;
-}
-.pres-ref-structure h3 {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--primary);
-  margin-bottom: 10px;
-}
-.pres-ref-structure ol {
-  margin: 0;
-  padding-left: 22px;
-  columns: 2;
-  column-gap: 30px;
-}
-.pres-ref-structure li {
-  font-size: 0.85rem;
-  line-height: 1.55;
-  margin-bottom: 5px;
-  color: #333;
-  break-inside: avoid;
-}
-.pres-ref-structure li strong {
-  color: var(--primary);
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-top: 6px;
+  font-weight: 500;
 }
 .pres-jump-ref {
   background: var(--primary) !important;
@@ -583,7 +557,6 @@ thead th.rank-col, td.rank-cell {
   grid-template-columns: 1fr 1fr;
 }
 @media (max-width: 900px) {
-  .pres-ref-structure ol { columns: 1; }
   .pres-reference .pres-analysis { grid-template-columns: 1fr; }
 }
 .pres-rapport-head {

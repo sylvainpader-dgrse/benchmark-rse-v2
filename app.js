@@ -160,7 +160,7 @@ function renderIgensiaReference() {
       <header class="pres-ref-head">
         <div class="pres-ref-label">★ Notre point de départ</div>
         <h2>Rapport RSE Groupe IGENSIA Education 2024-2025</h2>
-        <p class="pres-ref-sub">48 pages — 1<sup>er</sup> rapport RSE publié par le Groupe — référence à laquelle on compare tous les autres</p>
+        <p class="pres-ref-sub">48 pages — 1<sup>er</sup> rapport RSE publié par le Groupe</p>
       </header>
 
       <div class="pres-images">
@@ -178,34 +178,19 @@ function renderIgensiaReference() {
         </figure>
       </div>
 
-      <div class="pres-ref-structure">
-        <h3>Structure du rapport</h3>
-        <ol>
-          <li><strong>Mots</strong> : DG + Directrice DD (p.4-5)</li>
-          <li><strong>Présentation Groupe</strong> : chiffres clés + cœur de métier (p.6-7)</li>
-          <li><strong>Notre parcours RSE</strong> : vision, timeline, bilan carbone, ODD, label LUCIE (p.8-11)</li>
-          <li><strong>Stratégie et gouvernance</strong> : 3 niveaux (CA/COMEX, Comité stratégique, COPIL 17 pilotes) (p.12-13)</li>
-          <li><strong>Apprenants</strong> — 14 pages (p.14-27)</li>
-          <li><strong>Collaborateurs</strong> — 7 pages (p.28-34)</li>
-          <li><strong>Campus</strong> — 6 pages (p.35-40)</li>
-          <li><strong>Partenaires solidaires</strong> : GMF, Airbus, Missions Locales, Restos du Cœur, Mozaïk, ANLCI (p.41-44)</li>
-          <li><strong>Conclusion</strong> + 4<sup>e</sup> de couverture (p.46-48)</li>
-        </ol>
-      </div>
-
       <div class="pres-analysis">
         <div class="pres-block pres-forme">
           <h3>Ce qui marche</h3>
           <h4 class="pres-pos">✓ Forme</h4>
           <ul>
             <li>Codification « C'EST RÉALISÉ / C'EST LANCÉ / C'EST PRÉVU » : structurante, rare dans le benchmark</li>
-            <li>Identité visuelle forte (violet + rose, photos pleine page très qualitatives)</li>
+            <li>Photos qualitatives en pleine page, schémas et illustrations soignés <em>— à maintenir et consolider</em></li>
+            <li>8 témoignages incarnés (étudiant, collaborateurs, directeurs, partenaires) <em>— à maintenir et consolider</em></li>
             <li>Structure mémorisable : 4 grandes parties Apprenants / Collaborateurs / Campus / Partenaires</li>
-            <li>8 témoignages incarnés (étudiant, collaborateurs, directeurs, partenaires)</li>
           </ul>
           <h4 class="pres-pos" style="margin-top:14px;">✓ Fond</h4>
           <ul>
-            <li>Bilan Carbone détaillé : 25 498 tCO2e ventilé par poste <strong>et</strong> par campus</li>
+            <li>Bilan Carbone détaillé</li>
             <li>Mots DG + Directrice DD : double signature gouvernance</li>
             <li>Gouvernance RSE structurée : 3 niveaux + 17 pilotes nommés</li>
             <li>Label LUCIE 26000 + ancrage ODD : tiers externes crédibilisants</li>

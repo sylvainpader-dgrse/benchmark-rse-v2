@@ -25,12 +25,15 @@
 | Conclusion + 4e couv | 46-48 |
 
 ### Forces (à conserver)
+**Forme**
 - **Codification « C'EST RÉALISÉ / C'EST LANCÉ / C'EST PRÉVU »** : structurante, rare dans le benchmark
-- Identité visuelle forte : violet IGENSIA + rose fuchsia, photos pleine page très qualitatives
+- Photos qualitatives en pleine page + schémas et illustrations soignés *(à maintenir et consolider)*
+- 8 témoignages incarnés (étudiant, collaborateurs, directeurs, partenaires) *(à maintenir et consolider)*
 - Structure mémorisable : 4 grandes parties (Apprenants / Collaborateurs / Campus / Partenaires)
-- Bilan Carbone détaillé : 25 498 tCO2e ventilé par poste **et** par campus (Paris 66%, Lyon 18%, Nanterre 16%)
+
+**Fond**
+- Bilan Carbone détaillé
 - Mots DG + Directrice DD : double signature gouvernance
-- 8 témoignages incarnés (étudiant, collaborateurs, directeurs, partenaires)
 - Gouvernance RSE structurée : 3 niveaux + 17 pilotes nommés
 - Label LUCIE 26000 + ancrage ODD : tiers externes crédibilisants
 - Section « C'EST PRÉVU » avec objectifs datés (rentrée 2027, 2026)
