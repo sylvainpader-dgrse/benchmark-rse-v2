@@ -51,9 +51,6 @@ const PRESENTATION_DATA = {
         "Place 4 ChangeNOW stable (2024 et 2025) : pas de progression au classement",
       ],
       idees: [
-        { titre: "Lettre d'engagement annuelle adressée formellement à LUCIE 26000",
-          pourquoi: "Audencia ouvre son rapport (p.3) par une « Lettre d'engagement 2026 Global Compact/PRME » signée par le DG Sébastien Tran, qui s'adresse explicitement à un destinataire externe et renouvelle l'engagement de l'école. Format plus engageant qu'un mot du DG classique : c'est une lettre publique avec un destinataire et une responsabilité réaffirmée. Chez IGENSIA, on a des « Mots DG + Directrice DD » en double signature, mais pas une lettre adressée à un destinataire externe (LUCIE, par exemple).",
-          comment: "En ouverture du prochain rapport, ajouter une « Lettre d'engagement à LUCIE 26000 » signée par le DG, qui renouvelle nos engagements pris au moment de la labellisation et présente nos avancées sur les 7 thèmes ISO 26000. À renouveler chaque année." },
         { titre: "Conduire une analyse de matérialité avec IRO chiffrés (Impacts, Risques, Opportunités)",
           pourquoi: "Audencia (p.4) va plus loin que la simple matrice : analyse fondée sur 30 référentiels, examen complet de la chaîne de valeur, identification de 23 IRO dont 18 jugés matériels. Méthodologie plus rigoureuse qu'une matrice « cosmétique » comme celle de Galileo. Chez IGENSIA, pas de matrice de matérialité affichée ni d'analyse IRO.",
           comment: "Compléter l'idée matrice de matérialité (issue de Galileo) par une vraie démarche méthodologique : (1) analyser nos référentiels (LUCIE 26000, ODD, ISO 26000, label DD&RS) + chaîne de valeur (apprenants → collaborateurs → campus → partenaires) ; (2) identifier nos Impacts (positifs/négatifs), Risques (à anticiper) et Opportunités ; (3) hiérarchiser ceux jugés matériels ; (4) afficher le résultat sur la matrice. Réévaluation annuelle." },
