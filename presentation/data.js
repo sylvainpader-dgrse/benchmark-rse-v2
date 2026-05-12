@@ -19,18 +19,21 @@ const PRESENTATION_DATA = {
       leg_i2:  "Page « Résultats et classements » : 5e ChangeNOW, niveau 4/5 PIR Top 50 mondial, 301-400 Times Higher Ed IMPACT",
       leg_i3:  "Missions Humacité (2005) + Climacité (2020) : 1 355 missions/an chiffrées",
       leg_i4:  "Page de synthèse « Faits marquants par axe » : chiffres pictogrammés + actions réalisées + action à venir",
+      leg_i5:  "Schéma des parties prenantes en sphères d'influence proche / lointaine (p.14)",
       forme_plus: [
         "Cover engageante avec accroche forte et hashtag (« Osez regarder le futur avec audace ! #exploreyourfuture »)",
+        "Équilibre presque parfait entre schémas, photos et texte tout au long du rapport",
         "Schéma directeur 5 axes visible en début de rapport (Gouvernance, Formations, Recherche, Environnement, Politique sociale) avec pictogrammes",
+        "Schéma des parties prenantes en sphères d'influence (proche / lointaine) : cartographie visuelle distinctive (p.14)",
         "Timeline historique 2013-2023 jalonnant l'engagement RSE du groupe sur 10 ans",
         "Page de synthèse en fin de rapport « Faits marquants par axe » : pour chaque axe, picto + chiffres clés + faits marquants 2022-2024 + encadré « Action à venir »",
         "Encadrés « NOUVEAU » pour signaler les actions récentes au fil du rapport",
+        "Page « Perspectives et Remerciements » en fin de rapport, qui rend hommage aux contributeurs",
         "Témoignages nombreux et disséminés (12+), incluant des externes comme la Présidente du comité des parties prenantes (Corinne Gendron, UQAM)",
       ],
       forme_moins: [
         "Format A4 portrait standard, peu d'audace graphique au-delà des encadrés",
         "Pas de matrice de matérialité affichée",
-        "Schéma directeur DD&RS annoncé comme « en cours d'écriture » : projet pas encore intégré au rapport",
       ],
       fond_plus: [
         "Engagement RSE historique fort : 1er Master français spécialisé en RSE & développement durable créé en 1999, IRSI créé en 2012",
