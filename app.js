@@ -234,7 +234,7 @@ function renderRapportCard(r) {
           <h2>${escapeHTML(r.name)}</h2>
           <p class="pres-sub">${escapeHTML(r.titre)}${r.pages ? ' • ' + escapeHTML(r.pages) : ''}</p>
         </div>
-        <div class="pres-score">${r.score.toFixed(2)}<small>/5</small></div>
+        <div class="pres-score">${r.score.toFixed(1)}<small>/5</small></div>
       </div>
 
       <div class="pres-images pres-images--${imgs.length}${layoutCls}">
