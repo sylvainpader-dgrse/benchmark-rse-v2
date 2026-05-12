@@ -21,6 +21,7 @@ const PRESENTATION_DATA = {
       forme_plus: [
         "Format en double page joli",
         "Architecture mémorisable en 4 piliers (Time to Act / Accomplish / Be Consistent / Take Care) + socle Gouvernance — chaque pilier a sa page de synthèse avec engagements concrets + KPI cibles (« 100 % », « 80 % ») + comités responsables identifiés",
+        "Couverture originale : graphique typographique intégré qui porte un message (mots-clés disposés en pavé — BIODIVERSITÉ, Développement durable, INCLUSION, ADAPTATION, écosystèmes), pas une simple photo",
         "Encadrés « ZOOM SUR » qui aèrent et signalent les focus emblématiques (campus Marseille bas carbone, risques climatiques des campus)",
         "Édito en interview croisée : question d'Édouard Vaury (Directeur campus Rennes) → réponse de Marc-Henri Desportes (CEO). Plus vivant qu'un mot du DG classique",
         "Code couleur par pilier qui guide la navigation (chaque axe a sa teinte)",
@@ -61,6 +62,9 @@ const PRESENTATION_DATA = {
         { titre: "Reprendre notre structure LUCIE en schéma synthétique de début de rapport",
           pourquoi: "OMNES a transformé sa stratégie en page opérationnelle (p.8-9) : par pilier on a engagements concrets + KPI cibles + comités responsables + partenaires associés. Chez nous, on a la labellisation LUCIE 26000 et des engagements, mais on ne les a pas repris sous cette forme synthétique dans le rapport.",
           comment: "1 page (ou double-page) en début de rapport : structure LUCIE par pilier, chacun avec son encadré contenant — les engagements LUCIE qu'on a pris + nos cibles chiffrées + les comités/pilotes responsables + les partenaires associés (LPO, GMF, Missions Locales, ANLCI, etc.). Inspiration directe du schéma OMNES p.8-9, à adapter à notre identité." },
+        { titre: "Faire de notre couverture un graphique porteur de message (pas juste une photo)",
+          pourquoi: "OMNES affiche en couverture un pavé typographique avec ses mots-clés stratégiques (BIODIVERSITÉ, ADAPTATION, INCLUSION, écosystèmes) — la couverture seule annonce déjà le projet RSE. Notre couverture actuelle (4 campus) est jolie mais ne porte pas de message sur notre démarche.",
+          comment: "Repenser la couverture du prochain rapport en intégrant un graphique typographique ou symbolique qui résume notre démarche RSE en 4-5 mots-clés (ex. APPRENANTS, COLLABORATEURS, CAMPUS, PARTENAIRES, ou LUCIE / ODD / RÉGÉNÉRATIF / ANCRAGE). À cadrer avec notre studio graphique." },
       ],
     },
   ],

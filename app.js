@@ -229,7 +229,7 @@ function renderRapportCard(r) {
         </div>
       </div>
 
-      <div class="pres-images">
+      <div class="pres-images pres-images--${imgs.length}">
         ${imgs.map((im, i) => `
           <figure class="pres-fig">
             <img class="pres-img" src="${im.src}" alt="${escapeHTML(im.leg)}" loading="lazy">
