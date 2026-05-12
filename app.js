@@ -153,11 +153,11 @@ function renderPresentation() {
 function renderIgensiaReference() {
   return `
     <section id="pres-igensia-ref" class="pres-reference">
-      <header class="pres-ref-head">
+      <div class="pres-ref-head">
         <div class="pres-ref-label">★ Notre point de départ</div>
         <h2>Rapport RSE Groupe IGENSIA Education 2024-2025</h2>
         <p class="pres-ref-sub">48 pages — 1<sup>er</sup> rapport RSE publié par le Groupe</p>
-      </header>
+      </div>
 
       <div class="pres-images">
         <figure class="pres-fig">
@@ -222,13 +222,13 @@ function renderRapportCard(r) {
   ];
   return `
     <section id="pres-${r.key}" class="pres-rapport">
-      <header class="pres-rapport-head">
+      <div class="pres-rapport-head">
         <div class="pres-rank">#${r.rank}</div>
         <div class="pres-titre">
           <h2>${escapeHTML(r.name)}</h2>
           <p class="pres-sub">${escapeHTML(r.titre)} • ${escapeHTML(r.pages)} • Forme ${r.forme.toFixed(2)} • Fond ${r.fond.toFixed(2)} • Note ${r.score.toFixed(2)}/5</p>
         </div>
-      </header>
+      </div>
 
       <div class="pres-images">
         ${imgs.map((im, i) => `
