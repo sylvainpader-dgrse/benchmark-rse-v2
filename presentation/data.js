@@ -50,7 +50,14 @@ const PRESENTATION_DATA = {
         "Bilan carbone mentionné mais non détaillé dans le rapport",
         "Position au classement Change Now stable, pas de progression entre 2024 et 2025",
       ],
-      idees: [],
+      idees: [
+        { titre: "Intégrer des liens cliquables (et/ou QR codes) dans le PDF vers les ressources web",
+          pourquoi: "Audencia (p.8 par exemple) inclut des liens cliquables dans le PDF (« Lien vers le guide ») qui pointent vers ses études, guides et plateformes externes. C'est un format éditorial digital simple : on garde un rapport court et on renvoie vers les contenus complémentaires sur le web. Chez IGENSIA, notre rapport ne semble pas exploiter ce format.",
+          comment: "Sur chaque action ou indicateur du prochain rapport qui renvoie à une ressource web, ajouter soit un lien cliquable direct dans le PDF, soit un QR code à côté du texte. Ex. : QR code vers la page LUCIE 26000 / vers la Fresque du Climat / vers les plans QVCT et égalité publiés / vers les supports AXA Climate School." },
+        { titre: "Page « Engagements et reconnaissances » regroupée en 4e de couverture",
+          pourquoi: "Audencia consacre une section finale (p.16) intitulée « Engagements et reconnaissances » qui regroupe au même endroit tous ses labels, classements et engagements externes. Le lecteur a une vue d'ensemble immédiate de l'écosystème de reconnaissances. Chez IGENSIA, LUCIE 26000 est mentionnée à l'intérieur du rapport mais on ne regroupe pas tous nos labels et adhésions au même endroit visible.",
+          comment: "Ajouter en avant-dernière page (avant la 4e de couv) une page « Nos engagements et nos reconnaissances » avec tous les logos visibles : LUCIE 26000, Pacte Mondial des Nations Unies, CIRSES, label DD&RS, signatures de chartes (associations partenaires), classements obtenus. Donne un aperçu synthétique de l'écosystème d'engagements externes." },
+      ],
     },
     {
       key: 'excelia', rank: 4, score: 3.88, forme: 3.75, fond: 4.00,
