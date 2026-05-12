@@ -36,17 +36,21 @@
 - Section « C'EST PRÉVU » avec objectifs datés (rentrée 2027, 2026)
 
 ### Faiblesses (à travailler dans le prochain rapport)
-- **Pas de budget RSE publié** en chiffre absolu
-- **Pas de tableau récapitulatif** d'indicateurs N / N-1 (vue trajectoire)
-- **Pas d'audit externe** du bilan carbone
-- Dispositif VSS encore en « C'EST PRÉVU » (printemps 2026)
-- Pages 45, 47 vides (pagination)
-- Quelques pages monotextuelles (mots DG/DDD, stratégie p12-13)
-- Pas de schéma directeur RSE 5 axes visible en début de rapport
+**Forme**
+- Label LUCIE 26000 pas suffisamment visible sur la page de garde (argument d'autorité fort à exposer dès la couverture)
+- Pas de schéma directeur RSE 5 axes visible en début de rapport (vue d'ensemble manquante)
+
+**Fond**
+- Pas de budget RSE publié en chiffre absolu
+- Pas de tableau récapitulatif d'indicateurs N / N-1 (vue trajectoire)
 
 ### Sujets à NE PAS commenter
 - **Index égalité F/H** — donnée RH interne, hors-sujet pour un benchmark Forme/Fond
-- **Trajectoire de réduction GES** — IGENSIA en a une, ne pas la signaler comme manquante
+- **Trajectoire de réduction GES** — IGENSIA en a une
+- **Pages 45/47 vides** — c'est un bug d'impression, pas un défaut de conception
+- **Pages monotextuelles** — c'est très commun dans les rapports, peu différenciant
+- **Dispositif VSS** — pas à commenter dans le benchmark
+- **Audit externe du bilan carbone** — pas à commenter
 
 ### Chiffres clés présents dans le rapport (référence)
 - 19 000 personnes formées/an

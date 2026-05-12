@@ -579,8 +579,12 @@ thead th.rank-col, td.rank-cell {
 .pres-jump-ref:hover {
   background: var(--accent) !important;
 }
+.pres-reference .pres-analysis {
+  grid-template-columns: 1fr 1fr;
+}
 @media (max-width: 900px) {
   .pres-ref-structure ol { columns: 1; }
+  .pres-reference .pres-analysis { grid-template-columns: 1fr; }
 }
 .pres-rapport-head {
   display: flex;

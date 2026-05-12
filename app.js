@@ -217,28 +217,14 @@ function renderIgensiaReference() {
           <h3>Ce qu'on peut améliorer</h3>
           <h4 class="pres-neg">✗ Forme</h4>
           <ul>
-            <li>Pages 45, 47 vides (pagination à corriger)</li>
-            <li>Quelques pages monotextuelles : mots DG/DDD très longs sans signature graphique forte</li>
-            <li>Pages stratégie p.12-13 peu illustrées</li>
-            <li>Pas de schéma directeur RSE 5 axes visible en début de rapport</li>
+            <li><strong>Label LUCIE 26000 pas suffisamment visible sur la page de garde</strong> — argument d'autorité fort à exposer dès la couverture</li>
+            <li><strong>Pas de schéma directeur RSE 5 axes visible en début de rapport</strong> — le lecteur doit avoir une vue d'ensemble avant d'entrer dans le détail</li>
           </ul>
           <h4 class="pres-neg" style="margin-top:14px;">✗ Fond</h4>
           <ul>
             <li><strong>Pas de budget RSE publié</strong> en chiffre absolu</li>
             <li><strong>Pas de tableau récapitulatif</strong> d'indicateurs N / N-1 (vue trajectoire)</li>
-            <li><strong>Pas d'audit externe</strong> du bilan carbone</li>
-            <li>Dispositif VSS encore en « C'EST PRÉVU » (printemps 2026)</li>
           </ul>
-        </div>
-
-        <div class="pres-block pres-idees">
-          <h3>★ Notre fil rouge pour le prochain rapport</h3>
-          <p style="font-size: 0.9rem; line-height: 1.55; color: #333; margin-bottom: 12px;">
-            Les 21 rapports analysés ci-dessous sont autant de sources d'inspiration pour transformer ces zones à améliorer en pistes concrètes. À chaque analyse, on identifie ce qui est <strong>nouveau pour IGENSIA</strong> (à reprendre) et ce que <strong>nous faisons déjà</strong> (à conserver, à ne pas réinventer).
-          </p>
-          <p style="font-size: 0.85rem; font-style: italic; color: #6B2D6B;">
-            Ce que nous faisons déjà bien (codification réalisé/lancé/prévu, distinction apprenants/collaborateurs, gouvernance 3 niveaux, label LUCIE) ne sera pas systématiquement signalé comme « idée à reprendre » : ça ne fait pas avancer notre prochain rapport.
-          </p>
         </div>
       </div>
     </section>
