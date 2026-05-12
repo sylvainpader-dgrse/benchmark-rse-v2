@@ -1,16 +1,63 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 4,
+    nb_rapports: 5,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'audencia', rank: 5, score: 3.75, forme: 4.00, fond: 3.50,
+      name: 'Audencia BS', titre: "Rapport d'activité DD&RS 2026", pages: '16 p.',
+      leg_cov: "Couverture Rapport d'activité DD&RS 2026",
+      leg_i1:  "Lettre d'engagement du DG Sébastien Tran adressée formellement à Global Compact / PRME",
+      leg_i2:  "Stratégie & gouvernance : schéma directeur DD&RS 2030 + matrice de double matérialité (23 IRO dont 18 jugés matériels)",
+      leg_i3:  "Structure « Réalisations 2025 / Projection 2026 / Chiffres clés » par axe",
+      leg_i4:  "Tableau « Suivi des indicateurs globaux » : 15 KPIs sur 5 axes, comparaison 2024 vs 2025 (p.15)",
+      forme_plus: [
+        "Format compact 16 pages, très dense sans être indigeste",
+        "Structure « Réalisations 2025 / Projection 2026 » blocs distincts par axe, complétée par un encadré « Chiffres clés » : temporalité claire et systématique sur chaque chapitre",
+        "Tableau « Suivi des indicateurs globaux » en fin de rapport (p.15) : 15 KPIs sur 5 axes en 1 page, comparaison N/N-1 lisible immédiatement",
+        "Lettre d'engagement DG en ouverture, adressée formellement à Global Compact / PRME : posture plus engageante qu'un mot du DG classique",
+        "Code couleur subtil par axe (5 teintes) qui guide la navigation",
+        "Liens hypertextes intégrés au PDF (« Lien vers le guide ») pour aller plus loin sur les ressources web",
+      ],
+      forme_moins: [
+        "Très peu de témoignages incarnés : le rapport ne fait parler personne (que des chiffres et descriptions d'actions)",
+        "Photos rares et fonctionnelles, rendu un peu froid",
+      ],
+      fond_plus: [
+        "20 ans d'engagement formalisé : Global Compact (2004), PRME (2007), PRME Champions (2014)",
+        "Schéma directeur DD&RS 2030 complétant le plan stratégique STOA 2030, alignement avec label DD&RS et normes CSRD",
+        "Matrice de double matérialité conduite rigoureusement : 30 référentiels analysés, chaîne de valeur complète, **23 IRO (Impacts, Risques, Opportunités) identifiés dont 18 jugés matériels**",
+        "École Gaïa : 100 % des étudiants en formation initiale formés à la transition",
+        "83 % des cours d'Audencia incluent la transition écologique et sociale (vs 78 % en 2024)",
+        "367 nouveaux collaborateurs formés aux enjeux de transition en 2025 (vs 177 en 2024)",
+        "CARES : collectif interne de 62 enseignants-chercheurs experts (vs 49 en 2024), 65 % des publications de la faculté portant sur les transitions",
+        "ACT'Sup (Accelerate Climate Transition for higher ed) : 4e bilan carbone consécutif + trajectoire de réduction sectorielle",
+        "Budget CO2 par direction avec mécanisme équitable, à déployer 2027",
+        "Variations défavorables signalées sans ambiguïté : budget alloué à la transition 11 % → 8 %, conso CO2/étudiant 1 133 → 1 385 kg (transparence)",
+        "NégoTraining : 7 528 femmes formées à la négociation salariale depuis 2017",
+        "Comptabilité multi-capital (volet social) prévue 2026 : théorie du donut, 12 fondations sociales évaluées (droits fondamentaux, santé, sécurité économique, égalité des genres)",
+      ],
+      fond_moins: [
+        "Bilan carbone consécutif mentionné (4e année) mais détails non affichés dans le rapport",
+        "Place 4 ChangeNOW stable (2024 et 2025) : pas de progression au classement",
+      ],
+      idees: [
+        { titre: "Lettre d'engagement annuelle adressée formellement à LUCIE 26000",
+          pourquoi: "Audencia ouvre son rapport (p.3) par une « Lettre d'engagement 2026 Global Compact/PRME » signée par le DG Sébastien Tran, qui s'adresse explicitement à un destinataire externe et renouvelle l'engagement de l'école. Format plus engageant qu'un mot du DG classique : c'est une lettre publique avec un destinataire et une responsabilité réaffirmée. Chez IGENSIA, on a des « Mots DG + Directrice DD » en double signature, mais pas une lettre adressée à un destinataire externe (LUCIE, par exemple).",
+          comment: "En ouverture du prochain rapport, ajouter une « Lettre d'engagement à LUCIE 26000 » signée par le DG, qui renouvelle nos engagements pris au moment de la labellisation et présente nos avancées sur les 7 thèmes ISO 26000. À renouveler chaque année." },
+        { titre: "Conduire une analyse de matérialité avec IRO chiffrés (Impacts, Risques, Opportunités)",
+          pourquoi: "Audencia (p.4) va plus loin que la simple matrice : analyse fondée sur 30 référentiels, examen complet de la chaîne de valeur, identification de 23 IRO dont 18 jugés matériels. Méthodologie plus rigoureuse qu'une matrice « cosmétique » comme celle de Galileo. Chez IGENSIA, pas de matrice de matérialité affichée ni d'analyse IRO.",
+          comment: "Compléter l'idée matrice de matérialité (issue de Galileo) par une vraie démarche méthodologique : (1) analyser nos référentiels (LUCIE 26000, ODD, ISO 26000, label DD&RS) + chaîne de valeur (apprenants → collaborateurs → campus → partenaires) ; (2) identifier nos Impacts (positifs/négatifs), Risques (à anticiper) et Opportunités ; (3) hiérarchiser ceux jugés matériels ; (4) afficher le résultat sur la matrice. Réévaluation annuelle." },
+      ],
+    },
     {
       key: 'excelia', rank: 4, score: 3.88, forme: 3.75, fond: 4.00,
       name: 'Excelia BS', titre: 'Rapport Transition Écologique et Sociétale 2022-2024', pages: '44 p.',
