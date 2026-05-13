@@ -568,6 +568,13 @@ thead th.rank-col, td.rank-cell {
   color: var(--text-light);
   margin-top: 4px;
 }
+.pres-sub-scores {
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-top: 2px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
 .pres-score {
   margin-left: auto;
   font-size: 1.9rem;
