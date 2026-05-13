@@ -104,12 +104,48 @@ function renderAll() {
 }
 
 // ===== TAB PRESENTATION : synthèse benchmark rapports RSE =====
+// Map des keys présentation vers les noms exacts dans D.focus
+// pour synchroniser dynamiquement Forme / Fond / Note avec les valeurs
+// actuelles de l'onglet Focus (qui prend en compte les modifications
+// utilisateur sauvegardées en localStorage).
+const PRESENTATION_TO_FOCUS_NAME = {
+  'omnes':    'OMNES EDUCATION',
+  'essec':    'ESSEC BUSINESS SCHOOL',
+  'galileo':  'GALILEO GLOBAL EDUCATION',
+  'excelia':  'EXCELIA BUSINESS SCHOOL',
+  'audencia': 'AUDENCIA BUSINESS SCHOOL',
+  'efrei':    'EFREI',
+};
+
+function syncScoresFromFocus(r) {
+  // Met à jour forme / fond / score à partir des notes actuelles
+  // de l'entrée correspondante dans D.focus (avec localStorage déjà mergé
+  // par loadSaved dans le DOMContentLoaded).
+  const focusName = PRESENTATION_TO_FOCUS_NAME[r.key];
+  if (!focusName) return r;
+  const f = D.focus.find(x => x.name === focusName);
+  if (!f || !f.notes) return r;
+  const bf  = parseFloat(f.notes.blanche?.forme);
+  const bfo = parseFloat(f.notes.blanche?.fond);
+  const sf  = parseFloat(f.notes.sylvain?.forme);
+  const sfo = parseFloat(f.notes.sylvain?.fond);
+  if (isNaN(bf) || isNaN(bfo) || isNaN(sf) || isNaN(sfo)) return r;
+  return {
+    ...r,
+    forme: (bf + sf) / 2,
+    fond:  (bfo + sfo) / 2,
+    score: (bf + bfo + sf + sfo) / 4,
+  };
+}
+
 function renderPresentation() {
   const root = document.getElementById('presentationRoot');
   if (!root || typeof PRESENTATION_DATA === 'undefined') return;
   const data = PRESENTATION_DATA;
-  // Tri par rang croissant : peu importe l'ordre des entrées dans data.js
-  const rapportsSorted = [...data.rapports].sort((a, b) => a.rank - b.rank);
+  // Sync des notes depuis Focus puis tri par rang croissant
+  const rapportsSorted = [...data.rapports]
+    .map(syncScoresFromFocus)
+    .sort((a, b) => a.rank - b.rank);
 
   let html = `
     ${renderIgensiaReference()}
