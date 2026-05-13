@@ -119,6 +119,7 @@ const PRESENTATION_TO_FOCUS_NAME = {
   'emlyon':   'EMLYON BUSINESS SCHOOL',
   'edhec':    'EDHEC BUSINESS SCHOOL',
   'skema':    'SKEMA BUSINESS SCHOOL',
+  'bsb':      'BURGUNDY SCHOOL OF BUSINESS',
 };
 
 function syncScoresFromFocus(r) {

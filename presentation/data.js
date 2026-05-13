@@ -1,16 +1,60 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA + BSB.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 10,
+    nb_rapports: 11,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'bsb', rank: 11, score: 3.12, forme: 3.0, fond: 3.25,
+      name: 'Burgundy SB', titre: "5e Rapport de Responsabilité Sociétale, décembre 2024", pages: '24 p.',
+      leg_cov: "Couverture : photo étudiante en lecture sous un arbre + ruban jaune ondulant + « 5e Rapport de Responsabilité Sociétale »",
+      leg_i1:  "Notre stratégie RSE « Act for Change » (p.5) : 3 piliers (Act for Respect, Act for Sustainability, Act for Empowerment) + 6 objectifs alignés sur 6 cibles ODD précises (10.3, 12.8, 16.6, 17.6, 4.7, 4.a)",
+      leg_i2:  "Un engagement de longue date (p.6) : timeline 2003-2024 qui retrace 21 ans d'engagement RSE sur 13 jalons",
+      leg_i3:  "Un engagement affirmé et reconnu (p.7) : 8 labels et chartes regroupés sur 1 page (DD&RS, Positive Impact Rating, HappyAtSchool, PRME, Charte Diversité, Charte LGBT+, Accord de Grenoble, Accord ODD)",
+      leg_i4:  "Nos futurs projets (p.21) : 12 projets prioritaires 2024-26 structurés par pilier et alignés sur les 6 cibles ODD",
+      forme_plus: [
+        "Chaque objectif RSE est aligné sur une cible ODD précise et numérotée (10.3, 12.8, 16.6, 17.6, 4.7, 4.a)",
+        "Page « Nos futurs projets » avec 12 projets prioritaires datés 2024-26 structurés par pilier (p.21)",
+        "Timeline « Un engagement de longue date » qui retrace 21 ans d'engagement sur 13 jalons (p.6)",
+        "Page « Un engagement affirmé et reconnu » qui rassemble 8 labels et signatures sur une seule page (p.7)",
+        "Manifeste de positionnement « Nous croyons en la jeunesse » en p.2, avant l'édito",
+      ],
+      forme_moins: [
+        "Couverture sobre : photo + titre + date, sans message d'accroche sur la démarche",
+        "Pas de page chiffres clés dédiée à la démarche RSE",
+        "Pas de tableau d'indicateurs N / N-1",
+      ],
+      fond_plus: [
+        "Plan stratégique UP 2027 + stratégie RSE « Act for Change » 2022-27 articulée autour de 3 piliers",
+        "6 objectifs RSE alignés sur 6 cibles ODD précises (pas juste un ODD général, sa cible numérotée)",
+        "Label DD&RS 2024 + Positive Impact Rating « Transforming School » depuis 2023 + HappyAtSchool 5 années consécutives sur le podium",
+        "Module Impact obligatoire depuis 2005 (1ère grande école française) : 300 étudiants/an, 20 à 40 h auprès d'associations partenaires",
+        "Programme (Re)Connect (réfugiés) depuis 2021, lauréat des Trophées Campus Responsables 2022 et Rally'nov 2023",
+        "Nouveau campus Lyon (sept 2025) : labels E3C1 + BREEAM Excellent + démarche Carrément Hexagonal© 100 % français",
+        "Fondation BSB depuis 2014 : 2,9 M€ collectés, 950+ étudiants soutenus",
+      ],
+      fond_moins: [
+        "Bilan carbone pas affiché dans le rapport (annoncé comme projet 2024-26)",
+        "Pas de tableau d'indicateurs N / N-1",
+        "Pas de budget RSE global publié",
+        "Pas d'index égalité femmes-hommes mentionné",
+      ],
+      idees: [
+        { titre: "Aligner explicitement chaque engagement RSE sur une cible ODD précise (et pas juste un ODD général)",
+          pourquoi: "BSB ne se contente pas de mentionner « ODD 4 » ou « ODD 10 » : chacun de ses 6 objectifs RSE est aligné sur une cible ODD précise et numérotée. « Assurer une politique humaine et sociale d'égalité et de diversité (ODD cible 10.3) » ; « Promouvoir une consommation responsable (ODD cible 12.8) » ; « Engager l'École dans un processus de transformation profonde (ODD cible 16.6) » ; « Transférer les résultats de la recherche (ODD cible 17.6) » ; « Accompagner les compétences DD&RS (ODD cible 4.7) » ; « Offrir un cadre d'apprentissage sûr (ODD cible 4.a) ». Cette précision rend le lien démarche-ODD opposable et mesurable. Chez IGENSIA, les ODD sont mentionnés en cadre général (p.11 du rapport) mais pas avec cette précision de cible numérotée (faiblesse identifiée dans le mémo).",
+          comment: "Pour chacun de nos engagements LUCIE 26000 et de nos actions phares (HOPEN, ateliers 2 tonnes, dispositif For Me, plan QVCT, Campus des Groues, partenariats Mozaïk / ANLCI / Missions Locales, etc.), choisir 1 ou 2 cibles ODD précises et numérotées qui correspondent vraiment (ex. ODD cible 4.7 pour l'éducation à la durabilité, ODD cible 8.5 pour l'emploi décent, ODD cible 10.2 pour l'inclusion). Afficher la cible numérotée à côté de chaque action dans le rapport." },
+        { titre: "Page « Nos futurs projets » structurée par pilier avec projets numérotés et datés",
+          pourquoi: "BSB consacre une page (p.21) à une feuille de route détaillée : 12 projets prioritaires numérotés 1-12 et organisés visuellement par pilier (Act for Respect, Act for Sustainability, Act for Empowerment), avec pour chacun la cible ODD associée et l'objectif visé sur 2 années (2024-25 et 2025-26). Exemples : « Mettre BSB en conformité aux attentes de la directive européenne CSRD », « Réaliser un nouveau bilan carbone certifié », « Formaliser une politique d'achats responsables », « Construire un baromètre de l'expérience étudiant ». Chez IGENSIA, la rubrique « C'EST PRÉVU » est dispersée dans le narratif des sections (force du mémo), pas regroupée en une page synthétique de pilotage.",
+          comment: "Construire en fin de rapport une page de synthèse « Nos engagements pour les 2 ans à venir » avec 10 à 15 projets prioritaires numérotés et structurés par grande partie (Apprenants / Collaborateurs / Campus / Partenaires solidaires), chacun avec un horizon daté (2025-26 ou 2026-27) et la cible ODD associée. Format : 1 page, visuel synthétique, lisible en 30 secondes par un partenaire externe." },
+      ],
+    },
     {
       key: 'skema', rank: 10, score: 3.12, forme: 3.25, fond: 3.0,
       name: 'SKEMA BS', titre: "Rapport d'activités SKEMA Transitions 2024-2025", pages: '24 p.',
