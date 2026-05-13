@@ -1,16 +1,65 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA + BSB.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA + BSB + HEC.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 11,
+    nb_rapports: 12,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'hec', rank: 12, score: 2.88, forme: 2.25, fond: 3.5,
+      name: 'HEC Paris', titre: "Sustainability Report 2024", pages: '52 p.',
+      leg_cov: "Couverture extrêmement sobre : « SUSTAINABILITY REPORT 2024 » en texte seul",
+      leg_i1:  "Sustainable Change Model (p.6) : schéma directeur RSE en 6 axes avec leurs sous-thèmes (Knowledge, Education, Community, Environmental, Social, Governance)",
+      leg_i2:  "Sustainability Governance (p.7) : schéma multi-niveaux qui sépare Académique (S&O Institute, 4 centres) et Opérationnel (Sustainability Office, 5 fonctions)",
+      leg_i3:  "Parcours Engagement (p.19) : frise visuelle des 4 modules d'un programme annuel obligatoire avec durées chiffrées (3 jours Chamonix + 30 h service + 3 semaines stage + thèse 3 mois)",
+      leg_i4:  "Carbon Policy (p.37) : chiffrage de l'impact carbone évité par action (278 tCO2 viande rouge, 5,9 tCO2 IT, -40 % conso énergie d'ici 2030)",
+      forme_plus: [
+        "Schéma directeur RSE « Sustainable Change Model » en 6 axes visible en p.6",
+        "Schéma de gouvernance qui sépare clairement la branche académique (S&O Institute) et la branche opérationnelle (Sustainability Office) (p.7)",
+        "Frise visuelle d'un programme phare en 4 modules avec durées chiffrées (Parcours Engagement, p.19)",
+        "Executive Summary de 2 pages en début de rapport qui synthétise toutes les réalisations 2024 par grande partie",
+      ],
+      forme_moins: [
+        "Couverture extrêmement sobre : texte « Sustainability Report 2024 » seul, sans message ni visuel",
+        "Rapport long (52 pages) en anglais, peu adapté au public français",
+        "Densité de texte très élevée et peu de visuels marquants",
+        "Pas de page chiffres clés dédiée à la démarche RSE",
+        "Pas de codification réalisé / lancé / prévu",
+        "Témoignages incarnés rares (citations directes peu présentes)",
+      ],
+      fond_plus: [
+        "Gouvernance séparant académique (S&O Institute avec 4 centres) et opérationnel (Sustainability Office avec 5 fonctions)",
+        "Label DD&RS juin 2024 + 6e place ChangeNOW + Global Compact et PRME depuis 2020 + DPEF aligné CSRD",
+        "Co-fondateur de l'alliance internationale Business Schools for Climate Leadership en 2021 (8 BS européennes : Cambridge, IE, IESE, IMD, INSEAD, LBS, Oxford, HEC) + partenariat ClimateCAP (35+ BS dont Harvard, Wharton, Yale, MIT)",
+        "Parcours Engagement obligatoire pour les 380 étudiants Grande École de 1ère année (3 000+ h de service auprès de 60+ entreprises partenaires)",
+        "20 %+ des heures d'enseignement consacrées à l'ESG (27 % MBA, 43 % EMBA) + 13 nouveaux electives sustainability en 2023-24",
+        "Bilan carbone 2023 avec impact chiffré par action : 278 tCO2 évités sur la viande rouge, 5,9 tCO2 sur l'IT, 32 t de biodéchets collectés",
+        "Programme HEC Stand Up (femmes entrepreneuses) : 1 919 candidatures, 167 femmes certifiées en 2024 + Égalité des chances depuis 2007 (13 000+ étudiants, 4 900+ bourses)",
+      ],
+      fond_moins: [
+        "Total tCO2e global du bilan carbone non publié dans le rapport (seulement les actions chiffrées de réduction)",
+        "Pas d'objectif GHG global chiffré (uniquement -40 % conso énergie d'ici 2030, obligation décret tertiaire)",
+        "Pas d'index égalité femmes-hommes mentionné",
+        "Pas de budget RSE global publié",
+      ],
+      idees: [
+        { titre: "Chiffrer l'impact carbone évité (en tCO2e) pour chaque action environnementale concrète",
+          pourquoi: "HEC ne se contente pas de décrire ses actions environnementales : pour chacune, l'impact carbone évité est chiffré précisément. « Two red meat-free days per week → 278 tons of CO2 avoided » (p.37). « Extending the lifespan of computers → 5.9 tons of CO2 emissions saved » (p.37). « 40 batteries to revitalize older models → 2.2 tons of CO2 saved » (p.37). « 32 tons of bio-waste collected » (p.39). Cette discipline rend chaque action mesurable et permet de prioriser les leviers de réduction les plus efficaces. Chez IGENSIA, nous décrivons HOPEN, le Digital Clean Up (1,83 tCO2e évitée, force du mémo), les ateliers 2 tonnes, mais l'impact carbone n'est pas chiffré systématiquement pour chaque action.",
+          comment: "Pour chaque action environnementale du prochain rapport (HOPEN, Digital Clean Up Week, ateliers 2 tonnes, restauration, train obligatoire, mobilité douce, achats responsables, etc.), chiffrer l'impact carbone évité en tCO2e (ou kgCO2e) sur l'année. Format : 1 ligne par action avec « X tCO2e évitées en 2024-2025 ». À placer dans un encadré sous chaque action ou dans une page récap en fin de partie Campus." },
+        { titre: "Présenter notre programme phare HOPEN en frise visuelle modulaire avec durées chiffrées",
+          pourquoi: "HEC présente son Parcours Engagement obligatoire (p.19) sous forme d'une frise visuelle horizontale qui décompose le programme en 4 modules : (1) « Opening Conference & Testimonials » 4 jours / (2) « Chamonix Learning Expedition + Planetary Boundaries » 3 jours / (3) « Community Service » 30 heures / (4) « Hands-on Internship » 3 semaines + « Thesis » 3 mois. Chaque module est dans une carte avec sa durée et son intitulé. Le lecteur capte d'un coup d'œil l'ampleur et la structure du parcours. Chez IGENSIA, HOPEN (2 300 apprenants) est mentionné mais pas matérialisé en frise modulaire avec ses étapes datées.",
+          comment: "Pour le programme HOPEN (ou un autre programme phare apprenants), construire une frise visuelle horizontale qui décompose le programme en modules successifs, chacun avec son intitulé court + sa durée (Xh, X jours, X semaines). À placer en double-page sur la partie Apprenants. Format graphique : cartes alignées + flèches entre modules + chiffres globaux en pied de frise (X apprenants, Xh cumulées, X intervenants)." },
+        { titre: "Executive Summary de 2 pages en début de rapport qui synthétise les réalisations de l'année par grande partie",
+          pourquoi: "HEC ouvre son rapport (p.4-5) par un Executive Summary de 2 pages qui synthétise toutes les réalisations 2024 sous forme de bullets courts groupés par grande partie (Knowledge & Inspiration, Education & Pedagogy, Community & Entrepreneurship, Environmental & Climate Policy, Social & Human Capital, Governance & Ethics). Le lecteur pressé capte l'essentiel du rapport sans avoir à le parcourir. Chez IGENSIA, l'édito DG + Directrice DD pose la vision mais nous n'avons pas un résumé exécutif chiffré qui liste les réalisations marquantes de l'année par grande partie.",
+          comment: "Ajouter une double-page « L'essentiel 2024-2025 » juste après l'édito, qui liste pour chacune de nos 4 grandes parties (Apprenants / Collaborateurs / Campus / Partenaires solidaires) 4 à 6 bullets de réalisations marquantes de l'année. Format : titre + 4-6 bullets factuels chacun en 1 ligne. Sert de teaser et de récap exécutif pour un partenaire externe pressé." },
+      ],
+    },
     {
       key: 'bsb', rank: 11, score: 3.12, forme: 3.0, fond: 3.25,
       name: 'Burgundy SB', titre: "5e Rapport de Responsabilité Sociétale, décembre 2024", pages: '24 p.',
