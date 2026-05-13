@@ -1,16 +1,65 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA + BSB + HEC + KEDGE + AD Education.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA + BSB + HEC + KEDGE + AD Education + NEOMA.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 14,
+    nb_rapports: 15,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'neoma', rank: 15, score: 2.75, forme: 2.5, fond: 3.0,
+      name: 'NEOMA BS', titre: "Rapport d'engagement TSE 2025", pages: '44 p.',
+      leg_cov: "Couverture Rapport d'engagement 2025 (Transition Sociale et Environnementale)",
+      leg_i1:  "p.8 : Plan stratégique 2023-2027 « Engage for the Future » avec 9 objectifs stratégiques répartis sur 3 piliers (3+3+3)",
+      leg_i2:  "p.11 : Piliers TSE posés dès 2018 + 8 engagements externes signés (PRME, Charte Diversité, Handicap, STOPE, Accord climat Rouen, Grenoble, Shift Project)",
+      leg_i3:  "p.13 : Engagement Alumni : NEOMA Alumni Engaged (manifeste + répertoire) + portrait d'Amélie Kanagasabai (palmarès Les Echos 35 leaders positifs < 35 ans)",
+      leg_i4:  "p.17 : Dispositif NEOMACT en 6 briques (Academy avec AXA Climate, Profile, Project, Community, Days, Awards) - 10 000 étudiants certifiés en 2 ans",
+      leg_i5:  "p.32 : NEOMACT Awards : 3 catégories de prix étudiants (Engaged for Society / Diversity / Planet) + Change Makers Awards MSc",
+      forme_plus: [
+        "Plan stratégique 2023-2027 décliné en 9 objectifs stratégiques répartis sur 3 piliers (3+3+3, p.8-9)",
+        "Page « Piliers TSE posés dès 2018 » qui résume l'historique de l'engagement par catégorie (p.11)",
+        "Section dédiée à l'engagement Alumni avec portrait d'alumni reconnue (Amélie Kanagasabai, palmarès Les Echos) + dispositif NEOMA Alumni Engaged (p.13)",
+        "Sommaire détaillé en début de chaque grande partie avec numéros de page (p.7, 15, 27, 35)",
+        "Photo pleine page d'ouverture de chaque pilier avec son intitulé en grand",
+      ],
+      forme_moins: [
+        "Couverture institutionnelle classique sans message d'accroche fort",
+        "Densité de texte élevée sur les pages narratives",
+        "Pas de page chiffres clés dédiée à la démarche RSE",
+        "Pas de tableau d'indicateurs N / N-1",
+        "Pas de codification réalisé / lancé / prévu",
+      ],
+      fond_plus: [
+        "Plan stratégique 2023-2027 « Engage for the Future » avec 9 objectifs stratégiques répartis sur 3 piliers (Academic Excellence / Society / Students)",
+        "8 engagements externes signés depuis 2018 (PRME, Charte Diversité CGE, Charte Handicap CGE, STOPE, Accord climat Rouen, Accord Grenoble, Appel Shift Project)",
+        "Dispositif NEOMACT pédagogique en 6 briques (Academy AXA Climate, Profile, Project, Community, Days, Awards) avec 10 000 étudiants certifiés en 2 ans",
+        "453 cours intégrant la transition sociale et environnementale en 2024-2025, contre 332 en 2021-2022 (+ 36 % en 3 ans)",
+        "Chaire Bioéconomie et Développement Soutenable (seule BS française), 4 axes, depuis 2012",
+        "Engagement Alumni structuré : NEOMA Alumni Engaged (manifeste signé, répertoire des engagés, club Business Durable et Solidaire)",
+        "Politique de bourses graduée par échelon Crous : 100 % échelon 7 + 60 % échelon 6 + 40 % échelon 5 + 20 % échelon 4 (depuis sept 2024)",
+        "Index égalité femmes-hommes 88/100 + 52 % d'étudiantes + 45 % de femmes au COMEX et 46 % au Conseil d'Administration",
+      ],
+      fond_moins: [
+        "Pas de label DD&RS mentionné dans le rapport",
+        "Bilan carbone non chiffré dans le rapport (mentionné comme stratégie sans tonnage)",
+        "Pas d'objectif GHG global chiffré ni de trajectoire annuelle",
+        "Pas de budget RSE global publié",
+        "Pas de matrice de matérialité dans le rapport",
+      ],
+      idees: [
+        { titre: "Section dédiée à l'engagement Alumni dans la démarche RSE (portrait + dispositif collectif)",
+          pourquoi: "NEOMA consacre une page (p.13) à valoriser l'engagement de sa communauté Alumni dans la démarche RSE : (1) un dispositif collectif appelé NEOMA Alumni Engaged structuré autour de 3 axes (Fédérer / Mobiliser / Valoriser) avec manifeste signé et répertoire des engagés, et (2) un portrait individuel d'une alumni reconnue (Amélie Kanagasabai, PGE 2018, palmarès Les Echos START 2024 « 35 leaders positifs < 35 ans »). Le lecteur perçoit ainsi que l'engagement institutionnel se prolonge bien au-delà du diplôme. Chez IGENSIA, nos alumni sont mentionnés mais pas valorisés systématiquement dans notre rapport RSE comme acteurs de la démarche.",
+          comment: "Dédier 1 page de notre prochain rapport à « Nos alumni engagés », avec : (1) un dispositif collectif (manifeste, réseau d'engagés, club RSE alumni ou actions partagées), et (2) 1 ou 2 portraits d'alumni IGENSIA reconnus pour leur engagement (entrepreneur à impact, dirigeant RSE, etc.). Format : photo + bio courte (école / promo) + actions engagées." },
+        { titre: "Afficher l'évolution chiffrée de l'intégration de la durabilité dans les programmes sur plusieurs années",
+          pourquoi: "NEOMA chiffre précisément la progression de l'intégration de la transition sociale et environnementale dans ses cours : 332 cours en 2021-2022, 453 cours en 2024-2025, soit + 36 % en 3 ans. Cette mesure quantitative démontre l'accélération de la démarche et donne une trajectoire visible au lecteur. Chez IGENSIA, nous mentionnons 30 h de tronc commun et 90 % des apprenants de 1ère année formés en 2024 (force du mémo) mais sans afficher l'évolution chiffrée pluri-annuelle de l'intégration DD-RSE dans nos programmes.",
+          comment: "Compter et publier dans le prochain rapport l'évolution chiffrée de l'intégration de la durabilité dans nos programmes : nombre de cours / modules / heures dédiés DD-RSE sur 3 années consécutives. Format : graphique en barres ou ligne ascendante avec les 3 chiffres N-2, N-1, N et le pourcentage de progression. À placer dans la partie Apprenants." },
+      ],
+    },
     {
       key: 'ad', rank: 14, score: 2.75, forme: 2.5, fond: 3.0,
       name: 'AD Education', titre: "Rapport ESG 2023-2024", pages: '34 p.',

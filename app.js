@@ -123,6 +123,7 @@ const PRESENTATION_TO_FOCUS_NAME = {
   'hec':      'HEC PARIS',
   'kedge':    'KEDGE BUSINESS SCHOOL',
   'ad':       'AD EDUCATION',
+  'neoma':    'NEOMA BUSINESS SCHOOL',
 };
 
 function syncScoresFromFocus(r) {
