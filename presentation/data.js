@@ -1,16 +1,76 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 6,
+    nb_rapports: 7,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'ieseg', rank: 7, score: 3.5, forme: 3.0, fond: 4.0,
+      name: 'IÉSEG', titre: "Rapport d'Impact 2024-2025", pages: '47 p.',
+      cover_landscape: true,
+      leg_cov: "Couverture : « LEARN, ACT, IMPACT » + tagline « EMPOWERING CHANGEMAKERS FOR A BETTER SOCIETY »",
+      leg_i1:  "Chiffres clés 2024-2025 : 1,332 tCO2/utilisateur, 81 % des cours intègrent l'impact, 1 900 étudiants Changemakers Odyssey, 61 cours spécialisés impact",
+      leg_i2:  "Treemap « 4 piliers - 32 thèmes » des feuilles de route RSE (Transition 2026) : taille des blocs proportionnelle au nombre d'actions par thème",
+      leg_i3:  "Changemakers Odyssey (1ère semaine de cours) : 24 000 mégots ramassés, 76 bars #SafeBar, 665 étudiants ayant calculé leur empreinte carbone, 730 téléchargements Too Good To Go",
+      leg_i4:  "Tableau indicateurs Pilier 2 : 25+ KPIs comparés sur 3 années (2018-2019 / 2023-2024 / 2024-2025) par catégorie (empreinte carbone, énergie/eau, mobilité, numérique)",
+      forme_plus: [
+        "Treemap « 4 piliers - 32 thèmes » des feuilles de route RSE (p.7) : visualisation très originale qui hiérarchise les thèmes par poids d'actions (Handicap, Achats responsables et Mobilité internationale en blocs les plus grands)",
+        "Tableau d'indicateurs en fin de chaque pilier (1 par chapitre) avec 3 colonnes : 2018-2019 (baseline) / 2023-2024 / 2024-2025",
+        "Navigation horizontale permanente en haut de chaque page (8 entrées de menu cliquables) qui facilite le repérage",
+        "4 piliers numérotés 01 à 04 avec code couleur (bleu marine + jaune vif) et picto en grand sur les pages d'ouverture",
+        "Page « Chiffres clés » en début de rapport (p.4) : 9 indicateurs typographiés en grands caractères avec pictogrammes",
+        "Page « Faits marquants » (p.5) en chronologie annuelle sur 5 dates clés avec liens « En savoir plus » vers ressources web",
+      ],
+      forme_moins: [
+        "Format A4 paysage : moins confortable que portrait sur écran et surtout mobile",
+        "Couverture photo + typographie classique, sans message d'accroche fort sur la démarche",
+        "Pas de schéma directeur RSE 5 axes visible d'un coup d'œil en début de rapport (la stratégie se découvre au fil des pages)",
+        "Densité de texte élevée sur plusieurs pages (mise en page parfois chargée)",
+      ],
+      fond_plus: [
+        "Programme « Transition 2026 » formalisé : 7 modules de formation (23 h) obligatoires pour 100 % des collaborateurs (enseignants + administratifs)",
+        "Stratégie déclinée en chiffres macro : 4 piliers / 32 thèmes / 68 axes / 253 actions / 160 indicateurs (feuilles de route par département et service)",
+        "Référentiel de compétences transition co-construit avec les 10 départements académiques (base Shift Project ClimatSup Business + référentiel CDEFM)",
+        "Direction Impact Social et Environnemental représentée au Comité de Direction depuis mai 2025 + 11 Ambassadeurs Durabilité (1 par discipline)",
+        "Bilan carbone scopes 1+2+3 (12 109 tCO2e), méthodologie retravaillée avec recalcul des années 2018-2019 et 2023-2024 pour permettre la comparaison",
+        "Évolution affichée : empreinte carbone par utilisateur -2,3 % vs N-1, -5,6 % vs 2018-2019 (1,332 t vs 1,411 t)",
+        "Mobilité internationale 44 % des émissions : la limite est nommée et assumée",
+        "Label DD&RS depuis juin 2023, PRME Education Award des Nations Unies juin 2025, Financial Times Responsible Business Education Award 2024",
+        "81 % des cours intègrent l'impact social et environnemental, 61 cours spécialisés dans le programme Grande École",
+        "Changemakers Odyssey : intégration dès la 1ère semaine de cours pour les nouveaux étudiants Grande École et Bachelor (1 900 étudiants en 2024-2025)",
+        "Master in Management for Sustainability depuis 2022 avec bootcamp jeu de rôle « Luxaros » (entreprise fictive en crise de durabilité)",
+        "Sustainability Certificate depuis 2018 (33 délivrés en 2024-2025) qui valorise l'engagement RSE individuel des étudiants",
+        "3 engagements territoriaux signés : Lille Bas Carbone 2021, Accord de Grenoble 2022, Charte post-carbone Paris-La Défense 2023",
+        "Politique voyage durable depuis 2025 : train obligatoire pour tous les trajets < 6 h",
+        "#TakeTheTrain : 220 étudiants accompagnés depuis création, 15 611 € versés",
+        "Index égalité femmes-hommes : 95/100",
+        "Cofidis Grand Mécène de la Fondation IÉSEG : 300 000 € sur 3 ans pour l'égalité des chances",
+        "Partenariat teale (santé mentale) : 1 500 licences activées, 638 rendez-vous psychologues",
+      ],
+      fond_moins: [
+        "Pas de budget RSE total publié en chiffre absolu",
+        "Conseil d'Administration : 8 % de femmes (vs 54 % au Comité de Direction), écart non commenté dans le rapport",
+        "Objectif -31 % d'empreinte carbone d'ici 2030 annoncé mais sans jalons annuels chiffrés ni validation Science Based Targets",
+      ],
+      idees: [
+        { titre: "Cartographier nos thèmes RSE en treemap (taille des blocs proportionnelle au volume d'actions)",
+          pourquoi: "IÉSEG affiche en p.7 un treemap « 4 piliers - 32 thèmes » où la taille de chaque bloc reflète le nombre d'actions concrètes par thème. On voit immédiatement les sujets sur lesquels l'École investit le plus (Handicap et neurodiversité, Achats responsables, Mobilité internationale en blocs les plus grands) et ceux qui sont en cours de déploiement (blocs plus petits). C'est une lecture visuelle de la maturité par thème, pas seulement une liste. Chez IGENSIA, nos engagements LUCIE et nos plans d'action sont listés mais pas hiérarchisés visuellement par poids d'actions.",
+          comment: "Identifier les 25 à 35 thèmes RSE actifs chez nous (issus des engagements LUCIE, du Bilan Carbone, des plans QVCT, du dispositif For Me, des Campus, etc.). Pour chacun, compter le nombre d'actions concrètes en cours. Construire un treemap couvrant une page (ou double-page) en début de rapport, code couleur par grande partie (Apprenants / Collaborateurs / Campus / Partenaires). À placer juste après la gouvernance, avant la première partie." },
+        { titre: "Quantifier l'ampleur de notre stratégie en chiffres macro (axes / actions / indicateurs)",
+          pourquoi: "IÉSEG matérialise « Transition 2026 » par un chiffre puissant : 68 axes / 253 actions / 160 indicateurs issus des feuilles de route par département et service. Le lecteur comprend immédiatement l'ampleur du dispositif. Chez IGENSIA, on a la codification C'EST RÉALISÉ / LANCÉ / PRÉVU et 17 pilotes RSE mais pas de chiffres macro qui agrègent le volume global du dispositif.",
+          comment: "Compter et afficher en début de rapport (page Stratégie ou Gouvernance) : nombre d'engagements LUCIE pris, nombre d'actions en cours, nombre d'indicateurs suivis, nombre de pilotes mobilisés. Format : 4 chiffres typographiés en grand sur une bande horizontale (ex. « 9 engagements LUCIE / 60 actions / 40 indicateurs / 17 pilotes »). Sert de carte d'identité de la démarche." },
+        { titre: "Publier les chiffres-clés en page d'ouverture avec pictogrammes typographiés",
+          pourquoi: "IÉSEG ouvre son rapport (p.4) par une page « CHIFFRES-CLÉS 2024-2025 » qui rassemble 9 indicateurs avec gros chiffres typographiés et pictogrammes (1 332 t, 81 %, 1 900 étudiants, 61 cours, 36 %, 29 %, 40 %, 1 650 étudiants, 7 300 cumulé). Le lecteur a une carte d'identité chiffrée du rapport dès la 4e page. Chez IGENSIA, nos chiffres clés sont disséminés dans le narratif des sections (Apprenants / Collaborateurs / Campus / Partenaires) mais pas regroupés en page d'ouverture.",
+          comment: "Ajouter une page « Chiffres-clés 2024-2025 » en début de rapport (juste après le mot DG ou avant les engagements) avec 8 à 10 indicateurs phares en grand format : nombre d'apprenants formés DD-RSE, bilan carbone total et par utilisateur, % progression vs base, demandes For Me, ateliers 2 tonnes, managers QVCT formés, Digital Clean Up évité, partenaires solidaires. Format : picto + chiffre + label court." },
+      ],
+    },
     {
       key: 'efrei', rank: 6, score: 3.75, forme: 3.75, fond: 3.75,
       name: 'EFREI', titre: 'Rapport de Progrès DD/RS 2026', pages: '44 p.',
