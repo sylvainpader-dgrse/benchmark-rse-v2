@@ -116,6 +116,7 @@ const PRESENTATION_TO_FOCUS_NAME = {
   'audencia': 'AUDENCIA BUSINESS SCHOOL',
   'efrei':    'EFREI',
   'ieseg':    'IESEG SCHOOL OF MANAGEMENT',
+  'emlyon':   'EMLYON BUSINESS SCHOOL',
 };
 
 function syncScoresFromFocus(r) {

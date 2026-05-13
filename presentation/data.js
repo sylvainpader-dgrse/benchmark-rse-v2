@@ -1,16 +1,79 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 7,
+    nb_rapports: 8,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'emlyon', rank: 8, score: 3.38, forme: 3.5, fond: 3.25,
+      name: 'EMLYON BS', titre: "Rapport d'engagement 2024", pages: '40 p.',
+      leg_cov: "Couverture : « Rapport d'engagement 2024 » + tampon « Société à Mission » + photo étudiants sur le nouveau campus de Lyon",
+      leg_i1:  "Plan stratégique « Résonances 2028 » : 5 qualités attendues des « makers » + objectifs Formation / Recherche / Fonctionnement (code couleur par grande partie)",
+      leg_i2:  "Tableau « Progression des engagements » 4 colonnes : objectif statutaire / objectif Résonances 2028 / Réalisations 2023-2024 / Niveau de maturité (jauge visuelle)",
+      leg_i3:  "Gouvernance multi-niveaux : Comité de Mission (9 personnes dont 6 externes) + Organisme Tiers Indépendant accrédité COFRAC qui vérifie l'atteinte des objectifs",
+      leg_i4:  "Focus rentrée 2024 ODD 11 villes durables : 3 300 étudiants entrants, 150 maraudes, 300 cleanwalks, 1 000 sensibilisés au gaspillage, exposition photo collective",
+      forme_plus: [
+        "Tableau « Progression des engagements et réalisations » (p.8-10) qui croise 4 colonnes : objectif statutaire / objectif plan stratégique 2028 / réalisations N / niveau de maturité affiché en jauge visuelle (demi-cercle gradué)",
+        "Schéma de gouvernance multi-niveaux (p.11) avec code couleur par catégorie : instances de surveillance / commissions / instance de contrôle externe / équipes / parties prenantes internes",
+        "Code couleur des 3 grandes parties (Formation rouge / Recherche violet / Fonctionnement or) qui guide la navigation",
+        "Encadré « Notre action en chiffres » récurrent en fin de chaque sous-partie (synthèse chiffrée systématique)",
+        "Encadré « Les défis à relever » en fin de chaque grande partie : auto-critique structurée des axes encore à creuser",
+        "Pages « Focus » dédiées (rentrée 2024 ODD 11 p.18, nouveau campus de Lyon p.32-33)",
+        "Couverture identitaire forte : rouge emblématique + tampon circulaire « Société à Mission » + photo étudiants",
+      ],
+      forme_moins: [
+        "3 pages séparatrices quasi-vierges en ouverture de chaque partie (p.13, p.21, p.27), assez décoratives",
+        "Densité de texte élevée sur les pages narratives (typographie classique, peu d'aération)",
+        "Cartographie des parties prenantes (p.5) très minimaliste : juste des étiquettes en cercle, sans hiérarchisation visuelle",
+        "Pas de page de chiffres clés dédiée à la démarche RSE (les chiffres sont disséminés dans les encadrés de sous-parties)",
+      ],
+      fond_plus: [
+        "Statut juridique de Société à Mission depuis 2021 : cadre opposable inscrit dans les statuts (au-delà d'un simple label)",
+        "Raison d'être formalisée et 10 objectifs statutaires opposables (4 en Formation, 3 en Recherche, 3 en Fonctionnement)",
+        "Plan stratégique « Résonances 2028 » qui décline les 10 objectifs statutaires en cibles opérationnelles à horizon 2028",
+        "Comité de Mission de 9 personnes dont 6 externes : vérification indépendante de la bonne exécution de la mission, 3 commissions thématiques (Formation, Recherche, Fonctionnement)",
+        "Organisme Tiers Indépendant accrédité COFRAC qui vérifie chaque année l'atteinte des objectifs de la mission",
+        "Direction de l'Engagement Social et Environnemental représentée au Comité Exécutif (13 collaborateurs RSE + 7 médico-sociaux) + 30 ambassadeurs collaborateurs + 1 référent RSE dans chacune des 33 associations étudiantes",
+        "Référentiel propriétaire « SDGs Inside » : 34 compétences RSE alignées sur les 17 ODD, qui a permis d'analyser 90 % des cours",
+        "Programme d'Engagement Responsable obligatoire pour le diplôme Grande École depuis 2016 : 50 h de bénévolat dans 86 associations partenaires, 1 612 engagements réalisés en 2023, 87 300 heures de bénévolat",
+        "Rentrée 2024 thématisée ODD 11 « Villes durables » : 3 300 étudiants entrants engagés sur 10 jours, 150 maraudes sociales, 200 kits de produits collectés, 300 cleanwalks, 1 000 personnes sensibilisées au gaspillage avec Too Good To Go, 2 000 lettres aux seniors",
+        "4 chaires de recherche alignées sur la mission : Carbone 4 (Stratégie en Anthropocène), Malakoff (santé mentale dirigeants TPE/PME), Groupama Rhône-Alpes Auvergne (transition climatique en assurance), Vinci/Centrale Lyon (Transition Hydrogène aéronautique)",
+        "Nouveau campus Gerland (sept. 2024) : labels HQE + BREEAM + Osmoz + R2S, 380 emplacements vélos, 0 parking auto sauf PMR",
+        "Politique mobilité : train obligatoire < 6 h pour collaborateurs, Pass Betterway 400 €/an, programme Objectif Employeur Pro Vélo, chèque mobilité douce pour étudiants en échange",
+        "Charte d'engagement RSE signée par l'ensemble des 33 associations et collectifs étudiants en 2024 (label Ecollab interne sur déchet, énergie, alimentation, solidaire, communication)",
+        "Programme « la toile » 100 % gratuit pour publics éloignés de l'emploi : 400 apprenants, 90 % réussite aux certifications, 82 % de sortie positive",
+        "219 étudiants en situation de handicap accompagnés (+ 135 % depuis 2021), 87 % satisfaits + statut expérimental d'étudiant aidant + bourses handicap Fondation",
+        "Fondation INFINITE (Alexandre Mars) : prêts à taux zéro 20 000 à 45 000 € par étudiant boursier en complément des bourses Crous",
+        "Index égalité femmes-hommes 89/100 (+ 5 points depuis 2021), 47 % de femmes au CoDir, 36 % au Comex",
+        "Charte LGBT+ de l'Autre Cercle signée en 2022 + baromètre interne 77 % perception inclusive",
+        "Labellisation HRS4R (Human Resource Strategy for Researchers) obtenue en février 2025 (l'une des rares écoles de commerce françaises)",
+        "Classement Financial Times : 3e mondial et 1re française sur le critère « ESG and net zero teaching »",
+      ],
+      fond_moins: [
+        "Bilan carbone non chiffré dans le rapport (4 leviers du plan climat décrits mais sans tonnage global ni répartition par scope)",
+        "Objectif net zéro 2030 affiché mais sans baseline absolue ni trajectoire annuelle chiffrée",
+        "8,5 M€ investis dans les actions socio-environnementales annoncés en couverture mais sans détail de répartition par axe",
+        "Tableau de progression sans cibles datées intermédiaires entre N et 2028",
+      ],
+      idees: [
+        { titre: "Tableau de progression croisé : engagements LUCIE / actions du plan / réalisations / niveau de maturité",
+          pourquoi: "EMLYON consacre 3 pages (p.8-10) à un tableau qui croise 4 colonnes pour chacun de ses 10 objectifs statutaires : (1) l'objectif statutaire opposable, (2) l'objectif aligné du plan stratégique Résonances 2028, (3) les réalisations de l'année, (4) le niveau de maturité visualisé par une jauge graduée en demi-cercle. C'est un format plus puissant qu'une simple codification à 3 états car il rend visible la maturité progressive de chaque engagement. Chez IGENSIA, on a la codification C'EST RÉALISÉ / LANCÉ / PRÉVU dans le narratif des sections mais pas un tableau visuel synthétique qui croise nos engagements LUCIE 26000, nos actions du plan, nos réalisations N et un niveau de maturité gradué.",
+          comment: "Construire en début de rapport (juste après la gouvernance, sur 2 ou 3 pages) un tableau qui aligne nos 9 engagements LUCIE 26000 : (col 1) l'engagement LUCIE, (col 2) l'action correspondante du plan IGENSIA, (col 3) les réalisations 2024-2025, (col 4) une jauge de maturité graduée sur 4 ou 5 niveaux (naissant / en cours / consolidé / mature). Sert de carte de pilotage de la démarche, lisible en 30 secondes par un partenaire externe." },
+        { titre: "Encadré « Les défis à relever » en fin de chaque grande partie",
+          pourquoi: "EMLYON clôt chaque grande partie (Formation p.19, Recherche p.25, Fonctionnement p.39) par un encadré « Les défis à relever en matière de... » qui liste qualitativement les axes encore à creuser : améliorer la mesure d'impact, recueillir les retours apprenants, lier mieux recherche et enseignement, etc. C'est une auto-critique constructive qui projette la suite, différente d'un post-mortem des KPIs ratés (qu'on a aussi suggéré côté OMNES). Chez IGENSIA, on signale « C'EST PRÉVU » sur des objectifs datés mais on n'a pas d'encadré qui formule explicitement « voici les sujets qu'on n'a pas encore stabilisés ».",
+          comment: "À la fin de chacune de nos 4 grandes parties (Apprenants / Collaborateurs / Campus / Partenaires solidaires), ajouter un encadré « Les défis qu'il nous reste à relever » avec 3 ou 4 axes qualitatifs : par exemple côté Apprenants « consolider la mesure d'impact pédagogique de HOPEN », côté Collaborateurs « stabiliser la généralisation du plan QVCT au-delà des 142 managers formés », côté Campus « finaliser la trajectoire de réduction GES avec jalons annuels », côté Partenaires « renforcer l'intégration des branches dans la coconstruction des programmes »." },
+        { titre: "Rentrée thématique annuelle déclinée sur un ODD spécifique",
+          pourquoi: "EMLYON a transformé sa rentrée 2024 en grande mobilisation thématique autour de l'ODD 11 « Villes durables » : pendant 10 jours, les 3 300 étudiants entrants ont réalisé 150 maraudes sociales, 300 cleanwalks, sensibilisé 1 000 personnes au gaspillage alimentaire avec Too Good To Go, envoyé 2 000 lettres à des seniors, et l'École a organisé en parallèle une exposition collective de huit photographes professionnels sur la durabilité urbaine. Chez IGENSIA, on a des actions ponctuelles (HOPEN, ateliers 2 tonnes, Digital Clean Up) mais pas une rentrée entière thématisée sur un ODD avec un volume d'engagement aussi massif et un format narratif aussi fort.",
+          comment: "Pour la rentrée 2026-2027, choisir un ODD prioritaire pour IGENSIA (par exemple ODD 4 Éducation de qualité ou ODD 8 Travail décent et croissance économique) et construire une semaine de rentrée dédiée sur les apprenants entrants des écoles du Groupe (MBA ESG, ICD, etc.) avec : maraudes, ateliers de sensibilisation, témoignages d'alumni engagés, défis terrain mesurés en heures de bénévolat / participations / personnes sensibilisées. Dédier une double-page Focus dans le prochain rapport pour raconter cette rentrée chiffrée." },
+      ],
+    },
     {
       key: 'ieseg', rank: 7, score: 3.5, forme: 3.0, fond: 4.0,
       name: 'IÉSEG', titre: "Rapport d'Impact 2024-2025", pages: '47 p.',
