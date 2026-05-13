@@ -142,10 +142,16 @@ function renderPresentation() {
   const root = document.getElementById('presentationRoot');
   if (!root || typeof PRESENTATION_DATA === 'undefined') return;
   const data = PRESENTATION_DATA;
-  // Sync des notes depuis Focus puis tri par rang croissant
+  // 1) Sync des notes depuis Focus (les notes peuvent avoir été modifiées
+  //    dans l'interface Focus, sauvegardées en localStorage).
+  // 2) Tri par note décroissante (meilleure en haut, moins bonne en bas).
+  // 3) Recalcul du rang affiché en fonction de la position dans le tri.
+  //    IGENSIA reste affichée en haut via renderIgensiaReference (banner
+  //    rendu avant la liste, donc hors de ce tri).
   const rapportsSorted = [...data.rapports]
     .map(syncScoresFromFocus)
-    .sort((a, b) => a.rank - b.rank);
+    .sort((a, b) => b.score - a.score)
+    .map((r, idx) => ({ ...r, rank: idx + 1 }));
 
   let html = `
     ${renderIgensiaReference()}
