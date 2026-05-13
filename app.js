@@ -127,6 +127,9 @@ const PRESENTATION_TO_FOCUS_NAME = {
   'gem':      'GRENOBLE EM',
   'tbs':      'TBS EDUCATION',
   'insead':   'INSEAD',
+  'emstras':  'EM STRASBOURG BUSINESS SCHOOL',
+  'psb':      'PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)',
+  'cesi':     'CESI',
 };
 
 function syncScoresFromFocus(r) {
