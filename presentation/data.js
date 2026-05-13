@@ -1,16 +1,65 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 5,
+    nb_rapports: 6,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'efrei', rank: 6, score: 3.75, forme: 3.75, fond: 3.75,
+      name: 'EFREI', titre: 'Rapport de Progrès DD/RS 2026', pages: '44 p.',
+      leg_cov: "Couverture : « Construire un monde meilleur et plus durable pour tous »",
+      leg_i1:  "Chiffres clés : 70 % des parties prenantes coconstruisent / 100 % des processus ont des objectifs RSE / 10 journées DD",
+      leg_i2:  "Journée Efrei for Good Xperience 2025 : 3 400 étudiants, 43 ateliers, 36 entreprises partenaires, 17 startups",
+      leg_i3:  "Engagement #2 : méthodologie d'intégration des 17 ODD dans les enseignements et la vie associative",
+      leg_i4:  "Startups étudiantes incubées (AGRIWIZE, HOLLY, ETHEIA, FALC'ON) + parcours d'alumni engagés",
+      forme_plus: [
+        "Couverture engageante avec une accroche forte (« Construire un monde meilleur et plus durable pour tous »)",
+        "Structure en 5 engagements numérotés, chacun ouvert par un tableau « Nos enjeux / Objectifs / Indicateurs »",
+        "Sommaire valorisé par des mots-clés / hashtags de valeurs (#Solidarité, #Engagé, #Responsable, #Diversité…)",
+        "Page « Chiffres clés » synthétique avec 3 grands indicateurs visuels",
+        "Page dédiée aux startups étudiantes incubées (mini-portraits chiffrés)",
+        "Programme détaillé de la journée RSE annuelle inséré dans le rapport (avec les marques partenaires)",
+      ],
+      forme_moins: [
+        "Format A4 paysage double-page, texte parfois dense",
+        "Peu de témoignages incarnés (essentiellement chiffres et descriptions)",
+      ],
+      fond_plus: [
+        "90 ans d'engagement humaniste : école créée en 1936, Pôle Égalité des Chances et Diversité depuis 2012",
+        "70 % des parties prenantes impliquées dans la coconstruction de la stratégie RSE",
+        "100 % des processus de l'école ont des objectifs RSE",
+        "Méthodologie d'intégration des 17 objectifs de développement durable de l'ONU dans les enseignements et la vie associative",
+        "Équipe projet RSE dédiée (4 personnes) avec un réseau de référents dans chaque service et chaque association étudiante",
+        "Journée RSE annuelle ambitieuse : 3 400 étudiants, 43 ateliers et conférences, 36 entreprises partenaires, 17 startups",
+        "60+ associations étudiantes : 70 % ont un référent RSE, 43 ont un référent handicap",
+        "Missions thématiques fortes : lutte contre le racisme et l'antisémitisme, égalité hommes-femmes, handicap, sport haut niveau, étudiants aidants",
+        "Programme « Program'Her » : ateliers pour les lycéennes pour les sensibiliser aux métiers tech",
+        "Formation obligatoire de 2 jours aux enjeux environnementaux pour tous les enseignants depuis 2023",
+        "Recherche IA pour le handicap, partenariat avec l'Université Européenne 4EU+",
+        "Incubateur étudiant : plus de 100 porteurs de projets, 10 startups en cours de création, 187 000 € levés",
+        "Bilan carbone détaillé : 3 500 tonnes CO2, 0,58 tonne par étudiant, 56 % liées aux mobilités étudiantes, -20 % conso énergie en 1 an",
+        "84 % des collaborateurs satisfaits (enquête qualité de vie au travail juin 2024)",
+      ],
+      fond_moins: [
+        "Bilan carbone scopes 1+2+3 mais « hors achats » : périmètre incomplet",
+        "Pas de tableau comparatif des années en fin de rapport (indicateurs par engagement seulement)",
+      ],
+      idees: [
+        { titre: "Lier explicitement chaque action de notre rapport à un ou plusieurs ODD",
+          pourquoi: "EFREI explique sa méthodologie : les 17 objectifs de développement durable de l'ONU sont répartis entre les différents enseignements et la vie associative étudiante (p.24-25). Chaque action est explicitement reliée aux ODD qu'elle adresse. Chez IGENSIA, les ODD sont mentionnés en cadre général (p.11) mais pas mis en lien direct avec chacune de nos actions, c'est un gap qu'on a identifié dans le mémo.",
+          comment: "Pour chaque action présentée dans le rapport (HOPEN, ateliers 2tonnes, dispositif For Me, Campus des Groues éco-construit, Parcours Engagé AXA, etc.), ajouter en marge ou en pictogramme les ODD adressés (1 à 2 par action). Vue d'ensemble en début de section pour montrer la couverture des 17 ODD." },
+        { titre: "Valoriser nos startups et projets étudiants à impact dans le rapport",
+          pourquoi: "EFREI dédie une double-page à 4 startups étudiantes incubées (AGRIWIZE pour les agriculteurs, HOLLY santé mentale, ETHEIA sécurité personnelle, FALC'ON accès à la lecture pour les personnes dyslexiques), avec mini-portraits chiffrés (créateur, technologie, impact). Chez IGENSIA, on a Why Not Factory (350 porteurs de projets, 150 startups depuis 2017) mais ce n'est pas valorisé visuellement dans le rapport.",
+          comment: "Une double-page « Innovation étudiante à impact » avec 4 à 6 mini-portraits de projets ou startups passés par Why Not Factory, sélectionnés pour leur ancrage RSE (technologie inclusive, économie circulaire, mobilité durable, lutte contre le harcèlement…). Format : photo + nom du créateur + 3 lignes d'impact." },
+      ],
+    },
     {
       key: 'audencia', rank: 5, score: 3.75, forme: 4.00, fond: 3.50,
       name: 'Audencia BS', titre: "Rapport d'activité DD&RS 2026", pages: '16 p.',
