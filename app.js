@@ -117,6 +117,7 @@ const PRESENTATION_TO_FOCUS_NAME = {
   'efrei':    'EFREI',
   'ieseg':    'IESEG SCHOOL OF MANAGEMENT',
   'emlyon':   'EMLYON BUSINESS SCHOOL',
+  'edhec':    'EDHEC BUSINESS SCHOOL',
 };
 
 function syncScoresFromFocus(r) {

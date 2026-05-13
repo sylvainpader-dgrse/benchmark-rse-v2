@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-"""Extraction HD EMLYON : couverture + 4 pages intérieures distinctives."""
+"""Extraction HD EDHEC : couverture + 4 pages intérieures distinctives."""
 import sys, pathlib
 sys.stdout.reconfigure(encoding='utf-8')
 import fitz
 from PIL import Image
 import io
 
-PDF = pathlib.Path(r'C:\Users\sylva\OneDrive\Bureau\DOCBENCH\EMLYON BUSINESS SCHOOL\2025_Rapport_d_engagement-VF.pdf')
+PDF = pathlib.Path(r'C:\Users\sylva\OneDrive\Bureau\DOCBENCH\EDHEC BUSINESS SCHOOL\rapport-ddrs-2023-edhec.pdf')
 OUT = pathlib.Path('presentation/images')
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -16,12 +16,11 @@ JPG_QUAL  = 92
 
 # (clé image, page_idx 0-based, description)
 TARGETS = [
-    ('emlyon.jpg',         0,  "Couverture Rapport d'engagement 2024 (Société à Mission)"),
-    ('emlyon_inner1.jpg',  3,  "p.4 — À propos d'emlyon : chiffres clés + classement FT 3e mondial ESG and net zero teaching + Top 4 ChangeNOW"),
-    ('emlyon_inner2.jpg',  6,  "p.7 — Plan stratégique Résonances 2028 + 5 qualités makers + objectifs Formation/Recherche/Fonctionnement"),
-    ('emlyon_inner3.jpg',  7,  "p.8 — Tableau Progression des engagements : 4 colonnes (objectif statutaire / Résonances / Réalisations / Niveau de maturité)"),
-    ('emlyon_inner4.jpg',  10, "p.11 — Gouvernance : Comité de Mission 9 personnes dont 6 externes + Organisme Tiers Indépendant accrédité COFRAC"),
-    ('emlyon_inner5.jpg',  17, "p.18 — Focus rentrée 2024 ODD 11 villes durables : 3300 étudiants, 150 maraudes, 300 cleanwalks, exposition art"),
+    ('edhec.jpg',         0,  "Couverture Rapport DDRS 2023 EDHEC"),
+    ('edhec_inner1.jpg',  2,  "p.4 — Carte d'identité : 13 chiffres clés + labels d'engagement externes (PRME, Accord de Grenoble, PIR)"),
+    ('edhec_inner2.jpg',  4,  "p.8 — Page « Témoignages » : 6 voix variées (étudiante asso, responsable RSE, alumni entrepreneur, prof, asso WinFin, alumni Lemon Tri, alumni Oney RH)"),
+    ('edhec_inner3.jpg',  13, "p.26 — Campus : « Nos prestataires engagés dans la transition » (API Restauration, 1001 Feuilles, ATF Gaia, Lemon Tri, Beesk) + Green IT"),
+    ('edhec_inner4.jpg',  14, "p.28 — Bilan carbone 2022 visuel : camembert répartition par scope (Scope 3 = 83 %) + barres horizontales par poste (Déplacements = 64,3 %)"),
 ]
 
 def extract_page_hd(pdf_path, out_jpg, page_idx):
@@ -41,7 +40,7 @@ def extract_page_hd(pdf_path, out_jpg, page_idx):
     doc.close()
     return im.size, out_jpg.stat().st_size // 1024
 
-print(f'Extraction HD EMLYON : DPI={DPI}, max-width={MAX_W}px, JPG q={JPG_QUAL}\n')
+print(f'Extraction HD EDHEC : DPI={DPI}, max-width={MAX_W}px, JPG q={JPG_QUAL}\n')
 print(f'Source : {PDF.name}\n')
 for fname, page_idx, desc in TARGETS:
     out = OUT / fname
