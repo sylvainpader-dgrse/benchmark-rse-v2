@@ -17,10 +17,11 @@ JPG_QUAL  = 92
 # (clé image, page_idx 0-based, description)
 TARGETS = [
     ('bsb.jpg',         0,   "Couverture 5e Rapport de Responsabilité Sociétale, décembre 2024"),
-    ('bsb_inner1.jpg',  4,   "p.5 — Notre stratégie RSE : 3 piliers (Act for Respect, Sustainability, Empowerment) + 6 objectifs alignés sur 6 cibles ODD précises (10.3, 12.8, 16.6, 17.6, 4.7, 4.a)"),
-    ('bsb_inner2.jpg',  5,   "p.6 — Un engagement de longue date : timeline 2003-2024 qui retrace 21 ans d'engagement RSE sur 13 jalons"),
-    ('bsb_inner3.jpg',  6,   "p.7 — Un engagement affirmé et reconnu : 8 labels et chartes regroupés sur 1 page (DD&RS, Positive Impact Rating, HappyAtSchool, PRME, Charte Diversité, Charte LGBT+, Accord Grenoble, Accord ODD)"),
-    ('bsb_inner4.jpg',  20,  "p.21 — Nos futurs projets : 12 projets prioritaires 2024-26 structurés par pilier (Respect, Sustainability, Empowerment) et alignés sur les 6 cibles ODD"),
+    ('bsb_inner1.jpg',  4,   "p.5 : Notre stratégie RSE : 3 piliers (Act for Respect, Sustainability, Empowerment) + 6 objectifs alignés sur 6 cibles ODD précises (10.3, 12.8, 16.6, 17.6, 4.7, 4.a)"),
+    ('bsb_inner2.jpg',  5,   "p.6 : Un engagement de longue date : timeline 2003-2024 qui retrace 21 ans d'engagement RSE sur 13 jalons"),
+    ('bsb_inner3.jpg',  6,   "p.7 : Un engagement affirmé et reconnu : 8 labels et chartes regroupés sur 1 page (DD&RS, Positive Impact Rating, HappyAtSchool, PRME, Charte Diversité, Charte LGBT+, Accord Grenoble, Accord ODD)"),
+    ('bsb_inner4.jpg',  15,  "p.16 : Act for Empowerment : Module Impact obligatoire depuis 2005 (1ère grande école française), 300 étudiants/an, 20-40 h auprès d'associations partenaires"),
+    ('bsb_inner5.jpg',  20,  "p.21 : Nos futurs projets : 12 projets prioritaires 2024-26 structurés par pilier (Respect, Sustainability, Empowerment) et alignés sur les 6 cibles ODD"),
 ]
 
 def extract_page_hd(pdf_path, out_jpg, page_idx):

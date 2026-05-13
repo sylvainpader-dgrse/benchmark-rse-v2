@@ -17,10 +17,11 @@ JPG_QUAL  = 92
 # (clé image, page_idx 0-based, description)
 TARGETS = [
     ('hec.jpg',         0,   "Couverture Sustainability Report 2024 (très sobre, texte seul)"),
-    ('hec_inner1.jpg',  5,   "p.6 — Sustainability Strategy : Sustainable Change Model en 6 axes (Knowledge, Education, Community, Environmental, Social, Governance) avec leurs sous-thèmes"),
-    ('hec_inner2.jpg',  6,   "p.7 — Sustainability Governance : schéma multi-niveaux qui sépare Académique (S&O Institute) et Opérationnel (Sustainability Office)"),
-    ('hec_inner3.jpg',  18,  "p.19 — Parcours Engagement : frise visuelle des 4 modules avec durées chiffrées (3 jours Chamonix + 30 h service + 3 semaines stage + thèse 3 mois)"),
-    ('hec_inner4.jpg',  36,  "p.37 — Carbon Policy : chiffrage de l'impact carbone évité par action (278 tCO2 viande rouge, 5,9 tCO2 IT, -40 % conso énergie d'ici 2030)"),
+    ('hec_inner1.jpg',  3,   "p.4 : Executive Summary structuré en 6 axes (Knowledge, Education, Community, Environmental, Social, Governance) avec bullets de réalisations 2024"),
+    ('hec_inner2.jpg',  5,   "p.6 : Sustainability Strategy : Sustainable Change Model en 6 axes (Knowledge, Education, Community, Environmental, Social, Governance) avec leurs sous-thèmes"),
+    ('hec_inner3.jpg',  6,   "p.7 : Sustainability Governance : schéma multi-niveaux qui sépare Académique (S&O Institute) et Opérationnel (Sustainability Office)"),
+    ('hec_inner4.jpg',  18,  "p.19 : Parcours Engagement : frise visuelle des 4 modules avec durées chiffrées (3 jours Chamonix + 30 h service + 3 semaines stage + thèse 3 mois)"),
+    ('hec_inner5.jpg',  36,  "p.37 : Carbon Policy : chiffrage de l'impact carbone évité par action (278 tCO2 viande rouge, 5,9 tCO2 IT, -40 % conso énergie d'ici 2030)"),
 ]
 
 def extract_page_hd(pdf_path, out_jpg, page_idx):
