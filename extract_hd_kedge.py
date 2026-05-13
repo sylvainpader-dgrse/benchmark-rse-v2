@@ -15,13 +15,15 @@ MAX_W     = 2000
 JPG_QUAL  = 92
 
 # (clé image, page_idx 0-based, description)
+# Layout : 5 images (cover portrait + 4 landscape inner) pour une grille pres-images--5 propre
+# (cover span 2 rows + 4 landscape inner en 2x2). La timeline portrait p.16-17 a été retirée
+# car elle créait un déséquilibre visuel avec les autres landscape inner.
 TARGETS = [
     ('kedge.jpg',         0,  "Couverture Rapport DD 2020-2021 « Cultivons l'esprit d'éthique »"),
     ('kedge_inner1.jpg',  1,  "p.2-3 : Édito DG + 6 engagements externes expliqués (Global Compact, HESI, Label DD&RS, PIR, PRME, Sulitest) + chiffres clés + sommaire"),
     ('kedge_inner2.jpg',  3,  "p.6-7 : Enseignement & formation : Faits marquants 2020-2021 + encadré « KPI Objectif 2025 » + Principe 3 PRME (Méthode)"),
     ('kedge_inner3.jpg',  4,  "p.8-9 : Recherche : 4 chaires DD alignées mission (Vin & Société, Candriam, Société Générale handicap, Sephora) + 4 faits marquants (InViCy, VitiREV, Mon Jardin, La Fumainerie)"),
     ('kedge_inner4.jpg',  7,  "p.14-15 : Indicateurs clés : 14 KPIs structurés par 5 axes (Stratégie, Politique sociale, Enseignement, Gestion environnementale, Recherche) avec flèches d'évolution vs 2019"),
-    ('kedge_inner5.jpg',  8,  "p.16-17 : Timeline « Un engagement à long terme » : 17 ans d'engagement (2005-2021) avec ~32 jalons (créations Sulitest, HESI, chaires, dispositifs)"),
 ]
 
 def extract_page_hd(pdf_path, out_jpg, page_idx):

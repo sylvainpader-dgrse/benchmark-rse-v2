@@ -20,7 +20,8 @@ TARGETS = [
     ('ad_inner1.jpg',  6,   "p.7 : Engagements ESG d'AD Education structurés en 3 piliers (Environnement, Social, Gouvernance) avec 4-5 engagements concrets chacun"),
     ('ad_inner2.jpg',  7,   "p.8 : Jalons 2023-2024 : 7 chiffres clés visuels sur les avancées RSE de l'année"),
     ('ad_inner3.jpg',  8,   "p.9 : Faits marquants 2023-2024 en timeline mensuelle (7 dates clés de l'année avec action associée)"),
-    ('ad_inner4.jpg',  26,  "p.27 : Création de la Fondation AD Education + interview Q&A (3 questions à Dominique Beccaria, directrice générale)"),
+    ('ad_inner4.jpg',  18,  "p.19 : Com For Climate : 2 400 étudiants ESP en 240 agences pendant 2 semaines pour répondre à des briefs d'annonceurs engagés (Greenpeace, Samsung, Orange, Fermes d'avenir)"),
+    ('ad_inner5.jpg',  26,  "p.27 : Création de la Fondation AD Education + interview Q&A (3 questions à Dominique Beccaria, directrice générale)"),
 ]
 
 def extract_page_hd(pdf_path, out_jpg, page_idx):

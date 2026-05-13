@@ -67,7 +67,8 @@ const PRESENTATION_DATA = {
       leg_i1:  "p.7 : Engagements ESG d'AD Education structurés en 3 piliers (Environnement, Social, Gouvernance) avec 4 à 5 engagements concrets chacun",
       leg_i2:  "p.8 : Jalons 2023-2024 : 7 chiffres clés visuels sur les avancées RSE de l'année",
       leg_i3:  "p.9 : Faits marquants 2023-2024 en timeline mensuelle (7 dates clés de l'année avec action associée)",
-      leg_i4:  "p.27 : Création de la Fondation AD Education + interview Q&A (3 questions à Dominique Beccaria, directrice générale)",
+      leg_i4:  "p.19 : Com For Climate : 2 400 étudiants ESP mobilisés en 240 agences pendant 2 semaines pour répondre à des briefs d'annonceurs engagés (Greenpeace, Samsung, Orange, Fermes d'avenir)",
+      leg_i5:  "p.27 : Création de la Fondation AD Education + interview Q&A (3 questions à Dominique Beccaria, directrice générale)",
       forme_plus: [
         "Engagements ESG synthétisés en 3 piliers (Environnement / Social / Gouvernance) avec 4 à 5 engagements chacun (p.7)",
         "Page « Jalons 2023-2024 » qui résume les avancées RSE de l'année en 7 chiffres clés visuels (p.8)",
@@ -116,7 +117,6 @@ const PRESENTATION_DATA = {
       leg_i2:  "p.6-7 : Enseignement & formation : encadré « KPI Objectif 2025 » + alignement explicite sur le Principe 3 PRME (Méthode) + 4 faits marquants 2020-2021",
       leg_i3:  "p.8-9 : Recherche : 4 chaires DD alignées mission (Vin & Société, Candriam, Société Générale handicap, Sephora) + 4 projets recherche emblématiques (InViCy, VitiREV, Mon Jardin, La Fumainerie)",
       leg_i4:  "p.14-15 : Indicateurs clés : 14 KPIs structurés par 5 axes (Stratégie, Politique sociale, Enseignement, Gestion environnementale, Recherche) avec flèches d'évolution vs 2019",
-      leg_i5:  "p.16-17 : Timeline « Un engagement à long terme » : 17 ans d'engagement (2005-2021) avec ~32 jalons (créations Sulitest, HESI, chaires, dispositifs)",
       forme_plus: [
         "Couverture artistique forte : mosaïque de visages d'étudiants en silhouette + tagline « Cultivons l'esprit d'éthique »",
         "Alignement explicite de chaque chapitre sur un des 6 principes PRME (« Principe X : Objectif / Valeurs / Méthode / Recherche / Partenariat »)",
