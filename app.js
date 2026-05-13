@@ -124,6 +124,9 @@ const PRESENTATION_TO_FOCUS_NAME = {
   'kedge':    'KEDGE BUSINESS SCHOOL',
   'ad':       'AD EDUCATION',
   'neoma':    'NEOMA BUSINESS SCHOOL',
+  'gem':      'GRENOBLE EM',
+  'tbs':      'TBS EDUCATION',
+  'insead':   'INSEAD',
 };
 
 function syncScoresFromFocus(r) {
