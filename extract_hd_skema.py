@@ -21,6 +21,7 @@ TARGETS = [
     ('skema_inner2.jpg',  5,  "p.6 — Dates clés : timeline 2009-2025 avec 13 jalons d'engagement (Plan Vert, PRME, Global Compact, ISO 14001, ISO 26000, DD&RS, Bilan Carbone, UNVEIL)"),
     ('skema_inner3.jpg',  11, "p.12 — Plan 3D : 3 axes (Diversité, Décarbonation, Digital & Data for Good) avec 4 sous-objectifs chacun"),
     ('skema_inner4.jpg',  14, "p.15 — Objectifs transversaux du Plan 3D : 3 cibles datées avec % d'avancement chiffré (100 %, 84 %, 82 %) + réalisations"),
+    ('skema_inner5.jpg',  20, "p.21 — Décarbonation : 2 cibles avec % d'avancement (40 %, 60 %) + encadré « Nos publications récentes sur le thème de la Décarbonation »"),
 ]
 
 def extract_page_hd(pdf_path, out_jpg, page_idx):

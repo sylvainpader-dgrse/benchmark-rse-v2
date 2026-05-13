@@ -19,6 +19,7 @@ const PRESENTATION_DATA = {
       leg_i2:  "Notre engagement en quelques dates clés (p.6) : timeline verticale 2009-2025 avec 13 jalons (Plan Vert, PRME, Global Compact, ISO 14001, ISO 26000, DD&RS, Bilan Carbone, UNVEIL)",
       leg_i3:  "Plan 3D (p.12) : visuel central en collage circulaire + 3 axes (Diversité, Décarbonation, Digital & Data for Good) avec 4 sous-objectifs chacun",
       leg_i4:  "Objectifs transversaux Plan 3D (p.15) : cibles datées avec % d'avancement chiffré (100 %, 84 %, 82 %) + bullets de réalisations",
+      leg_i5:  "Décarbonation (p.21) : 3 cibles datées avec % d'avancement (54 %, 40 %, 60 %) + encadré « Nos publications récentes » (Podcast Makes Sense, Knowledge, Publika)",
       forme_plus: [
         "Suivi de chaque cible du plan stratégique par un % d'avancement chiffré (100 %, 84 %, 60 %, 36 %)",
         "Visualisation du plan stratégique 3D par un grand collage circulaire d'images thématiques (p.12)",
