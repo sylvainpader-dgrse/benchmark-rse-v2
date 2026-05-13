@@ -1,16 +1,64 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA + BSB + HEC + KEDGE.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA + BSB + HEC + KEDGE + AD Education.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 13,
+    nb_rapports: 14,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'ad', rank: 14, score: 2.75, forme: 2.5, fond: 3.0,
+      name: 'AD Education', titre: "Rapport ESG 2023-2024", pages: '34 p.',
+      leg_cov: "Couverture sobre « 2023-2024 RAPPORT » (sans même mentionner ESG)",
+      leg_i1:  "p.7 : Engagements ESG d'AD Education structurés en 3 piliers (Environnement, Social, Gouvernance) avec 4 à 5 engagements concrets chacun",
+      leg_i2:  "p.8 : Jalons 2023-2024 : 7 chiffres clés visuels sur les avancées RSE de l'année",
+      leg_i3:  "p.9 : Faits marquants 2023-2024 en timeline mensuelle (7 dates clés de l'année avec action associée)",
+      leg_i4:  "p.27 : Création de la Fondation AD Education + interview Q&A (3 questions à Dominique Beccaria, directrice générale)",
+      forme_plus: [
+        "Engagements ESG synthétisés en 3 piliers (Environnement / Social / Gouvernance) avec 4 à 5 engagements chacun (p.7)",
+        "Page « Jalons 2023-2024 » qui résume les avancées RSE de l'année en 7 chiffres clés visuels (p.8)",
+        "Page « Faits marquants 2023-2024 » en timeline mensuelle qui date chaque action phare (p.9)",
+        "Encadré « Mais aussi… » récurrent en fin de chaque section pour citer 3 à 5 actions complémentaires par d'autres écoles ou campus du Groupe",
+        "Interviews Q&A sur les dispositifs RSE clés (Fondation, Convention Entreprises pour le Climat), portées par leur responsable",
+      ],
+      forme_moins: [
+        "Couverture extrêmement sobre, sans message d'accroche ni même la mention « ESG »",
+        "Pas de schéma directeur visuel des engagements en début de rapport",
+        "Pas de page « Indicateurs clés » récapitulative en fin de rapport",
+        "Pas de tableau d'indicateurs N / N-1",
+        "Pas de codification réalisé / lancé / prévu",
+      ],
+      fond_plus: [
+        "1er réseau européen de formations créatives : 36 000 étudiants, 19 écoles, 70 campus, 9 pays",
+        "Bilan carbone hors France 2023-2024 (2 000 tCO2e) + compensation carbone via SQC Quality-Cert + objectif neutralité 2030",
+        "AD Education a intégré la Convention des Entreprises pour le Climat en avril 2024 (parcours Nouveaux Imaginaires, 60 entreprises culturelles et créatives)",
+        "Programme Skillers (lancé avril 2024) : formation 100 % gratuite en distanciel pour les jeunes sans emploi ni qualification (objectif 1 000 jeunes d'ici 2026)",
+        "Création de la Fondation AD Education (sept 2024, sous égide Fondation de France) avec Françoise Nyssen et Anastassia Makridou-Bretonneau au CA",
+        "Comité ESG Groupe (12 réunions/an) + relais ESG dans chaque pays + représentant ESG par école/campus",
+        "Indexation d'une partie de la rémunération du DG et des directeurs sur l'atteinte des engagements ESG",
+        "Com For Climate 2024 : 2 400 étudiants ESP mobilisés pendant 2 semaines pour répondre à des briefs d'annonceurs engagés (Greenpeace, Samsung, Orange, Fermes d'avenir)",
+      ],
+      fond_moins: [
+        "Pas de signature PRME / Global Compact / Accord de Grenoble / Label DD&RS",
+        "Bilan carbone seulement hors France en 2023-2024 (France à venir en 2025)",
+        "Démarche RSE encore jeune (1er rapport ESG en 2022-2023)",
+        "Pas d'index égalité femmes-hommes mentionné",
+        "Pas de budget RSE global publié",
+      ],
+      idees: [
+        { titre: "Ajouter un encadré « Mais aussi… » récurrent en fin de chaque section",
+          pourquoi: "AD Education est un groupe de 19 écoles réparties sur 70 campus dans 9 pays, ce qui rend impossible de tout détailler. La solution éditoriale qu'il a trouvée : pour chaque thème (énergie, déchets, inclusion, etc.), 1 ou 2 actions phares sont détaillées en pleine page, puis un encadré « Mais aussi… » liste 3 à 5 actions complémentaires en bullets courts (1 ligne par action, avec nom de l'école/campus concerné). Le lecteur a une vision exhaustive sans alourdir le récit principal. Chez IGENSIA, nous sommes aussi un groupe avec plusieurs écoles (MBA ESG, ICD, Pigier, etc.) mais nous ne valorisons pas systématiquement la diversité des actions menées dans chaque école.",
+          comment: "À la fin de chacune de nos 4 grandes parties (Apprenants / Collaborateurs / Campus / Partenaires solidaires), ajouter un encadré « Mais aussi… dans les écoles du Groupe » avec 4 à 6 actions complémentaires en bullets courts. Chaque bullet = 1 ligne au format « [Nom de l'école / campus] : action menée + résultat chiffré ». Permet de matérialiser que la démarche RSE infuse dans toutes les écoles du Groupe IGENSIA, pas uniquement au siège." },
+        { titre: "Format interview Q&A (3 questions) sur chaque dispositif RSE majeur",
+          pourquoi: "AD Education utilise systématiquement le format « 3 questions à [Nom de la personne] » pour faire vivre les dispositifs clés (création de la Fondation AD Education p.27 avec Dominique Beccaria, intégration à la Convention des Entreprises pour le Climat p.33 avec Mélanie Viala). 3 questions courtes : pourquoi le dispositif, comment il fonctionne, qui le porte. Format vivant qui donne la parole aux acteurs et raconte la genèse du projet. Chez IGENSIA, nos dispositifs phares (HOPEN, plan QVCT, dispositif For Me, partenariat Karos, etc.) sont décrits par un narratif institutionnel mais sans interview directe des porteurs.",
+          comment: "Pour 2 ou 3 dispositifs phares dans le prochain rapport, ajouter un encadré « 3 questions à [Nom + fonction] » : (1) pourquoi avoir lancé ce dispositif ? (2) comment il fonctionne concrètement ? (3) quels résultats à ce jour et quelle suite ? Format : portrait + 3 questions courtes + 3 réponses courtes (3 à 5 lignes chacune). Donne du visage et de la voix aux dispositifs." },
+      ],
+    },
     {
       key: 'kedge', rank: 13, score: 2.88, forme: 2.5, fond: 3.25,
       name: 'KEDGE BS', titre: "Rapport Développement Durable 2020-2021 (KEDGE ImpaKt)", pages: '16 p. (double-pages)',
