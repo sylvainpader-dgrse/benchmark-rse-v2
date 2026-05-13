@@ -121,6 +121,7 @@ const PRESENTATION_TO_FOCUS_NAME = {
   'skema':    'SKEMA BUSINESS SCHOOL',
   'bsb':      'BURGUNDY SCHOOL OF BUSINESS',
   'hec':      'HEC PARIS',
+  'kedge':    'KEDGE BUSINESS SCHOOL',
 };
 
 function syncScoresFromFocus(r) {

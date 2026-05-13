@@ -1,16 +1,62 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA + BSB + HEC.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA + BSB + HEC + KEDGE.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 12,
+    nb_rapports: 13,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'kedge', rank: 13, score: 2.88, forme: 2.5, fond: 3.25,
+      name: 'KEDGE BS', titre: "Rapport Développement Durable 2020-2021 (KEDGE ImpaKt)", pages: '16 p. (double-pages)',
+      leg_cov: "Couverture artistique : mosaïque de visages d'étudiants en silhouette + « Cultivons l'esprit d'éthique » + signature « KEDGE Impakt »",
+      leg_i1:  "p.2-3 — Édito DG + chiffres clés + 6 engagements externes expliqués chacun en 4-5 lignes (Global Compact, HESI, Label DD&RS, PIR, PRME, Sulitest)",
+      leg_i2:  "p.6-7 — Enseignement & formation : encadré « KPI Objectif 2025 » + alignement explicite sur le Principe 3 PRME (Méthode) + 4 faits marquants 2020-2021",
+      leg_i3:  "p.14-15 — Indicateurs clés : 14 KPIs structurés par 5 axes (Stratégie, Politique sociale, Enseignement, Gestion environnementale, Recherche) avec flèches d'évolution vs 2019",
+      leg_i4:  "p.16-17 — Timeline « Un engagement à long terme » : 17 ans d'engagement (2005-2021) avec ~32 jalons (créations Sulitest, HESI, chaires, dispositifs)",
+      forme_plus: [
+        "Couverture artistique forte : mosaïque de visages d'étudiants en silhouette + tagline « Cultivons l'esprit d'éthique »",
+        "Alignement explicite de chaque chapitre sur un des 6 principes PRME (« Principe X : Objectif / Valeurs / Méthode / Recherche / Partenariat »)",
+        "Encadré « KPI Objectif 2025 » systématique en fin de chaque chapitre (1 cible chiffrée par chapitre)",
+        "Présentation pédagogique des 6 engagements externes en p.2-3 (chacun en 4-5 lignes d'explication, pas juste un logo)",
+        "Page « Indicateurs clés » qui compare 14 KPIs vs 2019 avec flèches d'évolution",
+        "Timeline « Un engagement à long terme » qui retrace 17 ans (2005-2021) sur ~32 jalons institutionnels",
+      ],
+      forme_moins: [
+        "Rapport ancien (2020-2021), pas la dernière édition",
+        "Format paysage double-page peu adapté à la lecture mobile",
+        "Texte dense et structure parfois rigide (chaque chapitre suit le même schéma)",
+      ],
+      fond_plus: [
+        "Stratégie 2025 sous bannière unique « KEDGE ImpaKt » avec 5 piliers (expérience étudiante, engagement employés, durabilité, inclusivité, performance économique)",
+        "80 « Impakteurs » (réseau interne de référents RSE) qui se réunissent tous les 2 mois pour relayer les projets",
+        "Création de Sulitest (test mondial DD) co-incubé par KEDGE, devenu outil ONU pour les ODD + 5 000 étudiants/an le passent à la rentrée",
+        "Plus grand centre d'excellence Développement Durable d'Europe (30+ professeurs, doctorants et post-doc)",
+        "4 chaires de recherche alignées sur la mission (Vin & Société, Candriam, Société Générale handicap, Sephora)",
+        "Plan climat depuis 2019 (6 axes) + objectif -25 % d'empreinte carbone scope 3 d'ici 2025 + bilan carbone tous les 3 ans depuis 2009",
+        "École Entrepreneuriale en partenariat avec Apprentis d'Auteuil (jeunes 18-30 ans quartiers prioritaires, 2 promos Marseille et Bordeaux)",
+        "Budget global annuel DD&RS publié : 150 000 €",
+      ],
+      fond_moins: [
+        "Rapport publié en 2021 sur l'exercice 2020-2021 (chiffres datés)",
+        "Index égalité femmes-hommes 76/100 (vs 89 EMLYON, 95 IÉSEG)",
+        "Bilan carbone seulement tous les 3 ans (vs annuel ailleurs)",
+        "Pas de validation Science Based Targets",
+      ],
+      idees: [
+        { titre: "Aligner explicitement chaque chapitre du rapport sur un principe LUCIE 26000",
+          pourquoi: "KEDGE intègre dans chaque chapitre un encadré « Principe X » qui pointe sur l'un des 6 principes PRME de l'ONU : Principe 1 Objectif, Principe 2 Valeurs, Principe 3 Méthode, Principe 4 Recherche, Principe 5 Partenariat. Le lecteur voit immédiatement à quel cadre international la stratégie de l'École s'aligne. Chez IGENSIA, nous nous appuyons sur LUCIE 26000 (force du mémo) mais nous ne montrons pas explicitement, à chaque chapitre, à quel principe LUCIE l'action décrite s'aligne.",
+          comment: "À l'ouverture de chacune de nos 4 grandes parties (Apprenants / Collaborateurs / Campus / Partenaires solidaires), ajouter un encadré « Principes LUCIE 26000 mobilisés » qui liste les 1 ou 2 principes LUCIE concernés avec leur intitulé court. Permet au lecteur de relier nos actions à un cadre normatif externe reconnu et de matérialiser la cohérence de notre démarche." },
+        { titre: "Présenter pédagogiquement chaque engagement / référentiel externe avec son descriptif (pas juste un logo)",
+          pourquoi: "KEDGE consacre une page (p.2-3) à la présentation de ses 6 engagements externes (Global Compact, HESI, Label DD&RS, Positive Impact Rating, PRME, Sulitest), chacun expliqué pédagogiquement en 4 à 5 lignes : ce qu'est l'engagement, quand l'École l'a signé, ce qu'il implique. Le lecteur apprend la signification de chaque cadre. Chez IGENSIA, nous mentionnons LUCIE 26000, les ODD et le Pacte Mondial mais sans présentation pédagogique structurée de chaque engagement (qui est LUCIE, depuis quand, qu'est-ce que cela implique pour nous).",
+          comment: "Dédier 1 page en début de rapport (après l'édito) à « Nos engagements externes » avec 5 à 7 cadres présentés en mini-fiches : LUCIE 26000, ODD ONU, Pacte Mondial, Pôle Égalité des Chances, partenaires LPO / Mozaïk RH / ANLCI, etc. Chaque cadre = logo + 4 à 5 lignes (qu'est-ce que c'est, depuis quand IGENSIA en est signataire ou partenaire, ce que cela implique concrètement)." },
+      ],
+    },
     {
       key: 'hec', rank: 12, score: 2.88, forme: 2.25, fond: 3.5,
       name: 'HEC Paris', titre: "Sustainability Report 2024", pages: '52 p.',
