@@ -118,6 +118,7 @@ const PRESENTATION_TO_FOCUS_NAME = {
   'ieseg':    'IESEG SCHOOL OF MANAGEMENT',
   'emlyon':   'EMLYON BUSINESS SCHOOL',
   'edhec':    'EDHEC BUSINESS SCHOOL',
+  'skema':    'SKEMA BUSINESS SCHOOL',
 };
 
 function syncScoresFromFocus(r) {

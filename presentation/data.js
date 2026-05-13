@@ -1,16 +1,79 @@
 /* ==============================
    Présentation Benchmark Rapports RSE : données analyses
-   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC.
+   Pour l'instant : IGENSIA (référence, rendue séparément) + OMNES + ESSEC + Galileo + Excelia + Audencia + EFREI + IÉSEG + EMLYON + EDHEC + SKEMA.
    Les autres rapports seront ajoutés un par un après lecture approfondie.
    L'ordre du tableau n'a pas d'importance : tri par rang à l'affichage.
    ============================== */
 
 const PRESENTATION_DATA = {
   meta: {
-    nb_rapports: 9,
+    nb_rapports: 10,
     methodo: ""
   },
   rapports: [
+    {
+      key: 'skema', rank: 10, score: 3.12, forme: 3.25, fond: 3.0,
+      name: 'SKEMA BS', titre: "Rapport d'activités SKEMA Transitions 2024-2025", pages: '24 p.',
+      leg_cov: "Couverture illustration flat-design : étudiants sur campus + titre simple « Rapport d'activités SKEMA Transitions 2024-2025 »",
+      leg_i1:  "Chiffres clés (p.5) : 11 000 étudiants, 130 nationalités, 63 000 alumni, 10 implantations dans 7 pays, +500 profs, +200 projets incubés",
+      leg_i2:  "Notre engagement en quelques dates clés (p.6) : timeline verticale 2009-2025 avec 13 jalons (Plan Vert, PRME, Global Compact, ISO 14001, ISO 26000, DD&RS, Bilan Carbone, UNVEIL)",
+      leg_i3:  "Plan 3D (p.12) : visuel central en collage circulaire + 3 axes (Diversité, Décarbonation, Digital & Data for Good) avec 4 sous-objectifs chacun",
+      leg_i4:  "Objectifs transversaux Plan 3D (p.15) : cibles datées avec % d'avancement chiffré (100 %, 84 %, 82 %) + bullets de réalisations",
+      forme_plus: [
+        "Format « Objectif daté + cible chiffrée + % d'avancement + Réalisations » pour chaque cible du plan (p.15-23)",
+        "Visuel central du plan stratégique en collage circulaire d'images (p.12)",
+        "Timeline « Notre engagement en quelques dates clés » sur 16 ans avec 13 jalons (p.6)",
+        "Page de chiffres clés sobre avec 6 indicateurs (p.5)",
+        "Section « Nos publications récentes » en fin de chaque axe (Podcast, Knowledge, Glimpse, Publika)",
+        "Plan structuré en 3 axes simples (Diversité, Décarbonation, Digital & Data for Good)",
+      ],
+      forme_moins: [
+        "6 pages séparatrices quasi-vierges (p.4, 7, 8, 11, 14, 19) qui allongent inutilement le rapport",
+        "Pas de témoignages incarnés dans le rapport",
+        "Photos rares, peu de visages",
+        "Couverture illustration simple sans message d'accroche sur la démarche",
+        "Pas de schéma de gouvernance visuel (que du texte)",
+      ],
+      fond_plus: [
+        "Plan 3D : 3 axes (Diversité, Décarbonation, Digital & Data for Good)",
+        "SKEMA Transitions lancé en 2022 + UNVEIL nouveau plan stratégique 2025-2030",
+        "Label DD&RS depuis 2023, renouvelé pour 4 ans en 2025",
+        "Certifications ISO 14001 sur 3 campus français (Sophia 2010, Lille 2016, Grand Paris 2023)",
+        "Démarche ISO 26000 depuis 2018, PRME + Global Compact depuis 2010",
+        "1er bilan carbone scopes 1, 2 et 3 élargi publié en 2023",
+        "Chaire Inclusion et Diversité Premium Scholars : 1,5 M€, 30 bourses complètes Bachelor",
+        "Chaire Generative AI for Good (avec Microsoft) et chaire Nouvelles Mobilités 2025",
+        "Transitions Act 2024 : projet pédagogique aligné sur les 3 axes du plan 3D",
+        "100 % des étudiants formés aux 3 axes (diversité, décarbonation, numérique responsable) en 2025",
+        "1 300 participants Fresque du Climat 2025 + 900 Atelier 2 Tonnes + 700 Fresque du Numérique",
+        "95 % collaborateurs formés diversité, 86 % décarbonation, 86 % numérique",
+        "42 % des 91 associations étudiantes ont une mission à impact (objectif 50 % 2026)",
+        "41 % des publications scientifiques liées aux ODD (objectif 50 % 2027)",
+        "SKEMA Entrepreneurs : 300 projets incubés 2024-2025 + track IA Microsoft (20) + track Transitions Live for Good (10)",
+        "Charte Numérique Responsable signée juin 2024",
+        "SKEMA KARE : service santé mentale + handicap + inclusion piloté par psychologue",
+        "3,6 M€ de soutien financier aux étudiants en 2024 (objectif 10 M€ d'ici 2027)",
+        "-30 % de vols pro depuis 2022 + plateforme de covoiturage (150 000 km, 32 TeqCO2 évitées)",
+        "-15,5 % conso électrique et -19 % conso chaleur depuis 2019 (campus français)",
+        "Move For Good : projets RSE pendant les mobilités internationales (15 projets / 60 étudiants à Dubai en expérimentation)",
+        "Transitions Week : 2 éditions étendues aux campus internationaux (Suzhou, Belo Horizonte, Raleigh)",
+      ],
+      fond_moins: [
+        "Bilan carbone publié mais pas détaillé dans ce rapport (chiffres absolus absents)",
+        "Pas de tableau d'indicateurs N / N-1 en fin de rapport",
+        "Pas de budget RSE global publié",
+        "Pas d'index égalité femmes-hommes mentionné",
+        "Cibles datées mais baseline 2019 non affichée",
+      ],
+      idees: [
+        { titre: "Chiffrer en % le niveau d'avancement de chaque cible datée du plan stratégique",
+          pourquoi: "SKEMA affiche pour chaque objectif daté de son plan stratégique 3D un pourcentage d'avancement chiffré à date : « En 2025 : 100 % des étudiants formés aux enjeux de la transition bas-carbone → 100 % », « En 2026 : 50 % des associations étudiantes ont une mission à impact → 84 % », « En 2027 : 10 M€ d'aides financières aux étudiants → 36 % ». Le lecteur saisit immédiatement la progression réelle vers chaque cible, sans avoir à interpréter un statut binaire. Chez IGENSIA, on a la codification C'EST RÉALISÉ / LANCÉ / PRÉVU dans le narratif des sections, ce qui est plus binaire et moins informatif que le pourcentage chiffré.",
+          comment: "Pour chaque objectif daté du plan IGENSIA (apprenants formés DD-RSE d'ici 2027, BC réduit de X % d'ici 20XX, etc.), afficher à côté de l'intitulé un % d'avancement à date. Format : Objectif daté en titre + % en grand + bullets de réalisations en dessous. Permet de mesurer la trajectoire vers chaque cible et apporte une mesure quantitative à la codification existante." },
+        { titre: "Schéma directeur du plan stratégique en visuel central frappant (collage / mandala)",
+          pourquoi: "SKEMA matérialise son plan 3D (p.12) par un visuel central en collage circulaire de 7-8 images thématiques (océan, fleurs, étudiantes en classe, mains tendues vers la terre, etc.) qui forment un grand cercle en haut de page, surmonté du titre « SKEMA Transitions Plan 3D ». Le lecteur capte le projet stratégique en un seul regard avant même de lire les 3 axes. Chez IGENSIA, le schéma directeur RSE 5 axes n'est pas matérialisé visuellement en début de rapport (faiblesse identifiée dans le mémo).",
+          comment: "En ouverture de la partie stratégie / gouvernance du prochain rapport, construire un visuel central fort (collage circulaire d'images thématiques, mandala, illustration unique) qui matérialise les axes de notre démarche RSE LUCIE + ODD. Donne une carte d'identité visuelle immédiate au plan, à compléter par le détail textuel en dessous." },
+      ],
+    },
     {
       key: 'edhec', rank: 9, score: 3.25, forme: 2.75, fond: 3.75,
       name: 'EDHEC BS', titre: 'Rapport DDRS 2023', pages: '36 p.',
