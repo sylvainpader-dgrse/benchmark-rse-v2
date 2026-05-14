@@ -587,6 +587,10 @@ thead th.rank-col, td.rank-cell {
   font-weight: 600;
   letter-spacing: 0.2px;
 }
+.pres-sub-link {
+  font-size: 0.85rem;
+  margin-top: 6px;
+}
 .pres-score {
   margin-left: auto;
   font-size: 1.9rem;

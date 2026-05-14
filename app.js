@@ -294,8 +294,9 @@ function renderRapportCard(r) {
         <div class="pres-rank">#${r.rank}</div>
         <div class="pres-titre">
           <h2>${escapeHTML(r.name)}</h2>
-          <p class="pres-sub">${escapeHTML(r.titre)}${r.pages ? ' • ' + escapeHTML(r.pages) : ''}${r.url ? ` • <a href="${escapeAttr(r.url)}" target="_blank" rel="noopener" class="pres-rapport-link">Voir le rapport</a>` : ''}</p>
+          <p class="pres-sub">${escapeHTML(r.titre)}${r.pages ? ' • ' + escapeHTML(r.pages) : ''}</p>
           <p class="pres-sub-scores">Forme ${r.forme.toFixed(2)} · Fond ${r.fond.toFixed(2)}</p>
+          ${r.url ? `<p class="pres-sub-link"><a href="${escapeAttr(r.url)}" target="_blank" rel="noopener" class="pres-rapport-link">Voir le rapport</a></p>` : ''}
         </div>
         <div class="pres-score">${r.score.toFixed(1)}<small>/5</small></div>
       </div>
