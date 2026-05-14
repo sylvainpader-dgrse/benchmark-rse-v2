@@ -296,12 +296,6 @@ thead th.rank-col, td.rank-cell {
   color: var(--accent);
   border-bottom-color: var(--accent);
 }
-.data-tab-back {
-  display: inline-block;
-  margin-bottom: 10px;
-  font-size: 0.88rem;
-}
-
 /* Onglet caché de la barre de nav (accessible via data-tab-jump) */
 .tab-hidden { display: none !important; }
 
