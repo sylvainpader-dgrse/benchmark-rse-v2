@@ -1725,6 +1725,41 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   border-bottom: 1px solid var(--border);
 }
 .comparison-criterion:last-child { border-bottom: none; }
+/* Toolbar au-dessus de chaque critère : titre du critère à gauche,
+   bouton « Voir chez toutes les écoles » à droite */
+.crit-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0 6px;
+}
+.crit-toolbar-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+.crit-allschools-btn {
+  flex: 0 0 auto;
+  appearance: none;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.crit-allschools-btn:hover,
+.crit-allschools-btn:focus {
+  background: var(--primary);
+}
 .crit-summary {
   font-size: 0.78rem;
   color: var(--text);

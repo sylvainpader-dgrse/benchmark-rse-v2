@@ -125,6 +125,13 @@ function setupTabs() {
         critBtn.dataset.axeName,
         critBtn.dataset.schoolName
       );
+      return;
+    }
+    // --- Bouton « Voir chez toutes les écoles » ---
+    const allBtn = e.target.closest('[data-justif-crit]');
+    if (allBtn) {
+      e.preventDefault();
+      openJustifForCriterion(parseInt(allBtn.dataset.justifCrit, 10));
     }
   });
   // Esc → fermeture du modal critère
@@ -137,6 +144,24 @@ function openFocusDetail(focusName) {
   if (focusName) selectedFocusSchool = focusName;
   renderFocus();
   switchToTab('focus');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Ouvre la vue Justifications détaillées filtrée sur un critère
+// spécifique (déclenché depuis Comparaison par axe pour voir le
+// verdict de toutes les écoles sur ce critère).
+function openJustifForCriterion(col) {
+  justifFilterCrit = String(col);
+  justifFilterVerdict = '';
+  const select = document.getElementById('justifCritSelect');
+  if (select) select.value = String(col);
+  const vfilter = document.getElementById('justifVerdictFilter');
+  if (vfilter) vfilter.style.display = '';
+  document.querySelectorAll('.verdict-filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.verdict === '');
+  });
+  renderJustifications();
+  switchToTab('justifications');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -1584,6 +1609,10 @@ function renderRadarComparison(igensiaData) {
       if (hasContent || igV !== 'OUI') {
         const igensiaName = igensiaData.name || '★ IGENSIA EDUCATION';
         html += `<div class="comparison-criterion">
+          <div class="crit-toolbar">
+            <span class="crit-toolbar-title">${critName}</span>
+            <button type="button" class="crit-allschools-btn" data-justif-crit="${col}" title="Voir le verdict de toutes les écoles sur ce critère">Voir chez toutes les écoles</button>
+          </div>
           <div class="comparison-columns">
             <div class="comparison-col col-igensia">
               <div class="crit-line">
