@@ -420,10 +420,13 @@ function extractLabels(school, idx) {
 }
 
 function renderStats() {
-  const total = D.grille.length;
+  const totalAll = D.grille.length;
+  // Stats comparatives : on exclut IGENSIA (référence du benchmark,
+  // pas un concurrent). Le premier card garde le total complet.
   let labelled = 0, pacte = 0, sam = 0;
   let ddrs = 0, lucie = 0, ecovadis = 0, otherLabel = 0;
   D.grille.forEach((s, i) => {
+    if (isIgensia(s.name)) return;
     if (s.verdicts['4'] === 'OUI') {
       labelled++;
       const info = extractLabels(s, i);
@@ -436,7 +439,8 @@ function renderStats() {
     if (info.pacte) pacte++;
     if (info.sam) sam++;
   });
-  const rapportAnalyses = D.focus.length;
+  const totalBench = totalAll - 1;  // 42 hors IGENSIA
+  const rapportAnalyses = D.focus.filter(f => !isIgensia(f.name)).length;
 
   // Score moyen par axe (écoles remplies seulement)
   const axesDef = [
@@ -464,32 +468,32 @@ function renderStats() {
 
   el.innerHTML = `
     <div class="stat-card">
-      <div class="stat-num">${total}</div>
-      <div class="stat-label">${total - 6} écoles et 6 groupes analysés</div>
+      <div class="stat-num">${totalAll}</div>
+      <div class="stat-label">${totalAll - 6} écoles et 6 groupes analysés</div>
     </div>
     <div class="stat-card stat-card-labels">
-      <div class="stat-num">${labelled}<span class="stat-num-small">/${total}</span></div>
-      <div class="stat-label">Labellisées RSE</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:${labelled*100/total}%"></div></div>
+      <div class="stat-num">${labelled}<span class="stat-num-small">/${totalBench}</span></div>
+      <div class="stat-label">Labellisées RSE <span class="stat-hint">(hors IGENSIA)</span></div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${labelled*100/totalBench}%"></div></div>
       <div class="stat-pills-row">
         <span class="stat-pill pill-ddrs">DD&RS <strong>${ddrs}</strong></span>
         <span class="stat-pill pill-lucie">LUCIE <strong>${lucie}</strong></span>
       </div>
     </div>
     <div class="stat-card">
-      <div class="stat-num">${rapportAnalyses}<span class="stat-num-small">/${total}</span></div>
-      <div class="stat-label">Rapports RSE analysés</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:${rapportAnalyses*100/total}%"></div></div>
+      <div class="stat-num">${rapportAnalyses}<span class="stat-num-small">/${totalBench}</span></div>
+      <div class="stat-label">Rapports RSE analysés <span class="stat-hint">(hors IGENSIA)</span></div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${rapportAnalyses*100/totalBench}%"></div></div>
     </div>
     <div class="stat-card">
-      <div class="stat-num">${pacte}<span class="stat-num-small">/${total}</span></div>
-      <div class="stat-label">Pacte Mondial / PRME</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:${pacte*100/total}%"></div></div>
+      <div class="stat-num">${pacte}<span class="stat-num-small">/${totalBench}</span></div>
+      <div class="stat-label">Pacte Mondial / PRME <span class="stat-hint">(hors IGENSIA)</span></div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${pacte*100/totalBench}%"></div></div>
     </div>
     <div class="stat-card">
-      <div class="stat-num">${sam}<span class="stat-num-small">/${total}</span></div>
-      <div class="stat-label">Société à Mission</div>
-      <div class="stat-bar"><div class="stat-bar-fill" style="width:${sam*100/total}%"></div></div>
+      <div class="stat-num">${sam}<span class="stat-num-small">/${totalBench}</span></div>
+      <div class="stat-label">Société à Mission <span class="stat-hint">(hors IGENSIA)</span></div>
+      <div class="stat-bar"><div class="stat-bar-fill" style="width:${sam*100/totalBench}%"></div></div>
     </div>
   `;
 }

@@ -1717,6 +1717,12 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   margin-top: 0.3rem;
   font-weight: 600;
 }
+.stat-card .stat-hint {
+  font-weight: 400;
+  font-size: 0.68rem;
+  opacity: 0.7;
+  white-space: nowrap;
+}
 .stat-card .stat-bar {
   height: 6px;
   background: var(--border);
