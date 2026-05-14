@@ -568,6 +568,18 @@ thead th.rank-col, td.rank-cell {
   color: var(--text-light);
   margin-top: 4px;
 }
+.pres-rapport-link {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--primary);
+  font-weight: 600;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.pres-rapport-link:hover,
+.pres-rapport-link:focus {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
 .pres-sub-scores {
   font-size: 0.8rem;
   color: var(--accent);

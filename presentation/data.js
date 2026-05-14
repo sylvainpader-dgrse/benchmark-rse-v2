@@ -12,7 +12,7 @@ const PRESENTATION_DATA = {
   rapports: [
     {
       key: 'cesi', rank: 21, score: 2.5, forme: 0.75, fond: 4.25,
-      name: 'CESI', titre: "Rapport RSE 2023", pages: '57 p.',
+      name: 'CESI', titre: "Rapport RSE 2023", pages: '57 p.', url: '',
       leg_cov: "Couverture standard : bande jaune CESI + visuel stock « globe en verre dans la mousse », titre « RAPPORT RSE 2023 CESI Mai 2024 »",
       leg_i1:  "p.4 : Pictogrammes des 17 ODD ONU + liste textuelle des chartes et labels (CTI 1978, CGE Plan Vert DD-RS 2014, Comité 21 2016, FFP, Charte Diversité, ECHE Erasmus, UNAI 2023, Bienvenue en France niv.2 2024, OFIS 2022)",
       leg_i2:  "p.26 : Graphique évolution du nombre d'étudiants en situation de handicap accompagnés (205 en 2020-2021 à 524 en 2023-2024, soit x2,5 en 4 ans), seul graphique de progression de tout le rapport",
@@ -56,7 +56,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'psb', rank: 20, score: 2.25, forme: 1.75, fond: 2.75,
-      name: 'PSB', titre: "Sustainable development progress report 2022-2023", pages: '19 p.',
+      name: 'PSB', titre: "Sustainable development progress report 2022-2023", pages: '19 p.', url: '',
       leg_cov: "Couverture intégralement en anglais, portrait étudiante pleine page, sobre et institutionnelle ; aucune mention de signature ou de référentiel sur la cover",
       leg_i1:  "p.8-9 : Vision et valeurs (Pluralism, Responsibility, Singularity, Inclusiveness, Agility) et engagement PRME (6 principes des Nations Unies signés en 2014)",
       leg_i2:  "p.10-11 : « A CSR policy at the heart of the school » : démarche en 4 niveaux et CSR Committee (3 missions, 5 catégories de membres) qui se réunit au moins 2 fois par an",
@@ -101,7 +101,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'emstras', rank: 19, score: 2.5, forme: 1.5, fond: 3.5,
-      name: 'EM Strasbourg', titre: "Rapport RSO 2023", pages: '38 p.',
+      name: 'EM Strasbourg', titre: "Rapport RSO 2023", pages: '38 p.', url: '',
       leg_cov: "Couverture sobre « Rapport RSO 2023 » (9e édition consécutive, signataire PRME depuis 2007), format institutionnel",
       leg_i1:  "p.5 : Politique RSO articulée en 4 axes (Formation, Fonctionnement responsable, Recherche, Impact sociétal) co-construite avec les parties prenantes et validée par le COMEX en janvier 2022",
       leg_i2:  "p.6 : Tableau détaillé reliant chaque objectif RSO aux ODD et cibles précises (4.7, 12.6, 12.8, 13.2, 13.3, 9.5, 17.7, 17.17), sur 3 pages denses",
@@ -146,7 +146,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'insead', rank: 18, score: 2.5, forme: 1.75, fond: 3.25,
-      name: 'INSEAD', titre: "Sustainability Report 2021-2022 & 2022-2023", pages: '33 p.',
+      name: 'INSEAD', titre: "Sustainability Report 2021-2022 & 2022-2023", pages: '33 p.', url: '',
       leg_cov: "Couverture : Sustainability Report, Academic Years 2021-2022 & 2022-2023 (rapport biennal en anglais, format institutionnel international)",
       leg_i1:  "p.4-5 : Édito du Dean Francisco Veloso, signature unique, alignement GRI 2-22 / UN PRME Principle 1 affiché en marge",
       leg_i2:  "p.8-9 : « The Business School for the World », 4 campus (Europe, Asie, Moyen-Orient, San Francisco Hub), 159 faculty, 67 600 alumni, 7 programmes diplômants",
@@ -192,7 +192,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'tbs', rank: 17, score: 2.62, forme: 1.75, fond: 3.5,
-      name: 'TBS Education', titre: "Rapport de Société à Mission 24-25", pages: '30 p.',
+      name: 'TBS Education', titre: "Rapport de Société à Mission 24-25", pages: '30 p.', url: '',
       leg_cov: "Couverture sobre « Rapport de SOCIETE A MISSION 24-25 » (janvier 2026)",
       leg_i1:  "p.3 : Comité de Mission de 8 membres avec photos, externalisé à 75 % (Campus de la Transition, French Tech Toulouse, Aéma Groupe, ENM, Ilek, agence MIEUX)",
       leg_i2:  "p.8 : Raison d'être + 4 objectifs statutaires (OS#1 Recherche à impact / OS#2 Formation DD-RS / OS#3 Diversité d'acteurs / OS#4 Écosystème et empreinte)",
@@ -237,7 +237,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'gem', rank: 16, score: 2.62, forme: 1.75, fond: 3.5,
-      name: 'Grenoble EM', titre: "Rapport de Société à Mission 2025", pages: '40 p.',
+      name: 'Grenoble EM', titre: "Rapport de Société à Mission 2025", pages: '40 p.', url: '',
       leg_cov: "Couverture sobre « Rapport de Société à Mission 2025 » avec visuel sommet alpin (positionnement Alpine Business School)",
       leg_i1:  "p.11 : Présentation GEM avec L'ADN de Grenoble en 3 axes (Innovation et technologies, Engagement sociétal première école Société à Mission, Géopolitique et international) + 6 chiffres clés institutionnels",
       leg_i2:  "p.12 : Frise historique de l'engagement RSE 2006-2024 sous forme de chemin de montagne (Charte RSE, Comité RSE, Global Compact, PRME, Label DD&RS, Société à Mission, trajectoire GES)",
@@ -289,7 +289,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'neoma', rank: 15, score: 2.75, forme: 2.5, fond: 3.0,
-      name: 'NEOMA BS', titre: "Rapport d'engagement TSE 2025", pages: '44 p.',
+      name: 'NEOMA BS', titre: "Rapport d'engagement TSE 2025", pages: '44 p.', url: '',
       leg_cov: "Couverture Rapport d'engagement 2025 (Transition Sociale et Environnementale)",
       leg_i1:  "p.8 : Plan stratégique 2023-2027 « Engage for the Future » avec 9 objectifs stratégiques répartis sur 3 piliers (3+3+3)",
       leg_i2:  "p.11 : Piliers TSE posés dès 2018 + 8 engagements externes signés (PRME, Charte Diversité, Handicap, STOPE, Accord climat Rouen, Grenoble, Shift Project)",
@@ -338,7 +338,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'ad', rank: 14, score: 2.75, forme: 2.5, fond: 3.0,
-      name: 'AD Education', titre: "Rapport ESG 2023-2024", pages: '34 p.',
+      name: 'AD Education', titre: "Rapport ESG 2023-2024", pages: '34 p.', url: '',
       leg_cov: "Couverture sobre « 2023-2024 RAPPORT » (sans même mentionner ESG)",
       leg_i1:  "p.7 : Engagements ESG d'AD Education structurés en 3 piliers (Environnement, Social, Gouvernance) avec 4 à 5 engagements concrets chacun",
       leg_i2:  "p.8 : Jalons 2023-2024 : 7 chiffres clés visuels sur les avancées RSE de l'année",
@@ -386,7 +386,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'kedge', rank: 13, score: 2.88, forme: 2.5, fond: 3.25,
-      name: 'KEDGE BS', titre: "Rapport Développement Durable 2020-2021 (KEDGE ImpaKt)", pages: '16 p. (double-pages)',
+      name: 'KEDGE BS', titre: "Rapport Développement Durable 2020-2021 (KEDGE ImpaKt)", pages: '16 p. (double-pages)', url: '',
       leg_cov: "Couverture artistique : mosaïque de visages d'étudiants en silhouette + « Cultivons l'esprit d'éthique » + signature « KEDGE Impakt »",
       leg_i1:  "p.2-3 : Édito DG + chiffres clés + 6 engagements externes expliqués chacun en 4-5 lignes (Global Compact, HESI, Label DD&RS, PIR, PRME, Sulitest)",
       leg_i2:  "p.6-7 : Enseignement & formation : encadré « KPI Objectif 2025 » + alignement explicite sur le Principe 3 PRME (Méthode) + 4 faits marquants 2020-2021",
@@ -432,7 +432,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'hec', rank: 12, score: 2.88, forme: 2.25, fond: 3.5,
-      name: 'HEC Paris', titre: "Sustainability Report 2024", pages: '52 p.',
+      name: 'HEC Paris', titre: "Sustainability Report 2024", pages: '52 p.', url: '',
       leg_cov: "Couverture extrêmement sobre : « SUSTAINABILITY REPORT 2024 » en texte seul",
       leg_i1:  "Executive Summary (p.4) : 2 pages de synthèse structurées en 6 axes avec bullets de réalisations 2024 (Knowledge, Education, Community, Environmental, Social, Governance)",
       leg_i2:  "Sustainable Change Model (p.6) : schéma directeur RSE en 6 axes avec leurs sous-thèmes",
@@ -482,7 +482,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'bsb', rank: 11, score: 3.12, forme: 3.0, fond: 3.25,
-      name: 'Burgundy SB', titre: "5e Rapport de Responsabilité Sociétale, décembre 2024", pages: '24 p.',
+      name: 'Burgundy SB', titre: "5e Rapport de Responsabilité Sociétale, décembre 2024", pages: '24 p.', url: '',
       leg_cov: "Couverture : photo étudiante en lecture sous un arbre + ruban jaune ondulant + « 5e Rapport de Responsabilité Sociétale »",
       leg_i1:  "Notre stratégie RSE « Act for Change » (p.5) : 3 piliers (Act for Respect, Act for Sustainability, Act for Empowerment) + 6 objectifs alignés sur 6 cibles ODD précises (10.3, 12.8, 16.6, 17.6, 4.7, 4.a)",
       leg_i2:  "Un engagement de longue date (p.6) : timeline 2003-2024 qui retrace 21 ans d'engagement RSE sur 13 jalons",
@@ -527,7 +527,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'skema', rank: 10, score: 3.12, forme: 3.25, fond: 3.0,
-      name: 'SKEMA BS', titre: "Rapport d'activités SKEMA Transitions 2024-2025", pages: '24 p.',
+      name: 'SKEMA BS', titre: "Rapport d'activités SKEMA Transitions 2024-2025", pages: '24 p.', url: '',
       leg_cov: "Couverture illustration flat-design : étudiants sur campus + titre simple « Rapport d'activités SKEMA Transitions 2024-2025 »",
       leg_i1:  "Chiffres clés (p.5) : 11 000 étudiants, 130 nationalités, 63 000 alumni, 10 implantations dans 7 pays, +500 profs, +200 projets incubés",
       leg_i2:  "Notre engagement en quelques dates clés (p.6) : timeline verticale 2009-2025 avec 13 jalons (Plan Vert, PRME, Global Compact, ISO 14001, ISO 26000, DD&RS, Bilan Carbone, UNVEIL)",
@@ -574,7 +574,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'edhec', rank: 9, score: 3.25, forme: 2.75, fond: 3.75,
-      name: 'EDHEC BS', titre: 'Rapport DDRS 2023', pages: '36 p.',
+      name: 'EDHEC BS', titre: 'Rapport DDRS 2023', pages: '36 p.', url: '',
       leg_cov: "Couverture « Make an Impact » : illustration tête stylisée + tagline forte",
       leg_i1:  "Carte d'identité (p.4-5) : 11 chiffres clés à gauche + labels d'engagement à droite (PRME, 17 ODD, Accord de Grenoble, Positive Impact Rating)",
       leg_i2:  "Page « Témoignages » (p.8) : 6 voix variées sur une seule page (étudiante asso, responsable RSE, alumni entrepreneur, prof finance climat, asso, alumni RH)",
@@ -623,7 +623,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'emlyon', rank: 8, score: 3.38, forme: 3.5, fond: 3.25,
-      name: 'EMLYON BS', titre: "Rapport d'engagement 2024", pages: '40 p.',
+      name: 'EMLYON BS', titre: "Rapport d'engagement 2024", pages: '40 p.', url: '',
       leg_cov: "Couverture : « Rapport d'engagement 2024 » + tampon « Société à Mission » + photo étudiants sur le nouveau campus de Lyon",
       leg_i1:  "À propos d'emlyon (p.4) : 9 chiffres clés + classement FT 3e mondial / 1er France « ESG and net zero teaching » + Top 4 ChangeNOW",
       leg_i2:  "Plan stratégique Résonances 2028 (p.7) : 5 qualités « makers » + objectifs Formation / Recherche / Fonctionnement avec code couleur",
@@ -673,7 +673,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'ieseg', rank: 7, score: 3.5, forme: 3.0, fond: 4.0,
-      name: 'IÉSEG', titre: "Rapport d'Impact 2024-2025", pages: '47 p.',
+      name: 'IÉSEG', titre: "Rapport d'Impact 2024-2025", pages: '47 p.', url: '',
       cover_landscape: true,
       leg_cov: "Couverture : « LEARN, ACT, IMPACT » + tagline « EMPOWERING CHANGEMAKERS FOR A BETTER SOCIETY »",
       leg_i1:  "Chiffres clés 2024-2025 : 1,332 tCO2/utilisateur, 81 % des cours intègrent l'impact, 1 900 étudiants Changemakers Odyssey, 61 cours spécialisés impact",
@@ -720,7 +720,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'efrei', rank: 6, score: 3.75, forme: 3.75, fond: 3.75,
-      name: 'EFREI', titre: 'Rapport de Progrès DD/RS 2026', pages: '44 p.',
+      name: 'EFREI', titre: 'Rapport de Progrès DD/RS 2026', pages: '44 p.', url: '',
       leg_cov: "Couverture : « Construire un monde meilleur et plus durable pour tous »",
       leg_i1:  "Chiffres clés : 70 % des parties prenantes coconstruisent / 100 % des processus ont des objectifs RSE / 10 journées DD",
       leg_i2:  "Journée Efrei for Good Xperience 2025 : 3 400 étudiants, 43 ateliers, 36 entreprises partenaires, 17 startups",
@@ -769,7 +769,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'audencia', rank: 5, score: 3.75, forme: 4.00, fond: 3.50,
-      name: 'Audencia BS', titre: "Rapport d'activité DD&RS 2026", pages: '16 p.',
+      name: 'Audencia BS', titre: "Rapport d'activité DD&RS 2026", pages: '16 p.', url: '',
       leg_cov: "Couverture Rapport d'activité DD&RS 2026",
       leg_i1:  "Lettre d'engagement du DG Sébastien Tran adressée formellement à Global Compact / PRME",
       leg_i2:  "Stratégie & gouvernance : schéma directeur DD&RS 2030 + matrice de double matérialité (23 IRO dont 18 jugés matériels)",
@@ -817,7 +817,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'excelia', rank: 4, score: 3.88, forme: 3.75, fond: 4.00,
-      name: 'Excelia BS', titre: 'Rapport Transition Écologique et Sociétale 2022-2024', pages: '44 p.',
+      name: 'Excelia BS', titre: 'Rapport Transition Écologique et Sociétale 2022-2024', pages: '44 p.', url: '',
       leg_cov: "Couverture Rapport TES 2022-2024 : « Osez regarder le futur avec audace, #exploreyourfuture »",
       leg_i1:  "Timeline 2013-2023 + schéma directeur des 5 axes (Gouvernance, Formations, Recherche, Environnement, Politique sociale)",
       leg_i2:  "Page « Résultats et classements » : 5e ChangeNOW, niveau 4/5 PIR Top 50 mondial, 301-400 Times Higher Ed IMPACT",
@@ -871,7 +871,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'galileo', rank: 3, score: 3.88, forme: 4.25, fond: 3.50,
-      name: 'Galileo Global Education', titre: "Rapport d'Impact 2024-2025", pages: '122 p.',
+      name: 'Galileo Global Education', titre: "Rapport d'Impact 2024-2025", pages: '122 p.', url: '',
       cover_landscape: true,
       leg_cov: "Couverture Rapport d'Impact Galileo 2024-2025",
       leg_i1:  "Matrice de double matérialité (axe impact / axe financier, codage couleur Social-Environnement-Gouvernance)",
@@ -916,7 +916,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'essec', rank: 2, score: 4.00, forme: 4.00, fond: 4.00,
-      name: 'ESSEC', titre: 'Rapport Développement Durable et Responsabilité Sociétale 2025', pages: '22 p.',
+      name: 'ESSEC', titre: 'Rapport Développement Durable et Responsabilité Sociétale 2025', pages: '22 p.', url: '',
       leg_cov: "Couverture du rapport ESSEC 2025",
       leg_i1:  "Gouvernance & Stratégie : 3 priorités / 10 engagements / 8 plans d'action + schéma visuel des 4 instances",
       leg_i2:  "Chiffres clés Environnement : -10 % empreinte CO2/étudiant, +1,9× recyclage, -30 % déchets (23/24 vs 18/19)",
@@ -958,7 +958,7 @@ const PRESENTATION_DATA = {
     },
     {
       key: 'omnes', rank: 1, score: 4.00, forme: 3.75, fond: 4.25,
-      name: 'OMNES Education', titre: 'Rapport de Responsabilité Sociétale 2024-2025', pages: '44 p.',
+      name: 'OMNES Education', titre: 'Rapport de Responsabilité Sociétale 2024-2025', pages: '44 p.', url: '',
       leg_cov: "Couverture du rapport OMNES Education 2024-2025",
       leg_i1:  "Sommaire structuré en 4 piliers Time to Act / Accomplish / Be Consistent / Take Care",
       leg_i2:  "Tableau d'indicateurs sur 5 ans en fin de rapport",
