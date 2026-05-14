@@ -264,12 +264,19 @@ function renderIgensiaReference() {
           <ul>
             <li><strong>Label LUCIE 26000 pas suffisamment visible sur la page de garde</strong> : argument d'autorité fort à exposer dès la couverture</li>
             <li><strong>Pas de schéma directeur RSE 5 axes visible en début de rapport</strong> : le lecteur doit avoir une vue d'ensemble avant d'entrer dans le détail</li>
+            <li><strong>Pas de page « Chiffres-clés » synthétique en ouverture</strong> : carte d'identité chiffrée du rapport lisible en 30 secondes, distincte du schéma stratégique (pratique présente chez IÉSEG, ESSEC, EDHEC, Audencia)</li>
+            <li><strong>Pas de frise historique de l'engagement RSE du Groupe</strong> : nos jalons (GMF 1997, Hand'IGS 2008, Plan Écowatt 2022, Campus des Groues 2025, LUCIE 26000 2025…) ne sont nulle part mis en perspective temporelle (6 écoles du benchmark en publient une)</li>
+            <li><strong>Codification « C'EST RÉALISÉ / LANCÉ / PRÉVU » trop binaire sur les objectifs datés</strong> : ajouter un % d'avancement ou une jauge de maturité graduée pour rendre la trajectoire visible (pratique observée chez SKEMA, EMLYON, TBS, EM Strasbourg)</li>
           </ul>
           <h4 class="pres-neg" style="margin-top:14px;">✗ Fond</h4>
           <ul>
             <li><strong>Pas de budget RSE publié</strong> en chiffre absolu</li>
             <li><strong>Pas de tableau récapitulatif</strong> d'indicateurs N / N-1 (vue trajectoire)</li>
             <li><strong>ODD pas explicitement connectés à nos actions</strong> : mentionnés en cadre général (p.11) mais pas mis en lien direct avec chacune des actions du rapport</li>
+            <li><strong>LUCIE 26000 sous-exploitée comme épine dorsale du rapport</strong> : nos chapitres ne sont pas alignés sur les principes LUCIE (KEDGE structure tout son rapport sur les 6 principes PRME) et nos engagements externes ne sont pas présentés pédagogiquement (page « Nos engagements » avec mini-fiches de chaque référentiel)</li>
+            <li><strong>Impact carbone évité non chiffré par action</strong> : HOPEN, ateliers 2tonnes, train obligatoire, restauration, achats responsables, etc. gagneraient à afficher « X tCO2e évitées » (HEC chiffre chaque action ; Digital Clean Up Week 2025 a déjà chiffré 1,83 tCO2e évitée chez nous : bon réflexe à généraliser)</li>
+            <li><strong>Pas d'auto-critique structurée</strong> : ni encadré « Les défis à relever » par grande partie, ni explication des variations défavorables d'indicateurs (pratique d'OMNES, EMLYON, EM Strasbourg, Audencia qui distingue un rapport d'engagement d'un document de communication)</li>
+            <li><strong>Dimension Groupe sous-exploitée</strong> : pas d'encadré « Mais aussi… dans les écoles du Groupe » (MBA ESG, ICD, Pigier, IGS-RH…) ni d'indicateurs consolidés en % d'écoles ayant déployé X (vu chez AD Education et Galileo, qui ont tous deux trouvé cette solution éditoriale pour valoriser la diversité d'actions sans alourdir le récit principal)</li>
           </ul>
         </div>
       </div>
