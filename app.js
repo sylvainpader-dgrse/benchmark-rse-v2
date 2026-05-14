@@ -215,11 +215,15 @@ function renderPresentation() {
 }
 
 function renderIgensiaReference() {
+  // URL tirée du focus IGENSIA (col 5) pour rester synchronisée.
+  const fIg = D.focus.find(x => x.name === '★ IGENSIA EDUCATION');
+  const igUrl = (fIg && fIg.data && fIg.data['5']) ? fIg.data['5'] : '';
   return `
     <section id="pres-igensia-ref" class="pres-reference">
       <div class="pres-ref-head">
         <h2>Rapport RSE Groupe IGENSIA Education 2024-2025</h2>
         <p class="pres-ref-sub">48 pages, 1<sup>er</sup> rapport RSE publié par le Groupe</p>
+        ${igUrl ? `<p class="pres-sub-link"><a href="${escapeAttr(igUrl)}" target="_blank" rel="noopener" class="pres-rapport-link">Voir le rapport</a></p>` : ''}
       </div>
 
       <div class="pres-images">
