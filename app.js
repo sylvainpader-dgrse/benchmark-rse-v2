@@ -1256,11 +1256,12 @@ function renderRadar() {
     });
   }
 
-  // Render chips
+  // Render chips (uniquement les écoles ajoutées par l'utilisateur :
+  // IGENSIA et la moyenne sont déjà identifiées dans la légende
+  // sous le radar, pas besoin de chips redondants en haut).
   const chipsEl = document.getElementById('radarChips');
   if (chipsEl) {
-    let html = '<span class="radar-chip igensia-chip">IGENSIA</span>';
-    html += '<span class="radar-chip" style="background:#999">Moyenne</span>';
+    let html = '';
     radarSchools.forEach((name, i) => {
       const color = RADAR_COLORS[(i + 2) % RADAR_COLORS.length].border;
       const shortName = name.split('\n')[0].replace('★ ','');
