@@ -6,7 +6,7 @@
 <title>Benchmark RSE | IGENSIA Education</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260513bn">
+<link rel="stylesheet" href="style.css?v=20260513bo">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -48,30 +48,23 @@
       <button data-tab-jump="radar">Comparaison par axe</button>
       <button data-tab-jump="justifications">Justifications détaillées</button>
     </div>
-    <div class="legend">
-      <span class="legend-item"><span class="badge oui">OUI</span> Critère vérifié</span>
-      <span class="legend-item"><span class="badge partiel">PARTIEL</span> Initié / incomplet</span>
-      <span class="legend-item"><span class="badge non">NON</span> Absent ou données non trouvées</span>
-    </div>
-    <div class="legend" style="margin-top:6px;">
-      <span class="legend-item"><span class="badge" style="background:#4CAF50;color:#fff;font-size:11px;">≥33</span> Avancé</span>
-      <span class="legend-item"><span class="badge" style="background:#8BC34A;color:#fff;font-size:11px;">27–32</span> Confirmé</span>
-      <span class="legend-item"><span class="badge" style="background:#FFC107;color:#333;font-size:11px;">21–26</span> En progression</span>
-      <span class="legend-item"><span class="badge" style="background:#E53935;color:#fff;font-size:11px;">&lt;21</span> Insuffisant</span>
-    </div>
     <details class="methodo-note">
       <summary>Note méthodologique</summary>
       <div class="methodo-content">
-        <p><strong>Scoring :</strong> Chaque école est évaluée sur 36 critères répartis en 5 axes alignés sur le référentiel LUCIE 26000 d'IGENSIA. Le score est calculé ainsi : OUI = 1 pt, PARTIEL = 0,5 pt, NON = 0 pt. Score maximum : 36/36.</p>
-        <p><strong>Seuils des verdicts :</strong></p>
-        <ul>
-          <li><strong>OUI</strong> : le dispositif est déployé, documenté et vérifiable dans les sources publiques.</li>
-          <li><strong>PARTIEL</strong> : le dispositif est initié, annoncé, ou partiellement déployé. Un objectif annoncé sans preuve de réalisation = PARTIEL.</li>
-          <li><strong>NON</strong> : aucune donnée publique trouvée, ou absence constatée dans les rapports et sites web.</li>
+        <p><strong>Verdicts :</strong></p>
+        <ul class="methodo-verdicts">
+          <li><span class="badge oui">OUI</span> <strong>(1 pt)</strong> : dispositif déployé, documenté et vérifiable dans des sources publiques.</li>
+          <li><span class="badge partiel">PARTIEL</span> <strong>(0,5 pt)</strong> : dispositif initié, annoncé ou partiellement déployé. Un objectif annoncé sans preuve de réalisation est considéré comme partiel.</li>
+          <li><span class="badge non">NON</span> <strong>(0 pt)</strong> : aucune donnée publique trouvée ou absence constatée dans les rapports/sites.</li>
         </ul>
-        <p><strong>Sources :</strong> Rapports RSE/DD&RS publiés, rapports Société à Mission, DPEF, sites web institutionnels, bases publiques (Légifrance, EcoVadis, label-ddrs.org). Chaque justification cite sa source précise.</p>
-        <p><strong>Écoles et groupes :</strong> Le benchmark évalue 37 écoles et 6 groupes éducatifs (IGENSIA, OMNES, AD Education, Galileo, IONIS, CESI). Lorsqu'une école et son groupe sont tous deux présents, les scores sont indépendants : le score de l'école reflète ses actions propres documentées, le score du groupe reflète la politique RSE consolidée au niveau groupe. Certaines écoles (ESCE, PSB, EDC) sont rattachées à un groupe identifié sous leur nom.</p>
-        <p><strong>Classement :</strong> IGENSIA est toujours affichée en première ligne (groupe cible de l'étude, auto-évaluation). Les autres sont classées par score décroissant.</p>
+        <p><strong>Score :</strong> OUI = 1 pt ; PARTIEL = 0,5 pt ; NON = 0 pt (score max : 36/36). <strong>Interprétation :</strong></p>
+        <ul class="methodo-thresholds">
+          <li><span class="badge" style="background:#4CAF50;color:#fff;font-size:11px;">≥33</span> Avancé</li>
+          <li><span class="badge" style="background:#8BC34A;color:#fff;font-size:11px;">27–32</span> Confirmé</li>
+          <li><span class="badge" style="background:#FFC107;color:#333;font-size:11px;">21–26</span> En progression</li>
+          <li><span class="badge" style="background:#E53935;color:#fff;font-size:11px;">&lt;21</span> Insuffisant</li>
+        </ul>
+        <p><strong>Sources et périmètre :</strong> Benchmark réalisé sur 37 écoles et 6 groupes éducatifs (IGENSIA, OMNES, AD Education, Galileo, IONIS, CESI), à partir de rapports RSE/DD&RS, rapports Société à Mission, DPEF, sites institutionnels et bases publiques. Les scores école et groupe restent indépendants afin d'évaluer les actions réellement portées à chaque niveau.</p>
       </div>
     </details>
     <div class="table-wrapper">
@@ -385,8 +378,8 @@
   <p>Benchmark RSE, Travail exploratoire IGENSIA Education, 2026</p>
 </footer>
 
-<script src="data.js?v=20260513bn"></script>
-<script src="presentation/data.js?v=20260513bn"></script>
-<script src="app.js?v=20260513bn"></script>
+<script src="data.js?v=20260513bo"></script>
+<script src="presentation/data.js?v=20260513bo"></script>
+<script src="app.js?v=20260513bo"></script>
 </body>
 </html>

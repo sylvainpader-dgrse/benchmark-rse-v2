@@ -353,6 +353,33 @@ thead th.rank-col, td.rank-cell {
 .methodo-content ul { margin: 4px 0 8px 20px; }
 .methodo-content li { margin-bottom: 3px; }
 .methodo-content p { margin: 6px 0; }
+/* Liste des verdicts (OUI / PARTIEL / NON) : badge + définition,
+   sans puces pour ne pas alourdir visuellement */
+.methodo-content ul.methodo-verdicts {
+  list-style: none;
+  margin-left: 0;
+}
+.methodo-content ul.methodo-verdicts li {
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: baseline;
+}
+/* Seuils d'interprétation : pastilles en ligne, séparées par espace */
+.methodo-content ul.methodo-thresholds {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.methodo-content ul.methodo-thresholds li {
+  margin-bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
 .stat-card-axes { min-width: 220px; }
 .axe-bar-row { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
 .axe-bar-label { font-size: 0.7rem; min-width: 90px; text-align: right; color: #555; }
