@@ -940,17 +940,19 @@ thead th.rank-col, td.rank-cell {
   color: var(--primary);
   font-size: 0.95rem;
 }
-.crit-detail-text {
-  font-size: 0.85rem;
-  line-height: 1.55;
-  color: #333;
-  white-space: normal;
-  word-wrap: break-word;
+.crit-detail-block .justif-text {
+  font-size: 0.86rem;
+  line-height: 1.6;
 }
-.crit-detail-text a {
+.crit-detail-block .justif-text a {
   color: var(--primary);
   text-decoration: none;
   border-bottom: 1px dotted var(--primary);
+  word-break: break-all;
+}
+.crit-detail-block .justif-text a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 .crit-detail-empty,
 .crit-modal-empty {

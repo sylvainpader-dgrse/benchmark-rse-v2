@@ -78,11 +78,29 @@ function setupTabs() {
       switchToTab(btn.dataset.tab);
     });
   });
-  // Liens internes (data-tab-jump) qui basculent vers un autre onglet,
-  // utilisés par le bandeau d'intro et le bouton « Voir les données
-  // détaillées ». Event delegation pour fonctionner aussi sur les
-  // éléments rendus dynamiquement après le DOMContentLoaded.
+  // Liens internes et délégation d'événements globale.
+  // L'ordre des branches matters : la gestion du modal critère arrive
+  // EN PREMIER pour intercepter les clics avant les autres handlers.
   document.addEventListener('click', e => {
+    // --- Modal critère : prioritaire ---
+    const openModal = document.querySelector('.crit-modal.open');
+    if (openModal) {
+      // Bouton de fermeture
+      if (e.target.closest('.crit-modal-close')) {
+        e.preventDefault();
+        closeCriterionDetail();
+        return;
+      }
+      // Click sur le fond opaque (= directement sur .crit-modal, pas un descendant)
+      if (e.target === openModal) {
+        closeCriterionDetail();
+        return;
+      }
+      // Click à l'intérieur du contenu : ne rien faire (et ne pas
+      // déclencher les autres handlers globaux qui suivent)
+      if (e.target.closest('.crit-modal-content')) return;
+    }
+    // --- Bascule d'onglet via [data-tab-jump] ---
     const jump = e.target.closest('[data-tab-jump]');
     if (jump) {
       e.preventDefault();
@@ -90,16 +108,14 @@ function setupTabs() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }
-    // Lien « Voir le détail » par fiche : bascule vers la vue
-    // Données détaillées avec la bonne école pré-sélectionnée.
+    // --- Lien « Voir le détail » par fiche rapport ---
     const detail = e.target.closest('[data-focus-detail]');
     if (detail) {
       e.preventDefault();
       openFocusDetail(detail.dataset.focusDetail);
       return;
     }
-    // Bouton « Voir le détail » dans Comparaison par axe : ouvre
-    // le modal avec la justification complète du critère.
+    // --- Bouton « Voir le détail » dans Comparaison par axe ---
     const critBtn = e.target.closest('.crit-detail-btn');
     if (critBtn) {
       e.preventDefault();
@@ -108,13 +124,6 @@ function setupTabs() {
         critBtn.dataset.axeId,
         critBtn.dataset.axeName
       );
-      return;
-    }
-    // Fermeture du modal critère : bouton ×, fond opaque
-    if (e.target.closest('.crit-modal-close') ||
-        (e.target.classList && e.target.classList.contains('crit-modal'))) {
-      e.preventDefault();
-      closeCriterionDetail();
     }
   });
   // Esc → fermeture du modal critère
@@ -174,15 +183,17 @@ function openCriterionDetail(col, axeId, axeName) {
 
 function renderCritDetailBlock(name, verdict, text, isIgensia) {
   const cls = isIgensia ? 'crit-detail-block crit-detail-igensia' : 'crit-detail-block';
-  const safeText = text
-    ? escapeHTML(text).replace(/\n/g, '<br>')
-    : '<em class="crit-detail-empty">Non documenté dans nos sources</em>';
+  // Réutilise formatJustif() : badges apprenants/collabs, sources en
+  // italique grise, URLs auto-cliquables (comme dans la vue Justifications).
+  const body = text
+    ? `<div class="justif-text">${formatJustif(text)}</div>`
+    : '<div class="crit-detail-empty"><em>Non documenté dans nos sources</em></div>';
   return `<div class="${cls}">
     <div class="crit-detail-head">
       <span class="crit-detail-name">${escapeHTML(name)}</span>
       ${badgeHTML(verdict)}
     </div>
-    <div class="crit-detail-text">${safeText}</div>
+    ${body}
   </div>`;
 }
 
