@@ -96,7 +96,30 @@ function setupTabs() {
     if (detail) {
       e.preventDefault();
       openFocusDetail(detail.dataset.focusDetail);
+      return;
     }
+    // Bouton « Voir le détail » dans Comparaison par axe : ouvre
+    // le modal avec la justification complète du critère.
+    const critBtn = e.target.closest('.crit-detail-btn');
+    if (critBtn) {
+      e.preventDefault();
+      openCriterionDetail(
+        parseInt(critBtn.dataset.critCol, 10),
+        critBtn.dataset.axeId,
+        critBtn.dataset.axeName
+      );
+      return;
+    }
+    // Fermeture du modal critère : bouton ×, fond opaque
+    if (e.target.closest('.crit-modal-close') ||
+        (e.target.classList && e.target.classList.contains('crit-modal'))) {
+      e.preventDefault();
+      closeCriterionDetail();
+    }
+  });
+  // Esc → fermeture du modal critère
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeCriterionDetail();
   });
 }
 
@@ -105,6 +128,69 @@ function openFocusDetail(focusName) {
   renderFocus();
   switchToTab('focus');
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// =============================
+// Modal détail critère (depuis Comparaison par axe)
+// =============================
+function openCriterionDetail(col, axeId, axeName) {
+  const modal = document.getElementById('critDetailModal');
+  if (!modal) return;
+  const titleEl = document.getElementById('critModalTitle');
+  const axeEl = document.getElementById('critModalAxe');
+  const body = document.getElementById('critModalBody');
+
+  const critName = D.criteria[col - 1]?.name || '';
+  axeEl.textContent = axeId ? `${axeId} · ${axeName}` : '';
+  titleEl.textContent = critName;
+
+  const ig = D.grille.find(s => isIgensia(s.name));
+  const igJustif = D.justifications.find(s => isIgensia(s.name));
+
+  let html = '';
+  if (ig && igJustif) {
+    const v = ig.verdicts[String(col)] || '';
+    const text = igJustif.justifs[String(col)] || '';
+    html += renderCritDetailBlock('★ IGENSIA Education', v, text, true);
+  }
+
+  radarSchools.forEach(name => {
+    const s = D.grille.find(x => x.name === name);
+    const j = D.justifications.find(x => x.name === name);
+    if (!s || !j) return;
+    const v = s.verdicts[String(col)] || '';
+    const text = j.justifs[String(col)] || '';
+    const shortName = name.split('\n')[0].replace('★ ', '');
+    html += renderCritDetailBlock(shortName, v, text, false);
+  });
+
+  if (!html) {
+    html = '<div class="crit-modal-empty">Aucune donnée disponible pour ce critère.</div>';
+  }
+  body.innerHTML = html;
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function renderCritDetailBlock(name, verdict, text, isIgensia) {
+  const cls = isIgensia ? 'crit-detail-block crit-detail-igensia' : 'crit-detail-block';
+  const safeText = text
+    ? escapeHTML(text).replace(/\n/g, '<br>')
+    : '<em class="crit-detail-empty">Non documenté dans nos sources</em>';
+  return `<div class="${cls}">
+    <div class="crit-detail-head">
+      <span class="crit-detail-name">${escapeHTML(name)}</span>
+      ${badgeHTML(verdict)}
+    </div>
+    <div class="crit-detail-text">${safeText}</div>
+  </div>`;
+}
+
+function closeCriterionDetail() {
+  const modal = document.getElementById('critDetailModal');
+  if (!modal) return;
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
 }
 
 function switchToTab(tabName) {
@@ -1449,6 +1535,7 @@ function renderRadarComparison(igensiaData) {
               <div class="crit-line">
                 <span class="crit-dot ${dotCls}"></span>
                 <span class="crit-label"><strong>${critName}</strong> (${igV})</span>
+                <button type="button" class="crit-detail-btn" data-crit-col="${col}" data-axe-id="${axe.id}" data-axe-name="${escapeAttr(axe.name)}" title="Voir la justification complète">Voir le détail</button>
               </div>
               ${igHtml}
             </div>

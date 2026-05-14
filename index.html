@@ -6,7 +6,7 @@
 <title>Benchmark RSE | IGENSIA Education</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260513bg">
+<link rel="stylesheet" href="style.css?v=20260513bh">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -188,6 +188,19 @@
   <div id="imgLightbox" class="img-lightbox" onclick="this.classList.remove('open')">
     <img id="imgLightboxImg" alt="">
     <span class="lightbox-close">×</span>
+  </div>
+
+  <!-- Modal détail critère : justification complète d'un critère pour
+       IGENSIA + écoles comparées, ouverte depuis Comparaison par axe -->
+  <div id="critDetailModal" class="crit-modal">
+    <div class="crit-modal-content" onclick="event.stopPropagation()">
+      <button type="button" class="crit-modal-close" aria-label="Fermer">×</button>
+      <div class="crit-modal-header">
+        <div class="crit-modal-axe" id="critModalAxe"></div>
+        <h3 id="critModalTitle"></h3>
+      </div>
+      <div id="critModalBody" class="crit-modal-body"></div>
+    </div>
   </div>
 
   <!-- TAB 5: ANALYSE XERFI -->
@@ -372,8 +385,8 @@
   <p>Benchmark RSE, Travail exploratoire IGENSIA Education, 2026</p>
 </footer>
 
-<script src="data.js?v=20260513bg"></script>
-<script src="presentation/data.js?v=20260513bg"></script>
-<script src="app.js?v=20260513bg"></script>
+<script src="data.js?v=20260513bh"></script>
+<script src="presentation/data.js?v=20260513bh"></script>
+<script src="app.js?v=20260513bh"></script>
 </body>
 </html>

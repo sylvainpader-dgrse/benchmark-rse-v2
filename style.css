@@ -856,6 +856,131 @@ thead th.rank-col, td.rank-cell {
 }
 
 /* Lightbox image (clic image agrandit) */
+/* Modal détail critère (depuis Comparaison par axe) */
+.crit-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.55);
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5vh 20px;
+  overflow-y: auto;
+}
+.crit-modal.open { display: flex; }
+.crit-modal-content {
+  position: relative;
+  background: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 880px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  padding: 28px 32px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.crit-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #888;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.crit-modal-close:hover {
+  background: #f4f0fa;
+  color: var(--primary);
+}
+.crit-modal-header {
+  padding-right: 40px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #ece6f3;
+  padding-bottom: 14px;
+}
+.crit-modal-axe {
+  font-size: 0.78rem;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.crit-modal-content h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+.crit-modal-body { display: flex; flex-direction: column; gap: 16px; }
+.crit-detail-block {
+  background: #fafafa;
+  border: 1px solid #ece6f3;
+  border-radius: 8px;
+  padding: 14px 18px;
+}
+.crit-detail-block.crit-detail-igensia {
+  background: #f8f6ff;
+  border-color: #d4c4e8;
+  border-left: 4px solid var(--primary);
+}
+.crit-detail-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.crit-detail-name {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.95rem;
+}
+.crit-detail-text {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: #333;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.crit-detail-text a {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--primary);
+}
+.crit-detail-empty,
+.crit-modal-empty {
+  color: #999;
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+/* Bouton « Voir le détail » sur chaque ligne critère dans
+   Comparaison par axe */
+.crit-detail-btn {
+  margin-left: 8px;
+  padding: 2px 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: transparent;
+  border: 1px solid #d4c4e8;
+  border-radius: 12px;
+  color: var(--primary);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+  font-family: inherit;
+}
+.crit-detail-btn:hover,
+.crit-detail-btn:focus {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
 .img-lightbox {
   display: none;
   position: fixed;
