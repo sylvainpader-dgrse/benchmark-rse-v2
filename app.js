@@ -136,17 +136,22 @@ function syncScoresFromFocus(r) {
   // Met à jour forme / fond / score à partir des notes actuelles
   // de l'entrée correspondante dans D.focus (avec localStorage déjà mergé
   // par loadSaved dans le DOMContentLoaded).
+  // Récupère aussi le lien du rapport (col 5 du focus) si non défini en dur.
   const focusName = PRESENTATION_TO_FOCUS_NAME[r.key];
   if (!focusName) return r;
   const f = D.focus.find(x => x.name === focusName);
-  if (!f || !f.notes) return r;
+  if (!f) return r;
+  // Pull URL from focus col 5 ("Lien RAPPORT") if not already set on r.
+  const focusUrl = (f.data && f.data['5']) ? f.data['5'] : '';
+  const out = { ...r, url: r.url || focusUrl };
+  if (!f.notes) return out;
   const bf  = parseFloat(f.notes.blanche?.forme);
   const bfo = parseFloat(f.notes.blanche?.fond);
   const sf  = parseFloat(f.notes.sylvain?.forme);
   const sfo = parseFloat(f.notes.sylvain?.fond);
-  if (isNaN(bf) || isNaN(bfo) || isNaN(sf) || isNaN(sfo)) return r;
+  if (isNaN(bf) || isNaN(bfo) || isNaN(sf) || isNaN(sfo)) return out;
   return {
-    ...r,
+    ...out,
     forme: (bf + sf) / 2,
     fond:  (bfo + sfo) / 2,
     score: (bf + bfo + sf + sfo) / 4,
