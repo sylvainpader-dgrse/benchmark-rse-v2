@@ -294,7 +294,7 @@ function renderRapportCard(r) {
         <div class="pres-rank">#${r.rank}</div>
         <div class="pres-titre">
           <h2>${escapeHTML(r.name)}</h2>
-          <p class="pres-sub">${r.url ? `<a href="${escapeHTML(r.url)}" target="_blank" rel="noopener" class="pres-rapport-link">${escapeHTML(r.titre)}</a>` : escapeHTML(r.titre)}${r.pages ? ' • ' + escapeHTML(r.pages) : ''}</p>
+          <p class="pres-sub">${escapeHTML(r.titre)}${r.pages ? ' • ' + escapeHTML(r.pages) : ''}${r.url ? ` • <a href="${escapeAttr(r.url)}" target="_blank" rel="noopener" class="pres-rapport-link">Voir le rapport</a>` : ''}</p>
           <p class="pres-sub-scores">Forme ${r.forme.toFixed(2)} · Fond ${r.fond.toFixed(2)}</p>
         </div>
         <div class="pres-score">${r.score.toFixed(1)}<small>/5</small></div>
@@ -752,12 +752,22 @@ function renderJustifications() {
 
 function escapeHTML(str) {
   const urlRegex = /(https?:\/\/[^\s<>,;)\]]+)/g;
-  let escaped = str
+  let escaped = String(str)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
   escaped = escaped.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener">$1</a>');
   return escaped;
+}
+
+// Escape uniquement pour attribut HTML (href, src, etc.), sans auto-link.
+function escapeAttr(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
 }
 
 function formatComment(str) {
