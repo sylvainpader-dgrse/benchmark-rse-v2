@@ -668,7 +668,7 @@ function renderStats() {
     </div>
     <div class="stat-card stat-card-labels">
       <div class="stat-num">${labelled}<span class="stat-num-small">/${totalBench}</span></div>
-      <div class="stat-label">Labellisées RSE <span class="stat-hint">(hors IGENSIA)</span></div>
+      <div class="stat-label">Labellisées RSE</div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${labelled*100/totalBench}%"></div></div>
       <div class="stat-pills-row">
         <span class="stat-pill pill-ddrs">DD&RS <strong>${ddrs}</strong></span>
@@ -677,17 +677,17 @@ function renderStats() {
     </div>
     <div class="stat-card">
       <div class="stat-num">${rapportAnalyses}<span class="stat-num-small">/${totalBench}</span></div>
-      <div class="stat-label">Rapports RSE analysés <span class="stat-hint">(hors IGENSIA)</span></div>
+      <div class="stat-label">Rapports RSE analysés</div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${rapportAnalyses*100/totalBench}%"></div></div>
     </div>
     <div class="stat-card">
       <div class="stat-num">${pacte}<span class="stat-num-small">/${totalBench}</span></div>
-      <div class="stat-label">Pacte Mondial / PRME <span class="stat-hint">(hors IGENSIA)</span></div>
+      <div class="stat-label">Pacte Mondial / PRME</div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${pacte*100/totalBench}%"></div></div>
     </div>
     <div class="stat-card">
       <div class="stat-num">${sam}<span class="stat-num-small">/${totalBench}</span></div>
-      <div class="stat-label">Société à Mission <span class="stat-hint">(hors IGENSIA)</span></div>
+      <div class="stat-label">Société à Mission</div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:${sam*100/totalBench}%"></div></div>
     </div>
   `;
