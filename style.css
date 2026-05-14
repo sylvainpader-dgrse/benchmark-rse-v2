@@ -1731,6 +1731,13 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   border-left: 3px solid var(--oui-text);
 }
 .crit-other-item .crit-dot { margin-top: 4px; }
+.crit-other-body { flex: 1; }
+.crit-other-body .crit-detail-btn {
+  margin-left: 6px;
+  padding: 1px 8px;
+  font-size: 0.68rem;
+  vertical-align: middle;
+}
 .comparison-empty {
   color: var(--text-light);
   font-style: italic;

@@ -122,7 +122,8 @@ function setupTabs() {
       openCriterionDetail(
         parseInt(critBtn.dataset.critCol, 10),
         critBtn.dataset.axeId,
-        critBtn.dataset.axeName
+        critBtn.dataset.axeName,
+        critBtn.dataset.schoolName
       );
     }
   });
@@ -142,7 +143,7 @@ function openFocusDetail(focusName) {
 // =============================
 // Modal détail critère (depuis Comparaison par axe)
 // =============================
-function openCriterionDetail(col, axeId, axeName) {
+function openCriterionDetail(col, axeId, axeName, schoolName) {
   const modal = document.getElementById('critDetailModal');
   if (!modal) return;
   const titleEl = document.getElementById('critModalTitle');
@@ -153,28 +154,23 @@ function openCriterionDetail(col, axeId, axeName) {
   axeEl.textContent = axeId ? `${axeId} · ${axeName}` : '';
   titleEl.textContent = critName;
 
-  const ig = D.grille.find(s => isIgensia(s.name));
-  const igJustif = D.justifications.find(s => isIgensia(s.name));
+  // Trouve l'école visée (par nom exact)
+  const school = D.grille.find(s => s.name === schoolName);
+  const justif = D.justifications.find(s => s.name === schoolName);
 
   let html = '';
-  if (ig && igJustif) {
-    const v = ig.verdicts[String(col)] || '';
-    const text = igJustif.justifs[String(col)] || '';
-    html += renderCritDetailBlock('★ IGENSIA Education', v, text, true);
-  }
-
-  radarSchools.forEach(name => {
-    const s = D.grille.find(x => x.name === name);
-    const j = D.justifications.find(x => x.name === name);
-    if (!s || !j) return;
-    const v = s.verdicts[String(col)] || '';
-    const text = j.justifs[String(col)] || '';
-    const shortName = name.split('\n')[0].replace('★ ', '');
-    html += renderCritDetailBlock(shortName, v, text, false);
-  });
-
-  if (!html) {
-    html = '<div class="crit-modal-empty">Aucune donnée disponible pour ce critère.</div>';
+  if (school && justif) {
+    const ig = isIgensia(school.name);
+    const v = school.verdicts[String(col)] || '';
+    const text = justif.justifs[String(col)] || '';
+    const displayName = school.name.split('\n')[0].replace(/\s+/g, ' ');
+    html += renderCritDetailBlock(displayName, v, text, ig);
+    // Sources cliquables en pied de modal (même pattern que Justifications)
+    if (justif.sources) {
+      html += renderSourcesBox(justif.sources);
+    }
+  } else {
+    html = '<div class="crit-modal-empty">Aucune donnée disponible pour cette école.</div>';
   }
   body.innerHTML = html;
   modal.classList.add('open');
@@ -194,6 +190,23 @@ function renderCritDetailBlock(name, verdict, text, isIgensia) {
       ${badgeHTML(verdict)}
     </div>
     ${body}
+  </div>`;
+}
+
+// Encadré « Sources consultées » en pied de modal (même rendu que
+// dans la carte école de la vue Justifications).
+function renderSourcesBox(sourcesStr) {
+  const items = sourcesStr.split('\n').filter(l => l.trim()).map(l => {
+    const trimmed = l.trim();
+    if (trimmed.startsWith('http')) {
+      const display = trimmed.replace(/^https?:\/\//, '').substring(0, 60) + (trimmed.length > 70 ? '...' : '');
+      return `<a href="${escapeAttr(trimmed)}" target="_blank" rel="noopener">${escapeHTML(display)}</a>`;
+    }
+    return `<span>${escapeHTML(trimmed)}</span>`;
+  }).join('');
+  return `<div class="sources-box">
+    <div class="sources-title">Sources consultées</div>
+    <div class="sources-list">${items}</div>
   </div>`;
 }
 
@@ -1527,7 +1540,8 @@ function renderRadarComparison(igensiaData) {
           const cls = isBetter ? 'is-better' : '';
           othersHtml += `<div class="crit-other-item ${cls}">
             <span class="crit-dot ${v === 'OUI' ? 'dot-oui' : 'dot-partiel'}"></span>
-            <span><strong>${shortName}</strong> (${v})`;
+            <span class="crit-other-body"><strong>${shortName}</strong> (${v})
+              <button type="button" class="crit-detail-btn" data-crit-col="${col}" data-axe-id="${axe.id}" data-axe-name="${escapeAttr(axe.name)}" data-school-name="${escapeAttr(s.name)}" title="Voir la justification complète">Voir le détail</button>`;
           unique.forEach(u => {
             othersHtml += `<br>• ${escapeHTML(u)}`;
           });
@@ -1540,13 +1554,14 @@ function renderRadarComparison(igensiaData) {
 
       // Only show this criterion if there's something to compare
       if (hasContent || igV !== 'OUI') {
+        const igensiaName = igensiaData.name || '★ IGENSIA EDUCATION';
         html += `<div class="comparison-criterion">
           <div class="comparison-columns">
             <div class="comparison-col col-igensia">
               <div class="crit-line">
                 <span class="crit-dot ${dotCls}"></span>
                 <span class="crit-label"><strong>${critName}</strong> (${igV})</span>
-                <button type="button" class="crit-detail-btn" data-crit-col="${col}" data-axe-id="${axe.id}" data-axe-name="${escapeAttr(axe.name)}" title="Voir la justification complète">Voir le détail</button>
+                <button type="button" class="crit-detail-btn" data-crit-col="${col}" data-axe-id="${axe.id}" data-axe-name="${escapeAttr(axe.name)}" data-school-name="${escapeAttr(igensiaName)}" title="Voir la justification complète d'IGENSIA">Voir le détail</button>
               </div>
               ${igHtml}
             </div>
