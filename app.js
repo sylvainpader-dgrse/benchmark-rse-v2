@@ -1276,6 +1276,18 @@ function renderRadar() {
     });
   }
 
+  // Le radar n'apparaît que si l'utilisateur a ajouté au moins une
+  // école / groupe à comparer (sinon la comparaison IGENSIA seule
+  // est sans intérêt).
+  const chartContainer = document.getElementById('radarChartContainer');
+  if (chartContainer) {
+    chartContainer.style.display = radarSchools.length > 0 ? '' : 'none';
+  }
+  if (radarSchools.length === 0) {
+    if (radarChart) { radarChart.destroy(); radarChart = null; }
+    return;
+  }
+
   // Build chart
   const canvas = document.getElementById('radarChart');
   if (!canvas) return;
