@@ -79,26 +79,33 @@ function setupTabs() {
     });
   });
   // Liens internes et délégation d'événements globale.
-  // L'ordre des branches matters : la gestion du modal critère arrive
+  // L'ordre des branches matters : la gestion des modals arrive
   // EN PREMIER pour intercepter les clics avant les autres handlers.
   document.addEventListener('click', e => {
-    // --- Modal critère : prioritaire ---
+    // --- Modals (critère + à propos) : prioritaires ---
     const openModal = document.querySelector('.crit-modal.open');
     if (openModal) {
       // Bouton de fermeture
       if (e.target.closest('.crit-modal-close')) {
         e.preventDefault();
-        closeCriterionDetail();
+        closeAllModals();
         return;
       }
       // Click sur le fond opaque (= directement sur .crit-modal, pas un descendant)
       if (e.target === openModal) {
-        closeCriterionDetail();
+        closeAllModals();
         return;
       }
       // Click à l'intérieur du contenu : ne rien faire (et ne pas
       // déclencher les autres handlers globaux qui suivent)
       if (e.target.closest('.crit-modal-content')) return;
+    }
+    // Lien « À propos » dans le header
+    const aboutTrigger = e.target.closest('#aboutLink');
+    if (aboutTrigger) {
+      e.preventDefault();
+      openAboutModal();
+      return;
     }
     // --- Bascule d'onglet via [data-tab-jump] ---
     const jump = e.target.closest('[data-tab-jump]');
@@ -138,10 +145,22 @@ function setupTabs() {
       );
     }
   });
-  // Esc → fermeture du modal critère
+  // Esc → fermeture de n'importe quel modal ouvert
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeCriterionDetail();
+    if (e.key === 'Escape') closeAllModals();
   });
+}
+
+function openAboutModal() {
+  const modal = document.getElementById('aboutModal');
+  if (!modal) return;
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeAllModals() {
+  document.querySelectorAll('.crit-modal.open').forEach(m => m.classList.remove('open'));
+  document.body.style.overflow = '';
 }
 
 function openFocusDetail(focusName) {
@@ -269,12 +288,9 @@ function renderSourcesBox(sourcesStr, reportUrl) {
   </div>`;
 }
 
-function closeCriterionDetail() {
-  const modal = document.getElementById('critDetailModal');
-  if (!modal) return;
-  modal.classList.remove('open');
-  document.body.style.overflow = '';
-}
+// Alias historique : la fermeture du modal critère passe maintenant
+// par closeAllModals() (utilisée aussi pour le modal À propos).
+function closeCriterionDetail() { closeAllModals(); }
 
 function switchToTab(tabName) {
   const btn = document.querySelector('.tab[data-tab="' + tabName + '"]');

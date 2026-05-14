@@ -6,7 +6,7 @@
 <title>Benchmark RSE | IGENSIA Education</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260513bt">
+<link rel="stylesheet" href="style.css?v=20260513bu">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -17,7 +17,7 @@
       <img src="logo-igensia.png" alt="IGENSIA Education" class="logo-img">
       <div>
         <h1>Benchmark RSE</h1>
-        <p class="subtitle">mis à jour en mai 2026</p>
+        <p class="subtitle">mis à jour en mai 2026 · <a href="#" id="aboutLink" class="header-about-link">à propos du site</a></p>
       </div>
     </div>
     <div class="search-box">
@@ -190,6 +190,46 @@
         <h3 id="critModalTitle"></h3>
       </div>
       <div id="critModalBody" class="crit-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Modal À propos : présentation des choix techniques et de
+       sobriété numérique du site (ouvert depuis le header) -->
+  <div id="aboutModal" class="crit-modal">
+    <div class="crit-modal-content">
+      <button type="button" class="about-modal-close crit-modal-close" aria-label="Fermer">×</button>
+      <div class="crit-modal-header">
+        <div class="crit-modal-axe">Méta · Sobriété numérique</div>
+        <h3>À propos du site</h3>
+      </div>
+      <div class="crit-modal-body about-modal-body">
+        <section>
+          <h4>Comment c'est codé</h4>
+          <p>HTML, CSS et JavaScript <strong>vanilla</strong>, sans framework lourd (pas de React, Vue ou Angular). Une seule librairie externe : <strong>Chart.js</strong> pour les radars.</p>
+        </section>
+        <section>
+          <h4>Sobriété numérique</h4>
+          <ul>
+            <li>Site <strong>100 % statique</strong>, hébergé sur GitHub Pages (pas de serveur applicatif, pas de base de données)</li>
+            <li><strong>Pas de tracking</strong>, pas de cookies, pas d'analytics</li>
+            <li>Aucun appel réseau dynamique après le chargement initial</li>
+            <li>Charge utile cumulée d'environ <strong>800 Ko</strong> de code + données (hors images)</li>
+            <li>22 visuels de couverture optimisés en JPEG progressif</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Reproductibilité</h4>
+          <ul>
+            <li>Code source ouvert sur <a href="https://github.com/sylvainpader-dgrse/benchmark-rse-v2" target="_blank" rel="noopener">GitHub</a></li>
+            <li>Données embarquées dans <code>data.js</code> : aucune dépendance externe</li>
+            <li>Forkable et adaptable par n'importe quelle école</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Cohérence RSE</h4>
+          <p>Pas de framework SPA lourd, pas de service tiers, pas de collecte de données utilisateur. Le site illustre qu'un benchmark interactif peut rester sobre en empreinte numérique, en cohérence avec les principes d'éco-conception (<strong>RGESN</strong> ARCEP / ADEME).</p>
+        </section>
+      </div>
     </div>
   </div>
 
@@ -375,8 +415,8 @@
   <p>Benchmark RSE, Travail exploratoire IGENSIA Education, 2026</p>
 </footer>
 
-<script src="data.js?v=20260513bt"></script>
-<script src="presentation/data.js?v=20260513bt"></script>
-<script src="app.js?v=20260513bt"></script>
+<script src="data.js?v=20260513bu"></script>
+<script src="presentation/data.js?v=20260513bu"></script>
+<script src="app.js?v=20260513bu"></script>
 </body>
 </html>
