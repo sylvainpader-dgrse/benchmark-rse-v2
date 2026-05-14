@@ -1741,24 +1741,57 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   text-transform: uppercase;
   letter-spacing: 0.6px;
 }
-.crit-allschools-btn {
-  flex: 0 0 auto;
-  appearance: none;
-  background: var(--accent);
-  color: #fff;
-  border: none;
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 4px 12px;
-  border-radius: 12px;
-  cursor: pointer;
-  font-family: inherit;
-  white-space: nowrap;
-  transition: background 0.15s ease, transform 0.15s ease;
+/* Pastilles de comptage (OUI / PARTIEL / NON) en toolbar de critère :
+   donnent d'un coup d'œil la distribution des verdicts sur ce critère
+   à travers toutes les écoles + groupes du benchmark. Cliquables :
+   ouvrent la vue Justifications détaillées filtrée. */
+.crit-counts {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
 }
-.crit-allschools-btn:hover,
-.crit-allschools-btn:focus {
-  background: var(--primary);
+.crit-count-pill {
+  appearance: none;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 14px;
+  font-size: 0.7rem;
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+.crit-count-pill:hover,
+.crit-count-pill:focus {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+.crit-count-pill .crit-count-verdict {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.crit-count-pill .crit-count-num {
+  font-weight: 800;
+  font-size: 0.82rem;
+}
+.crit-count-pill .crit-count-detail {
+  opacity: 0.85;
+  font-size: 0.66rem;
+}
+.crit-count-oui {
+  background: #e6f9e6;
+  color: #1b5e20;
+}
+.crit-count-partiel {
+  background: #fff4d6;
+  color: #b45309;
+}
+.crit-count-non {
+  background: #fde2e1;
+  color: #b71c1c;
 }
 .crit-summary {
   font-size: 0.78rem;

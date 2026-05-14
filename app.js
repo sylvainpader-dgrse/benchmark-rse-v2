@@ -127,11 +127,15 @@ function setupTabs() {
       );
       return;
     }
-    // --- Bouton « Voir chez toutes les écoles » ---
+    // --- Pastille de comptage cliquable sur un critère (Comparaison
+    //     par axe) : ouvre Justifications filtrée sur critère + verdict
     const allBtn = e.target.closest('[data-justif-crit]');
     if (allBtn) {
       e.preventDefault();
-      openJustifForCriterion(parseInt(allBtn.dataset.justifCrit, 10));
+      openJustifForCriterion(
+        parseInt(allBtn.dataset.justifCrit, 10),
+        allBtn.dataset.justifVerdict || ''
+      );
     }
   });
   // Esc → fermeture du modal critère
@@ -148,21 +152,40 @@ function openFocusDetail(focusName) {
 }
 
 // Ouvre la vue Justifications détaillées filtrée sur un critère
-// spécifique (déclenché depuis Comparaison par axe pour voir le
-// verdict de toutes les écoles sur ce critère).
-function openJustifForCriterion(col) {
+// (et éventuellement un verdict). Déclenché en cliquant une
+// pastille de comptage dans la vue Comparaison par axe.
+function openJustifForCriterion(col, verdict) {
   justifFilterCrit = String(col);
-  justifFilterVerdict = '';
+  justifFilterVerdict = verdict || '';
   const select = document.getElementById('justifCritSelect');
   if (select) select.value = String(col);
   const vfilter = document.getElementById('justifVerdictFilter');
   if (vfilter) vfilter.style.display = '';
   document.querySelectorAll('.verdict-filter-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.verdict === '');
+    b.classList.toggle('active', b.dataset.verdict === (verdict || ''));
   });
   renderJustifications();
   switchToTab('justifications');
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Compte OUI/PARTIEL/NON sur un critère donné, ventilé écoles vs
+// groupes consolidés. Utilisé pour afficher les pastilles
+// dans la toolbar de chaque critère en Comparaison par axe.
+function countCritVerdicts(col) {
+  const out = {
+    OUI:     { total: 0, ecoles: 0, groupes: 0 },
+    PARTIEL: { total: 0, ecoles: 0, groupes: 0 },
+    NON:     { total: 0, ecoles: 0, groupes: 0 },
+  };
+  D.grille.forEach(s => {
+    const v = (s.verdicts[String(col)] || '').toUpperCase();
+    if (!out[v]) return;
+    out[v].total++;
+    if (isConsolidatedGroup(s.name)) out[v].groupes++;
+    else out[v].ecoles++;
+  });
+  return out;
 }
 
 // =============================
@@ -1608,10 +1631,22 @@ function renderRadarComparison(igensiaData) {
       // Only show this criterion if there's something to compare
       if (hasContent || igV !== 'OUI') {
         const igensiaName = igensiaData.name || '★ IGENSIA EDUCATION';
+        const counts = countCritVerdicts(col);
+        const pillsHtml = ['OUI','PARTIEL','NON'].map(v => {
+          const c = counts[v];
+          const detail = (c.ecoles > 0 || c.groupes > 0)
+            ? `${c.ecoles} école${c.ecoles > 1 ? 's' : ''} + ${c.groupes} groupe${c.groupes > 1 ? 's' : ''}`
+            : '—';
+          return `<button type="button" class="crit-count-pill crit-count-${v.toLowerCase()}" data-justif-crit="${col}" data-justif-verdict="${v}" title="Voir les justifications de toutes les écoles ${v} sur ce critère">
+              <span class="crit-count-verdict">${v}</span>
+              <span class="crit-count-num">${c.total}</span>
+              <span class="crit-count-detail">${detail}</span>
+            </button>`;
+        }).join('');
         html += `<div class="comparison-criterion">
           <div class="crit-toolbar">
             <span class="crit-toolbar-title">${critName}</span>
-            <button type="button" class="crit-allschools-btn" data-justif-crit="${col}" title="Voir le verdict de toutes les écoles sur ce critère">Voir chez toutes les écoles</button>
+            <div class="crit-counts">${pillsHtml}</div>
           </div>
           <div class="comparison-columns">
             <div class="comparison-col col-igensia">
