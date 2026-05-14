@@ -6,7 +6,7 @@
 <title>Benchmark RSE | IGENSIA Education</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260513bv">
+<link rel="stylesheet" href="style.css?v=20260513bw">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -199,35 +199,30 @@
     <div class="crit-modal-content">
       <button type="button" class="about-modal-close crit-modal-close" aria-label="Fermer">×</button>
       <div class="crit-modal-header">
-        <div class="crit-modal-axe">Méta · Sobriété numérique</div>
         <h3>À propos du site</h3>
       </div>
       <div class="crit-modal-body about-modal-body">
         <section>
           <h4>Comment c'est codé</h4>
-          <p>HTML, CSS et JavaScript <strong>vanilla</strong>, sans framework lourd (pas de React, Vue ou Angular). Une seule librairie externe : <strong>Chart.js</strong> pour les radars.</p>
+          <p>Le site est construit avec les briques de base du web (HTML, CSS, JavaScript), <strong>sans utiliser de framework complexe</strong> (comme React, Vue ou Angular, qui sont des couches techniques additionnelles très répandues mais consommatrices). Une seule librairie externe est utilisée, pour les graphiques radar : Chart.js. Cela rend le site beaucoup plus léger : il télécharge moins de données et utilise moins d'énergie côté serveur comme côté visiteur.</p>
         </section>
         <section>
           <h4>Sobriété numérique</h4>
           <ul>
-            <li>Site <strong>100 % statique</strong>, hébergé sur GitHub Pages (pas de serveur applicatif, pas de base de données)</li>
-            <li><strong>Pas de tracking</strong>, pas de cookies, pas d'analytics</li>
-            <li>Aucun appel réseau dynamique après le chargement initial</li>
-            <li>Charge utile cumulée d'environ <strong>800 Ko</strong> de code + données (hors images)</li>
-            <li>22 visuels de couverture optimisés en JPEG progressif</li>
+            <li><strong>Site 100 % statique</strong> (aucune base de données, aucun serveur applicatif) : ce sont des fichiers simples qui se chargent une fois, comme un livre numérique. Hébergé sur GitHub Pages, un service gratuit et low-tech.</li>
+            <li><strong>Pas de tracking, pas de cookies, pas d'outil de mesure d'audience.</strong> Aucune donnée personnelle n'est collectée sur vous.</li>
+            <li><strong>Aucun appel réseau dynamique après le chargement initial.</strong> Une fois la page ouverte, tout fonctionne en local dans votre navigateur, sans communication continue avec un serveur.</li>
+            <li><strong>Charge totale d'environ 800 Ko</strong> de code + données (hors images), soit environ 5 fois moins qu'une page web moyenne (≈ 4 Mo en 2024, source HTTP Archive).</li>
+            <li><strong>22 visuels de couvertures</strong> de rapports optimisés en JPEG progressif pour limiter l'empreinte d'affichage.</li>
           </ul>
         </section>
         <section>
           <h4>Reproductibilité</h4>
-          <ul>
-            <li>Code source ouvert sur <a href="https://github.com/sylvainpader-dgrse/benchmark-rse-v2" target="_blank" rel="noopener">GitHub</a></li>
-            <li>Données embarquées dans <code>data.js</code> : aucune dépendance externe</li>
-            <li>Forkable et adaptable par n'importe quelle école</li>
-          </ul>
+          <p>Le <strong>code source est disponible sur demande</strong>. N'importe quelle école ou organisation peut reprendre ce site, l'adapter à son propre benchmark, sans dépendre d'un outil propriétaire ou payant. Aucun lock-in technique.</p>
         </section>
         <section>
-          <h4>Cohérence RSE</h4>
-          <p>Pas de framework SPA lourd, pas de service tiers, pas de collecte de données utilisateur. Le site illustre qu'un benchmark interactif peut rester sobre en empreinte numérique, en cohérence avec les principes d'éco-conception (<strong>RGESN</strong> ARCEP / ADEME).</p>
+          <h4>Pourquoi c'est cohérent avec une démarche RSE</h4>
+          <p>Un benchmark RSE peut être à la fois <strong>interactif, riche en information et sobre</strong> numériquement. Ce site s'aligne sur les principes d'éco-conception : ne charger que ce qui est nécessaire, ne pas tracer les utilisateurs, ne pas dépendre de services tiers lourds. Référentiel de référence : <strong>RGESN</strong> (Référentiel Général d'Écoconception de Services Numériques, publié par l'ARCEP et l'ADEME en 2024).</p>
         </section>
       </div>
     </div>
@@ -415,8 +410,8 @@
   <p>Benchmark RSE, Travail exploratoire IGENSIA Education, 2026</p>
 </footer>
 
-<script src="data.js?v=20260513bv"></script>
-<script src="presentation/data.js?v=20260513bv"></script>
-<script src="app.js?v=20260513bv"></script>
+<script src="data.js?v=20260513bw"></script>
+<script src="presentation/data.js?v=20260513bw"></script>
+<script src="app.js?v=20260513bw"></script>
 </body>
 </html>
