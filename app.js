@@ -75,16 +75,30 @@ function setupJustifFilter() {
 function setupTabs() {
   document.querySelectorAll('.tab').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-      btn.classList.add('active');
-      currentTab = btn.dataset.tab;
-      document.getElementById('tab-' + currentTab).classList.add('active');
-      // Show stats banner only on grille/justifications/radar
-      const banner = document.getElementById('statsBanner');
-      if (banner) banner.style.display = ['grille','justifications','radar'].includes(currentTab) ? '' : 'none';
+      switchToTab(btn.dataset.tab);
     });
   });
+  // Liens internes (data-tab-jump) qui basculent vers un autre onglet,
+  // utilisés par le bandeau d'intro de l'onglet Données détaillées.
+  document.querySelectorAll('[data-tab-jump]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      switchToTab(a.dataset.tabJump);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+}
+
+function switchToTab(tabName) {
+  const btn = document.querySelector('.tab[data-tab="' + tabName + '"]');
+  if (!btn) return;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  currentTab = tabName;
+  document.getElementById('tab-' + currentTab).classList.add('active');
+  const banner = document.getElementById('statsBanner');
+  if (banner) banner.style.display = ['grille','justifications','radar'].includes(currentTab) ? '' : 'none';
 }
 
 function setupSearch() {
