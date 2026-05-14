@@ -83,12 +83,28 @@ function setupTabs() {
   // détaillées ». Event delegation pour fonctionner aussi sur les
   // éléments rendus dynamiquement après le DOMContentLoaded.
   document.addEventListener('click', e => {
-    const a = e.target.closest('[data-tab-jump]');
-    if (!a) return;
-    e.preventDefault();
-    switchToTab(a.dataset.tabJump);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const jump = e.target.closest('[data-tab-jump]');
+    if (jump) {
+      e.preventDefault();
+      switchToTab(jump.dataset.tabJump);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    // Lien « Voir le détail » par fiche : bascule vers la vue
+    // Données détaillées avec la bonne école pré-sélectionnée.
+    const detail = e.target.closest('[data-focus-detail]');
+    if (detail) {
+      e.preventDefault();
+      openFocusDetail(detail.dataset.focusDetail);
+    }
   });
+}
+
+function openFocusDetail(focusName) {
+  if (focusName) selectedFocusSchool = focusName;
+  renderFocus();
+  switchToTab('focus');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function switchToTab(tabName) {
@@ -190,10 +206,6 @@ function renderPresentation() {
     .map((r, idx) => ({ ...r, rank: idx + 1 }));
 
   let html = `
-    <div class="pres-toolbar">
-      <a href="#" data-tab-jump="focus" class="pres-data-link">Voir les données détaillées (saisie des notes, URLs, 24 champs par rapport)</a>
-    </div>
-
     ${renderIgensiaReference()}
 
     <div class="pres-jump">
@@ -243,7 +255,11 @@ function renderIgensiaReference() {
       <div class="pres-ref-head">
         <h2>Rapport RSE Groupe IGENSIA Education 2024-2025</h2>
         <p class="pres-ref-sub">48 pages, 1<sup>er</sup> rapport RSE publié par le Groupe</p>
-        ${igUrl ? `<p class="pres-sub-link"><a href="${escapeAttr(igUrl)}" target="_blank" rel="noopener" class="pres-rapport-link">Voir le rapport</a></p>` : ''}
+        <p class="pres-sub-link">
+          ${igUrl ? `<a href="${escapeAttr(igUrl)}" target="_blank" rel="noopener" class="pres-rapport-link">Voir le rapport</a>` : ''}
+          ${igUrl ? ' · ' : ''}
+          <a href="#" data-focus-detail="★ IGENSIA EDUCATION" class="pres-rapport-link">Voir le détail</a>
+        </p>
       </div>
 
       <div class="pres-images">
@@ -327,7 +343,11 @@ function renderRapportCard(r) {
           <h2>${escapeHTML(r.name)}</h2>
           <p class="pres-sub">${escapeHTML(r.titre)}${r.pages ? ' • ' + escapeHTML(r.pages) : ''}</p>
           <p class="pres-sub-scores">Forme ${r.forme.toFixed(2)} · Fond ${r.fond.toFixed(2)}</p>
-          ${r.url ? `<p class="pres-sub-link"><a href="${escapeAttr(r.url)}" target="_blank" rel="noopener" class="pres-rapport-link">Voir le rapport</a></p>` : ''}
+          <p class="pres-sub-link">
+            ${r.url ? `<a href="${escapeAttr(r.url)}" target="_blank" rel="noopener" class="pres-rapport-link">Voir le rapport</a>` : ''}
+            ${r.url && PRESENTATION_TO_FOCUS_NAME[r.key] ? ' · ' : ''}
+            ${PRESENTATION_TO_FOCUS_NAME[r.key] ? `<a href="#" data-focus-detail="${escapeAttr(PRESENTATION_TO_FOCUS_NAME[r.key])}" class="pres-rapport-link">Voir le détail</a>` : ''}
+          </p>
         </div>
         <div class="pres-score">${r.score.toFixed(1)}<small>/5</small></div>
       </div>
