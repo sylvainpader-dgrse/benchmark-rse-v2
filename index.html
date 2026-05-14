@@ -6,7 +6,7 @@
 <title>Benchmark RSE | IGENSIA Education</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260513bo">
+<link rel="stylesheet" href="style.css?v=20260513bp">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -48,6 +48,12 @@
       <button data-tab-jump="radar">Comparaison par axe</button>
       <button data-tab-jump="justifications">Justifications détaillées</button>
     </div>
+    <div class="table-wrapper">
+      <table id="grilleTable">
+        <thead id="grilleHead"></thead>
+        <tbody id="grilleBody"></tbody>
+      </table>
+    </div>
     <details class="methodo-note">
       <summary>Note méthodologique</summary>
       <div class="methodo-content">
@@ -57,7 +63,7 @@
           <li><span class="badge partiel">PARTIEL</span> <strong>(0,5 pt)</strong> : dispositif initié, annoncé ou partiellement déployé. Un objectif annoncé sans preuve de réalisation est considéré comme partiel.</li>
           <li><span class="badge non">NON</span> <strong>(0 pt)</strong> : aucune donnée publique trouvée ou absence constatée dans les rapports/sites.</li>
         </ul>
-        <p><strong>Score :</strong> OUI = 1 pt ; PARTIEL = 0,5 pt ; NON = 0 pt (score max : 36/36). <strong>Interprétation :</strong></p>
+        <p><strong>Interprétation du score</strong> (sur 36 critères) :</p>
         <ul class="methodo-thresholds">
           <li><span class="badge" style="background:#4CAF50;color:#fff;font-size:11px;">≥33</span> Avancé</li>
           <li><span class="badge" style="background:#8BC34A;color:#fff;font-size:11px;">27–32</span> Confirmé</li>
@@ -67,12 +73,6 @@
         <p><strong>Sources et périmètre :</strong> Benchmark réalisé sur 37 écoles et 6 groupes éducatifs (IGENSIA, OMNES, AD Education, Galileo, IONIS, CESI), à partir de rapports RSE/DD&RS, rapports Société à Mission, DPEF, sites institutionnels et bases publiques. Les scores école et groupe restent indépendants afin d'évaluer les actions réellement portées à chaque niveau.</p>
       </div>
     </details>
-    <div class="table-wrapper">
-      <table id="grilleTable">
-        <thead id="grilleHead"></thead>
-        <tbody id="grilleBody"></tbody>
-      </table>
-    </div>
   </section>
 
   <!-- TAB 2: JUSTIFICATIONS -->
@@ -378,8 +378,8 @@
   <p>Benchmark RSE, Travail exploratoire IGENSIA Education, 2026</p>
 </footer>
 
-<script src="data.js?v=20260513bo"></script>
-<script src="presentation/data.js?v=20260513bo"></script>
-<script src="app.js?v=20260513bo"></script>
+<script src="data.js?v=20260513bp"></script>
+<script src="presentation/data.js?v=20260513bp"></script>
+<script src="app.js?v=20260513bp"></script>
 </body>
 </html>
