@@ -1731,12 +1731,26 @@ tbody td.score-insuffisant { background: var(--score-insuffisant) !important; co
   border-left: 3px solid var(--oui-text);
 }
 .crit-other-item .crit-dot { margin-top: 4px; }
-.crit-other-body { flex: 1; }
-.crit-other-body .crit-detail-btn {
-  margin-left: 6px;
-  padding: 1px 8px;
+.crit-other-body { flex: 1; min-width: 0; }
+.crit-other-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.crit-other-header > span { min-width: 0; flex: 1; }
+.crit-other-header .crit-detail-btn {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 1px 10px;
   font-size: 0.68rem;
-  vertical-align: middle;
+  white-space: nowrap;
+}
+.crit-other-bullets > div {
+  font-size: 0.75rem;
+  line-height: 1.45;
+  margin-top: 2px;
 }
 .comparison-empty {
   color: var(--text-light);

@@ -165,9 +165,12 @@ function openCriterionDetail(col, axeId, axeName, schoolName) {
     const text = justif.justifs[String(col)] || '';
     const displayName = school.name.split('\n')[0].replace(/\s+/g, ' ');
     html += renderCritDetailBlock(displayName, v, text, ig);
-    // Sources cliquables en pied de modal (même pattern que Justifications)
+    // Récupère l'URL du rapport (col 5 du focus) pour rendre la
+    // ligne « Rapport X » cliquable dans les sources consultées.
+    const focusEntry = D.focus.find(f => f.name === school.name);
+    const reportUrl = (focusEntry && focusEntry.data && focusEntry.data['5']) || '';
     if (justif.sources) {
-      html += renderSourcesBox(justif.sources);
+      html += renderSourcesBox(justif.sources, reportUrl);
     }
   } else {
     html = '<div class="crit-modal-empty">Aucune donnée disponible pour cette école.</div>';
@@ -195,12 +198,20 @@ function renderCritDetailBlock(name, verdict, text, isIgensia) {
 
 // Encadré « Sources consultées » en pied de modal (même rendu que
 // dans la carte école de la vue Justifications).
-function renderSourcesBox(sourcesStr) {
+// reportUrl : si fourni, la première ligne mentionnant « Rapport /
+// Report / Bilan / DPEF » devient un lien cliquable vers ce PDF.
+function renderSourcesBox(sourcesStr, reportUrl) {
+  let firstReportLinked = false;
   const items = sourcesStr.split('\n').filter(l => l.trim()).map(l => {
     const trimmed = l.trim();
     if (trimmed.startsWith('http')) {
       const display = trimmed.replace(/^https?:\/\//, '').substring(0, 60) + (trimmed.length > 70 ? '...' : '');
       return `<a href="${escapeAttr(trimmed)}" target="_blank" rel="noopener">${escapeHTML(display)}</a>`;
+    }
+    // Première ligne non-URL qui cite un rapport → lien vers le PDF
+    if (!firstReportLinked && reportUrl && /\b(Rapport|Report|Bilan|DPEF|SIP|PRME)\b/i.test(trimmed)) {
+      firstReportLinked = true;
+      return `<a href="${escapeAttr(reportUrl)}" target="_blank" rel="noopener">${escapeHTML(trimmed)}</a>`;
     }
     return `<span>${escapeHTML(trimmed)}</span>`;
   }).join('');
@@ -1540,15 +1551,19 @@ function renderRadarComparison(igensiaData) {
           const cls = isBetter ? 'is-better' : '';
           othersHtml += `<div class="crit-other-item ${cls}">
             <span class="crit-dot ${v === 'OUI' ? 'dot-oui' : 'dot-partiel'}"></span>
-            <span class="crit-other-body"><strong>${shortName}</strong> (${v})
-              <button type="button" class="crit-detail-btn" data-crit-col="${col}" data-axe-id="${axe.id}" data-axe-name="${escapeAttr(axe.name)}" data-school-name="${escapeAttr(s.name)}" title="Voir la justification complète">Voir le détail</button>`;
+            <div class="crit-other-body">
+              <div class="crit-other-header">
+                <span><strong>${shortName}</strong> (${v})</span>
+                <button type="button" class="crit-detail-btn" data-crit-col="${col}" data-axe-id="${axe.id}" data-axe-name="${escapeAttr(axe.name)}" data-school-name="${escapeAttr(s.name)}" title="Voir la justification complète">Voir le détail</button>
+              </div>
+              <div class="crit-other-bullets">`;
           unique.forEach(u => {
-            othersHtml += `<br>• ${escapeHTML(u)}`;
+            othersHtml += `<div>• ${escapeHTML(u)}</div>`;
           });
           uniqueFocus.forEach(f => {
-            othersHtml += `<br><em>🎓 ${escapeHTML(f)}</em>`;
+            othersHtml += `<div><em>🎓 ${escapeHTML(f)}</em></div>`;
           });
-          othersHtml += `</span></div>`;
+          othersHtml += `</div></div></div>`;
         }
       });
 
