@@ -1660,9 +1660,10 @@ function renderRadarComparison(igensiaData) {
         const counts = countCritVerdicts(col);
         const pillsHtml = ['OUI','PARTIEL','NON'].map(v => {
           const c = counts[v];
-          const detail = (c.ecoles > 0 || c.groupes > 0)
-            ? `${c.ecoles} école${c.ecoles > 1 ? 's' : ''} + ${c.groupes} groupe${c.groupes > 1 ? 's' : ''}`
-            : '—';
+          const parts = [];
+          if (c.ecoles > 0) parts.push(`${c.ecoles} école${c.ecoles > 1 ? 's' : ''}`);
+          if (c.groupes > 0) parts.push(`${c.groupes} groupe${c.groupes > 1 ? 's' : ''}`);
+          const detail = parts.length ? parts.join(' + ') : '—';
           return `<button type="button" class="crit-count-pill crit-count-${v.toLowerCase()}" data-justif-crit="${col}" data-justif-verdict="${v}" title="Voir les justifications de toutes les écoles ${v} sur ce critère">
               <span class="crit-count-verdict">${v}</span>
               <span class="crit-count-num">${c.total}</span>
