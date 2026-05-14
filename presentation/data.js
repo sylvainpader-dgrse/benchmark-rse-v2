@@ -52,6 +52,9 @@ const PRESENTATION_DATA = {
         { titre: "Double lecture systématique « école » et « employeur » sur chaque sujet transverse",
           pourquoi: "CESI structure son rapport en faisant la distinction systématique « En tant qu'école / En tant qu'employeur » sur tous les sujets qui concernent à la fois les apprenants et les collaborateurs (handicap, égalité, formation au DD, QVCT, mobilité). Cette double lecture évite la confusion classique entre actions destinées aux étudiants et actions destinées aux salariés, et démontre la cohérence d'engagement sur les 2 publics. Chez IGENSIA, nos 4 grandes parties (Apprenants, Collaborateurs, Campus, Partenaires) séparent les publics mais ne traitent pas les sujets transverses (handicap, égalité, formation DD-RSE) en double lecture explicite.",
           comment: "Sur les sujets transverses qui concernent à la fois apprenants et collaborateurs (formation DD-RSE, handicap, égalité, mobilité douce, santé mentale), structurer chaque section en 2 sous-parties identiques : « Du côté de nos apprenants » et « Du côté de nos collaborateurs ». Format : 2 colonnes côte à côte ou 2 encadrés successifs avec les mêmes rubriques (dispositif, chiffres, partenaires). Renforce la lisibilité et démontre la cohérence d'engagement sur les 2 publics." },
+        { titre: "Classer chaque campus IGENSIA par étiquette énergie / GES et publier un schéma directeur immobilier",
+          pourquoi: "CESI publie un tableau de classement de ses 25 campus par étiquette énergie / GES (de A excellent à G très polluant), avec une jauge graphique A à G en marge (p.42). Résultat affiché : 28 000 m² classés A et 25 000 m² classés B, soit 2/3 du patrimoine. En amont, un Schéma Directeur Immobilier, Énergétique et Développement Durable 2023-2030 (p.39) décline 4 cibles validées sur 78 000 m² et 25 campus. C'est la démarche immobilière la plus aboutie du benchmark. Chez IGENSIA, nous avons 12 campus mais aucun classement énergie publié et aucun schéma directeur immobilier formalisé (faiblesse cohérente avec « pas de schéma directeur RSE 5 axes »).",
+          comment: "Dans la partie Campus du prochain rapport, ajouter un tableau des 12 campus IGENSIA avec leur étiquette énergie (A à G) + un plan d'action site par site (rénovation, isolation, équipements). En amont, formaliser un Schéma Directeur Immobilier RSE 2025-2030 avec 3 à 5 cibles datées (conso énergie, GES, biosourcé, mobilité, biodiversité). Donne une carte concrète et opposable de l'engagement immobilier du Groupe." },
       ],
     },
     {
@@ -149,10 +152,9 @@ const PRESENTATION_DATA = {
       name: 'INSEAD', titre: "Sustainability Report 2021-2022 & 2022-2023", pages: '33 p.', url: '',
       leg_cov: "Couverture : Sustainability Report, Academic Years 2021-2022 & 2022-2023 (rapport biennal en anglais, format institutionnel international)",
       leg_i1:  "p.4-5 : Édito du Dean Francisco Veloso, signature unique, alignement GRI 2-22 / UN PRME Principle 1 affiché en marge",
-      leg_i2:  "p.8-9 : « The Business School for the World », 4 campus (Europe, Asie, Moyen-Orient, San Francisco Hub), 159 faculty, 67 600 alumni, 7 programmes diplômants",
-      leg_i3:  "p.12-13 : Stratégie de durabilité en 4 piliers (Knowledge, Learning, Engagement, Walk the Talk) pilotée par le Hoffmann Global Institute, frise historique de la durabilité depuis 1968",
-      leg_i4:  "p.48-49 : Bilan carbone Scopes 1-2-3 (79,8 % Scope 3) avec méthodologie GHG Protocol + ISO 14069 + Bilan Carbone + BEGES, engagement -67 % Scope 1-2 d'ici 2035 vs 2019",
-      leg_i5:  "p.52-53 : EcoVadis Silver Medal 68/100 (mai 2023, historique sur graphique), endowment 372,2 M€ investi avec critères ESG, indicateurs financiers détaillés",
+      leg_i2:  "p.12-13 : Stratégie de durabilité en 4 piliers (Knowledge, Learning, Engagement, Walk the Talk) pilotée par le Hoffmann Global Institute, frise historique de la durabilité depuis 1968",
+      leg_i3:  "p.48-49 : Bilan carbone Scopes 1-2-3 (79,8 % Scope 3) avec méthodologie GHG Protocol + ISO 14069 + Bilan Carbone + BEGES, engagement -67 % Scope 1-2 d'ici 2035 vs 2019",
+      leg_i4:  "p.52-53 : EcoVadis Silver Medal 68/100 (mai 2023, historique sur graphique), endowment 372,2 M€ investi avec critères ESG, indicateurs financiers détaillés",
       forme_plus: [
         "Quatre piliers stratégiques très lisibles (Knowledge, Learning, Engagement, Walk the Talk) déclinés en chapitres dédiés, avec icônes et codes couleur récurrents",
         "Encadrés « Our Highlights » en ouverture de chaque pilier qui résument les faits saillants en 6 à 8 puces visuelles avant le détail",
@@ -176,7 +178,6 @@ const PRESENTATION_DATA = {
         "Bourses présentées en trajectoire pluriannuelle (6,4 M€ en 2023 contre 5,7 M€ en 2021)",
       ],
       fond_moins: [
-        "Aucun label francophone type LUCIE 26000 ou ISO 26000 (compensé partiellement par EcoVadis et la communauté GRI), positionnement très anglo-saxon",
         "Pas de chiffrage Scope 3 par poste détaillé en tCO2 (les % sont là mais le total absolu 14 590 t et la décomposition fine restent agrégés), pas de comparaison N/N-1 du bilan carbone",
         "Pas d'objectifs Scope 3 chiffrés (juste un constat que ça représente 80 % et que la démarche est en cours), alors que c'est le poste majoritaire",
         "Engagement environnemental moins ambitieux que la moyenne du benchmark : pas de schéma directeur RSE 5 axes daté, pas de plan d'actions chiffré année par année",
@@ -382,6 +383,9 @@ const PRESENTATION_DATA = {
         { titre: "Format interview Q&A (3 questions) sur chaque dispositif RSE majeur",
           pourquoi: "AD Education utilise systématiquement le format « 3 questions à [Nom de la personne] » pour faire vivre les dispositifs clés (création de la Fondation AD Education p.27 avec Dominique Beccaria, intégration à la Convention des Entreprises pour le Climat p.33 avec Mélanie Viala). 3 questions courtes : pourquoi le dispositif, comment il fonctionne, qui le porte. Format vivant qui donne la parole aux acteurs et raconte la genèse du projet. Chez IGENSIA, nos dispositifs phares (HOPEN, plan QVCT, dispositif For Me, partenariat Karos, etc.) sont décrits par un narratif institutionnel mais sans interview directe des porteurs.",
           comment: "Pour 2 ou 3 dispositifs phares dans le prochain rapport, ajouter un encadré « 3 questions à [Nom + fonction] » : (1) pourquoi avoir lancé ce dispositif ? (2) comment il fonctionne concrètement ? (3) quels résultats à ce jour et quelle suite ? Format : portrait + 3 questions courtes + 3 réponses courtes (3 à 5 lignes chacune). Donne du visage et de la voix aux dispositifs." },
+        { titre: "Page « Faits marquants » en timeline mensuelle de l'année",
+          pourquoi: "AD Education consacre une page (p.9) à une timeline mensuelle qui jalonne 7 dates clés de l'année 2023-2024 avec l'action associée (signature, lancement, événement, prix). C'est différent des frises historiques pluri-annuelles (GEM 2006-2024, BSB 2003-2024, ESSEC 1929-2024) qui retracent l'histoire de la démarche : ici on raconte la dynamique d'une seule année en faits marquants datés. C'est aussi différent du programme d'un événement (EFREI journée RSE) qui zoom sur une seule journée. Chez IGENSIA, on a la codification REALISE / LANCE / PREVU dans le narratif des sections mais pas de timeline annuelle qui pose visuellement les jalons de l'année écoulée.",
+          comment: "Ajouter en début de rapport (juste après les chiffres-clés) une double-page « Notre année 2024-2025 en 10 dates » avec une timeline horizontale : 1 jalon par mois (ou par grands moments), chacun avec date courte + 1 ligne d'action (lancement HOPEN, signature charte achats, ouverture Campus des Groues, Digital Clean Up Week, label LUCIE 26000, ateliers 2 tonnes, etc.). Donne une dynamique narrative à l'année écoulée." },
       ],
     },
     {
