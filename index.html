@@ -6,7 +6,7 @@
 <title>Benchmark RSE | IGENSIA Education</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20260513az">
+<link rel="stylesheet" href="style.css?v=20260513ba">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -31,8 +31,8 @@
   <button class="tab" data-tab="radar">Radar par axe</button>
   <button class="tab" data-tab="justifications">Justifications</button>
   <span class="tab-separator"></span>
-  <button class="tab" data-tab="focus">Données détaillées</button>
-  <button class="tab" data-tab="presentation">Présentation</button>
+  <button class="tab tab-hidden" data-tab="focus">Données détaillées</button>
+  <button class="tab" data-tab="presentation">Analyse Rapports RSE</button>
   <!-- Onglet Xerfi masqué (contenu conservé en back) -->
   <span class="tab-separator" style="display:none;"></span>
   <button class="tab" data-tab="xerfi" style="display:none;">Analyse Xerfi</button>
@@ -129,13 +129,13 @@
     <div id="radarComparison" class="radar-comparison"></div>
   </section>
 
-  <!-- TAB 4: DONNÉES DÉTAILLÉES (ex-Focus Rapports RSE) -->
+  <!-- VUE DÉTAILLÉE (accessible depuis l'onglet Analyse Rapports RSE, pas dans la nav) -->
   <section id="tab-focus" class="tab-content">
     <div class="data-tab-banner">
-      <strong>À quoi sert cet onglet ?</strong>
-      C'est la couche <em>données brutes</em> du benchmark, qui sert de source à la <a href="#" data-tab-jump="presentation">Présentation</a> éditoriale.
-      On y retrouve, pour chacun des rapports analysés : les 24 champs détaillés (statut juridique, chiffres-clés, structure du rapport, KPIs publiés, labels, référentiels, etc.), le lien vers le PDF source, et la saisie des notes Forme / Fond (Blanche + Sylvain) qui alimentent automatiquement le classement et les scores affichés en Présentation.
-      Pour la synthèse éditoriale, l'analyse comparative et les recommandations pour IGENSIA, voir l'onglet <a href="#" data-tab-jump="presentation">Présentation</a>.
+      <a href="#" data-tab-jump="presentation" class="data-tab-back">Retour à l'Analyse Rapports RSE</a>
+      <strong>À quoi sert cette vue ?</strong>
+      C'est la couche <em>données brutes</em> du benchmark, qui sert de source à l'<a href="#" data-tab-jump="presentation">Analyse Rapports RSE</a>.
+      On y retrouve, pour chacun des rapports analysés : les 24 champs détaillés (statut juridique, chiffres-clés, structure du rapport, KPIs publiés, labels, référentiels, etc.), le lien vers le PDF source, et la saisie des notes Forme / Fond (Blanche + Sylvain) qui alimentent automatiquement le classement et les scores affichés en Analyse.
     </div>
     <details class="methodo-note" style="margin-bottom:1rem;">
       <summary>Note méthodologique : périmètres des rapports analysés</summary>
@@ -358,8 +358,8 @@
   <p>Benchmark RSE, Travail exploratoire IGENSIA Education, 2026</p>
 </footer>
 
-<script src="data.js?v=20260513az"></script>
-<script src="presentation/data.js?v=20260513az"></script>
-<script src="app.js?v=20260513az"></script>
+<script src="data.js?v=20260513ba"></script>
+<script src="presentation/data.js?v=20260513ba"></script>
+<script src="app.js?v=20260513ba"></script>
 </body>
 </html>

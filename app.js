@@ -79,13 +79,15 @@ function setupTabs() {
     });
   });
   // Liens internes (data-tab-jump) qui basculent vers un autre onglet,
-  // utilisés par le bandeau d'intro de l'onglet Données détaillées.
-  document.querySelectorAll('[data-tab-jump]').forEach(a => {
-    a.addEventListener('click', e => {
-      e.preventDefault();
-      switchToTab(a.dataset.tabJump);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+  // utilisés par le bandeau d'intro et le bouton « Voir les données
+  // détaillées ». Event delegation pour fonctionner aussi sur les
+  // éléments rendus dynamiquement après le DOMContentLoaded.
+  document.addEventListener('click', e => {
+    const a = e.target.closest('[data-tab-jump]');
+    if (!a) return;
+    e.preventDefault();
+    switchToTab(a.dataset.tabJump);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 }
 
@@ -188,6 +190,10 @@ function renderPresentation() {
     .map((r, idx) => ({ ...r, rank: idx + 1 }));
 
   let html = `
+    <div class="pres-toolbar">
+      <a href="#" data-tab-jump="focus" class="pres-data-link">Voir les données détaillées (saisie des notes, URLs, 24 champs par rapport)</a>
+    </div>
+
     ${renderIgensiaReference()}
 
     <div class="pres-jump">
