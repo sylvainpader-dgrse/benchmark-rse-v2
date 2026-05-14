@@ -286,6 +286,11 @@ function switchToTab(tabName) {
   document.getElementById('tab-' + currentTab).classList.add('active');
   const banner = document.getElementById('statsBanner');
   if (banner) banner.style.display = ['grille','justifications','radar'].includes(currentTab) ? '' : 'none';
+  // Masque la barre de recherche sur Comparaison par axe : on y
+  // choisit les écoles via le sélecteur dédié, la recherche globale
+  // n'a pas de sens là-bas.
+  const searchBox = document.querySelector('.search-box');
+  if (searchBox) searchBox.style.display = currentTab === 'radar' ? 'none' : '';
 }
 
 function setupSearch() {
@@ -366,23 +371,28 @@ function renderPresentation() {
   // 1) Sync des notes depuis Focus (les notes peuvent avoir été modifiées
   //    dans l'interface Focus, sauvegardées en localStorage).
   // 2) Tri par note décroissante (meilleure en haut, moins bonne en bas).
-  // 3) Recalcul du rang affiché en fonction de la position dans le tri.
+  // 3) Filtre par la barre de recherche globale (nom du rapport / école).
+  // 4) Recalcul du rang affiché en fonction de la position dans le tri.
   //    IGENSIA reste affichée en haut via renderIgensiaReference (banner
   //    rendu avant la liste, donc hors de ce tri).
   const rapportsSorted = [...data.rapports]
     .map(syncScoresFromFocus)
     .sort((a, b) => b.score - a.score)
-    .map((r, idx) => ({ ...r, rank: idx + 1 }));
+    .map((r, idx) => ({ ...r, rank: idx + 1 }))
+    .filter(r => matchesSearch(r.name));
+  // IGENSIA reference : visible sauf si la recherche ne matche pas IGENSIA
+  const showIgensiaRef = !searchTerm || matchesSearch('IGENSIA EDUCATION');
 
   let html = `
-    ${renderIgensiaReference()}
+    ${showIgensiaRef ? renderIgensiaReference() : ''}
 
+    ${rapportsSorted.length || showIgensiaRef ? `
     <div class="pres-jump">
       <strong>Aller à :</strong>
-      <a href="#pres-igensia-ref" class="pres-jump-link pres-jump-ref">★ Notre rapport</a>
+      ${showIgensiaRef ? '<a href="#pres-igensia-ref" class="pres-jump-link pres-jump-ref">★ Notre rapport</a>' : ''}
       ${rapportsSorted.map(r => `<a href="#pres-${r.key}" class="pres-jump-link">#${r.rank} ${escapeHTML(r.name)}</a>`).join('')}
       ${data.synthese && data.synthese.length ? '<a href="#pres-synthese" class="pres-jump-link pres-jump-synthese">★ Synthèse</a>' : ''}
-    </div>
+    </div>` : '<p class="placeholder-msg">Aucun rapport ne correspond à la recherche.</p>'}
   `;
 
   rapportsSorted.forEach(r => {
