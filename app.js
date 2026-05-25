@@ -632,7 +632,7 @@ function renderStats() {
     }
     const info = extractLabels(s, i);
     if (info.pacte) pacte++;
-    if (info.sam) sam++;
+    if (isSocieteAMission(s.name)) sam++;
   });
   const totalBench = totalAll - 1;  // 42 hors IGENSIA
   const rapportAnalyses = D.focus.filter(f => !isIgensia(f.name)).length;
@@ -722,6 +722,19 @@ function badgeHTML(v) {
 
 function isIgensia(name) {
   return name.toUpperCase().includes('IGENSIA');
+}
+
+// Société à Mission : on se base sur le STATUT JURIDIQUE réel
+// (champ focus col 1), pas sur une recherche dans les justifications
+// qui produisait des faux positifs (ex. AD Education dont seule une
+// sous-entité « Pôle Léonard de Vinci » est SAM, ou IMT à cause de
+// « sociétal, mission DD&RS »). Seul l'établissement dont le statut
+// mentionne explicitement « société à mission » est compté.
+function isSocieteAMission(name) {
+  const f = D.focus.find(x => x.name === name);
+  if (!f || !f.data) return false;
+  const statut = String(f.data['1'] || '');
+  return /soci[ée]t[ée]\s+[àa]\s+mission/i.test(statut);
 }
 
 // Distingue les 6 groupes consolidés des écoles : (Groupe) ou (Groupe, auto-éval.)
@@ -833,7 +846,7 @@ function renderGrille() {
       const cls = l === 'DD&RS' ? 'pill-ddrs' : l === 'LUCIE' ? 'pill-lucie' : l === 'EcoVadis' ? 'pill-ecovadis' : l.includes('ISO') ? 'pill-iso' : l === 'Label RSE' ? 'pill-ddrs' : 'pill-bcorp';
       pills += `<span class="label-pill ${cls}">${l}</span>`;
     });
-    if (labelInfo.sam) pills += `<span class="label-pill pill-sam">Soci\u00e9t\u00e9 \u00e0 Mission</span>`;
+    if (isSocieteAMission(s.name)) pills += `<span class="label-pill pill-sam">Soci\u00e9t\u00e9 \u00e0 Mission</span>`;
     if (labelInfo.pacte) pills += `<span class="label-pill pill-pacte">Pacte Mondial</span>`;
     const rankLabel = ig ? '\u2605' : (rankMap[s.name] ? '#' + rankMap[s.name] : '');
     body += `<td class="score-cell score-cell-left ${scoreClass(s.score)}"><div class="score-num">${s.score}</div><div class="score-rank">${rankLabel}</div></td>`;
