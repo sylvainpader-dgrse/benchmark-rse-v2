@@ -724,6 +724,22 @@ function isIgensia(name) {
   return name.toUpperCase().includes('IGENSIA');
 }
 
+// Retrouve l'entrée focus correspondant à un nom de grille. Les noms
+// diffèrent parfois (« TBS EDUCATION » en grille vs « TBS » en focus,
+// suffixes « \n(Groupe) », etc.), d'où un matching tolérant :
+// 1) match exact normalisé, 2) l'un préfixe de l'autre.
+function focusEntryFor(name) {
+  const norm = n => String(n).toUpperCase().split('\n')[0].replace(/[^A-Z0-9]/g, '');
+  const target = norm(name);
+  if (!target) return null;
+  let f = D.focus.find(x => norm(x.name) === target);
+  if (f) return f;
+  return D.focus.find(x => {
+    const fn = norm(x.name);
+    return fn.length >= 3 && (target.startsWith(fn) || fn.startsWith(target));
+  }) || null;
+}
+
 // Société à Mission : on se base sur le STATUT JURIDIQUE réel
 // (champ focus col 1), pas sur une recherche dans les justifications
 // qui produisait des faux positifs (ex. AD Education dont seule une
@@ -731,7 +747,7 @@ function isIgensia(name) {
 // « sociétal, mission DD&RS »). Seul l'établissement dont le statut
 // mentionne explicitement « société à mission » est compté.
 function isSocieteAMission(name) {
-  const f = D.focus.find(x => x.name === name);
+  const f = focusEntryFor(name);
   if (!f || !f.data) return false;
   const statut = String(f.data['1'] || '');
   return /soci[ée]t[ée]\s+[àa]\s+mission/i.test(statut);
