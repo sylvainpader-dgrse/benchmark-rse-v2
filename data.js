@@ -360,7 +360,7 @@ const BENCHMARK_DATA = {
     {
       "col": 31,
       "name": "Parcours spécialisé RSE/DD diplômant",
-      "category": "5",
+      "category": "2",
       "definition": "Existence d'un ou plusieurs parcours diplômants spécialisés en RSE/DD : MSc, MBA, MS, certificat dédié RSE/DD/transition. Distinct du socle DD obligatoire pour tous.",
       "seuils": {
         "oui": "Au moins un parcours diplômant RSE/DD dans l'offre",
@@ -370,8 +370,8 @@ const BENCHMARK_DATA = {
     },
     {
       "col": 32,
-      "name": "Charte achats responsables adoptée",
-      "category": "5",
+      "name": "Achats responsables",
+      "category": "3",
       "definition": "Adoption d'une charte d'achats responsables intégrant des critères éthiques, sociaux et environnementaux dans le processus d'achat et de sélection des fournisseurs.",
       "seuils": {
         "oui": "Charte adoptée et intégrée aux appels d'offres",
