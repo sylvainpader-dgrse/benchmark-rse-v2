@@ -4255,7 +4255,7 @@ const BENCHMARK_DATA = {
         "13": "• Regent's University (UK) : Certification B Corp\n• Great Place to Work® (certifications obtenues\n  par plusieurs écoles du groupe)\n• HR Excellence in Research\n  (European Commission, certifications)\n• Reconnaissance officielle de toute\n  l'offre d'enseignement (pas d'accréditation\n  unique groupe, mais accréditations\n  nationales par école/pays)\n• Engagement Pacte Mondial / ODD (ONU)\n\nNota : Pas d'accréditation groupe unique\n(AACSB/EQUIS/AMBA), chaque école gère\nses propres accréditations nationales\nselon son pays d'implantation",
         "14": "• ODD (17 ODD, contribution explicite par priorité)\n• CSRD (trajectoire d'alignement en cours)\n• Double matérialité (matrice réalisée)\n• GHG Protocol (bilan carbone campus)\n• European Commission HR Excellence in Research\n• Pacte Mondial de l'ONU (membres)",
         "15": "• Charte éthique groupe (code de conduite)\n• Charte d'engagement DEI formelle\n  (85% écoles ont stratégie DEI)\n• Women Empowerment Principles (ONU)\n , engagement implicite via données F/H\n• Plan de transition vers campus plus verts\n  (charte interne)\n• Achats responsables (politique groupe)\n• Politique protection des données\n\nNota : Pas de liste de chartes formelles publiée\ncomme telle dans le rapport, engagement\nprincipalement via politiques et plans d'action",
-        "16": "PARTIEL\n\n• Bilan carbone campus réalisé (méthode GHG Protocol mentionnée)\n• Données par scope non publiées dans le rapport d'impact\n• Campus plus verts : 2,3 M€ investis\n• Réduction émissions mentionnée mais pas chiffrée précisément",
+        "16": "OUI\n\n\u2022 Empreinte carbone 2024-2025 publiee scopes 1+2+3 (rapport d'impact p. 64), mesure engagee depuis 2022\n\u2022 Scope 1 : 773 tCO2eq (-44 % n-1)\n\u2022 Scope 2 location-based : 5 970 tCO2eq (+19 % n-1) ; market-based : 2 930 tCO2eq\n\u2022 Scope 3 : 127 703 tCO2eq (+40 % n-1), elargi en 2024-2025 aux trajets domicile-travail, deplacements professionnels et gestion des dechets\n\u2022 Total 1+2+3 : 134 446 tCO2eq (location-based) / 131 406 tCO2eq (market-based)\n\u2022 Double methode location-based / market-based, variation n-1 sur chaque ligne\n\u2022 Reserve : hausse du scope 3 non retraitee a perimetre constant (61 -> 64 ecoles, 116 -> 133 campus) ; aucun objectif de reduction chiffre et date",
         "17": "4 PRIORITÉS D'IMPACT (cadre stratégique) :\n\n1. PERMETTRE À CHACUN DE LIBÉRER SON POTENTIEL\n→ 100% institutions avec politique santé et sécurité\n→ 100% institutions avec procédure harcèlement\n→ 100% institutions avec soutien psychologique\n→ 100% offres d'enseignement soumises à reconnaissance officielle\n→ 100% apprenants déclarant un handicap avec accompagnement personnalisé\n→ 100% institutions promouvant inclusion et diversité\n→ 100% institutions mesurant employabilité des diplômés\n→ 15 427 bourses sur critères sociaux · 15,6 M€\n→ 13 600+ bourses au mérite · 13,6 M€\n→ 21,2 M€ prêts étudiants facilités\n\n2. GARANTIR UNE ÉDUCATION DE QUALITÉ\n→ Taux de rétention 77% (objectif progression)\n→ 48% apprenants avec stage · 18% alternance\n→ Tous les cours évalués par les apprenants\n→ Tous les programmes soumis à reconnaissance officielle\n\n3. TRANSFORMER LA SOCIÉTÉ ET LES VIES\n→ 23% programmes entièrement dédiés durabilité\n→ 55% programmes intégrant contenus DD\n→ 140 000+ apprenants formés défis env./sociaux\n→ 30h durabilité 1er cycle (France, d'ici 2025-26)\n→ 160 associations étudiantes projets durabilité\n→ Soins de santé 54 000 personnes/an (écoles santé)\n\n4. PROMOUVOIR UNE ACTIVITÉ RESPONSABLE\n→ 85% écoles avec stratégie DEI\n→ Investissement 2,3 M€ campus plus verts\n→ 50% déchets recyclés\n→ Suppression plastiques usage unique\n→ Plan transition vers campus plus verts\n→ Achats responsables intégrés\n\nORIENTATIONS 2026-2027 :\n→ Harmonisation plateformes de marque groupe\n→ Cohérence messages parties prenantes\n→ Alignement sur objectifs durabilité et d'impact",
         "18": "KPIs GROUPE (Rapport d'Impact 2024-25) :\n\nAPPRENANTS :\n• 300 000+ apprenants · 64 écoles · 133 campus · 19 pays\n• Taux de rétention : 77% (2024) vs 72% (2023)\n• 48% apprenants ont effectué au moins 1 stage\n• 18% apprenants en alternance/mission entreprise\n• 140 000+ apprenants formés aux défis env. et sociaux\n• 160 associations étudiantes projets durabilité\n• 23% programmes dédiés durabilité · 55% intègrent DD\n• 15 427 bourses sur critères sociaux (15,6 M€)\n• 13 600+ bourses au mérite (13,6 M€)\n• 21,2 M€ prêts étudiants facilités\n• Soins de santé : 54 000 personnes/an (écoles santé)\n\nCOLLABORATEURS :\n• 13 115 collaborateurs mondiaux (+30% en 2024)\n• 7 953 ETP\n• 10 000+ enseignants externes\n• 57% postes occupés par femmes\n• 53% postes de direction occupés par femmes\n• 85% écoles avec stratégie DEI formelle\n• Turn-over en diminution\n\nENVIRONNEMENT :\n• 2,3 M€ investis pour campus plus verts\n• 50% déchets recyclés\n• Plastiques usage unique progressivement supprimés\n• Regent's University : certification B Corp\n• Great Place to Work® certifications obtenues\n• HR Excellence in Research (Commission Européenne)",
         "19": "1",
@@ -4432,14 +4432,14 @@ const BENCHMARK_DATA = {
       "notes": {
         "blanche": {
           "forme": 3.0,
-          "fond": 4.0
+          "fond": 3.25
         },
         "sylvain": {
           "forme": 2.5,
-          "fond": 3.5
+          "fond": 3.25
         }
       },
-      "comment": "Rapport DDRS structuré (36 pages) avec une matrice de matérialité réalisée par Capgemini Invent, un exercice qu'IGENSIA n'a pas encore conduit. Le bilan carbone est complet, 100% des étudiants sont sensibilisés. L'environnement campus reste toutefois moins détaillé que les autres axes. La transparence est correcte sans être exemplaire. Les illustrations sont particulièrement travaillées, et la campagne anti-VSS est visuellement réussie, ce qui n'est pas anecdotique sur ce sujet. La matrice de matérialité est un outil qu'IGENSIA gagnerait à adopter pour son prochain rapport."
+      "comment": "Rapport DDRS structuré (36 pages) avec une matrice de matérialité réalisée par Capgemini Invent, un exercice qu'IGENSIA n'a pas encore conduit. Le bilan carbone est complet, 100% des étudiants sont sensibilisés. L'environnement campus reste toutefois moins détaillé que les autres axes. La transparence est correcte sans être exemplaire. Les illustrations sont particulièrement travaillées, et la campagne anti-VSS est visuellement réussie, ce qui n'est pas anecdotique sur ce sujet. La matrice de matérialité est un outil qu'IGENSIA gagnerait à adopter pour son prochain rapport.\n\n[Revision fond] Fond revise 3,75 -> 3,25 (notes initiales Blanche 4,0 / Sylvain 3,5). Motif : la note haute reposait sur des elements de FORME (illustrations travaillees, campagne anti-VSS visuellement reussie), soit une contamination forme/fond que la grille exclut."
     },
     {
       "name": "INSEAD",
@@ -4473,14 +4473,14 @@ const BENCHMARK_DATA = {
       "notes": {
         "blanche": {
           "forme": 1.5,
-          "fond": 3.0
+          "fond": 3.5
         },
         "sylvain": {
           "forme": 2.0,
           "fond": 3.5
         }
       },
-      "comment": "Sustainability Report de 67 pages, très académique. La recherche est le point fort (35 cas et 56 articles sur la durabilité), le bilan carbone est détaillé par campus. En revanche, les actions concrètes sur les campus restent limitées et le volet social est en retrait. Le ton est institutionnel, peu incarné. Très technique dans son écriture, ce qui colle avec le format académique mais éloigne du registre engagement. INSEAD excelle là où IGENSIA est absent (la recherche), mais IGENSIA est plus concret sur les actions terrain et l'engagement des apprenants."
+      "comment": "Sustainability Report de 67 pages, très académique. La recherche est le point fort (35 cas et 56 articles sur la durabilité), le bilan carbone est détaillé par campus. En revanche, les actions concrètes sur les campus restent limitées et le volet social est en retrait. Le ton est institutionnel, peu incarné. Très technique dans son écriture, ce qui colle avec le format académique mais éloigne du registre engagement. INSEAD excelle là où IGENSIA est absent (la recherche), mais IGENSIA est plus concret sur les actions terrain et l'engagement des apprenants.\n\n[Revision fond] Fond revise 3,25 -> 3,50 (notes initiales Blanche 3,0 / Sylvain 3,5). Motif : honnetete de reporting la plus elevee du panel (incidents de discrimination, eau et dechets en degradation, index F/H en recul, absence d'assurance externe assumee par ecrit)."
     },
     {
       "name": "HEC PARIS",
@@ -4918,20 +4918,20 @@ const BENCHMARK_DATA = {
         "20": "Equipe projet Efrei for Good : 4 personnes sous responsabilité membre Codir\nStephanie Libeskind : Responsable RSE, référente étudiants besoins specifiques, lutte racisme/antisemitisme\nRoxane Chevallier : référente lutte contre le harcelement\nCA valide la stratégie Efrei for Good\nCodir et Comex coconstruisent la stratégie, affectent budget specifique\nBureau unique Vie étudiante - Efrei for Good (2025-2026)\nDG : Frederic Meunier (egalement president Efrei Fonds de dotation)",
         "21": "PARTIEL\nBudget specifique DD/RS affecte par Codir et Comex (mentionne mais non chiffre)\n61 bourses mobilite bas-carbone\nFonds de dotation : soutien financier associations étudiantes DD",
         "22": "OUI\nIntegration complete DD/RS dans tous les programmes depuis 2024\nIngenieurs : sensibilisation 3 premieres années, projets transverses RSE + stage RSE 2 dernieres années\nExperts numérique : bloc competence RSE valide par examen final dans chaque programme\nMastere Green IT : 4 blocs competences SI numérique responsable",
-        "23": "NON mentionne dans le rapport\nSensibilisation via Efrei for Good Xperience (3 400 étudiants) et conferences DD\nPas de Fresque du Climat specifiquement mentionnee dans ce rapport",
+        "23": "OUI\n\n\u2022 2 300 etudiants ont participe a la Fresque du Climat en 2023-2024 (rapport p. 24-25)\n\u2022 500 etudiants ont participe a l'atelier 2tonnes en 2024-2025\n\u2022 3 300 etudiants a la Journee Efrei for Good en 2023-2024",
         "24": "Rapport de Progres DD&RS 2026, 23 pages, publie décembre 2025. Rapport RSE dédié et structure en 6 engagements. Points forts : integration complete DD/RS dans tous les programmes depuis 2024, bloc competence RSE valide par examen, 323 étudiants handicap, charte associations DD obligatoire avec audit carbone, campus New Republic E+C- E3C1, équipe dédiée 4 personnes sous Codir, 81,7% étudiants engages. Originalites : Mastere Green IT, projet sante April (doctorant finance par alumni Californie), Harmony (reconditionnement PC), Efrei Falcon (drones EHPAD). Point d'attention : Fresque du Climat non mentionnee, BC détaillé non publie dans ce rapport. Programme conferences Xperience 2025 impressionnant (TF1, SNCF, Generali, Banque Postale)."
       },
       "notes": {
         "blanche": {
           "forme": 4.0,
-          "fond": 4.0
+          "fond": 3.25
         },
         "sylvain": {
           "forme": 3.5,
-          "fond": 3.5
+          "fond": 3.25
         }
       },
-      "comment": "Rapport de Progrès DD&RS de 23 pages, bien structuré en 6 engagements. 323 étudiants en situation de handicap accompagnés, 81,7% des étudiants engagés dans la transition, un campus labellisé E+C- E3C1. La charte DD obligatoire pour les associations étudiantes depuis 2023-24 est une idée qu'on voit peu ailleurs. Le bloc de compétences RSE validé par examen et la charte associations DD obligatoire avec audit carbone sont des bonnes pratiques peu fréquentes. Originalités côté projets : Mastère Green IT, projet santé April porté par un alumni, Harmony (reconditionnement PC) et Efrei Falcon (drones EHPAD). IGENSIA pourrait s'inspirer du Mastère Green IT et de la charte associations DD pour renforcer son offre."
+      "comment": "Rapport de Progrès DD&RS de 23 pages, bien structuré en 6 engagements. 323 étudiants en situation de handicap accompagnés, 81,7% des étudiants engagés dans la transition, un campus labellisé E+C- E3C1. La charte DD obligatoire pour les associations étudiantes depuis 2023-24 est une idée qu'on voit peu ailleurs. Le bloc de compétences RSE validé par examen et la charte associations DD obligatoire avec audit carbone sont des bonnes pratiques peu fréquentes. Originalités côté projets : Mastère Green IT, projet santé April porté par un alumni, Harmony (reconditionnement PC) et Efrei Falcon (drones EHPAD). IGENSIA pourrait s'inspirer du Mastère Green IT et de la charte associations DD pour renforcer son offre.\n\n[Revision fond] Fond revise 3,75 -> 3,25 (notes initiales Blanche 4,0 / Sylvain 3,5). Motif : empreinte carbone publiee a 3 500 tCO2e explicitement HORS ACHATS (rapport p. 21), premier bilan sans serie de suivi. Verifie sur le PDF source."
     },
     {
       "name": "EM STRASBOURG BUSINESS SCHOOL",
