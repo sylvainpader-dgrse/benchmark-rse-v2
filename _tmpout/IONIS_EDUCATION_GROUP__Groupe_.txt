@@ -1,0 +1,130 @@
+=== IONIS EDUCATION GROUP
+(Groupe) ===
+
+[C8]: PARTIEL, Formation DD déployée dans les écoles d’ingénieurs (MOOC Climat Sup, TASK) mais pas systématiquement dans les 29 écoles du groupe.
+
+• ESME : MOOC Climat Sup obligatoire + convention TASK (test de littératie en développement durable)
+• Fresque du Climat, Fresqu’Aéro, Fresque du Numérique déployées dans les écoles d’ingénieurs
+• Pas de socle DD obligatoire documenté pour les écoles de commerce/communication (ISG, ISEG, ISEFAC...)
+Source : Rapport ESME, p. 16-17 ; actu.ionis-group.com/cop2
+
+Apprenants :
+• Couverture partielle : 4 écoles d’ingénieurs sur 29 écoles
+Source : Rapport ESME, p. 16
+
+Collaborateurs :
+• ESME : MOOC Climat Sup obligatoire pour tous les salariés
+Source : Rapport ESME, p. 18
+
+[C9]: PARTIEL, DD intégré dans les programmes d’ingénierie (transition énergétique et numérique) mais pas dans 100% des écoles du groupe.
+
+• ESME : 44% des points ECHOS (système de crédits pédagogiques) concern RSE (objectif 15%, dépassé)
+• Sup’Biotech : DD intégré dans les cursus (gestion déchets, comptabilité carbone)
+• Pas de données pour ISG, ISEG, ISEFAC, e-artsup et autres écoles
+Source : Rapport ESME, p. 15
+
+Apprenants :
+• Couverture partielle
+Source : Rapport ESME, p. 15
+
+Collaborateurs :
+• Non applicable
+
+[C10]: PARTIEL, Sensibilisation DD en rentrée dans les écoles d’ingénieurs mais pas de dispositif systématique pour les 29 écoles.
+
+• ESME : associations obligées de réaliser au moins une action RSE
+• Fresque du Climat déployée dans les 4 écoles d’ingénieurs
+• Pas de dispositif d’onboarding DD documenté pour l’ensemble du groupe
+Source : Rapport ESME, p. 16
+
+Apprenants :
+• Couverture partielle (4/29 écoles)
+Source : Rapport ESME, p. 16
+
+Collaborateurs :
+• Non documenté
+
+[C11]: OUI, Fresque du Climat, Fresqu’Aéro et Fresque du Numérique déployées systématiquement dans les écoles d’ingénieurs.
+
+• Fresque du Climat (atelier collaboratif de 3h sur les causes/conséquences du changement climatique) intégrée aux programmes
+• Fresqu’Aéro déployée à l’IPSA
+• Fresque du Numérique déployée à l’EPITA et ESME
+Source : actu.ionis-group.com/cop2 ; Rapport ESME
+
+Apprenants :
+• Ateliers déployés pour les étudiants
+Source : actu.ionis-group.com/cop2
+
+Collaborateurs :
+• Non documenté au niveau groupe
+
+[C14]: PARTIEL, ESME a rendu le MOOC Climat Sup obligatoire pour tous ses salariés, mais pas de programme groupe.
+
+• ESME : MOOC Climat Sup (créé par l’INSA) obligatoire pour l’ensemble des 209 salariés
+• 4 modules : limites planétaires, enjeux énergétiques, économie circulaire, RSE
+• Pas de programme similaire documenté pour les autres écoles du groupe
+Source : Rapport ESME, p. 18
+
+Apprenants :
+• Non applicable
+
+Collaborateurs :
+• Déployé à l’ESME, pas au niveau groupe
+Source : Rapport ESME, p. 18
+
+[C15]: NON, Pas de réseau de référents RSE documenté au niveau groupe.
+
+• Chaque école d’ingénieurs a un responsable DD individuel
+• Pas de réseau structuré de référents RSE transversal au groupe
+Source : Recherche web (absence constatée)
+
+Apprenants :
+• Non documenté
+
+Collaborateurs :
+• Non documenté
+
+[C16]: PARTIEL, ESME forme ses enseignants via MOOC Climat Sup mais pas de programme formalisé au niveau groupe.
+
+• ESME : MOOC obligatoire pour tous les salariés y compris les 139 enseignants
+• 27 enseignants-chercheurs impliqués dans la recherche liée aux ODD (ESME)
+• Pas de programme groupe de formation DD enseignants
+Source : Rapport ESME, p. 7, 18
+
+Apprenants :
+• Non applicable
+
+Collaborateurs :
+• Couverture ESME uniquement
+Source : Rapport ESME, p. 18
+
+[C17]: PARTIEL, Recherche liée aux ODD dans les écoles d’ingénieurs mais pas de chaire RSE dédiée ni de volume de publications RSE au niveau groupe.
+
+• ESME : recensement des publications RSE alignées ODD, outil Labo1point5 en expérimentation
+• Sup’Biotech : recherche Green Tech et économie circulaire
+• Pas de chaire RSE/DD dédiée identifiée au niveau groupe
+• Projets étudiants à impact (Photosph’air, WellCheck, Encelade, Bioplast’Oil) mais issus des écoles individuellement
+Source : Rapport ESME, p. 19 ; actu.ionis-group.com/20-idees
+
+Apprenants :
+• Projets étudiants innovants à impact
+Source : actu.ionis-group.com/20-idees
+
+Collaborateurs :
+• Chercheurs impliqués dans les écoles d’ingénieurs
+Source : Rapport ESME, p. 19
+
+[C31]: PARTIEL, Majeures liées à la transition (ESME : conversion d’énergie, IPSA : aéronautique durable) mais pas de parcours RSE/DD diplômant dédié identifié.
+
+• ESME : majeure Conversion d’Énergie (formation à la transition énergétique)
+• IPSA : formation aéronautique intégrant le développement durable
+• Sup’Biotech : cursus orienté biotech et environnement
+• Pas de MSc ou parcours spécifiquement intitulé RSE/DD
+Source : Rapport ESME, p. 8 ; actu.ionis-group.com/supbiotech-dd
+
+Apprenants :
+• Majeures techniques liées à la transition
+Source : Rapport ESME, p. 8
+
+Collaborateurs :
+• Non applicable

@@ -1,0 +1,810 @@
+====================================================================================================
+CRITERE 1 | col=1 | Poste RSE dédié au COMEX/DG
+DEF: Existence d'un poste ou d'une fonction RSE/DD identifié(e) au sein du comité exécutif ou rattaché(e) directement à la direction générale, avec un mandat formalisé.
+SEUIL OUI: Poste dédié nommément identifié, rattaché au COMEX/DG
+SEUIL PARTIEL: Référent RSE identifié mais sans rattachement COMEX
+SEUIL NON: Aucun poste ni fonction RSE identifié(e)
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, 51 membres d’équipes internes dédiés au déploiement DD&RS en 2025 (vs 29 en 2024).
+
+• Direction de la Transition Écologique et Sociale structurée
+• Comité stratégique de soutenabilité (faculté + administratif)
+Source : Rapport DD&RS 2026, p. 4, 15
+
+Apprenants :
+• GAIA (l’école des transitions) forme 100% des étudiants formation initiale
+Source : Rapport DD&RS 2026, p. 15
+
+Collaborateurs :
+• 51 membres internes dédiés (doublement en 1 an)
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 2 | col=2 | Comité RSE opérationnel actif
+DEF: Existence d'un ou plusieurs comités RSE opérationnels, avec membres identifiés, fréquence de réunion documentée et missions définies. Inclut les comités stratégiques, de pilotage ou de mission.
+SEUIL OUI: Comité(s) RSE actif(s) avec composition et fréquence documentées
+SEUIL PARTIEL: Comité existant mais peu documenté ou peu actif
+SEUIL NON: Aucun comité RSE identifié
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Comité stratégique de soutenabilité (faculté + administratif) + collectif CARES (Collectif Académique de la Recherche pour l'Environnement et la Société).
+
+• Comité stratégique de soutenabilité associant représentants de la faculté et de l'administration assure le pilotage transversal du DD&RS.
+• Collectif CARES : 62 enseignants-chercheurs membres en 2025 (vs 49 en 2024), réseau interne d'experts engagés sur les transitions écologiques et sociales.
+• Direction de la Transition Écologique et Sociale identifiée dans la gouvernance du schéma directeur DD&RS 2030.
+Source : Rapport DD&RS 2026, p. 4, 8, 15
+
+Apprenants :
+• Les étudiants bénéficient indirectement de la gouvernance via la coordination GAIA (l'école des transitions d'Audencia, qui forme 100% des étudiants en formation initiale) et l'intégration des transitions dans 83% des cours.
+Source : Rapport DD&RS 2026, p. 6, 15
+
+Collaborateurs :
+• 62 enseignants-chercheurs CARES + comité stratégique + 51 membres d'équipes internes dédiés au déploiement DD&RS.
+Source : Rapport DD&RS 2026, p. 15
+
+Compléments (veille 2026) :
+• Comité étudiant soutenable composé de représentants de tous les programmes : intègre les aspirations étudiantes dans la stratégie de transition et stimule l'engagement dans les projets RSE.
+====================================================================================================
+CRITERE 3 | col=3 | Plan / feuille de route RSE formalisé
+DEF: Existence d'un plan stratégique RSE formalisé avec axes, engagements, échéancier et indicateurs de suivi. Peut prendre la forme d'un schéma directeur DD&RS, d'un plan d'engagements ou d'une feuille de route RSE.
+SEUIL OUI: Plan/feuille de route RSE formalisé avec axes et échéancier
+SEUIL PARTIEL: Orientations RSE communiquées mais pas de plan structuré
+SEUIL NON: Aucune feuille de route RSE identifiée
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Plan stratégique STOA 2030 + schéma directeur DD&RS 2030 formalisé avec analyse de double matérialité.
+
+• Schéma directeur DD&RS 2030 fondé sur une méthodologie exhaustive : recommandations ministérielles, référentiel DD&RS, examen complet de la chaîne de valeur.
+• Analyse de double matérialité réalisée en 2025 : 23 Impacts/Risques/Opportunités identifiés dont 18 jugés matériels, sur la base de 30 référentiels analysés.
+• Cadre stratégique aligné sur le label DD&RS, les ODD (Objectifs de Développement Durable de l'ONU), l'Accord de Paris et la directive CSRD (reporting extra-financier européen).
+• Matrice de double matérialité publiée dans le rapport de durabilité 2026 ; réévaluation annuelle des IRO prévue.
+Source : Rapport DD&RS 2026, p. 4
+
+Apprenants :
+• Le plan inclut le déploiement de GAIA (l'école des transitions d'Audencia, qui forme 100% des étudiants en formation initiale) pour intégrer les transitions à tous les programmes.
+Source : Rapport DD&RS 2026, p. 4, 6
+
+Collaborateurs :
+• Le plan structure 5 axes dont la politique sociale et la QVT, avec 51 membres d'équipes internes dédiés au déploiement.
+Source : Rapport DD&RS 2026, p. 12, 15
+====================================================================================================
+CRITERE 4 | col=4 | Label ou certification RSE externe
+DEF: Obtention d'un label ou d'une certification RSE/DD externe reconnue : DD&RS (CIRSES), LUCIE 26000 (ISO 26000), EcoVadis, ISO 14001, B Corp. Les accréditations académiques (AACSB, EQUIS, AMBA) ne comptent pas seules.
+SEUIL OUI: Label RSE/DD obtenu et en cours de validité
+SEUIL PARTIEL: Démarche de labellisation engagée ou label expiré
+SEUIL NON: Aucun label RSE/DD
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Label DD&RS (Développement Durable & Responsabilité Sociétale de l'enseignement supérieur) obtenu (1ère Business School en 2016, renouvelé) + Label LUCIE + Global Compact (2004) + PRME (Principles for Responsible Management Education, engagement des écoles pour intégrer la RSE dans les formations) Champions (2014).
+
+• 1ère Business School française à obtenir le label DD&RS (Développement Durable & Responsabilité Sociétale de l'enseignement supérieur) (2016)
+• Label LUCIE également obtenu (1ère institution ESR)
+• Global Compact depuis 2004, PRME Champions depuis 2014
+• 4ème place ChangeNOW x Les Échos 2024 et 2025
+Source : Rapport DD&RS 2026, p. 3, 15, 16
+
+Apprenants :
+• Les labels évaluent la formation et l’expérience étudiante
+Source : Rapport DD&RS 2026, p. 16
+
+Collaborateurs :
+• Les labels couvrent la politique sociale
+Source : Rapport DD&RS 2026, p. 16
+====================================================================================================
+CRITERE 5 | col=5 | Budget RSE dédié publié
+DEF: Publication d'un budget ou d'une enveloppe financière dédié(e) à la RSE/DD, même sous forme d'estimation. Inclut les ETP dédiés, les fonds spécifiques, les investissements RSE.
+SEUIL OUI: Budget RSE chiffré et publié
+SEUIL PARTIEL: Mentions d'investissements RSE sans montant consolidé
+SEUIL NON: Aucune information budgétaire RSE
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, 8% du budget total alloué aux enjeux de transition écologique et sociale (2025) + 51 membres d'équipes internes dédiés.
+
+• Budget RSE publié : 8% du budget total en 2025 (vs 11% en 2024).
+• Équipes dédiées DD&RS : 51 membres en 2025 (doublement vs 29 en 2024).
+• Audencia classée 4e du palmarès ChangeNOW x Les Échos Start (édition 2025).
+Source : Rapport DD&RS 2026, p. 5, 15
+
+Apprenants :
+• Le budget couvre GAIA (l'école des transitions d'Audencia) et les 48h de cours obligatoires sur les transitions en Pré-Master.
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• Le budget couvre la formation de 367 nouveaux collaborateurs aux enjeux de transition (2025).
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 6 | col=6 | Dispositif anticorruption & alerte éthique
+DEF: Existence d'un dispositif formalisé de prévention de la corruption et/ou d'un canal d'alerte éthique. Inclut : code de conduite, charte éthique, procédure de signalement (loi Sapin II, loi Waserman), référent éthique désigné.
+SEUIL OUI: Dispositif complet : code + procédure d'alerte + référent
+SEUIL PARTIEL: Code de conduite sans procédure d'alerte formalisée
+SEUIL NON: Aucun dispositif identifié
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Dispositif "Écoute & Prévention" mis en place en 2023 (signalement volontaire des situations sensibles) + département Études organisationnelles et éthique, mais pas de procédure d'alerte type Sapin II formalisée et opposable.
+
+• Dispositif interne "Écoute & Prévention" déployé en 2023 sur la base du volontariat pour faciliter le signalement et l'accompagnement des situations sensibles.
+• Outil de mesure de maturité Loi Sapin 2 développé par l'école dans le cadre de ses travaux sur la conformité.
+• Département Études organisationnelles et éthique structuré au sein de la faculté.
+• Pas de code de conduite formalisé ni de procédure d'alerte lanceur d'alerte type Sapin II documentée publiquement.
+Source : audencia.com (département Études organisationnelles et éthique) ; rapport2023.audencia.com (DRH, dispositif Écoute & Prévention)
+
+Apprenants :
+• Les étudiants bénéficient indirectement du cadre éthique via l'enseignement et le dispositif BeeSafe pour les VSS (cf. C13).
+Source : audencia.com
+
+Collaborateurs :
+• "Écoute & Prévention" accessible aux personnels pour signalement interne.
+Source : rapport2023.audencia.com
+====================================================================================================
+CRITERE 7 | col=7 | Transparence RSE (rapport, KPIs, accessibilité)
+DEF: Disponibilité publique d'informations RSE : rapport RSE ou page dédiée, données mises à jour régulièrement, accessibles facilement, avec KPIs chiffrés. Synthèse des anciens critères : rapport public + MAJ ≤ 2 ans + accessibilité ≤ 3 clics + KPIs.
+SEUIL OUI: Rapport/page RSE public, à jour, accessible, avec KPIs
+SEUIL PARTIEL: Informations RSE partielles ou non à jour
+SEUIL NON: Aucune communication RSE publique
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Rapport DD&RS 2026 (16p) publié + indicateurs de suivi 2024-2025 + page RSE dédiée.
+
+• Rapport accessible librement sur audencia.com
+• Tableau d’indicateurs avec comparaison 2024 vs 2025 (p. 15)
+• Page vision-engagements-responsables en 2 clics
+Source : Rapport DD&RS 2026, p. 15 ; audencia.com/lecole/vision-engagements-responsables
+
+Apprenants :
+• Données publiées : 100% formés GAIA (l'école des transitions écologiques et sociales d'Audencia, qui forme 100% des étudiants en formation initiale), 83% cours DD
+Source : Rapport DD&RS 2026, p. 15
+
+Collaborateurs :
+• KPIs RH publiés : 367 formés, 62 chercheurs CAR
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 8 | col=8 | Socle DD obligatoire (≥ 15h/an)
+DEF: Intégration d'un socle de formation obligatoire au développement durable et à la RSE pour les apprenants, d'un volume ≥ 15h/an. Répond à l'exigence MESR de 30h sur le cycle. Inclut les modules DD en tronc commun, pas les options.
+SEUIL OUI: Socle DD obligatoire ≥ 15h/an déployé
+SEUIL PARTIEL: Modules DD présents mais < 15h ou non obligatoires
+SEUIL NON: Aucun socle DD obligatoire
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, 100% des étudiants en formation initiale formés par GAIA (l’école des transitions).
+
+• GAIA intègre des modules de formation DD dans tous les programmes
+• 83% des cours à Audencia incluent la transition écologique et sociale
+Source : Rapport DD&RS 2026, p. 15
+
+Apprenants :
+• 100% des étudiants formation initiale formés
+Source : Rapport DD&RS 2026, p. 15
+
+Collaborateurs :
+• Les enseignants dispensent les modules GAIA
+Source : Rapport DD&RS 2026, p. 6
+====================================================================================================
+CRITERE 9 | col=9 | DD intégré dans 100% des programmes
+DEF: Intégration effective des enjeux DD/RSE dans la totalité des programmes de formation (Bachelor, Master, MSc, MBA). Ne se limite pas au tronc commun mais concerne les enseignements de spécialité.
+SEUIL OUI: 100% des programmes intègrent le DD
+SEUIL PARTIEL: Intégration en cours ou partielle (< 100%)
+SEUIL NON: DD non intégré dans les programmes de spécialité
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, 83% des cours incluent la transition écologique et sociale (vs 78% en 2024) + socle obligatoire de 48h dès le Pré-Master.
+
+• Progression continue : 78% des cours en 2024 → 83% en 2025.
+• Socle obligatoire de 48h de cours dédiés aux transitions dès le Pré-Master du Programme Grande École, soit 12,5% des heures de cours en gestion.
+• Deux cours dédiés en Pré-Master : "Enjeux Économiques du Monde Contemporain : L'économie en transition" et "Introduction à la transition écologique et sociale".
+• 100% des étudiants en formation initiale formés via GAIA (l'école des transitions d'Audencia).
+Source : Rapport DD&RS 2026, p. 6, 15
+
+Apprenants :
+• Environ 550 étudiants Pré-Master formés chaque année avec 48h obligatoires sur les transitions.
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• 367 nouveaux collaborateurs formés aux enjeux de transition en 2025 (vs 177 en 2024), assurant la diffusion pédagogique.
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 10 | col=10 | Sensibilisation DD onboarding apprenants
+DEF: Existence d'un dispositif de sensibilisation DD/RSE spécifique à l'accueil des nouveaux apprenants (onboarding). Exemples : séminaire d'intégration DD, journée transition écologique, atelier 2tonnes. Distinct du socle DD annuel.
+SEUIL OUI: Dispositif d'onboarding DD formalisé pour tous les entrants
+SEUIL PARTIEL: Sensibilisation ponctuelle sans dispositif systématique
+SEUIL NON: Aucun dispositif d'onboarding DD
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Formation GAIA (l'école des transitions écologiques et sociales d'Audencia, qui forme 100% des étudiants en formation initiale) pour tous les étudiants mais pas de dispositif d’onboarding DD spécifique type séminaire d’accueil.
+
+• GAIA forme 100% des étudiants mais c’est un programme annuel, pas un onboarding spécifique
+• Pas de séminaire d’intégration DD dédié pour les nouveaux entrants documenté dans le rapport
+Source : Rapport DD&RS 2026, p. 6, 15
+
+Apprenants :
+• Formés via GAIA mais pas de Welcome Day DD spécifique
+Source : Rapport DD&RS 2026
+
+Collaborateurs :
+• 367 nouveaux collaborateurs formés aux enjeux de transition en 2025
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 11 | col=11 | Fresque Climat ou atelier équivalent
+DEF: Déploiement d'ateliers de sensibilisation climat/environnement type Fresque du Climat, Fresque de la Biodiversité, atelier 2tonnes, ou équivalent reconnu. Doit concerner un volume significatif de participants.
+SEUIL OUI: Ateliers déployés systématiquement pour apprenants et/ou collaborateurs
+SEUIL PARTIEL: Ateliers proposés ponctuellement ou à un public restreint
+SEUIL NON: Aucun atelier climat/environnement
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Fresques du Climat déployées pour étudiants et collaborateurs.
+
+• Ateliers Fresque du Climat (atelier collaboratif de 3h basé sur les rapports du GIEC pour comprendre les causes et conséquences du changement climatique) proposés dans le cadre de GAIA (l'école des transitions écologiques et sociales d'Audencia, qui forme 100% des étudiants en formation initiale)
+• 367 nouveaux collaborateurs formés aux enjeux de transition (incluant ateliers)
+Source : Rapport DD&RS 2026, p. 15
+
+Apprenants :
+• Fresques intégrées au parcours GAIA
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• 367 formés en 2025 (vs 177 en 2024)
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 12 | col=12 | Accord QVCT ou équivalent
+DEF: Existence d'un accord QVCT (Qualité de Vie et Conditions de Travail) signé avec les partenaires sociaux, ou d'un dispositif équivalent structuré. L'accord QVCT n'est pas une obligation légale (seule la négociation annuelle l'est).
+SEUIL OUI: Accord QVCT signé ou dispositif équivalent formalisé
+SEUIL PARTIEL: Actions QVT sans accord formalisé
+SEUIL NON: Aucun dispositif QVT/QVCT identifié
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Politique sociale et QVT structurée avec accord d'intéressement intégrant un critère "Engagement RSE", mais pas d'accord QVCT signé avec les partenaires sociaux documenté.
+
+• Section "Politique sociale & qualité de vie au travail et sur les campus" dédiée dans le rapport.
+• Accord d'intéressement signé en 2025 incluant un critère "Engagement RSE" : niveau 100% atteint si la moyenne des émissions CO2 des déplacements professionnels est inférieure à 1 000 kg/salarié/an.
+• Volet Social de la Comptabilité Multi-Capitale (CMC) déployé en 2026 : évaluation systémique de la performance sociale via 12 fondations sociales (théorie du donut), couvrant droits fondamentaux, santé, sécurité économique, égalité des genres.
+• Pas d'accord QVCT typé signé avec partenaires sociaux documenté.
+Source : Rapport DD&RS 2026, p. 10, 12, 14
+
+Apprenants :
+• Le volet social CMC inclura les étudiants dans son périmètre d'évaluation des injustices structurelles.
+Source : Rapport DD&RS 2026, p. 14
+
+Collaborateurs :
+• Critère "Engagement RSE" adossé à la rémunération variable de tous les salariés via l'accord d'intéressement.
+Source : Rapport DD&RS 2026, p. 10
+====================================================================================================
+CRITERE 13 | col=13 | Sensibilisation VSS
+DEF: Déploiement d'un dispositif de prévention des violences sexistes et sexuelles (VSS) : formation, sensibilisation, procédure de signalement, référent(e) VSS. Concerne apprenants ET collaborateurs.
+SEUIL OUI: Dispositif VSS complet déployé (formation + signalement + référent)
+SEUIL PARTIEL: Dispositif en cours de déploiement ou partiel
+SEUIL NON: Aucun dispositif VSS identifié
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Convention signée avec le Tribunal Judiciaire et France Victimes 44 + dispositif BeeSafe (application/dispositif de signalement des violences sexistes et sexuelles).
+
+• Convention tripartite pour la lutte contre les VSS : Audencia + Tribunal Judiciaire + France Victimes 44
+• Accompagnement complet des victimes : déclaration → exécution des décisions de justice
+• Dispositif BeeSafe (application/dispositif de signalement des violences sexistes et sexuelles) identifié sur le site (lutte VSS et discriminations)
+Source : Rapport DD&RS 2026, p. 14 ; site web audencia.com
+
+Apprenants :
+• BeeSafe (application/dispositif de signalement des violences sexistes et sexuelles) accessible aux étudiants
+Source : Site web audencia.com (menu Vie étudiante)
+
+Collaborateurs :
+• Convention couvre étudiants ET personnels
+Source : Rapport DD&RS 2026, p. 14
+====================================================================================================
+CRITERE 14 | col=14 | Formation DD collaborateurs
+DEF: Existence d'un programme de formation DD/RSE dédié aux collaborateurs (hors enseignants). Inclut : parcours e-learning, Climate School, séminaires DD, formations présentielles. Doit concerner l'ensemble des équipes.
+SEUIL OUI: Programme de formation DD déployé pour tous les collaborateurs
+SEUIL PARTIEL: Formation DD pour une partie des collaborateurs
+SEUIL NON: Aucune formation DD collaborateurs
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, 367 nouveaux collaborateurs formés aux enjeux de transition en 2025 (vs 177 en 2024).
+
+• Doublement du nombre de collaborateurs formés en 1 an
+• Programme de formation structuré pour les nouvelles recrues
+Source : Rapport DD&RS 2026, p. 15
+
+Apprenants :
+• Non applicable directement
+
+Collaborateurs :
+• 367 formés (2025), progression x2 vs 2024
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 15 | col=15 | Ambassadeurs / référents RSE internes
+DEF: Réseau de référents, ambassadeurs ou pilotes RSE identifiés au sein de l'établissement. Personnes formées et mandatées pour relayer la démarche RSE dans leur direction ou service.
+SEUIL OUI: Réseau de référents/ambassadeurs RSE actif et documenté
+SEUIL PARTIEL: Quelques référents identifiés sans réseau structuré
+SEUIL NON: Aucun référent RSE identifié
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, 51 membres d'équipes internes dédiés au déploiement DD&RS + collectif CARES (Collectif Académique de la Recherche pour l'Environnement et la Société).
+
+• 51 membres d'équipes internes dédiés au déploiement des démarches DD&RS en 2025 (doublement vs 29 en 2024).
+• Collectif CARES : 62 enseignants-chercheurs en 2025 (vs 49 en 2024), réseau d'ambassadeurs recherche RSE.
+• Programme structuré de formation : 367 nouveaux collaborateurs formés aux enjeux de transition en 2025 (vs 177 en 2024).
+Source : Rapport DD&RS 2026, p. 15
+
+Apprenants :
+• Bénéficient indirectement de la qualité d'encadrement DD&RS via les 62 chercheurs CARES qui enseignent dans GAIA et les programmes.
+Source : Rapport DD&RS 2026, p. 6, 8
+
+Collaborateurs :
+• 51 référents actifs DD&RS + 62 chercheurs CARES + 367 nouveaux collaborateurs formés en 2025.
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 16 | col=16 | Formation des enseignants aux enjeux DD
+DEF: Formation des enseignants et formateurs aux enjeux DD/RSE pour qu'ils intègrent ces sujets dans leurs cours. Inclut : ateliers pédagogiques, certifications DD, séminaires de sensibilisation enseignants.
+SEUIL OUI: Formation DD enseignants formalisée et déployée
+SEUIL PARTIEL: Sensibilisation ponctuelle sans programme structuré
+SEUIL NON: Aucune formation DD pour les enseignants
+--- VERDICT: NON
+--- JUSTIF:
+OUI, 62 enseignants-chercheurs membres du collectif CARES + 65% des publications de la faculté portent sur les transitions écologiques et sociales.
+
+• Collectif CARES (Collectif Académique de la Recherche pour l'Environnement et la Société) en progression : 49 membres en 2024 → 62 en 2025.
+• 65% des publications de la faculté portent sur les transitions écologiques et sociales (stable vs 2024).
+• 15 projets à impact menés sur l'entreprise et la société en 2025 (vs 13 en 2024).
+• Chaire Impact Positif : 5 publications majeures en 2025 (transformation modèle économique, sens au travail, baromètre égalité F/H, embarquement RSE interne, détracteurs RSE).
+Source : Rapport DD&RS 2026, p. 8-9, 15
+
+Apprenants :
+• Les étudiants bénéficient des enseignements des 62 chercheurs CARES dans GAIA et les programmes spécialisés.
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• 62 enseignants-chercheurs engagés dans le collectif CARES, animant les recherches sur les transitions.
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 17 | col=17 | Recherche liée RSE/DD (publications, chaires)
+DEF: Production de recherche académique liée aux enjeux RSE/DD : publications, chaires de recherche, laboratoires dédiés, partenariats de recherche sur la transition.
+SEUIL OUI: Chaire(s) RSE/DD ou volume significatif de publications RSE
+SEUIL PARTIEL: Quelques publications ou projets sans structure dédiée
+SEUIL NON: Aucune activité de recherche RSE identifiée
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Chaire Impact Positif + Kosmogonia + AquaSPICE (H2020) + Forum métropolitain du climat + partenariat ADEME-BPI.
+
+• Chaire Impact Positif : études sur la transformation des modèles économiques, l'égalité salariale F/H et la mode responsable.
+• Kosmogonia : programme de recherche participative sur 2 ans étudiant les bascules socio-écologiques (57 organisations engagées en Europe et Asie, 110 interviews, 390 jours d'immersion, terrain international réalisé sans avion).
+• Projet AquaSPICE (H2020 finalisé) : intégration de l'économie circulaire dans la gestion de l'eau industrielle, jusqu'à -40% de consommation d'eau douce dans l'industrie via des technologies de recyclage.
+• Forum métropolitain du climat de Nantes Métropole : Audencia membre actif aux côtés de 25 organisations partenaires (PCAET 2024-2030).
+• Partenariat ADEME / Bpifrance Université : Audencia Executive Education a accompagné la promotion 5 de l'Accélérateur "Offreurs de Solutions Énergétiques Vertes" (parcours 18 mois, 6 séminaires).
+Source : Rapport DD&RS 2026, p. 5, 7, 8-9, 10
+
+Apprenants :
+• 54 étudiants du MSc Management for Sustainable Business ont obtenu la certification Bilan Carbone® en 2025.
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• 62 enseignants-chercheurs CARES engagés dans la production de connaissances sur les transitions.
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 18 | col=18 | Bilan Carbone réalisé (scopes 1+2)
+DEF: Réalisation d'un bilan des émissions de gaz à effet de serre couvrant a minima les scopes 1 (combustion directe) et 2 (électricité). Méthode : Bilan Carbone® ADEME, GHG Protocol, BEGES réglementaire.
+SEUIL OUI: BC réalisé, résultats publiés
+SEUIL PARTIEL: BC en cours ou résultats non publiés
+SEUIL NON: Aucun bilan carbone réalisé
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, 4 bilans carbone consécutifs réalisés selon une approche multi-capitale + engagement ACT'Sup (ADEME) + membre Forum métropolitain du climat.
+
+• 4 bilans carbone consécutifs réalisés (méthode multi-capitale LIFTS® attachant les impacts carbone à chaque entrée comptable).
+• Engagement dans ACT'Sup (programme de l'ADEME pour l'enseignement supérieur) pour aligner la trajectoire de décarbonation sur la stratégie nationale bas carbone.
+• 1 385 kg CO2/étudiant en 2025 (vs 1 133 kg en 2024), augmentation publiée en transparence.
+• Membre du Forum métropolitain du climat de Nantes Métropole.
+Source : Rapport DD&RS 2026, p. 10-11, 15
+
+Apprenants :
+• 54 étudiants MSc MSB certifiés Bilan Carbone® et capables de calculer l'empreinte carbone d'une organisation.
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• Critère "Engagement RSE" adossé à l'intéressement, conditionné aux émissions CO2 des déplacements professionnels.
+Source : Rapport DD&RS 2026, p. 10
+====================================================================================================
+CRITERE 19 | col=19 | Scope 3 inclus dans le bilan
+DEF: Inclusion du scope 3 (émissions indirectes : déplacements, achats, numérique, restauration, mobilité étudiante) dans le bilan carbone. Le scope 3 représente généralement 80-95% des émissions d'un établissement ESR.
+SEUIL OUI: Scope 3 détaillé avec principaux postes identifiés
+SEUIL PARTIEL: Scope 3 partiellement couvert ou non détaillé
+SEUIL NON: Scope 3 non inclus
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Stratégie bas-carbone ACT’Sup mais scope 3 détaillé par poste non publié dans le rapport.
+
+• Trajectoire alignée Accords de Paris (ACT’Sup = méthode ADEME/CDP)
+• Détail des postes scope 3 non publié dans ce rapport
+Source : Rapport DD&RS 2026, p. 10
+
+Apprenants :
+• Non détaillé
+
+Collaborateurs :
+• Non détaillé
+====================================================================================================
+CRITERE 20 | col=20 | Objectif réduction GES chiffré
+DEF: Fixation d'un objectif chiffré de réduction des émissions de GES avec échéance (ex: -40% d'ici 2030). L'objectif doit être publié et idéalement aligné sur les Accords de Paris ou la SNBC.
+SEUIL OUI: Objectif chiffré publié avec échéance
+SEUIL PARTIEL: Ambition de réduction sans objectif chiffré précis
+SEUIL NON: Aucun objectif GES
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Trajectoire de décarbonation ACT'Sup (ADEME) en cours de finalisation, dévoilement public annoncé en 2026 et budget CO2 par direction prévu pour 2027.
+
+• Trajectoire de réduction carbone alignée Accord de Paris en cours d'élaboration via ACT'Sup (ADEME) et la méthodologie multi-capitale LIFTS®.
+• Trajectoire publique annoncée pour dévoilement en 2026, avec mise en place d'un processus budgétaire intégré dès 2027.
+• Budget CO2 par direction réparti selon un mécanisme équitable (en cours de déploiement) pour responsabiliser chaque équipe sur ses émissions.
+• 42 objectifs définis pour réduire l'impact carbone (5 thèmes : Organisation, Sensibilisation, Achats, Immobilier, Mobilité, Numérique).
+• Pas encore d'objectif chiffré public type -X% d'ici 2030 publié dans le rapport.
+Source : Rapport DD&RS 2026, p. 11, 15
+
+Apprenants :
+• Les 54 étudiants MSc MSB certifiés Bilan Carbone® formés à l'analyse des trajectoires.
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• Budget CO2 par direction = chaque équipe responsabilisée sur ses émissions dès 2027.
+Source : Rapport DD&RS 2026, p. 11
+====================================================================================================
+CRITERE 21 | col=21 | Plan de transition / décarbonation formalisé
+DEF: Existence d'un plan de transition ou de décarbonation formalisé (document autonome) détaillant les actions, le calendrier et les responsables pour atteindre les objectifs GES. Distinct du simple objectif chiffré.
+SEUIL OUI: Plan de transition formalisé, documenté et suivi
+SEUIL PARTIEL: Actions de réduction identifiées sans plan autonome
+SEUIL NON: Aucun plan de transition
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Schéma directeur DD&RS 2030 avec analyse de double matérialité + trajectoire ACT'Sup (ADEME) + 42 objectifs de réduction carbone.
+
+• Plan d'action environnemental formalisé via le schéma directeur DD&RS 2030 (basé sur double matérialité + chaîne de valeur + 30 référentiels).
+• Trajectoire ACT'Sup (programme ADEME pour l'enseignement supérieur) pilotée avec ADEME/CDP, alignée Accord de Paris.
+• 42 objectifs structurés pour réduire l'impact carbone, organisés autour de 5 thèmes : Organisation, Sensibilisation, Achats, Immobilier, Mobilité, Numérique.
+• 23 Impacts/Risques/Opportunités identifiés via la double matérialité, dont 18 matériels guidant les 5 années à venir.
+Source : Rapport DD&RS 2026, p. 4, 11, 15
+
+Apprenants :
+• Plan environnemental intégré dans le cursus via GAIA (l'école des transitions d'Audencia) et les 48h obligatoires en Pré-Master.
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• 51 membres d'équipes internes dédiés au déploiement opérationnel du plan.
+Source : Rapport DD&RS 2026, p. 15
+====================================================================================================
+CRITERE 22 | col=22 | Numérique responsable formalisé
+DEF: Formalisation d'une politique de numérique responsable : charte d'usages, mesure de l'empreinte numérique, allongement de durée de vie des équipements, sobriété des usages, éco-conception des services numériques.
+SEUIL OUI: Politique numérique responsable formalisée avec actions
+SEUIL PARTIEL: Charte ou sensibilisation sans politique structurée
+SEUIL NON: Aucune démarche numérique responsable
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Charte Numérique Responsable de l'INR signée + Audencia adhérente de l'Institut du Numérique Responsable + plan de sobriété numérique depuis 2022 + groupe de travail dédié.
+
+• Signature de la Charte Numérique Responsable de l'Institut du Numérique Responsable (INR) par André Sobczak (Directeur Académique et Recherche), avec Jean-Christophe Chaussat (Président INR) à Paris.
+• Audencia adhérente formelle de l'INR (Institut du Numérique Responsable).
+• Plan de sobriété numérique initié en 2022, aligné sur la stratégie Low Carbon : non-renouvellement systématique des terminaux mobiles, réutilisation des terminaux retournés, achat de terminaux reconditionnés, optimisation du contrat opérateur.
+• Groupe de travail interne "Numérique Responsable" composé de membres de la DSI et de collaborateurs volontaires : initiatives Green IT.
+• Numérique identifié comme l'un des 5 thèmes du plan d'action carbone (42 objectifs).
+Source : rse.audencia.com (charte INR + adhésion INR + plan sobriété) ; Rapport DD&RS 2026 (5 thèmes plan carbone)
+
+Apprenants :
+• Bénéficient d'un parc IT plus durable (terminaux reconditionnés) et de la sensibilisation au numérique responsable via les actions du groupe de travail.
+Source : rse.audencia.com (recyclage équipements informatiques)
+
+Collaborateurs :
+• Groupe de travail "Numérique Responsable" ouvert aux volontaires + sensibilisation Green IT + politique de réemploi du parc.
+Source : rse.audencia.com
+====================================================================================================
+CRITERE 23 | col=23 | Politique mobilité durable
+DEF: Mise en place d'une politique de mobilité durable : plan de mobilité, covoiturage, vélos, incitations transports en commun, réduction des déplacements aériens, forfait mobilité durable.
+SEUIL OUI: Politique de mobilité durable formalisée avec actions
+SEUIL PARTIEL: Actions ponctuelles sans politique structurée
+SEUIL NON: Aucune politique mobilité durable
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Mobilité identifiée comme un des 5 thèmes du plan d'action carbone (42 objectifs) + critère CO2 déplacements dans l'accord d'intéressement + participation au Challenge Européen du Vélo, mais pas de plan de déplacement employeur formalisé.
+
+• Mobilité identifiée comme l'un des 5 thèmes du plan d'action carbone d'Audencia (Organisation, Sensibilisation, Achats, Immobilier, Mobilité, Numérique).
+• Accord d'intéressement 2025 conditionné à la moyenne des émissions CO2 déplacements pro < 1 000 kg/salarié/an : incitation salariale concrète à la mobilité bas carbone.
+• Recherche Kosmogonia conduite intégralement sans avion (terrain international 2 ans, 57 organisations en Europe et Asie).
+• Participation annuelle d'Audencia au Challenge Européen du Vélo (mai) pour sensibiliser à la mobilité douce.
+• Pas de Plan de Déplacement Employeur formalisé ni de forfait mobilité durable documenté.
+Source : Rapport DD&RS 2026, p. 9, 10 ; audencia.com (Challenge Européen du Vélo)
+
+Apprenants :
+• Sensibilisés à la mobilité douce via le Challenge Vélo et les enseignements GAIA.
+Source : audencia.com
+
+Collaborateurs :
+• Critère mobilité bas carbone adossé à la rémunération variable via l'intéressement + participation Challenge Vélo.
+Source : Rapport DD&RS 2026, p. 10
+====================================================================================================
+CRITERE 24 | col=24 | Action Biodiversité
+DEF: Actions formalisées en faveur de la biodiversité sur ou autour des campus : diagnostic écologique, charte biodiversité, aménagements (ruches, jardins, espaces végétalisés), partenariats environnementaux (OFB, LPO). Un simple atelier ponctuel (Fresque de la Biodiversité) ne suffit pas.
+SEUIL OUI: Politique ou charte biodiversité + actions concrètes documentées
+SEUIL PARTIEL: Actions ponctuelles sans politique globale
+SEUIL NON: Aucune action biodiversité structurée
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Partenariat WWF + Groupe biodiversité interne + Charte d'éco-événements + biodiversité = pilier dédié dans la stratégie ECOS + actions concrètes campus.
+
+• Partenariat WWF formalisé pour expertise biodiversité.
+• Groupe biodiversité interne : enseignants-chercheurs + collaborateurs.
+• Charte d'éco-événements intègre la biodiversité (préservation + sensibilisation).
+• Biodiversité = pilier dédié dans la stratégie ECOS (Engagement Climat Océan Société), Plan ECOS 2030.
+• Actions sur les campus : entretien écologique, jardin urbain, sensibilisation parties prenantes.
+• Audencia est partenaire des Frances 5R (économie régénérative).
+Source : Rapport DD&RS Audencia 2026 ; rse.audencia.com
+
+Apprenants :
+• Sensibilisation via WWF + Charte éco-événements + Groupe biodiversité.
+Source : Rapport DD&RS Audencia 2026
+
+Collaborateurs :
+• Partenariat WWF + groupe biodiversité interne + ECOS pilier biodiversité.
+Source : Rapport DD&RS Audencia 2026
+====================================================================================================
+CRITERE 25 | col=25 | Accompagnement Handicap
+DEF: Dispositif d'accompagnement des personnes en situation de handicap : référent handicap, aménagements, plans d'accompagnement individualisés. Concerne apprenants ET collaborateurs.
+SEUIL OUI: Mission handicap dédiée avec référent et accompagnement
+SEUIL PARTIEL: Accompagnement basique sans structure dédiée
+SEUIL NON: Aucun dispositif handicap identifié
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Mission Handicap dédiée avec partenaires entreprises (PwC, Nestlé, FC Nantes).
+
+• Journée du handicap annuelle : ciné-débat + tournoi Handisport
+• Partenariat FC Nantes section cécifoot
+• Partenaires mission handicap : PwC et Nestlé
+Source : Rapport DD&RS 2026, p. 13
+
+Apprenants :
+• Activités inclusives proposées à tous les étudiants
+Source : Rapport DD&RS 2026, p. 13
+
+Collaborateurs :
+• Sensibilisation via les partenariats entreprises
+Source : Rapport DD&RS 2026, p. 13
+====================================================================================================
+CRITERE 26 | col=26 | Politique inclusion & diversité
+DEF: Politique formalisée de promotion de l'inclusion et de la diversité : égalité des chances, ouverture sociale, accès aux publics éloignés de l'ESR, partenariats solidaires, cordées de la réussite.
+SEUIL OUI: Politique inclusion formalisée avec actions et indicateurs
+SEUIL PARTIEL: Actions d'inclusion sans politique structurée
+SEUIL NON: Aucune politique d'inclusion identifiée
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Politique D&I formalisée + #NégoTraining (7 528 femmes formées cumulé) + Quartiers d'Affaires (100+ dirigeants QPV/an) + 4,12% étudiants en situation de handicap + Volet Social CMC 2026.
+
+• #NégoTraining (chaire Impact Positif) : 7 528 femmes formées en cumul depuis 2017 (vs 5 997 en 2024, soit +1 531 en 1 an), pour réduire les écarts salariaux F/H.
+• Série de webinaires #NégoTraining lancée : "Négociation du point de vue des DRH", "Convaincre de sa valeur professionnelle", "Comment initier le sujet de la négociation".
+• Partenariat Quartiers d'Affaires : 100+ dirigeants issus des Quartiers Prioritaires de la Ville (QPV) formés chaque année (cible : 250 000 TPE-PME des 1 609 QPV français).
+• 4,12% d'étudiants en situation de handicap en 2025 (vs 2,27% en 2024) ; 25% d'étudiants boursiers.
+• Volet Social CMC déployé en 2026 : 12 fondations sociales évaluées sur 4 thématiques (droits fondamentaux, santé, sécurité économique, égalité genres).
+Source : Rapport DD&RS 2026, p. 5, 12, 14, 15
+
+Apprenants :
+• Programme Lighthouse (bourses, tutorat) + 25% boursiers + 4,12% étudiants en situation de handicap accueillis.
+Source : Rapport DD&RS 2026, p. 14 ; site web audencia.com
+
+Collaborateurs :
+• Actions de réduction des écarts F/H via la chaire Impact Positif et les webinaires #NégoTraining.
+Source : Rapport DD&RS 2026, p. 12
+====================================================================================================
+CRITERE 27 | col=27 | Tri et gestion déchets formalisés
+DEF: Dispositif formalisé de tri, collecte et valorisation des déchets sur les campus : poubelles de tri, filières de recyclage, compostage, suivi des volumes, objectifs de réduction.
+SEUIL OUI: Tri formalisé avec filières et suivi
+SEUIL PARTIEL: Tri basique sans suivi ni objectifs
+SEUIL NON: Aucun dispositif de tri structuré
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Groupe de travail #StopPollutionPlastique (alternatives plastique + fontaines à eau) + partenariat AFB Group (reconditionnement IT) + hackathon GRDF bio-déchets + intégration économie circulaire dans APTE, mais pas de système de tri sélectif global formalisé documenté.
+
+• Groupe de travail #StopPollutionPlastique : recherche d'alternatives responsables pour limiter les déchets plastique sur les campus, sensibilisation à l'impact sur la biodiversité, installation de fontaines à eau.
+• Partenariat AFB Group : équipements IT mis dans un circuit circulaire (collecte des matériels en fin de cycle pour leur donner une seconde vie via reconditionnement).
+• Hackathon "Together For Good" avec GRDF : ~50 étudiants ont travaillé sur la sensibilisation des résidents de Nantes Métropole au tri, à la collecte et la valorisation des bio-déchets.
+• Mastère Spécialisé APTE intègre l'économie circulaire et renforce les cours sur l'éco-conception et la gestion des ressources.
+• Politique de gestion et d'évacuation des déchets mentionnée mais pas de dispositif de tri global détaillé documenté.
+Source : rse.audencia.com (groupes de travail #StopPollutionPlastique, recyclage équipements informatiques) ; audencia.com (Together For Good, MS APTE)
+
+Apprenants :
+• Étudiants impliqués dans le hackathon GRDF bio-déchets + groupe #StopPollutionPlastique + cours économie circulaire APTE.
+Source : audencia.com (Together For Good)
+
+Collaborateurs :
+• Groupe de travail #StopPollutionPlastique ouvert aux personnels + politique de réemploi IT (AFB Group).
+Source : rse.audencia.com
+====================================================================================================
+CRITERE 28 | col=28 | Campus certifié ou éco-labellisé
+DEF: Certification environnementale d'au moins un campus ou bâtiment : HQE, BREEAM, LEED, Bâtiment Biosourcé, label E+C-, BBC. La mention d'éco-conception sans certification formelle ne suffit pas.
+SEUIL OUI: Au moins un campus/bâtiment certifié
+SEUIL PARTIEL: Éco-conception documentée sans certification formelle
+SEUIL NON: Aucune certification campus
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Pas de certification campus documentée.
+
+• 4 campus (Nantes Atlantic, Mediacampus, City Campus, Vendée, Paris) mais pas de certification HQE/BREEAM (certification environnementale internationale des bâtiments)
+Source : Rapport DD&RS 2026, p. 16
+
+Apprenants :
+• Non documenté
+
+Collaborateurs :
+• Non documenté
+====================================================================================================
+CRITERE 29 | col=29 | Politique alimentation durable campus
+DEF: Politique d'alimentation durable sur les campus : réduction de la viande, circuits courts, anti-gaspi alimentaire, bio, menus végétariens, partenariat avec prestataires engagés.
+SEUIL OUI: Politique alimentation durable formalisée avec actions
+SEUIL PARTIEL: Actions ponctuelles ou en cours de structuration
+SEUIL NON: Aucune politique alimentaire durable
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Travaux de recherche de la chaire RSE sur l'alimentation durable en restauration collective (partenariats Sodexo, WWF, ECO2 Etiquettable) + groupe de travail "Biodiversité & Alimentation", mais pas de politique de restauration durable interne formalisée pour les campus.
+
+• Chaire RSE en partenariat avec Sodexo : étude expérimentale sur l'alimentation durable dans 3 restaurants d'entreprise de la région nantaise.
+• Partenariat avec WWF France et ECO2 (projet Etiquettable) sur la restauration collective durable.
+• Groupe de travail interne "Biodiversité & Alimentation" actif sur rse.audencia.com.
+• Pas de politique formalisée de restauration durable propre aux campus Audencia (RU bio/local, charte alimentation, etc.) documentée.
+Source : responsabilite-societale.audencia.com (étude Sodexo, partenariat WWF/ECO2) ; rse.audencia.com (groupe Biodiversité & Alimentation)
+
+Apprenants :
+• Bénéficient des enseignements GAIA sur l'alimentation durable + sensibilisation hackathon GRDF bio-déchets.
+Source : audencia.com
+
+Collaborateurs :
+• Groupe de travail Biodiversité & Alimentation ouvert aux personnels volontaires.
+Source : rse.audencia.com
+====================================================================================================
+CRITERE 30 | col=30 | Dispositif bien-être / santé mentale apprenants
+DEF: Dispositif de soutien au bien-être et à la santé mentale des apprenants : cellule d'écoute, psychologue, téléconsultation, accompagnement social. Distinct du dispositif handicap.
+SEUIL OUI: Dispositif de soutien dédié aux apprenants formalisé
+SEUIL PARTIEL: Soutien ponctuel sans dispositif structuré
+SEUIL NON: Aucun dispositif bien-être apprenants
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Psychologue dédiée sur campus (depuis 2024, trilingue FR/EN/CN) + service d’écoute 24/7 gratuit + Étudiants Relais Santé.
+
+• Psychologue dédiée sur le campus Atlantic (bimensuel + distanciel), trilingue
+• Service d’écoute en ligne gratuit 24/7 avec psychologues en 3 langues
+• Infirmerie sur les campus nantais
+• « Étudiants Relais Santé » : 5 étudiants formés en prévention par les pairs
+• Formation « Premiers Secours en Santé Mentale France » pour les référents
+• Partenariat santé universitaire Nantes Université
+Source : audencia.com/health-and-bien-être ; fondation.audencia.com/etudiants-relais-sante
+
+Apprenants :
+• Psychologue + écoute 24/7 + relais étudiants
+Source : audencia.com/health-and-bien-être
+
+Collaborateurs :
+• Non documenté spécifiquement
+====================================================================================================
+CRITERE 31 | col=31 | Parcours spécialisé RSE/DD diplômant
+DEF: Existence d'un ou plusieurs parcours diplômants spécialisés en RSE/DD : MSc, MBA, MS, certificat dédié RSE/DD/transition. Distinct du socle DD obligatoire pour tous.
+SEUIL OUI: Au moins un parcours diplômant RSE/DD dans l'offre
+SEUIL PARTIEL: Modules de spécialisation sans parcours diplômant dédié
+SEUIL NON: Aucun parcours spécialisé RSE/DD
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, MSc Management for Sustainable Business + MS APTE (Acteur Pour la Transition Écologique) en alternance.
+
+• MSc MSB : 1ère promotion en 2025, 54 étudiants certifiés Bilan Carbone®
+• MS APTE : Mastère Spécialisé en alternance, dédié à la transition écologique
+• GAIA : l’école des transitions écologiques et sociales (entité dédiée)
+Source : Rapport DD&RS 2026, p. 6 ; audencia.com/les-formations/mastere-specialise/acteur-pour-la-transition-ecologique
+
+Apprenants :
+• Parcours diplômants RSE/DD accessibles
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• Non applicable
+====================================================================================================
+CRITERE 32 | col=32 | Achats responsables
+DEF: Adoption d'une charte d'achats responsables intégrant des critères éthiques, sociaux et environnementaux dans le processus d'achat et de sélection des fournisseurs.
+SEUIL OUI: Charte adoptée et intégrée aux appels d'offres
+SEUIL PARTIEL: Critères RSE dans certains achats sans charte formelle
+SEUIL NON: Aucune charte achats responsables
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Groupe de travail "Achats Responsables" actif + chaire Achats et Innovation Digitale + objectifs documentés (critère "ESG rating" base fournisseurs, formation des acheteurs), mais pas de charte achats responsables formalisée et signée.
+
+• Groupe de travail interne "Achats Responsables" actif sur rse.audencia.com avec objectifs publics : intégration d'un critère "ESG rating" dans la base fournisseurs, formation des acheteurs de l'institution au sourcing responsable, mise en place d'une politique d'achats responsables.
+• Achats identifiés comme l'un des 5 thèmes du plan d'action carbone (42 objectifs).
+• Chaire "Achats et Innovation Digitale" et MSc Management Responsable des Achats et de la Supply Chain (accrédité CIPS - Chartered Institute of Procurement & Supply).
+• Pas de charte achats responsables signée ni de politique formalisée publiée à date.
+Source : rse.audencia.com (groupe Achats Responsables) ; audencia.com (chaire et MSc) ; Rapport DD&RS 2026, p. 11 (5 thèmes plan carbone)
+
+Apprenants :
+• Formation MSc Management Responsable des Achats et de la Supply Chain accrédité CIPS = parcours diplômant dédié.
+Source : audencia.com (MSc MASC)
+
+Collaborateurs :
+• Groupe de travail Achats Responsables ouvert aux acheteurs et aux personnels volontaires.
+Source : rse.audencia.com
+====================================================================================================
+CRITERE 33 | col=33 | Citoyenneté apprenants (projets solidaires)
+DEF: Engagement des apprenants dans des projets solidaires, citoyens ou d'intérêt général : projets associatifs crédités ECTS, bénévolat valorisé, missions terrain, défis solidaires.
+SEUIL OUI: Dispositif formalisé d'engagement citoyen apprenants
+SEUIL PARTIEL: Actions ponctuelles sans intégration curriculaire
+SEUIL NON: Aucun dispositif d'engagement citoyen
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Programme Quartiers d'Affaires (100+ dirigeants QPV/an, ciblant les 250 000 TPE-PME des 1 609 QPV français) + Lighthouse + engagement associatif.
+
+• Partenariat Quartiers d'Affaires : 100+ dirigeants d'entreprises issus des Quartiers Prioritaires de la Ville (QPV) formés chaque année, parcours de certification "Audencia – Quartiers d'Affaires" combinant ateliers, webinaires et masterclasses.
+• Cible explicite : outiller les 250 000 TPE-PME implantées dans les 1 609 QPV pour renforcer compétitivité, capacité de financement et contribution à l'économie nationale.
+• 3 axes clés des formations : accès aux marchés publics et privés, financement de l'entreprise, management de la croissance.
+• Programme Lighthouse pour l'égalité des chances et Institut de l'Entrepreneuriat.
+Source : Rapport DD&RS 2026, p. 5 ; site web audencia.com
+
+Apprenants :
+• Les étudiants participent indirectement aux programmes solidaires via les conférences GAIA et les engagements associatifs.
+Source : Rapport DD&RS 2026, p. 5
+
+Collaborateurs :
+• Audencia Executive Education mobilisée sur le déploiement de Quartiers d'Affaires et de l'Accélérateur BPI Solutions Énergétiques Vertes.
+Source : Rapport DD&RS 2026, p. 5, 7
+====================================================================================================
+CRITERE 34 | col=34 | Mécénat de projets locaux
+DEF: Soutien à des projets locaux d'intérêt général : partenariats avec des associations, mécénat, fonds de dotation, forums solidaires, actions de proximité.
+SEUIL OUI: Partenariats formalisés avec associations d'intérêt général
+SEUIL PARTIEL: Actions ponctuelles sans partenariat structuré
+SEUIL NON: Aucun mécénat ni partenariat solidaire
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Forum métropolitain du climat de Nantes Métropole + Convention CEC Monde académique + alliance Audencia-Centrale-ENSA + partenariat ADEME-BPI Université.
+
+• Forum métropolitain du climat de Nantes Métropole : Audencia membre actif aux côtés de 25 organisations partenaires, contribution au Plan Climat Air Énergie Territorial (PCAET) 2024-2030 et co-rédaction d'un livrable "Éducation populaire à l'écologie".
+• Convention des Entreprises pour le Climat (CEC) Monde académique 2026 : Audencia parmi les 100 décideurs participants, parrainage Jean Jouzel et Luc Abbadie, soutien du MESR.
+• Alliance Audencia-Centrale Nantes-ENSA Nantes pour des programmes communs.
+• Partenariat ADEME / Bpifrance Université : Accélérateur "Offreurs de Solutions Énergétiques Vertes" (parcours 18 mois, 6 séminaires, promotion 5 accompagnée en 2024-2025).
+• Partenariat avec PwC, Nestlé et FC Nantes pour la Mission Handicap (cf. C25).
+Source : Rapport DD&RS 2026, p. 5, 7, 10, 13
+
+Apprenants :
+• Projets concrets avec les partenaires (Nantes Métropole projet Villes Durables M1 GAIA, Hôtel-Dieu en 2026).
+Source : Rapport DD&RS 2026, p. 6
+
+Collaborateurs :
+• Audencia Executive Education et faculté CARES mobilisées dans les partenariats institutionnels et académiques.
+Source : Rapport DD&RS 2026, p. 7-8
+
+Compléments (veille 2026) :
+• Fondation Audencia créée en 2009 : bourses sociales et de mobilité, quatre axes d'action (diversité et inclusion, recherche à impact, entrepreneuriat via le dispositif Impulse, pédagogie innovante).
+====================================================================================================
+CRITERE 35 | col=35 | Vie associative campus (étudiants)
+DEF: Dynamisation de la vie associative étudiante sur les campus : accompagnement des associations, projets à impact, incubateur, événements responsables.
+SEUIL OUI: Accompagnement structuré des associations avec projets à impact
+SEUIL PARTIEL: Vie associative active mais sans accompagnement RSE structuré
+SEUIL NON: Pas de vie associative significative
+--- VERDICT: OUI
+--- JUSTIF:
+OUI, Vie associative active avec Bureau Des Sports engagé + conférences GAIA (l'école des transitions écologiques et sociales d'Audencia, qui forme 100% des étudiants en formation initiale).
+
+• BDS co-organise la journée du handicap avec FC Nantes
+• Conférences thématiques GAIA animées par les étudiants M1
+• Institut de l’Entrepreneuriat
+Source : Rapport DD&RS 2026, p. 11, 13 ; site web audencia.com
+
+Apprenants :
+• Étudiants M1 GAIA animent les conférences
+Source : Rapport DD&RS 2026, p. 11
+
+Collaborateurs :
+• Non applicable
+====================================================================================================
+CRITERE 36 | col=36 | Achat inclusif et local
+DEF: Démarche d'achat inclusif et local : inventaire des fournisseurs de proximité, recours aux ESAT/EA, critères de proximité dans les achats, contribution au développement économique territorial.
+SEUIL OUI: Politique d'achat local et inclusif formalisée
+SEUIL PARTIEL: Critères de proximité intégrés sans politique dédiée
+SEUIL NON: Aucune démarche d'achat local/inclusif
+--- VERDICT: PARTIEL
+--- JUSTIF:
+PARTIEL, Partenariat Quartiers d’Affaires (ancrage QPV) mais pas de politique d’achat local formalisée.
+
+• Formation de 100+ dirigeants QPV = contribution au développement économique local
+• Pas d’inventaire fournisseurs locaux ni de politique achat inclusif dédiée
+Source : Rapport DD&RS 2026, p. 5
+
+Apprenants :
+• Non documenté
+
+Collaborateurs :
+• Non documenté

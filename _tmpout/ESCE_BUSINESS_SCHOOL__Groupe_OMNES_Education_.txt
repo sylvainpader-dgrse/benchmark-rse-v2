@@ -1,0 +1,98 @@
+=== ESCE BUSINESS SCHOOL
+(Groupe OMNES Education) ===
+
+[C8]: PARTIEL -- Programme PACT (2022) impose 25h de benevolat obligatoire avec Groupe SOS, conference annuelle transition ecologique, conferences SHIFT(S) RSE. Volume de formation DD stricto sensu (cours) non documente a >=15h.
+
+* PACT Program (2022) : 25h de benevolat obligatoire avec le Groupe SOS
+* Conference annuelle transition ecologique
+* SHIFT(S) : conferences RSE regulieres
+* Volume de cours DD academiques non chiffre a >=15h/an
+Source : esce.fr/pact-programme ; esce.fr
+
+Apprenants : sensibilisation DD via PACT et conferences, volume cours DD non documente.
+Collaborateurs : impliques dans l'encadrement du PACT.
+
+[C9]: PARTIEL -- Des elements RSE sont integres dans certains programmes (PACT, conferences, modules ponctuels) mais l'integration dans 100% des programmes n'est pas documentee.
+
+* PACT Program dans le PGE
+* Conferences SHIFT(S) ouvertes aux etudiants
+* Pas de documentation attestant l'integration DD dans 100% des programmes (Bachelor, MSc, MBA)
+Source : esce.fr
+
+Apprenants : integration DD partielle, non attestee a 100%.
+Collaborateurs : non documente.
+
+[C10]: PARTIEL -- Conference annuelle transition ecologique et SHIFT(S) constituent une sensibilisation ponctuelle, mais pas de dispositif d'onboarding DD formalise et systematique pour tous les entrants.
+
+* Conference annuelle transition ecologique ouverte aux nouveaux etudiants
+* SHIFT(S) : conferences RSE ponctuelles
+* Pas de dispositif d'onboarding DD structure pour 100% des entrants
+Source : esce.fr
+
+Apprenants : sensibilisation ponctuelle sans dispositif systematique.
+Collaborateurs : non documente.
+
+[C11]: NON -- Aucune Fresque du Climat ni atelier equivalent documente a l'ESCE.
+
+* Pas de Fresque du Climat identifiee
+* Pas d'atelier 2tonnes ou equivalent mentionne
+* Les conferences SHIFT(S) ne sont pas des ateliers participatifs type Fresque
+Source : non documente
+
+Apprenants : pas d'atelier climat/environnement systematique.
+Collaborateurs : non documente.
+
+[C14]: NON -- Aucune formation DD deployee pour les collaborateurs documentee.
+
+* Pas de programme de formation DD pour les collaborateurs identifie
+* OMNES Education TIME TO ACT peut inclure des sensibilisations groupe non documentees au niveau ESCE
+Source : non documente
+
+Apprenants : non concerne (critere collaborateurs).
+Collaborateurs : pas de formation DD documentee.
+
+[C15]: PARTIEL, Frédérique Boitel est Référente RSE, Diversité & Inclusion identifiée et accessible, mais pas de réseau structuré de référents RSE multiples (1 seule référente couvrant tout RSE+Diversité+Inclusion+handicap).
+
+• Frédérique Boitel : Référente RSE, Diversité & Inclusion (cumul des fonctions RSE et inclusion sur 1 ETP) (guide p. 2).
+• Pas de réseau d'ambassadeurs ou de référents RSE multiples documenté à l'ESCE.
+• Référente RSE travaille avec différents services et départements (Service Admission, Service Coordination pédagogique, Département Langues, Département Relations internationales, Service Career, Service Paris Absence Justification) pour le déploiement des aménagements (guide p. 8-9).
+• Référente Stage/Alternance ESCE distincte travaille en lien avec Frédérique Boitel pour les aménagements en entreprise (guide p. 12-13).
+Source : guide étudiant besoins spécifiques ESCE 2024-2025, p. 2, 8-9, 12-13
+
+Apprenants :
+• Une référente RSE/Diversité/Inclusion + une référente Stage/Alternance accessibles individuellement.
+Source : guide étudiant besoins spécifiques ESCE, p. 2
+
+Collaborateurs :
+• 2 référents identifiés (RSE-D&I + Stage-Alternance) sans réseau d'ambassadeurs RSE structuré.
+Source : guide étudiant besoins spécifiques ESCE
+
+[C16]: NON -- Aucune formation DD formalisee pour les enseignants documentee.
+
+* Pas de programme de formation des enseignants aux enjeux DD identifie
+* Des enseignants contribuent aux conferences SHIFT(S) mais sans formation structuree
+Source : non documente
+
+Apprenants : non concerne directement.
+Collaborateurs : pas de formation DD enseignants documentee.
+
+[C17]: NON -- Pas de chaire de recherche RSE/DD propre ESCE identifiee. Page recherche existante mais sans volume de recherche RSE significatif documente.
+
+* Page recherche ESCE existante sur le site web
+* Pas de chaire RSE/DD dediee
+* Pas de publications RSE en volume significatif documentees
+* Enseignants-chercheurs presents mais sans focus RSE specifique identifie
+Source : esce.fr/recherche
+
+Apprenants : pas de retombees de recherche RSE specifiques.
+Collaborateurs : pas de chaire ni d'axe de recherche RSE dedie.
+
+[C31]: NON -- Aucun parcours specialise RSE/DD diplomant identifie dans l'offre de formation ESCE.
+
+* Programmes : PGE, Bachelor, MSc specialises (Marketing, Finance, etc.)
+* Pas de MSc ou parcours dedie RSE/DD
+* PACT Program (benevolat) n'est pas un parcours diplomant
+Source : esce.fr/programmes
+
+Apprenants : pas de parcours RSE/DD diplomant disponible.
+Collaborateurs : non concerne.

@@ -793,13 +793,13 @@ const BENCHMARK_DATA = {
         "29": "OUI",
         "30": "OUI",
         "31": "PARTIEL",
-        "32": "OUI",
+        "32": "PARTIEL",
         "33": "OUI",
         "34": "OUI",
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 30.5},
+      "score": 30},
     {
       "name": "ESCP BUSINESS SCHOOL",
       "verdicts": {
@@ -807,14 +807,14 @@ const BENCHMARK_DATA = {
         "2": "OUI",
         "3": "OUI",
         "4": "OUI",
-        "5": "OUI",
-        "6": "OUI",
+        "5": "PARTIEL",
+        "6": "PARTIEL",
         "7": "OUI",
         "8": "OUI",
         "9": "OUI",
         "10": "OUI",
         "11": "OUI",
-        "12": "OUI",
+        "12": "PARTIEL",
         "13": "OUI",
         "14": "PARTIEL",
         "15": "OUI",
@@ -840,7 +840,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 33.5
+      "score": 32
     },
     {
       "name": "MONTPELLIER BUSINESS SCHOOL",
@@ -997,7 +997,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "OUI",
-        "29": "NON",
+        "29": "PARTIEL",
         "30": "PARTIEL",
         "31": "OUI",
         "32": "PARTIEL",
@@ -1006,7 +1006,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 29.0
+      "score": 29.5
     },
     {
       "name": "PARIS-DAUPHINE - PSL",
@@ -1058,7 +1058,7 @@ const BENCHMARK_DATA = {
         "3": "OUI",
         "4": "OUI",
         "5": "OUI",
-        "6": "OUI",
+        "6": "PARTIEL",
         "7": "OUI",
         "8": "PARTIEL",
         "9": "OUI",
@@ -1090,7 +1090,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 33.0},
+      "score": 32.5},
     {
       "name": "SKEMA BUSINESS SCHOOL",
       "verdicts": {
@@ -1309,8 +1309,8 @@ const BENCHMARK_DATA = {
         "3": "PARTIEL",
         "4": "NON",
         "5": "PARTIEL",
-        "6": "OUI",
-        "7": "OUI",
+        "6": "PARTIEL",
+        "7": "PARTIEL",
         "8": "PARTIEL",
         "9": "PARTIEL",
         "10": "OUI",
@@ -1341,7 +1341,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 23.0
+      "score": 22
     },
     {
       "name": "CLERMONT SCHOOL OF BUSINESS",
@@ -1431,7 +1431,7 @@ const BENCHMARK_DATA = {
       "name": "AD EDUCATION\n(Groupe)",
       "verdicts": {
         "1": "NON",
-        "2": "PARTIEL",
+        "2": "OUI",
         "3": "PARTIEL",
         "4": "NON",
         "5": "PARTIEL",
@@ -1439,9 +1439,9 @@ const BENCHMARK_DATA = {
         "7": "OUI",
         "8": "PARTIEL",
         "9": "PARTIEL",
-        "10": "OUI",
+        "10": "PARTIEL",
         "11": "OUI",
-        "12": "NON",
+        "12": "PARTIEL",
         "13": "PARTIEL",
         "14": "PARTIEL",
         "15": "PARTIEL",
@@ -1455,25 +1455,25 @@ const BENCHMARK_DATA = {
         "23": "PARTIEL",
         "24": "PARTIEL",
         "25": "PARTIEL",
-        "26": "PARTIEL",
+        "26": "OUI",
         "27": "OUI",
         "28": "PARTIEL",
         "29": "NON",
         "30": "PARTIEL",
-        "31": "PARTIEL",
+        "31": "OUI",
         "32": "PARTIEL",
-        "33": "OUI",
+        "33": "PARTIEL",
         "34": "OUI",
         "35": "PARTIEL",
         "36": "NON"
       },
-      "score": 19.5
+      "score": 20.5
     },
     {
       "name": "ICN BUSINESS SCHOOL",
       "verdicts": {
         "1": "PARTIEL",
-        "2": "PARTIEL",
+        "2": "OUI",
         "3": "OUI",
         "4": "OUI",
         "5": "PARTIEL",
@@ -1483,7 +1483,7 @@ const BENCHMARK_DATA = {
         "9": "PARTIEL",
         "10": "OUI",
         "11": "OUI",
-        "12": "NON",
+        "12": "PARTIEL",
         "13": "OUI",
         "14": "PARTIEL",
         "15": "OUI",
@@ -1502,14 +1502,14 @@ const BENCHMARK_DATA = {
         "28": "PARTIEL",
         "29": "PARTIEL",
         "30": "PARTIEL",
-        "31": "PARTIEL",
+        "31": "OUI",
         "32": "PARTIEL",
         "33": "OUI",
         "34": "OUI",
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 25.5
+      "score": 27
     },
     {
       "name": "EM NORMANDIE",
@@ -1546,12 +1546,12 @@ const BENCHMARK_DATA = {
         "30": "OUI",
         "31": "OUI",
         "32": "PARTIEL",
-        "33": "OUI",
+        "33": "PARTIEL",
         "34": "OUI",
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 28.5
+      "score": 28
     },
     {
       "name": "PARIS SCHOOL OF BUSINESS\n(Groupe Galileo)",
@@ -1576,7 +1576,7 @@ const BENCHMARK_DATA = {
         "18": "OUI",
         "19": "PARTIEL",
         "20": "NON",
-        "21": "NON",
+        "21": "PARTIEL",
         "22": "NON",
         "23": "NON",
         "24": "OUI",
@@ -1593,7 +1593,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "NON"
       },
-      "score": 21.0
+      "score": 21.5
     },
     {
       "name": "BURGUNDY SCHOOL OF BUSINESS",
@@ -1621,7 +1621,7 @@ const BENCHMARK_DATA = {
         "21": "OUI",
         "22": "OUI",
         "23": "PARTIEL",
-        "24": "OUI",
+        "24": "PARTIEL",
         "25": "OUI",
         "26": "OUI",
         "27": "PARTIEL",
@@ -1635,7 +1635,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 28.5
+      "score": 28
     },
     {
       "name": "IAE AIX-MARSEILLE",
@@ -1649,16 +1649,16 @@ const BENCHMARK_DATA = {
         "7": "PARTIEL",
         "8": "OUI",
         "9": "PARTIEL",
-        "10": "OUI",
+        "10": "PARTIEL",
         "11": "PARTIEL",
-        "12": "NON",
+        "12": "PARTIEL",
         "13": "PARTIEL",
         "14": "PARTIEL",
         "15": "PARTIEL",
         "16": "PARTIEL",
         "17": "PARTIEL",
         "18": "PARTIEL",
-        "19": "NON",
+        "19": "PARTIEL",
         "20": "PARTIEL",
         "21": "PARTIEL",
         "22": "PARTIEL",
@@ -1677,7 +1677,7 @@ const BENCHMARK_DATA = {
         "35": "PARTIEL",
         "36": "PARTIEL"
       },
-      "score": 20.0
+      "score": 20.5
     },
     {
       "name": "IAELYON SCHOOL OF MANAGEMENT",
@@ -1695,7 +1695,7 @@ const BENCHMARK_DATA = {
         "11": "PARTIEL",
         "12": "PARTIEL",
         "13": "PARTIEL",
-        "14": "NON",
+        "14": "PARTIEL",
         "15": "OUI",
         "16": "PARTIEL",
         "17": "OUI",
@@ -1719,7 +1719,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 21.5
+      "score": 22
     },
     {
       "name": "ESDES BUSINESS SCHOOL",
@@ -1752,7 +1752,7 @@ const BENCHMARK_DATA = {
         "26": "OUI",
         "27": "OUI",
         "28": "PARTIEL",
-        "29": "PARTIEL",
+        "29": "OUI",
         "30": "PARTIEL",
         "31": "OUI",
         "32": "OUI",
@@ -1761,7 +1761,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "OUI"
       },
-      "score": 26.5
+      "score": 27
     },
     {
       "name": "ESSCA BUSINESS SCHOOL",
@@ -1829,7 +1829,7 @@ const BENCHMARK_DATA = {
         "19": "NON",
         "20": "NON",
         "21": "PARTIEL",
-        "22": "NON",
+        "22": "PARTIEL",
         "23": "PARTIEL",
         "24": "NON",
         "25": "OUI",
@@ -1840,12 +1840,12 @@ const BENCHMARK_DATA = {
         "30": "PARTIEL",
         "31": "PARTIEL",
         "32": "PARTIEL",
-        "33": "OUI",
+        "33": "PARTIEL",
         "34": "OUI",
         "35": "OUI",
-        "36": "NON"
+        "36": "PARTIEL"
       },
-      "score": 13.0},
+      "score": 13.5},
     {
       "name": "GALILEO GLOBAL EDUCATION\n(Groupe)",
       "verdicts": {
@@ -1853,29 +1853,29 @@ const BENCHMARK_DATA = {
         "2": "OUI",
         "3": "OUI",
         "4": "PARTIEL",
-        "5": "NON",
-        "6": "PARTIEL",
+        "5": "PARTIEL",
+        "6": "OUI",
         "7": "OUI",
         "8": "PARTIEL",
         "9": "PARTIEL",
         "10": "PARTIEL",
         "11": "PARTIEL",
-        "12": "NON",
+        "12": "PARTIEL",
         "13": "OUI",
         "14": "PARTIEL",
-        "15": "PARTIEL",
+        "15": "OUI",
         "16": "NON",
         "17": "PARTIEL",
-        "18": "PARTIEL",
-        "19": "PARTIEL",
-        "20": "NON",
-        "21": "NON",
+        "18": "OUI",
+        "19": "OUI",
+        "20": "PARTIEL",
+        "21": "OUI",
         "22": "PARTIEL",
         "23": "PARTIEL",
         "24": "PARTIEL",
         "25": "OUI",
         "26": "OUI",
-        "27": "PARTIEL",
+        "27": "OUI",
         "28": "OUI",
         "29": "PARTIEL",
         "30": "OUI",
@@ -1886,7 +1886,7 @@ const BENCHMARK_DATA = {
         "35": "PARTIEL",
         "36": "PARTIEL"
       },
-      "score": 20.5
+      "score": 25.5
     },
     {
       "name": "IMT BUSINESS SCHOOL",
@@ -1943,7 +1943,7 @@ const BENCHMARK_DATA = {
         "8": "PARTIEL",
         "9": "PARTIEL",
         "10": "PARTIEL",
-        "11": "NON",
+        "11": "PARTIEL",
         "12": "NON",
         "13": "PARTIEL",
         "14": "PARTIEL",
@@ -1970,7 +1970,7 @@ const BENCHMARK_DATA = {
         "35": "PARTIEL",
         "36": "PARTIEL"
       },
-      "score": 11.5
+      "score": 12
     },
     {
       "name": "IPAG BUSINESS SCHOOL",
@@ -1985,7 +1985,7 @@ const BENCHMARK_DATA = {
         "8": "OUI",
         "9": "OUI",
         "10": "OUI",
-        "11": "NON",
+        "11": "PARTIEL",
         "12": "NON",
         "13": "PARTIEL",
         "14": "PARTIEL",
@@ -1995,10 +1995,10 @@ const BENCHMARK_DATA = {
         "18": "NON",
         "19": "NON",
         "20": "NON",
-        "21": "NON",
+        "21": "PARTIEL",
         "22": "NON",
-        "23": "NON",
-        "24": "NON",
+        "23": "PARTIEL",
+        "24": "PARTIEL",
         "25": "OUI",
         "26": "PARTIEL",
         "27": "PARTIEL",
@@ -2006,13 +2006,13 @@ const BENCHMARK_DATA = {
         "29": "NON",
         "30": "OUI",
         "31": "OUI",
-        "32": "NON",
+        "32": "PARTIEL",
         "33": "OUI",
         "34": "PARTIEL",
         "35": "OUI",
         "36": "NON"
       },
-      "score": 17.0
+      "score": 19.5
     },
     {
       "name": "ESCE BUSINESS SCHOOL\n(Groupe OMNES Education)",
@@ -2032,29 +2032,29 @@ const BENCHMARK_DATA = {
         "13": "PARTIEL",
         "14": "NON",
         "15": "PARTIEL",
-        "16": "NON",
+        "16": "PARTIEL",
         "17": "NON",
-        "18": "NON",
-        "19": "NON",
-        "20": "NON",
-        "21": "NON",
-        "22": "NON",
-        "23": "NON",
-        "24": "NON",
+        "18": "PARTIEL",
+        "19": "PARTIEL",
+        "20": "PARTIEL",
+        "21": "PARTIEL",
+        "22": "PARTIEL",
+        "23": "PARTIEL",
+        "24": "PARTIEL",
         "25": "OUI",
-        "26": "PARTIEL",
-        "27": "NON",
+        "26": "OUI",
+        "27": "PARTIEL",
         "28": "NON",
         "29": "NON",
         "30": "PARTIEL",
         "31": "NON",
-        "32": "NON",
+        "32": "PARTIEL",
         "33": "OUI",
         "34": "PARTIEL",
         "35": "PARTIEL",
-        "36": "NON"
+        "36": "PARTIEL"
       },
-      "score": 9.0
+      "score": 15
     },
     {
       "name": "EDC PARIS\n(Groupe Planeta)",
@@ -2124,7 +2124,7 @@ const BENCHMARK_DATA = {
         "21": "OUI",
         "22": "OUI",
         "23": "OUI",
-        "24": "OUI",
+        "24": "PARTIEL",
         "25": "OUI",
         "26": "OUI",
         "27": "PARTIEL",
@@ -2138,7 +2138,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 30.5
+      "score": 30
     },
     {
       "name": "IONIS EDUCATION GROUP\n(Groupe)",
@@ -2148,31 +2148,31 @@ const BENCHMARK_DATA = {
         "3": "PARTIEL",
         "4": "NON",
         "5": "NON",
-        "6": "NON",
+        "6": "PARTIEL",
         "7": "PARTIEL",
         "8": "PARTIEL",
         "9": "PARTIEL",
         "10": "PARTIEL",
         "11": "OUI",
-        "12": "NON",
+        "12": "PARTIEL",
         "13": "PARTIEL",
         "14": "PARTIEL",
-        "15": "NON",
+        "15": "PARTIEL",
         "16": "PARTIEL",
         "17": "PARTIEL",
         "18": "PARTIEL",
         "19": "NON",
-        "20": "NON",
+        "20": "PARTIEL",
         "21": "PARTIEL",
-        "22": "NON",
-        "23": "NON",
+        "22": "PARTIEL",
+        "23": "PARTIEL",
         "24": "PARTIEL",
         "25": "PARTIEL",
         "26": "PARTIEL",
         "27": "PARTIEL",
-        "28": "OUI",
+        "28": "PARTIEL",
         "29": "NON",
-        "30": "NON",
+        "30": "PARTIEL",
         "31": "PARTIEL",
         "32": "NON",
         "33": "OUI",
@@ -2180,7 +2180,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "NON"
       },
-      "score": 14.0
+      "score": 17
     },
     {
       "name": "CESI\n(Groupe)",
@@ -2286,7 +2286,7 @@ const BENCHMARK_DATA = {
         "13": "OUI, Winter Team Day DEI 2024 + framework signalement microagressions + référent.\n\n• Winter Team Day janvier 2024 dédié DEI + microagressions\n• Framework de signalement formalisé\n• Événement Beyond Boundaries (LGBTQIA+)\nSource : Sustainability Report 2024, p. 45\n\nApprenants :\n• Ateliers spécifiques étudiants, associations HEC Women in Business et HEC for Women\nSource : Sustainability Report 2024, p. 29\n\nCollaborateurs :\n• Formation DEI pour tous lors du Winter Team Day\nSource : Sustainability Report 2024, p. 45\n\nCompléments (veille 2026) :\n• Plateforme externe et confidentielle de signalement (anonyme ou nominative) opérée avec le Groupe Egaé ; accompagnement des victimes et procédure de traitement dédiée.",
         "14": "OUI, Programme de formation DD pour le staff : onboarding ESG + Climate Fresk + séminaires.\n\n• Onboarding : modules ESG obligatoires (2 Tonnes) + DEI (microagressions) pour tous les nouveaux\n• Climate Fresk proposée au staff\n• 45 collaborateurs formés en 2024 lors des séminaires\nSource : Sustainability Report 2024, p. 47\n\nApprenants :\n• Les étudiants bénéficient des mêmes ateliers\nSource : Sustainability Report 2024, p. 19\n\nCollaborateurs :\n• Programme élargi : séminaires spécifiques pour les managers sur la finance durable et le climat\nSource : Sustainability Report 2024, p. 47\n\nCompléments (veille 2026) :\n• E-learning éthique et conformité (cybersécurité, RGPD, anti-corruption) : 358 collaborateurs formés en 2024\n• Formations métier ciblées : Fresque du Numérique déployée pour les équipes IT\n• Modules ESG et DEI obligatoires dans l'onboarding des nouveaux collaborateurs (45 personnes) ; programme VEGE pour les équipes de restauration.",
         "15": "OUI, Sustainable Campus Committee (volontaires staff+profs+étudiants) + réseau associations.\n\n• Committee composé de volontaires de toutes les communautés du campus\n• 130+ membres de la communauté impliqués dans les initiatives campus\n• NetPositive+, Esp’R, MBA Sustainability Club = réseau d’ambassadeurs étudiants\nSource : Sustainability Report 2024, p. 5, 29\n\nApprenants :\n• NetPositive+ et Esp’R mènent des initiatives environnementales et sociales\nSource : Sustainability Report 2024, p. 29\n\nCollaborateurs :\n• Staff volontaires dans le Sustainable Campus Committee\nSource : Sustainability Report 2024, p. 5",
-        "16": "NON, Activité de recherche et chaires partenaires (EDF) citées, pas de programme structuré de formation des enseignants en exercice. Pratiques citées dans le rapport (research/chaires/communauté) : Premier faculty retreat sustainability à Chamonix en 2024 + intégration sustainability dans les nouveaux recrutements + 2 nouvelles chaires Society & Organizations en 2024 + Center for Impact Finance créé 2024 (Pr. Stefano Lovo, 18 professeurs).\n\n• Premier faculty retreat sustainability à Chamonix en 2024, fait nouveau majeur (SR2024 p. 4).\n• 2 nouvelles chaires en 2024 : Orchestrating Sustainable Business Transformation (sponsor Nexans) + Data & Impact Investment (sponsor Rothschild).\n• Center for Impact Finance créé 2024 (Pr. Stefano Lovo) : 18 professeurs + partenaires Accuracy/BNPP/Rothschild + 11 cours + 12+ projets recherche en 2024.\n• Pr. Sam Aflaki Top 50 P&Q + Pr. Hélène Löning Prix Vernimmen sept. 2024.\n• Society & Organizations Institute (S&O) finance la recherche sustainability + 60+ membres.\nSource : SR2024 p. 4, 11-12\n\nApprenants :\n• Non applicable (concerne les enseignants).\n\nCollaborateurs :\n• Faculty retreat Chamonix 2024 + 2 nouvelles chaires + Center for Impact Finance avec 18 professeurs.\nSource : SR2024 p. 4, 11-12\n\nCompléments (veille 2026) :\n• Ateliers de sensibilisation aux enjeux environnementaux (Fresque du Climat, 2 Tonnes, Limites planétaires) proposés aux enseignants ; accès permanent à des ressources et formations spécialisées sur la durabilité via la plateforme Edflex",
+        "16": "OUI, Ateliers de sensibilisation aux enjeux environnementaux proposes aux enseignants (Fresque du Climat, 2 Tonnes, Limites planetaires), premier faculty retreat sustainability (Chamonix 2024), acces permanent a des formations dediees via la plateforme Edflex et integration de la durabilite dans les recrutements. Elements cites dans le rapport : Premier faculty retreat sustainability à Chamonix en 2024 + intégration sustainability dans les nouveaux recrutements + 2 nouvelles chaires Society & Organizations en 2024 + Center for Impact Finance créé 2024 (Pr. Stefano Lovo, 18 professeurs).\n\n• Premier faculty retreat sustainability à Chamonix en 2024, fait nouveau majeur (SR2024 p. 4).\n• 2 nouvelles chaires en 2024 : Orchestrating Sustainable Business Transformation (sponsor Nexans) + Data & Impact Investment (sponsor Rothschild).\n• Center for Impact Finance créé 2024 (Pr. Stefano Lovo) : 18 professeurs + partenaires Accuracy/BNPP/Rothschild + 11 cours + 12+ projets recherche en 2024.\n• Pr. Sam Aflaki Top 50 P&Q + Pr. Hélène Löning Prix Vernimmen sept. 2024.\n• Society & Organizations Institute (S&O) finance la recherche sustainability + 60+ membres.\nSource : SR2024 p. 4, 11-12\n\nApprenants :\n• Non applicable (concerne les enseignants).\n\nCollaborateurs :\n• Faculty retreat Chamonix 2024 + 2 nouvelles chaires + Center for Impact Finance avec 18 professeurs.\nSource : SR2024 p. 4, 11-12\n\nCompléments (veille 2026) :\n• Ateliers de sensibilisation aux enjeux environnementaux (Fresque du Climat, 2 Tonnes, Limites planétaires) proposés aux enseignants ; accès permanent à des ressources et formations spécialisées sur la durabilité via la plateforme Edflex",
         "17": "OUI, Society & Organizations Institute (S&O, 60+ membres) + Center for Impact Finance créé 2024 (Pr. Stefano Lovo, 18 professeurs, 11 cours, 12+ projets) + 2 nouvelles chaires 2024 (Nexans Sustainable Business Transformation + Rothschild Data & Impact Investment) + chaires sustainability multiples + reconnaissances internationales (Pr. Sam Aflaki Top 50 P&Q, Pr. Hélène Löning Prix Vernimmen sept. 2024).\n\n• Society & Organizations Institute (S&O) : institut de recherche sustainability avec 60+ membres.\n• HEC Center for Impact Finance créé en 2024 : Pr. Stefano Lovo + 18 professeurs + partenaires Accuracy/BNPP/Rothschild + 11 cours + 12+ projets de recherche en 2024.\n• 2 nouvelles chaires en 2024 : Orchestrating Sustainable Business Transformation (Nexans) + Data & Impact Investment (Rothschild).\n• Pr. Sam Aflaki classé Top 50 mondial Poets&Quants ; Pr. Hélène Löning Prix Vernimmen septembre 2024.\n• Recherche en sustainability transversale aux départements.\nSource : SR2024 p. 11-12\n\nApprenants :\n• Les recherches alimentent les MBA, Master HEC et programmes spécialisés.\nSource : SR2024 p. 11\n\nCollaborateurs :\n• 60+ chercheurs S&O + 18 professeurs Impact Finance + chaires + reconnaissances Top 50 P&Q.\nSource : SR2024 p. 11-12",
         "18": "OUI, Bilan carbone réalisé via collaboration ADEME programme Act'Sup (15 établissements) en 2023 (données 2022) + chiffres unitaires de réduction publiés (278 tCO2 évités viande rouge, 5,9 tCO2 évités IT, 32 t biodéchets, 452 t déchets totaux).\n\n• Bilan Carbone audité 2023 (sur données 2022) publié, méthode ADEME via le programme Act'Sup (mutualisation 15 établissements supérieurs).\n• Chiffres unitaires de réduction publiés dans le Sustainability Report 2024 : 278 tCO2 évités sur réduction viande rouge, 5,9 tCO2 évités sur reconditionnement IT, 32 tonnes biodéchets, 452 tonnes déchets totaux.\n• Le total tCO2e global n'est pas explicitement publié dans le rapport 2024 (uniquement les leviers de réduction quantifiés).\n• Comité DDRS trimestriel supervise les actions sur IT, restauration, logement, énergie.\nSource : Sustainability Report 2024 HEC Paris, p. 37, 39\n\nApprenants :\n• Mobilités étudiantes identifiées comme 1er poste d'émissions (40 %).\nSource : SR2024 p. 37\n\nCollaborateurs :\n• Faculty + staff intégrés dans le périmètre.\nSource : SR2024 p. 37",
         "19": "PARTIEL, Scope 3 partiellement adressé : mobilités étudiantes mesurées mais pas de détail exhaustif publié.\n\n• 40% de l’empreinte = mobilités étudiantes (identifiées comme poste principal)\n• Achats et numérique non détaillés dans le rapport public\nSource : Sustainability Report 2024, p. 37\n\nApprenants :\n• Mobilité étudiante = principal poste d’émission identifié\nSource : Sustainability Report 2024, p. 37\n\nCollaborateurs :\n• Non détaillé",
@@ -2328,7 +2328,7 @@ const BENCHMARK_DATA = {
         "13": "OUI, Dispositif VSS intégré au CEDI restructuré mars 2024 (5 pôles, 16 ETP) + nouveau reporting process pour étudiants + sanctions incluant non-renouvellement contrat + sensibilisation respect renforcée.\n\n• CEDI restructuré depuis mars 2024 en 5 pôles (Rapport DD&RS 2025, p. 19) :\n  1. Equal Opportunities,\n  2. Partnerships and Deployment of the Diversity Fresco (Fresque de la Diversité),\n  3. Diversity & Inclusion Transformation,\n  4. Respect for Others,\n  5. Disability Mission.\n• 16 personnes à plein temps au CEDI.\n• Nouveau reporting process implémenté : étudiants peuvent notifier l'école de comportements transphobes, sexistes, racistes, peut entraîner des sanctions, incluant non-renouvellement de contrat (Rapport DD&RS 2025, p. 19).\n• Working groups inclusion et interculturalité offerts à la faculté pendant 2023/2024 (feedback, awareness, tools).\n• Programme awareness on respect renforcé en Grande École et Master depuis sept 2024 + extension prévue BBA.\n• Modules ajoutés en janvier : prévention violences en soirées festives + session fin d'année discrimination/respect avant stage.\n• PQPM intègre depuis sept 2024 : civic engagement + ecological transition + gender-based and sexual violence.\nSource : Rapport DD&RS 2025, p. 19, 21\n\nApprenants :\n• Programmes sensibilisation VSS + reporting process avec sanctions + modules respect.\nSource : Rapport DD&RS 2025, p. 19\n\nCollaborateurs :\n• Working groups inclusion + tools + awareness via CEDI 5 pôles.\nSource : Rapport DD&RS 2025, p. 19\n\nCompléments (veille 2026) :\n• Semaine annuelle de sensibilisation ; Fresque de la Diversité déployée auprès de l'ensemble des étudiants ; recours à des experts externes pour le traitement des signalements.",
         "14": "OUI, Réseau de 23 ambassadeurs formés + parcours dédié collaborateurs.\n\n• 23 ambassadeurs dans les services depuis janvier 2024 pour relayer la démarche\n• Formations spécifiques pour les équipes\nSource : Rapport DD&RS 2025, p. 5\n\nApprenants :\n• Non applicable directement\n\nCollaborateurs :\n• 23 ambassadeurs volontaires issus de différents services, formés et actifs\nSource : Rapport DD&RS 2025, p. 5",
         "15": "OUI, 23 ambassadeurs dans les services + COCON (Comité Consultatif rassemblant les parties prenantes internes pour piloter la stratégie RSE) + éco-délégués.\n\n• Réseau d’ambassadeurs lancé en janvier 2024 : 23 membres volontaires\n• Rôle : faciliter la circulation de l’information RSE et encourager les initiatives\nSource : Rapport DD&RS 2025, p. 5\n\nApprenants :\n• Collège étudiants dans le COCON\nSource : Rapport DD&RS 2025, p. 5\n\nCollaborateurs :\n• 23 ambassadeurs formés et mandatés dans les services\nSource : Rapport DD&RS 2025, p. 5",
-        "16": "NON, Financement de projets de recherche et chaires sustainability, mais pas de dispositif de formation des enseignants en exercice. Pratiques citées dans le rapport (research/chaires/communauté) : 60 professeurs \"Guilde Sustainability\" + 12 nouveaux spécialistes recrutés + appels à projets.\n\n• Guilde Sustainability : 60 professeurs mobilisés\n• 12 nouveaux chercheurs en durabilité recrutés (2024)\n• Appels à projets dédiés pour la recherche DD\nSource : Rapport DD&RS 2025, p. 7-8\n\nApprenants :\n• Les profs de la Guilde intègrent le DD dans leurs cours de spécialité\nSource : Rapport DD&RS 2025, p. 6\n\nCollaborateurs :\n• Recrutement ciblé de chercheurs durabilité\nSource : Rapport DD&RS 2025, p. 8\n\nCompléments (veille 2026) :\n• Organisation régulière de séminaires dédiés aux enjeux DD pour le corps professoral",
+        "16": "NON, Guilde Sustainability (60 professeurs mobilises) et 12 nouveaux specialistes recrutes, mais pas de formation structuree des enseignants en exercice au DD. Elements cites dans le rapport : 60 professeurs \"Guilde Sustainability\" + 12 nouveaux spécialistes recrutés + appels à projets.\n\n• Guilde Sustainability : 60 professeurs mobilisés\n• 12 nouveaux chercheurs en durabilité recrutés (2024)\n• Appels à projets dédiés pour la recherche DD\nSource : Rapport DD&RS 2025, p. 7-8\n\nApprenants :\n• Les profs de la Guilde intègrent le DD dans leurs cours de spécialité\nSource : Rapport DD&RS 2025, p. 6\n\nCollaborateurs :\n• Recrutement ciblé de chercheurs durabilité\nSource : Rapport DD&RS 2025, p. 8\n\nCompléments (veille 2026) :\n• Organisation régulière de séminaires dédiés aux enjeux DD pour le corps professoral",
         "17": "OUI, Centre for Social and Ecological Innovation (lancé 2023) + 4 chaires nouvelles 2021-2022 (Ecological Transition, Global Circular Economy (Économie Circulaire), Companies & Common Good, Shaping the Future of Finance) + Sustainability Guild (Guilde du Développement Durable) 60 profs + 33% articles ESSEC sur sustainability + 12 nouveaux profs.\n\n• Centre for Social and Ecological Innovation lancé 2023 dédié au développement d'initiatives concrètes (Rapport DD&RS 2025, p. 14).\n• E&MISE Lab : action research projects, +10 ans d'expérience, MSA food resilience.\n• Antropia ESSEC : 1er social accelerator fondé par BS (créé 2008), 30% des projets soutenus depuis 2008 ont impact Val-d'Oise.\n• ESSEC Impact Unlimited : supports impact-driven management systems.\n• 4 chaires sustainability créées 2021-2022 :\n  - Ecological Transition,\n  - Global Circular Economy,\n  - Companies and the Common Good,\n  - Shaping the Future of Finance.\n• Autres chaires : Social Innovation (2002), Leadership and Diversity (2007), Food Business Challenges, Philanthropy, Real Estate & Sustainability, Urban Economics (1986).\n• Sustainability Guild : 60 faculty members (créée 2022) + 3 séminaires recherche 2023/2024 (Caroline Flammer Columbia + Marya Besharov Saïd Business School + Rodrigo Canales Boston University).\n• 33% des articles académiques ESSEC focus on sustainability themes (KPI Rapport DD&RS 2025, p. 5).\n• 12 nouveaux profs sustainability recrutés (Rapport DD&RS 2025, p. 5).\n• Council on Business & Society (CoBS) co-fondé 2011 par ESSEC : 12 schools 6 continents 16 pays + 100+ research-based articles/an + 4 magazines trimestriels + Advanced International Certificate Responsible Business Practices (printemps 2024) + special magazine Harvard Business School Institute Climate Change octobre 2024.\n• Action research chaires : Urban Economics report governance ecological transitions (Vinci Léonard) + Philanthropy Chair étude philanthropie/transitions (Anne Monier + Fondation de France) + Profs Chatterjee + Leca recognition FT pour child malnutrition + Anne-Claire Pache + Battilana SYNTEC prize CSR article.\n• Science and Society Day : 2024 « Companies and communities facing Transitions » + 2025 « Towards a Fairer World ».\nSource : Rapport DD&RS 2025, p. 5, 13-15\n\nApprenants :\n• Bénéficient des retombées + MOOCs gratuits + recherches contribuent à la pédagogie.\nSource : Rapport DD&RS 2025, p. 14\n\nCollaborateurs :\n• 12 nouveaux profs + 60 profs Guild + Centre for Social and Ecological Innovation + Antropia.\nSource : Rapport DD&RS 2025, p. 5, 13-15",
         "18": "OUI, Bilan carbone diagnostic complet 2018 + actualisé annuellement + -10% empreinte par étudiant 23/24 vs 18/19 + participation Act'Sup ADEME (15 établissements).\n\n• Premier diagnostic complet gaz à effet de serre emissions audit en 2018 (Rapport DD&RS 2025, p. 15).\n• Actualisation annuelle du carbon footprint pour identifier les primary sources of emissions throughout the value chain.\n• -10% d'empreinte carbone par étudiant en 23/24 vs 18/19 (KPI majeur Rapport DD&RS 2025, p. 5, 15).\n• -30% volume déchets (23/24 vs 18/19) + taux de recyclage ×1.9 (Rapport DD&RS 2025, p. 15).\n• 17 kg → 11 kg déchets/user (2022-2023 → 2023-2024) + recyclage 33% → 40% (Rapport DD&RS 2025, p. 16).\n• Participation au programme Act'Sup ADEME (15 établissements).\n• Stratégie permet de définir les strategic priorities et feuilles de route step by step sur student/professional mobility, energy consumption, catering services, waste management.\nSource : Rapport DD&RS 2025, p. 5, 15-16\n\nApprenants :\n• 40% de l'empreinte = mobilités étudiantes (stages, échanges, voyages d'études).\nSource : Rapport DD&RS 2025, p. 17\n\nCollaborateurs :\n• BC couvre déplacements professionnels.\nSource : Rapport DD&RS 2025, p. 15",
         "19": "PARTIEL, Scope 3 identifié (mobilité étudiante = 40%) mais détail par poste non exhaustif dans le rapport.\n\n• Mobilités étudiantes = 40% de l’empreinte totale (principal poste scope 3)\n• Détail des autres postes scope 3 (achats, numérique) non publié\nSource : Rapport DD&RS 2025, p. 9\n\nApprenants :\n• Mobilité internationale = premier poste d’émission identifié\nSource : Rapport DD&RS 2025, p. 9\n\nCollaborateurs :\n• Non détaillé dans le rapport",
@@ -2412,7 +2412,7 @@ const BENCHMARK_DATA = {
         "13": "OUI, Dispositif VSS complet : plateforme SpeakUp anonyme 24/7 + cellule interne + protocole Safe Campus + charte L’Autre Cercle.\n\n• SpeakUp : plateforme de signalement anonyme 24/7 sur serveurs chiffrés (pionniers dans l’enseignement supérieur français, lancée 2020)\n• Cellule interne de référencement avec protocole d’accompagnement (développé avec Safe Campus et L’égalité à la page)\n• Charte L’Autre Cercle (charte d’engagement LGBT+ pour l’enseignement supérieur) signée\nSource : em-lyon.com/sante-diversite-et-inclusion\n\nApprenants :\n• SpeakUp accessible à tous les étudiants 24/7\nSource : em-lyon.com/sante-diversite-et-inclusion\n\nCollaborateurs :\n• Formation compliance et protocole interne\nSource : DPEF 2023-2024",
         "14": "OUI, 100% du personnel formé aux enjeux sociaux et environnementaux (objectif Résonances atteint fin 2024) + label HRS4R (Commission Européenne) obtenu février 2025.\n\n• Objectif plan Résonances atteint : 100% des équipes formées aux enjeux SE.\n• Plus de 500 collaborateurs dont tout le Comité de Direction ont participé fin 2024 (rapport p. 34).\n• Programme : atelier 2tonnes (changement climatique) + modules e-learning sur impacts environnementaux, effondrement biodiversité, inégalités sociales.\n• Fresque du Numérique Responsable déployée pour le personnel.\n• Label HRS4R (Human Resource Strategy for Researchers, encadré par la Commission Européenne) obtenu en février 2025 : engagement sur la gestion RH transparente et équitable des chercheurs (rapport p. 22).\nSource : Rapport d'engagement 2024, p. 7, 22, 34 ; em-lyon.com/engagement-environnemental\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• 100% formés aux enjeux sociaux et environnementaux + label HRS4R février 2025.\nSource : Rapport d'engagement 2024, p. 7, 22, 34",
         "15": "OUI, Direction de l'Engagement Social et Environnemental au Comité Exécutif + 30 ambassadeurs collaborateurs + 1 responsable RSE par association étudiante (33 associations).\n\n• Direction ESE (Bénédicte Bost) au Comité Exécutif (10 personnes) (rapport p. 11).\n• Comité de Mission (9 personnes dont 6 externes) avec représentants internes (Françoise Dany, professeure RH).\n• 30 ambassadeurs collaborateurs mobilisés pour faire vivre la mission en interne (rapport p. 11).\n• 35 professeurs mobilisés en task force consacrée aux enjeux de transition et d'évolution des enseignements.\n• 1 responsable RSE dans chacune des 33 associations étudiantes de l'École + comité environnement transverse étudiant (rapport p. 11).\n• 30 ambassadeurs étudiants formés par Makesense (organisation spécialisée dans l'engagement citoyen).\n• Association NOISE (34 membres, 8 pôles) = relais RSE étudiant.\nSource : Rapport d'engagement 2024, p. 11 ; em-lyon.com/comite-de-mission\n\nApprenants :\n• 30 ambassadeurs Makesense + 1 responsable RSE par asso (33 assos) + comité environnement transverse + NOISE.\nSource : Rapport d'engagement 2024, p. 11\n\nCollaborateurs :\n• Direction ESE au COMEX + 30 ambassadeurs + 35 profs task force + représentant Comité de Mission.\nSource : Rapport d'engagement 2024, p. 11",
-        "16": "NON, Recrutements ciblés d'enseignants-chercheurs et post-docs, mais pas de dispositif de formation des enseignants en exercice. Pratiques citées dans le rapport (research/chaires/communauté) : SDGs Inside = méthode développée par les enseignants-chercheurs emlyon pour intégrer le DD dans tous les cours.\n\n• SDGs Inside (méthode de cartographie de 35 compétences RSE alignées sur les 17 ODD) développée par le corps professoral emlyon\n• 90% des cours analysés via cette méthode\n• 50 nouveaux professeurs-chercheurs recrutés (objectif Résonances)\nSource : Rapport d’engagement 2024, p. 7 ; em-lyon.com/teaching-model\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Les enseignants sont formés et utilisent SDGs Inside dans leurs cours\nSource : em-lyon.com/teaching-model",
+        "16": "NON, SDGs Inside est une methode de cartographie des competences RSE developpee par les enseignants-chercheurs pour structurer leurs cours, pas un programme formant les enseignants au DD. Elements cites dans le rapport : SDGs Inside = méthode développée par les enseignants-chercheurs emlyon pour intégrer le DD dans tous les cours.\n\n• SDGs Inside (méthode de cartographie de 35 compétences RSE alignées sur les 17 ODD) développée par le corps professoral emlyon\n• 90% des cours analysés via cette méthode\n• 50 nouveaux professeurs-chercheurs recrutés (objectif Résonances)\nSource : Rapport d’engagement 2024, p. 7 ; em-lyon.com/teaching-model\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Les enseignants sont formés et utilisent SDGs Inside dans leurs cours\nSource : em-lyon.com/teaching-model",
         "17": "OUI, Alternative Futures Institute (décembre 2025) + 4 chaires de recherche RSE + nouvel Institut Healthcare Innovation, Technology & Society (HITS).\n\n• Alternative Futures Institute : recherche sur les stratégies d'entreprise dans les limites planétaires (directeur : Thomas Gauthier).\n• 4 chaires alignées sur la mission :\n  1. Chaire Transition Hydrogène pour le secteur aéronautique (signée 2024 pour 3 ans, avec Vinci et Centrale Lyon) (rapport p. 24).\n  2. Chaire Stratégie en Anthropocène (avec Carbone 4).\n  3. Chaire Santé Mentale des Dirigeants de PME (avec Malakoff Humanis).\n  4. Chaire Risques Climatiques et Assurance (avec Groupama Rhône-Alpes Auvergne).\n• Institut HITS lancé en 2024 : 15 experts en recherche santé (santé au travail, R&D IA biologie, performance hospitalière) + cursus emlyon BioPharma intégré au PGE (rapport p. 25).\n• Leadership Academy for New Futures lancée (conférence inaugurale Emmanuel Faber, Président ISSB et ancien PDG Danone) (rapport p. 23).\n• Knowledge @emlyon : plateforme de diffusion (≈ 30 articles publiés en 4 mois) (rapport p. 23).\n• Près de 70% des publications de la Faculté concernent les enjeux RSE.\n• 8 centres de recherche contribuent à l'engagement RSE.\nSource : Rapport d'engagement 2024, p. 22-25 ; em-lyon.com/alternative-futures-institute\n\nApprenants :\n• 7 000+ étudiants formés en prospective depuis 2018 + cursus BioPharma + 3 nouveaux MSc dédiés enjeux SE.\nSource : em-lyon.com/alternative-futures-institute ; Rapport d'engagement 2024, p. 17\n\nCollaborateurs :\n• 8 nouveaux professeurs recrutés en 2023-2024, 18 depuis le lancement Résonances (objectif 50 d'ici 2028), 163 professeurs au total, 96% PhD, 22% HDR (rapport p. 22).\nSource : Rapport d'engagement 2024, p. 22\n\nCompléments (veille 2026) :\n• Promotion d'une recherche pluraliste, de la liberté académique et de la contribution aux débats scientifiques sur les enjeux de justice sociale et environnementale",
         "18": "OUI, 3 bilans carbone réalisés (dont 2025), -30% des émissions vs 2022, certifié Net Zero Contributor par Greenly.\n\n• 1er bilan carbone réalisé (année de référence 2022).\n• 3e bilan carbone (2025) : -30% des émissions vs 2022 (em-lyon.com/engagement-environnemental).\n• Certifié Net Zero Contributor par Greenly (cabinet spécialisé en comptabilité carbone).\n• Indicateurs DPEF 2023-2024 vérifiés OTI (consolidation 3 campus France) :\n  - Consommation énergie primaire : 169 kWh/m²/an en 2023-24 vs 286 en 2022-23 vs 356 en 2021-22 (-40% sur 3 ans) (DPEF p. 16).\n  - Consommation eau : 0,41 m³/m²/an vs 0,79 en 2021-22 (-30%) (DPEF p. 16).\n  - Déchets non dangereux : 108 tonnes en 2023-24 vs 141 en 2021-22 (-15%) (DPEF p. 16).\n  - DEEE : 895 kg en 2023-24 vs 1140 en 2021-22 (-20%) (DPEF p. 16).\nSource : em-lyon.com/engagement-environnemental ; DPEF 2023-2024, p. 16\n\nApprenants :\n• Données incluent la mobilité étudiante (chèque mobilité douce +5000 kg CO2 évités pour échanges internationaux).\nSource : em-lyon.com/engagement-environnemental ; Rapport d'engagement 2024, p. 31\n\nCollaborateurs :\n• Données couvrent les 3 campus France + opérations consolidées.\nSource : DPEF 2023-2024, p. 16",
         "19": "PARTIEL, 4 axes prioritaires identifiés (achats, mobilité, énergie, numérique) mais détail par poste scope 3 non publié dans le rapport d’engagement.\n\n• 4 axes prioritaires : Achats, Mobilité, Énergie, Numérique\n• DPEF détaille les indicateurs mais pas le scope 3 poste par poste dans le rapport public\nSource : em-lyon.com/engagement-environnemental ; DPEF 2023-2024\n\nApprenants :\n• Non détaillé\n\nCollaborateurs :\n• Non détaillé",
@@ -2496,7 +2496,7 @@ const BENCHMARK_DATA = {
         "13": "OUI, Formation VSS obligatoire annuelle pour tous les étudiants + convention avec Procureur Grenoble, DDSP et France Victimes 38 + cellule de prévention dédiée + plateforme de signalement + baromètre sexisme annuel.\n\n• Formation obligatoire annuelle aux violences sexistes et sexuelles (VSS) et risques psychosociaux pour tous les étudiants.\n• Convention signée avec le Procureur de la République de Grenoble, la DDSP et France Victimes 38 pour le signalement.\n• Cellule de prévention dédiée avec plateforme de signalement.\n• Baromètre du sexisme publié annuellement.\n• Campagnes de sensibilisation annuelles lors de la Journée des Droits des Femmes.\n• Care Line « GEM for me » : soutien psychologique 24/7 en 14 langues (téléconsultation incluse).\nSource : grenoble-em.com/gender-equality\n\nApprenants :\n• Formation VSS obligatoire annuelle + convention signalement + Care Line 24/7.\nSource : grenoble-em.com/gender-equality\n\nCollaborateurs :\n• Cellule de prévention + plateforme de signalement accessibles aux personnels.\nSource : grenoble-em.com/gender-equality",
         "14": "PARTIEL, Dispositif de formation DD en cours de structuration : 273 collaborateurs formés en 2024-2025 (vs 151 en 2023-2024) + fresques thématiques toute l'année + RPS déployées par vagues, mais pas encore systématique annuellement à 100 %.\n\n• 273 collaborateurs GEM ont bénéficié d'une action de formation en lien avec les thématiques de société à mission sur la période 2024-2025 (vs 151 en 2023-2024), KPI Rapport SM 2025, p. 27.\n• Point de départ : en 2022, 100 % du personnel GEM sensibilisé via Fresque du Climat (demi-journée en français et en anglais).\n• Fresques thématiques (numérique, textile, diversité…) proposées toute l'année + Olympiades de la Sustainability ouvertes aux équipes.\n• Formations RPS (risques psychosociaux) déployées par vagues : COMEX, puis managers, puis tous les collaborateurs.\n• Cybersécurité + formation managériale avec volet sustainability en intégration.\n• Dispositif structuré mais pas encore une formation DD obligatoire systématique chaque année pour tous les collaborateurs.\nSource : Rapport SM 2025, p. 27\n\nApprenants :\n• Non applicable (concerne les collaborateurs).\n\nCollaborateurs :\n• 273 formés DD en 24-25 (en hausse de +81 %) + dispositif fresques annuelles + RPS étendu à tous.\nSource : Rapport SM 2025, p. 27",
         "15": "OUI, Association IMPACT (fondée 2006, 9 pôles DD) + référents RSE dans chaque association étudiante (point fort audit DD&RS) + Sénat étudiants + représentants RSE par organisation.\n\n• IMPACT (fondée 2006) : 9 pôles alignés sur les 3 dimensions du DD (environnemental, social, économique).\n• Représentants RSE dans chaque association étudiante.\n• Point fort souligné par l'audit DD&RS (label-ddrs.org/gem).\n• 22+ associations étudiantes organisant ~700 événements/an.\n• Olympiades de la Sustainability avec open badges (système numérique de valorisation des compétences).\nSource : label-ddrs.org/gem ; Rapport SM 2025, p. 25 ; together-for-earth.org/impact\n\nApprenants :\n• IMPACT structure le réseau RSE étudiant + représentants RSE dans chaque association.\nSource : together-for-earth.org/impact\n\nCollaborateurs :\n• Non documenté côté personnel (concerne le réseau étudiant).",
-        "16": "NON, Communauté de recherche CARES et 65 % des publications sur les transitions, mais pas de programme de formation des enseignants en exercice. Pratiques citées dans le rapport (research/chaires/communauté) : Programme formalisé d'accompagnement pédagogique pour le corps professoral : Brown Bags + journée pédagogique + invitation à observer cours RSE + support méthodique d'intégration RSE dans syllabi avec mesure dans les cours + 2 enseignants référents nommés au corps professoral + 1 référent RSE par département académique.\n\n• Plan d'appui formel + 2 enseignants référents pilotent le dispositif avec le service de soutien pédagogique LeD (Rapport SM 2025, p. 19).\n• Référents nommés dans chaque département académique (p. 19, 27).\n• Brown Bags (sessions courtes thématiques pendant la pause déjeuner) + journée pédagogique annuelle.\n• Invitation à observer des cours RSE + support méthodique pour intégrer les compétences RSE dans les syllabi avec mesure dans les cours.\n• Résultat : 100 % des syllabi présentent au moins une contribution RSE en 24-25 (vs 31 % en 23-24, x3 en un an).\n• 50 nouveaux professeurs-chercheurs prévus dans EAGLE 2030 + 6+ chaires RSE impliquant les enseignants en recherche.\nSource : Rapport SM 2025, p. 19, 27 ; grenoble-em.com/strategie-eagle-2030\n\nApprenants :\n• Non applicable (concerne les enseignants).\n\nCollaborateurs :\n• Dispositif formel avec 2 responsables RSE corps professoral + 1 référent par département + plan d'appui méthodique.\nSource : Rapport SM 2025, p. 19, 27\n\nCompléments (veille 2026) :\n• Ateliers et MOOC de formation au DD disponibles pour les enseignants depuis 2022",
+        "16": "OUI, Programme formalise d'accompagnement pedagogique du corps professoral (Brown Bags, journee pedagogique annuelle, observation de cours, appui methodique a l'integration RSE dans les syllabi), avec resultat mesure : 100 % des syllabi comportent une contribution RSE en 2024-2025 contre 31 % l'annee precedente. Elements cites dans le rapport : Programme formalisé d'accompagnement pédagogique pour le corps professoral : Brown Bags + journée pédagogique + invitation à observer cours RSE + support méthodique d'intégration RSE dans syllabi avec mesure dans les cours + 2 enseignants référents nommés au corps professoral + 1 référent RSE par département académique.\n\n• Plan d'appui formel + 2 enseignants référents pilotent le dispositif avec le service de soutien pédagogique LeD (Rapport SM 2025, p. 19).\n• Référents nommés dans chaque département académique (p. 19, 27).\n• Brown Bags (sessions courtes thématiques pendant la pause déjeuner) + journée pédagogique annuelle.\n• Invitation à observer des cours RSE + support méthodique pour intégrer les compétences RSE dans les syllabi avec mesure dans les cours.\n• Résultat : 100 % des syllabi présentent au moins une contribution RSE en 24-25 (vs 31 % en 23-24, x3 en un an).\n• 50 nouveaux professeurs-chercheurs prévus dans EAGLE 2030 + 6+ chaires RSE impliquant les enseignants en recherche.\nSource : Rapport SM 2025, p. 19, 27 ; grenoble-em.com/strategie-eagle-2030\n\nApprenants :\n• Non applicable (concerne les enseignants).\n\nCollaborateurs :\n• Dispositif formel avec 2 responsables RSE corps professoral + 1 référent par département + plan d'appui méthodique.\nSource : Rapport SM 2025, p. 19, 27\n\nCompléments (veille 2026) :\n• Ateliers et MOOC de formation au DD disponibles pour les enseignants depuis 2022",
         "17": "OUI, 6+ chaires RSE actives + 3 instituts d'excellence (EnerG, Future of Work, Moving Mountains) + Tag systématique des publications académiques sur les transitions + 30+ professeurs affiliés + Chaire Energy : 3 auditions Assemblée Nationale, 9 articles The Conversation (80 000 vues), 74 articles presse, 13 conférences académiques.\n\n• Chaire Territoires en Transition (Daudigeos/Ottaviani) : 4 axes de recherche, partenaires publics/privés (Métropole Grenoble Alpes, Département Isère, Ville de Grenoble, Cluster Montagne), évolution vers Moving Mountains Institute (2027).\n• Chaire Energy for Society (Carine Sebi) / Institut EnerG (2026) : 3 auditions Assemblée Nationale + 9 articles The Conversation 80 000 vues + 74 articles presse + 13 interventions conférences académiques (GRONEN 2024 SKEMA…) + MSc Energy Business and Climate Strategies lancé sept 2024.\n• Chaire Paix Économique, Mindfulness et Bien-être au Travail (depuis 2012).\n• Chaire FERE (Femmes & Renouveau Économique) : ~30 professeurs affiliés, créée 2016.\n• Chaire Inclusive Sustainability + Chaire Européenne des Transitions (déc 2024).\n• Tag systématique distinguant les publications académiques liées aux thématiques de transition (Rapport SM 2025, p. 21).\nSource : grenoble-em.com/research-chairs ; Rapport Chaire Energy 2022-25, p. 5, 26 ; Rapport SM 2025, p. 21\n\nApprenants :\n• Les recherches alimentent les MSc et le PGE (MSc Energy Business and Climate Strategies, MSc Management for Sustainability Transitions).\nSource : Rapport SM 2025, p. 21 ; Rapport Chaire Energy, p. 30\n\nCollaborateurs :\n• 30+ professeurs affiliés aux chaires + Tag systématique des publications transitions.\nSource : grenoble-em.com/research-chairs",
         "18": "OUI, Bilan carbone annuel sur 3 campus (Sémard, GEM Labs, Pantin) avec scopes 1, 2 et 3 + audit OTI KPMG + 9 500 tCO2e en 2024-2025 (-21 % vs 2019, -8 % vs 23-24) + implication étudiante dans le process.\n\n• Bilan carbone annuel sur 3 sites (Grenoble Sémard, GEM Labs, Pantin), scopes 1, 2 et 3 inclus.\n• 9 500 tCO2e en 2024-2025 (vs 10 300 tCO2e en 2023-2024 et 9 481 tCO2e en 2024 selon site officiel).\n• Réduction de 21 % vs dernier bilan complet 2019.\n• Audit OTI KPMG sur les indicateurs en octobre 2025.\n• Étudiants impliqués dans la production du bilan, l'analyse et les recommandations.\nSource : grenoble-em.com/sustainable-campus ; Rapport SM 2025, p. 17, 25\n\nApprenants :\n• Déplacements étudiants = 44,7 % des émissions (1er poste), étudiants associés au bilan.\nSource : grenoble-em.com/sustainable-campus\n\nCollaborateurs :\n• Achats, repas, numérique = 38,9 % des émissions.\nSource : grenoble-em.com/sustainable-campus",
         "19": "OUI, Scopes 1, 2 et 3 distingués et publiés annuellement avec ventilation détaillée par poste : déplacements étudiants 44,7 %, intrants (achats/repas/numérique) 38,9 %, scopes 1+2 résiduels.\n\n• Scopes 1 (combustions directes), 2 (énergie achetée) et 3 (indirectes : déplacements, achats, numérique, déchets) distingués.\n• Déplacements étudiants : 44,7 % (1er poste, scope 3).\n• Intrants (achats, repas, numérique responsable) : 38,9 % (scope 3).\n• Périmètre : 3 campus (Sémard, GEM Labs, Pantin).\n• KPMG OTI (octobre 2025) audite la cohérence des données.\nSource : grenoble-em.com/sustainable-campus ; Rapport SM 2025, p. 17, 25\n\nApprenants :\n• Mobilité étudiante = 1er poste d'émissions identifiées.\nSource : grenoble-em.com/sustainable-campus\n\nCollaborateurs :\n• Achats détaillés dans le scope 3.\nSource : grenoble-em.com/sustainable-campus",
@@ -2580,7 +2580,7 @@ const BENCHMARK_DATA = {
         "13": "OUI, Anti-Harassment Policy + Whistleblowing (Open Talk) + Consensual Relationships Policy.\n\n• Anti-Harassment Policy publiée\n• Whistleblowing Policy : plateforme Open Talk, anonyme, non-représailles\n• Consensual Relationships Policy\n• Gender Equality Plan 2026-2028\nSource : insead.edu/policies-and-legislations\n\nApprenants :\n• Toutes les politiques s’appliquent aux étudiants\nSource : insead.edu/policies\n\nCollaborateurs :\n• Whistleblowing + anti-harcèlement\nSource : insead.edu/policies",
         "14": "OUI, Programme « Growing Together » 2023-24 = 100 % des 900 employés all-staff all-campus, faculty-led learning journey, première formation systématique pour tous + Way We Work principles + 6 piliers structurants.\n\n• Programme « Growing Together » lancé en 2023-24 : premier programme de formation/development all-staff all-campus mené par la faculté INSEAD.\n• 100 % des 900 employés all-staff (Fontainebleau + Singapore + Abu Dhabi + San Francisco) participants.\n• Faculty-led learning journey (animation par les enseignants permanents INSEAD).\n• Structuré autour des « Way We Work principles » (6 piliers), incluant des dimensions sustainability/diversity/responsibility.\n• Premier déploiement de cette ampleur dans l'histoire de l'école.\nSource : INSEAD Annual Report 2023-24, p. 7, 46\n\nApprenants :\n• Non applicable (concerne les collaborateurs).\n\nCollaborateurs :\n• 100 % des 900 employés formés via Growing Together, Way We Work principles.",
         "15": "PARTIEL, Hoffmann Institute coordonne mais pas de réseau de référents RSE dans chaque département documenté.\n\n• Hoffmann Institute = organe central de coordination\n• 23 projets financés dans les 9 départements académiques\n• Pas de réseau de référents/ambassadeurs RSE documenté\nSource : insead.edu/hoffmann-institute\n\nApprenants :\n• INDEVOR (club sustainability depuis 1993) fait le relais\nSource : clubs.insead.edu/indevor\n\nCollaborateurs :\n• Non documenté",
-        "16": "NON, Production scientifique alignée PRME (35+ contributions), mais pas de dispositif de formation des enseignants au DD. Pratiques citées dans le rapport (research/chaires/communauté) : 43 projets de recherche financés sustainability avec >960 000 € + 32 faculty bénéficiaires + chaires dédiées (Bianca and James Pitt Chair Atalay Atasu, Patrick and Valentine Firmenich Fellowship Dan Iancu, Goltz Fellowship Maria Guadalupe, Barons Janssen Endowed Professorship Peter Joos sustainable finance) + 2 Distinguished Fellows + Hoffmann-WEF Fellowships.\n\n• 43 projets de recherche financés sustainability avec >960 000 €, 32 faculty bénéficiaires.\n• Chaires dédiées :\n  – Bianca and James Pitt Chair (Pr. Atalay Atasu)\n  – Patrick and Valentine Firmenich Fellowship (Pr. Dan Iancu)\n  – Goltz Fellowship (Pr. Maria Guadalupe)\n  – Barons Janssen Endowed Professorship (Pr. Peter Joos sur sustainable finance)\n• 2 Distinguished Fellows : Marcos Prado Troyjo + Beatrice Weder di Mauro.\n• Hoffmann-WEF Fellowships (Mel Hua, Felipe Vizzoto).\n• 60 articles + 26 cases publiés sustainability 2021-2023.\nSource : INSEAD Sustainability Report ; INSEAD Annual Report 2023-24\n\nApprenants :\n• Non applicable (concerne enseignants/recherche).\n\nCollaborateurs :\n• 43 projets recherche + 32 faculty + chaires + Distinguished Fellows.",
+        "16": "NON, 43 projets de recherche sustainability finances (plus de 960 000 EUR), 32 faculty beneficiaires et chaires dediees, mais pas de dispositif de formation des enseignants en exercice. Elements cites dans le rapport : 43 projets de recherche financés sustainability avec >960 000 € + 32 faculty bénéficiaires + chaires dédiées (Bianca and James Pitt Chair Atalay Atasu, Patrick and Valentine Firmenich Fellowship Dan Iancu, Goltz Fellowship Maria Guadalupe, Barons Janssen Endowed Professorship Peter Joos sustainable finance) + 2 Distinguished Fellows + Hoffmann-WEF Fellowships.\n\n• 43 projets de recherche financés sustainability avec >960 000 €, 32 faculty bénéficiaires.\n• Chaires dédiées :\n  – Bianca and James Pitt Chair (Pr. Atalay Atasu)\n  – Patrick and Valentine Firmenich Fellowship (Pr. Dan Iancu)\n  – Goltz Fellowship (Pr. Maria Guadalupe)\n  – Barons Janssen Endowed Professorship (Pr. Peter Joos sur sustainable finance)\n• 2 Distinguished Fellows : Marcos Prado Troyjo + Beatrice Weder di Mauro.\n• Hoffmann-WEF Fellowships (Mel Hua, Felipe Vizzoto).\n• 60 articles + 26 cases publiés sustainability 2021-2023.\nSource : INSEAD Sustainability Report ; INSEAD Annual Report 2023-24\n\nApprenants :\n• Non applicable (concerne enseignants/recherche).\n\nCollaborateurs :\n• 43 projets recherche + 32 faculty + chaires + Distinguished Fellows.",
         "17": "OUI, 43 projets recherche sustainability avec >960 000 € + 32 faculty + Hoffmann Global Institute (4 piliers) + chaires dédiées + 2 Distinguished Fellows + Hoffmann-WEF Fellowships + Centre INSEAD Corporate Governance + INSEAD Sustainability Report.\n\n• Hoffmann Global Institute for Business and Society (4 piliers) coordonne la recherche sustainability.\n• 43 projets recherche financés en 2023 avec >960 000 € + 32 faculty bénéficiaires.\n• Chaires : Bianca and James Pitt Chair (Atalay Atasu), Patrick and Valentine Firmenich Fellowship (Dan Iancu), Goltz Fellowship (Maria Guadalupe), Barons Janssen Endowed Professorship (Peter Joos sustainable finance).\n• 2 Distinguished Fellows : Marcos Prado Troyjo + Beatrice Weder di Mauro.\n• Hoffmann-WEF Fellowships : Mel Hua + Felipe Vizzoto.\n• 60 articles + 26 cases publiés sustainability 2021-2023.\nSource : INSEAD Sustainability Report ; INSEAD Annual Report 2023-24\n\nApprenants :\n• Recherche alimente le MBA + EMBA + PhD.\n\nCollaborateurs :\n• 32 faculty bénéficiaires + chaires + 2 Distinguished Fellows.",
         "18": "OUI, Bilan carbone INSEAD 14 590 tCO2e total (2021-22), mesuré via plateforme Traace, scope 1 = 17 % / scope 2 = 3 % / scope 3 = 80 %, méthodologie GHG Protocol + ISO/TR 14069 + Bilan Carbone français + BEGES, première publication janvier 2023.\n\n• Bilan carbone consolidé INSEAD : 14 590 tCO2e total sur 2021-22.\n• Mesuré via la plateforme spécialisée Traace (Sustainability Report).\n• Méthodologies appliquées : GHG Protocol + ISO/TR 14069 + Bilan Carbone français + BEGES (Bilan d'Émissions de Gaz à Effet de Serre réglementaire France).\n• Décomposition : Scope 1 = 17 % / Scope 2 = 3 % / Scope 3 = 80 %.\n• Première publication en janvier 2023 du bilan complet.\n• Périmètre : 4 campus consolidés (Fontainebleau, Singapore, Abu Dhabi, San Francisco).\nSource : INSEAD Sustainability Report\n\nApprenants :\n• Déplacements business travel intégrés dans le scope 3 (28 %).\n\nCollaborateurs :\n• Achats biens et services 42 % (1er poste scope 3).",
         "19": "OUI, Scope 3 détaillé INSEAD = 80 % du bilan carbone : Purchased goods & services 42 % + Business travel 28 % + Capital goods 4 %, mesuré via Traace, méthodologies GHG Protocol + ISO/TR 14069 + Bilan Carbone + BEGES.\n\n• Scope 3 détaillé INSEAD = 80 % des émissions totales (14 590 tCO2e).\n• Postes scope 3 chiffrés :\n  – Purchased goods & services : 42 % (1er poste)\n  – Business travel : 28 %\n  – Capital goods : 4 %\n  – Autres postes scope 3 : 6 %\n• Mesuré via la plateforme Traace (changement vs Tennaxia citée précédemment).\n• Méthodologies : GHG Protocol + ISO/TR 14069 + Bilan Carbone français + BEGES.\nSource : INSEAD Sustainability Report\n\nApprenants :\n• Business travel = 28 % (déplacements étudiants + faculty intégrés).\n\nCollaborateurs :\n• Purchased goods & services = 42 % (1er poste).",
@@ -2622,7 +2622,7 @@ const BENCHMARK_DATA = {
         "13": "OUI, Cellule de signalement + formation VSS + référents identifiés + chartes (Diversité & Inclusion + LGBTQ+ + Handicap + Éthique) + #StandUpForScience + 3 axes (prévention, soutien victimes/témoins, procédures disciplinaires).\n\n• Inclusion & Diversity Policy formalisée 3 axes (rapport activité 2023, p. 27) :\n  - Mesures préventives dans la communauté étudiante,\n  - Soutien aux victimes et témoins,\n  - Procédures disciplinaires.\n• Charte Diversité & Inclusion + Charte LGBTQ+ + Charte Handicap + Charte Éthique.\n• #StandUpForScience.\n• Formation annuelle obligatoire pour leaders d'associations étudiantes : événements festifs « safe » + obligations légales/responsabilités (rapport activité 2023, p. 27).\n• ESCAPE-LGBT Society (Paris, London, Berlin) + MAYA (Berlin) + Women in Leadership (London + ESCP overall) + PANDA partnership (women leadership network).\n• Berlin : 1er European LGBT-Leadership program (lancé 2019) + RAHM LGBT Leadership Competition (100+ participants 2018) + partenariat Proud at Work (Berlin Report 2022, p. 28).\n• Cellule de signalement et accompagnement.\nSource : Rapport activité 2023, p. 27 ; Brochure Sustainability ; Berlin Sustainability Report 2022, p. 27-28\n\nApprenants :\n• Chartes + dispositifs signalement + formation leaders associations + ESCAPE-LGBT + MAYA + Women in Leadership.\nSource : Berlin Report 2022, p. 27-28\n\nCollaborateurs :\n• Chartes applicables à tous + Equal Opportunity Officer + AGG (Allemagne).\nSource : Berlin Report 2022, p. 28\n\nCompléments (veille 2026) :\n• Séminaires obligatoires de sensibilisation aux VHSS pour les étudiants de Bachelor et Pré-Master.",
         "14": "PARTIEL, Sustainability Team de 20+ personnes mais pas de formation DD systématique pour tous les collaborateurs documentée.\n\n• 20+ collaborateurs dédiés sustainability sur 5 campus\n• Pas de programme de formation DD obligatoire pour tous les salariés documenté\nSource : escp.eu/ethics-responsibility-sustainability\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Équipe dédiée mais pas formation systématique tous\nSource : escp.eu/ethics-responsibility-sustainability",
         "15": "OUI, Green and Impact Offices sur 5 campus + Student Sustainability Board (5 associations) + ESCP Transition Network.\n\n• Green and Impact Offices = réseau de référents RSE sur chaque campus\n• Student Sustainability Board : GEA Sustainability, NOISE ESCP, Oikos, Lighthouse, AGORA\n• ESCP Transition Network anime le Bureau Fresque du Climat mensuel\nSource : escp.eu/sustainable-students-societies ; escp.eu/ethics-responsibility-sustainability\n\nApprenants :\n• Student Sustainability Board actif\nSource : escp.eu/sustainable-students-societies\n\nCollaborateurs :\n• Green and Impact Offices sur 5 campus\nSource : escp.eu/ethics-responsibility-sustainability",
-        "16": "NON, Guilde Sustainability (60 profs en communauté) et recrutements ciblés, mais pas de formation structurée des enseignants en exercice au DD. Pratiques citées dans le rapport (research/chaires/communauté) : Programme « Train the Trainers (Former les Formateurs) » lancé 2023 (formation profs sustainability avec Le Campus de la Transition) + 10 ambassadeurs « connectors » dans chaque département académique + 20+ profs Sustainability Department + Berlin Centre for Intercultural Management.\n\n• Programme « Train the Trainers » lancé en 2023 : formation des profs sur plusieurs jours pour intégrer sustainability dans leurs cours et identifier les obstacles à le faire (rapport activité 2023, p. 27).\n• Partenariat avec « Le Campus de la Transition » (centre de formation écologique en région parisienne, philosophie Satish Kumar) pour le programme.\n• 10 ambassadeurs « connectors » dans chaque département académique pour intégrer sustainability transversalement (brochure p. 3).\n• Sustainability Academic Department dirigé par Prof. Julien Schmitt : 20+ professeurs intégrant sustainability dans tous les programmes et la recherche (sustainable business models, économie circulaire, international business, CSR, sharing economy) (brochure p. 3).\n• Berlin Centre for Intercultural Management : approfondit la compréhension des questions interculturelles et de diversité dans les organisations.\n• Stratégies pédagogiques renforcées : Curriculum Revolution, experiential learning for professors (brochure p. 3).\n• Workshop « Campus de la Transition » spécifique pour équiper les profs avec les outils pour incorporer sustainability dans leur enseignement.\nSource : Rapport activité 2023, p. 27 ; Brochure Sustainability ESCP, p. 3\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Train the Trainers + 10 connectors/dept + 20+ profs Sustainability Department + workshop Campus de la Transition.\nSource : Rapport activité 2023, p. 27 ; Brochure Sustainability, p. 3",
+        "16": "OUI, Programme « Train the Trainers » lance en 2023 avec Le Campus de la Transition (ateliers de plusieurs jours aidant les professeurs a integrer les enjeux ecologiques et sociaux dans leurs cours), complete par 10 ambassadeurs « connectors » dans chaque departement academique. Elements cites dans le rapport : Programme « Train the Trainers (Former les Formateurs) » lancé 2023 (formation profs sustainability avec Le Campus de la Transition) + 10 ambassadeurs « connectors » dans chaque département académique + 20+ profs Sustainability Department + Berlin Centre for Intercultural Management.\n\n• Programme « Train the Trainers » lancé en 2023 : formation des profs sur plusieurs jours pour intégrer sustainability dans leurs cours et identifier les obstacles à le faire (rapport activité 2023, p. 27).\n• Partenariat avec « Le Campus de la Transition » (centre de formation écologique en région parisienne, philosophie Satish Kumar) pour le programme.\n• 10 ambassadeurs « connectors » dans chaque département académique pour intégrer sustainability transversalement (brochure p. 3).\n• Sustainability Academic Department dirigé par Prof. Julien Schmitt : 20+ professeurs intégrant sustainability dans tous les programmes et la recherche (sustainable business models, économie circulaire, international business, CSR, sharing economy) (brochure p. 3).\n• Berlin Centre for Intercultural Management : approfondit la compréhension des questions interculturelles et de diversité dans les organisations.\n• Stratégies pédagogiques renforcées : Curriculum Revolution, experiential learning for professors (brochure p. 3).\n• Workshop « Campus de la Transition » spécifique pour équiper les profs avec les outils pour incorporer sustainability dans leur enseignement.\nSource : Rapport activité 2023, p. 27 ; Brochure Sustainability ESCP, p. 3\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Train the Trainers + 10 connectors/dept + 20+ profs Sustainability Department + workshop Campus de la Transition.\nSource : Rapport activité 2023, p. 27 ; Brochure Sustainability, p. 3",
         "17": "OUI, Sustainability Academic Department (20+ profs, dirigé par Prof. Julien Schmitt) + 2 centres recherche RESET (Research Centre on Environmental & Societal Transition) et STAR (Sustainability Transformation & Applied Research) + ESCP Sustainability Institute + Chair Responsible Innovation Africa (AXIAN+Attijariwafa) + 14 chaires totales + ERIM.\n\n• Sustainability Academic Department (créé 2021) : 20+ professeurs dirigés par Prof. Julien Schmitt (brochure p. 3).\n• 2 centres de recherche dédiés (brochure p. 3-4) :\n  - RESET (Research Centre on Environmental and Societal Transition).\n  - STAR (ESCP Sustainability Transformation & Applied Research, focus business models durables).\n• Centre STAR créé à Berlin via lauréat appel à projets européen Fondation 2023 (Fondation 2023, p. 12).\n• ESCP Sustainability Institute : équipe les leaders pour relever les défis climatiques.\n• Chair Responsible Innovation in Africa (mécènes : AXIAN Group + Attijariwafa Bank).\n• 14 chaires totales et partenariats au titre du mécénat d'entreprise (rapport activité 2023, p. 16) dont :\n  - Chaire Women in Finance (lancée déc 2023, 6 mécènes : Amala Partners, Ardian, Eight advisory, Lombard Odier, Ondra, Vauban Infrastructures Partners).\n  - Chaire Turning Points Cartier (ESCP-HEC).\n  - Chaire Reinventing Work BNP Paribas.\n  - Chaire IoT Schneider Electric.\n  - Chaire Banque mutualiste Groupe BPCE.\n  - 3 Professorships (KPMG New Generation Management, L'Oréal Creativity Marketing, Gouvernement de Monaco Real Estate).\n• ERIM (ESCP Research Institute of Management, depuis 2018) avec 50% chercheurs accrédités HDR.\n• 16 associations étudiantes dédiées sustainability + Student Sustainability Board mensuel.\n• 197 articles publiés via ESCP Impact Papers (15% relayés médias FR/européens) (rapport activité 2023, p. 17).\n• +60% publications catégorie A entre 2021 et 2023 (rapport activité 2023, p. 14).\n• FT Responsible Business Research top ranked.\nSource : Brochure Sustainability ; Rapport activité 2023, p. 14, 16-17 ; Rapport Fondation 2023, p. 12\n\nApprenants :\n• 3 MSc spécialisés + 16 associations sustainability + retombées recherche.\nSource : Brochure Sustainability ; escp.eu/sustainable-students-societies\n\nCollaborateurs :\n• 20+ profs Sustainability Dept + 14 chaires + 2 centres recherche + ERIM + Ethical assessment committee.\nSource : Brochure Sustainability ; Rapport activité 2023",
         "18": "OUI, Bilan Carbone 2024 vérifié par AFNOR Certification (et non PWC), niveau Reasonable, ISO 14064-3:2019. Total : 28 247 tCO2e (calendaire 2024), scopes 1+2+3 GHG Protocol Corporate Standard 2004, 11 sites couverts.\n\n• Carbon Footprint 2024 (calendaire 1er janv → 31 déc 2024) vérifié AFNOR Certification (et non PWC), niveau d'assurance « Reasonable » (supérieur à Limited), ISO 14064-3:2019, certificat n° 116114.1 daté 11/12/2025 (Carbon Footprint 2024, p. 23).\n• Total : 28 247 tCO2e (location-based) ; market-based : -29% via 23% électricité verte achetée 2024.\n• Scope 1 : 641 tCO2e (gaz combustion stationnaire 607 + véhicules 4 + AC fugitives 30), vs 1 517 en 2021-22 (-58%).\n• Scope 2 : 775 tCO2e (électricité 389 + chauffage urbain 386), location-based ; 650 tCO2e market-based.\n• Scope 3 : 26 831 tCO2e, 95% des émissions totales (typique école de services).\n• 11 sites couverts : Paris (Champerret, Montparnasse, Régus office), Madrid (Maria de Molina, Arroyofresno, Navalmanzano), Turin (URSS, ADB, Cavour), Berlin, Londres.\n• Méthodologie GHG Protocol (WRI + WBCSD), conforme SBTi, CDP, CSRD.\n• Émissions par étudiant : Scope 1 = 67 kgCO2e (vs 177 en 2021-22, -62%) + Scope 2 = 81 kgCO2e (vs 92, -12%).\n• Estimations doublées entre 2021-22 (13 030 tCO2e) et 2024 (28 247 tCO2e) principalement dû à amélioration méthodologie (couverture monétaire balance sheet) + reprise post-COVID business travel + intégration mobilité étudiante.\nSource : Carbon Footprint 2024, p. 7-12, 23 (vérification AFNOR)\n\nApprenants :\n• Mobilité étudiante = 2e poste scope 3 (7 420 tCO2e, 28% du scope 3).\nSource : Carbon Footprint 2024, p. 17\n\nCollaborateurs :\n• Business travel = 4e poste scope 3 (1 421 tCO2e, +93% post-COVID).\nSource : Carbon Footprint 2024, p. 17",
         "19": "OUI, Scope 3 détaillé dans le BC 2024 (vérifié AFNOR) : 26 831 tCO2e, 95% des émissions, 7 catégories GHG Protocol décomposées avec données quantifiées.\n\n• Scope 3 détaillé par catégorie GHG Protocol (Carbon Footprint 2024, p. 17) :\n  - 3-1 Achats (Purchased goods & services) : 5 096 tCO2e (19%), services 94%, catering 8% ; sur produits, gifts & goodies 65%.\n  - 3-2 Immobilisations (Capital goods/Fixed assets) : 12 065 tCO2e (45%), buildings 33%, repairs/works 21%, land 17%.\n  - 3-3 Fuel and energy-related activities : 268 tCO2e.\n  - 3-5 Déchets : 202 tCO2e.\n  - 3-6 Business travel : 1 421 tCO2e (post-COVID rebound).\n  - 3-7 Navettes employés (incl. télétravail) : 359 tCO2e.\n  - 3-9 Mobilité étudiante (downstream transportation) : 7 420 tCO2e (28%).\n• 95% des émissions totales = scope 3 (typique école de services).\n• Méthodologie monetary-based via balance sheet data 2024 (couverture améliorée vs 2021-22).\n• Mobilité étudiante : Field trips + Beginning/End-of-year travel + Inter-campus travel + Student commute + Internship travel + Field trips stays.\nSource : Carbon Footprint 2024, p. 17 (vérifié AFNOR)\n\nApprenants :\n• Mobilité étudiante = 28% du scope 3 (7 420 tCO2e).\nSource : Carbon Footprint 2024, p. 17\n\nCollaborateurs :\n• Business travel + Navettes = 7% du scope 3 (1 780 tCO2e).\nSource : Carbon Footprint 2024, p. 17",
@@ -2706,7 +2706,7 @@ const BENCHMARK_DATA = {
         "13": "OUI, Dispositif VSS complet : plateforme de signalement + cellule dédiée + formation + référent + politique égalité.\n\n• Page dédiée « Lutter contre les violences sexistes et sexuelles »\n• Signalement, accompagnement, sanctions détaillés\n• Label AFNOR Égalité professionnelle (1ère université française)\n• HeForShe Impact Champion (ONU Femmes, 1 des 10 mondiaux)\nSource : sciencespo.fr/lutter-contre-les-violences-sexistes-et-sexuelles ; sciencespo.fr/egalite-femmes-hommes\n\nApprenants :\n• Dispositif complet (signalement + accompagnement)\nSource : sciencespo.fr/vss\n\nCollaborateurs :\n• Label AFNOR Égalité pro\nSource : sciencespo.fr/egalite-femmes-hommes",
         "14": "PARTIEL, Réseau de correspondants transition écologique (employés) mais pas de formation DD systématique pour tous les collaborateurs.\n\n• Réseau de correspondants transition écologique impliqués dans le plan d’action\n• Toutes les communautés impliquées dans la trajectoire net zéro\n• Pas de formation DD obligatoire pour tous les salariés documentée\nSource : sciencespo.fr/notre-action-environnement\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Réseau correspondants mais pas formation systématique\nSource : sciencespo.fr/notre-action-environnement",
         "15": "OUI, Réseau de correspondants transition écologique (employés) + Comité consultatif étudiant + 20 ambassadeurs santé (ERS).\n\n• Réseau de correspondants transition écologique parmi les employés\n• Comité consultatif étudiant dédié transition écologique\n• 20 étudiants ambassadeurs santé (ERS) sur les campus\nSource : sciencespo.fr/notre-action-environnement ; sciencespo.fr/sante\n\nApprenants :\n• Comité consultatif + 20 ERS\nSource : sciencespo.fr\n\nCollaborateurs :\n• Réseau correspondants transition\nSource : sciencespo.fr/notre-action-environnement",
-        "16": "NON, SDGs Inside est une méthode développée par les enseignants pour structurer leurs cours, pas un programme formant les enseignants au DD. Pratiques citées dans le rapport (research/chaires/communauté) : 40+ enseignants-chercheurs permanents sur les transitions + 10 post-docs Fonds Bruno Latour + Institut dédié.\n\n• 40+ enseignants-chercheurs permanents recherchant sur les transitions environnementales\n• 10 post-doctorants recrutés via le Fonds Bruno Latour (2023, contrats 3 ans)\n• Institut pour les Transformations Environnementales : structure dédiée impliquant le corps professoral\n• 11 centres de recherche adressent les enjeux environnementaux\nSource : sciencespo.fr/institut-transformations-environnementales\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• 40+ chercheurs + 10 post-docs\nSource : sciencespo.fr/institut-transformations-environnementales",
+        "16": "NON, Plus de 40 enseignants-chercheurs permanents sur les transitions et 10 post-doctorants du Fonds Bruno Latour, mais recrutements cibles et non formation des enseignants en exercice. Elements cites dans le rapport : 40+ enseignants-chercheurs permanents sur les transitions + 10 post-docs Fonds Bruno Latour + Institut dédié.\n\n• 40+ enseignants-chercheurs permanents recherchant sur les transitions environnementales\n• 10 post-doctorants recrutés via le Fonds Bruno Latour (2023, contrats 3 ans)\n• Institut pour les Transformations Environnementales : structure dédiée impliquant le corps professoral\n• 11 centres de recherche adressent les enjeux environnementaux\nSource : sciencespo.fr/institut-transformations-environnementales\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• 40+ chercheurs + 10 post-docs\nSource : sciencespo.fr/institut-transformations-environnementales",
         "17": "OUI, Institut pour les Transformations Environnementales + Chaire Européenne DD + IDDRI + 11 centres de recherche.\n\n• Institut pour les Transformations Environnementales (nov. 2023, France 2030, directrice Charlotte Halpern)\n• Chaire Européenne Développement Durable et Transition Climatique (École des Affaires Publiques + PSIA)\n• IDDRI (Institut du Développement Durable et des Relations Internationales) associé\n• 40+ chercheurs permanents + 40+ doctorants\n• Fonds Bruno Latour : 10 post-docs\nSource : sciencespo.fr/institut-transformations-environnementales ; sciencespo.fr/psia/chair-sustainable-development\n\nApprenants :\n• Recherches alimentent les Masters\nSource : sciencespo.fr\n\nCollaborateurs :\n• 40+ chercheurs dans 11 centres\nSource : sciencespo.fr/institut-transformations-environnementales",
         "18": "OUI, Bilan carbone réalisé en 2021 (données 2019), ajusté en 2023, scopes 1+2+3.\n\n• BC réalisé en 2021, ajusté 2023\n• Aligné SBTi (Science Based Targets)\n• Postes prioritaires identifiés : énergie, déplacements, numérique, achats\nSource : sciencespo.fr/our-climate-initiative\n\nApprenants :\n• Non détaillé\n\nCollaborateurs :\n• Non détaillé",
         "19": "PARTIEL, BC scopes 1+2+3 réalisé mais détail par poste scope 3 non publié dans les sources publiques.\n\n• Scopes 1, 2 et 3 couverts\n• Postes prioritaires identifiés (achats, déplacements, numérique) mais pas de détail chiffré par poste publié\nSource : sciencespo.fr/our-climate-initiative\n\nApprenants :\n• Non détaillé\n\nCollaborateurs :\n• Non détaillé",
@@ -2748,7 +2748,7 @@ const BENCHMARK_DATA = {
         "13": "OUI, Convention signée avec le Tribunal Judiciaire et France Victimes 44 + dispositif BeeSafe (application/dispositif de signalement des violences sexistes et sexuelles).\n\n• Convention tripartite pour la lutte contre les VSS : Audencia + Tribunal Judiciaire + France Victimes 44\n• Accompagnement complet des victimes : déclaration → exécution des décisions de justice\n• Dispositif BeeSafe (application/dispositif de signalement des violences sexistes et sexuelles) identifié sur le site (lutte VSS et discriminations)\nSource : Rapport DD&RS 2026, p. 14 ; site web audencia.com\n\nApprenants :\n• BeeSafe (application/dispositif de signalement des violences sexistes et sexuelles) accessible aux étudiants\nSource : Site web audencia.com (menu Vie étudiante)\n\nCollaborateurs :\n• Convention couvre étudiants ET personnels\nSource : Rapport DD&RS 2026, p. 14",
         "14": "OUI, 367 nouveaux collaborateurs formés aux enjeux de transition en 2025 (vs 177 en 2024).\n\n• Doublement du nombre de collaborateurs formés en 1 an\n• Programme de formation structuré pour les nouvelles recrues\nSource : Rapport DD&RS 2026, p. 15\n\nApprenants :\n• Non applicable directement\n\nCollaborateurs :\n• 367 formés (2025), progression x2 vs 2024\nSource : Rapport DD&RS 2026, p. 15",
         "15": "OUI, 51 membres d'équipes internes dédiés au déploiement DD&RS + collectif CARES (Collectif Académique de la Recherche pour l'Environnement et la Société).\n\n• 51 membres d'équipes internes dédiés au déploiement des démarches DD&RS en 2025 (doublement vs 29 en 2024).\n• Collectif CARES : 62 enseignants-chercheurs en 2025 (vs 49 en 2024), réseau d'ambassadeurs recherche RSE.\n• Programme structuré de formation : 367 nouveaux collaborateurs formés aux enjeux de transition en 2025 (vs 177 en 2024).\nSource : Rapport DD&RS 2026, p. 15\n\nApprenants :\n• Bénéficient indirectement de la qualité d'encadrement DD&RS via les 62 chercheurs CARES qui enseignent dans GAIA et les programmes.\nSource : Rapport DD&RS 2026, p. 6, 8\n\nCollaborateurs :\n• 51 référents actifs DD&RS + 62 chercheurs CARES + 367 nouveaux collaborateurs formés en 2025.\nSource : Rapport DD&RS 2026, p. 15",
-        "16": "OUI, 62 enseignants-chercheurs membres du collectif CARES + 65% des publications de la faculté portent sur les transitions écologiques et sociales.\n\n• Collectif CARES (Collectif Académique de la Recherche pour l'Environnement et la Société) en progression : 49 membres en 2024 → 62 en 2025.\n• 65% des publications de la faculté portent sur les transitions écologiques et sociales (stable vs 2024).\n• 15 projets à impact menés sur l'entreprise et la société en 2025 (vs 13 en 2024).\n• Chaire Impact Positif : 5 publications majeures en 2025 (transformation modèle économique, sens au travail, baromètre égalité F/H, embarquement RSE interne, détracteurs RSE).\nSource : Rapport DD&RS 2026, p. 8-9, 15\n\nApprenants :\n• Les étudiants bénéficient des enseignements des 62 chercheurs CARES dans GAIA et les programmes spécialisés.\nSource : Rapport DD&RS 2026, p. 6\n\nCollaborateurs :\n• 62 enseignants-chercheurs engagés dans le collectif CARES, animant les recherches sur les transitions.\nSource : Rapport DD&RS 2026, p. 15",
+        "16": "NON, Collectif CARES (62 enseignants-chercheurs) et 65 % des publications portant sur les transitions, mais pas de programme de formation des enseignants en exercice.\n\n• Collectif CARES (Collectif Académique de la Recherche pour l'Environnement et la Société) en progression : 49 membres en 2024 → 62 en 2025.\n• 65% des publications de la faculté portent sur les transitions écologiques et sociales (stable vs 2024).\n• 15 projets à impact menés sur l'entreprise et la société en 2025 (vs 13 en 2024).\n• Chaire Impact Positif : 5 publications majeures en 2025 (transformation modèle économique, sens au travail, baromètre égalité F/H, embarquement RSE interne, détracteurs RSE).\nSource : Rapport DD&RS 2026, p. 8-9, 15\n\nApprenants :\n• Les étudiants bénéficient des enseignements des 62 chercheurs CARES dans GAIA et les programmes spécialisés.\nSource : Rapport DD&RS 2026, p. 6\n\nCollaborateurs :\n• 62 enseignants-chercheurs engagés dans le collectif CARES, animant les recherches sur les transitions.\nSource : Rapport DD&RS 2026, p. 15",
         "17": "OUI, Chaire Impact Positif + Kosmogonia + AquaSPICE (H2020) + Forum métropolitain du climat + partenariat ADEME-BPI.\n\n• Chaire Impact Positif : études sur la transformation des modèles économiques, l'égalité salariale F/H et la mode responsable.\n• Kosmogonia : programme de recherche participative sur 2 ans étudiant les bascules socio-écologiques (57 organisations engagées en Europe et Asie, 110 interviews, 390 jours d'immersion, terrain international réalisé sans avion).\n• Projet AquaSPICE (H2020 finalisé) : intégration de l'économie circulaire dans la gestion de l'eau industrielle, jusqu'à -40% de consommation d'eau douce dans l'industrie via des technologies de recyclage.\n• Forum métropolitain du climat de Nantes Métropole : Audencia membre actif aux côtés de 25 organisations partenaires (PCAET 2024-2030).\n• Partenariat ADEME / Bpifrance Université : Audencia Executive Education a accompagné la promotion 5 de l'Accélérateur \"Offreurs de Solutions Énergétiques Vertes\" (parcours 18 mois, 6 séminaires).\nSource : Rapport DD&RS 2026, p. 5, 7, 8-9, 10\n\nApprenants :\n• 54 étudiants du MSc Management for Sustainable Business ont obtenu la certification Bilan Carbone® en 2025.\nSource : Rapport DD&RS 2026, p. 6\n\nCollaborateurs :\n• 62 enseignants-chercheurs CARES engagés dans la production de connaissances sur les transitions.\nSource : Rapport DD&RS 2026, p. 15",
         "18": "OUI, 4 bilans carbone consécutifs réalisés selon une approche multi-capitale + engagement ACT'Sup (ADEME) + membre Forum métropolitain du climat.\n\n• 4 bilans carbone consécutifs réalisés (méthode multi-capitale LIFTS® attachant les impacts carbone à chaque entrée comptable).\n• Engagement dans ACT'Sup (programme de l'ADEME pour l'enseignement supérieur) pour aligner la trajectoire de décarbonation sur la stratégie nationale bas carbone.\n• 1 385 kg CO2/étudiant en 2025 (vs 1 133 kg en 2024), augmentation publiée en transparence.\n• Membre du Forum métropolitain du climat de Nantes Métropole.\nSource : Rapport DD&RS 2026, p. 10-11, 15\n\nApprenants :\n• 54 étudiants MSc MSB certifiés Bilan Carbone® et capables de calculer l'empreinte carbone d'une organisation.\nSource : Rapport DD&RS 2026, p. 6\n\nCollaborateurs :\n• Critère \"Engagement RSE\" adossé à l'intéressement, conditionné aux émissions CO2 des déplacements professionnels.\nSource : Rapport DD&RS 2026, p. 10",
         "19": "PARTIEL, Stratégie bas-carbone ACT’Sup mais scope 3 détaillé par poste non publié dans le rapport.\n\n• Trajectoire alignée Accords de Paris (ACT’Sup = méthode ADEME/CDP)\n• Détail des postes scope 3 non publié dans ce rapport\nSource : Rapport DD&RS 2026, p. 10\n\nApprenants :\n• Non détaillé\n\nCollaborateurs :\n• Non détaillé",
@@ -2874,7 +2874,7 @@ const BENCHMARK_DATA = {
         "13": "OUI, Plan d'action VSS formalisé + politique égalité/inclusion + prix CGE handicap.\n\n• Plan d'action contre les VSS formalisé (PDF)\n• Pôle Égalité des Chances\n• Prix CGE catégorie « Accès, Inclusion, Diversité » (cours APF France Handicap)\nSource : Plan VSS.pdf ; Plaquette Pôle Égalité.pdf\n\nApprenants :\n• Plan VSS s'applique aux étudiants\nSource : Plan VSS.pdf\n\nCollaborateurs :\n• Plan VSS couvre le personnel\nSource : Plan VSS.pdf",
         "14": "OUI, 677/900 employés formés à la soutenabilité (75%).\n\n• 677 des 900 employés formés à la soutenabilité\n• Fait partie du Plan Climat\nSource : polytechnique.edu/plan-climat\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• 677/900 formés = 75%\nSource : polytechnique.edu/plan-climat\n\nCompléments (veille 2026) :\n• Directions clés (communication, restauration, achats) formées via des formations expertes pour adapter leurs métiers aux enjeux écologiques",
         "15": "OUI, Association NeXt (~60 membres, ex-DDX) + compostage + jardin botanique.\n\n• NeXt (fondée 2016, ~60 membres) : compostage, jardin botanique, défis hebdomadaires, conférences\n• SEVE + SREX organisées par les étudiants\n• COP étudiante nationale\nSource : polytechnique.edu/SEVE\n\nApprenants :\n• NeXt active\nSource : polytechnique.edu\n\nCollaborateurs :\n• Non documenté",
-        "16": "OUI, 8 départements de recherche impliqués dans Engineering Sustainability + Chaire DD (EDF, 20+ ans).\n\n• 8 départements de recherche contribuent au cours Engineering Sustainability\n• Chaire Développement Durable (depuis 2003, EDF, renouvelée 2023)\n• Chaire Énergies Durables (EDF, renouvelée 2023)\nSource : polytechnique.edu/engineering-sustainability ; polytechnique.edu/chairs\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• 8 départements impliqués\nSource : polytechnique.edu",
+        "16": "NON, 8 departements de recherche impliques dans Engineering Sustainability et Chaire Developpement Durable (EDF, plus de 20 ans), mais activite de recherche et non formation des enseignants en exercice.\n\n• 8 départements de recherche contribuent au cours Engineering Sustainability\n• Chaire Développement Durable (depuis 2003, EDF, renouvelée 2023)\n• Chaire Énergies Durables (EDF, renouvelée 2023)\nSource : polytechnique.edu/engineering-sustainability ; polytechnique.edu/chairs\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• 8 départements impliqués\nSource : polytechnique.edu",
         "17": "OUI, Chaire DD (EDF, 2003, 20+ ans) + Chaire Énergies Durables + ~10 projets recherche/an.\n\n• Chaire Développement Durable (depuis 2003, partenariat EDF 20+ ans)\n• Chaire Énergies Durables (EDF)\n• ~10 projets de recherche sustainability financés en 2025\nSource : polytechnique.edu/chairs-sustainable-development\n\nApprenants :\n• MSc EESM alimenté par la recherche\nSource : polytechnique.edu\n\nCollaborateurs :\n• Chercheurs impliqués dans les chaires\nSource : polytechnique.edu/chairs\n\nCompléments (veille 2026) :\n• 22 % des publications scientifiques contribuent à au moins un ODD",
         "18": "OUI, Premier Bilan Carbone réalisé en 2020 (année référence 2019) = 15 586 tCO2e total = 2,8 tCO2e/usager ; bilan actualisé 2022 = 19 353 tCO2e ; suivi annuel.\n\n• Premier Bilan Carbone établi en 2020 (année référence 2019) : 15 586 tCO2e total = 2,8 tCO2e par usager.\n• Bilan actualisé 2022 : 19 353 tCO2e total.\n• Méthodologie ADEME implicite ; suivi annuel.\n• Résultats Plan Climat 2022-2025 publiés : gaz -33% par m² (-18% en absolu), électricité -16% par m² entre 2019-2024.\n• 8 M€+ investis en efficacité énergétique sur la période.\nSource : PlanClimat-Écolepolytechnique.pdf, p. 24-25 ; Bilan Plan Climat 2022-2025.pdf ; polytechnique.edu/plan-climat\n\nApprenants :\n• Périmètre intègre activités pédagogiques et déplacements étudiants.\nSource : PlanClimat-Écolepolytechnique.pdf, p. 24\n\nCollaborateurs :\n• Bilan publié + résultats partiels chiffrés ; suivi annuel par la Directrice TES.\nSource : Bilan Plan Climat 2022-2025.pdf",
         "19": "OUI, Scope 3 détaillé avec ventilation chiffrée par poste : énergie/bâtiments 36%, achats biens et services 28%, déplacements 19%, immobilisations/matériel recherche 12% (1 933 tCO2e), restauration et déchets <1%.\n\n• Bilan carbone total 15 586 tCO2e pour 2019, actualisé à 19 353 tCO2e en 2022 (PlanClimat-Écolepolytechnique.pdf, p. 24-25).\n• Répartition GES 2022 par poste publiée :\n  - Énergie / bâtiments : 36%\n  - Achats biens et services : 28%\n  - Déplacements : 19%\n  - Immobilisation / matériel recherche : 12% (1 933 tCO2e identifiés)\n  - Restauration, déchets : < 1%\n  - Numérique inclus.\n• Postes scope 3 majeurs (achats, déplacements, immobilisations recherche) tous identifiés et quantifiés.\n• Périmètre §6 satisfait : « scope 3 détaillé avec principaux postes identifiés ».\nSource : PlanClimat-Écolepolytechnique.pdf, p. 24-25 ; Bilan Plan Climat 2022-2025\n\nApprenants :\n• Périmètre intègre les déplacements liés aux activités pédagogiques.\nSource : PlanClimat-Écolepolytechnique.pdf, p. 24\n\nCollaborateurs :\n• Missions chercheurs et déplacements professionnels chiffrés à 19% du bilan ; immobilisations matériel recherche 12% détaillées.\nSource : PlanClimat-Écolepolytechnique.pdf, p. 25",
@@ -3630,7 +3630,7 @@ const BENCHMARK_DATA = {
         "13": "NON, Aucun dispositif VSS (formation + signalement + référent) identifié.\n\n• Pas de plateforme de signalement\n• Pas de référent VSS mentionné\n• Pas de campagne de sensibilisation VSS documentée\nSource : non documenté dans le Rapport PRME 2021\n\nApprenants : pas de dispositif VSS identifié.\nCollaborateurs : non documenté.",
         "14": "NON, Aucun programme de formation DD pour les collaborateurs documenté.\n\n• Non documenté dans le rapport PRME\nSource : non documenté\n\nApprenants : non concerné.\nCollaborateurs : aucune formation DD structurée.",
         "15": "PARTIEL, Anne Choquet (Responsable PRME) + groupe de travail Égalité + groupe de travail BBS-IMT Atlantique sur l'égalité H/F + référente Égalité CGE, mais pas de réseau structuré multi-thématiques de référents RSE/DD.\n\n• Anne Choquet : Enseignante-Chercheure, Responsable de la mission PRME (référente unique sur le périmètre PRME).\n• Groupe de travail Égalité interne traitant les questions de racisme et antisémitisme.\n• Groupe de travail BBS-IMT Atlantique sur l'égalité hommes/femmes (partenariat inter-écoles).\n• Une personne référente Égalité dans la commission de la Conférence des Grandes Écoles (représentation externe).\n• Pas de réseau structuré multi-thématiques de référents RSE (par axe : carbone, biodiversité, achats, etc.).\nSource : Rapport PRME 2021, p. 2, 35, 67\n\nApprenants :\n• Une interlocutrice PRME identifiée + référente Égalité.\nSource : Rapport PRME 2021, p. 2, 35\n\nCollaborateurs :\n• Référente PRME unique + groupe de travail Égalité + référente CGE = noyau réduit, sans réseau de référents thématiques.\nSource : Rapport PRME 2021, p. 2, 35, 67",
-        "16": "OUI, 35+ contributions intellectuelles 2019-2021 classées dans 5 thématiques liées au PRME (Développement durable, RSE, Management responsable, Développement territorial, Genre) + 2 axes de recherche structurants (\"Terre et Mer\" + \"Innovation et transformation des modèles d'affaires\") + appartenance à laboratoires de recherche territoriaux.\n\n• Tableau 4 du rapport recense 35+ contributions intellectuelles publiées entre 2019 et 2021, classées par thématique PRME (DD, RSE, Management responsable, Développement territorial, Genre).\n• Auteurs identifiés contribuant régulièrement : Aït Razouk Abdelwahab (qualité emploi/innovation managériale/RSE), Choquet Anne (régions polaires/biodiversité Antarctique/géopolitique), Sommier Béatrice (consommation biologique/genre), Loheac Youenn (préférences temporelles/altruisme), Schleich Joachim/Gassmann Xavier (technologies efficacité énergétique).\n• 2 axes de recherche : \"Terre et Mer\" (positionnement Bretagne/Shandong, agroalimentaire, transport maritime, plaisance) + \"Innovation et transformation des modèles d'affaires\" (digitalisation, business models).\n• Appartenance des enseignants-chercheurs à 2 unités de recherche UBO : AMURE (UMR 6308 - Aménagement des Usages des Ressources et Espaces marins et littoraux) et LEGO (Laboratoire d'économie et de gestion de l'ouest, EA 2652).\n• Membre Pôle de compétitivité Mer Bretagne Atlantique + Valorial + Campus Mondial de la Mer + Institut Français de la Mer + cluster maritime français.\nSource : Rapport PRME 2021, p. 49-59 (Tableau 4), 50-51, 66-67\n\nApprenants :\n• Bénéficient des enseignements de chercheurs publiés sur les transitions et le management responsable.\nSource : Rapport PRME 2021, p. 49-59\n\nCollaborateurs :\n• 20+ enseignants-chercheurs + 135 intervenants professionnels mobilisés sur les axes de recherche et la production de contributions PRME.\nSource : Rapport PRME 2021, p. 21",
+        "16": "NON, Plus de 35 contributions intellectuelles 2019-2021 alignees PRME sur 5 thematiques, mais production scientifique et non dispositif de formation des enseignants au DD.\n\n• Tableau 4 du rapport recense 35+ contributions intellectuelles publiées entre 2019 et 2021, classées par thématique PRME (DD, RSE, Management responsable, Développement territorial, Genre).\n• Auteurs identifiés contribuant régulièrement : Aït Razouk Abdelwahab (qualité emploi/innovation managériale/RSE), Choquet Anne (régions polaires/biodiversité Antarctique/géopolitique), Sommier Béatrice (consommation biologique/genre), Loheac Youenn (préférences temporelles/altruisme), Schleich Joachim/Gassmann Xavier (technologies efficacité énergétique).\n• 2 axes de recherche : \"Terre et Mer\" (positionnement Bretagne/Shandong, agroalimentaire, transport maritime, plaisance) + \"Innovation et transformation des modèles d'affaires\" (digitalisation, business models).\n• Appartenance des enseignants-chercheurs à 2 unités de recherche UBO : AMURE (UMR 6308 - Aménagement des Usages des Ressources et Espaces marins et littoraux) et LEGO (Laboratoire d'économie et de gestion de l'ouest, EA 2652).\n• Membre Pôle de compétitivité Mer Bretagne Atlantique + Valorial + Campus Mondial de la Mer + Institut Français de la Mer + cluster maritime français.\nSource : Rapport PRME 2021, p. 49-59 (Tableau 4), 50-51, 66-67\n\nApprenants :\n• Bénéficient des enseignements de chercheurs publiés sur les transitions et le management responsable.\nSource : Rapport PRME 2021, p. 49-59\n\nCollaborateurs :\n• 20+ enseignants-chercheurs + 135 intervenants professionnels mobilisés sur les axes de recherche et la production de contributions PRME.\nSource : Rapport PRME 2021, p. 21",
         "17": "OUI, Multiples partenariats académiques territoriaux + recherche appliquée structurée + dissémination via The Conversation + Nuit Européenne des Chercheurs + colloques PRME.\n\n• Partenariats académiques formalisés avec : UBO (Université de Bretagne Occidentale, AMURE + LEGO), IMT Atlantique (Institut Mines Telecom), ENIB (École Nationale d'Ingénieurs de Brest), ENSTA Bretagne, ISEN Yncréa Ouest, CESI, RENASUP.\n• Membre de \"The Conversation\" (média en ligne d'analyse) : enseignants-chercheurs accompagnés par des journalistes pour publier des articles grand public (8+ articles PRME publiés en 2019-2021).\n• Participation annuelle à la Nuit Européenne des Chercheurs à Brest (Océanopolis) : enseignants-chercheurs (Y. Loheac, M. Leplat, A. Choquet, Y. Yang) tiennent un stand dédié à la médiation scientifique.\n• Co-organisation de colloques PRME : Webinaire \"Régions polaires, gestion des risques\" (avril 2021) + 22e Université de printemps de l'Institut d'Audit Social (mai 2021, thème \"Audit social et RSE au travers de la chaîne globale\").\n• Centre de Mobilité Internationale de Brest (rattaché UBO) : dispositif mutualisé soutenu par les collectivités locales.\n• Adhésion à la communauté ESR brestoise (université 20 000 étudiants + 6 écoles ingénieurs).\nSource : Rapport PRME 2021, p. 50-52, 66-68\n\nApprenants :\n• Bénéficient des partenariats inter-écoles (modules croisés ENIB, ISEN, IMT Atl) + accès équipements sportifs UBO + Centre de Mobilité Internationale.\nSource : Rapport PRME 2021, p. 67-68\n\nCollaborateurs :\n• Enseignants-chercheurs intégrés à AMURE/LEGO, animant des co-publications et des colloques avec partenaires académiques.\nSource : Rapport PRME 2021, p. 50-51",
         "18": "PARTIEL, Bilan carbone réalisé \"régulièrement\" sur les déplacements professionnels (transport) + raccordement au réseau de chauffage éco-chaleur de Brest Métropole + Certificat d'économie d'énergies, mais pas de bilan carbone scopes 1+2+3 publié récemment ni détail des résultats.\n\n• \"L'école fait régulièrement son bilan carbone visant à évaluer les émissions de gaz à effet de serre liées au transport\" (citation rapport p. 37).\n• Décisions opérationnelles documentées en réponse au BC : 1 seule voiture pour l'école, train obligatoire pour Paris (depuis 2014), équipement visioconférence, intervenants extérieurs >50km doivent justifier d'expertise rare.\n• Raccordement de l'école au réseau collectif éco-chaleur de Brest Métropole (réduction empreinte chauffage).\n• Certificat d'Économie d'Énergies obtenu par l'école.\n• Pas de bilan carbone complet scopes 1+2+3 publié avec résultats détaillés ; pas de méthodologie structurée type ACT'Sup ou GHG Protocol documentée.\nSource : Rapport PRME 2021, p. 37, 40\n\nApprenants :\n• Bénéficient de la communication sur les choix bas carbone de l'école (mobilité, énergie).\nSource : Rapport PRME 2021, p. 37-38\n\nCollaborateurs :\n• Politique de mobilité bas carbone (50% transport collectif remboursé, train obligatoire Paris, visio).\nSource : Rapport PRME 2021, p. 37",
         "19": "NON, Pas de bilan carbone, donc pas de scope 3.\n\n• Non documenté\nSource : non documenté\n\nApprenants : non concerné.\nCollaborateurs : non documenté.",

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "benchmark-rse",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "C:\\Users\\sylva\\OneDrive\\Bureau\\SITES\\BENCHMARK IGENSIA\\benchmark-rse"],
+      "port": 8080
+    }
+  ]
+}

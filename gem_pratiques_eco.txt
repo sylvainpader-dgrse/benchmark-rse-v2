@@ -1,0 +1,2900 @@
+
+----- PAGE 1 -----
+
+1
+
+----- PAGE 2 -----
+
+2 
+ Enquête basée sur le projet « Baromètre des transitions » - Grenoble Ecole de 
+Management, Grenoble Alpes Métropole et l’ADEME.    
+Rapport rédigé par  Vincent Jourdain, sociologue, Grenoble Ecole de Management, 
+F-38000, membre de la chaire Territoires en Transition et Fiona Ottavian i, économiste, 
+Grenoble Ecole de Management, F-38000, co-titulaire de la chaire Terr itoires en 
+Transition, coordinatrice recherche de la chaire UNESCO pour une culture de p aix 
+économique.  
+Date de Publication :  mai 2023  
+Mise en forme du rapport :  Aude Alliot et Clara-Marie Casquero  
+  
+Pour citer ce rapport :  Jourdain, V. & Ottaviani, F. (2023), Rapport d’enquête. 
+Pratiques Ecologiques , Grenoble Ecole de Management-Grenoble Alpes Métropole-
+ADEME, mai.
+
+----- PAGE 3 -----
+
+3 
+ 
+ 
+  
+PARTIE 1 : Introduction ___________________________________ ____________________ 4  
+1. Présentation et approche théorique de l’enquête  _________________________________ 4  
+2. Méthodologie _______________________________________ _______________________ 6  
+2.1. Collecte _____________________________________________ ___________________________ 7  
+2.2. Redressement ________________________________________ ___________________________ 8  
+PARTIE 2 : Résultats _____________________________________ ___________________ 11  
+1. Résultats descriptifs et comparatifs  par  thématique ______________________________ 11  
+1.1. Liste des questions _____________________________________ _________________________ 11  
+1.2. Le changement climatique et l’environnement en général  _______________________________ 13  
+1.3. Conceptualiser les transitions environnementales ______________ _______________________ 18  
+1.4. Mobilité ____________________________________________ ___________________________ 21  
+1.5. La consom mation d’énergie  __________________________________________________ _____ 23  
+1.6. Les déchets ____________________________________________ ________________________ 24  
+1.7. L’alimentation  __________________________________________________ ________________ 25  
+1.7.1     Régimes alimentaires ______________________________ ____________________________ 25  
+1.7.2  Fréquentation des commerces ________________________________ ___________________ 26  
+1.7.3  Leviers et freins aux changements de pratique ____________________ __________________ 28  
+1.8. Le bâti _______________________________________________ _________________________ 29  
+1.8.1  La température _________________________________________ ______________________ 29  
+1.8.2  Le mode de chauffage ____________________________________ _____________________ 32  
+1.8.3  Les besoins relatifs au logement __________________________ _______________________ 35  
+1.9. La consommation matérielle _______________________________ _______________________ 43  
+1.10.  Les conditions de vie ___________________________________ __________________________ 44  
+1.11.  Socialisation des enjeux environnementaux _____________________ _____________________ 46  
+2. Indices de pratiques ____________________________________ ____________________ 51  
+2.1. Les pratiques d’alimentation  __________________________________________________ ____ 52  
+2.2. Les pratiques de mobilité ________________________________ _________________________ 60  
+2.2.1  Mobilité quotidienne ___________________________________ _______________________ 60  
+2.2.2  Mobilité longue distance _________________________________ ______________________ 62  
+2.3. Les pratiques domestiques ________________________________ ________________________ 63  
+2.3.1  La gestion et la réduction des déchets ____________________________ _________________ 64  
+2.3.2  La réduction de la consommation des appareils __________________ ___________________ 64  
+2.4. Les pratiques d’équipement  __________________________________________________ _____ 65  
+2.4.1  Equipement en produits électroniques et en vêtements ___________ ___________________ 65  
+2.4.2  Equipement de mobilité _________________________________ _______________________ 66  
+2.4.3  Recours à la réparation de smartphone ___________________________ ________________ 67  
+2.5. Croisement des indices __________________________________ _________________________ 67  
+Conclusion ______________________________________________ __________________ 71
+
+----- PAGE 4 -----
+
+4 
+ 
+ 
+ 
+Le projet «  Baromètre des transitions  » est développé en coopération entre 
+Grenoble Alpes Métropole, Grenoble Ecole de Management (GEM) et l’ADEME sur un 
+horizon de trois ans. Le projet « Baromètre des transitions » vise à :    
+ Enquêter de manière régulière auprès des habitants du territoire 
+métropolitain grenoblois sur leurs représentations des enjeux 
+environnementaux, leurs comportements, les leviers d’accompagnement au 
+changement, la réception voire les effets des interventions métropolitaines 
+dans ce domaine.  
+ Dresser des profils qui permettent de mieux cibler le niveau attendu et 
+les modalités d’un accompagnement au changement de pratiques ou 
+comportements vers plus d’écoresponsabilité : typologies par âge/moments 
+de vie, catégories socio-professionnelles/niveau de revenus, territoire/t ype 
+d’habitat et mode de vie urbain ou rural…   
+ Evaluer la réception, par les habitants, des dispositifs (offre de service 
+public, aménagements, réglementation, campagne de communication, etc.) 
+existants ou avant même leur mise en service, afin de tester leur recevabilité 
+et les conditions de leur réussite, selon les profils.    
+  
+La première enquête du Baromètre qui fait l’objet du présent rapport pe rmet 
+d’aborder de manière transversale les pratiques sociales en matière 
+environnementale.   
+ 
+Le projet « Baromètre des transitions » s’appuie sur un Panel de recherche  
+territorialisé lancé en mai 2020 par GEM. Les participants sont des résidents des  49 
+communes de Grenoble Alpes Métropole  invités à participer à des études en ligne 
+régulières sur des sujets d’actualité liés au territoire. Une seule personne par foye r 
+peut participer au Panel. Le Panel est régi par un conseil scientifique  de professeurs 
+de GEM qui valide le choix des études distribuées par le Panel. Fondé sur le modèle 
+d’autres panels de recherche, comme celui de l’Université d’Aarhus au Danemark, le 
+Panel permet à tout habitant de la Métropole de plus de 18 ans, no n salarié(e) ou 
+étudiant(e) de GEM, de s’inscrire sur une plateforme dédiée, et de rece voir 
+régulièrement des invitations à participer à des études en ligne indemnisées.  
+Chaque étude prend l a forme d’un questionnaire à remplir en ligne, d’une durée 
+de 30 minutes environ et d’une indemnisation à hauteur de 5€.  
+ 
+ 
+ 
+L’enquête vise à comprendre ce qui favorise les pratiques environnementales  
+chez les individus, dans leur vie quotidienne, sur un ensemble de thèmes : 
+l’alimentation, la mobilité, la consommation de biens, la consommation d’énerg ie ou 
+encore la gestion des déchets. Ces pratiques environnementales renvoient à la fois à
+
+----- PAGE 5 -----
+
+5 
+ des « éco -gestes  », largement plébiscités par les pouvoirs publics (tri des déchets, 
+économies d’énergies…), mais aussi à des pratiques moins directement reliées à des 
+politiques publiques, mais qui peuvent avoir des effets directs sur l’em preinte 
+environnementale des habitants (pratiques alimentaires, consommation de 
+biens…).     
+La théorie des pratiques (Ropke, 20091 ; Wilhite, 20142) avance que les individus 
+agissent selon leur habitus  – ou leur histoire incorporée (Lahire, 20033) - tout en 
+conservant une capacité d’action créatrice et spontanée. Dans ce cadre, on peut 
+regarder à la fois ce qui « détermine » les individus dans leurs pratiques et 
+représentations environnementales, mais aussi s’interroger sur leurs capacités à 
+changer. En particulier, la littérature identifie plusieurs facteurs qui influencent cette 
+capacité à changer : la délibération, c’est -à-dire la confrontation des idées (entre 
+proches, dans les médias, avec soi-même) (Sahakian, 20194), les phénomènes 
+d’apprentissage (Wilhite, 2014), les trajectoi res de vie (Madon, 20225 ; Plessz et al, 
+20166), les transferts de normes et de pratiques par les proches, l’environnement 
+matériel immédiat des individus (Beslay et Zélem, 20097). Enfin, il s’avère que les 
+pratiques environnementales sont aussi des pratiques de satisfaction des besoins d es 
+individus. S’alimenter de manière responsable, c’est avant tout s’alimenter, pour  
+répondre à un besoin de subsistance. Or, la littérature sur les « besoins humains » 
+montre que les stratégies de réponses aux besoins ne sont pas univoques e t 
+dépendent des opportunités institutionnelles et territoriales offertes aux  personnes 
+(Max -Neef et al, 19918 ; Di Giulio et Defila, 20219).  
+Ces résultats nous invitent à faire l’hypothèse que la capacité à changer sur une  
+pratique env ironnementale dépend d’autres pratiques, et en particulier des pratiques 
+                                                           
+1 Røpke, I., (2009 ), Theories of practice — New inspiration for ecological economic studies on consumption. 
+Ecological Economics  68, 2490 –2497.  
+2 Wilhite, H. (2014), Insights from social practice and social learning theory for  sustainable energy consumption , 
+Flux, 96(2), p.24 ‑30. 
+3 Lahire, B.  (2003 ), From the habitus to an individual heritage of dispositions. Towards a  sociology at the level of 
+the individual. Poetics  31, p. 329–355.  
+4 Sahakian, M . (2019), ‘More, Bigger, Better’ Household Appliances: Contesting Normativity in Practices throu gh 
+Emotions , Journal of Consumer Culture , 1469540519889983. https://doi.org/10.1177/1469540519889983  
+5 Madon , J. (2022), “When we got divorced, I left all my things behind.”: How the lifesp an of household goods is 
+linked to the biographical trajectory of their owners. Journal of Industrial Ecology  n/a. 
+https://doi.org/10.1111/jiec.13273  
+6 Plessz, M., Dubuisson -Quellier, S., Gojard, S., Barrey, S., (2016 ), How consumption prescriptions affect food 
+practices: Assessing the roles of household resources and life -course events. Journal of Consumer Culture , 16, 
+101–123. https://doi.org/10.1177/1469540514521077  
+7 Beslay, C., Zélem, M.-C., (2009), Le paradoxe du consommateur moderne : modérer ses consommations 
+d’énergie dans une société toujours plus énergivore . In : Salvador Juan, M.D. (dirs) (Ed.), Consommer Autrement : 
+La Réforme Écologique Des Modes de Vie . L’Harmatta n, pp. 277 –296.  
+8 Max -Neef, M. A. , Elizalde, A. , Hopenhayn, M.  (1991), Human Scale Development: Conception, Application and 
+Further Reflections ; The Apex Press: New Yor k. 
+9 Di Giulio, A. , Defila, R.  (2021),  Building the Bridge between Protected Needs and Consumption Corridors. 
+Sustainability: Science, Practice and Policy  2021, 17 (1), 117 –134. 
+https://doi.org/10.1080/15487733.2021.1907056 .
+
+----- PAGE 6 -----
+
+6 
+ sociales et des capacités des individus en lien avec les opportunités institutionne lles, 
+sociales et marchandes qui leur sont offertes10 (hypothèse 1).  
+Une autre littérature en scien ces sociales de l’environnement s’est attachée à 
+montrer que toutes les pratiques écologiques ne se ressemblaient pas (Coulangeon et 
+al, 202311). En réalité, l’inscription des pratiques dans des contextes différents doit 
+nous inviter à penser que leur adoption peut suivre des logiques (ou mécanismes) tout 
+aussi différentes. Intuitivement, on comprend que les pratiques de mobilité  longue 
+distance, d’alimentation, le recours à des pratiques de réduction des déchets 
+d’emballages ou les modalités de consommation  des textiles peuvent ne pas relever 
+exactement des mêmes mécanismes. Dès lors, notre seconde hypothèse de trava il 
+est que dans l’espace social des pratiques environnementales, on peut d istinguer 
+différents groupes de pratiques, dont la dépendance à des facteurs explica tifs varie 
+qualitativement (hypothèse 2).  
+Qu’est -ce qu’une enquête par questionnaire peut apporter pour répondre à ces 
+questions ? L’enquête que nous avons construite vise à aborder plusieurs aspects de 
+la transition écologique, traités à l ’échelle individuelle. Dire qu’ils sont traités à l’échelle 
+individuelle ne consiste pas à faire reposer l’ensemble de la « responsabilité  » (point 
+de vue moral) ou de la capacité d’action (point de vue scientifique) relatives aux 
+transitions sur les indiv idus. L’intérêt de l’entrée individuelle pour aborder ces 
+questions réside dans l’idée que l’adoption de pratiques écologiques relève d’un « fait 
+social » et qu’à ce titre c’est par l’étude statistique que l’on peut révéler ses 
+caractéristiques. La traditi on sociologique a en effet mis en avant l’intérêt de la 
+comparaison entre unités d’observations (les individus) et dans le temps pou r saisir 
+ces faits sociaux (Durkheim, 2013, p. 13712) Aussi, l’administration d’un questionnaire 
+identique deux années d’affi lée (2022 et 2023) est un outil pour tenter de saisir les 
+mécanismes d’apprentissage à l’œuvre.  
+ 
+ 
+Pour répondre à la question que nous nous posons, à savoir comment les 
+pratiques environnementales évoluent avec les pratiques de satisfaction des besoins, 
+l’enquêtes comprend six types de questions, listées ci -dessous. Ces types de 
+questions peuvent parfois combiner plusieurs « thèmes » environnementaux, qui 
+seront plutôt utilisés pour décrire les résultats.   
+Au total, ce sont 76 questions (313 variables) dont 22 variables socio-
+économiques sur les répondants qui ont été posées.   
+ 
+                                                           
+10 Ce po sitionnement rejoint la théorie de l’égalité d’Amartya Sen (1992). Sen,  A. (1992), Repenser l’inégalité , 
+traduit de l’anglais par Chemla,  P. (Inequality Reexamined ), Paris, Seuil, 2000 pour l’édition française.  
+11 Coulangeon, P., Demoli, Y., Ginsburger, M., Petev, I., (2023), La conversion écologique des français. 
+Contradictions et clivages, Le lien social.  Presses Universitaires de France, Paris. 
+12 Durkheim, É., Dubet, F., (2013), Les règles de la méthode sociologique , Nouvelle éd., Quadrige. PUF, Paris.
+
+----- PAGE 7 -----
+
+7 
+ Type de questions  Objectifs  
+Critères socio -
+démographiques 
+complémentaires   
+  Nous connaissons grâce aux formulaires complétés 
+lors de l’inscription des panelistes un certain nombre 
+de données socio -démographiques (âge, genre, 
+catégories socio -professionnelles…). Ces questions 
+les complètent avec d’autres données plus précises, 
+en lien avec les pratiques environnementales. Ces 
+questions p ermettent de saisir les conditions 
+actuelles de satisfaction des besoins des individus.   
+Problématisation générale 
+(de l’environnement)   Comprendre comment les individus perçoivent la 
+question environnementale, à l’échelle 
+nationale/mondiale.   
+Problémat isation locale (de 
+l’environnement)   Comprendre comment les individus perçoivent la 
+question environnementale à l’échelle locale.   
+Pratiques sociales    Interroger les individus sur leurs pratiques sociales 
+relatives à l’environnement.   
+Pratiques    Interroger les individus sur leurs pratiques générales 
+(par élimination, celles qui ne sont pas relatives à 
+leur socialisation) sur des sujets environnementaux.   
+Pratiques potentielles    Interroger les individus sur les pratiques qu’ils 
+peuvent envisager et les leviers de transformation de 
+leurs pratiques.  
+ 
+Les questions sont classées par « thèmes » environnementaux : alimentation , 
+changement climatique, déchets, consommation, énergie, qualité de l’a ir, mobilité, 
+général.  
+ 
+ 
+ 
+La collecte de données s’est déroulée du 14 avril 2022 au 20 juin 2022. 
+L’enquête a été envoyée à 2 281 panélistes par courriel, grâce à la p lateforme de 
+gestion du Panel. La participation à l’enquête, dans son intégralité (90 % au moins de  
+réponses complètes) ouvre d roit à une indemnisation de 5€.   
+La diffusion grand public s’est appuyée sur des acteurs locaux, tels que 
+l’Agence d’urbanisme de la région grenobloise, la ville d’Echirolles (site internet), la 
+Métropole de Grenoble et la Ville de Grenoble. Elle a également été faite via les 
+réseaux sociaux de GEM et la publication d’un encart dans le Dauphiné L ibéré en 
+ligne. Nous avons collecté, via le logiciel d’administration de l’enquête (Qualtrics XM), 
+729 réponses. Après nettoyage des données, et suppression des questionnair es 
+incomplets, 675 réponses ont pu être analysées.   
+Ce mode de collecte a des spécificités, si l’on le compare à d’autres mod es 
+(collecte téléphonique, entretiens en face-à- face au foyer, dans la rue…). Son principal 
+défaut est qu’il favorise, à  l’instar d’autres modes de collecte, la participation des 
+individus déjà « intéressés » par les thèmes abordés. Toutefois, cette participation des  
+individus engagés est à relativiser au regard du fait que 91,5 % des participants au x
+
+----- PAGE 8 -----
+
+8 
+ enquêtes sont motivés par la rétribution financière13. A l’inverse, son principal avantage 
+est qu’il facilite la sincérité des réponses. Les participants n’ayant pas à se confronter 
+au regard, ou à l’oreille directs d’un enquêteur, ils auront tendance à exp rimer plus 
+facilement leurs opinions, à déclarer plus aisément des pratiques jugées 
+« indésirables » socialement.   
+ 
+ 
+ 
+On évalue la « qualité » des données au taux de réponses complètes, à la 
+vraisemblance des résultats et à la ressemblance de l’échantillon à la  population-cible. 
+Dans notre cas, la population-cible est celle des habitants de la Métropole Grenoble -
+Alpes. 
+Pour évaluer cette « ressemblance », nous nous sommes appuyés sur cinq 
+variables sociodémographiques, pour voir si nos répondants avaient, dans l’ensemble, 
+les mêmes caractéristiques que la population-cible. Grâce aux données INSEE, on  a 
+pu comparer le nombre d’individus qui possèdent chaque caractéristique d’ une 
+variable dans notre population-cible avec notre échantillon.   
+Ces variables sont :   
+ L’âge, réparti en 5 catégories : 18 -25 ans, 26-35 ans, 36-49 ans, 50-
+65 ans, plus de 65 ans.   
+ Le genre, réparti en deux catégories : hommes, femmes.   
+ Le type de commune de résidence, réparti en 3 catégories : Grenoble, 
+milieu urbain dense, milieu peu dense.  
+ Le niveau de diplôme, réparti en deux catégories : baccalauréat ou 
+moins, au moins 1 an d’étude supérieure après le B ac.  
+ La catégorie socio- professionnelle, répartie en 3 catégories : inactifs, 
+indépendants, salariés.  
+ 
+Après avoir constaté u n certain nombre d’écarts sur ces variables (voir ci -
+dessous), nous avons décidé de procéder à un « redressement » d’échantillon . Cette 
+méthode consiste à changer le « poids » que chaque répondant représente  dans 
+l’analyse des données, en considérant que l es individus sous-représentés par rapport 
+à ce qu’ils devraient représenter dans la population cible (par exemple, dans notre cas, 
+un homme âgé de plus de 65 ans) doivent obtenir un poids prop ortionnellement plus 
+important dans les réponses. Ils sont ainsi les « représentants » de leur catégorie sur 
+une variable. A l’inverse, les catégories surreprésentées (par exemple, les fe mmes 
+très diplômées) reçoivent un poids moins important.   
+ 
+ 
+ 
+                                                           
+13 Nous avons testé cela rétrospectivement au travers une micro-enquête diffu sée en novembre 2022.
+
+----- PAGE 9 -----
+
+9 
+   Pourcentage dans la 
+populationa  Pourcentages 
+redressés   
+Âge  
+18 - 25 ans    21  16,5  
+26 - 35 ans    26,9  17,9  
+36 - 49 ans    18,8  22,2  
+50 - 64 ans   15,9  22  
+65 ans et plus   17,3  21,3  
+Genre   
+Femme    51,7  51,3  
+Homme    48,2  48,7  
+Catégorie socio professionnelle   
+Indépendants   2,3  2,8  
+Salariés   54,3  53,9  
+Inactifs   43,4  43,3  
+Niveau de densité urbaine   
+Grenoble   35,7  35,8  
+Commune dense   48,4  48,3  
+Commune peu dense   15,9  15,8  
+Niveau de diplôme   
+Etudes supérieures   47,3  59,9  
+Bac ou moins   52,7  40,1  
+a Métropole Grenoble -Alpes, d’après  le dernier recensement disponible de l’INSEE 
+(2016)   
+ 
+Cette méthode, simple sur une variable, nécessite de passer par un algorithme 
+itératif pour prendre en compte en même temps 5 variables. Cela s’appe lle le 
+redressement « par calage ». Après avoir procédé au calcul des scores de pondération 
+sur nos cinq variables (âge, genre, commune, CSP, niveau de diplôme), nous 
+obtenons pour chaque individu un « poids » à lui affecter dans le traitemen t descriptif 
+des réponses au questionnaire. Si l’on projette l a répartition des scores de 
+pondération, on obtient 565 valeurs, entre 0,30 et 10,10, pour po ndérer chacun de nos 
+répondants.  
+Ci-dessous, l’histogramme de répartition des valeurs de pondérations utilisées 
+pour redresser notre échantillon.
+
+----- PAGE 10 -----
+
+10 
+  On obtient une moyenne de 2,1, une médiane de 1,3 et un éca rt-type de 2,3. 
+Ces éléments nous montrent l’existence de valeurs très hautes, qui tirent la moyenne 
+bien au-dessus de la médiane.  
+Il y a un risque que ces valeurs donnent un poids à des individus dont le s 
+réponses sont très « extrêmes » et faussent nos analyses. Face à ce risque, no us 
+avons systématiquement opéré une seconde vérification de nos résultats e n 
+comparant ceux de l’échantillon redressé global avec ceux d’un échantillon redressé 
+constitué uniquement des individus avec une valeur de pondération supérieure à 5.   
+Ainsi, nous avons évalué l’influence des « gros contributeurs » sur nos résultats. 
+De manière rassurante, nous avons trouvé que ces quelques individus s’écartaient 
+très peu de la moyenne dans leurs réponses. On peut dire que les individus 
+marginalement représentés au regard de notre échantillonnage participent peu à  « 
+fausser », ou en tous cas à polariser, nos résultats dans un sens ou dans l’autre14.    
+                                                           
+14 Toutefois, notons qu’ils contribuent au contraire à normaliser nos résulta ts, ce qui est un biais en soi.
+
+----- PAGE 11 -----
+
+11 
+ 
+  
+ 
+Deux stratégies de traitements sont combinées, afin de faire émerger les différents 
+groupes de pratiques environnementales et leurs liens avec d’autres facteurs 
+(pratiques sociales, représentations individuelles…) :  
+1. Une étude descriptive et comparative des indicateurs clés pour l’action publique 
+locale ;   
+2. Une construction d’indices dimensionnels de pratique afin de résumer 
+l’information.   
+ 
+ 
+  
+  
+ 
+Par rapport aux données existantes sur les pratiques environnementales, notre 
+enquête visait un double objectif : établir des connaissances spécifiques a u territoire 
+grenoblois et investir de nouvelles questions.  
+Le premier objectif a été rendu possible par la réutilisation de certaines 
+questions issues de questionnaires adm inistrés à l’échelle nationale. Ce faisant, on 
+peut dresser une liste de traitements « comparés » où l’on va chercher à obse rver les 
+spécificités du territoire de la Métropole grenobloise. Le second objectif a été p oursuivi 
+par l’administration de nouvelle s questions, construites à partir de la littérature 
+précédemment mentionnée.  
+Dix grands thèmes ont été abordés à travers les questions :   
+ Les opinions et représentations relatives à l’environnement en général   
+ Les opinions sur différents concepts et modèles de transition écologique  
+ Les pratiques de mobilité   
+ Les pratiques de consommation d’énergie   
+ Les pratiques de consommation de biens  
+ Les pratiques de gestion des déchets  
+ Les pratiques d’alimentation    
+ Les conditions de vie liées à son logement  
+ Les conditions de vie liées à l’environnement    
+ La socialisation des enjeux environnementaux.    
+ 
+ 
+ 
+Cette partie permettra de traiter des résultats de la liste des questions dé taillées 
+ci-dessous.  
+ 
+Question 1 : Parmi les problèmes suivants liés à la dégradation de l’environnemen t, 
+quel est celui qui vous paraît le plus préoccupant ? ______________________ __ 13  
+Question 2 : Pour chacune des activités que je vais vous citer, dites -moi si, d'après 
+ce que vous savez, elle émet beaucoup, assez, peu ou pas du tout de ga z à effet de 
+serre _______________________________________________ _____________ 15
+
+----- PAGE 12 -----
+
+12 
+ Question 3  : Quelle industrie émet le plus de gaz à effet de serre selon vous ?  ___ 16  
+Question 4  : Degré de responsabilité des individus/ménages dans la lutte contre la 
+crise environnementale__________________________________ ____________ 17  
+Question 5  : Selon vous, quelles sont les sources de pollution de l'air les plus 
+préoccupantes près de chez vous ? (ADEME 2021) ______________________ _ 17  
+Question 6  : Degré de connaissance et d’adhésion à différents concepts politiques 
+relatifs à l’environnement  ____________________________________________ 18  
+Question 7  : Niveau d’adhésion et d’estimation de la probabilité de réalisation de 
+différents scénarios de l’ADEME  ______________________________________ 19  
+Question 8  : Comment vous déplacez-vous, le plus souvent, dans vos trajets 
+quotidiens ? 3 réponses maximum  _____________________________________ 21  
+Question 9  : Combien de temps mettez-vous en moyenne, chaque jour, pour vous 
+rendre à votre travail et en revenir ? _____________________________ _______ 22  
+Question 10  : À votre domicile, vous arrive-t-il de couper le mode veille des appareils 
+électroniques ?  __________________________________________________ __ 23  
+Question 11  : Parmi les propositions suivantes, considérez-vous que vous les 
+pratiquez ?  __________________________________________________ _____ 24  
+Question 12  : Dans une semaine normale, combien de fois mangez-vous les aliments 
+suivants ? ____________________________________________ ____________ 25  
+Question 13  : Quels commerces alimentaires fréquentez-vous habituellement ? __ 27  
+Question 14 : Dans votre alimentation quotidienne, consommez-vous des produ its 
+que nous n’avez pas achetés ?  _______________________________________ 28  
+Question 15 : Seriez-vous prêt à réduire votre consommation de viande ou de  
+poisson ? ______________________________________________ __________ 28  
+Question 16  : Dans quel type de logement vivez- vous ?  ____________________ 29  
+Question 17 Comment jugez-vous la température de votre logement en hiver, en 
+été ?  __________________________________________________ __________ 31  
+Question 18  : Utilisez- vous un chauffage individuel au bois… ?  _______________ 33  
+Question 19  : Degré de connaissance de la contribution du chauffage au bois à la 
+présence de particules fines _________________________________ _________ 34  
+Question 20  : Considérez-vous qu'un ou plusieurs des travaux suivants sont 
+nécessaires dans le logement que vous occupez actuellement ? Si oui, lesquels ?  35 
+Question 21  : Avez- vous l’intention de faire réaliser ces travaux ?  _____________ 37  
+Question 22  : Si non, pourquoi ?  _______________________________________ 38  
+Question 23  : Connaissance des dispositifs publics d’aide à la rénovation thermique
+ __________________________________________________ ______________ 40  
+Question 24  : Surfaces maximales et minimales de logements _______________ 42  
+Question 25  : Taux d’équipement en électroménager  ______________________ 43  
+Question 26  : Accès à des services de base _____________________________ 44  
+Question 27  : Télétravaillez- vous en général ?  ____________________________ 45  
+Question 28  : Vous arrive-t- il d’encourager des proches à prendre des habitudes de 
+consommation pour lutter contre le changement climatique ? _____________ ___ 46  
+Question 29  : Vous arrive-t- il d’être encouragé par des proches à prendre des 
+habitudes de consommation pour lutter contre le changement climatique ? __ ___ 48
+
+----- PAGE 13 -----
+
+13 
+ Question 30  : La mobilisation collective pour le climat ______________________ 50  
+ 
+ 
+ 
+Si les connaissances sur les limites planétaires sont anciennes et très 
+documentées scientifiquement (Rockström et al., 200915), on s’interroge sur la 
+traduction de ces connaissances scientifiques en une prise de conscience par les 
+personnes des enjeux environnementaux tels qu’ils se déclinent à l’éch elle locale, de 
+leur origine et de leur conséquence. Nous cherchons ici à explorer la compréhension 
+qu’ont les personnes des contributions aux changements climatiques, la manière d ont 
+ils priorisent l’urgence environnementale et le niveau d’action qui leur parait pertinent.   
+ 
+L’étude de ces connaissances et des représentations permet d e donner à voir 
+comment les habitants de la métropole grenobloise se positionnent sur ces sujets.  
+ 
+Question 1 : Parmi les problèmes suivants liés à la dégradation de 
+l’environnement, quel est celui qui vous paraît le plus préoccupant ?   
+ 
+Cette première question vise à comprendre la façon dont les individus 
+hiérarchisent les problèmes environnementaux.   
+ COMPARAISON avec EPEM2021 :   
+Cette question est issue de l’enquête nationale sur les pratiques 
+environnementales des ménages (EPEM), elle-même adossé e sur l’enquête 
+mensuelle de conjoncture auprès des ménages de l’Insee (CAMME)16. Deux choix 
+étaient possibles, parmi 8 problèmes environnementaux proposés.  
+Trois questions ont été ajoutées par rapport à l’enquête EPEM : « les risques 
+industriels » ; « la  raréfaction des ressources naturelles » ; « autre ». A l’inverse, 
+notre questionnaire n’incluait pas l’option « aucun ».   
+Le graphique suivant permet d’observer les réponses dans l’enquête « Pratiqu es 
+Ecologiques », et de les comparer avec celles d’EPEM 2021. Cette question traduit un 
+ordre de priorité entre différentes préoccupations environnementales puisque d eux 
+réponses seulement sont possibles pour les enquêtés. 
+                                                           
+15 Rockström et al (2009), Planetary B oundaries: Exploring the Safe Operating Space for Humanity, Ecology & 
+Society , 14(2).  
+16 https://www.statistiques.developpement -durable.gouv.fr/enquete -sur-les-pratiques -environnementales -
+des-menages -epem -2016?list -enquete=true
+
+----- PAGE 14 -----
+
+14 
+  Légende : 18 % des personnes interrogées considèrent l’au gmentation des déchets des ménages comme l’une 
+des deux préoccupations environnementales majeures pour ell es. 
+L’enjeu du réchauffement climatique est, de loin, le plus préoccupant pour les 
+répondants de l’enquête « Pratiques Ecologiques », comme au niveau nation al. Prè s 
+de 60 % des répondants le classent parmi l’un des deux problèmes l es plus 
+préoccupants. Dans leurs préoccupations, les répondants mettent également l’acc ent 
+sur les différentes pollutions (de l’eau, de l’air) et sur la perte de b iodiversité. Les 
+catastro phes naturelles, la pollution des eaux et l’augmentation des déchets sont 
+moins souvent mentionnés comme prioritaires par rapport à l’échelle na tionale. 
+Toutefois, cette mise en comparaison est à interpréter avec prudence étant donné  que 
+l’enquête « Pratiques Ecologiques » propose plus de modalités de réponse qu e 
+l’enquête EPEM. Alors que la pollution de l’air ressortait comme la première 
+préoccupation des métropolitains dans les enquêtes IBEST 2012 et 2017  (avec les 
+mêmes modalités de réponse), il ressort aujourd’hui en seconde préoccupation clé 
+après le réchauffement de la planète.   
+ 27182532
+263058
+146915 1526 273058
+010203040506070Parmi les problèmes suivants liés à la dégradation de l’environnement, 
+quel est celui qui vous paraît le plus préoccupant ? 
+Deux choix possibles (%)
+EPEM2021 PratEco2022
+
+----- PAGE 15 -----
+
+15 
+ Question 2 : Pour chacune des activités que je vais vous citer, dites -moi si, 
+d'après ce que vous savez, elle émet beaucoup, assez, peu ou pas du tout de 
+gaz à effet de serre  
+ 
+Comparaison avec ADEME (2021) :    
+Cette question est issue de l’enquête annuelle de l’ADEME « Représentations  
+sociales du changement climatique » (2021). Les modalités de réponses diffèrent 
+dans la mesure où l’ADEME propose « beaucoup, assez, peu ou pas du tout de gaz 
+à effet de serre », et où l’enquête « Pratiques Ecologiques » propo se « pas du tout, 
+peu, pas mal ou beaucoup ». Deux items de réponse sont présents dans l’ enquête 
+de l’ADEME et pas dans l’enquête « Pratiques Ecologiques » : il s’agit du  « secteur 
+numérique » et du « secteur industriel ».    
+ 
+Légende : 33 % des répondants de l’enquête « Pratiques Eco logiques » considèrent que les centrales nucléaires 
+génèrent pas mal ou beaucoup de gaz à effet de serre alors  que 53 % des répondants à l’enquête nationale ADEME 
+jugent que les centrales nucléaires émettent assez ou beaucou p de gaz à effet de serre.  
+Les répondants à l’enquête « Pratiques Ecologiques » ont globalement les 
+mêmes avis sur ces sources d’émission de gaz à effet de serre. Notons tou tefois qu’ils 
+pointent davantage les secteurs du transport et du bâtiment (10 points de  plus qu’au 
+niveau national en moyenne) ou l’agriculture, et moins le nucléaire, l’activ ité volcanique 
+ou la gestion des déchets17.  
+                                                           
+17 A titre de comparaison, il est estimé qu’au niveau français, en 2018, 70% des émissions d e GES sont dues à 
+l’utilisation d’énergie, 9,2% sont dues à l’industrie (hors utilisati on d’énergie), 16,8% sont dues à l’agriculture et 
+3,9% sont dues aux déchets et à leur gestion. Dans la par t représentée par l’utilisation d’énergie, 41% est liée 898685838076735453
+968594927570804433
+0 10 20 30 40 50 60 70 80 90 100Les centrales électriques au gaz, charbon ou fuelLa destruction des forêtsLes transportsLes bâtiments (chauffage, éclairage…)Les bombes aérosolsLe traitement des déchetsL'agriculture (cultures et élevages)L'activité volcaniqueLes centrales nucléaires
+PourcentagesPourcentage de personnes considérant que les activités 
+mentionnées génèrent "pas mal" ou "beaucoup" de gaz à effet 
+de serre
+Réponses PratEco 2022 (Pas mal + beaucoup) Réponses ADEME 2021 (beaucoup+assez)
+
+----- PAGE 16 -----
+
+16 
+ A la lecture de ces résultats, on peut inférer que les répondants sont plus 
+informés et plus conscients de sources d’émissions de gaz à effet de serres liées aux 
+pratiques alimentaires, domestiques et de mobilité. Reste à savoir si ce surcr oît de 
+conscientisation a des effets sur les pratiques en question.   
+Question 3  : Quelle industrie émet le plus de gaz à effet de serre selon vous ?   
+En resserrant le questionnement autour de l’industrie en particulier, on a 
+cherché à savoir quel type d’industrie les répondants jugeaient le plu s problématique 
+au regard des émissions de gaz à effet de serre. La liste des industri es n’était pas 
+exhaustive mais donne un ordre d’idées de certaines industries qui peuvent du point 
+de vue des GES sembler problématiques pour les répondants.   
+ 
+Légende : 31 % des répondants considèrent que l’indus trie agroalimentaire est celle qui émet le plus de gaz à  effet 
+de serre.  
+Parmi les réponses proposées, ces résultats montrent que les répondants sont 
+sensibles aux effets des industries manufacturières concernant les produits 
+électroniques et les vêtements, qui représentent à elles deux quasiment la moiti é des 
+réponses. Si on y ajoute l’industrie alimentaire, trois causes forment plus de trois quarts 
+des réponses, et se rattachent directement à certaines des pratiques 
+environnementales étudiées dans ce questionnaire. En revanche, on note que 
+l’électroménager est peu mentionné. Ces réponses doivent davantage être  
+                                                           
+aux transports, 25% au résidentiel et au tertiaire, 13% à l’industrie et à la construction,  12% à la production 
+d’électricité et 9% à la production d’énergie hors électricité (SDES, 2021, chiffres cl és du climat). 21%
+27%
+31%3%5%13%Laquelle de ces industries de production génère le plus de gaz 
+à effet de serre selon vous ?
+L'industrie textile (y compris chaussures et linge de maison)
+L'industrie informatique et électronique (smartphones, télévisions etc.)
+L'industrie agroalimentaire
+L'industrie papetière (livres, journaux etc.)
+L'industrie de l'électroménager (lave-vaisselles, réfrigérateurs etc.)
+Je ne sais pas
+
+----- PAGE 17 -----
+
+17 
+ interprétées comme des marqueurs d’une prise de conscience par les réponda nts d’un 
+enjeu prio ritaire en termes d’émission de GES sur les industries considérées, ce qui 
+ne signifie pas que d’autres industries ne soient pas aussi voire plu s problématiques 
+de ce point de vue pour eux. D’ailleurs, 14 % des répondants ont indiqu é qu’ils ne 
+savaient pas répondre à cette question. Cela peut témoigner de la nécessité  de faire 
+évoluer cette question dans de futures enquêtes puisque : 1) n’avoir p as une liste 
+exhaustive des industries peut rendre la réponse difficile ; 2) il peut être di fficile pour 
+les répondants de hiérarchiser a priori entre les niveaux de pollutions de diff érentes 
+industries car ceux- ci dépendent de si l’on considère l’ensemble de la chaine de valeur 
+ou seulement une partie.  
+ 
+Question 4  : Degré de responsabilité des individus/ménages dans la lutte contre 
+la crise environnementale   
+ 
+Comparaison avec EPEM 2021 :   
+Cette question est issue d’EPEM. Elle est aussi une recombinaison à partir 
+de questions relativement différentes. Dans EPEM, il est demandé au x participants 
+« Qui devrait, selon vous, agir en priorité pour la protection de l'environneme nt ? », 
+avec trois options de réponse : les ménages, les entreprises, les pouvoirs pub lics. 
+Dans l’enquête « Pratiques Ecologiques », la question est similaire « Selon vo us, la 
+crise écologiqu e doit d'abord être gérée par : », mais les options de réponses 
+différentes, puisqu’elles désignent des échelles, et non des types d’acteurs. Cinq 
+options de réponses étaient proposées : « L'action individuelle », « L'action c ollective 
+au niveau local », « L'action collective au niveau national », « L'action  collective au 
+niveau international », « Personne ». La très grande majorité des personn es 
+considère que la crise écologique doit d’abord être gérée de manière collective.   
+ 
+C’est l’échelle internationale qui est la plus plébiscitée (51 %), puis l’échelle 
+nationale (18 %) et enfin l’échelle locale (13 %). Ainsi, seulement 17 % des  personnes 
+considèrent que c’est l’action individuelle qui doit prévaloir. Ce pourcentage est 
+identique à celui de l’action promue à l’échelle des ménages dans l’enquête  EPEM 
+(CAMME) 2021.  
+  
+Question 5 : Selon vous, quelles sont les sources de pollution de l'air les plus 
+préoccupantes près de chez vous ? (ADEME 2021)   
+ 
+Comparaison avec ADEME (2021) :   
+Cette question est issue de l’enquête annuelle de l’ADEME « Les Français et 
+l’environnement » (2021). Par rapport au questionnaire ADEME, nous n’avo ns pas 
+proposé les options de réponse « aucun », « une autre source » et « ne  se 
+prononce pas », qui représentent 15 % des réponses en cumulé. Nous avons donc 
+exclu ces réponses du calcul de pourcentage de réponses dans le Baromètre 
+ADEME. De plus, plusieurs choix étaient possibles dans le questionnaire ADEME.
+
+----- PAGE 18 -----
+
+18 
+ Nous avons donc, pour chaque option de réponse, pris la part qu’elle représe ntait 
+dans le pourcentage cumulé et ramené ce pourcentage sur 100.  
+Légende : 39 % des enquêtés de l’ADEME à l’échelle natio nale jugent que la circulation routière est la source de  
+pollution de l’air la plus préoccupante près de chez eu x. Dans la métropole grenobloise, 65 % des enquêtés 
+considèrent la même chose.  
+Les personnes interrogées identifient bien les trois principales sources de 
+pollution de l’air dans la Métropole : les transports, l’industrie et le chauffa ge au bois 
+domestique. Il n'y a toutefois pas de différence significative entre le nationa l et le local 
+sur la perception des émissions liées au chauffage au bois alors même que cela 
+constitue un enjeu fort sur le territoire grenoblois. Les répondants de l’enquêt e 
+« Pratiques Ecologiques » sont par contre plus soucieux de la circulation routière  que 
+les répondants du Baromètre national de l’ADEME. Les caractéristiques urbaines et 
+géographiques de l’agglomération, qui font d’elle une « cuvette » et un e space de 
+congestion automobile important, jouent sans doute un rôle dans cette structuration 
+des réponses.  
+  
+ 
+Question 6  : Degré de connaissance et d’adhésion à différents concepts 
+politiques relatifs à l’environnement   
+Parce que les enjeux environnementaux ne sont pas uniquement compris à 
+travers une interprétation scientifique, ou du moins chiffrée, des rapports entre  les 
+sociétés humaines et l’environnement, il est nécessaire d’interroger les répo ndants sur 
+leurs rapports à différen ts concepts et projets « politiques » relatifs à l’environnement. 
+Nous avons ainsi sélectionné cinq termes relatifs à des concepts jugés proémin ents 
+dans les débats politiques portant sur l’environnement. Ils ont en commu n d’être des 
+concepts transversaux et de ne pas être spécifiques à un thème ou un se cteur donné. 
+Il s’agit de « sobriété », « décroissance », « frugalité », « développement durab le » et 39
+15
+7 63365
+110
+122
+010203040506070
+La circulation routière
+(voitures, poids
+lourds, bus, deux
+roues, etc.)Les activités agricoles Le chauffage au bois
+domestiqueLe brûlage des déchets
+vertsL'industrieSelon vous, quelles sont les sources de pollution de l'air les 
+plus préoccupantes près de chez vous ? 
+Réponses Baromètre ADEME 2021 Réponses PratEco 2022
+
+----- PAGE 19 -----
+
+19 
+ « économie circulaire »18. Nous avons donc évalué le degré de compréhension et 
+d’adhésion des répondants à  ces cinq concepts. La question suivante a été posée pour 
+chaque concept : « que pensez -vous de ce concept », avec trois options de 
+réponses :   
+ « Je ne le comprends pas »    
+ « Je le comprends mais n’y adhère pas »    
+ « Je le comprends et j’y adhère »    
+ 
+ 
+Légende : 36 % des enquêtés disent comprendre le concept de fru galité mais ne pas y adhérer.    
+ 
+Ce premier tableau montre que le développement durable est de loin le concept 
+le mieux compris par les répondants : seulement 3 % d’entre eux déclarent n e pas l e 
+connaître. A l’inverse, la frugalité est assez peu comprise, puisque 33 % d es 
+répondants déclarent ne pas connaître ce concept. Entre les deux, sobrié té, 
+décroissance et économie circulaire sont compris par plus de 80 % de la population.  
+Les questions portant sur le degré d’adhésion des répondants fait apparaître 
+deux groupes : les concepts emportant un haut degré d’adhésion (sobriété, économie  
+circulaire et développement durable) et ceux qui sont contestés (frugalité et  
+décroissance). Dans cette dernière catégorie, décroissance fait écho aux débats 
+actuels sur cette notion puisqu’environ la moitié des individus disant connaî tre ces 
+concepts déclarent ne pas y adhérer.  
+  
+ 
+ 
+Question 7  : Niveau d’adhésion et d’estimation de la probabilité de réalisation de 
+différents scénarios de l’ADEME  
+                                                           
+18 Seul l’« économie circulaire » semble un peu plus spécifique, puisqu’il se rapporte p rincipalement, dans son 
+usage habituel, à la circulation de matières et à une attention portée à la réutili sation des déchets.
+
+----- PAGE 20 -----
+
+20 
+  
+Nous avons également évalué la façon dont les répondants pouvaient se 
+projeter dans l’un des 4 scénarios récemment établis par l’ADEME pour viser la 
+neutralité carbone en 2050. Ces derniers étaient succinctement présen tés, à l’aide de 
+nuages de mots représentant les principales orientations de chaque scénari o. Pour 
+rappel, les scénarios « génération frugale » (S1) et « coopérations territoriales » (S2) 
+sont très axés sur la réduction de la demande et la redéfinition des besoins quand  les 
+deux autres scénarios « technologies vertes » (S3) et « pari réparateur » (S4) activent 
+davantage le levier efficacité/optimisation via la découverte de nouvelles techn ologies. 
+Après lecture de ces nuages de mots, les individus étaient amenés à répondre 
+à deux questions : « Lequel de ces quatre scénarios vous semble le plus p robable ? », 
+puis « Lequel de ces quatre scénarios vous semble le plus désirable ? » .  
+ 
+Légende : 5 % des répondants ne savent pas ce qu’est le scénario de l’ADEME  le plus désirable et 7 % ne savent 
+pas ce qu’est le scénario le plus probable. 26 % juge nt que le scénario 1 « génération frugale » est le plus dé sirable 
+des quatre scénarios, et 7 % jugent que c’est le plus probable .   
+Ces résultats montrent une forte attractivité des premiers scénarios, et en 
+particulier du deuxième « Coopérations territoriales ». A l’inverse, les scénarios jugés 
+les plus probables sont les derniers. Le « Pari réparateur » concentre toute l’ambiguïté 
+de ces projections, puisqu’il est à  la fois le scénario le moins désiré et jugé le plus 
+probable. Ces conclusions rejoignent celles tirées de l’étude qualitative de l’A DEME19 
+à l’échelle nationale. Cet écart entre ce qui est désiré et jugé probable interroge sur la 
+capacité de changements des personnes, des collectifs, des infrastructures et d es 
+technologies et soulèvent de nombreuses controverses sur les chemins d’une so briété 
+qui ne serait pas subie.   
+                                                           
+19 Thiriot, Sarah (2022), Transition 2050, Choisir maintenant pour le climat, Feuilleton Modes de vie. A nalyse de 
+la désirabilité, de la faisabilité et des conditions de r éalisation des scénarios , ADEME, Feuilleton Modes de vie - 
+ADEME . 2635
+29
+4 5 7252932
+7
+010203040
+S1 "Génération
+frugale"S2 "Coopérations
+territoriales"S3 "Technologies
+vertes"S4 "Pari
+réparateur"Je ne sais pasPourcentagesLequel de ces quatre scénarios vous semble le plus probable ? Le plus 
+désirable ?
+Désirabilité Probabilité
+
+----- PAGE 21 -----
+
+21 
+ Tous ces scénarios impliquent des changements collectifs. Pourtant, q uand on 
+demande aux enquêtés ce qu’ils mettent derrière le concept de sobriété, c’est le terme 
+« consommation », et « modération » qui ressort largement et qui est donc plutô t relié 
+au niveau individuel. Ci- dessous, on représente le nuage de mot issu de l’analyse 
+textuelle d es réponses ouvertes à « Pouvez -vous nous dire en quelques mots ce que 
+[la notion de sobriété] signifie pour vous ? ». Cette analyse, effectuée par l’entremise 
+de logiciel gratuit Alceste20, donne à voir l’importance des thématiques de 
+consommation et de mo dération, notamment lorsqu’on procède à une comparaison 
+avec les autres concepts abordés.   
+ 
+ 
+ 
+  
+ 
+ 
+Question 8 : Comment vous déplacez -vous, le plus souvent, dans vos trajets 
+quotidiens ? 3 réponses maximum   
+ 
+COMPARAISON AVEC IBEST 2018 
+Cette question est issue du questionnaire IBEST. La question était la m ême, 
+et les modalités de réponses identiques si l’on excepte un rajout dans l’enq uête 
+« Pratiques Ecologiques » 2022, celui des « En trottinette électrique, gyropod e ou 
+autre dispositif de mobilité légère », qui a été rassemblé sous l’item « autre » que 
+IBEST proposait.  
+                                                           
+20 Bart, D., 2011. L’analyse de données textuelles avec le logiciel ALCESTE . Recherches en didactiques  12, 173 –
+184. https://doi.org/10.3917/rdid.012.0173
+
+----- PAGE 22 -----
+
+22 
+ Puisque trois réponses étaient possibles, nous avons cumulés les effectifs, p our 
+ramener le total à 100, pour obtenir un pourcentage relatif de chaqu e moyen de 
+transport cité.
+Légende : Dans l’enquête « Pratiques Ecologiques », 1 % de s réponses (3 choix possibles) mettent en avant le 
+covoiturage comme un des modes de locomotion dans leur traje t quotidien.    
+ 
+On constate que les répondants de l’enquête « Pratiques Ecologiques » se 
+déplacent plus souvent à vélo ou à pied que ceux d’IBEST 2018, et moins so uvent en 
+voiture ou en transports en commun. Les cinq points d’écart en ce qui co ncerne le vélo 
+peuvent en pa rtie être expliqués par l’intensification généralisée de la pratique cycliste, 
+suite à la crise sanitaire du Covid-19 et au confinement21.   
+La crise Covid a pu jouer aussi positivement sur le recours à la marche et 
+négativement sur l’usage des transports en commun (bus et tramway). Cette 
+augmentation des transports doux (marche et vélo) se fait parallèlement à un  usage 
+moins marqué de la voiture. L’échantillon redressé est conforme à la participa tion 
+urbain/périurbain et rural et ne peut donc pas expliquer le différentiel observé. 
+ 
+Question 9  : Combien de temps mettez -vous en moyenne, chaque jour, pour 
+vous rendre à votre travail et en revenir ? 
+ 
+Cette question est issue d’IBEST 2018. Elles sont identiques dans les deux 
+questionnaires. Il était demandé aux participants de renseigner, en chiffre,  le nombre 
+d’heures et le nombre de minutes qu’ils mettent en moyenne pour faire un aller -retour 
+entre leur domicile et leur lieu de travail. On a converti l’ens emble de la donnée en 
+minutes.  
+                                                           
+21 L’enquête mobilité menée en 2020 sur l’aire g renobloise montre des résultats relativement similaires, avec 
+pour différence principale qu’elle estime des «  parts modales ». Ainsi, l’enquête mobilité 2020 rend compte 
+d’une part plus importante de la marche (43% à Grenoble, 30% dans l e reste de la métropole), d’une part plus 
+faible pour les transports en commun (21% à Grenoble, 15% dans le res te de la métropole), et beaucoup plus 
+importante pour l’automobile (23% à Grenoble, 47% dans le reste de la métropol e). 2%0% 1% 1%13%11%20%32%
+19%
+1% 1% 2% 2%10%16%17%25% 26%
+0%5%10%15%20%25%30%35%Comment vous déplacez -vous, le plus souvent, dans vos 
+trajets quotidiens ? 3 réponses maximum
+IBEST2018 PratEco 2022
+
+----- PAGE 23 -----
+
+23 
+ Légende : Dans l’e nquête IBEST 2018, les enquêtés mettaient en moyenne chaque jour 40 minutes pour se rendre 
+à leur travail et en revenir. 
+ 
+En 2022, les enquêtés mettent en moyenne 34 minutes pour se re ndre à leur 
+travail et en revenir. Ce temps moyen semble avoir diminué depuis  2018. Toutefois, 
+on constate que cette moyenne masque la diversité des situations, puisque  l’écart -
+type est plus important dans les résultats de l’enquête « Pratiques Ecologiques » en 
+2022 qu’avec IBEST en 2018.    
+ 
+ 
+ 
+Question 10  : À votre domicile, vous arrive -t-il de couper le mode veille des 
+appareils électroniques ?   
+ 
+COMPARAISON AVEC EPEM 2021  
+Cette question est issue de l’enquête nationale sur les pratiques 
+environnementales des ménages (EPEM), elle-même adossée sur l’enquête 
+mensuelle de conjoncture auprès des ménages de l’Insee (CAMME)22. 
+La question posée dans EPEM était unique, et formulée telle qu e : « À votre 
+domicile, vous arrive-t- il de couper le mode veille des appareils électroniques ? », 
+tandis que dan s l’enquête « Pratiques Ecologiques », la question était posée en deux 
+temps. On cherchait d’abord à savoir si les répondants « faisaient attention  à l’état 
+de marche de leurs appareils multimédias », puis les modalités de cette a ttention. 
+Parmi les modali tés, étaient proposés le fait d’éteindre ses appareils, mais aussi de 
+                                                           
+22 https://www.statistiques.developpement-durable.gouv.fr/enquete-sur -les-pratiques-environnementales-
+des-menages-epem-2016?list-enquete=true
+
+----- PAGE 24 -----
+
+24 
+ les débrancher, avec 4 fréquences similaires à l’enquête EPEM qui proposa it 
+« toujours, souvent, parfois, jamais ».    
+Du fait de l’administration différente des questions entre EPEM 2021 et 
+« Pratiques Ecologiques », les résultats varient sensiblement entre les deux enquêtes,  
+ce qui ne permet pas une comparaison efficace. Notons toutefois que 44 % des 
+répondants disent faire « toujours » attention à l’état de marche de leurs 
+appareils, 17 % « souvent », 27 % « occasionnellement » et 12 % « jamais ». Ainsi, 
+presque la moitié des répondants de l’enquête « Pratiques Ecologiques » déclare nt 
+systématiquement éteindre leurs appareils électroniques plutôt que de les laisser en 
+veille. Ce chif fre, supérieur de 20 points aux réponses d’EPEM 2021, est sans dout e 
+en partie dû au périmètre plus restreint des appareils concernés (la question  porte sur 
+moins d’appareils) dans l’enquête « Pratiques Ecologique ».   
+ 
+ 
+ 
+Question 11 : Parmi les propositions suivantes, considérez -vous que vous les 
+pratiquez ?  
+ 
+COMPARAISON AVEC INC/ZWF 2021 :   
+Cette comparaison est issue de l’enquête de l’Institut National de la 
+Consommation (INC), menée pour le compte de Zero Waste France (ZWF). Dans le 
+questionnaire INC- ZWF, il était demandé aux participants s’ils estimaient mettre en 
+œuvre certaines pratiques de réduction ou de bonne gestion des déchets, pa rmi une 
+liste de 15 propositions.  
+ 
+L’enquête « Pratiques Ecologiques » reprenait 8 propositions parmi ces 15 (car 
+toutes n’étaient pas directement liées aux déchets). Les propositions sont :  « Faire 
+attention à ne pas gaspiller de la nourriture », « Limiter ma quantité de déchets », 
+« Consommer des produits locaux », « Réparer mes produits avant de m'en 
+débarrasser », « Donner, vendre et/ou échanger des objets », « Limiter mes achats de 
+produits neufs », « Acheter des produits d'occasion (meubles, électroménager, e tc.) », 
+« Acheter des vêtements de seconde main ».   
+Cette question se présentait comme une question à réponses multiples (sans 
+limite de réponse). Les résultats, tels que présentés, sont donc le pourcentage a bsolu 
+de chaque répondant ayant coché l’option de réponse proposée.
+
+----- PAGE 25 -----
+
+25 
+  
+Légende : 41 % des enquêtés déclarent acheter des vêtements de se conde main.   
+Il semble y avoir un écart significatif sur le recours à la seconde main, qu’il 
+s’agisse de l’achat ou de l’échange, du don et de la vente, qui est plus fort sur 
+l’échantillon de l’enquête « Pratiques Ecologiques » que sur celui de l’INC. On p eut 
+supposer que ce recours à la seconde main pour l’achat de vêtements est lié à  l’offre 
+existante sur le territoire qui favorise cette pratique. 61 % de ceux achetant des 
+vêtements de seco nde main ont déjà acheté un vêtement dans un magasin d’occasion. 
+L’achat en ligne est également pratiqué dans des proportions proches.    
+A l’inverse, les répondants de l’enquête « Pratiques Ecologiques » sont moins 
+nombreux à faire attention à leurs emball ages que les répondants de l’enquête INC. 
+Enfin, les répondant déclarent largement adopter des pratiques de « bonn e gestion » 
+ou de « tri » des déchets dans les deux enquêtes.   
+  
+ 
+ 
+ 
+Question 12  : Dans une semaine normale, combien de fois mangez-vous les 
+aliments suivants ? 
+Pour évaluer le caractère « environnemental » de l’alimentation des répond ants, 
+nous avons d’abord étudié leurs « prises » alimentaires, c’est -à-dire la quantité 
+d’aliments ingérés. Pour prendre  en compte l’empreinte environnementale des 
+produits d’origine animale, nous nous sommes concentrés sur 6 types d e produits 
+(viandes rouge, blanche, porcine, poissons, œufs et produits laitiers) et leur fréquence  
+de consommation hebdomadaire. Cette méthode, classique en recherche sur 9696616579324825
+9092836864535241
+0 10 20 30 40 50 60 70 80 90 100Faire le tri de mes dechetsFaire attention à ne pas gaspiller de la nourritureDonner, vendre et/ou échanger des objetsRéparer mes produits avant de m'en débarrasserAcheter des produits avec moins d’emballageAcheter des produits d'occasionLimiter mes achats de produits neufsAcheter des vêtements de seconde mainParmi les propositions suivantes, considérez -vous que vous les 
+pratiquez ? (en %)
+Réponses PratEco 2022 Réponses INC ZWF 2020
+
+----- PAGE 26 -----
+
+26 
+ l’alimentation23, permet d’affiner le caractère généraliste des déclarations portant sur 
+les régimes alimentaires, qui peuvent avoir tendance à surestimer, ou à sous-estimer 
+certaines consommations, au moment d’étiqueter « un » régime suivi.  
+Les répondants devaient donc déclarer le nombre de prises hebdomad aire, lors 
+d’une semaine « normale », pour chacun des six types de produits listés plus hau t. Par 
+déduction, on a ensuite caractérisé chaque régime. 
+ 
+ 
+En partant de cette mé thode, on trouve un pourcentage d’omnivores (78 %) 
+similaire à l’enquête de France Agrimer, réalisée par l’IFOP en 2021 (74 %)24. En 
+revanche, 8 % des répondants n’ont déclaré ni viandes, ni poissons dans leur 
+alimentation hebdomadaire, ce qui les fait rent rer dans la catégorie des « régimes sans 
+viande », que l’IFOP chiffre à 2,2 %. Cet écart peut être dû aux spécificité s du territoire 
+grenoblois, mais aussi à la méthode de déclaration. En effet, dans l’enqu ête IFOP,   
+24 % des français interrogés se déclar ent « flexitarien », soit d’accord avec la phrase 
+suivante « je diminue volontairement ma consommation de viande, sans être  
+exclusivement végétarien » ; on peut inférer que dans cette catégorie se logent à la 
+fois des « omnivores » cherchant à réduire leur  consommation de viande et des 
+« régimes sans viandes » qui estiment ne pas être végétariens, puisqu’il leur arr ive 
+exceptionnellement de manger des viandes et des poissons.   
+ 
+ 
+ 
+Au-delà des prises alimentaires considérées d’un point de vue nutritionnel, il 
+faut considérer que l’alimentation est également une pratique économique. De ce  point 
+de vue, la fréquentation de différents types de commerces alimentaire s peut donner 
+                                                           
+23 Lepiller, O., Fournier, T., Bricas, N., Figuié, M. (Eds.), (2021) . Méthodes d’investigation de l’alimentation et des 
+mangeurs, Update sciences & technologies . Éditions Quae, Versailles. 
+24 FranceAgriMer et IFOP (2021) « Végétariens et flexitariens en France en 2020 ». <1%
+4%4%3%
+11%
+78%Régimes déduits des répondants, en pourcentage
+Vegetalien
+Vegetarien
+Pescitarien
+Pas de viande rouge ni
+porcine
+Pas de viande rouge
+Omnivore
+
+----- PAGE 27 -----
+
+27 
+ des indications sur la capacité des individus à trouver certains types de produits, à  
+certains prix et selon certains conditionnements.   
+ 
+Question 13  : Quels commerces alimentaires fréquentez -vous habituellement ?  
+ 
+COMPARAISON INC/ZWF 2021 :   
+Cette comparaison est issue de l’enquête de l’Institut National de la 
+Consommation (INC), menée pour le compte de Zéro Waste France (ZWF)25. Dans 
+cette question, il était demandé quels commerces alimentaires les participants  
+fréquentent régulièrement. 11 types de commerces étaient proposés dans l e 
+questionnaire INC : « Boulangerie », « Grandes surfaces », « Marchés », « Magasins 
+spécialisés « bio » », « Magasins alimentaires de proximité », 
+« Boucherie/charcuterie », « Producteurs en direct », « Distributeur s en circuits 
+courts », « Primeurs », « Poissonnerie », « Boutiques spécialisées en vrac ». Trois 
+autres commerces étaient ajoutés dans le questionnaire « Pratiques Ecologiques »  : 
+« Epicerie solidaire », « Petite ou moyenne surface », « Fromagerie ».   
+Cette question visait à établir les commerces les plus fréquentés par les répondants.  
+ 
+ 
+Légende : 9 % des enquêtés fréquent une poissonnerie en 2 022 alors qu’à l’échelle nationale, d’après l’enquêt e 
+ZWF INC, 15 % des personnes font de même en 2021.  
+                                                           
+25 Institut National de la Consommation et Zéro Waste France (2020), « Enquête sur les habitudes de 
+consommation responsable ». Il faut noter que les auteurs de cette étu de disent douter de la représentativité 
+de leur échantillon. 69685450343426241515
+6367563732271624915
+0 10 20 30 40 50 60 70 80BoulangerieGrandes surfacesMarchésMagasins spécialisés "bio"Boucherie/charcuterieProducteurs en directDistributeurs en circuits courtsPrimeursPoissonnerieBoutiques spécialisées en vracQuels commerces alimentaires fréquentez -vous 
+habituellement ?
+Réponses PratEco 2022 Réponses INC ZWF 2020
+
+----- PAGE 28 -----
+
+28 
+ Parmi les commerces les plus fréquentés, on retrouve une spécificité française, 
+la boulangerie, les grandes surfaces et les marchés, qui sont respectivement 
+fréquentés par 63 %, 67 % et 56 % des répondants.  
+Ensuite, un certain nombre de commerces susceptibles de participer à une 
+consommation plus durable sont mentionnés : les magasins bio (37 %), les magasins 
+de vrac (15 %) et les commerces de proximité (24 % pour les primeurs, 32 % pour les 
+boucheries et 9 % pour les poissonneries), même si la consommation de produ its 
+animaux concoure de manière importante aux émissions de GES.  
+Sans présumer de son caractère « durable » ou non, la consomma tion de 
+proximité est d’après ce qu’il ressort de cette question relativement plébiscitée, 
+puisque 27 % des répondants déclarent se fournir directement chez les produ cteurs et 
+16 % passer par des structures dites de « circuits courts ».  
+ 
+Question 14 : Dans votre alimentation quotidienne, consommez-vous des 
+produits que nous n’avez pas achetés ?    
+A travers cette question, on a évalué la propension des répondants à se fourni r 
+une alimentation en dehors des circuits commerciaux. Les enquêtés con somment un 
+certain nombre de produits non achetés : 15 % produisent une partie de leur p ropre 
+alimentation, 18 % bénéficient de don par des proches et 5 % récupèrent les  
+invendus.  
+  
+ 
+Nous avons également interrogé les répondants dans leur capacité à se proje ter 
+dans un changement alimentaire, en l’occurrence plus respectueux de 
+l’environnement.   
+ 
+Question 15 : Seriez-vous prêt à réduire votre consommation de viande ou de 
+poisson ?  
+83 % des répondants seraient prêts à réduire leur consommation de viandes e t 
+de poissons et nombreux déclarent déjà être dans une démarche de réduction. Pour 
+33 % des enquêtés, ils réduiraient ces consommations s’ils pensaient que cela p ourrait 
+être bénéfique pour leur santé. Là où le sondage IFOP précédemmen t mentionné 
+(IFOP, 2021) rapporte que 79 % des Français estimaient que la consomm ation de 
+viande permet d’être en bonne santé, les répondants de l’enquête « Pratiq ues 
+Ecologiques » ne sont que 48 % à se dire « tout à fait d’accord » ou « plutô t d’accord » 
+avec la phrase « la consommation de viande permet de rester en bonne santé  ». 
+Deuxième levier  : 24 % seraient prêts à réduire ces consommations s’ils pensaient 
+qu’ils existaient des alternatives de produits protéinés. D’autres raisons (18 %) sont 
+mentionnées par les enquêtés : le souci de l’écologie, l’opposition à l’éleva ge intensif, 
+le goût des produits et le prix. Un autre levier important (17 % des enquêtés) est le fait
+
+----- PAGE 29 -----
+
+29 
+ de savoir cuisiner différemment. Enfin, de manière plus marginale, l’influence des 
+proches est mentionnée : pour 3 % des enquêtés, être mal perçu par so n entourage 
+constitue un frein au changement de régime alimentaire.    
+ 
+ 
+ 
+ 
+Question 16  : Dans quel type de logement vivez -vous ?  
+ 
+Cette question permet de situer les répondants par rapport à la réalité de leur  
+habitat. Les besoins et les capacités d’action sur son logement diffèrent grandement 
+selon qu’on vive en logement individuel ou collectif.    
+COMPARAISON avec IBEST 2018 :  
+Trois modalités de réponses étaient proposées dans IBEST : « Un 
+appartement en immeuble collectif », « Une maison individuelle » et « Un autre type 
+de logement ».   
+Cinq modalités de réponses étaient proposées dans l’enquête « Pratiq ues 
+Ecologiques » : « Dans une maison avec jardin », « Dans une maison sans jardin », 
+« Dans un appartement en immeuble avec un accès extérieur (balcon,  terrasse) », 
+« Dans un appartement en immeuble sans accès extérieur (balcon, terr asse) », 
+« Autre (préciser) ».   
+Pour la comparaison, les modalités « dans une maison avec jardin » et « dans  
+une maison sans jardin » ont été regroupées dans « Une maison individuelle »  et 
+« Dans un appartement en immeuble avec un accès extérieur (balcon, terrasse) », 
+« Dans un appartement en immeuble sans accès extérieur (balcon, terrasse) » d ans 
+« Un appartement en immeuble collectif », dans l’enquête « Prati ques 
+Ecologiques ».
+
+----- PAGE 30 -----
+
+30 
+  
+Légende : 70 % des enquêtés déclarent vivre dans un appart ement collectif dans l’enquête « Pratiques 
+Ecologiques ».  
+ 
+La comparaison avec les résultats de l’enquête IBEST fait ressortir que, dans 
+l’ensemble, les répondants ont les mêmes caractéristiques d’habitat, avec tou tefois 
+une légère surreprésentation de l’habitat collectif (moins de 2 % d’écart) dans l’enquête 
+« Pratiques Ecologiques ». Ces chiffres rappellent combien le territoire de la Métrop ole 
+grenobloise se caractérise par une forte densité, et par conséquent par une p roportion 
+importante d’habitat collectif.   
+Cette donnée doit être considérée comme un facteur explicatif qui déter mine 
+potentiellement un certain nombre de pratiques environnementales. En parti culier, les 
+pratiques de chauffage et de climatisation sont substantiellement déterm inées par le 
+type d’habitat : en règle générale, seule la maison individuelle peut accueillir des  
+modes de chauffage au bois. En revanche, l’isolation d’un habitat collectif est à l a fois 
+facilitée par les propriétés physiques de ce type de logement (plus dense, m oins de 
+murs donnant sur l’extérieur), tout en présentant des obstacles techniques et juri diques 
+à la réalisation.  
+Dans le détail, on observe la répartition suivante si l’ on regarde uniquement les 
+résultats de l’enquête « Pratiques Ecologiques ».    69
+31
+170
+29
+1
+01020304050607080
+Un appartement en immeuble
+collectifUne maison individuelle Un autre type de logementPourcentageDans quel type de logement vivez -vous ?
+Réponses IBEST 2018 Réponses PratEco 2022 recodées
+
+----- PAGE 31 -----
+
+31 
+ Légende : 10 % des enquêtés déclarent vivre dans un apparte ment collectif sans accès à un extérieur de type 
+balcon ou terrasse, dans l’enquête « Pratiques Ecologiques ».  
+ 
+ 
+Question 17 Comment jugez -vous la température de votre logement en hiver, en 
+été ?  
+On sait que l’enjeu du ressenti de température est essentiel pour compre ndre 
+les dynamiques de consommation énergétique au sein du foyer.   
+ 
+COMPARAISON avec IBEST 2018 :   
+IBEST et « Pratiques Ecologiques » comportaient chacune une question 
+portant sur l’été, l’autre sur l’hiver.   
+Dans IBEST, 4 modalités de réponses étaient proposées pour l’hiver : « Assez  
+chaud », « Trop chaud », « Trop froid », « Correct » et 2 modalités pou r l’été 
+: « Correct », « Trop chaud ». L’option « Trop froide » n’était pas considérée.   
+Dans l’enquête « Pratiques Ecologiques », il a été plus simplement demandé 
+aux répondants s’ils jugeaient la température de leur logement « confortable  », à 
+travers deux questions identiques pour chaque saison. Les modalités de répo nses 
+étaient : « Très confortable », « Plutôt confortable », « Peu confortable »,  « Pas du 
+tout confortable ».   
+Pour comparer, nous avons simplifié les modalités de réponses de 
+« Pratiques Ecologiques » en 2 modalités (« Plutôt pas confortable » et « Plutôt 
+confortable »). Pour IBEST, nous avons rassemblé les modalités de répo nses « Trop 
+chaud » et « Trop froid » sous l’item « Plutôt pas confortable et pour l’été , « Trop 
+chaud » est traduit en « Plutôt pas confortable » et « Correct » en « Plutôt 
+confortable ».  28% 1% 60% 10% 1%
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%PourcentageDétail réponses PratEco 2022 : 
+Dans quel type de logement vivez -vous ?
+Dans une maison avec jardin
+Dans une maison sans jardin
+Dans un appartement en immeuble avec un accès extérieur (balcon, terrasse)
+Dans un appartement en immeuble sans accès extérieur (balcon, terrasse)
+Autre (préciser)
+
+----- PAGE 32 -----
+
+32 
+ Légende : 87 % des habitants de la Métropole déclaraie nt dans l’enquête IBEST de 2018 avoir une température 
+plutôt confortable dans leur logement. Ils sont 82,5 % à  déclarer la même chose en 2022 ans l’enquête « Pratiques 
+Ecologiques ».  
+ 
+Pour les deux enquêtes, les enquêtés semblent plus incommodés par la chaleur 
+en été que par le froid en hiver. Dans le détail, on précisera que ce sont en fait 33 % 
+qui déclarent avoir un lo gement « peu confortable » et 8 % un logement « pas du tout 
+confortable » en été. L’inconfort relatif à la température du logement est légèrement 
+plus marqué dans l’enquête « Pratiques Ecologiques »26. Les chaleurs importantes qui 
+ont touché Grenoble et son agglomération l’été entre 2018 et 2021 semblent avoir 
+accru l’inconfort des habitants.   
+En hiver, la température moyenne déclarée (autre question) est de 19,9°C, et 
+la médiane est à 20°C. 10 % des logements indiquent une température inféri eure à 
+18°C, et 10 % indiquent une température supérieure à 22°C.  
+Sur la différence entre hiver et été, on précisera que le coefficient de corrélation  
+(Pearson) entre les deux questions au sein de l’enquête « Pratiques Ecolog iques » 
+atteint seulement 0,203. Autrement dit, les ressentis en hiver et en été ne sont que 
+légèrement corrélés, ce qui indique des stratégies d’adaptation spécifiques des 
+logements pour répondre aux deux enjeux. 
+ 
+ 
+ 
+Concernant le mode de chauffage, on a principalement abordé la question d e 
+l’usage de chauffage individuel au bois. En effet, c’est le mode de chauff age qui 
+contribue le plus à l’émission de particules fines dans l’air.   
+ 
+                                                           
+26 Alors que ceux- ci n’avaient pas connus l’épisode des très fortes chaleurs de l’été 2022, ni la crise énergétique 
+de l’automne 2022.  87
+1361
+3983
+1859
+41
+0102030405060708090100
+Plutôt confortable Plutôt pas confortable Plutôt confortable Plutôt pas confortable
+En hiver En étéPourcentagesConfort en température du logement
+Réponses IBEST2018 Réponses PratEco 2022 recodées
+
+----- PAGE 33 -----
+
+33 
+ Question 18 : Utilisez -vous un chauffage individuel au bois… ?   
+COMPARAISON avec le Baromètre « les Français et l’environnement » 
+(ADEME 2021) :   
+Quatre modalités de réponses étaient possibles : « Je n’utilise pas de 
+chauffage individuel au bois », « en chauffage d’agrément ou de plaisir (environ  
+2,5 stères de bois par an) », « en chauffage d’appoint (environ 5 stères de bois par 
+an) », « comme mode principal de chauffage (environ 10 stères de bois par an) ».   
+La question, et ses modalités de réponses sont identiques dans le 
+questionnaire « Pratiques Ecologiques », à la différence que les précisions de 
+volumes n’étaient pas apportées27.  
+ Le questionnaire interrogeait donc les répondants sur leur possession, ou no n, 
+d’un chauffage au bois, et sur leur modalité d’utilisation.    
+Légende : 12 % des répondants de l’enquête « Pratiques Ec ologiques » au total utilisent le chauffage au bois. Dan s 
+le détail, ils sont 4 % du total à l’utiliser en agrém ent, 4 % en chauffage d’appoint et 4 % en mode principal  de 
+chauffage.  
+ 
+On constate que les répondants de l’enquête « Pratiques  Ecologiques » sont 
+bien moins nombreux à utiliser un chauffage individuel au bois que ceu x issus de 
+l’enquête ADEME. Cette différence peut s’expliquer par les différences de typ es 
+d’habitat, notées dans la sous -partie précédente, qui distingue le territoire Grenoblois. 
+En effet, on note une forte proportion d’habitat collectif chez les répon dants de 
+l’enquête « Pratiques Ecologiques ». Or, l’habitat collectif se prête moins au ch auffage 
+                                                           
+27 Elles n’ont été incluses dans le Baromètre ADEME qu’à partir de 2021.  713143466
+4441288
+0 10 20 30 40 50 60 70 80 90 100Mode principal de chauffageEn chauffage d'appoint*En chauffage d'agrément ou de plaisirOuiNonMode d'utilisationPossession de
+chauffage au boisUtilisation de chauffage au bois
+PratEco 2022 Baromètre ADEME 2021
+
+----- PAGE 34 -----
+
+34 
+ au bois, qui est un attribut du logement individuel. On sait par ailleurs qu e 13 % des 
+foyers grenoblois, soit 27 000, sont équipés en chauffage au bois (données  
+« Stratergie » 2013), ce qui vient confirmer l’idée que le questionnaire est représen tatif 
+des habitants de la Métropole sur cet aspect.  
+Parmi ceux qui utilisent un chauffage au bois, chaque mode d’utilisation 
+représente un tiers des réponses dans l’enquête « Pratiques Ecologiques ». Cette 
+répartition est plus inégale dans le Baromètre ADEME 2021. Les auteurs du rap port 
+de l’ADEME notent toutefois que le pourcentage déclaré d’utilisation en mode  principal 
+de chauffage a drastiquement baissé lorsqu’ont été apportées les précisio ns de 
+volumes en stères, passant de 12 % à 7 % en une année.  
+L’effet de l’introduction de cette précision pourra être vérifié lors de la pr ochaine 
+enquête « Pratiques Ecologiques ».    
+Il est intéressant de relever que les usagers de chauffage au bois sont 8 7 % à 
+être propriétaires de leur logement.  
+Question 19  : Degré de connaissance de la contribution du chauffage au bois à 
+la présence de particules fines 
+ 
+COMPARAISON avec le Baromètre ADEME (2021) :   
+Dans le Baromètre ADEME, la question consiste à estimer le degré 
+d’étonnement des répondants face à l’affirmation selon laquelle «  En France, le 
+chauffage au bois non performant (foyers ouverts et foyers fermés (inserts, poê les, 
+cuisinières) d’avant 2002) est responsable de 29 % à 47 % des particules fines 
+néfastes à l'environnement et à la santé, soit la même proportion voire  davantage 
+que le secteur des transports  ».  
+Cinq modalités de réponses étaient possibles : « Beaucoup », « Assez », 
+« Peu », « Pas du tout », « Cette information est fausse selon moi ».   
+Nous n’avons pas posé cette question de la même manière dans l’en quête 
+« Pratiques Ecologiques », mais demandé aux répondants d’e stimer directement la 
+contribution du chauffage au bois à la présence de particules fines da ns l’air. La 
+question était ainsi formulée : Le chauffage individuel au bois participe à  la présence 
+de particules fines dans l'air…   
+Six modalités de réponses étai ent possibles : « Entièrement (100 % des 
+particules fines viennent du chauffage au bois) », « Enormément (plus de 75 %) », 
+« Majoritairement (entre 51 % et 75 %) », « Beaucoup (entre 25 % et 50 %) »,  « Peu 
+(moins de 25 %) », « Pas du tout ».   
+Nous avons d onc recodé les réponses de l’enquête « Pratiques 
+Ecologiques », en estimant que la réponse "non" à la question "êtes -vous étonné 
+d'apprendre que 26 % à 49 % des particules fines sont issues de chauffag e au bois" 
+(Baromètre ADEME) équivaut au fait de "penser que le chauffage au bois émet entre 
+25 % et 50 % des particules fines en ville", et vice versa.
+
+----- PAGE 35 -----
+
+35 
+ Bien que le recodage important de cette question empêche de con sidérer cette 
+comparaison comme significative, on constate, à titre informatif, qu’un tiers environ 
+des répondants, que ce soit dans le questionnaire ADEME, ou dans l’enquête  
+« Pratiques Ecologiques », estime que le chauffage au bois représente entre 25  % et 
+50 % des émissions de particules fines. 18 % des enquêtés grenoblois estiment q ue 
+le chauffage individuel au bois participe peu ou pas à cette pollution. L e reste des 
+répondants estiment (plus de 50 % de l’échantillon) que le chauffage au b ois participe 
+à plus de 75 % des émissions de particules fines dans l’air.   
+Autrement dit, un tiers des Français, ainsi que des répondants de l’enquête 
+« Pratiques Ecologiques », ont bien conscience de l’incidence du chauffage sur la 
+qualité de l’air. Relevons que par ailleurs, lorsqu’on demande aux répond ants de 
+l’enquête « Pratiques Ecologiques » de classe r les ca uses de la pollution de l’air, 10 % 
+d’entre eux classent le chauffage au bois en premier.    
+ 
+ 
+ 
+Question 20  : Considérez -vous qu'un ou plusieurs des travaux suivants sont 
+nécessaires dans le logement que vous occupez actuellement ? Si oui, 
+lesquels ?   
+COMPARAISON : avec le Baromètre ADEME (2021).   
+La question est identique dans les deux questionnaires, à l’exception d’un e 
+modalité de réponse ajoutée dans l’étude « Pratiques Ecologiques », à sa voir la 
+catégorie « Autres », qui permettait aux répondants de préciser d’autres travaux qui 
+n’auraient pas été mentionnés.   
+La part des répondants qui estiment avoir au moins un besoin de travaux  est 
+semblable dans les deux enquêtes (64-65 %).   
+Légende : 28 % des répondants de l’enquête « Pratiques Ecolo giques » considèrent que leur logement n’a pas 
+besoin de travaux.  3328646538
+0%20%40%60%80%100%
+Réponses Baromètre ADEME2021 Réponses PratEco 2022Considérez -vous qu'un ou plusieurs des travaux suivants sont 
+nécessaires dans le logement que vous occupez actuellement ?
+Aucun de ces travaux Au moins 1 item Ne se prononce pas
+
+----- PAGE 36 -----
+
+36 
+ Les faibles différences de pourcentages entre le questionnaire ADEME national  
+et l’enquête « Pratiques Ecologiques » montrent bien que l’enjeu du besoin de travaux 
+de rénovation énergétique est partagé en France. Quasiment 2/3 des rép ondants 
+estiment ainsi avoir au moins un besoin de rénovation.   
+Aussi, on peut tenter de comprendre l’émergence des besoins en com parant 
+ces derniers avec les ressentis exprimés quant à la température des logements e n été 
+et en hiver dans le questionnaire « Pratiques Ecologiques ».     
+Légende : 41 % de ceux qui vivent dans un logement où ils éprouvent un confort thermique en été considèrent que  
+certains travaux sont nécessaires chez eux.  
+Légende : 55 % de ceux qui vivent dans un logement où  ils éprouvent un confort thermique en hiver considèrent 
+qu’ils n’ont pas besoin de réaliser des travaux dans leur logem ent. 
+Sans surprise, on peut constater que ces besoins en travaux exprimés sont 
+corrélés au confort ressenti vis-à-vis de la température en hiver et en ét é dans le 
+logement. Par exemple, 59 % des répondants estimant leur logement très co nfortable 
+en été et 55 % de ceux qui l’estiment très confortable en hiver ne déclarent pas de 
+besoin de rénovation. A l’inverse, 86 % de ceux qui estiment leur logem ent « pas du 
+tout » confortable en été, et 94 % de ceux qui l’estiment « pas du to ut » confortable en 
+hiver expriment au moins un besoin de rénovation. 
+  55%
+36%
+16%6%45%
+64%
+84%94%
+0%20%40%60%80%100%
+Très confortable Plutôt confortable Peu confortable Pas du tout confortableBesoin de réaliser des travaux selon le confort de température en hiver (n=674)
+Pas de besoin Au moins 1 besoin59%
+37% 36%
+14%41%
+63% 64%
+86%
+0%20%40%60%80%100%
+Très confortable Plutôt confortable Peu confortable Pas du tout confortableBesoin de réaliser des travaux selon le confort de température en été (n=674)
+Pas de besoin Au moins 1 besoin
+
+----- PAGE 37 -----
+
+37 
+ Dans le détail, voici les types de travaux mentionnés28 : 
+ 
+Légende : 19 % des répondants au Baromètre ADEME 2021, et 16 % des répondants au questionnaire « Pratiques 
+Ecologiques », disent nécessiter une isolation de leur to iture et des combles de leur logement. Les pourcentages 
+sont arrondis, raison pour laquelle certaines barres sont différe ntes pour un même nombre.  
+ 
+L’isolation des murs donnant sur l’extérieur représente plus d’un quart des  
+réponses, 6 points devant la moyenne nationale du Baromètre ADEME. On peu t faire 
+l’hypothèse que cette différence s’explique par la spécificité du parc de  logement 
+grenoblois. Les travaux d’isolation thermique au sens large (c’est -à-dire incluant le 
+changement de fenêtres) représentent quasiment 2/3 des réponses (63 %). En  reliant 
+ce résultat au confort thermique exprimé par les répondants, mais aussi aux étu des 
+nationales portant sur la faible qualité de l’isolation thermique, on comprend qu e l’enjeu 
+reste central pour les habitants, tant du point de vue de leur confort q ue de leur 
+situation économique.  
+ 
+Question 21  : Avez -vous l’intention de faire réaliser ces travaux ?  
+ 
+Cette question vise à comprendre la propension des répondants à agir sur leurs 
+conditions matérielles de vie, étant donné qu’ils se disent insatisfaits, ou au moins 
+demandeurs de travaux de rénovation thermique.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                           
+28 Les pourcentages absolus (réponses multiples) ont été ramenés sur 100. 211917161612
+27162016156
+0 5 10 15 20 25 30Isolation de murs donnant sur l'extérieurIsolation de la toiture et des comblesChangement des fenêtresAmélioration du système de ventilationRemplacement du système de chauffageRemplacement du système de production d'eau
+chaude sanitaireSi oui, lesquels ? 
+Réponses PratEco 2022 Réponses Baromètre ADEME2021
+
+----- PAGE 38 -----
+
+38 
+  
+ 
+ Légende : 21 % des répondants de l’étude « Pratiques Ecolog iques » disent avoir l’intention de réaliser les travaux 
+de rénovation qu’ils estiment nécessaires pour leur l ogement.   
+On peut noter qu’une forte proportion de répondants de l’enquête « Pratiqu es 
+Ecologiques » sont dans une situation d’incertitude (28 %).  Ce chiffre peut éclairer la 
+faible proportion d’individus déclarant avoir l’intention de procéder à ces trav aux 
+(21 %). On peut également se pencher sur les raisons avancées.  
+ 
+Question 22  : Si non, pourquoi ?   
+Si les individus répondaient « non » à la précédente question, une liste de 
+raisons leur était proposée. Les questions sont identiques dans les deux enquêtes. 
+Les pourcentages absolus (réponses multiples) sont ramenés à 100 pour  donner des 
+pourcentages relatifs.   2150
+28
+0102030405060
+Oui Non Je ne sais pasPourcentagesAvez vous l'intention de faire réaliser ces travaux ?
+Réponses PratEco 2022
+
+----- PAGE 39 -----
+
+39 
+  
+Légende : 18 % des répondants du Baromètre ADEME 2021, contre 11  % des répondants du questionnaire 
+« Pratiques Ecologiques », disent ne pas avoir l’intention de  réaliser des travaux de rénovation pour des raisons d e 
+manque d’argent.    
+On constate ici que le fait d’être locataire est nettement plus mis en avant dans 
+l’enquête « Pratiques Ecologiques », conjointement avec le fait d’habiter dans une 
+copropriété. A elles deux, ces réponses fournissent près de 2/3 (67 %) des raisons 
+avancées pour la non- réalisation de travaux de rénovation. On comprend que l’enjeu, 
+avant d’être financier, culturel ou dépendant des convictions des individus, est  d’abord 
+celui de la capacité concrète des individus à agir sur leur propre logement.  
+D’ailleurs, si l’on compare cette intention déclarée de réaliser des travaux, et les 
+ressentis vis-à-vis de la température du logement en été ou en hiver, on trou ve une 
+corrélation inverse : les individus estimant la température « très confortable » ou 
+« plutôt confortable » en été ou en hiver sont plus nombreux à déclarer avoir  l’intention 
+de réaliser des travaux de rénovation que les autres.  2818118555533332
+4211254211410143
+0 5 10 15 20 25 30 35 40 45Vous êtes locataireVous n'avez pas suffisamment d'argentVous habitez une copropriétéVous n'êtes pas sûr des économies réaliséesVous avez privilégié d'autres achatsVous ne savez pas très bien si c'est nécessaireVotre n'avez pas pu obtenir un prêtTous les travaux ont déjà été faitsLes démarches sont trop compliquéesIl y a plus urgentC'est compliqué de faire des travauxVous n'avez pas envie dans ce logementAutre raison
+PourcentageSi non, pourquoi ?
+Réponses PratEco 2022 Réponses Baromètre ADEME 2021
+
+----- PAGE 40 -----
+
+40 
+  
+Légende : 25 % des répondants jugeant la température de le ur logement « plutôt confortable » en été disent avoir 
+l’intention de réaliser des travaux de rénovation thermique.    
+ 
+Légende : 72 % des répondants jugeant la température de leu r logement « pas du tout confortable » en hiver disent 
+ne pas avoir l’intention de réaliser des travaux de rénovation the rmique.  
+ 
+  
+Sur ce constat paradoxal, on peut inférer que les individus qui ressentent le 
+moins de confort thermique dans leur logement sont précisément ceux  qui n’ont pas 
+les moyens (économiques, juridiques, temporels) d’y remédier. Il faut bien donc 
+distinguer l’expression de besoins de la capacité concrète des individus à s’investir 
+dans la satisfaction de ces besoins.   
+ 
+ 
+Question 23  : Connaissance des dispositifs publics d’aide à la rénovation 
+thermique   
+On peut également s’interroger sur la capacité des individus à mobiliser des  
+dispositifs d’aide publique, financiers, techniques ou informatifs pour réaliser une 
+rénovation thermique de leur logement.  
+ 25% 23%16%10%48% 50%
+46%72%26% 27%38%17%
+0%20%40%60%80%100%
+Très confortable Plutôt confortable Peu confortable Pas du tout confortableIntention de réaliser des travaux selon le confort de température en hive r (n=435)
+Oui Non Je ne sais pas28% 25%17% 13%44% 47%52% 65%28% 28% 31%23%
+0%20%40%60%80%100%
+Très confortable Plutôt confortable Peu confortable Pas du tout confortableIntention de réaliser des travaux selon le confort de température en été (n=435)
+Oui Non Je ne sais pas
+
+----- PAGE 41 -----
+
+41 
+ Le graphe suivant montre les réponses à la question portant sur le deg ré de 
+connaissance de ces dispositifs et sur le fait d’y avoir recours. Pour comparer,  un 
+dispositif non relatif à la consommation énergétique a été introduit (mise à disp osition 
+de composteurs) .  
+Légende : 23 % des répondants disent connaître les espac es information énergie, mais ne jamais y avoir eu 
+recours.   
+On constate que très peu de répondants disent connaître les dispositifs 
+mentionnés (sur les cinq dispositifs de rénovation thermique proposés, la moyenne de 
+non-connaissance du dispositif est de 68 %). Le plus connu, le dispositif  de Prime 
+« Air-Bois » n’est connu que par 43 % des répondants.   
+Plus encore, le recours à ces dispositifs est systématiquement inférieur à 10 % 
+sur l’ensembl e des répondants (4 % en moyenne sur les 5 dispositifs). On peut inférer 
+qu’ainsi, les leviers publics de facilitation de la rénovation thermique agissent peu su r 
+la propension des individus à les réaliser. Il faut aussi considérer qu’un certa in nombre 
+de ces dispositifs peuvent ne pas être immédiatement utiles pour les répondan ts.  
+On peut alors se demander sur certains dispositifs si ce sont bien ceux 
+concernés par la mesure qui les connaissent. Approfondissons ce volet d’abo rd avec 
+la prime air bois. Une partie des enquêtés ayant un chauffage in dividuel au bois 
+connaît le dispositif mais ne l’utilise pas. 39 % des répondants potentielle ment 
+concernés ne connaissent pas le dispositif. La moitié de ceux qui disposent de ce type 
+de chauffage le connaissent grâce au journal d’information des collectivités, vient 
+ensuite pour 18 % internet et puis le fait d’avoir eu l’information par un co llègue  (16 %). 
+Sur la question des ménages possédant un chauffage au fioul, 90 % n e connaissent 
+pas le dispositif de la Prime Zéro Fioul.  2%1%5%2%8%31%
+41%26%37%14%23%45%
+57%73%58%84%69%24%
+0% 20% 40% 60% 80% 100% 120%Prime Air-BoisPrime Zéro FioulDispositif MurMurMétroénergieEspaces information énergieMise à disposition de composteurQuels dispositifs connaissez -vous ? 
+Lesquels utilisez -vous ou avez -vous déjà utilisés ? (en %)
+Je connais et j'y ai déjà eu recours Je connais mais je n'y ai jamais eu recours Je ne connais pas
+
+----- PAGE 42 -----
+
+42 
+ Un double enjeu se dégage de cette donnée : celui de la connaissance d es 
+dispositifs, et celui de leur propension à faciliter la rénovation. Sur le premier, un e 
+question consistait à demander aux individus la source de leur connaissance de s 
+dispositifs en question.    
+ 
+Légende : 19 % des répondants disant connaître le dispositif MurM ur l’ont connu via internet.  
+A la lecture de ce graphe, on comprend que ce sont les collectivité s elles-
+mêmes qui sont le meilleur medium de publicisation de ces dispositifs, puisqu e ce sont 
+les journaux d’informations des collectivités locales qui sont systématiquement la 
+première source de connaissance de ces derniers. Si un tiers environ des répondants 
+connait bien les dispositifs, leur emploi est beaucoup plus faible.  
+ 
+Question 24  : Surfaces maximales et minimales de logements   
+Au-delà des besoins relatifs au confort thermique du logement, l’enquête 
+« Pratiques Ecologiques » a questionné plus largement les besoins des répond ants en 
+termes de surface de logement. Cette question est importante pour ce rner 
+l’acceptabilité sociale de la densification, qui va s’accentuer avec le dép loiement du 
+programme de « Zéro artificialisation nette » (ZAN).  
+On a demandé aux individus s’ils pouvaient estimer un minimum e t un maximum 
+acceptable pour deux types de logements (studio pour une personne et 
+appartement/maison pour quatre personnes).  55
+31524564
+3321
+3419
+2112
+323
+27
+48
+33
+46
+16
+26
+56
+82
+512
+2511
+228
+25
+0%10%20%30%40%50%60%70%80%90%100%
+Prime Air Bois Prime Zéro fioul Dispositif Mur-
+MurMétroénergie Mise à
+disposition de
+composteurEspace
+information
+énergieSi vous connaissiez un de ces dispositifs, pouvez -vous citer la source 
+d'information qui vous l'a fait connaître ?
+Journal d'information des collectivités locales Internet
+Un(e) ami(e) m'en a parlé Un(e) membre de ma famille m'en a parlé
+Un(e) collègue m'en a parlé Je ne sais plus
+
+----- PAGE 43 -----
+
+43 
+  
+ 
+En moyenne, les enquêtés considèrent que la surface pour une perso nne seule 
+devrait être comprise entre 33 et 62 mètre carrés (si on regarde la médiane, la sur face 
+plébiscitée serait entre 30 et 67 m2). Pour un foyer de quatre personnes, la surface 
+moyenne devrait être comprise entre 80 et 183 m2 (entre 80 et 150 m2 pour la médiane). 
+La dispersion des réponses est beaucoup plus importante pour la question sur la 
+surface minimum et maximum pour quatre personnes que pour les réponses sur la 
+surface minimum et maximum pour une personne. La surface minimum pour une 
+personne fait davantage consensus que la surface maximum (écart-type p lus faible 
+pour le minium). Il faut aussi comparer ces chiffres aux données de l’INSEE, q ui 
+indiquent que 34 % des logements de la Métropole font moins de 60m² et 1 9 % font 
+plus de 100m² en 201929. Dans le même temps, il faut relever que 42 % des logements 
+n’accueillent qu’une seule personne, tandis que 10 % du parc accueille 4 person nes, 
+et 5 % en loge 5 ou plus. L’INSEE ne produit malheureusement pas d e données 
+portant sur le nombre de mètres carrés par personne au niveau de la M étropole 
+Grenoble-Al pes. L’Agence d’urbanisme de la région grenobloise, qui prend en compte 
+un périmètre plus large puisqu’il inclut une partie de la communauté d’ag glomération 
+du pays Voironnais et de la communauté de communes du Grésiv audan30, souligne 
+que dans le parc privé, la moyenne de superficie des logements est de 63m².   
+ 
+ 
+ 
+Question 25 : Taux d’équipement en électroménager    
+Comparaison avec SRC- SILV (2016) :   
+Cette comparaison est issue de l’enquête « SRC -SILV » de 2016, analysée 
+par le Ministère de l’environnement (SDES) en 2020. Dans le questionnaire SRC -
+                                                           
+29 Voir les statistiques les plus récentes sur le site de l’INSEE  : 
+https://www.insee.fr/fr/statistiques/6454981?sommaire=6454987&geo=EPCI-200040715  pour la taille des 
+logements et https://www.insee.fr/fr/statistiques/6454977?sommaire=6454987&geo=EPCI-200040715  pour la 
+taille des ménages. 
+30 AURG (2022), « Les loyers dans le parc privé de la région grenobloise en 2021 ». 183 m2 
+(moyenne)
+150 m2
+(médiane)
+82 m2 
+(moyenne)
+80 m2 
+(médiane)33 m2 
+(moyenne)
+30 m2
+(médiane)62 m2 
+(moyenne)
+67 m2 
+(médiane)
+
+----- PAGE 44 -----
+
+44 
+ SILV, il était demandé directement aux répondants s’ils possèden t tel ou tel 
+équipement.  
+Dans l’étude « Pratiques Ecologiques », on a obtenu cette donnée 
+indirectement, à partir d’une  question sur le fait de considérer, ou non, chacun de 
+ces équipements essentiels. Une option de réponse étant « je ne le possède pa s », 
+nous avons inféré que tous les répondants qui ne cochaient pas cette op tion 
+possèdent effectivement l’équipement.   
+Un certain nombre d’items sont ajoutés dans le questionnaire « Pratiques 
+Ecologiques » : les aspirateurs, les ordinateurs fixes, les réfrigérateurs (sortis de 
+l’enquête SRCV car taux d’équipement avoisine les 100 %), les plaques électriq ues, 
+les sèche-linges, les fours, les tablettes, les téléviseurs.  
+ 
+ Légende : 95 % des répondants de SRCV -Silc en 2016 disaient posséder un téléphone portable, contre 98 % des 
+répondants de l’enquête « Pratiques Ecologiques » en 2022.    
+On voit que le taux d’équipement en lave-linges, téléphones portables, 
+réfrigérateurs, aspirateurs, fours et congélateurs dépasse les 90 % chez les 
+répondants de l’étude « Pratiques Ecologiques ». Dans l’ensemble, ils sont légè rement 
+supérieurs à l’enquête SRCV de 2016. Au -delà des probables différences 
+d’échantillonnage, on peut inférer un effet temporel, qui expliquerait qu ’en 6 ans, les 
+ménages ont été en capacité de s’équiper davantage sur ces items.   
+ 
+ 
+ 
+Question 26  : Accès à des services de base    
+ 
+Comparaison avec IBEST 2018 :   
+Cette question est issue d’IBEST 2018. On demande aux participants s’ils on t 
+un bon ou un mauvais accès à certains types de commodités, avec 4 moda lités de 
+réponses (« tout à fait », « assez bien », « assez peu », « difficilement »). Les  96
+6192 89958298
+7592879887
+3895 100
+75
+3796
+5285
+020406080100Pourcentage d'équipement
+Type d'équipementTaux d'équipement en électroménager
+Réponses SRCV-Silc 2016 Réponses PratEco 2022
+
+----- PAGE 45 -----
+
+45 
+ commodités traitées dans le questionnaire « Pratiques Ecologiques » sont : les 
+commerces alimentaires, les bureaux de poste, les transports, les services de soi n.  
+ 
+ Légende : 85 % des répondants d’IBEST, contre 90 % des répo ndants de l’étude « Pratiques Ecologiques », disent 
+avoir un bon accès à un bureau de poste.    
+Il s’agit ici de comprendre la capacité des individus à accéder à différents types 
+de commerces ou de service afin de saisir, au quotidien, leur capacité à rép ondre à 
+leurs besoins.  
+La majorité des répondants de la métropole grenobloise ont un accès fa cile aux 
+commodités étudiées et un accès meilleur aux commodités qu’en 2018. L’accè s le plus 
+problématique concernent les services de soin. Cette difficulté d’accès est plu s 
+marquée dans les territoires peu denses que dans le centre. 
+ 
+Question 27  : Télétravaillez -vous en général ?   
+Les enjeux de consommation énergétique, mais aussi de mobilité et de  qualité 
+de vie, traversent la question du télétravail. Apparu dès la fin des années 20 00 comme 
+pratique minoritaire, mais intensifiée et étendue à partir de la crise sanitaire d ue au 
+Covid-19 en 2020, le télétravail est une nouvelle composante des pratique s de vie 
+quotidienne des Français. Cette nouvelle pratique sociale peut avoir des effe ts 
+environnementaux pluriels et non univoques sur les pratiques environ nementales 
+(comme l’illustre le paradoxe de Jevons ou autrement dit les effets rebonds).   89
+1185
+1589
+1186
+1394
+690
+1092
+888
+13
+0102030405060708090100
+Bon accès Mauvais
+accèsBon accès Mauvais
+accèsBon accès Mauvais
+accèsBon accès Mauvais
+accès
+Commerce alimentaire Bureau de poste Transports Services de soinAccès aux commodités
+IBEST 2018 PratEco 2022
+
+----- PAGE 46 -----
+
+46 
+ Légende : 7 % des répondants disent télétravailler tout le temp s. 15 %, soit  7+3+5, travaillent au moins 3 jours par 
+semaine en télétravail.   
+Plus d’un tiers des répondants pratiquent le télétravail, au moins une d emi-
+journée par semaine. 24 % le pratiquent pendant au moins deux jours de la sem aine. 
+Ces chiffres, au-delà de refl éter une structure du marché de l’emploi qui permet à un 
+certain nombre de travailleurs d’effectuer leurs tâches professionnelles à la maiso n, 
+nous indiquent que les répondants de l’enquête « Pratiques Ecologiques » ont, à 
+travers ce recours au télétravail, des contraintes et des opportunités en termes d e 
+pratiques écologiques. Les contraintes se manifestent par le besoin de chau ffer son 
+domicile, ainsi que par la consommation électrique des dispositifs de télétravail  
+couramment employés (ordinateurs, télép hones, webcam…), tandis que les 
+opportunités se trouvent du côté des besoins moindres en mobilité que le télétravail 
+permet.  
+ 
+ 
+ 
+Question 28 : Vous arrive -t-il d’encourager des proches à prendre des habitudes 
+de consommation pour lutter contre le changement climatique ?  
+  
+COMPARAISON avec ADEME « Représentations sociales du changement 
+climatique » 2021 :  
+L’enquête ADEME comportait un volet dédié aux séniors, c’est -à-dire les 
+individus âgés de 55 ans et plus. La question était « Vous arrive -t-il de chercher à 
+convaincre des personnes des générations les plus jeunes (par exemple vos enfan ts 
+ou vos petits-enfants) de prendre des habitudes de consommation qui co ntribuent à 7%3%
+5%
+9%
+9%
+6%60%Télétravaillez -vous en général ?
+Oui tout le temps Oui 4 jours par semaine Oui 3 jours par semaine
+Oui 2 jours par semaine Oui 1 jour par semaine Moins d'un jour par semaine
+Jamais
+
+----- PAGE 47 -----
+
+47 
+ la lutte contre le changement climatique ?  ». Quatre modalités de réponses étaient 
+proposées : « oui, souvent », « oui, parfois », « non, rarement », « non, jamais ».   
+Dans l’enquête « Pratiques Ecologiques », il n’y a pas de focus particulier su r 
+les séniors. La question était posée à tous les participants. Dès lors, la question éta it 
+similaire, mais ne portait pas spécifiquement sur « les générations les plus jeune s ». 
+Au contraire, on demandait aux répondants de se prononcer sur qu atre « types de 
+proches » : la famille proche, la famille élargie , les amis et les collègues de travail. 
+Aussi, les modalités de réponses étaient plus précises : « oui souvent » 
+correspondait à « régulièrement (une fois par semaine environ) », « oui p arfois » à 
+« de temps à autre (une fois par mois environ) », « non rarement » à « rareme nt (une 
+fois par an environ) » et « jamais » à « jamais ».  
+Nous avons isolé les catégories « séniors » de + de 50 ans parmi nos 
+répondants (n=293).  
+Pour comparer indirectement les deux questionnaires, les réponses portant sur la  
+famille proche (qui inclut les enfants) et la famille élargie (qui inclut les petits enfants) 
+ont été affichées.  
+En posant cette question, nous avons cherché à identifier certains facteurs 
+potentiels de diffusion des pratiques de consommation à travers l’entourage, et en 
+particulier la famille.  68 % des répondants encouragent le changement d e pratiques 
+de leur famille proche. Ce chiffre est également élevé concernant le ce rcle amical, 
+puisque 52 % des répondants diffusent ces pratiques auprès de leurs amis.  
+ 
+Légende : 23 % des personnes interrogées encouragent souve nt leur famille proche à prendre des habitudes de 
+consommation pour lutter contre le changement climatique.  
+ 
+Si l’on met ensuite l’accent sur les personnes de plus de 50 ans, on ob serve qu’elles 
+sont moins enclines à encourager leur proche à changer leur pratique. A contrario, les  23%
+8%14% 11%45%
+30%38%
+30%19%
+30%30%
+31%13%
+32%18%28%
+0%10%20%30%40%50%60%70%80%90%100%
+Famille proche Famille élargie Amis CollèguesVous arrive -t-il d'encourager des personnes de votre entourage à prendre des 
+habitudes de consommation pour lutter contre le changement climatique ? Si ou i, à 
+quelle fréquence ? 
+Oui souvent Oui parfois Non rarement Jamais
+
+----- PAGE 48 -----
+
+48 
+ plus jeunes (moins de 35 ans) incitent plus aux changements de pratiques de leur 
+proche que les autres catégories d’âge.  
+ 
+  Légende : 50 % des répondants du questionnaire « Pratiques Ecologiques » de plus de 50 ans disent ne jamais 
+encourager des membres de leur famille élargie à prendre des habitudes de consommation pour lutter contre le 
+changement climatique.    
+Les répondants de l’enquête « Pratiques Ecologiques » de plus de 50 ans 
+semblent légèrement plus encouragés leur proche à changer de comportements que 
+les répondants du même âge de l’enquête de l’ADEME. Ce qui pourrait s’ex pliquer par 
+le fait que l’ADEME se focalise uniquement sur le changement de com portement des 
+plus de 50 ans à l’égard des plus jeunes. Dans l’enquête « Pratiques Ecolog iques », la 
+moitié des répondants de cette catégorie d’âge estiment encourager « parfo is » ou 
+« souvent » leur entourage (47 % auprès de la famille proche, 21 % auprès  de la famille 
+élargie).  
+ 
+Question 29  : Vous arrive -t-il d’être encouragé par des proches à prendre des 
+habitudes de consommation pour lutter contre le changement climatique ? 
+ 
+Il s’agit de la question inverse de la question précédente, avec les mêmes  
+méthodes de comparaison. 46 % des répondants (en additionnant « oui souvent » et 
+« oui parfois ») sont encouragés par leur famille proche à changer leur hab itude. Le 
+deuxième cercle qui a ensuite le plus d’influence est celui des amis, puis des collègues 
+et enfin la famille élargie.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 629
+271938
+352929
+305024
+2
+0 10 20 30 40 50 60 70 80 90 100Réponses ADEME 2021Réponses PratEco - famille élargieRéponses PratEco - famille proche[+ de 50 ans] Vous arrive -t-il d'encourager des proches à prendre des 
+habitudes de consommation pour lutter contre le changement 
+climatique ? (n=293)
+Oui souvent Oui parfois Non rarement Non jamais NSP
+
+----- PAGE 49 -----
+
+49 
+  
+ Légende : 11 % des personnes interrogées déclarent être sou vent incitées par leur famille à prendre d’autres 
+habitudes de consommation pour lutter contre le changement clim atique.   
+Concernant les plus de 50 ans, si l’on ne peut pas comparer directement nos résultats 
+avec ceux de l’ADEME, on peut déjà souligner qu’ils relèvent des mê mes ordres de 
+grandeur.   
+ 
+ Légende : 51 % des répondants du questionnaire « Pratiques Ecologiques » de plus de 50 ans disent être parfois 
+encouragés par leur famille proche à prendre des habitu des de consommation pour lutter contre le changement 
+climatique.   
+On constate que de nombreux répondants de plus de 50 ans estiment être 
+« récepteurs » de recommandations ou d’encouragements à changer leurs pratiques 
+de consommation. En particulier, la famille proche semble être un relais 
+particulièrement fort de ces injonctions, puisque 67 % des répondants de l’é tude 11%2%7% 5%35%
+21%34%
+26%32%
+33%35%
+32%22%
+45%24%
+37%
+0%10%20%30%40%50%60%70%80%90%100%
+Famille proche Famille élargie Amis CollèguesVous arrive -t-il d'être encouragé par des personnes de votre entourage à prendre des 
+habitudes de consommation pour lutter contre le changement climatique ? Si ou i, à 
+quelle fréquence ?
+Oui souvent Oui parfois Non rarement Jamais
+11516
+402651
+272717
+204216
+1
+0 10 20 30 40 50 60 70 80 90 100Réponses ADEME 2021Réponses PratEco - famille élargieRéponses PratEco - famille proche[+ de 50 ans] Vous arrive -t-il d'être encouragé des proches à prendre des 
+habitudes de consommation pour lutter contre le changement 
+climatique ? (n=293)
+Oui souvent Oui parfois Non rarement Non jamais NSP
+
+----- PAGE 50 -----
+
+50 
+ « Pratiques Ecologiques » et 51 % des répondants de l’enquête ADEME estiment  en 
+recevoir « parfois » ou « souvent » de la part de leur famille proche. Ainsi, les plus de  
+50 ans semblent davantage les récepteurs que les émetteurs des encouragem ents 
+émis en termes d’habitudes de consommation.  
+ 
+Question 30  : La mobilisation collective pour le climat   
+Si la problématisation des enjeux environnementaux passe par la transmission  
+par les réseaux familiaux, amicaux et professionnels, elle peut également prendre la 
+forme de mobilisations plus collectives, politiques (qui ne sont pas contradictoir es avec 
+les précédentes). On a ainsi cherché à savoir si les répondants de l’enquête avaient  
+déjà participé à des « marches pour le climat ».    
+ 
+Légende : 7 % des personnes interrogées ont déjà participé plu sieurs fois à une marche pour l e climat.  
+L’apparente faible proportion de participation doit être nuancée : en cumulé,   
+20 % des répondants de l’enquête déclarent avoir participé déjà au m oins une fois à 
+une marche pour le climat. Si l’on rapportait, avec précaution, ce chiffre à l’ensemble 
+des habitants de la Métropole Grenoble- Alpes, cela représenterait 90 000 (20 % de 
+446 000) individus environ qui auraient déjà participé à une marche pour le climat. On 
+demandait également aux répondants s’ils comptaient y participer à l’avenir  : 9 % se 
+disaient certains, et 38 % répondaient « peut -être ». Parmi ceux qui ont participé au 
+moins une fois, 48 % ont moins de 35 ans (alors qu’ils représentent 35 % de  
+l’échantillon total) et seuls 13 % ont plus de 65 ans (22 % de l’éc hantillon). Une lé gère 
+corrélation est observée avec l’âge, notamment sur les catégories les plus  jeunes et 
+les plus âgées.  71380
+0102030405060708090
+Oui plusieurs fois Oui une seule fois NonPourcentageAvez -vous déjà participé à une "marche pour le climat" ? (en %)
+
+----- PAGE 51 -----
+
+51 
+ Pour tester la spécificité de l’enjeu climat dans les pratiques de mobilisation 
+collective des répondants, on leur demandait également s’ils avaient  déjà participé à 
+des manifestations sur d’autres sujets. 32 % répondaient que oui. Si l’on croise  ces 
+deux données, on se rend compte que 78 % des personnes ayant parti cipé à plusieurs 
+marches pour le climat ont déjà participé à une autre manifestation31.  
+Deux enseignements peuvent être tirés de ces résultats qui rejoignent la 
+littérature déjà existante sur le sujet. D’une part, seule une partie de l’échantillo n a déjà 
+manifesté son attachement aux enjeux environnementaux à travers la mobilisation 
+collect ive relative au climat. D’autre part, cette mobilisation est corrélée avec l’âg e, 
+avec le fait d’avoir participé à d’autres manifestations, d’être une femme e t d’être 
+diplômé32.  
+Pour se projeter vers le futur, il ressort de l’enquête que ce mode de mobil isation 
+pourrait se développer. En effet, 50 % des répondants déclarent q u’ils participeront de 
+manière certaine ou peut-être à une prochaine marche pour le climat. Ce ux qui sont le 
+plus certains de se mobiliser sont ceux ayant déjà participé à des marches pour le  
+climat. Toutefois, 38 % de ceux qui déclarent qu’ils y participeront peut -être n’ont 
+jamais participé à ce type d’action collective auparavant.   
+ 
+ Légende : 10 % des personnes déclarent être certaines de participe r à une prochaine marche pour le  climat. 
+ 
+ 
+ 
+                                                           
+31 Le coefficient de corrélation entre ces deux variables est de 0,355 (Pearson). 
+32 Ces résultats rejoignent en grande partie ceux présentés par Chloé Alexa ndre, Florent Gougou, Erwann Lecoeur 
+et Simon Persico dans leur enquête nationale portant sur le mouvement climat (2021). Accessible à l’adresse  : 
+https://shs.hal.science/halshs-03342838/document  10
+403514A l'avenir, voudriez -vous participer à une marche pour le 
+climat ? (en %)
+Oui, je suis certain d'y participer Peut-être Non, je suis certain de ne pas y participer Je ne sais pas
+
+----- PAGE 52 -----
+
+52 
+ Au-delà des traitements descriptifs et comparatifs présentés dans le rappo rt, 
+pour chaque thématique analysée, nous avons construits plusieurs indices qui 
+constituent les « variables à expliquer » dans notre étude. La construction d ’indices 
+permet de « quantifier », même si cette quantification est abstraite, l’intensité  
+environnementale des pratiques. Nous avons fait le choix de construire des  indices de 
+« non -sobriété », plutôt que de sobriété. Autrement dit, plus ils  croissent, moins le 
+comportement peut être assimilé à des pratiques environnementales. Ce cho ix est fait 
+pour souligner que la sobriété passe par une réduction des empreintes.   
+MOBILITE (2 indices) :    
+MOB1  : Mode de transport principal pour les 
+déplace ments longue distance (de plus de 
+100km) multiplié par la fréquence des trajets 
+par an   
+MOB2  : Mode de transport pour les trajets 
+quotidiens multiplié par la durée des trajets   ALIMENTATION (3 indices) :   
+ALIM1  : Nombre de repas avec protéines 
+animales multiplié par le score 
+environnemental ordinal des types de 
+protéines   
+ALIM2 : Régime alimentaire   
+ALIM3 : Fréquence de consommation 
+auprès de commerces « éco -
+responsables » (boutiques de vrac, 
+épiceries bios, AMA P, producteurs en 
+direct).    
+  
+PRATIQUES DOMESTIQUES  (3 indices)  :   
+DOM1 : Recours à des pratiques « éco -
+responsables » de gestion des déchets   
+DOM2 : Attention portée à la consommation 
+des équipements électroniques 
+multimédias   
+DOM3  : Fréquence de lessives à froid   EQUIPEMENT (4 indices) :   
+EQ1 : Mode d’acquisition et durée de 
+possession des équipements multimédias   
+EQ2 : Mode d’acquisition et fréquence 
+d’achat de vêtements   
+EQ3 : Equipement en véhicules   
+EQ4 : Recours à la réparatio n de  
+smartphone   
+ 
+ 
+Plus un indice a une valeur élevée plus il traduit un comportement  peu 
+écoresponsable . Plus l’indice est faible et plus le comportement est écoresponsable.  
+ 
+ 
+ 
+Le premier indice d’alimentation que nous avons construit concerne la 
+consommation animale. Il correspond au nombre de repas avec protéines an imales 
+pris dans la semaine, multiplié par le score environnemental des types de proté ines. 
+Ce score environnemental n’a pas vocation à refléter l’empreinte  carbone exacte des 
+produits consommés mais davantage l’ordination du poids environnemental que le 
+consommateur peut attribuer à ces produits33. 
+                                                           
+33 Cette pondération a été choisie pour sa lisibilité et le fait qu’elle reflète non la valeur cardinale de l’empreinte 
+environnementale mais plutôt sa valeur ordinale. Voici le détail des poids : 6 = viande rouge, 5 = viande porcine 
+et charcuterie, 4 = vian de blanche, 3 = poisson, 2 = produits laitiers, 1 = œufs.
+
+----- PAGE 53 -----
+
+53 
+ Dans le détail, cet indice a été calculé à partir de la nature des aliments d’orig ine 
+animale déclarés, qui donnent un score selon leur impact environnemental. Ici, on voit 
+comment se structure ces repas. Chaque ligne représente un individu (de 0 à 675, 
+moins les végans), et les couleurs représentent les différents types d’aliments. Le 
+nombre de repas médian est de 14, ce qui indique que les répondants on t peu pris en 
+compte le petit déjeuner comme un repas. 
+On voit que dans l’alimentation déclarée, les œufs et le lait représentent 
+facilement 50 % de l’alimentation d’origine animale en prises, les viandes e ntre 0 et 
+10 % (viande rouge) ou 0 et 50 % (tout compris). 
+ 
+ 
+La répartition de la population sur les pratiques alimentaires suit, on le v oit, un 
+motif plutôt classique, où l’on a une « norme », et des individus qui s’en é cartent. Cette 
+norme correspond à peu près à un individu qui mange l’équivalent d’un poisson à 
+chacun de ses repas (du point de vue du score de consommation de produits d’origine 
+animale). Le groupe le moins sobre consomme en moyenne une viande à ch aque 
+repas. Tout à gauche, on trouve les rares répondants à ne déclarer au cun produit 
+animal, c’est -à-dire les végan. De l’observation empirique des résultats, six groupes 
+de population - de poids équivalents – sont extraits de ces résultats pour faciliter 
+l’exploitation des résultats. Ce choix suit le nombre de catégorie de produits d’o rigine 
+animale étudié ici.  
+Les groupes ont les scores suivants :  
+ Le groupe 1 a un score inférieur ou égal à 26 et est donc faiblement  
+consommateur de produits d’origine animale ;   
+ Le groupe 2 a un score entre 26,01 et 35 et consomme relativement  peu de 
+produits d’origine animale ;   
+ Le groupe 3 a un score entre 35,01 et 41 et sont un peu en desso us de la 
+moyenne de consommation d’origine animale ;   
+ Le groupe 4 a un score entre 41,01 et 48 et sont dans la moyenne d e 
+consommation de produits d’origine animale ;   0% 20% 40% 60% 80% 100%Structure de l'alimentation hebdomadaire déclarée (par 
+unité)
+Viande rouge Viande blanche Viande porcine Poissons Lait Œufs
+
+----- PAGE 54 -----
+
+54 
+  Le groupe 5 a un score entre 48,01 et 59 et consomme plus que la m oyenne 
+des produits d’origine animale ;   
+ Le groupe 6 a un score de plus de 59,01 et consomme plus intensivement que 
+les autres groupes des produit s d’origine animale.   
+  
+Légende : Valeur de l'indice de consommation animale :  0 correspond à une alimentation vegan  (végétalienne), 
+tandis qu’un score de 101 ou plus renvoie à une consommation i ntensive de produits animaux. Plus une 
+personne consomme une grande quantité de produits d’origine anim ale, plus la valeur de l’indice de 
+consommation animale est élevée.   
+L’indice de consommation de produits animaux est lié de manière non 
+accentuée à l’ensemble des variables socioéconomiques de base (PCS, diplôme , 
+strate, secteurs, revenus, âge, etc.). Toutefois, il semble bien ressortir de nos analy ses 
+une problématique d’accès aux produits d’origine animale pour les plus modestes.  
+ 
+Groupe 1 Groupe 2 Groupe 3 Groupe 4 Groupe 5 Groupe 6
+
+----- PAGE 55 -----
+
+55 
+  Légende : 16 % des artisans, commerçants et chefs d’entrepri ses font partie du groupe 1 des très faibles 
+consommateurs de produits d’origine animale.  
+ 
+Les artisans, commerçants et chefs d’entreprises comprennent des profils de 
+consommation variés mais peu de très gros mangeurs de produits d’origine anim ale 
+(Groupe 6).  Les personnes sans activités et les étudiants se caractérisent par un e 
+polarisation particulièrement marquée des pratique s : chacune de ces PCS comprend 
+un groupe important de personnes consommant très peu de produits d’origine  animale 
+et un groupe en consommant beaucoup. Autrement dit, les groupes interm édiaires 
+sont moins présents pour ces deux catégories de population. Cette faible 
+consommation de viande est davantage subie par les personnes sans activ ité que par 
+les étudiants. 93 % des personnes sans activité qui appartiennent aux trois premier s 
+groupes, c’est -à-dire les plus faibles consommateurs de viande, déclarent que le pri x 
+de la viande est trop élevé. C’est le cas pour 48 % des étudiants, apparten ant aux trois 
+groupes les moins consommateurs de produits d’originale animale. Une partie des 
+ouvriers et des personnes en recherche d’emploi sont également faiblement 
+consommateurs de viandes. Plus le revenu du ménage est faible, moins ils 
+consomment de viande – ce qui témoigne ici en partie d’une sobriété plus subie que 16%21%18% 19%30%34%
+25%
+15%
+6%21% 12% 19%22%22%9%
+13%
+18%
+17%5% 12%15%18%9%
+5%
+13%25%21%9%17%16%22%
+9% 13%26%32%
+12%14%11%9%
+16%50%23%17%5%
+33%17% 14%9%
+28%13%19%9%
+0%10%20%30%40%50%60%70%80%90%100%PCS et groupes issus de l'indice de consommation de produits 
+d'origine animale
+Groupe 6 (Beaucoup de produits d'origine animale consommés)
+Groupe 5
+Groupe 4
+Groupe 3
+Groupe 2
+Groupe 1 (Très peu de produits d'origine animale consommés)
+
+----- PAGE 56 -----
+
+56 
+ choisie. En effet, 40 % des enquêtés ayant un revenu inférieur à 1500 euros 
+appartiennent au groupe 1 (des très faibles consommateurs) versus 11,5 % d es 
+personnes ayant plus de 3500 euros. 75 % des ménages les plus modestes  
+appartiennent au groupe 1, 2 ou 3. 
+Aussi, une des variables les plus associée à une faible consommation de 
+produits d’origine animale e st le genre. 
+ 
+Légende  : 25 % des femmes ont des pratiques alimentaires relevant du groupe 1, groupe qui consom me très peu de produits 
+d’origine animale.  
+ 
+59 % des femmes appartiennent aux groupes les moins consommateurs  de produits 
+d’originale animale (groupe 1, 2 et 3). Pour les hommes, ce chiffre est de  
+42 %. Seulement 10 % des hommes appartiennent au groupe 1 co rrespondent à des 
+très faibles consommateurs de produits d’origine animale, alors que 21 % sont des  
+très gros consommateurs. 
+L’indice est aussi lié à des variables plus politiques. Ainsi, l’adhésion à des 
+concepts de la soutenabilité (décroissance, sobriété, frugalité, développemen t 
+durable, économie circulaire) est associée avec le fait de consommer moins de 
+produits d’origine animale. Par exemple, 20 % des répondants adhérant au concept 
+de sobriété sont des très faibles consommateurs (groupe 1) et seuleme nt 12 % 
+consomment beaucoup de ces produits. A contrario, les personnes interrog ées qui 
+n’adhèrent pas au concept sont 6 % à être des très  faibles consommateurs et 36 % 
+des très gros consommateurs. Autre variable avec laquelle on retrouve une 
+association notable : la participation à des manifestations. 24 % des enqu êtés ayant 25%
+10%17%
+18%18%
+14%15%
+19%14%
+18%12%21%
+0%20%40%60%80%100%
+Femme HommeGenre et groupes issus de l'indice de consommation de 
+produits d'origine animale
+Groupe 6 (Beaucoup de produits d'origine animale consommés)
+Groupe 5
+Groupe 4
+Groupe 3
+Groupe 2
+Groupe 1 (Très peu de produits d'origine animale consommés)
+
+----- PAGE 57 -----
+
+57 
+ déjà participé à une manifestation sont de très faibles consommateurs de vian de 
+(groupe 1).  
+Légende : 37 % des répondants avec un indice bas sont peu d’accord avec la phrase « la viande permet de rester 
+en bonne santé ».    
+Enfin, la consommation de produit d’origine animale est très liée à d es 
+croyances et des représentations spécifiques à cette pratique. Assez logiq uement, 
+ceux qui considèrent que la viande est néfaste pour la santé en consomme  bien moins, 
+tandis que les gros consommateurs ont tendance à contrario à considérer que la 
+consommation de viande permet de rester en bonne santé et fait partie du régime 
+naturel des humains. On l’a d’ailleurs vu précédemment, un des principau x leviers pour 
+changer les comportements est justement de faire connaitre les effets néfastes pour 
+la santé de la consommation de la viande.  
+On peut également construire un indice simplifié en deux groupes (tel qu’utilisé 
+dans la partie précédente ) : d’un côté les omnivores (78 %), et de l’autre on regroupe 
+ceux qui ne mangent pas de viande rouge, ceux qui ne mangent p as de viande 
+blanche, ceux qui ne mangent pas de viande porcine, ceux qui ne ma ngent pas de 
+poisson, ceux qui ne mangent pas d’animaux morts (poissons ou viandes) et les 
+végétaliens (22 %) qui ne consomment aucun produit d’origine animale (ni œufs  ni 
+laits). On retrouve un lien modéré avec les variables mises en exergue dans l’analyse 
+de l’indice précédent :   
+ Seuls 12 % des hommes ont au moins un régime sans viande rouge, contre   
+31 % chez les femmes (lien le plus important de la liste). 
+ 35 % des jeunes ont au moins un régime sans viande rouge (versus 14 % des 
+36-49 ans et des plus de 65 ans).   
+ 26 % des enquêtés vivant à Grenoble ont au moins un régime sans v iande 
+rouge (versus 21 % en zone dense et 12 % en zone peu dense).  26%
+5%37%
+35%30%
+51%7% 9%
+0%10%20%30%40%50%60%70%80%90%100%
+Indice bas (G1 + G2 + G3) Indice haut (G4 + G5 + G6)Adhésion à la phrase "La viande permet de rester en bonne santé" et 
+consommation de produits d'origine animale
+Pas du tout d'accord Peu d'accord D'accord Tout à fait d'accord
+
+----- PAGE 58 -----
+
+58 
+  39 % de ceux qui gagnent moins de 1500 euros ont au moins un rég ime sans 
+viande rouge (versus 16 % de ceux qui gagnent plus de 3500 euros).   
+ 
+Les variables plus politiques, notamment d’adhésion aux différents concepts de  la 
+soutenabilité ressortent également de l’analyse. L’analyse de ce second i ndice 
+conforte aussi l’importance des représentations et croyances associées à la  
+consommation de viande (nécessaire pour la santé humaine des adultes e t des 
+enfants et pour le sport). 94 % des consommateurs de viande rouge sont d ’accord 
+avec le fait que m anger de la viande est un plaisir. L’indice est faiblement lié au temps 
+passé en cuisine (ceux qui passent entre 4h et 8h en cuisine par sema ine sont plus 
+nombreux à ne pas consommer de viandes rouges). L’indice n’est en revanche pas 
+lié aux variables suiv antes : à la catégorie socio-professionnelle,  au niveau de 
+diplôme, à l’échelle à laquelle l’action collective doit être gérée, au fa it d’avoir ou non 
+des enfants, au fait d’avoir un bon accès des commerces alimentaires, à  l’estimation 
+que font les person nes des gaz à effet de serre liés à l’alimentation, au fait de priv ilégier 
+la qualité sur la quantité de viande, au fait de se faire livrer des course s à domicile ou 
+encore au fait de se faire livrer de la nourriture préparée et au télétravail. 
+ 
+Le trois ième indice correspond à un « scoring » de la fréquentation des 
+commerces d’alimentation dite écoresponsable. Quatre types de fréquentation de 
+commerces sont regardés : 1) les magasins bios, 2) les producteurs en direct, 3) les 
+circuits courts, 4) les magasins en vrac.   
+ 
+Légende : 22 % des enquêtés fréquentent un des types de commerc es d’alimentation écoresponsable.   210
+16
+2249Indice de fréquentation de commerces d'alimentation éco -
+responsable (magasins bio, producteurs en direct, circuits 
+courts, magasins de vrac) -en %
+ 4 types de commerces 3 types de commerces
+2 types de commerces 1 type de commerces
+Aucune de ces types de commerces
+
+----- PAGE 59 -----
+
+59 
+ La moitié des répondants ne fréquente aucun commerce d’alimentation 
+« écoresponsable ». Les pratiques économiques en matière d’achat alimentaire sont 
+plus polarisées par des variables socioéconomiques classiques (par rapport à la 
+catégorie socio-professionnelle, au diplôme ou au revenu) que les pratiques de  
+consommation alimentaire. 46 % des « CSP moins » et 61 % des inacti fs ne 
+fréquen tent aucun de ces commerces d’alimentation écoresponsable, contre 34 % des  
+« CSP plus ».   
+On retrouve aussi une différence entre les hommes et les femmes : 54 % des 
+hommes ne fréquentent aucun de ces commerces versus 44 % des femmes.  
+ Légende : 35 % des habitants de Grenoble ne fréquent aucun commerc e d’alimentation écoresponsable.  
+ 
+La fréquentation de ce type de commerce est plus fréquente pour les 
+répondants habitant dans le centre grenoblois plutôt que pour les répondants en  zone 
+dense ou peu dense. Cette corrélation est prévisible du fait de la concentratio n de 
+l’offre en milieu urbain dense et en particulier à Grenoble.   
+On retrouve ici aussi le lien entre les représentations politiques et la 
+fréquentation de certains commerces. Ceux qui essaient de convaincre leur ent ourage 
+de changer leurs habitudes de consommation, qui ont déjà participé à une marche 
+pour le climat ou à une autre manifestation sont plus nombreux en propo rtion à 
+fréquenter ce type de commerces. Ceux qui adhèrent au scénario « Génération 
+frugale » et au scénario « Coopérations territoriales » de l’ADEME sont plus de la 
+moitié à fréquenter au moins un de ces types de commerces. A contrario , ceux qui 
+adhèrent aux scénarios « Technologies vertes » et « Pari réparateur » sont plu s de la 4%1% 1%13%
+9% 10%20%
+13%18%28%
+20%18%35%
+58%53%
+0%10%20%30%40%50%60%70%80%90%100%
+Grenoble Commune dense Commune peu denseStrate et Indice de fréquentation de commerces 
+d'alimentation éco -responsable (magasins bio, producteurs en 
+direct, circuits courts, magasins de vrac) 
+4 types de commerces 3 types de commerces 2 types de commerces 1 type de commerces Aucun
+
+----- PAGE 60 -----
+
+60 
+ moitié à ne pas fréquenter ce type de commerces. Moins la personne consomme de 
+produits d’origine animale, plus elle fréquente au moins un de ces types de  commerce. 
+53 % des enquêtés qui consomment de la viande rouge ne fréquen tent aucun de ces 
+commerces versus 33 % des enquêtés qui n’en consomment pas. Ceux qui disent 
+privilégier la viande produite en France fréquentent davantage ce type de commerce.  
+ 
+Cet indice n’est pas lié aux variables suivantes : la possession d’une voiture, à 
+la livraison des courses à domicile ou à la livraison de nourriture préparée. 
+ 
+ 
+ 
+Pour distinguer les différentes pratiques de mobilité, l’enquête portait sur deux 
+types de déplacements : les déplacements quotidiens, de courte ou moyen ne distance, 
+et les déplacements exceptionnels (qui correspondent aux loisirs ou aux va cances), 
+de longue distance. Cette appréhension des mobilités est assez frustre  par 
+comparaison à d’autres enquêtes existantes telles que l’enquête « mén age et 
+déplacement » mais permet d’aborder via un angle complémentaire (avec d ’autres 
+questions plus générales) ces pratiques.  
+ 
+ 
+ 
+Le premier indice, celui des mobilités quotidiennes n’est pas un indice 
+d’empreinte carbone mais renseigne sur l’intensi té des trajets quotidiens pouvant 
+générer des pollutions en synthétisant le mode de transport et la durée des tra jets 
+effectués quotidiennement. Cet indice donne une idée sur la sobriété de  tous les jours 
+et notamment l’usage fréquent des modes de transpor t polluants (en temps et en 
+fréquence). Sa construction repose sur un score attribué à chaque mode d e 
+transport (2 pour les véhicules individuels, 1 pour les transports en commun et 0 p our 
+le vélo et la marche), multiplié par le temps, en minutes, de temps passé da ns les 
+transports chaque jour34. Le fait d’attribuer un score de zéro aux cycles et à la marche 
+met volontairement à l’écart ce type de mobilité en considérant que leu r intensité ne 
+fait pas varier son empreinte ordinale.  
+Si l’on découpe l’échant illon en 5 classes (de poids différents), pour observer la 
+forme de répartition de ce dernier, on obtient le graphe ci-dessous. Les groupe s ont 
+les scores suivants (qui combinent un score attribué pour chaque mode de transports 
+avec le temps de trajets en minutes par jour) :  
+ La classe 1 a un score égal ou inférieur à 40, ce qui traduit une faible intensité 
+de la mobilité quotidienne ;  
+ La classe 2 a un score compris entre 41 et 80 autrement dit les perso nnes de 
+ce groupe ont des pratiques de mobilité quotidienne tendant vers la mo yenne des 
+habitants de la métropole ;  
+                                                           
+34 Là encore, la logique de scoring retenu repose sur des valeurs ordinales d e l’intensité environnementale plutôt 
+que sur des valeurs cardinales.
+
+----- PAGE 61 -----
+
+61 
+  La classe 3 a un score entre 81 et 120 ce qui correspond à des pr atiques de 
+mobilités un peu plus intensives que la moyenne des habitants de la métropole ;  
+ La classe 4 a un score compris entre 121 et 160. Ces personnes ont des  
+pratiques de mobilités assez intensives ;  
+ La classe 5 a un score supérieur à 160, ce qui traduit une haute inten sité dans 
+les pratiques de mobilité quotidienne.  
+ 
+Si on regarde les effectifs (axe des ordonnés du graphique), on remarque un e 
+distribution assez inégale, où la moitié des répondants ont un indice faible (le groupe 1 
+comprend 314 personnes), et où l’autre moitié se décompose en usag ers ave c une 
+intensité des mobilités quotidiennes moyenne (141 personnes dans le groupe  2 et 
+109 personnes dans le groupe 3), forte (34 personnes dans le group e 4) et très forte 
+(78 personnes dans le groupe 5). Plus de 1/10ème des usagers ont un indice 3 fois 
+supérieur à la moyenne. Ce sont des individus déclarant passer plus de 2-3 he ures 
+dans les transports par jour. 
+Comme pour l’alimentation, des groupes de population de poids équivalen ts 
+sont ensuite créés pour faciliter l’exploitation des résultats. Autrement dit, chaque 
+groupe représente 33 % environ de l’échantillon. Nos cinq classes comprenant de s 
+effectifs inégaux sont donc transformées en trois groupes comprenant de s effectifs 
+égaux.   
+Lorsqu’on croise cet indice avec d’autres variables, plusieur s résultats 
+émergent. Assez intuitivement, le lieu d’habitat est corrélé à cet indice de mobilité 
+quotidienne, ce qui témoigne de mobilités contraintes. Par exemple, la part des 
+communes peu denses est un peu plus importante chez ceux qui ont un indice for t, et 
+très faible chez ceux qui ont un indice faible.   
+ 
+Classe 1 Classe 2 Classe 3 Classe 4 Classe 5
+
+----- PAGE 62 -----
+
+62 
+  
+Le genre y est également corrélé, dans un sens « surprenant » au premier 
+abord. En effet, contrairement à ce qui est fréquemment constaté sur l’ ensemble des 
+pratiques environnementales, les hommes ont des indices légèrement plus faibles, soit 
+plus « vertueux » que les femmes. Si l’on désagrège l’indice, on constate  qu’elles ont 
+des temps de trajets plus longs en moyenne, et des modes de transp orts plus polluants 
+également. Ce résultat amène à poser l’hypothèse que ce sont davan tage les femmes 
+qui supportent la charge des transports quotidiens de la famille. 
+Par ailleurs, l’indice de la mobilité quotidienne est faiblement et inversement 
+associé au revenu : c’es t-à-dire que plus ce dernier est élevé, plus la mobilité peut être 
+source de pollutions. Les répondants qui gagnent moins de 1500€ par mois sont très 
+peu nombreux à avoir un indice très fort (<3 %). A l’opposé, le plus rich es, sont 10 % 
+dans cette catégori e d’indice maximal.    
+ 
+ 
+ 
+Le deuxième indice de mobilité porte sur les trajets longue distance, c’est -à-dire 
+de plus de 100 km. Sa construction repose sur un score attribué à cha que mode de 
+transport (4 pour l’avion, 3 pour la voiture, 2 pour le bus train et 1 pour le train), multiplié 
+par le nombre de trajets de ce genre réalisés par an.  
+ 31%42%36%30%33%28%
+0%10%20%30%40%50%60%70%80%90%100%
+Femme HommeIndice de mobilité quotidienne selon le genre
+81,00+
+1,00 - 80,00
+<= ,00
+Empreinte 
+environnementale
+
+----- PAGE 63 -----
+
+63 
+  
+Légende : 168 répondants ont un indice d’empreinte enviro nnementale des trajets de longue distance contenu en 
+15 et 30.   
+Cet indice discrimine encore plus les répondants. La moitié de l’échantillon 
+procède à des déplacements longue distance de manière peu intensive, qua nd l’autre 
+moitié a des pratiques d’intensité plus forte, avec un groupe qui a des pratiques 
+particulièrement intensives35. Ce groupe de « gros pollueurs » (61 personnes) se 
+retrouvent en queue de diagramme, où 1/10 des répondants ont un indice qui va de  2 
+fois à 10 fois la moyenne. 
+Lorsqu’on le croise à d’autres variables, on constate que l’indice de 
+déplacement longue distance est fortement associé au revenu. 80 % des  plus pauvres 
+ont un indice inférieur à 15, tandis qu’ils ne sont que 15 % à avoir ce  score chez les 
+plus riches. La corrélation est beaucoup plus forte que sur les trajets quotidien s. L’âge 
+ou la commune de résidence n’ont pas de relation marquée avec cet indice.  
+En revanche, on constate d’importantes inégalités relatives au genre. Les 
+hommes sont 1/3 moins nombreux à avoir un indice faible, et le double à a voir un 
+indice très important (supérieur à 90). Il est très intéressant de constater que  là où sur 
+les trajets quotidiens, les femmes ont un indice légèrement plus important, dans le cas  
+des trajets longue distance, c’est l’inverse.   
+ 
+ 
+ 
+Les pratiques domestiques ont trait aux pratiques quotidiennes faites par les 
+individus pour diminuer leur empreinte environnementale.  
+ 
+ 
+ 
+                                                           
+35 Dit d’une manière plus compliquée mais plus précis e, la moitié des répondants a un indice inférieur à 3 fois la 
+moyenne, tandis que les deux tiers de la moitié restante ont entre ½ et 2 fois la m oyenne.
+
+----- PAGE 64 -----
+
+64 
+ 
+ 
+ 
+Le premier indice de pratiques domestiques est relatif aux pratiques de 
+réduction des déchets. Il combine trois sous- indices : l’un relatif à la pratique du tri au 
+foyer, l’autre au recours à des pratiques de réduction des déchets ali mentaires, et le 
+dernier au recours à des pratiques de réduction des déchets d’équipement . Il consiste 
+simplement à compter le nombre de pratiques déclarées (voir question 11).  
+Si l’on croise l’indice obtenu par les répondants avec la strate (zone peu dense , 
+zone dense ou centre) dans laquelle ils résident, on constate une c orrélation entre la 
+densité de l’habitat et le recours à des p ratiques de gestion des déchets. Si les 
+communes peu denses ne montrent pas de variations significatives, on constate que 
+les communes denses, comparées au centre (Grenoble), sont très représent ées parmi 
+les scores hauts. Autrement dit, les pratiques de tri et de gestion des déchets  y sont 
+comparativement bien moins vertueuses qu’à Grenoble.    
+Aux niveaux des âges, l’indice décroit puis croit à mesure de l’avancement dan s 
+la vie, le minimum étant atteint pour la tranche des 36-49 ans. Ce sont les classes 
+d’âge de 18 -25 et les plus de 50 ans qui ont les scores les plus élevés, donc avec le 
+moins de pratiques vertueuses.   
+Par ailleurs les femmes sont bien plus nombreuses à avoir des indices faibles 
+(elles « gèrent » davantage les déchets domestiques) que le s hommes, corroborant 
+ainsi les résultats sur la division genrée du travail domestique, ainsi que sa prise  en 
+charge intellectualisée par les femmes.  
+Le revenu, et la catégorie socio-professionnelle, sont peu corrélés à cet ind ice. 
+A l’inverse, le niveau  de diplôme révèle que les plus diplômés ont des indices plus 
+faibles et seraient donc plus soucieux de réduire leurs déchets.  
+ 
+ 
+ 
+Un deuxième indice est relatif à l’attention portée à l’état de marche des 
+appareils multimédias (combinaison des réponses à la question 10), qui porte sur le 
+fait d’éteindre ses appareils plutôt que de les laisser en veille, et une qu estion qui porte 
+sur le fait de débrancher ses appareils plutôt que de les éteindre ou les laisse r en 
+veille. 
+Si l’on croise avec le type de commune, le genre, l’âge ou le revenu, on observe 
+plusieurs choses. Déjà, il existe des similarités avec les pratiques domestiques de 
+réduction des déchets en ce qui concerne le genre ou l’âge, puisqu e par exem ple les 
+femmes sont beaucoup plus nombreuses à avoir un indice faible (d onc à être 
+vertueuse sur ce plan). La structure en « pyramide inversée » est également retrouvé e 
+pour l’âge : ce sont les tranches d’âge les plus jeunes ou les plus vieilles qui ont les 
+indices les plus élevés, tandis que les 26-49 ans ont des indices faibles, et don c des 
+pratiques plus « vertes ».   
+Un troisième indice est enfin utilisé, celui de la fréquence du non-recours à des 
+lessives « à froid » pour laver les vêtements. Il semble  peu corrélé au genre, mais plutôt
+
+----- PAGE 65 -----
+
+65 
+ à l’âge, selon une relation cette fois -ci linéaire : plus on vieillit, plus on a un indice de 
+non-recours à des lessives à froid élevé (donc plus on utilise des hautes t empératures 
+pour laver son linge).   
+ 
+ 
+ 
+Les pratiques d’équipement sont une catégorie a priori ambigüe, puisq u’elles 
+peuvent renvoyer à des possessions matérielles plutôt que des actions individu elles. 
+Cependant, il faut relever que les biens possédés par les individus et les foyers sont  
+le produit d’un acte d’achat, ou d’une autre forme d’échange, qui peu t être assimilé à 
+une « pratique ». Aussi, certaines pratiques renvoient au « soin » qui est po rté à 
+certains équipements, comme les smartphones, et qui permettent l’entretien de  ces 
+biens et par conséquent la réduction, à possession égale, de l’empreinte 
+environnementale de ces derniers.  
+Quatre indices sont utilisés : trois sont directement relatifs à des « taux 
+d’équipements », même s’ils prennent en compte les modalités d’ach ats des produits. 
+Le quatrième est un indice de (non) recours à la réparation de smartphone.   
+ 
+ 
+Les deux premiers indices sont des indices d’équipement en appareils 
+multimédias (ordinateurs, smartphones, tablettes, téléviseurs) et en vêtements (to us 
+vêtements confondus). Leur construction repose sur des principes similaires : on 
+croise (multiplie) le score du mode d’acquisition de produit, en estimant que l’ach at en 
+ligne est moins durable que l’achat  en magasin, lesquels étant eux-mêmes moins 
+durables que l’achat d’occasion, et la durée de possession de ce dernier. Plus la durée 
+de possession est courte, plus l’empreinte environnementale est forte. C e mode de 
+calcul défavorise mécaniquement la tranche des répondants les plus jeunes, qu i ont 
+plus nécessairement acquis récemment leurs équipements36.   
+ 
+Leurs répartitions respectives donnent les graphes suivants :    
+Légende : plus la valeur de l’indice est importante, plus les pratiques d’équipements électriques et électroniques 
+sont peu vertueuses environnementalement.  
+                                                           
+36 Cette effet « première installation » est observé dans nos croisemen ts.  020406080
+02468101214161820222426283032343638404244464850Effectifs 
+Score de non sobriété Indice de non sobriété d’équipement en équipements électri ques et 
+électroniques (Effectifs, PratEco 2020)
+
+----- PAGE 66 -----
+
+66 
+  
+ 
+Légende : plus la valeur de l’indice est importante, plus l es pratiques de consommation textile sont peu vertueuses 
+environnementalement.  
+ 
+Il existe, pour le premier indice d’équipements électroniques, une corrélation 
+claire avec la densité urbaine de la commune d’habitat des répondants. Autreme nt dit, 
+l’indice est plus faible chez les Grenoblois, légèrement plus important chez les 
+habitants de communes denses et encore plus important chez les habitants d e 
+communes peu denses. Après vérification, la variable de la surface du loge ment 
+n’explique pas cette corrélation. L’indice n’est pas non plus corrélé au x variables de 
+diplôme ou de catégorie socio- professionnelle. Il n’est pa s aussi étonnamment lié au 
+revenu du foyer. Par contre, on voit que les femmes sont un peu plus so bres en matière 
+d’équipements électroniques et électriques que les hommes.  
+ 
+Pour l’indice d’équipement textile, les Grenoblois et les répondants des 
+communes denses ont à nouveau des indices plus environnementaux q ue les 
+répondants de communes peu denses. Ensuite, il y a une corrélation f orte avec l’âge : 
+plus on est jeune, plus on consomme de textile et de manière peu sob re. On note 
+également une légère différence entre les hommes et les femmes, puisque ces 
+dernières ont un indice légèrement plus haut. Enfin, étonnamment, à l’inve rse de 
+l’indice d’équipement électronique, la sobriété de la consommation textile croît ave c le 
+revenu du ménage. 
+ 
+ 
+ 
+Cet indice pourrait également appartenir à la catégorie des indices de mobilité. 
+Sa construction est également fondée sur l’attribution d’un score à des cat égories de 
+biens (4 pour les voitures et les deux-roues à moteur thermique, 3 pour les voitures o u 
+deux-roues à moteurs électriques, 2 pour les vélos et trottinettes électriques, 1 pour 
+les vélos et autres équipements mécaniques). Ici, contrairement aux pratiques de 
+mobilité quotidienne, c’est -à-dire relative à un usage, le score attribué au x vélos n’est 01020304050
+024681012141618202224262830323436384042444648Effectifs
+Score de non sobriétéIndice de non -sobriété de la consommation textile
+
+----- PAGE 67 -----
+
+67 
+ pas de zéro, pour prendre en compte l’empreinte environnementale de sa fabrication. 
+Ensuite, on additionne le score de l’ensemble des biens déclarés.     
+ 
+Légende : plus la valeur de l’indice est importante, plus les pratiques en termes d’éq uipement automobile sont peu 
+vertueuses environnementalement.  
+ 
+A partir de la répartition des scores, présentée ci-dessus, on peut observer que 
+c’est que la voiture, qui a un score de 4, qui fait réaliser un « saut » dans l’ indice de 
+non-sobriété de l’équipement automobile.   
+Si on le croise avec d’autres variables, on trouve qu’il est très fortement corr élé 
+à des facteurs économiques, comme le revenu ou la profession. Etant don né le prix 
+des équipements de cette catégorie, notamment automobiles, il n ’est pas étonnant que 
+le pouvoir d’achat puisse jouer un rôle sur l’indice. Aussi, il est corrélé avec l e lieu 
+d’habitat : les habitants des communes peu denses sont beaucoup plus éq uipés que 
+les habitants des communes denses et de Grenoble.  
+ 
+ 
+ 
+Ce dernier indice est un indice simple, en ce qu’il consiste à relever si les 
+répondants ont déclaré une réparation de leur smartphone récemment. On obse rve 
+des différences principalement sur les caractéristiques individuelles (âge et genre), où  
+les franges les plus jeunes et les hommes ont recours de manière plus importan te à la 
+réparation. Curieusement, les plus de 65 ans ont également recours à la réparation d e 
+smartphones. 
+ 
+ 
+ 
+Après avoir créé les indices de pratiques, et croisé les scores obtenus avec 
+différentes variables sociodémographiques, nous avons regroupé chaque indice d’un 
+même groupe, pour ensuite les croiser entre eux ainsi qu’avec des indices de 020406080100120
+01234567891011121314151617181920212223242526272829303132Effectifs
+Score Indice de non sobriété de l’équipement automobile
+
+----- PAGE 68 -----
+
+68 
+ représentation et de pratiques sociales, pour observer si des corrélations 
+statistiquement significatives se dégageaient et pouvaient amener à é tablir un lien 
+probant entre des indices. Le regroupement des indices au sein d’une même caté gorie 
+s’est fait en prenant la moyenne standardisée (centrée  et réduite) entre les valeurs 
+prises pour chaque indice. On parle d’indices synthétiques.   
+Cependant, pour la mobilité, l’équipement et l’alimentation, nous avons ten us à 
+conserver des « variantes » des indices. Ainsi, l’alimentation est représentée  par trois 
+indices synthétiques, qui comportent chacun deux composantes, dont une q ui est 
+commune au trois, à savoir l’indice de fréquence de consommation auprès d e 
+commerces « éco -responsables ». La composante qui varie est, dans le premier cas, 
+l’indice de co nsommation de protéines animales tel que présenté au début du 2.2.1 , 
+dans le deuxième cas, l’indice « restrictif » de régime. La mobilité est représentée par  
+un indice synthétique dit « restreint » et un indice synthétique « étendu »,  qui se 
+différencient par le fait que le second inclut le taux d’équipement en véhicules. De 
+manière symétrique, les indices synthétiques d’équipements se différencient par le fait 
+que l’indice « hors véhicule » n’inclut pas la possession de véhicule.   
+ 
+Les indices de représentation et de pratiques sociales sont au nombre de 8 :   
+ Indice d’activisme politique : est -ce que les répondants participent à des 
+marches pour le climat ou à d’autres manifestations ?   
+ Indice d’adhésion de principe à l’écologie : dans quelle mesur e les répondants 
+adhèrent aux concepts environnementaux (sobriété, frugalité, développemen t 
+durable…) ?   
+ Indice d’inquiétude environnementale : dans quelle mesure les répondants 
+jugent les différentes industries polluantes ?   
+ Indice de « nymbisme » : à que l point les habitants seraient prêts à accepter (ou 
+à refuser) l’installation d’énergies renouvelables (photovoltaïque, méthaniseur) 
+dans leur voisinage ?   
+ Indice de capacité culinaire : combien de temps les répondants disent passer à 
+cuisiner chaque semaine ?   
+ Indice d’accès à des services : dans quelle mesure les répondants peuvent 
+accéder à des services de base, et avec quelle satisfaction ?   
+ Indice de confort thermique : quel est le confort exprimé, à leur domicile, par les 
+répondants, en termes de température ?   
+ Indice de socialisation : dans quelle mesure les répondants échangent avec 
+leurs proches sur les problèmes environnementaux ?   
+ 
+Le croisement de l’ensemble des indices, et la réalisation du test de Fische r sur 
+ces croisements, permet d’est imer leur degré de corrélation. Lorsque cet indice était 
+inférieur à - 0.1, ou supérieur à 0,1, on a estimé qu’il était non négligeable e t méritait 
+d’être commenté. De manière générale, il importe de regarder le sens de l’association , 
+en rappelant que les indices de pratiques écologiques décroissent avec leur ve rtu, et 
+les indices en colonnes croissent avec leur intensité.
+
+----- PAGE 69 -----
+
+69 
+ Entre crochet est indiquée l’intervalle de confiance à 98 %, qui peut indique r le 
+degré de prudence à accorder à l’association entre de ux indices. 
+  
+Coefficient de 
+Fischer (98 %) 
+entre indices   
+Indice d'activisme général  
+ 
+Indice d'adhésion  
+ 
+Indice connaissance GES  
+ 
+Indice de nymbisme  
+ 
+Indice de capacité culinaire  
+ 
+Indice d'accès aux services  
+ 
+Indice de confort thermique  
+ 
+Indice de socialisation  
+ 
+Indice de 
+mobilité 
+restreint  -0,07 [-
+0,159 / 
+0,019]  -0,048 [-
+0,137 / 
+0,042]  -0,067 [-
+0,156 / 
+0,022]  -0,049 [-
+0,138 / 
+0,041]  0,025 [-
+0,065 / 
+0,114]  0,078 [-
+0,012 / 
+0,166]  0,093 
+[0,004 / 
+0,181]  0,027 [-
+0,063 / 
+0,116]  
+Indice de 
+mobilité 
+étendu  -0,151 [ -
+0,238 / -
+0,063]   -0,057 [-
+0,146 / 
+0,033]  -0,07 [-
+0,158 / 
+0,02]  -0,073 [-
+0,162 / 
+0,016]  0,042 [-
+0,048 / 
+0,131]  0,133 
+[0,044 / 
+0,22]   0,197 
+[0,11 / 
+0,282]   0,083 [-
+0,007 / 
+0,171]  
+Indice 
+d'alimentation 
+V1  -0,33 [ -
+0,407 / -
+0,247]   -0,262 [ -
+0,344 / -
+0,177]   -0,026 [-
+0,115 / 
+0,064]  -0,068 [-
+0,157 / 
+0,022]  -0,311 [ -
+0,39 / -
+0,228]   0,095 
+[0,005 / 
+0,183]  0,092 
+[0,003 / 
+0,18]  -0,269 [ -
+0,35 / -
+0,184]   
+Indice 
+d'alimentation 
+V2  -0,307 [ -
+0,386 / -
+0,224]   -0,216 [ -
+0,3 / -
+0,129]   -0,001 [-
+0,09 / 
+0,089]  -0,062 [-
+0,151 / 
+0,028]  -0,272 [ -
+0,353 / -
+0,187]   0,097 
+[0,008 / 
+0,185]  0,105 
+[0,015 / 
+0,192]   -0,195 [ -
+0,28 / -
+0,108]   
+Indice de 
+pratiques 
+domestiques  -0,226 [ -
+0,309 / -
+0,139]   -0,252 [ -
+0,334 / -
+0,166]   0,081 [-
+0,008 / 
+0,17]  -0,153 [ -
+0,24 / -
+0,065]   -0,219 [ -
+0,303 / -
+0,133]   0,099 
+[0,009 / 
+0,186]  0,165 
+[0,077 / 
+0,251]   -0,177 [ -
+0,263 / -
+0,089]   
+Indice 
+d'équipement   -0,214 [ -
+0,298 / -
+0,127]   -0,088 [-
+0,176 / 
+0,001]  -0,166 [ -
+0,252 / -
+0,077]   -0,199 [ -
+0,283 / -
+0,112]   0,019 [-
+0,071 / 
+0,108]  0,103 
+[0,013 / 
+0,191]   0,174 
+[0,086 / 
+0,26]   -0,018 [-
+0,107 / 
+0,072]  
+Indice 
+d'équipement 
+hors véhicule  -0,144 [ -
+0,231 / -
+0,055]   -0,085 [-
+0,174 / 
+0,004]  -0,175 [ -
+0,26 / -
+0,086]   -0,2 [ -
+0,285 / -
+0,113]   0,002 [-
+0,091 / 
+0,088]  0,042 [-
+0,047 / 
+0,131]  0,069 [-
+0,021 / 
+0,157]  -0,089 [-
+0,177 / 
+0,001]  
+Légende : L’indice synthétique d’alimentation V2 est négati vement corrélé, avec un coefficient de Fischer de -0,307 
+(situé entre -0,386 et - 0,224), avec l’indice d’activisme .  
+   
+En colonne, on observe plusieurs choses. On remarque que l’indice d’activisme 
+politique et environnemental est corrélé à tous les indices de pratiques 
+environnementales, de manière moyenne voire soutenue sauf pour la mobilité 
+restreinte. Ainsi, la politisation des questions socio-environnementales semblen t un 
+levier important pour un changement de pratiques. L’indice d’adhésion à des notions 
+et récits environnementaux est corrélé aux indices d’alimentation et de pratiques 
+domestique, mais peu aux indices d’équ ipement ou de mobilité.  On peut supposer ici 
+que les contraintes institutionnelles37 favorisent plus l’alignement sur des pratiques 
+« vertueuses » sur le champ des pratiques domestiques et alimentaires. Il s’avère plus  
+difficile étant donné les cadres institutionnels existants de renoncer à certains 
+équipements ou à une mobilité carbonée. L’indice de reconnaissance du pouvoir 
+                                                           
+37 Les contraintes institutio nnelles font référence à l’organisation de la vie économique et sociale. Les institutions 
+régissent les fonctionnements individuels sans qu’une pers onne ne puisse changer par elle -même ce cadre. 
+Autrement dit, le fonctionnement actuel des organisations va par être contraindre les personnes à se déplacer 
+en voiture pour se rendre à leur travail si aucune autre alternative n ’existe (sur le plan de la mobilité, du 
+télétravail, etc. A contrario, les opportunités institutionnelles vont permettre d’aid er les pers onnes à adopter 
+certains comportements. Cela est par exemple le cas lorsqu’un menu  végétarien ou végétalien est proposé dans 
+la restauration collective.
+
+----- PAGE 70 -----
+
+70 
+ d’émissions de GES des industries (indice connaissance GES) est très peu corrélé 
+aux autres indices, sauf les indices d’équipement.  Cette information corrobore l’idée 
+qu’il ne suffit pas d’avoir connaissance des probl ématiques environnementales pour 
+changer ses habitudes, quand bien même cette connaissance des désordres 
+environnementaux peut constituer un prérequis38. L’indice de nymbisme est 
+moyennement corrélé aux pratiques domestiques et d’équipement. Ce lie n statist ique 
+est plus difficile à interpréter et pourrait traduire la volonté de préserver un ce rtain 
+confort de vie. L’indice d’accès aux services est moyennement voire peu corr élé à tous 
+les indices de pratiques, de manière relativement homogène.  Ce résultat est lié à des 
+problématiques de ségrégation spatiale, qui dans ce cas ne renforcent pas l‘em preinte 
+environnementale, puisque ce sont bien les individus qui souffrent le moins d e 
+problématiques d‘accès à des services qui sont également les plus polluants. L’indice 
+de capacité culinaire est fortement associé aux variables d’alimentation, ainsi qu ’aux 
+variables domestiques. Cette association, qui semble logique, montre que la capacité 
+des individus à consacrer du temps à la préparation du repas peut être un moye n, ou 
+du moins un signe, de leur investissement personnel sur le plan alimentaire et plus  
+généralement domestique pour des pratiques plus écologiques. L’indice de con fort 
+thermique est moyenne corrélé à de nombreux indices, indiquant que les ind ividus qui 
+bénéficient des meilleures conditions de vie à la maison du point de vu e thermique 
+sont également ceux qui ont le moins de pratiques écologiques.  L’indice de 
+socialisation environnementale est lui sensiblement corrélé avec les indices 
+d’alimentation, quelle que soit leur forme, ainsi qu‘avec les pratiques domestique s. On 
+constate en revanche que la socialisation et la diffusion de changement de  pratiques 
+ne sont pas forcément associées avec des pratiques moins liées au référentiel des 
+gestes éco-citoyens, c omme les pratiques de mobilité ou d‘équipement.   
+  
+Si l’on regarde les lignes, on constate que les indices de mobilités sont 
+finalement peu activés par nos indices de variables indépendantes, sauf 
+éventuellement l’indice étendu qui se trouve corrélé avec  l’activisme politique, 
+l’accessibilité aux services et le confort thermique. L’indice d’alimentation « qualitati f » 
+(V1) qui prend en compte avec précision les modes d’alimentation des habitan ts 
+interagit fortement avec les indices de représentation et de socialisation, et de man ière 
+intuitive avec les capacités culinaires des individus. Du côté des indices 
+d’équipements, ils interagissent avec les indices de représentation, d’accès aux 
+services et de confort thermique, mais très peu, voire quasiment pas, avec la ca pacité 
+culinaire et la socialisation. L’indice de pratiques domestiques entretien de 
+nombreuses corrélations moyennes ou faibles, ce qui semble indiquer que l’écolog ie 
+« à la maison » est assez bien corrélée à nos variables indépendantes.   
+ 
+                                                           
+38 Un test possible de ce rôle “nécessaire mais non suffisant“ de la connaissance environnementale serai t de 
+vérifier comment varient les associations des autres indices en contrôl ant par l’indice de connaissance. C’est ce 
+que peuvent réaliser des tests statistiques ”toutes choses égales par ailleurs”, de type régressions linéaires et 
+logistiques, qui ne son t pas l’objet de ce rapport.
+
+----- PAGE 71 -----
+
+71 
+ 
+ 
+Les pratiques environnementales (ou écologiques) des habitants de la 
+Métropole grenobloise suivent des modalités plurielles. Le regroupement de ces 
+pratiques en thématiques, s’il peut faire l’objet de discussion (comme le montrent les 
+exemples de s indices synthétiques de mobilité et d’équipement), permet de les traiter 
+différemment et d’essayer de comprendre les logiques qui peuvent jo uer sur une 
+thématique en particulier. Globalement, il est apparu que les pratiques 
+environnementales sont des pratiques socialement situées. En effet, de nom breux 
+indices de pratiques varient substantiellement en fonction de l’âge, du genre, de la 
+catégorie socio-professionnelle ou du revenu. On a relevé que ces fac teurs 
+n’agissaient pas de manière homogène. Le genre  féminin est par exemple fortement 
+lié aux pratiques écologiques domestiques, telles que la gestion des déche ts ou la 
+réduction de la consommation énergétique des appareils. Il l’est également lorsqu’il 
+s’agit de pratiques de vie quotidiennes, par exemple dans la mobilité ou l’alimentation. 
+Pour autant, les effets structurels des inégalités de genre peuvent également jou er un 
+rôle qui accentue les pratiques non environnementales chez les femmes : en ce qui 
+concerne la consommation textile, ou encore le recours à la réparation des objet s 
+électroniques.  
+Le croisement des indices avec l’âge semble montrer une partition claire en tre 
+les catégories « au milieu », qui sont les plus fortement intégrées à la société (par le  
+travail, la vie sociale et familiale) et les catégories d’entrée dans la vie active ou de fin 
+de vie. Les plus jeunes et les plus âgés attestent fréquemment du même type  de 
+pratique. Par exemple, ils adoptent moins des pratiques écologiques largement 
+reconnues (tri des déchets, ou achats aliment aires « écoresponsables ») que leurs 
+homologues entre 26 et 49 ans. A l’inverse, ils sont plus « sobres » en matière  
+d’équipement automobile. L’âge peut également jouer un rôle plus linéair e, sur les 
+pratiques de consommation matérielles par exemple : plus  on avance dans l’âge, 
+moins on consomme de textiles ou d’équipements électroniques, ou du moins d e 
+manière plus durable.  
+La catégorie socio- professionnelle et le revenu, c’est -à-dire des facteurs 
+statutaires, sont moins associés à nos indices de pratiqu es que ce qu’on peut anticiper. 
+Si, sur certains indices, l’effet des ressources économiques semble clairement marqué  
+(par exemple en termes d’équipement automobile, qui croît fortement avec les  
+revenus), cet effet est parfois inverse, et l’on retrouve alors les pistes d’expli cation par 
+l’éco-habitus ou les opportunités offertes par les ressources monétaires. En croisant 
+avec les données sur le niveau de diplôme ou la catégorie socio-profession nelle, on 
+peut abonder dans le sens de l’existence de telles pra tiques écologiquement 
+« distinctives » qui seraient principalement adoptées par les individus dotés en  
+ressources économiques, sociales et culturelles. C’est le cas notamment des pratiques 
+fortement reconnues (tri des déchets, achats alimentaires). Cela l’ est moins pour 
+d’autres pratiques environnementales moins reconnues et marquées écolog iquement. 
+Le cas de l’alimentation est à ce titre révélateur : les variables socio -professionnelles 
+et de diplôme sont positivement associées à l’adoption de régimes restrictifs (c’est -à-
+
+----- PAGE 72 -----
+
+72 
+ dire supprimer la viande, le poisson ou les produits animaux de son alimen tation), mais 
+négativement associées avec l’indice d’alimentation général. En somme, il y a 
+effectivement plus d’individus au sein des classes « aisées » qui adopten t des 
+comportements écoresponsables (comme un régime restrictif), ce qui peut donner 
+l’impression que la durabilité des pratiques est exclusive à ces classes, et pourtant, si 
+l’on regarde la consommation « réelle » des individus, les classes moins aisées o nt, 
+en moyenne des empreintes moindres par choix ou par contrainte (comme l’indice de 
+consommation animale).  
+ 
+De manière marquante, on a observé que le lieu de résidence était très 
+fréquemment associé à une variation des (indices de) pratiques. Cette observatio n 
+corrobore notre hypothèse selon laquelle les individus sont aussi déterminés  par leur 
+environnement immédiat et les contraintes et opportunités qu’il fait peser sur, ou off re 
+à, leur vie quotidienne. Ce constat est renforcé par la confrontation des résultats 
+obtenus via l’enquête « Pratiques Ecologiques » et les statistiques nationales issues 
+de différentes enquêtes. Le territoire de la Métropole grenobloise est suff isamment 
+spécifique pour induire des différences, non substantielles mais significa tives, entre 
+les pratiques et représentations de ses habitants et celle de la moyenne  des Français.  
+ 
+Enfin, le croisement des indices synthétiques de pratiques avec des indices de 
+représentation ou de pratiques sociales montre qu’il semble y avoir des liens entre le 
+fait d’adhérer à une certaine « écologie politique » et au fait d’avoir des conditi ons de 
+vie satisfaisante. La connaissance des enjeux ne semble pas avoir d’effets 
+particulièrement marqués, ce qui peut laisser penser que la sensibilisation info rmative 
+des habitants pour viser l’adoption de pratiques environnementales peut  atteindre ses 
+limites. Elle doit alors reposer sur d’autres vecteurs - allant au- delà de l’information sur 
+les grands ordres de grandeurs environnementaux  - tels que l’info rmation et la 
+promotion de la santé, la montée en compétences sur de nouvelles pratiques o u 
+encore la politisation et la mise en socialisation des enjeux de transition, etc (liste non 
+exhaustive). 
+  
+L’enquête « Pratiques Ecologiques » a ainsi permis de réaliser une 
+photographie d’ensemble des pratiques environnementales et des représentatio ns des 
+habitants de la Métropole Grenobloise. Sa reconduction en 2024 permet tra d’étudier 
+les évolutions éventuelles de ces dernières.
+
+----- PAGE 73 -----
+
+73
