@@ -1322,7 +1322,7 @@ const BENCHMARK_DATA = {
         "16": "PARTIEL",
         "17": "OUI",
         "18": "PARTIEL",
-        "19": "NON",
+        "19": "PARTIEL",
         "20": "PARTIEL",
         "21": "PARTIEL",
         "22": "PARTIEL",
@@ -1341,7 +1341,7 @@ const BENCHMARK_DATA = {
         "35": "OUI",
         "36": "PARTIEL"
       },
-      "score": 22
+      "score": 22.5
     },
     {
       "name": "CLERMONT SCHOOL OF BUSINESS",
@@ -3129,7 +3129,7 @@ const BENCHMARK_DATA = {
         "16": "PARTIEL, TSM-R (UMR CNRS 5303) implique les chercheurs en RSE mais pas de formation DD formalisée pour les enseignants existants.\n\n• TSM-R : centre de recherche UMR CNRS 5303\n• Thèmes : comptabilité environnementale, anticorruption, finance durable, RSE, discrimination\n• Pas de programme de formation DD pour les enseignants existants\nSource : tsm-education.fr/recherche\n\nApprenants :\n• Non applicable\n\nCollaborateurs :\n• Recherche RSE mais pas formation formalisée\nSource : tsm-education.fr",
         "17": "OUI, Chaire TREND(S) (retail durable, Isabelle Collin-Lachaud, 30 chercheurs, 15 institutions, 4 pays) + TSM-R (UMR CNRS 5303).\n\n• Chaire TREND(S) : Transformation of Retailing Ecosystem(s) & New Market Dynamics (for Sustainability)\n• Fondatrice : Isabelle Collin-Lachaud, ~30 chercheurs, 15+ institutions, 4 pays\n• Publications dans Journal of Retailing sur les business models durables\n• TSM-R (UMR CNRS 5303) : comptabilité environnementale, finance durable, RSE\nSource : tsm-education.fr/researchers/isabelle-collin-lachaud ; tsm-education.fr/recherche\n\nApprenants :\n• Recherches alimentent le Master RSE\nSource : tsm-education.fr\n\nCollaborateurs :\n• 30 chercheurs dans la chaire TREND(S)\nSource : tsm-education.fr",
         "18": "PARTIEL, Communauté d’établissements de Toulouse engagée (-30% GES d’ici 2027) mais pas de BC propre à TSM.\n\n• Communauté universités Toulouse : -30% GES d’ici 2027 (2x la trajectoire MESRI)\n• SD TES (Schéma Directeur Transition Écologique et Sociétale) voté juillet 2024\n• Pas de BC propre à TSM\nSource : univ-toulouse.fr/communaute-climat\n\nApprenants :\n• Via communauté\nSource : univ-toulouse.fr\n\nCollaborateurs :\n• Via communauté\nSource : univ-toulouse.fr",
-        "19": "NON, Pas de scope 3 propre à TSM.\n\n• BC au niveau communauté d’établissements, pas à l’échelle TSM\nSource : tsm-education.fr (absence constatée)\n\nApprenants :\n• Non documenté\n\nCollaborateurs :\n• Non documenté",
+        "19": "PARTIEL, Le bilan carbone de la communaute d'etablissements Universite de Toulouse couvre le perimetre de TSM, scope 3 inclus, mais sans ventilation propre a l'ecole.\n\n\u2022 TSM est une composante de l'Universite Toulouse Capitole : ses emissions (deplacements domicile-etudes et domicile-travail, achats, numerique, immobilisations) sont comptabilisees dans le BEGES de l'etablissement de rattachement, non dans un bilan autonome.\n\u2022 Le seuil NON exige que le scope 3 soit « non inclus ». Ce n'est pas le cas : il est inclus au niveau de la communaute d'etablissements, mais non detaille a l'echelle de TSM.\n\u2022 Le seuil PARTIEL correspond litteralement a la situation constatee : « scope 3 partiellement couvert ou non detaille ».\n\u2022 [Revision equite] Meme structure juridique et meme traitement documentaire que iaelyon (composante de l'Universite Jean Moulin Lyon 3, BEGES Lyon 3, notee PARTIEL) et que IAE Aix-Marseille (composante d'Aix-Marseille Universite, BEGES AMU ~72 000 tCO2e, notee PARTIEL). Trois IAE dans une situation identique ne peuvent pas recevoir deux verdicts differents.\n\u2022 Reserve maintenue : aucune donnee d'emission propre a TSM n'est publiee, ce qui interdit le OUI (« scope 3 detaille avec principaux postes identifies »).\nSource : tsm-education.fr ; BEGES Universite de Toulouse (bilans-ges.ademe.fr)\n\nApprenants :\n\u2022 Deplacements domicile-etudes comptabilises au niveau de l'etablissement de rattachement.\n\nCollaborateurs :\n\u2022 Deplacements professionnels et domicile-travail comptabilises au meme niveau.",
         "20": "PARTIEL, Communauté Toulouse vise -30% GES d’ici 2027 mais pas d’objectif propre à TSM.\n\n• -30% GES communauté d’ici 2027\n• Pas d’objectif chiffré propre à TSM\nSource : univ-toulouse.fr/communaute-climat\n\nApprenants :\n• Non détaillé\n\nCollaborateurs :\n• Non détaillé",
         "21": "PARTIEL, Actions déployées (sobriété énergétique, mobilité, sensibilisation) mais pas de plan de transition formalisé propre à TSM.\n\n• Audit énergétique, rénovations, transports durables\n• SD TES Toulouse (2024) couvre le périmètre communauté\n• Pas de plan propre TSM\nSource : tsm-education.fr/dd-rs\n\nApprenants :\n• Non détaillé\n\nCollaborateurs :\n• Non détaillé",
         "22": "PARTIEL, Fresque du Numérique déployée + Digital Clean Up Day mais pas de politique NR formalisée.\n\n• Fresque du Numérique (atelier pour comprendre l’impact environnemental du numérique) organisée\n• Digital Clean Up Day participé\n• Pas de charte NR signée\nSource : tsm-education.fr/dd-rs\n\nApprenants :\n• Fresque du Numérique accessible\nSource : tsm-education.fr\n\nCollaborateurs :\n• Non documenté",
